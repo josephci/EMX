@@ -1,6 +1,171 @@
 {
   "username": "elonmusk",
-  "last_updated": null,
-  "total": 0,
-  "by_date": {}
+  "last_updated": "2026-05-27T16:14:19.946Z",
+  "total": 20,
+  "by_date": {
+    "2026-05-27": [
+      {
+        "id": "2059590776875888974",
+        "text": "RT @TJ_Harker: Below is a common error. \n\nHere are the facts: Dr. Andrew Baker, the Chief Medical Examiner for Hennepin County (who was the…",
+        "created_at": "Wed May 27 11:01:21 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059589670787563705",
+        "text": "RT @Will_Tanner_1: Meanwhile, officer To Thao spent nearly half a decade in prison for simply being nearby as George Floyd overdosed on fen…",
+        "created_at": "Wed May 27 10:56:57 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059578933927137355",
+        "text": "RT @XFreeze: Elon Musk on why humanity must become multiplanetary:\n\n“I think it's important for the long-term preservation and ultimately t…",
+        "created_at": "Wed May 27 10:14:17 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059578828633346479",
+        "text": "RT @cb_doge: \"Elon Musk still works incredibly hard. I visited him recently, I left around midnight and he was still working. I think he mu…",
+        "created_at": "Wed May 27 10:13:52 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059576661562257627",
+        "text": "Prices are critical information without an economy cannot function",
+        "created_at": "Wed May 27 10:05:15 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059576222448030170",
+        "text": "RT @XFreeze: Elon Musk’s goal for The Boring Company is to solve one of the most miserable daily experiences on Earth: traffic\n\nCities are…",
+        "created_at": "Wed May 27 10:03:31 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059574258981036175",
+        "text": "Wise words",
+        "created_at": "Wed May 27 09:55:43 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059573467792748842",
+        "text": "Thank Heaven for the First Amendment in America!",
+        "created_at": "Wed May 27 09:52:34 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059483977879376292",
+        "text": "RT @skcd42: Bug fixes shipping to Grok Build 0.2.3 (release notes will be available in the TUI)\n\n- add “Yes, and don't ask again for anythi…",
+        "created_at": "Wed May 27 03:56:58 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059473112006320238",
+        "text": "RT @UnderSecPD: Policymakers worried about the rise of the so-called “far right” should avoid criminalizing accurate, data-driven  politica…",
+        "created_at": "Wed May 27 03:13:47 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059472491115123177",
+        "text": "Wow",
+        "created_at": "Wed May 27 03:11:19 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059424348440846745",
+        "text": "RT @xai: Thank you so much for all the feedback on the Grok Build Beta.\n\nSome of you reported hitting limits quickly. Our team found areas…",
+        "created_at": "Wed May 27 00:00:01 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      }
+    ],
+    "2026-05-26": [
+      {
+        "id": "2059363470488092778",
+        "text": "Inspiring!",
+        "created_at": "Tue May 26 19:58:07 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059362297597010222",
+        "text": "Grok",
+        "created_at": "Tue May 26 19:53:27 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059345041806553416",
+        "text": "Time to build major base on the Moon!",
+        "created_at": "Tue May 26 18:44:53 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059344890476052536",
+        "text": "RT @SawyerMerritt: NASA has just launched a new website for its Moon Base missions, which aims to build a permanent $20 billion U.S. base o…",
+        "created_at": "Tue May 26 18:44:17 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059332257773502580",
+        "text": "Correction issued by Department of War",
+        "created_at": "Tue May 26 17:54:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059326552802762766",
+        "text": "RT @breccastoll: NOW: Mamdani says his admin will transfer ownership from bad landlords to non-profits. \n\n“For buildings that have suffered…",
+        "created_at": "Tue May 26 17:31:25 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059323433847078964",
+        "text": "RT @EndWokeness: IT BEGINS…\n\nNYC Mayor Zohran Mamdani unveils plan to \"transfer ownership\" from landlords to \"the community\" https://t.co/u…",
+        "created_at": "Tue May 26 17:19:01 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059315708522045481",
+        "text": "RT @XFreeze: Grok Imagine image and video generation are truly incredible\n\nThe realism is insanely good to the point where it starts blurri…",
+        "created_at": "Tue May 26 16:48:19 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      }
+    ]
+  }
 }
