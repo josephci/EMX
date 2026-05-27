@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-05-27T20:55:24.931Z",
-  "total": 24,
+  "last_updated": "2026-05-27T23:48:56.856Z",
+  "total": 27,
   "by_date": {
     "2026-05-27": [
       {
@@ -128,6 +128,30 @@
         "id": "2059716297253101938",
         "text": "RT @akokoi1: Been using Grok Build these past few days, and the thing that really got me hooked is Imagine and Imagine Video.\n\nI built a fu…",
         "created_at": "Wed May 27 19:20:07 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059762422098067835",
+        "text": "RT @XFreeze: I just found something interesting hidden on the SpaceX website\n\nGo to:\nhttps://t.co/9S7htc2TXp → Human Spaceflight → Space St…",
+        "created_at": "Wed May 27 22:23:24 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059762373238697993",
+        "text": "RT @theskory: We spent a ton of time making worktrees actually work well for agent swarms and large repos.\n\nWhen you’re running 10s of agen…",
+        "created_at": "Wed May 27 22:23:12 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059761955519508774",
+        "text": "RT @SawyerMerritt: NASA Administrator Jared Isaacman: \"@SpaceX is probably our greatest commercial space company, hands down. We rely on Sp…",
+        "created_at": "Wed May 27 22:21:33 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
