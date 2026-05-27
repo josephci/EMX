@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-05-27T18:34:18.692Z",
-  "total": 20,
+  "last_updated": "2026-05-27T20:55:24.931Z",
+  "total": 24,
   "by_date": {
     "2026-05-27": [
       {
@@ -96,6 +96,38 @@
         "id": "2059424348440846745",
         "text": "RT @xai: Thank you so much for all the feedback on the Grok Build Beta.\n\nSome of you reported hitting limits quickly. Our team found areas…",
         "created_at": "Wed May 27 00:00:01 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059726206153732394",
+        "text": "RT @SeanParnellASW: .@elonmusk is a patriot who loves America, &amp; @SpaceX has been a good-faith partner of the War Department.",
+        "created_at": "Wed May 27 19:59:30 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059717025614934360",
+        "text": "RT @JeffBezos: @NASAMoonBase is the stepping stone towards everything that comes next.",
+        "created_at": "Wed May 27 19:23:01 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059717011610185833",
+        "text": "RT @NASAAdmin: The near impossible is becoming possible.\n\nWe are building toward a sustained human presence at the lunar South Pole. It beg…",
+        "created_at": "Wed May 27 19:22:57 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059716297253101938",
+        "text": "RT @akokoi1: Been using Grok Build these past few days, and the thing that really got me hooked is Imagine and Imagine Video.\n\nI built a fu…",
+        "created_at": "Wed May 27 19:20:07 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
