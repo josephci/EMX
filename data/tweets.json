@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-05-28T00:20:36.791Z",
-  "total": 27,
+  "last_updated": "2026-05-28T00:41:53.965Z",
+  "total": 59,
   "by_date": {
     "2026-05-27": [
       {
@@ -218,6 +218,264 @@
         "id": "2059315708522045481",
         "text": "RT @XFreeze: Grok Imagine image and video generation are truly incredible\n\nThe realism is insanely good to the point where it starts blurri…",
         "created_at": "Tue May 26 16:48:19 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059311761765937226",
+        "text": "RT @SawyerMerritt: 38 airlines have now partnered with SpaceX to bring @Starlink to their fleets, and based on my research, more than 6,300…",
+        "created_at": "Tue May 26 16:32:38 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059308993437139022",
+        "text": "RT @mayemusk: Another fabulous look in Courchevel. Just so you know, I change into these magnificent gowns in the back of a van 🥺🤣🤣\nFor mor…",
+        "created_at": "Tue May 26 16:21:38 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059306723865755778",
+        "text": "RT @michaelnicollsx: Thanks @AmericanAir for choosing @Starlink!",
+        "created_at": "Tue May 26 16:12:37 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059305920111222789",
+        "text": "RT @edwards345: This is our mission. The timeline for achieving this shrinks significantly if we can 10-100x the useful output of our engin…",
+        "created_at": "Tue May 26 16:09:26 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059302994890440961",
+        "text": "Starlink coming to American Airlines! 💫",
+        "created_at": "Tue May 26 15:57:48 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059291337095065686",
+        "text": "RT @robynMmurray: Endometriosis 💛 https://t.co/h3qGtzVZzm",
+        "created_at": "Tue May 26 15:11:29 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059287487273382024",
+        "text": "Paste screenshots into Grok Build",
+        "created_at": "Tue May 26 14:56:11 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059081745568288831",
+        "text": "RT @LaceyPresley: Asked Grok one simple question: \n\n‘What is your prime directive?’\n\nThe answer was pure elegance. https://t.co/Fllyieurx5",
+        "created_at": "Tue May 26 01:18:38 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059081339391869232",
+        "text": "RT @scion_x_: Just spent a full coding session with Grok Build and honestly? It's right there with Claude. \n\nThe model is sharp, the agenti…",
+        "created_at": "Tue May 26 01:17:01 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059080740881502364",
+        "text": "How to use Grok Build",
+        "created_at": "Tue May 26 01:14:39 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059075834447601721",
+        "text": "RT @mattyp: the @xai team really cooked with Grok Build\n\nthe most beautiful (and performant) TUI I've seen so far\n\n&gt;realtime context view\n&gt;…",
+        "created_at": "Tue May 26 00:55:09 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059074395142791246",
+        "text": "RT @yunta_tsai: The Grok Build team is one of the most productive teams I have worked with. I need something to adopt my diverse workflow f…",
+        "created_at": "Tue May 26 00:49:26 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      }
+    ],
+    "2026-05-25": [
+      {
+        "id": "2059023760510828816",
+        "text": "Starlink now in Kyrgyz Republic! 🇰🇬",
+        "created_at": "Mon May 25 21:28:13 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059022745573220444",
+        "text": "RT @C_3C_3: The number of countries that held marches for…\n\nGeorge Floyd: 93\n\nHenry Nowak: 0\n\nVery Telling. https://t.co/gC0Yf4zwth",
+        "created_at": "Mon May 25 21:24:11 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059022430069199244",
+        "text": "RT @milichab: Searching X in Grok Build is really fast and useful for research/docs/real-time info, video is not sped up https://t.co/TdKv0…",
+        "created_at": "Mon May 25 21:22:56 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059022310149857636",
+        "text": "RT @yunta_tsai: My favorite prompt:\n\na) make a plan for &lt;task&gt;\nb) orchestrate and launch sub-agents to execute the plan\nc) validate the res…",
+        "created_at": "Mon May 25 21:22:28 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059016015644614797",
+        "text": "Grok Build is still in beta for another month or so, but is already quite useful for production tasks",
+        "created_at": "Mon May 25 20:57:27 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059005185867792572",
+        "text": "RT @VladTheInflator: Chicago is basically just a warzone https://t.co/4s0gtgRSuX",
+        "created_at": "Mon May 25 20:14:25 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059002579707654199",
+        "text": "True",
+        "created_at": "Mon May 25 20:04:04 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059002390397747331",
+        "text": "RT @JasonBud: We've expanded the Beta to many more people. Go to https://t.co/B5TRN3q1DU to give it a try. \n\nOur entire engineering team wi…",
+        "created_at": "Mon May 25 20:03:18 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059002244305973472",
+        "text": "This trend will continue for many years",
+        "created_at": "Mon May 25 20:02:44 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059000644313166044",
+        "text": "RT @xai: Grok Build is now available in Beta for all SuperGrok and X Premium+ users.\n\nUse Plan Mode, create images and videos with Imagine,…",
+        "created_at": "Mon May 25 19:56:22 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2058916637097513208",
+        "text": "RT @morganlinton: Watching Grok Build think is pretty fascinating. \n\nDefinitely noticing a change with the releases made this weekend, its…",
+        "created_at": "Mon May 25 14:22:33 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2058913758190158032",
+        "text": "RT @visegrad24: 🇩🇪 A 20-year-old illegal Afghan migrant sexually assaulted an 11-year-old girl and threatened her with a knife at a special…",
+        "created_at": "Mon May 25 14:11:07 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2058913613641818461",
+        "text": "RT @RupertLowe10: A Restore Britain Government will not bring wealth and joy overnight. We are honest about that. There are no quick fixes…",
+        "created_at": "Mon May 25 14:10:32 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2058913184036065600",
+        "text": "Terrible",
+        "created_at": "Mon May 25 14:08:50 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2058912384756920696",
+        "text": "Only Restore Britain can save Britain",
+        "created_at": "Mon May 25 14:05:39 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2058799412399247805",
+        "text": "RT @DanielDiMartino: It's actually 1% of the population that committed 63% of violent crimes, at least in Sweden. https://t.co/iOr51Ednu8",
+        "created_at": "Mon May 25 06:36:45 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2058790017313415380",
+        "text": "💯",
+        "created_at": "Mon May 25 05:59:25 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2058789452844073273",
+        "text": "RT @Rothmus: Taxes screw over both the companies and the states they’re in. \n\nTaxes didn’t build those big companies. They show up after th…",
+        "created_at": "Mon May 25 05:57:10 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2058789296518139922",
+        "text": "RT @Smirkley: A must read: https://t.co/xaWPIXyztv",
+        "created_at": "Mon May 25 05:56:33 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2058788547834851830",
+        "text": "Yup",
+        "created_at": "Mon May 25 05:53:34 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
