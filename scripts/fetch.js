@@ -6,30 +6,27 @@ const RAPIDAPI_KEY  = process.env.RAPIDAPI_KEY;
 const RAPIDAPI_HOST = 'twitter-api45.p.rapidapi.com';
 const USERNAME      = 'elonmusk';
 const DATA_FILE     = path.join(__dirname, '..', 'data', 'tweets.json');
-const MAX_TWEETS    = 100; // 每次最多抓 100 則
 
 if (!RAPIDAPI_KEY) {
   console.error('❌ 找不到 RAPIDAPI_KEY');
   process.exit(1);
 }
 
-async function fetchTimeline(cursor = null) {
-  let url = `https://${RAPIDAPI_HOST}/timeline.php?screenname=${USERNAME}`;
-  if (cursor) url += `&cursor=${encodeURIComponent(cursor)}`;
-  const res = await fetch(url, {
-    headers: {
-      'x-rapidapi-key':  RAPIDAPI_KEY,
-      'x-rapidapi-host': RAPIDAPI_HOST,
-    },
-  });
+const HEADERS = {
+  'Content-Type':    'application/json',
+  'x-rapidapi-key':  RAPIDAPI_KEY,
+  'x-rapidapi-host': RAPIDAPI_HOST,
+};
+
+async function fetchEndpoint(endpoint) {
+  const url = `https://${RAPIDAPI_HOST}/${endpoint}?screenname=${USERNAME}`;
+  const res = await fetch(url, { headers: HEADERS });
   if (!res.ok) {
     const body = await res.text();
-    throw new Error(`API 回傳 ${res.status}: ${body.slice(0, 200)}`);
+    throw new Error(`${endpoint} 回傳 ${res.status}: ${body.slice(0, 200)}`);
   }
-  return res.json();
-}
-
-function parseTweets(raw) {
+  const data = await res.json();
+  const raw  = data.timeline || data.tweets || data.replies || [];
   return raw.map((t) => ({
     id:         String(t.tweet_id || t.id_str || t.id),
     text:       t.text || t.full_text || '',
@@ -40,45 +37,18 @@ function parseTweets(raw) {
   }));
 }
 
-async function fetchAllRecent() {
-  const allTweets = [];
-  let cursor = null;
-  let pages = 0;
-
-  // 最多抓 3 頁（避免超額），每頁約 20-40 則
-  while (pages < 3 && allTweets.length < MAX_TWEETS) {
-    const data = await fetchTimeline(cursor);
-    const raw  = data.timeline || data.tweets || [];
-    if (!raw.length) break;
-
-    allTweets.push(...parseTweets(raw));
-    pages++;
-
-    // 如果有 next_cursor 就繼續翻頁
-    cursor = data.next_cursor || data.cursor || null;
-    if (!cursor) break;
-
-    // 避免太快請求
-    await new Promise(r => setTimeout(r, 500));
-  }
-
-  return allTweets.slice(0, MAX_TWEETS);
-}
-
 function loadExisting() {
   try {
-    if (fs.existsSync(DATA_FILE)) {
+    if (fs.existsSync(DATA_FILE))
       return JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
-    }
   } catch {}
   return { username: USERNAME, last_updated: null, by_date: {} };
 }
 
-function mergeAndSave(existing, newTweets) {
+function mergeAndSave(existing, tweets) {
   const db = existing;
   let added = 0;
-
-  newTweets.forEach((t) => {
+  tweets.forEach((t) => {
     const date = new Date(t.created_at).toISOString().slice(0, 10);
     if (!db.by_date[date]) db.by_date[date] = [];
     if (!db.by_date[date].find((x) => x.id === t.id)) {
@@ -86,21 +56,35 @@ function mergeAndSave(existing, newTweets) {
       added++;
     }
   });
-
   db.last_updated = new Date().toISOString();
   db.total = Object.values(db.by_date).reduce((a, b) => a + b.length, 0);
-
   fs.writeFileSync(DATA_FILE, JSON.stringify(db, null, 2), 'utf8');
   return added;
 }
 
 (async () => {
   try {
-    console.log(`🔍 正在抓取 @${USERNAME} 的推文（最多 ${MAX_TWEETS} 則，最多 3 頁）…`);
-    const tweets   = await fetchAllRecent();
+    console.log(`🔍 抓取 @${USERNAME}：timeline + replies…`);
+
+    // 同時發兩個請求（節省時間）
+    const [timeline, replies] = await Promise.all([
+      fetchEndpoint('timeline.php').catch(e => { console.warn('⚠️ timeline 失敗：', e.message); return []; }),
+      fetchEndpoint('replies.php').catch(e => { console.warn('⚠️ replies 失敗：', e.message); return []; }),
+    ]);
+
+    // 合併並去重
+    const seen = new Set();
+    const all  = [...timeline, ...replies].filter(t => {
+      if (seen.has(t.id)) return false;
+      seen.add(t.id);
+      return true;
+    });
+
+    console.log(`  timeline: ${timeline.length} 則，replies: ${replies.length} 則，合併: ${all.length} 則`);
+
     const existing = loadExisting();
-    const added    = mergeAndSave(existing, tweets);
-    console.log(`✅ 完成：新增 ${added} 則，共 ${existing.total} 則累計（本次抓到 ${tweets.length} 則）`);
+    const added    = mergeAndSave(existing, all);
+    console.log(`✅ 完成：新增 ${added} 則，累計 ${existing.total} 則`);
   } catch (err) {
     console.error('❌ 失敗：', err.message);
     process.exit(1);
