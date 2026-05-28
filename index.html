@@ -8,43 +8,39 @@
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: #070709; color: #e8e8e8; font-family: 'IBM Plex Mono', monospace; min-height: 100vh; padding-bottom: 60px; }
-  a { color: inherit; text-decoration: none; }
-
-  /* header */
   #header { background: #0c0c14; border-bottom: 1px solid #111118; padding: 13px 16px; }
-  #header-inner { max-width: 680px; margin: 0 auto; }
+  #header-inner { max-width: 720px; margin: 0 auto; }
   #header-row { display: flex; align-items: center; gap: 8px; }
   #header-row h1 { font-size: 14px; font-weight: 700; color: #fff; }
-  #header-row span.handle { font-size: 10px; color: #333; }
+  .handle { font-size: 10px; color: #333; }
   #header-right { margin-left: auto; display: flex; gap: 8px; align-items: center; }
   #last-updated { font-size: 10px; color: #333; }
+  #status-bar { margin-top: 6px; font-size: 10px; color: #2a2a3a; }
   button { font-family: inherit; cursor: pointer; }
   #btn-refresh { background: #1a1a2e; border: 1px solid #2e2e4a; border-radius: 7px; padding: 4px 10px; color: #a78bfa; font-size: 11px; }
   #btn-refresh:disabled { color: #333; cursor: default; }
-  #status-bar { margin-top: 8px; font-size: 10px; color: #333; }
-
-  /* main */
-  #main { max-width: 680px; margin: 0 auto; padding: 0 14px; }
-
-  /* error */
+  #main { max-width: 720px; margin: 0 auto; padding: 0 14px; }
   #error-box { background: #1a0f0f; border: 1px solid #3a1a1a; border-radius: 8px; padding: 9px 12px; margin-top: 12px; font-size: 11px; color: #f87171; display: none; }
+  #content { display: none; }
 
-  /* empty state */
-  #empty { text-align: center; padding: 48px 0; display: none; }
-  #empty .icon { font-size: 32px; margin-bottom: 12px; }
-  #empty p { font-size: 13px; color: #444; margin-bottom: 20px; }
-  #btn-load { background: #a78bfa; border: none; border-radius: 10px; padding: 12px 28px; color: #fff; font-size: 14px; font-weight: 600; }
+  /* stat cards */
+  #stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 14px; }
+  .stat-card { background: #0f0f14; border: 1px solid #111118; border-radius: 10px; padding: 10px 8px; text-align: center; }
+  .stat-val { font-size: 20px; font-weight: 700; letter-spacing: -0.5px; }
+  .stat-label { font-size: 9px; color: #333; margin-top: 2px; }
 
-  /* stats */
-  #stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 14px; }
-  .stat-card { background: #0f0f14; border: 1px solid #111118; border-radius: 10px; padding: 12px 10px; text-align: center; }
-  .stat-val { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
-  .stat-label { font-size: 10px; color: #333; margin-top: 2px; }
+  /* chart boxes */
+  .chart-box { background: #0f0f14; border: 1px solid #111118; border-radius: 10px; padding: 12px 10px 8px; margin-top: 10px; }
+  .chart-box p { font-size: 10px; color: #333; margin-bottom: 8px; }
 
-  /* chart */
-  #chart-wrap { background: #0f0f14; border: 1px solid #111118; border-radius: 10px; padding: 12px 10px 8px; margin-top: 10px; }
-  #chart-wrap p { font-size: 10px; color: #333; margin-bottom: 8px; }
-  #chart-wrap canvas { max-height: 110px; }
+  /* heatmap */
+  #heatmap-wrap { background: #0f0f14; border: 1px solid #111118; border-radius: 10px; padding: 12px 12px 10px; margin-top: 10px; }
+  #heatmap-wrap p { font-size: 10px; color: #333; margin-bottom: 10px; }
+  #heatmap { display: grid; grid-template-columns: 36px repeat(24, 1fr); gap: 2px; }
+  .hm-label { font-size: 8px; color: #333; display: flex; align-items: center; justify-content: flex-end; padding-right: 4px; }
+  .hm-hour-label { font-size: 7px; color: #2a2a3a; text-align: center; }
+  .hm-cell { aspect-ratio: 1; border-radius: 2px; cursor: default; position: relative; }
+  .hm-cell:hover::after { content: attr(data-tip); position: absolute; bottom: calc(100% + 4px); left: 50%; transform: translateX(-50%); background: #1a1a2e; color: #ccc; font-size: 9px; padding: 3px 6px; border-radius: 4px; white-space: nowrap; z-index: 10; pointer-events: none; }
 
   /* tabs */
   #tabs { display: flex; gap: 6px; margin-top: 10px; }
@@ -52,31 +48,26 @@
   .tab-btn.active { border-color: #a78bfa; background: rgba(167,139,250,0.09); color: #a78bfa; }
 
   /* tweet list */
-  #tweet-list { margin-top: 8px; }
+  #tweet-list, #history-list { margin-top: 8px; }
   .tweet-card { background: #0f0f14; border: 1px solid #111118; border-radius: 9px; padding: 9px 12px; margin-bottom: 6px; }
   .tweet-meta { display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 10px; color: #2a2a3a; }
-  .tweet-meta .stats { display: flex; gap: 10px; }
-  .tweet-text { font-size: 12px; color: #bbb; line-height: 1.55; }
+  .tweet-stats { display: flex; gap: 10px; }
+  .tweet-text { font-size: 12px; color: #bbb; line-height: 1.55; word-break: break-word; }
   .badge-reply { font-size: 9px; color: #2a3a2a; background: #0f1a0f; padding: 1px 5px; border-radius: 4px; }
-
-  /* history */
-  #history-list { margin-top: 8px; }
   .history-card { background: #0f0f14; border: 1px solid #111118; border-radius: 9px; padding: 10px 12px; margin-bottom: 6px; }
   .history-top { display: flex; justify-content: space-between; margin-bottom: 4px; }
   .history-date { font-size: 12px; color: #555; }
   .history-count { font-size: 12px; color: #a78bfa; font-weight: 600; }
   .history-detail { font-size: 10px; color: #2a2a3a; }
 
-  /* AI box */
+  /* AI */
   #ai-box { background: #0f0f14; border: 1px solid #1a1a2e; border-radius: 10px; padding: 13px; margin-top: 10px; }
   #ai-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 9px; }
   #ai-title { font-size: 12px; color: #a78bfa; font-weight: 600; }
   #btn-analyze { background: #7c3aed; border: none; border-radius: 7px; padding: 5px 12px; color: #fff; font-size: 11px; }
   #btn-analyze:disabled { background: #1a1a2e; cursor: default; }
-  #ai-output { font-size: 12px; color: #ccc; line-height: 1.75; white-space: pre-wrap; }
+  #ai-output { font-size: 12px; color: #ccc; line-height: 1.75; white-space: pre-wrap; display: none; }
   #ai-placeholder { font-size: 11px; color: #2a2a3a; }
-
-  #content { display: none; }
 </style>
 </head>
 <body>
@@ -92,94 +83,88 @@
         <button id="btn-refresh" onclick="loadData()">🔄 更新</button>
       </div>
     </div>
-    <div id="status-bar">GitHub Actions 每 15 分鐘自動抓取</div>
+    <div id="status-bar">每小時自動抓取・免費方案 744次/月</div>
   </div>
 </div>
 
 <div id="main">
   <div id="error-box"></div>
-
-  <div id="empty">
-    <div class="icon">📡</div>
-    <p>點擊下方按鈕載入推文資料</p>
-    <button id="btn-load" class="btn" onclick="loadData()">🚀 載入資料</button>
-  </div>
-
   <div id="content">
+
+    <!-- stat cards -->
     <div id="stats">
-      <div class="stat-card"><div class="stat-val" id="stat-today" style="color:#a78bfa">0</div><div class="stat-label">今日推文</div></div>
-      <div class="stat-card"><div class="stat-val" id="stat-avg" style="color:#34d399">0</div><div class="stat-label">7日平均</div></div>
-      <div class="stat-card"><div class="stat-val" id="stat-total" style="color:#f59e0b">0</div><div class="stat-label">累計總數</div></div>
+      <div class="stat-card"><div class="stat-val" id="s-today"  style="color:#a78bfa">0</div><div class="stat-label">今日推文</div></div>
+      <div class="stat-card"><div class="stat-val" id="s-avg7"   style="color:#34d399">0</div><div class="stat-label">7日平均</div></div>
+      <div class="stat-card"><div class="stat-val" id="s-peak"   style="color:#f59e0b">0</div><div class="stat-label">今日高峰時段</div></div>
+      <div class="stat-card"><div class="stat-val" id="s-total"  style="color:#fb7185">0</div><div class="stat-label">累計總數</div></div>
     </div>
 
-    <div id="chart-wrap">
+    <!-- 14-day bar chart -->
+    <div class="chart-box">
       <p>📊 過去 14 天推文數</p>
-      <canvas id="myChart"></canvas>
+      <canvas id="chartDaily" style="max-height:110px"></canvas>
     </div>
 
+    <!-- today hourly bar chart -->
+    <div class="chart-box">
+      <p>⏰ 今日每小時推文數</p>
+      <canvas id="chartHourly" style="max-height:110px"></canvas>
+    </div>
+
+    <!-- 7-day heatmap -->
+    <div id="heatmap-wrap">
+      <p>🗓 過去 7 天・每小時熱力圖</p>
+      <div id="heatmap"></div>
+      <div style="display:flex;align-items:center;gap:6px;margin-top:8px;">
+        <span style="font-size:9px;color:#333">少</span>
+        <div style="display:flex;gap:2px;">
+          <div style="width:12px;height:12px;border-radius:2px;background:#111118"></div>
+          <div style="width:12px;height:12px;border-radius:2px;background:#2d1b69"></div>
+          <div style="width:12px;height:12px;border-radius:2px;background:#5b21b6"></div>
+          <div style="width:12px;height:12px;border-radius:2px;background:#7c3aed"></div>
+          <div style="width:12px;height:12px;border-radius:2px;background:#a78bfa"></div>
+        </div>
+        <span style="font-size:9px;color:#333">多</span>
+      </div>
+    </div>
+
+    <!-- tabs -->
     <div id="tabs">
-      <button class="tab-btn active" id="tab-today" onclick="switchTab('today')">今日 (<span id="tab-today-count">0</span>)</button>
-      <button class="tab-btn" id="tab-history" onclick="switchTab('history')">歷史</button>
+      <button class="tab-btn active" id="tab-today"   onclick="switchTab('today')">今日 (<span id="tab-count">0</span>)</button>
+      <button class="tab-btn"        id="tab-history" onclick="switchTab('history')">歷史</button>
     </div>
-
     <div id="tweet-list"></div>
     <div id="history-list" style="display:none"></div>
 
+    <!-- AI -->
     <div id="ai-box">
       <div id="ai-header">
         <span id="ai-title">🤖 AI 活躍度分析</span>
         <button id="btn-analyze" onclick="analyze()">立即分析</button>
       </div>
-      <div id="ai-output" style="display:none"></div>
+      <div id="ai-output"></div>
       <div id="ai-placeholder">點「立即分析」，AI 評估今日活躍度並給出 Polymarket 建議。</div>
     </div>
-  </div>
-</div>
+
+  </div><!-- /content -->
+</div><!-- /main -->
 
 <script>
 const DATA_URL = './data/tweets.json';
 let db = null;
-let chart = null;
-let currentTab = 'today';
+let chartDaily = null, chartHourly = null;
 
-function todayKey() {
-  return new Date().toISOString().slice(0, 10);
-}
-function fmtDate(s) {
-  return new Date(s + 'T00:00:00').toLocaleDateString('zh-TW', { month: 'numeric', day: 'numeric' });
-}
-function fmtTime(iso) {
-  return new Date(iso).toLocaleTimeString('zh-TW', { hour: '2-digit', minute: '2-digit' });
-}
+// ── helpers ──────────────────────────────────────────────────────────────────
+function todayKey() { return new Date().toISOString().slice(0, 10); }
+function fmtDate(s) { return new Date(s + 'T00:00:00').toLocaleDateString('zh-TW', { month: 'numeric', day: 'numeric' }); }
+function fmtTime(iso) { return new Date(iso).toLocaleTimeString('zh-TW', { hour: '2-digit', minute: '2-digit' }); }
 function fmtAgo(iso) {
   if (!iso) return '—';
   const sec = Math.floor((Date.now() - new Date(iso)) / 1000);
-  if (sec < 60) return sec + '秒前';
+  if (sec < 60)   return sec + '秒前';
   if (sec < 3600) return Math.floor(sec / 60) + '分鐘前';
   return Math.floor(sec / 3600) + '小時前';
 }
-
-async function loadData() {
-  const btn = document.getElementById('btn-refresh');
-  btn.disabled = true; btn.textContent = '載入中…';
-  document.getElementById('error-box').style.display = 'none';
-  try {
-    const res = await fetch(DATA_URL + '?t=' + Date.now());
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    db = await res.json();
-    render();
-  } catch(e) {
-    showError('抓取失敗：' + e.message);
-  }
-  btn.disabled = false; btn.textContent = '🔄 更新';
-}
-
-function showError(msg) {
-  const el = document.getElementById('error-box');
-  el.textContent = '⚠️ ' + msg;
-  el.style.display = 'block';
-}
-
 function getLast(n) {
   const days = [];
   for (let i = n - 1; i >= 0; i--) {
@@ -189,55 +174,148 @@ function getLast(n) {
   }
   return days;
 }
+function heatColor(val, max) {
+  if (val === 0) return '#111118';
+  const t = val / Math.max(max, 1);
+  if (t < 0.25) return '#2d1b69';
+  if (t < 0.5)  return '#5b21b6';
+  if (t < 0.75) return '#7c3aed';
+  return '#a78bfa';
+}
 
+// ── load data ─────────────────────────────────────────────────────────────────
+async function loadData() {
+  const btn = document.getElementById('btn-refresh');
+  btn.disabled = true; btn.textContent = '載入中…';
+  document.getElementById('error-box').style.display = 'none';
+  try {
+    const res = await fetch(DATA_URL + '?t=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    db = await res.json();
+    render();
+    document.getElementById('content').style.display = 'block';
+  } catch(e) {
+    const el = document.getElementById('error-box');
+    el.textContent = '⚠️ 抓取失敗：' + e.message;
+    el.style.display = 'block';
+    document.getElementById('content').style.display = 'block';
+  }
+  btn.disabled = false; btn.textContent = '🔄 更新';
+}
+
+// ── render ────────────────────────────────────────────────────────────────────
 function render() {
   if (!db) return;
-  document.getElementById('empty').style.display = 'none';
-  document.getElementById('content').style.display = 'block';
   document.getElementById('last-updated').textContent = '更新 ' + fmtAgo(db.last_updated);
 
-  const byDate = db.by_date || {};
-  const today = todayKey();
+  const byDate      = db.by_date || {};
+  const today       = todayKey();
   const todayTweets = byDate[today] || [];
-  const last7 = getLast(7);
-  const avg7 = (last7.reduce((a, b) => a + b.count, 0) / 7).toFixed(1);
+  const last7       = getLast(7);
+  const avg7        = (last7.reduce((a,b) => a + b.count, 0) / 7).toFixed(1);
 
-  document.getElementById('stat-today').textContent = todayTweets.length;
-  document.getElementById('stat-avg').textContent = avg7;
-  document.getElementById('stat-total').textContent = db.total || 0;
-  document.getElementById('tab-today-count').textContent = todayTweets.length;
+  // hourly counts for today
+  const hourCounts = Array(24).fill(0);
+  todayTweets.forEach(t => {
+    const h = new Date(t.created_at).getHours();
+    hourCounts[h]++;
+  });
+  const peakHour = hourCounts.indexOf(Math.max(...hourCounts));
+  const peakLabel = Math.max(...hourCounts) > 0 ? peakHour + ':00' : '—';
 
-  // chart
-  const chartData = getLast(14);
-  if (chart) chart.destroy();
-  chart = new Chart(document.getElementById('myChart'), {
+  // stat cards
+  document.getElementById('s-today').textContent = todayTweets.length;
+  document.getElementById('s-avg7').textContent   = avg7;
+  document.getElementById('s-peak').textContent   = peakLabel;
+  document.getElementById('s-total').textContent  = db.total || 0;
+  document.getElementById('tab-count').textContent = todayTweets.length;
+
+  // 14-day bar chart
+  const daily14 = getLast(14);
+  if (chartDaily) chartDaily.destroy();
+  chartDaily = new Chart(document.getElementById('chartDaily'), {
+    type: 'bar',
+    data: { labels: daily14.map(d => d.date), datasets: [{ data: daily14.map(d => d.count), backgroundColor: '#a78bfa', borderRadius: 3 }] },
+    options: { plugins: { legend: { display: false } }, scales: {
+      x: { grid: { color: '#111118' }, ticks: { color: '#2a2a3a', font: { size: 9 } } },
+      y: { grid: { color: '#111118' }, ticks: { color: '#2a2a3a', font: { size: 9 }, stepSize: 1 }, beginAtZero: true }
+    }}
+  });
+
+  // hourly bar chart (today)
+  if (chartHourly) chartHourly.destroy();
+  chartHourly = new Chart(document.getElementById('chartHourly'), {
     type: 'bar',
     data: {
-      labels: chartData.map(d => d.date),
-      datasets: [{ data: chartData.map(d => d.count), backgroundColor: '#a78bfa', borderRadius: 3 }]
+      labels: Array.from({length:24}, (_,i) => i % 6 === 0 ? i + 'h' : ''),
+      datasets: [{ data: hourCounts, backgroundColor: hourCounts.map((v,i) => i === peakHour && v > 0 ? '#f59e0b' : '#34d399'), borderRadius: 2 }]
     },
-    options: {
-      plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ctx.parsed.y + ' 則' } } },
-      scales: {
-        x: { grid: { color: '#111118' }, ticks: { color: '#2a2a3a', font: { size: 9 } } },
-        y: { grid: { color: '#111118' }, ticks: { color: '#2a2a3a', font: { size: 9 }, stepSize: 1 }, beginAtZero: true }
-      }
-    }
+    options: { plugins: { legend: { display: false }, tooltip: { callbacks: { title: ctx => ctx[0].dataIndex + ':00', label: ctx => ctx.parsed.y + ' 則' } } }, scales: {
+      x: { grid: { color: '#111118' }, ticks: { color: '#2a2a3a', font: { size: 9 } } },
+      y: { grid: { color: '#111118' }, ticks: { color: '#2a2a3a', font: { size: 9 }, stepSize: 1 }, beginAtZero: true }
+    }}
+  });
+
+  // 7-day heatmap
+  // build matrix: rows = days (7), cols = hours (24)
+  const heatDays = [];
+  for (let i = 6; i >= 0; i--) {
+    const d = new Date(); d.setDate(d.getDate() - i);
+    const k = d.toISOString().slice(0, 10);
+    const tweets = byDate[k] || [];
+    const hours = Array(24).fill(0);
+    tweets.forEach(t => { hours[new Date(t.created_at).getHours()]++; });
+    heatDays.push({ key: k, label: fmtDate(k), hours });
+  }
+  const maxVal = Math.max(...heatDays.flatMap(d => d.hours), 1);
+
+  const hm = document.getElementById('heatmap');
+  hm.innerHTML = '';
+  // hour labels row
+  hm.appendChild(Object.assign(document.createElement('div'), { className: 'hm-label' }));
+  for (let h = 0; h < 24; h++) {
+    const el = document.createElement('div');
+    el.className = 'hm-hour-label';
+    el.textContent = h % 6 === 0 ? h : '';
+    hm.appendChild(el);
+  }
+  // day rows
+  heatDays.forEach(day => {
+    const lbl = document.createElement('div');
+    lbl.className = 'hm-label';
+    lbl.textContent = day.label;
+    hm.appendChild(lbl);
+    day.hours.forEach((cnt, h) => {
+      const cell = document.createElement('div');
+      cell.className = 'hm-cell';
+      cell.style.background = heatColor(cnt, maxVal);
+      cell.setAttribute('data-tip', day.key + ' ' + h + ':00 — ' + cnt + ' 則');
+      hm.appendChild(cell);
+    });
   });
 
   renderTweets(todayTweets);
   renderHistory(byDate);
-  window._db = db; window._avg7 = avg7;
+
+  // store for AI
+  window._db   = db;
+  window._avg7 = avg7;
+  window._last7 = last7;
 }
 
+// ── tweet & history render ────────────────────────────────────────────────────
 function renderTweets(tweets) {
   const list = document.getElementById('tweet-list');
-  if (!tweets.length) { list.innerHTML = '<div style="text-align:center;color:#2a2a3a;font-size:12px;padding:24px 0">今日尚無資料</div>'; return; }
-  list.innerHTML = [...tweets].sort((a, b) => new Date(b.created_at) - new Date(a.created_at)).map(tw => `
-    <div class="tweet-card">
+  if (!tweets.length) {
+    list.innerHTML = '<div style="text-align:center;color:#2a2a3a;font-size:12px;padding:24px 0">今日尚無資料</div>';
+    return;
+  }
+  list.innerHTML = [...tweets]
+    .sort((a,b) => new Date(b.created_at) - new Date(a.created_at))
+    .map(tw => `<div class="tweet-card">
       <div class="tweet-meta">
         <span>${fmtTime(tw.created_at)}</span>
-        <div class="stats">
+        <div class="tweet-stats">
           <span>❤️ ${(tw.likes||0).toLocaleString()}</span>
           <span>🔁 ${(tw.retweets||0).toLocaleString()}</span>
           ${tw.is_reply ? '<span class="badge-reply">回覆</span>' : ''}
@@ -248,51 +326,65 @@ function renderTweets(tweets) {
 }
 
 function renderHistory(byDate) {
-  const list = document.getElementById('history-list');
+  const list  = document.getElementById('history-list');
   const dates = Object.keys(byDate).sort((a,b) => b.localeCompare(a)).filter(d => byDate[d].length > 0);
-  if (!dates.length) { list.innerHTML = '<div style="text-align:center;color:#2a2a3a;font-size:12px;padding:24px 0">尚無歷史資料</div>'; return; }
+  if (!dates.length) {
+    list.innerHTML = '<div style="text-align:center;color:#2a2a3a;font-size:12px;padding:24px 0">尚無歷史資料</div>';
+    return;
+  }
   list.innerHTML = dates.map(date => {
-    const tweets = byDate[date];
-    const maxLikes = Math.max(...tweets.map(t => t.likes || 0));
+    const tw = byDate[date];
     return `<div class="history-card">
-      <div class="history-top"><span class="history-date">${date}</span><span class="history-count">${tweets.length} 則</span></div>
-      <div class="history-detail">原創 ${tweets.filter(t=>!t.is_reply).length}・回覆 ${tweets.filter(t=>t.is_reply).length}・最多讚 ${maxLikes.toLocaleString()} ❤️</div>
+      <div class="history-top"><span class="history-date">${date}</span><span class="history-count">${tw.length} 則</span></div>
+      <div class="history-detail">原創 ${tw.filter(t=>!t.is_reply).length}・回覆 ${tw.filter(t=>t.is_reply).length}・最多讚 ${Math.max(...tw.map(t=>t.likes||0)).toLocaleString()} ❤️</div>
     </div>`;
   }).join('');
 }
 
 function switchTab(tab) {
-  currentTab = tab;
-  document.getElementById('tab-today').className = 'tab-btn' + (tab === 'today' ? ' active' : '');
-  document.getElementById('tab-history').className = 'tab-btn' + (tab === 'history' ? ' active' : '');
-  document.getElementById('tweet-list').style.display = tab === 'today' ? 'block' : 'none';
-  document.getElementById('history-list').style.display = tab === 'history' ? 'block' : 'none';
+  document.getElementById('tab-today').className   = 'tab-btn' + (tab==='today' ? ' active' : '');
+  document.getElementById('tab-history').className = 'tab-btn' + (tab==='history' ? ' active' : '');
+  document.getElementById('tweet-list').style.display   = tab==='today' ? 'block' : 'none';
+  document.getElementById('history-list').style.display = tab==='history' ? 'block' : 'none';
 }
 
+// ── AI ────────────────────────────────────────────────────────────────────────
 async function analyze() {
   const btn = document.getElementById('btn-analyze');
   btn.disabled = true; btn.textContent = '分析中…';
-  document.getElementById('ai-placeholder').style.display = 'none';
-  document.getElementById('ai-output').style.display = 'block';
-  document.getElementById('ai-output').textContent = '⏳ AI 分析中…';
+  const out  = document.getElementById('ai-output');
+  const hint = document.getElementById('ai-placeholder');
+  out.style.display  = 'block';
+  hint.style.display = 'none';
+  out.textContent    = '⏳ AI 分析中…';
 
-  const db = window._db; const avg7 = window._avg7;
+  const avg7  = window._avg7;
+  const last7 = window._last7 || [];
+  const db    = window._db;
   const byDate = db?.by_date || {};
-  const today = todayKey();
+  const today  = todayKey();
   const todayTweets = byDate[today] || [];
-  const last7 = getLast(7);
+
+  // hourly breakdown for today
+  const hourCounts = Array(24).fill(0);
+  todayTweets.forEach(t => { hourCounts[new Date(t.created_at).getHours()]++; });
+  const peakH = hourCounts.indexOf(Math.max(...hourCounts));
   const topTweet = [...todayTweets].sort((a,b) => b.likes - a.likes)[0];
 
   const prompt = `你是 Polymarket 預測市場分析師，追蹤 @elonmusk 推文活躍度。
 
 最近 7 天每日推文數：
 ${last7.map(d => `  ${d.rawDate}：${d.count} 則`).join('\n')}
-今日合計：${todayTweets.length} 則（原創 ${todayTweets.filter(t=>!t.is_reply).length}・回覆 ${todayTweets.filter(t=>t.is_reply).length}）
-7日平均：${avg7} 則/天
-${topTweet ? `今日最多讚（${(topTweet.likes||0).toLocaleString()} ❤️）：「${topTweet.text.slice(0,80)}」` : ''}
 
-請用繁體中文分析（180字內，多用 emoji）：
-1. 今日活躍度評估（高/中/低）
+今日（${today}）：
+  合計：${todayTweets.length} 則（原創 ${todayTweets.filter(t=>!t.is_reply).length}・回覆 ${todayTweets.filter(t=>t.is_reply).length}）
+  高峰時段：${peakH}:00（${hourCounts[peakH]} 則）
+  今日每小時：${hourCounts.map((c,h)=>h+':'+c).join(' ')}
+  7日平均：${avg7} 則/天
+${topTweet ? `  最多讚（${(topTweet.likes||0).toLocaleString()} ❤️）：「${topTweet.text.slice(0,80)}」` : ''}
+
+請用繁體中文分析（200字內，多用 emoji）：
+1. 今日活躍度評估（高/中/低）及高峰時段說明
 2. 今日最終超過 ${Math.ceil(Number(avg7))} 則的機率（%）
 3. Polymarket 一句話操作建議`;
 
@@ -303,19 +395,16 @@ ${topTweet ? `今日最多讚（${(topTweet.likes||0).toLocaleString()} ❤️�
       body: JSON.stringify({ model: 'claude-sonnet-4-20250514', max_tokens: 1000, messages: [{ role: 'user', content: prompt }] })
     });
     const data = await res.json();
-    const text = data.content?.find(b => b.type === 'text')?.text || '（無回應）';
-    document.getElementById('ai-output').textContent = text;
+    out.textContent = data.content?.find(b => b.type === 'text')?.text || '（無回應）';
   } catch(e) {
-    document.getElementById('ai-output').textContent = '分析失敗：' + e.message;
+    out.textContent = '分析失敗：' + e.message;
   }
   btn.disabled = false; btn.textContent = '立即分析';
 }
 
-// init
-document.getElementById('empty').style.display = 'block';
+// ── init ──────────────────────────────────────────────────────────────────────
 loadData();
-// auto-refresh every 15 min
-setInterval(loadData, 15 * 60 * 1000);
+setInterval(loadData, 60 * 60 * 1000); // 每小時自動刷新頁面資料
 </script>
 </body>
 </html>
