@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-05-28T18:16:15.055Z",
-  "total": 112,
+  "last_updated": "2026-05-28T21:12:28.470Z",
+  "total": 136,
   "by_date": {
     "2026-05-27": [
       {
@@ -296,6 +296,22 @@
         "id": "2059654405964657093",
         "text": "SpaceX Potential Compute Business\n\nXAI spent $3-4 billion on Colossus I.\n\nThey are leasing it out for $45 bil of 3 years to Anthropic.\n\nSpaceX is finishing a 1 gigawatt Colossus II for around $17 billion with plans for multiple more.\n\nIt seems like SpaceX could lease out Colossus",
         "created_at": "Wed May 27 15:14:11 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059648995132367277",
+        "text": "For over a decade, we’ve accepted that end-to-end backprop is the only way to train deep networks. But holding the entire network in memory all at once is why AI training is hitting a resource wall.\n\nWe found a new way to break the network into blocks and train them",
+        "created_at": "Wed May 27 14:52:41 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059728010253828274",
+        "text": "ANNOUNCEMENT: WE’RE SAVING SCIENCE!\n\nWe’re often told that science is “self-correcting.”\n\nBut that’s not really true.\n\nScience doesn’t correct itself like a thermostat adjusting the temperature in your house. Science is a human institution run by human beings. And human beings https://t.co/ctXSHKOIEI",
+        "created_at": "Wed May 27 20:06:40 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
@@ -902,6 +918,182 @@
         "id": "2060013732999405631",
         "text": "@nypost !!",
         "created_at": "Thu May 28 15:02:01 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060092313150611851",
+        "text": "Cybercab driving itself out of the GigaTexas factory https://t.co/EwAMVVDjYy",
+        "created_at": "Thu May 28 20:14:16 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060089987996270625",
+        "text": "RT @WhiteHouse: Today, we remember a legend.\n\nOn this day in history, Harambe would have celebrated another birthday. An icon that became p…",
+        "created_at": "Thu May 28 20:05:02 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060085851816960392",
+        "text": "Note, I am posted this to encourage those who enjoy getting incredible performance out of hardware to join SpaceX",
+        "created_at": "Thu May 28 19:48:36 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060084101898744211",
+        "text": "RT @SwipeWright: ANNOUNCEMENT: WE’RE SAVING SCIENCE!\n\nWe’re often told that science is “self-correcting.”\n\nBut that’s not really true.\n\nSci…",
+        "created_at": "Thu May 28 19:41:39 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060054896821309501",
+        "text": "The official line was that Nowak was so badly wounded that he would have died no matter what the officers did. \n\nThat's a very convenient line.\n\nRelease the video, and release the identities of the officers.",
+        "created_at": "Thu May 28 17:45:36 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060092710007300574",
+        "text": "@martianwyrdlord Yes",
+        "created_at": "Thu May 28 20:15:51 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059994307575119947",
+        "text": "Today,  a man has been convicted of the murder of student Henry Nowak in Southampton. Throughout the trial, we have not discussed this case publicly to ensure that justice could be done but now we can share a message from DCC Robert France.\n\nhttps://t.co/13203Yq9DA",
+        "created_at": "Thu May 28 13:44:50 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060084259327529370",
+        "text": "@TPointUK @HantsPolice Fired. Suspended is not enough. \nFired, then prosecuted",
+        "created_at": "Thu May 28 19:42:16 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060091630967992499",
+        "text": "@SharkeyAli94062 @TPointUK @HantsPolice Absolutely, since that is what happened in the George Floyd case!",
+        "created_at": "Thu May 28 20:11:34 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060088502193463689",
+        "text": "@hardmaru Interesting",
+        "created_at": "Thu May 28 19:59:08 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060064595465912434",
+        "text": "tinygrad will write that C for you. Our new driver compiles all interaction with the GPU to C, so once it's running the CPU does next to nothing.",
+        "created_at": "Thu May 28 18:24:08 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060088141135171641",
+        "text": "@__tinygrad__ Agreed, the CPU cores on the GB300 should be tasked with agentic jobs. Very little of their compute is needed for GPU management.",
+        "created_at": "Thu May 28 19:57:42 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059982040842256724",
+        "text": "Henry Nowak was failed in the most evil way.\n\nThe Kirpan must be banned in public spaces - that is what Restore Britain will do.",
+        "created_at": "Thu May 28 12:56:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060004145944576352",
+        "text": "@RestoreBritain_ No - the Kirpan must not be banned. Instead, all good citizens must have the right to possess and carry defensive weapons.\n\nThe police will not be there to protect you or your children.\n\nCriminals will always be armed because they don't care about the law.\n\nOnly a good armed",
+        "created_at": "Thu May 28 14:23:56 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060087012393411069",
+        "text": "@DonaldBestCA @RestoreBritain_ Yes, allow the people to defend themselves",
+        "created_at": "Thu May 28 19:53:12 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060015394555883668",
+        "text": "So tell me\n\nWhy has this not been stopped?\n\nWhy is this just going to keep happening?",
+        "created_at": "Thu May 28 15:08:37 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060086596956016666",
+        "text": "@Timcast When is enough enough?",
+        "created_at": "Thu May 28 19:51:33 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060050443003400646",
+        "text": "@elonmusk @swiftg008 Pure C &gt; C++ \n\nModern C++ is an abomination",
+        "created_at": "Thu May 28 17:27:54 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060085616239669389",
+        "text": "@wholemars @swiftg008 I agree",
+        "created_at": "Thu May 28 19:47:40 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060084116041990648",
+        "text": "@SwipeWright True",
+        "created_at": "Thu May 28 19:41:42 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060003204553707888",
+        "text": "🚨🇮🇪 BREAKING\n\nAsylum seeker arrested after woman was murdered in Galway this morning. \n\nThe woman who was working at an IPAS centre, was stabbed multiple times in the neck. https://t.co/jG0BuyE0Uc",
+        "created_at": "Thu May 28 14:20:11 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060083953399468149",
+        "text": "@Mick_O_Keeffe !!",
+        "created_at": "Thu May 28 19:41:03 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
