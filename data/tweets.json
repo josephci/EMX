@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-05-28T21:12:28.470Z",
-  "total": 136,
+  "last_updated": "2026-05-28T23:23:07.849Z",
+  "total": 138,
   "by_date": {
     "2026-05-27": [
       {
@@ -1094,6 +1094,22 @@
         "id": "2060083953399468149",
         "text": "@Mick_O_Keeffe !!",
         "created_at": "Thu May 28 19:41:03 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060134654125154434",
+        "text": "Good value for money",
+        "created_at": "Thu May 28 23:02:31 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060133541837713718",
+        "text": "RT @Starlink: Starlink has connected 167K @united flights and counting, delivering seamless internet gate to gate🛰️✈️",
+        "created_at": "Thu May 28 22:58:06 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
