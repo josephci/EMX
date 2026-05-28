@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-05-28T14:42:18.195Z",
-  "total": 94,
+  "last_updated": "2026-05-28T18:16:15.055Z",
+  "total": 112,
   "by_date": {
     "2026-05-27": [
       {
@@ -758,6 +758,150 @@
         "id": "2059880289514696927",
         "text": "@JohnTinsman SpaceX has not committed to leasing Colossus for years, although it’s possible that may be what happens.\n\nThis is a 180 day lease with 90 day notice mutual cancellation thereafter. The short term was our request, not Anthropic’s. \n\nWe won’t leave them hanging and will provide a",
         "created_at": "Thu May 28 06:11:46 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060038394428964893",
+        "text": "Next will be writing the inference stack in C for simultaneous high-speed RL across a large block of GB300s. \n\n(We do use a little C++ tbh, but not much)",
+        "created_at": "Thu May 28 16:40:01 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059968399954849853",
+        "text": "There’s a ton of headroom to better optimize AI training and inference.",
+        "created_at": "Thu May 28 12:01:53 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060053334103617944",
+        "text": "@eastdakota Yes. \n\nIt’s not that we’ve discovered some magic bullet, but rather that JAX, or at least the open source version of it, is mostly optimized for small to medium-sized training runs on Google TPUs, whereas we need to massive training runs on Nvidia GPUs. \n\nPipeline parallelism is",
+        "created_at": "Thu May 28 17:39:23 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059916494029676893",
+        "text": "they made an in-house AI training stack from scratch in C as a hobby project",
+        "created_at": "Thu May 28 08:35:38 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060051546684174559",
+        "text": "@maharshii It’s essential or we simply cannot be competitive",
+        "created_at": "Thu May 28 17:32:17 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059968299023085711",
+        "text": "Sorry isn’t good enough.\n\nWe need to see the body-worn footage and these officers need to face consequences.\n\nThe treatment of this murdered student, in his dying moments, is a national scandal. https://t.co/LzhHd3TMBa",
+        "created_at": "Thu May 28 12:01:29 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060051133427798087",
+        "text": "@RobertJenrick Absolutely",
+        "created_at": "Thu May 28 17:30:38 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060044595313152020",
+        "text": "@elonmusk Makes sense for shaving latency in tight RL loops. Curious how you handle memory safety in C without the C++ guardrails",
+        "created_at": "Thu May 28 17:04:39 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060050265777315979",
+        "text": "@KazimAIZJU With great {malloc} power comes great responsibility",
+        "created_at": "Thu May 28 17:27:11 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060049585041785239",
+        "text": "@claudeai @farzyness Nice work",
+        "created_at": "Thu May 28 17:24:29 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060012855445876762",
+        "text": "🚨BREAKING: HAMPSHIRE POLICE APOLOGISE FOR ARRESTING HENRY NOWAK AS HE DIED IN STREET\n\nRobert France, temporary deputy chief constable for Hampshire Police has said he's \"sorry\" his officers arrested Henry in the moments before he died\n\nNOT GOOD ENOUGH\nThey must pay for their https://t.co/NOOHTwnBm6",
+        "created_at": "Thu May 28 14:58:32 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060016443295682995",
+        "text": "@BasilTheGreat Not even close to good enough. Those officers committed a serious crime.",
+        "created_at": "Thu May 28 15:12:47 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059957128106778867",
+        "text": "I love that SpaceX is becoming the classic tech megacorp from sci fi.\n\nThe only thing missing is a badass hq tower https://t.co/kWP7vK6gvC",
+        "created_at": "Thu May 28 11:17:06 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060015761868173813",
+        "text": "@ApoStructura We do kinda have that at Starbase",
+        "created_at": "Thu May 28 15:10:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059992044467057110",
+        "text": "So @HantsPolice laughed as Henry Nowak was dying, they took his and his dad's phones to search for \"racism\" in a sickening attempt to justify his murder! https://t.co/z84GLRVcrd",
+        "created_at": "Thu May 28 13:35:50 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060014496845087063",
+        "text": "@TRobinsonNewEra @HantsPolice Those hateful police are accessories to murder",
+        "created_at": "Thu May 28 15:05:03 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059927516073041932",
+        "text": "Four stabbed by knifeman shouting 'Allahu Akbar' at Switzerland train station in front of terrified children https://t.co/AJwejsaTcO https://t.co/DYhMMKpG22",
+        "created_at": "Thu May 28 09:19:26 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060013732999405631",
+        "text": "@nypost !!",
+        "created_at": "Thu May 28 15:02:01 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
