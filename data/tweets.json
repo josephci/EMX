@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-05-28T05:14:12.160Z",
-  "total": 80,
+  "last_updated": "2026-05-28T10:17:34.107Z",
+  "total": 94,
   "by_date": {
     "2026-05-27": [
       {
@@ -280,6 +280,22 @@
         "id": "2059698864479949006",
         "text": "@DillonLoomis ❤️",
         "created_at": "Wed May 27 18:10:51 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059674870741713175",
+        "text": "Composer 2.5 being Pareto dominant in coding per CursorBench is important.\n\nThis is after only a few weeks of supplemental training and/or RL in the Colossus 2 cluster.\n \nThe 1.5 trillion parameter version of Grok will likely be a much better base model than Kimi. We shall see. https://t.co/47htukDrk3",
+        "created_at": "Wed May 27 16:35:30 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059654405964657093",
+        "text": "SpaceX Potential Compute Business\n\nXAI spent $3-4 billion on Colossus I.\n\nThey are leasing it out for $45 bil of 3 years to Anthropic.\n\nSpaceX is finishing a 1 gigawatt Colossus II for around $17 billion with plans for multiple more.\n\nIt seems like SpaceX could lease out Colossus",
+        "created_at": "Wed May 27 15:14:11 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
@@ -646,6 +662,102 @@
         "id": "2059802437146533964",
         "text": "RT @wholemars: You haven't experienced real self-driving until you've tried Tesla Self-Driving 14.3.3 in Mad Max mode https://t.co/xBNV2OnA…",
         "created_at": "Thu May 28 01:02:24 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059913060123594819",
+        "text": "RT @cremieuxrecueil: For the first year on record, wind and solar produced more electricity than coal in the U.S. https://t.co/SiXbr0Mn6G",
+        "created_at": "Thu May 28 08:21:59 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059906032940482687",
+        "text": "RT @beffjezos: The rarest object type in the universe isn't black holes. It's us. Conscious matter. The flame of life.\n\nWe have a duty to e…",
+        "created_at": "Thu May 28 07:54:04 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059884150187053488",
+        "text": "SpaceX has almost finished writing V1.0 of an in-house AI training stack in C that exact-maps to 220k GB300s with 800G NICs, making heavy use of pipeline parallelism and getting as close to bare metal as possible.\n\nThe potential speed improvement vs JAX for large training runs is over an order of magnitude.",
+        "created_at": "Thu May 28 06:27:06 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059873440212124071",
+        "text": "Grok Build improvements",
+        "created_at": "Thu May 28 05:44:33 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059840387234062453",
+        "text": "The rarest object type in the universe isn't black holes. It's us. Conscious matter. The flame of life.\n\nWe have a duty to expand it in scope and scale in order to preserve it.",
+        "created_at": "Thu May 28 03:33:12 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059906011193065522",
+        "text": "@beffjezos Yes",
+        "created_at": "Thu May 28 07:53:58 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059886998262047227",
+        "text": "@GavinSBaker Grok 1.5T is trending well",
+        "created_at": "Thu May 28 06:38:25 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059884604035678538",
+        "text": "@elonmusk Will it be used for Grok v5?",
+        "created_at": "Thu May 28 06:28:55 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059885942811619637",
+        "text": "@pascal__2k Yes",
+        "created_at": "Thu May 28 06:34:14 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059787123775946937",
+        "text": "Never been more true https://t.co/1QCIHlseoc",
+        "created_at": "Thu May 28 00:01:33 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059880407345307682",
+        "text": "@Rothmus Banger",
+        "created_at": "Thu May 28 06:12:14 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2059880289514696927",
+        "text": "@JohnTinsman SpaceX has not committed to leasing Colossus for years, although it’s possible that may be what happens.\n\nThis is a 180 day lease with 90 day notice mutual cancellation thereafter. The short term was our request, not Anthropic’s. \n\nWe won’t leave them hanging and will provide a",
+        "created_at": "Thu May 28 06:11:46 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
