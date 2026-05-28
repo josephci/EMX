@@ -36,7 +36,7 @@
   /* heatmap */
   #heatmap-wrap { background: #0f0f14; border: 1px solid #111118; border-radius: 10px; padding: 12px 12px 10px; margin-top: 10px; }
   #heatmap-wrap p { font-size: 10px; color: #333; margin-bottom: 10px; }
-  #heatmap { display: grid; grid-template-columns: 36px repeat(24, 1fr); gap: 2px; }
+  #heatmap { display: grid; grid-template-columns: 36px repeat(24, 1fr) 32px; gap: 2px; }
   .hm-label { font-size: 8px; color: #333; display: flex; align-items: center; justify-content: flex-end; padding-right: 4px; }
   .hm-hour-label { font-size: 7px; color: #2a2a3a; text-align: center; }
   .hm-cell { aspect-ratio: 1; border-radius: 2px; cursor: default; position: relative; }
@@ -80,6 +80,7 @@
       <span class="handle">@elonmusk</span>
       <div id="header-right">
         <span id="last-updated"></span>
+        <button id="btn-mode" onclick="toggleMode()" style="background:#1a1a2e;border:1px solid #2e2e4a;border-radius:7px;padding:4px 10px;color:#34d399;font-size:11px;">原創</button>
         <button id="btn-refresh" onclick="loadData()">🔄 更新</button>
       </div>
     </div>
@@ -168,14 +169,19 @@ function fmtAgo(iso) {
   if (sec < 3600) return Math.floor(sec / 60) + '分鐘前';
   return Math.floor(sec / 3600) + '小時前';
 }
+let showMode = 'original'; // 'original' | 'all'
+function isRT(t) { return t.text.startsWith('RT @'); }
+function filterTweets(tweets) {
+  return showMode === 'original' ? tweets.filter(t => !isRT(t)) : tweets;
+}
 function getLast(n) {
   const days = [];
   for (let i = n - 1; i >= 0; i--) {
     const d = new Date();
-    // 用 UTC 日期往回推
     const utcDate = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate() - i));
     const k = utcDate.toISOString().slice(0, 10);
-    days.push({ date: fmtDate(k), rawDate: k, count: ((db.by_date || {})[k] || []).length });
+    const all = (db.by_date || {})[k] || [];
+    days.push({ date: fmtDate(k), rawDate: k, count: filterTweets(all).length });
   }
   return days;
 }
@@ -215,14 +221,14 @@ function render() {
 
   const byDate      = db.by_date || {};
   const today       = todayKey();
-  const todayTweets = byDate[today] || [];
+  const todayTweets = filterTweets(byDate[today] || []);
   const last7       = getLast(7);
   const avg7        = (last7.reduce((a,b) => a + b.count, 0) / 7).toFixed(1);
 
   // hourly counts for today
   const hourCounts = Array(24).fill(0);
   todayTweets.forEach(t => {
-    const h = new Date(t.created_at).getHours();
+    const h = new Date(t.created_at).getUTCHours(); // UTC hour matches data storage
     hourCounts[h]++;
   });
   const peakHour = hourCounts.indexOf(Math.max(...hourCounts));
@@ -270,7 +276,8 @@ function render() {
     const k = utcDate.toISOString().slice(0, 10);
     const tweets = byDate[k] || [];
     const hours = Array(24).fill(0);
-    tweets.forEach(t => { hours[new Date(t.created_at).getHours()]++; });
+    const tw2 = filterTweets(tweets);
+    tw2.forEach(t => { hours[new Date(t.created_at).getUTCHours()]++; });
     heatDays.push({ key: k, label: fmtDate(k), hours });
   }
   const maxVal = Math.max(...heatDays.flatMap(d => d.hours), 1);
@@ -285,6 +292,8 @@ function render() {
     el.textContent = h % 6 === 0 ? h : '';
     hm.appendChild(el);
   }
+  // empty placeholder for total column header
+  hm.appendChild(document.createElement('div'));
   // day rows
   heatDays.forEach(day => {
     const lbl = document.createElement('div');
@@ -298,6 +307,12 @@ function render() {
       cell.setAttribute('data-tip', day.key + ' ' + h + ':00 — ' + cnt + ' 則');
       hm.appendChild(cell);
     });
+    // daily total
+    const dayTotal = day.hours.reduce((a, b) => a + b, 0); // already filtered
+    const totalEl = document.createElement('div');
+    totalEl.style.cssText = 'font-size:10px;color:#a78bfa;display:flex;align-items:center;padding-left:5px;font-weight:600;white-space:nowrap;';
+    totalEl.textContent = dayTotal > 0 ? dayTotal + '則' : '';
+    hm.appendChild(totalEl);
   });
 
   renderTweets(todayTweets);
@@ -406,6 +421,15 @@ ${topTweet ? `  最多讚（${(topTweet.likes||0).toLocaleString()} ❤️）：
     out.textContent = '分析失敗：' + e.message;
   }
   btn.disabled = false; btn.textContent = '立即分析';
+}
+
+// ── toggle mode ───────────────────────────────────────────────────────────────
+function toggleMode() {
+  showMode = showMode === 'original' ? 'all' : 'original';
+  const btn = document.getElementById('btn-mode');
+  btn.textContent = showMode === 'original' ? '原創' : '全部';
+  btn.style.color  = showMode === 'original' ? '#34d399' : '#f59e0b';
+  if (db) render();
 }
 
 // ── init ──────────────────────────────────────────────────────────────────────
