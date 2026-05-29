@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-05-29T12:22:55.365Z",
-  "total": 181,
+  "last_updated": "2026-05-29T16:50:01.949Z",
+  "total": 213,
   "by_date": {
     "2026-05-27": [
       {
@@ -1185,6 +1185,38 @@
         "likes": 0,
         "retweets": 0,
         "is_reply": false
+      },
+      {
+        "id": "2060000981279293440",
+        "text": "https://t.co/vMKmxAgHDM",
+        "created_at": "Thu May 28 14:11:21 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060074823229808935",
+        "text": "i know the solution to the AI benchmark problem but nobody is gonna like it\n\nit’s easy: just report test perplexity on uncontaminated high-quality code/lang/etc\n\nyou give me base model api. i run on my secret dataset. i give you test ppl. all evals are downstream of that. solved",
+        "created_at": "Thu May 28 19:04:46 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060144837157118307",
+        "text": "I interview dozens/hundreds of new grads, nearly every day of the year. These are people with a well-formatted resume and a Bachelor's Degree in Engineering from well-regarded US universities and a GPA above 3.6. The majority cannot engineer, cannot function independently, cannot",
+        "created_at": "Thu May 28 23:42:59 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060073035416187296",
+        "text": "POS should get the death penalty.",
+        "created_at": "Thu May 28 18:57:40 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
       }
     ],
     "2026-05-29": [
@@ -1456,6 +1488,230 @@
         "id": "2060296179502489684",
         "text": "@naval True",
         "created_at": "Fri May 29 09:44:22 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060360257906278909",
+        "text": "RT @ElonomyX: Elon Musk:\n\n“I don't think most people understand just how quickly machine intelligence is advancing. \n\nIt's much faster than…",
+        "created_at": "Fri May 29 13:58:59 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060357232441598138",
+        "text": "RT @CJHandmer: I interview dozens/hundreds of new grads, nearly every day of the year. These are people with a well-formatted resume and a…",
+        "created_at": "Fri May 29 13:46:58 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060354358080950691",
+        "text": "RT @cb_doge: \"When I started SpaceX, one of my friends got a compilation of rocket failures &amp; made me watch the whole thing. I knew the pro…",
+        "created_at": "Fri May 29 13:35:33 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060353838461202652",
+        "text": "RT @RupertLowe10: Please invite your local MP to our Rape Gang Inquiry parliamentary debate on Monday in Westminster Hall at 16.30.\n\nLet's…",
+        "created_at": "Fri May 29 13:33:29 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060352250006863880",
+        "text": "RT @XFreeze: Elon Musk explains the importance of Starlink and how it will increase GDPs of the countries\n\n“If you don’t have access to the…",
+        "created_at": "Fri May 29 13:27:10 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060349773937275006",
+        "text": "RT @frankwrighter: God bless Rupert Lowe, champion of our people. He will defend our children and save the nation.",
+        "created_at": "Fri May 29 13:17:20 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060349269362512335",
+        "text": "RT @visegrad24: “I can’t breathe” were the last words of Henry Nowak as he was handcuffed by British police while heavily bleeding. 🇬🇧💔 htt…",
+        "created_at": "Fri May 29 13:15:19 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060349039099469896",
+        "text": "RT @Tslachan: $TSLA 🇪🇪\nBREAKING : Tesla's FSD has been approved in Estonia. \n\nIt is the third largest European country after the Netherland…",
+        "created_at": "Fri May 29 13:14:25 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060348696160534935",
+        "text": "look, they had a nice run, killed hundreds of millions of people, but it's time to gene drive mosquitoes out of existence. fuck it, ticks too.",
+        "created_at": "Fri May 29 13:13:03 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060364732469559650",
+        "text": "@micsolana Yes",
+        "created_at": "Fri May 29 14:16:46 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060341658743411107",
+        "text": "I'm really struggling to understand why these people are not being MASS ARRESTED.\n\nI open X every day to discover Leftists committing crimes ON CAMERA...\n\n...yet, I never see HUNDREDS OF PEOPLE going to prison for these crimes\n\nWHERE ARE THE ARRESTS?!!!\nhttps://t.co/2VS8VuvPGr",
+        "created_at": "Fri May 29 12:45:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060364619856695309",
+        "text": "@mattvanswol Yes, arrest them all",
+        "created_at": "Fri May 29 14:16:19 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060326669206888907",
+        "text": "The police chose to believe the Sikh guy over the White guy because they are systemically racist against white people.",
+        "created_at": "Fri May 29 11:45:31 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060364440944390181",
+        "text": "@BasilTheGreat True",
+        "created_at": "Fri May 29 14:15:37 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060363948638031932",
+        "text": "@morganlinton Cool",
+        "created_at": "Fri May 29 14:13:39 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060360538656317675",
+        "text": "@willdepue Accurate",
+        "created_at": "Fri May 29 14:00:06 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060152754899927237",
+        "text": "Based. Now do it in RTL.",
+        "created_at": "Fri May 29 00:14:27 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060358224126025869",
+        "text": "@bubbleboi We might do some of that too",
+        "created_at": "Fri May 29 13:50:54 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060357266847469740",
+        "text": "@CJHandmer @garrytan Major problem",
+        "created_at": "Fri May 29 13:47:06 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060161463197552826",
+        "text": "When American POWs tried to sneak her notes with their personal information to tell their families they were still alive, she gave them to the North Vietnamese. Some of them were beaten to death. You are both commies and you can both fuck off.",
+        "created_at": "Fri May 29 00:49:03 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060354487412277655",
+        "text": "@KennedyNation Wow",
+        "created_at": "Fri May 29 13:36:03 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060257300707762179",
+        "text": "Here is an important thing to understand about rape and women feeling safe:\n\nThere are different types of rape. For many rape victims, the perpetrator is their partner. If we are looking at what especially makes it unsafe for women to be outside in public, the most important rape https://t.co/YmsNB3TQHE",
+        "created_at": "Fri May 29 07:09:52 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060354178942169217",
+        "text": "@jonatanpallesen Wow",
+        "created_at": "Fri May 29 13:34:50 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060353292085997837",
+        "text": "@GadSaad Yes",
+        "created_at": "Fri May 29 13:31:19 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060337909744480503",
+        "text": "SpaceX Reportedly Lowers IPO Valuation Target  https://t.co/MCNCjq5nLd",
+        "created_at": "Fri May 29 12:30:11 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060352319489806807",
+        "text": "@zerohedge False",
+        "created_at": "Fri May 29 13:27:27 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060321273733902816",
+        "text": "🚨 NEW: Mohammed Fahir Amaaz and Muhammad Amaad have been cleared over the alleged assault of a male police officer at Manchester Airport\n\nTwo juries failed to reach a verdict and no further trial will take place https://t.co/GnsjwyGJOu",
+        "created_at": "Fri May 29 11:24:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060348910837613035",
+        "text": "@PolitlcsUK @benhabib6 Wow",
+        "created_at": "Fri May 29 13:13:54 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
