@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-05-29T21:57:46.170Z",
-  "total": 224,
+  "last_updated": "2026-05-29T23:23:36.278Z",
+  "total": 227,
   "by_date": {
     "2026-05-27": [
       {
@@ -1800,6 +1800,30 @@
         "id": "2060453819079639173",
         "text": "@mattvanswol Weird",
         "created_at": "Fri May 29 20:10:46 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060487070729048239",
+        "text": "RT @wintonARK: On the remarkable return on capital potential for Starlink on Starship.\n\nIncluding customer acquisition cost, ground station…",
+        "created_at": "Fri May 29 22:22:54 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060487009890680906",
+        "text": "Both men said “I can’t breathe”, but only one man’s death was covered relentlessly by the media. \n\nThe only conclusion that can be drawn is that the legacy mainstream media is incredibly, hatefully racist against Whites.",
+        "created_at": "Fri May 29 22:22:39 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060483139374358651",
+        "text": "True",
+        "created_at": "Fri May 29 22:07:17 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
