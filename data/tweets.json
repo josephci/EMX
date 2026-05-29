@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-05-29T08:47:24.249Z",
-  "total": 178,
+  "last_updated": "2026-05-29T12:22:55.365Z",
+  "total": 181,
   "by_date": {
     "2026-05-27": [
       {
@@ -1432,6 +1432,30 @@
         "id": "2060247189574869013",
         "text": "@JeffBezos @zerohedge Ad astra per aspera",
         "created_at": "Fri May 29 06:29:42 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060301936688066891",
+        "text": "RT @XFreeze: Elon Musk on the physics of truth:\n\n“Truth is not an easy thing\n\nBut you can aspire to the truth. You can try to get as close…",
+        "created_at": "Fri May 29 10:07:14 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060286038854054375",
+        "text": "There are 10x engineers because there are 10x thinkers.",
+        "created_at": "Fri May 29 09:04:04 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060296179502489684",
+        "text": "@naval True",
+        "created_at": "Fri May 29 09:44:22 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
