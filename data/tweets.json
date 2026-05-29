@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-05-28T23:23:07.849Z",
-  "total": 138,
+  "last_updated": "2026-05-29T04:18:25.476Z",
+  "total": 148,
   "by_date": {
     "2026-05-27": [
       {
@@ -1110,6 +1110,88 @@
         "id": "2060133541837713718",
         "text": "RT @Starlink: Starlink has connected 167K @united flights and counting, delivering seamless internet gate to gate🛰️✈️",
         "created_at": "Thu May 28 22:58:06 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060141783632515383",
+        "text": "Cool!",
+        "created_at": "Thu May 28 23:30:51 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      }
+    ],
+    "2026-05-29": [
+      {
+        "id": "2060178857932804454",
+        "text": "RT @united: Starlink powers the world’s biggest satellite constellation in low Earth orbit. \n\nWhat does that mean for you? We're rolling ou…",
+        "created_at": "Fri May 29 01:58:10 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060176650973970881",
+        "text": "RT @C_3C_3: Release the Henry Nowak police body camera footage so people can see what real systemic racism looks like.\n\nThey let an innocen…",
+        "created_at": "Fri May 29 01:49:24 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060167696998867414",
+        "text": "Check out the daily Grok Build version updates at https://t.co/IEmPrWjlXq",
+        "created_at": "Fri May 29 01:13:49 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060172114796204539",
+        "text": "We experienced an anomaly during today's hotfire test. All personnel have been accounted for. We will provide updates as we learn more.",
+        "created_at": "Fri May 29 01:31:22 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060179096714563587",
+        "text": "@blueorigin @StephenClark1 Sorry to see this, I hope you recover quickly",
+        "created_at": "Fri May 29 01:59:07 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060165183377424617",
+        "text": "This week, I used Grok Build to make a personal website and also to build a 3D space chess game. Where you can actually play against AI. It's TONS of fun! What should I make next?\nYou can see the projects here: https://t.co/NTtG7EftoP",
+        "created_at": "Fri May 29 01:03:50 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060170250507952362",
+        "text": "@Chesschick01 Cool",
+        "created_at": "Fri May 29 01:23:58 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060167627637465508",
+        "text": "BREAKING:\n\nMassive explosion by Blue Origin's New Glenn rocket on a launchpad in Cape Canaveral, Florida\n\nMajor setback for Jeff Bezos https://t.co/qTOpDxGXLB",
+        "created_at": "Fri May 29 01:13:33 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060168861992022339",
+        "text": "@visegrad24 Most unfortunate. Rockets are hard.",
+        "created_at": "Fri May 29 01:18:27 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
