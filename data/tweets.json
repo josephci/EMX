@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-05-30T22:05:15.485Z",
-  "total": 277,
+  "last_updated": "2026-05-31T00:06:52.759Z",
+  "total": 282,
   "by_date": {
     "2026-05-27": [
       {
@@ -2226,6 +2226,46 @@
         "id": "2060794474633048087",
         "text": "@GadSaad @TheAliceSmith Death penalty",
         "created_at": "Sat May 30 18:44:25 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060695340198547640",
+        "text": "My son set me this. https://t.co/hzY44MQYEV",
+        "created_at": "Sat May 30 12:10:29 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060870291400655109",
+        "text": "@MrTCHarris https://t.co/RbRgxD7C06",
+        "created_at": "Sat May 30 23:45:41 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060795785810190740",
+        "text": "Why are Labour out to end trial by jury? https://t.co/L85389UaHW",
+        "created_at": "Sat May 30 18:49:37 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060846172730949713",
+        "text": "@TheAliceSmith Research what Lee Kuan Yew, Prime Minister of Singapore, concluded about jury trials.",
+        "created_at": "Sat May 30 22:09:50 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2060869250877702408",
+        "text": "@JaimeVelo @TheAliceSmith When a jury trial is no longer a trial by peers, judges are the less bad option",
+        "created_at": "Sat May 30 23:41:33 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
