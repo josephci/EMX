@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-05-31T18:08:33.002Z",
-  "total": 315,
+  "last_updated": "2026-05-31T20:16:39.261Z",
+  "total": 317,
   "by_date": {
     "2026-05-27": [
       {
@@ -2532,6 +2532,22 @@
         "id": "2061110383931191343",
         "text": "Interesting",
         "created_at": "Sun May 31 15:39:43 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2061078664658182646",
+        "text": "There is no magic soil.\nA nation is simply it's people.",
+        "created_at": "Sun May 31 13:33:41 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2061176975687925783",
+        "text": "@Geiger_Capital True",
+        "created_at": "Sun May 31 20:04:20 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
