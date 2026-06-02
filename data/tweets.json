@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-02T18:50:08.587Z",
-  "total": 463,
+  "last_updated": "2026-06-02T21:54:14.718Z",
+  "total": 464,
   "by_date": {
     "2026-05-27": [
       {
@@ -3720,6 +3720,14 @@
         "id": "2061876136871936205",
         "text": "@TodayinHistory So much was suppressed",
         "created_at": "Tue Jun 02 18:22:33 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2061884676688826729",
+        "text": "Unless you become the media, you will never know the truth",
+        "created_at": "Tue Jun 02 18:56:29 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
