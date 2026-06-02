@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-02T14:58:46.419Z",
-  "total": 459,
+  "last_updated": "2026-06-02T18:50:08.587Z",
+  "total": 463,
   "by_date": {
     "2026-05-27": [
       {
@@ -3688,6 +3688,38 @@
         "id": "2061805752952737984",
         "text": "@beffjezos The relevant metric",
         "created_at": "Tue Jun 02 13:42:52 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2061877311910392137",
+        "text": "RT @GadSaad: Some of the most unhinged hate that I receive comes from other academics.  The soldiers, the corrections officers, the trucker…",
+        "created_at": "Tue Jun 02 18:27:13 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2061876992514126153",
+        "text": "Did you know that official police policy requires them to be racist against Whites? It is deeply wrong and must change NOW.  https://t.co/ekLbHsRV1r",
+        "created_at": "Tue Jun 02 18:25:57 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2061822321967636731",
+        "text": "Seeing how the media has handled Henry Nowak, it makes me think how much we missed before Elon bought X.",
+        "created_at": "Tue Jun 02 14:48:43 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2061876136871936205",
+        "text": "@TodayinHistory So much was suppressed",
+        "created_at": "Tue Jun 02 18:22:33 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
