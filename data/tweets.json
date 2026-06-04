@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-04T17:48:26.928Z",
-  "total": 579,
+  "last_updated": "2026-06-04T20:13:10.312Z",
+  "total": 585,
   "by_date": {
     "2026-05-27": [
       {
@@ -4652,6 +4652,54 @@
         "id": "2062548455570985377",
         "text": "https://t.co/LRwFkKpB0x",
         "created_at": "Thu Jun 04 14:54:06 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2062614031546880033",
+        "text": "RT @BasilTheGreat: 🚨BREAKING: SPECIALIST DOCTOR SAYS HENRY NOWAK COULD HAVE LIVED IF NOT FOR POLICE\n\nIn summary:\n\n- Henry was alive when th…",
+        "created_at": "Thu Jun 04 19:14:41 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2062613724523864464",
+        "text": "This provides some sense of scale",
+        "created_at": "Thu Jun 04 19:13:28 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2062514147225382994",
+        "text": "it's inevitable that within the next couple of years you'll just be able to prompt grok with \n\"make an historically accurate movie of the Odyssey\"",
+        "created_at": "Thu Jun 04 12:37:47 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2062613867818025232",
+        "text": "@IterIntellectus 💯",
+        "created_at": "Thu Jun 04 19:14:02 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2062559623341563995",
+        "text": "\"It's very important not to politicise a personal tragedy.\" https://t.co/bICMsFxzyD",
+        "created_at": "Thu Jun 04 15:38:29 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2062613794883338659",
+        "text": "@KonstantinKisin 😑",
+        "created_at": "Thu Jun 04 19:13:44 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
