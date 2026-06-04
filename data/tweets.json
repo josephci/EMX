@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-04T14:08:32.124Z",
-  "total": 577,
+  "last_updated": "2026-06-04T17:48:26.928Z",
+  "total": 579,
   "by_date": {
     "2026-05-27": [
       {
@@ -4636,6 +4636,22 @@
         "id": "2062389001907249586",
         "text": "@pmarca I wonder who approved the purchase orders 😂",
         "created_at": "Thu Jun 04 04:20:30 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2062561362719498706",
+        "text": "Well said  https://t.co/ks2LNlMy4C",
+        "created_at": "Thu Jun 04 15:45:24 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2062548455570985377",
+        "text": "https://t.co/LRwFkKpB0x",
+        "created_at": "Thu Jun 04 14:54:06 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
