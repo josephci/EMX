@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-05T10:04:24.349Z",
-  "total": 656,
+  "last_updated": "2026-06-05T13:54:40.231Z",
+  "total": 658,
   "by_date": {
     "2026-05-27": [
       {
@@ -5270,6 +5270,22 @@
         "id": "2062792356823285785",
         "text": "@m_goes_distance Always has been",
         "created_at": "Fri Jun 05 07:03:17 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2062744307115712815",
+        "text": "Fun fact: Canada's new AI Strategy includes the word 'indigenous' over 6 times more than 'GPU'",
+        "created_at": "Fri Jun 05 03:52:21 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2062882877390332044",
+        "text": "@CarsonSCBradley @fentasyl They need some indigenous GPUs 😂",
+        "created_at": "Fri Jun 05 13:02:59 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
