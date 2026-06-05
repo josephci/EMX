@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-05T05:23:50.313Z",
-  "total": 650,
+  "last_updated": "2026-06-05T10:04:24.349Z",
+  "total": 656,
   "by_date": {
     "2026-05-27": [
       {
@@ -5015,6 +5015,14 @@
         "likes": 0,
         "retweets": 0,
         "is_reply": false
+      },
+      {
+        "id": "2062508340471570652",
+        "text": "just look at the timeline chad\n\n- demis hassabis, deepmind → isomorphic labs, $2.7B\n- brian, coinbase → newlimit, $3.1B\n- sama, openai → retro biosciences, $1.2B\n- jeff the chad from amazon → altos labs, $3B\n- larry, oracle → $430M into aging research\n- jensen from nvidia →",
+        "created_at": "Thu Jun 04 12:14:42 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
       }
     ],
     "2026-06-05": [
@@ -5222,6 +5230,46 @@
         "id": "2062742153894260937",
         "text": "@ericwdolan @curious_founder 😂\n\nBuildings are the easy part. Power, electrical equipment, networking and cooling are hard.",
         "created_at": "Fri Jun 05 03:43:48 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2062796377055187258",
+        "text": "29 more Starlink satellites. \n\nOver 10,000 in orbit now.",
+        "created_at": "Fri Jun 05 07:19:15 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2062796095764234421",
+        "text": "Grok supports worktrees",
+        "created_at": "Fri Jun 05 07:18:08 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2062795562265550876",
+        "text": "Grok Build updates",
+        "created_at": "Fri Jun 05 07:16:01 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2062795019551957383",
+        "text": "Grok model improvement",
+        "created_at": "Fri Jun 05 07:13:52 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2062792356823285785",
+        "text": "@m_goes_distance Always has been",
+        "created_at": "Fri Jun 05 07:03:17 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
