@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-06T16:12:47.122Z",
-  "total": 753,
+  "last_updated": "2026-06-06T18:13:23.866Z",
+  "total": 766,
   "by_date": {
     "2026-05-27": [
       {
@@ -6048,6 +6048,110 @@
         "id": "2063291058478321928",
         "text": "@EthanforMD Is this accurate? @grok",
         "created_at": "Sat Jun 06 16:04:57 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063296351417315635",
+        "text": "RT @Starlink: Starlink enables high-speed connectivity for field manufacturing teams 🛰️❤️",
+        "created_at": "Sat Jun 06 16:25:59 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063296176246427655",
+        "text": "India’s birth rate has fallen below replacement. \n\nAmong those most educated, India’s birth rate fell below replacement many years ago.",
+        "created_at": "Sat Jun 06 16:25:17 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063319114177990678",
+        "text": "Executions?",
+        "created_at": "Sat Jun 06 17:56:26 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063320619576418815",
+        "text": "@GadSaad Yes",
+        "created_at": "Sat Jun 06 18:02:25 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063280663516660028",
+        "text": "Many people forget that @elonmusk is a self-taught aerospace engineer.\n\nElon explains why he thought he was qualified to be the CTO of SpaceX:\n\n“I read a lot of books, and talked to a lot of smart people.”\n\nVia @60Minutes https://t.co/SbL5ZwnYgW",
+        "created_at": "Sat Jun 06 15:23:38 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063319907849093544",
+        "text": "@jawwwn_ @60Minutes I didn’t “think I was qualified”. There was no other choice. No one good would join a rocket startup as chief engineer that they thought was destined for failure.",
+        "created_at": "Sat Jun 06 17:59:35 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063320495047553401",
+        "text": "@jawwwn_ @60Minutes There is obviously no “degree” you can get from a university that actually teaches you how to make an orbital rocket, as none of the professors know how to do it!",
+        "created_at": "Sat Jun 06 18:01:55 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063153391153602789",
+        "text": "Wait. Google is paying SpaceX $920 million per month for GPUs?\n\nGoogle. The company that builds its own TPUs. That runs one of the largest cloud infrastructures on earth. Is renting 110,000 Nvidia GPUs from a rocket company.\n\nI'm honestly not sure what to make of this. Either",
+        "created_at": "Sat Jun 06 06:57:54 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063296591717421070",
+        "text": "@aaditsh Hardware is hard",
+        "created_at": "Sat Jun 06 16:26:56 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063165483772448809",
+        "text": "Ron Baron on the SpaceX opportunity.\n\n\"You can't own enough of the greatest idea you've ever had. That's the way I feel about SpaceX.\" https://t.co/fgrHTtkjcw",
+        "created_at": "Sat Jun 06 07:45:57 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063295634610806917",
+        "text": "@stevenmarkryan Ron is awesome",
+        "created_at": "Sat Jun 06 16:23:08 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063277474474020955",
+        "text": "@elonmusk Thank you @elonmusk for taking the leap to start this company and giving us all the opportunity to join the adventure!!!",
+        "created_at": "Sat Jun 06 15:10:58 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063294579760091519",
+        "text": "@TurkeyBeaver ❤️🚀",
+        "created_at": "Sat Jun 06 16:18:56 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
