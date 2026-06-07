@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-07T18:10:19.895Z",
-  "total": 835,
+  "last_updated": "2026-06-07T20:18:59.029Z",
+  "total": 838,
   "by_date": {
     "2026-05-27": [
       {
@@ -6706,6 +6706,30 @@
         "id": "2063599754819334433",
         "text": "@Inevitablewest True \nhttps://t.co/K26gx8cK34",
         "created_at": "Sun Jun 07 12:31:36 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063700290482622489",
+        "text": "RT @TheAliceSmith: A woke word you need to learn:\n\n“malinformation”\n\nInformation that is factually correct but politically damaging.\n\nIt pe…",
+        "created_at": "Sun Jun 07 19:11:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063694615060893821",
+        "text": "RT @USAttyEssayli: California Is Blocking a Federal Audit of Its Voter Rolls\n\nCalifornia allows first-time voters to register using forms o…",
+        "created_at": "Sun Jun 07 18:48:32 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063694559356272706",
+        "text": "RT @shaunmmaguire: It takes a conspiracy theorist \n\nTo believe California’s election is secure",
+        "created_at": "Sun Jun 07 18:48:19 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
