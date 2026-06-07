@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-07T00:11:56.418Z",
-  "total": 804,
+  "last_updated": "2026-06-07T05:43:51.002Z",
+  "total": 811,
   "by_date": {
     "2026-05-27": [
       {
@@ -6451,6 +6451,30 @@
         "likes": 0,
         "retweets": 0,
         "is_reply": false
+      },
+      {
+        "id": "2063394590032527401",
+        "text": "Oh  NYC, what have you done!",
+        "created_at": "Sat Jun 06 22:56:20 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063395885774434571",
+        "text": "The same country that put humans on the Moon in 1969 now takes an average of 4.5 years to approve major infrastructure permits.. longer than it took to build the Panama Canal. \n\nTransmission lines average 10 years from permitting to completion. The bottleneck to abundance is not",
+        "created_at": "Sat Jun 06 23:01:29 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063214320306008219",
+        "text": "COUPLE RAPED TORTURED AND MURDERED IN CRIME SO HORRIFIC POLICE OFFICERS NEEDED THERAPY AFTER DISCOVERING THE BODIES\n\nChannon Christian aged 21 and her boyfriend Christopher Newsom aged 23 were carjacked and kidnapped in Knoxville Tennessee on 6 January 2007 after leaving a dinner https://t.co/UMPFxw0Fnl",
+        "created_at": "Sat Jun 06 11:00:01 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
       }
     ],
     "2026-06-07": [
@@ -6458,6 +6482,38 @@
         "id": "2063412033266053340",
         "text": "Grep timeout issue fixed in latest Grok Build",
         "created_at": "Sun Jun 07 00:05:39 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063472771342950806",
+        "text": "RT @theskory: A super useful feature I like that we have in Grok Build: we load your .envrc and pass it straight into the agent’s shell env…",
+        "created_at": "Sun Jun 07 04:07:00 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063472390001053736",
+        "text": "@GadSaad Interesting",
+        "created_at": "Sun Jun 07 04:05:29 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063459215994130605",
+        "text": "@PeterDiamandis True",
+        "created_at": "Sun Jun 07 03:13:08 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063455083677860135",
+        "text": "@TheGriftReport @kevinnbass Wow",
+        "created_at": "Sun Jun 07 02:56:43 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
