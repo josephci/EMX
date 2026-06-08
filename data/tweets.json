@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-08T05:58:30.263Z",
-  "total": 878,
+  "last_updated": "2026-06-08T11:17:39.094Z",
+  "total": 879,
   "by_date": {
     "2026-05-27": [
       {
@@ -7052,6 +7052,14 @@
         "id": "2063796755787899220",
         "text": "@mazemoore @spencerpratt 😂",
         "created_at": "Mon Jun 08 01:34:24 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2063866701356089711",
+        "text": "Straits of Hormuz are named after Ahura Mazda from Zoroastrianism",
+        "created_at": "Mon Jun 08 06:12:21 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
