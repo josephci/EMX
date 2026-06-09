@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-09T19:22:03.187Z",
-  "total": 975,
+  "last_updated": "2026-06-09T21:53:49.940Z",
+  "total": 976,
   "by_date": {
     "2026-05-27": [
       {
@@ -7830,6 +7830,14 @@
         "id": "2064396876581912635",
         "text": "@DrewPavlou Yes",
         "created_at": "Tue Jun 09 17:19:04 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2064457520748339647",
+        "text": "Major improvement in safety statistics with FSD turned on in the Netherlands!",
+        "created_at": "Tue Jun 09 21:20:03 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
