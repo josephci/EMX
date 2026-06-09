@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-09T16:09:00.056Z",
-  "total": 969,
+  "last_updated": "2026-06-09T19:22:03.187Z",
+  "total": 975,
   "by_date": {
     "2026-05-27": [
       {
@@ -7782,6 +7782,54 @@
         "id": "2064354515936031131",
         "text": "@visegrad24 Happens so often",
         "created_at": "Tue Jun 09 14:30:45 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2064397078869008833",
+        "text": "RT @RupertLowe10: We must stop harbouring those who wish to decapitate children.\n\nA vast number of people need to be removed from our count…",
+        "created_at": "Tue Jun 09 17:19:52 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2064396888242049147",
+        "text": "RT @DrewPavlou: Just endless atrocities in Britain right now",
+        "created_at": "Tue Jun 09 17:19:07 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2064396773188059165",
+        "text": "RT @aelluswamy: - Netherlands\n- Lithuania \n- Estonia\n- Denmark",
+        "created_at": "Tue Jun 09 17:18:40 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2064396727344320767",
+        "text": "Only Restore Britain can save Britain. \n\nIt is the only way.",
+        "created_at": "Tue Jun 09 17:18:29 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2064279620900516224",
+        "text": "Just endless atrocities in Britain right now",
+        "created_at": "Tue Jun 09 09:33:08 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2064396876581912635",
+        "text": "@DrewPavlou Yes",
+        "created_at": "Tue Jun 09 17:19:04 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
