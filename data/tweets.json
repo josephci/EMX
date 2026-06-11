@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-11T21:26:42.134Z",
-  "total": 1130,
+  "last_updated": "2026-06-11T23:43:06.799Z",
+  "total": 1152,
   "by_date": {
     "2026-05-27": [
       {
@@ -9074,6 +9074,182 @@
         "id": "2065165293324779853",
         "text": "@chamath Interesting",
         "created_at": "Thu Jun 11 20:12:29 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065212776377725333",
+        "text": "RT @skscartoon: SpaceX IPO will create 4,400 new Millionaires, from engineers to Cafeteria workers.\n\nGod bless Capitalism https://t.co/RiBR…",
+        "created_at": "Thu Jun 11 23:21:10 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065212232850362403",
+        "text": "RT @xai: Use the @vercel plugin to deploy to production, spin up sandboxes, or build apps with Shadcn.",
+        "created_at": "Thu Jun 11 23:19:00 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065207067204288559",
+        "text": "Claude’s analysis of whether it knew this was just a game or not: https://t.co/h8FjUMVOLT",
+        "created_at": "Thu Jun 11 22:58:29 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065204452508704968",
+        "text": "RT @SpaceX: Teams are go for launch with a $135 price per share for the SpaceX IPO → https://t.co/HlsF4GxRbI",
+        "created_at": "Thu Jun 11 22:48:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065204397139787781",
+        "text": "RT @KobeissiLetter: This is absolutely insane:\n\nThe SpaceX IPO has now drawn more than $70 BILLION worth of retail orders alone.\n\nSpaceX is…",
+        "created_at": "Thu Jun 11 22:47:52 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065202249282768915",
+        "text": "Tesla FSD 14.3.4 rolling out now https://t.co/Lbtx2Yeo6i",
+        "created_at": "Thu Jun 11 22:39:20 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065201808947957879",
+        "text": "RT @Tesla: Belgium is the 5th European country to approve FSD Supervised",
+        "created_at": "Thu Jun 11 22:37:35 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065201740375265382",
+        "text": "RT @tesla_na: Come hang out with @Tesla_Optimus at Tesla Diner today\n\nThis special vessel is only available when Optimus is working a shift…",
+        "created_at": "Thu Jun 11 22:37:19 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065200848431464737",
+        "text": "Peter’s eternal optimism is cool",
+        "created_at": "Thu Jun 11 22:33:46 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065200677236691399",
+        "text": "Try it out",
+        "created_at": "Thu Jun 11 22:33:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065199921121079351",
+        "text": "RT @PeterDiamandis: ELON MUSK:\n“We’re going to have universal high income.\nWe’ll basically just issue money to people.\"\n\n\"AI and robots are…",
+        "created_at": "Thu Jun 11 22:30:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065199866997825962",
+        "text": "RT @Starlink: Starlink will deliver high-speed, reliable internet to @YeswayStores and @allsupsstores across the US, enabling connectivity…",
+        "created_at": "Thu Jun 11 22:29:52 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065166860690018704",
+        "text": "SpaceX Starbase: Helping Lift Brownsville Out of Poverty and Bring Wealth to Local Families\n\nFor many years, Brownsville and the Rio Grande Valley carried the difficult reputation of being among the poorest regions in the United States. High poverty rates shaped daily life for https://t.co/4tO4goBbpy",
+        "created_at": "Thu Jun 11 20:18:43 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065212887220555790",
+        "text": "@gailalfaratx Cool",
+        "created_at": "Thu Jun 11 23:21:36 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065188479005298771",
+        "text": "Is something happening tomorrow?",
+        "created_at": "Thu Jun 11 21:44:37 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065206288598847648",
+        "text": "@cstanley 😂",
+        "created_at": "Thu Jun 11 22:55:23 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2064907897373642912",
+        "text": "Fable 5 lies 96% of the time.\n\nWe were surprised by it's skill... 🧵 https://t.co/YtsLo9sW6j",
+        "created_at": "Thu Jun 11 03:09:41 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065167100474269765",
+        "text": "@kradleai The game is literally structured around deception, this just means fable 5 is better at playing the game, not that it's less truthful.\n\nIt's like asking a model to play poker and saying it's not honest because it bluffed.",
+        "created_at": "Thu Jun 11 20:19:40 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065205268833517771",
+        "text": "@iltenahmet @kradleai Hmm ok",
+        "created_at": "Thu Jun 11 22:51:20 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065140667831943471",
+        "text": "A giant inflatable Elon Musk popped up in Times Square and its origins are so far unknown. @JaredOchacher went there to try and get answers. #newyork https://t.co/yBFHY6f7Z5",
+        "created_at": "Thu Jun 11 18:34:38 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065170365391749407",
+        "text": "@CBSNews @JaredOchacher So these kinds of things are expected to happen more often because of the SpaceX IPO, and you should be ashamed because you’re promoting it, I don’t suppose you also enjoyed the negative spin article from yesterday by Reuters?",
+        "created_at": "Thu Jun 11 20:32:38 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065201028308340996",
+        "text": "@gailalfaratx @CBSNews @JaredOchacher This is so dumb, because what they’re claiming is totally false",
+        "created_at": "Thu Jun 11 22:34:29 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
