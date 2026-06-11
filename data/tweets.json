@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-10T22:10:32.562Z",
-  "total": 1040,
+  "last_updated": "2026-06-11T00:22:44.246Z",
+  "total": 1041,
   "by_date": {
     "2026-05-27": [
       {
@@ -8352,6 +8352,16 @@
         "id": "2064820925103472696",
         "text": "@TRobinsonNewEra Yes, they have",
         "created_at": "Wed Jun 10 21:24:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      }
+    ],
+    "2026-06-11": [
+      {
+        "id": "2064860984842285340",
+        "text": "RT @KingBobIIV: Since Blair - 30 years ago - people voted against mass immigration. \n\nEvery election, they got up, got dressed, found a pil…",
+        "created_at": "Thu Jun 11 00:03:16 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
