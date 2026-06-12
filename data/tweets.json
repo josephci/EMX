@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-12T19:12:26.507Z",
-  "total": 1184,
+  "last_updated": "2026-06-12T21:56:03.063Z",
+  "total": 1185,
   "by_date": {
     "2026-05-27": [
       {
@@ -9508,6 +9508,14 @@
         "id": "2065484792964010167",
         "text": "@greg16676935420 😂",
         "created_at": "Fri Jun 12 17:22:04 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065547393974636647",
+        "text": "Looking forward to taking our exciting partnership with Nvidia to the next-level",
+        "created_at": "Fri Jun 12 21:30:49 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
