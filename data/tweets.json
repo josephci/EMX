@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-13T20:21:35.863Z",
-  "total": 1213,
+  "last_updated": "2026-06-13T22:12:02.630Z",
+  "total": 1215,
   "by_date": {
     "2026-05-27": [
       {
@@ -9742,6 +9742,22 @@
         "id": "2065704199531155560",
         "text": "@kunal_twts 😂",
         "created_at": "Sat Jun 13 07:53:54 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065858457916391803",
+        "text": "🚨NEWS: It has been reported that Stephen Ogilvie, the man attacked by a migrant in Belfast has sadly lost sight in both eyes https://t.co/Xy9DGufNJX",
+        "created_at": "Sat Jun 13 18:06:52 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065911856523288917",
+        "text": "@BasilTheGreat Terrible",
+        "created_at": "Sat Jun 13 21:39:04 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
