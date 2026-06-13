@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-13T04:25:37.886Z",
-  "total": 1206,
+  "last_updated": "2026-06-13T08:27:30.516Z",
+  "total": 1213,
   "by_date": {
     "2026-05-27": [
       {
@@ -9559,6 +9559,14 @@
         "likes": 0,
         "retweets": 0,
         "is_reply": false
+      },
+      {
+        "id": "2065351999416361216",
+        "text": "At this rate, Elon Musk is making Tony Stark look underfunded. https://t.co/0kpTEcCZes",
+        "created_at": "Fri Jun 12 08:34:23 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
       }
     ],
     "2026-06-13": [
@@ -9686,6 +9694,54 @@
         "id": "2065588069403705397",
         "text": "@karpathy ❤️",
         "created_at": "Sat Jun 13 00:12:27 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065705276334833951",
+        "text": "Within ~5 years, probably ~5 times as many satellites as rest of world",
+        "created_at": "Sat Jun 13 07:58:11 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065704666076152173",
+        "text": "RT @yunta_tsai: When most companies' opening remarks during their IPOs were about profit, today it hits something different.\n\nIt is hope.…",
+        "created_at": "Sat Jun 13 07:55:45 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065702920427896916",
+        "text": "Starship is a very big rocket",
+        "created_at": "Sat Jun 13 07:48:49 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065653127487906011",
+        "text": "AUSTIN MAN climbed onto a sleeping woman's bed, claimed he had a gun, and strangled her until she nearly blacked out. She gouged his eye and beat him with a fan to get him off her.\n\nIt was the third West Campus apartment Octavius Brown broke into that morning. In the other two, https://t.co/ULpQaNgs9G",
+        "created_at": "Sat Jun 13 04:30:58 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065706985878675838",
+        "text": "@AustinJustice !!",
+        "created_at": "Sat Jun 13 08:04:59 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2065704199531155560",
+        "text": "@kunal_twts 😂",
+        "created_at": "Sat Jun 13 07:53:54 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
