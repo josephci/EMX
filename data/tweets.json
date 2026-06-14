@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-14T15:10:57.487Z",
-  "total": 1230,
+  "last_updated": "2026-06-14T17:26:13.369Z",
+  "total": 1234,
   "by_date": {
     "2026-05-27": [
       {
@@ -9880,6 +9880,38 @@
         "id": "2066162155502583872",
         "text": "RT @boringcompany: Tunneling in 3 geologies in 3 cities - Las Vegas clay/caliche, Nashville limestone, and Bastrop sandy clay https://t.co/…",
         "created_at": "Sun Jun 14 14:13:39 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2066124279448559907",
+        "text": "How to Earn a Billion Dollars: https://t.co/WeWBUkKym6",
+        "created_at": "Sun Jun 14 11:43:09 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2066198978480185376",
+        "text": "@paulg 🤔",
+        "created_at": "Sun Jun 14 16:39:59 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2066197971616551109",
+        "text": "Interesting",
+        "created_at": "Sun Jun 14 16:35:59 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2066196905151864967",
+        "text": "Wow",
+        "created_at": "Sun Jun 14 16:31:44 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
