@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-14T12:04:05.008Z",
-  "total": 1229,
+  "last_updated": "2026-06-14T15:10:57.487Z",
+  "total": 1230,
   "by_date": {
     "2026-05-27": [
       {
@@ -9872,6 +9872,14 @@
         "id": "2066082075468263701",
         "text": "@JohnCleese He used words that the pro-stabbing politicians didn’t like",
         "created_at": "Sun Jun 14 08:55:27 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2066162155502583872",
+        "text": "RT @boringcompany: Tunneling in 3 geologies in 3 cities - Las Vegas clay/caliche, Nashville limestone, and Bastrop sandy clay https://t.co/…",
+        "created_at": "Sun Jun 14 14:13:39 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
