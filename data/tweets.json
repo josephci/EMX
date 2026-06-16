@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-16T21:12:14.685Z",
-  "total": 1390,
+  "last_updated": "2026-06-16T23:40:19.008Z",
+  "total": 1397,
   "by_date": {
     "2026-05-27": [
       {
@@ -11164,6 +11164,62 @@
         "id": "2066889576606839268",
         "text": "@IterIntellectus Yes",
         "created_at": "Tue Jun 16 14:24:10 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067027773764620646",
+        "text": "https://t.co/yoplqLmc06",
+        "created_at": "Tue Jun 16 23:33:19 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067016526516138023",
+        "text": "RT @Starlink: Starlink Mobile is now providing data in Ukraine with @TwiyKyivstar @VeonGroup, enabling millions of people to stay connected…",
+        "created_at": "Tue Jun 16 22:48:37 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067016413961916731",
+        "text": "RT @SpaceX: Separation confirmed! Dragon is performing four departure burns to move away from the @Space_Station. Splashdown in ~20 hours o…",
+        "created_at": "Tue Jun 16 22:48:11 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067000194504466906",
+        "text": "RT @Rothmus: At least 250,000 white British girls have been groomed, raped, and brutalized.\n\nOut of 4.2 million white British girls under 1…",
+        "created_at": "Tue Jun 16 21:43:44 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067000103987253555",
+        "text": "RT @pmarca: (1) What",
+        "created_at": "Tue Jun 16 21:43:22 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2066915418002870274",
+        "text": "We need to make the Nuremberg Trials look like a picnic. No one involved must escape the death penalty. \n\nHeads must roll. https://t.co/jbE8bq6YC9",
+        "created_at": "Tue Jun 16 16:06:51 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067016624964861956",
+        "text": "@ZoomerHistorian Yes",
+        "created_at": "Tue Jun 16 22:49:01 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
