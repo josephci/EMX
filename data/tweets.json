@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-17T09:56:31.270Z",
-  "total": 1427,
+  "last_updated": "2026-06-17T13:50:41.701Z",
+  "total": 1433,
   "by_date": {
     "2026-05-27": [
       {
@@ -11247,6 +11247,14 @@
         "likes": 0,
         "retweets": 0,
         "is_reply": false
+      },
+      {
+        "id": "2066939182904131652",
+        "text": "O’KEEFE INFILTRATES NJ ANTIFA: Inside “NJ BURN” — Rutgers University Director, T-Mobile AI Leaders, OpenAI /ChatGPT Engineer, Reverend From Princeton Theological Seminary, and ACLU Board Member Discuss Port Newark–Elizabeth Blockade Riot, Road Spikes, Tire-Slashing of New Jersey https://t.co/hA13VMIo9R",
+        "created_at": "Tue Jun 16 17:41:17 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
       }
     ],
     "2026-06-17": [
@@ -11462,6 +11470,46 @@
         "id": "2067125751116415385",
         "text": "@TRHLofficial That is what happened",
         "created_at": "Wed Jun 17 06:02:39 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067208746720518146",
+        "text": "RT @PeterDiamandis: We are the first generation that can credibly plan to become a multi-planetary species, and possibly the last that gets…",
+        "created_at": "Wed Jun 17 11:32:26 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067207358829531284",
+        "text": "RT @tetsuoai: Grok is now inside PowerPoint, Word, and Excel. Each gets an agent in the sidebar that builds the deck, sheet, or doc from a…",
+        "created_at": "Wed Jun 17 11:26:55 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067207305503101025",
+        "text": "Full movies by the end of this year",
+        "created_at": "Wed Jun 17 11:26:43 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067202805027488116",
+        "text": "RT @JamesOKeefeIII: O’KEEFE INFILTRATES NJ ANTIFA: Inside “NJ BURN” — Rutgers University Director, T-Mobile AI Leaders, OpenAI /ChatGPT Eng…",
+        "created_at": "Wed Jun 17 11:08:50 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067202868546040017",
+        "text": "@JamesOKeefeIII Hmm",
+        "created_at": "Wed Jun 17 11:09:05 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
