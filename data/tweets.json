@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-17T20:23:31.420Z",
-  "total": 1454,
+  "last_updated": "2026-06-17T22:48:17.510Z",
+  "total": 1459,
   "by_date": {
     "2026-05-27": [
       {
@@ -11678,6 +11678,46 @@
         "id": "2067310617648931258",
         "text": "@Sargon_of_Akkad It’s over already",
         "created_at": "Wed Jun 17 18:17:14 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067377229605310921",
+        "text": "RT @t_blom: I’m astonished more people aren’t raving about Tesla’s full self driving.\n\nI no longer need to drive my car.\n\nThe only time I t…",
+        "created_at": "Wed Jun 17 22:41:56 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067378039483457560",
+        "text": "@MarcusGustavus Should not be limited. Looking into it.",
+        "created_at": "Wed Jun 17 22:45:09 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067314339099398590",
+        "text": "I’m astonished more people aren’t raving about Tesla’s full self driving.\n\nI no longer need to drive my car.\n\nThe only time I take control is to back into my garage because it’s down an awkward ramp. https://t.co/PYr1ayQXkt",
+        "created_at": "Wed Jun 17 18:32:01 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067377176287318326",
+        "text": "@t_blom Upcoming releases of FSD will remember your parking preferences, so that the car goes to the right location at your home, office, school drop off, etc.\n\nDestination parking is by far the biggest reason people now intervene with FSD. Critical safety interventions are extremely",
+        "created_at": "Wed Jun 17 22:41:43 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067375616845037882",
+        "text": "@JonSutz @JTLonsdale @nypost Exactly",
+        "created_at": "Wed Jun 17 22:35:31 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
