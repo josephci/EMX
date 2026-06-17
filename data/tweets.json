@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-17T13:50:41.701Z",
-  "total": 1433,
+  "last_updated": "2026-06-17T17:12:16.221Z",
+  "total": 1436,
   "by_date": {
     "2026-05-27": [
       {
@@ -11510,6 +11510,30 @@
         "id": "2067202868546040017",
         "text": "@JamesOKeefeIII Hmm",
         "created_at": "Wed Jun 17 11:09:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067291949317673361",
+        "text": "Grok Imagine 1.5 https://t.co/05qu8zFMrF",
+        "created_at": "Wed Jun 17 17:03:03 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067291246817894584",
+        "text": "RT @cb_doge: BREAKING: Iraq has approved Starlink’s operating license, clearing the way for its satellite internet service to enter the cou…",
+        "created_at": "Wed Jun 17 17:00:16 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067290524206453099",
+        "text": "And improving rapidly with real-time access to 𝕏",
+        "created_at": "Wed Jun 17 16:57:24 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
