@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-18T18:30:17.770Z",
-  "total": 1521,
+  "last_updated": "2026-06-18T21:24:44.533Z",
+  "total": 1525,
   "by_date": {
     "2026-05-27": [
       {
@@ -11785,6 +11785,14 @@
         "likes": 0,
         "retweets": 0,
         "is_reply": false
+      },
+      {
+        "id": "2067349172920176659",
+        "text": "Liberal women don't even say anything, they just look at you like this and expect you to allow Western civilization to collapse. https://t.co/gtwziCXodu",
+        "created_at": "Wed Jun 17 20:50:26 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
       }
     ],
     "2026-06-18": [
@@ -12216,6 +12224,30 @@
         "id": "2067646319615746303",
         "text": "@skscartoon Vastly bigger",
         "created_at": "Thu Jun 18 16:31:12 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067636692794875923",
+        "text": "Bernie Sanders introduced a bill to seize 50% of any AI startup that crosses $200M in revenue. \n\nThe same anti-prosperity bloc spent the year trying to ban startup acquisitions, blocking the only exit 85% of founders ever get. \n\nThis is a war on building startups in America. https://t.co/zwYL1wlLHO",
+        "created_at": "Thu Jun 18 15:52:57 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067704225279140320",
+        "text": "@garrytan Bernie takes his communism seriously",
+        "created_at": "Thu Jun 18 20:21:18 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067703220596547938",
+        "text": "@MattMorseTV Ostracize them",
+        "created_at": "Thu Jun 18 20:17:18 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
