@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-17T22:48:17.510Z",
-  "total": 1459,
+  "last_updated": "2026-06-18T00:20:58.723Z",
+  "total": 1463,
   "by_date": {
     "2026-05-27": [
       {
@@ -11718,6 +11718,38 @@
         "id": "2067375616845037882",
         "text": "@JonSutz @JTLonsdale @nypost Exactly",
         "created_at": "Wed Jun 17 22:35:31 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067381098653581493",
+        "text": "RT @Starlink: Starlink is connecting 100,000 students and 1,500 teachers in Malawi across 30 rural schools to online learning resources. Fo…",
+        "created_at": "Wed Jun 17 22:57:18 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067231983965487491",
+        "text": "Rape gangs are not some kind of aberration. Ask any combat veteran what they saw in Afghanistan. The sexual torture and slavery of children is utterly commonplace in Muslim countries. It’s part of their “culture.” Which is why it’s suicidal to import that culture into the west.",
+        "created_at": "Wed Jun 17 13:04:46 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067380992550273123",
+        "text": "@MattWalshBlog I have heard this from many combat vets who witnessed horrific child rape in Afghanistan and were ordered not to intervene",
+        "created_at": "Wed Jun 17 22:56:53 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067380423525863683",
+        "text": "@MartinSellner_ !!",
+        "created_at": "Wed Jun 17 22:54:37 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
