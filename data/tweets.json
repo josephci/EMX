@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-18T21:24:44.533Z",
-  "total": 1525,
+  "last_updated": "2026-06-18T23:51:00.048Z",
+  "total": 1527,
   "by_date": {
     "2026-05-27": [
       {
@@ -12248,6 +12248,22 @@
         "id": "2067703220596547938",
         "text": "@MattMorseTV Ostracize them",
         "created_at": "Thu Jun 18 20:17:18 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067642712560689401",
+        "text": "🚨 WOW! JD Vance is DIRECTLY calling out Israeli cabinet members for their personal attacks on President Trump\n\n\"Donald J. Trump is the ONLY head of state in the ENTIRE WORLD who is sympathetic to the nation of Israel at this moment in time, and he happens to be the head of state https://t.co/0H9yGH8ubL",
+        "created_at": "Thu Jun 18 16:16:52 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067746957519417535",
+        "text": "@nicksortor Valid points",
+        "created_at": "Thu Jun 18 23:11:06 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
