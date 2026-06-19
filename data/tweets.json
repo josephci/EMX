@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-19T19:57:16.650Z",
-  "total": 1597,
+  "last_updated": "2026-06-19T21:16:44.111Z",
+  "total": 1601,
   "by_date": {
     "2026-05-27": [
       {
@@ -12826,6 +12826,38 @@
         "id": "2068041849722249568",
         "text": "RT @dogeofficialceo: So let me get this straight: in the UK, a 15-year-old can’t be trusted with social media, but an 11-year-old can be tr…",
         "created_at": "Fri Jun 19 18:42:53 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068061640445018493",
+        "text": "RT @TheAliceSmith: @elonmusk @deafneanderthal Well, it worked with Charlie Kirk, didn’t it?",
+        "created_at": "Fri Jun 19 20:01:32 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068061442968793284",
+        "text": "RT @RandPaul: On her way out, @TulsiGabbard  dropped bombshell documents proving Dr. Fauci colluded with a politicized intel community to b…",
+        "created_at": "Fri Jun 19 20:00:45 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068048438814507054",
+        "text": "@elonmusk @deafneanderthal Well, it worked with Charlie Kirk, didn’t it?",
+        "created_at": "Fri Jun 19 19:09:04 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068061603715563946",
+        "text": "@TheAliceSmith @deafneanderthal Yes",
+        "created_at": "Fri Jun 19 20:01:23 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
