@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-19T05:05:48.318Z",
-  "total": 1571,
+  "last_updated": "2026-06-19T10:49:29.757Z",
+  "total": 1581,
   "by_date": {
     "2026-05-27": [
       {
@@ -12363,6 +12363,22 @@
         "likes": 0,
         "retweets": 0,
         "is_reply": false
+      },
+      {
+        "id": "2067675437891993910",
+        "text": "San Francisco VCs doing their Midjourney body scans. https://t.co/BDCEihhK1j",
+        "created_at": "Thu Jun 18 18:26:54 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067455865582489657",
+        "text": "When did “racist” become worse than “rapist”?",
+        "created_at": "Thu Jun 18 03:54:24 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
       }
     ],
     "2026-06-19": [
@@ -12618,6 +12634,70 @@
         "id": "2067780878428729470",
         "text": "@aaronburnett 💯😂",
         "created_at": "Fri Jun 19 01:25:53 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067842478279901271",
+        "text": "RT @elonmusk: @PseudoMnemonic It has been so long since the hobbits faced real danger in the Shire that they have forgotten how to defend t…",
+        "created_at": "Fri Jun 19 05:30:40 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067842288747769930",
+        "text": "RT @XFreeze: Here’s everything you need to know about Grok Build’s changelog since release\n\nGrok Build is moving fast from a coding CLI int…",
+        "created_at": "Fri Jun 19 05:29:54 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067799139241361730",
+        "text": "The World Cup has turned America into a discovery channel for the rest of the world.\n\nAnd they are not handling it well.\nIn the best possible way.\n\nHere is what they are discovering:\n\nFree public restrooms. Europeans pay every time.\nFree water at every restaurant. Just appears.",
+        "created_at": "Fri Jun 19 02:38:27 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067857493464600707",
+        "text": "@Selene_Mariposa 😂\n\nHEB does have a great vibe",
+        "created_at": "Fri Jun 19 06:30:20 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067848394865823856",
+        "text": "@AutismCapital 😂",
+        "created_at": "Fri Jun 19 05:54:10 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067842716742889857",
+        "text": "@StefanMolyneux Good question",
+        "created_at": "Fri Jun 19 05:31:36 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067810183770997166",
+        "text": "Big props to Asmongold for spending 8 hours reading the UK Rape Gang Inquiry Report in front of 40,000 people. \n\nFinally, people are waking up.",
+        "created_at": "Fri Jun 19 03:22:20 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2067842113509662852",
+        "text": "@MattMorseTV Good for him",
+        "created_at": "Fri Jun 19 05:29:13 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
