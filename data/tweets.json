@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-19T23:05:23.646Z",
-  "total": 1601,
+  "last_updated": "2026-06-20T04:18:24.537Z",
+  "total": 1607,
   "by_date": {
     "2026-05-27": [
       {
@@ -12858,6 +12858,56 @@
         "id": "2068061603715563946",
         "text": "@TheAliceSmith @deafneanderthal Yes",
         "created_at": "Fri Jun 19 20:01:23 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068039862691790852",
+        "text": "\"He's a genius... what he's doing is extraordinary!\"\n\nPiers Morgan asks Andrew Ross Sorkin whether Elon Musk is a \"force for good\".\n\n📺https://t.co/zpzxpvZc5d\n\n@piersmorgan | @andrewrsorkin https://t.co/q4D2i7d2ry",
+        "created_at": "Fri Jun 19 18:35:00 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068040333041012962",
+        "text": "🚨The first openly transgender person elected to a US state legislature has been sentenced to 33 years in prison for child sexual exploitation.\n\nStacie Marie Laughton's defense had argued for a lower sentence on the basis of his possible \"retardation.\"\n\nhttps://t.co/Ak4eMzwJAk",
+        "created_at": "Fri Jun 19 18:36:52 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      }
+    ],
+    "2026-06-20": [
+      {
+        "id": "2068130579757859247",
+        "text": "Starlink in Lesotho! 🇱🇸",
+        "created_at": "Sat Jun 20 00:35:28 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068130332478500926",
+        "text": "RT @LordoftheDanged: You want me to be mad that 250,000 British girls were raped by brown invaders. But I want to know why the same outrage…",
+        "created_at": "Sat Jun 20 00:34:29 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068129677344931932",
+        "text": "@PiersUncensored @piersmorgan @andrewrsorkin Free speech within the bounds of the law is what’s right",
+        "created_at": "Sat Jun 20 00:31:53 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068128373134471390",
+        "text": "@reduxx Keeps happening",
+        "created_at": "Sat Jun 20 00:26:42 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
