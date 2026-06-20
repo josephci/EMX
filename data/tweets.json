@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-20T14:20:05.555Z",
-  "total": 1633,
+  "last_updated": "2026-06-20T16:25:04.817Z",
+  "total": 1639,
   "by_date": {
     "2026-05-27": [
       {
@@ -13116,6 +13116,54 @@
         "id": "2068254877902426139",
         "text": "@jayplemons @gjurvetson True",
         "created_at": "Sat Jun 20 08:49:23 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068369339649061082",
+        "text": "RT @Alice_Weidel: Same here.",
+        "created_at": "Sat Jun 20 16:24:13 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068274797016973385",
+        "text": "Same here.",
+        "created_at": "Sat Jun 20 10:08:32 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068369444049416349",
+        "text": "@Alice_Weidel Shame on them",
+        "created_at": "Sat Jun 20 16:24:38 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068124899806413284",
+        "text": "Every account mentioned (yours included) posts only the lowest tier slop striving for cents from recycled content . Good riddance",
+        "created_at": "Sat Jun 20 00:12:54 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068355267247673799",
+        "text": "@elkelk He brings incredible insights to the Timeline. X can definitely monetize this with ads. https://t.co/xj1rLShOxS",
+        "created_at": "Sat Jun 20 15:28:18 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068368927403422193",
+        "text": "@nikitabier @elkelk That’s a tough sell to advertisers 😂",
+        "created_at": "Sat Jun 20 16:22:35 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
