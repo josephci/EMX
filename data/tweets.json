@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-21T13:12:10.307Z",
-  "total": 1694,
+  "last_updated": "2026-06-21T15:59:40.488Z",
+  "total": 1697,
   "by_date": {
     "2026-05-27": [
       {
@@ -13606,6 +13606,30 @@
         "id": "2068579983182696529",
         "text": "@MilkRoadAI Kurzweil was pretty accurate",
         "created_at": "Sun Jun 21 06:21:15 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068722935553032543",
+        "text": "Happy Father’s Day!",
+        "created_at": "Sun Jun 21 15:49:17 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068722870671364234",
+        "text": "RT @NASAAdmin: Happy Father’s Day to all the dads and grandfathers out there helping inspire and prepare the explorers, builders, and dream…",
+        "created_at": "Sun Jun 21 15:49:02 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068714093683388784",
+        "text": "RT @EricLDaugh: 🚨 LMAO!! JD VANCE: \"Joy Behar is way tougher than the Iranians — and she and I are best friends now!\"\n\n\"I've seen some prog…",
+        "created_at": "Sun Jun 21 15:14:09 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
