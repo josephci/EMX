@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-21T00:15:39.904Z",
-  "total": 1676,
+  "last_updated": "2026-06-21T06:09:28.100Z",
+  "total": 1684,
   "by_date": {
     "2026-05-27": [
       {
@@ -13460,6 +13460,72 @@
         "id": "2068437762684891576",
         "text": "@_KarenTucker @TheBritLad https://t.co/WvqMYityl5",
         "created_at": "Sat Jun 20 20:56:06 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068483947659456729",
+        "text": "The socialist view of economics is based on a mixture of DuckTales and Monopoly.",
+        "created_at": "Sat Jun 20 23:59:38 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068443453277839732",
+        "text": "Every day I see something I am convinced I hallucinated.",
+        "created_at": "Sat Jun 20 21:18:43 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      }
+    ],
+    "2026-06-21": [
+      {
+        "id": "2068576960775627207",
+        "text": "RT @Tectone: 2 hours of a white man committing non life threatening crime being committed in UK \n\n&gt; Country wide mainstream news coverage…",
+        "created_at": "Sun Jun 21 06:09:14 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068576812213350537",
+        "text": "RT @SethDillon: Toxic empathy looks at these stats and says, \"Let's give them all another chance.\" https://t.co/Cnnw1px8pN",
+        "created_at": "Sun Jun 21 06:08:38 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068520218389860441",
+        "text": "https://t.co/Bu5hwCfMM1",
+        "created_at": "Sun Jun 21 02:23:45 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068499534431264988",
+        "text": "Yes",
+        "created_at": "Sun Jun 21 01:01:34 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068519880857460945",
+        "text": "@TheAliceSmith 😂",
+        "created_at": "Sun Jun 21 02:22:25 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068514976340299839",
+        "text": "@pmarca @DrewPavlou 😂💯",
+        "created_at": "Sun Jun 21 02:02:56 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
