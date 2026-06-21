@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-21T17:48:10.745Z",
-  "total": 1725,
+  "last_updated": "2026-06-21T19:53:53.651Z",
+  "total": 1728,
   "by_date": {
     "2026-05-27": [
       {
@@ -13854,6 +13854,30 @@
         "id": "2068732018603565539",
         "text": "@Kristennetten They’re taking my comments out of context. I’m just saying that they need to create reusable rockets or they will cease to exist in any meaningful sense.",
         "created_at": "Sun Jun 21 16:25:23 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068754172925591955",
+        "text": "https://t.co/dvPaVOrKd6",
+        "created_at": "Sun Jun 21 17:53:25 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068757120460497114",
+        "text": "How’s your Father’s Day going? Mine is fixing a burst pipe. Very fitting.",
+        "created_at": "Sun Jun 21 18:05:07 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2068757798167482573",
+        "text": "@yunta_tsai Nice 😂",
+        "created_at": "Sun Jun 21 18:07:49 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
