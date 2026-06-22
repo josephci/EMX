@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-22T20:57:20.940Z",
-  "total": 1821,
+  "last_updated": "2026-06-22T22:51:58.030Z",
+  "total": 1824,
   "by_date": {
     "2026-05-27": [
       {
@@ -14624,6 +14624,30 @@
         "id": "2069158709402411101",
         "text": "@MikeBenzCyber @DataRepublican Yeah",
         "created_at": "Mon Jun 22 20:40:54 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069186826808463758",
+        "text": "RT @XFreeze: The new /goal command in Grok Build is a huge update\n\nUntil now, most coding agents have worked like enhanced chatbots\n\nYou as…",
+        "created_at": "Mon Jun 22 22:32:37 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069186741966135365",
+        "text": "RT @aelluswamy: @elonmusk @kylaschwaberow Yup. In this case, the driver manually overrode self-driving by pressing the accelerator all the…",
+        "created_at": "Mon Jun 22 22:32:17 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069164556195115171",
+        "text": "RT @JOBhakdi: Elon just sued German state TV for extreme lies.\n\nHe and his very good German attorney scored a quick win and are continuing.…",
+        "created_at": "Mon Jun 22 21:04:08 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
