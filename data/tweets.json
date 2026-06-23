@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-23T21:03:08.839Z",
-  "total": 1914,
+  "last_updated": "2026-06-23T23:13:20.636Z",
+  "total": 1916,
   "by_date": {
     "2026-05-27": [
       {
@@ -15370,6 +15370,22 @@
         "id": "2069502657740603515",
         "text": "@Milajoy I was just a few tables away. The roast is supposed to be of the President, not those honoring the President.",
         "created_at": "Tue Jun 23 19:27:37 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069535856491483484",
+        "text": "True",
+        "created_at": "Tue Jun 23 21:39:32 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069535601892987275",
+        "text": "Starlink coming to @AmericanAir next year!",
+        "created_at": "Tue Jun 23 21:38:32 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
