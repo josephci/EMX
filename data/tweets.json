@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-24T19:56:16.144Z",
-  "total": 1967,
+  "last_updated": "2026-06-24T21:38:33.621Z",
+  "total": 1977,
   "by_date": {
     "2026-05-27": [
       {
@@ -15796,6 +15796,86 @@
         "id": "2069845043050156418",
         "text": "@kevinnbass @willchamberlain True",
         "created_at": "Wed Jun 24 18:08:08 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069893718828777964",
+        "text": "RT @WhiteHouse: PASS THE SAVE AMERICA ACT. https://t.co/G61tGzuICV",
+        "created_at": "Wed Jun 24 21:21:33 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069892302575911055",
+        "text": "Lee Kuan Yew was a genius",
+        "created_at": "Wed Jun 24 21:15:56 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069890525193494836",
+        "text": "RT @craigweiss: i’m convinced that the best founders don’t post on linkedIn (or at least sparingly)",
+        "created_at": "Wed Jun 24 21:08:52 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069890314794574296",
+        "text": "RT @benjitaylor: The 𝕏 Money experience keeps getting better. Even activating your card feels special. Excited for more and more people to…",
+        "created_at": "Wed Jun 24 21:08:02 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069893655247401144",
+        "text": "@TheBabylonBee 😂",
+        "created_at": "Wed Jun 24 21:21:18 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069848431112142919",
+        "text": "https://t.co/0EvsC3pqhh",
+        "created_at": "Wed Jun 24 18:21:36 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069893049996677136",
+        "text": "@realDailyWire Anyone who hates America must be removed from America",
+        "created_at": "Wed Jun 24 21:18:54 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069890628994158801",
+        "text": "@alx Terrible",
+        "created_at": "Wed Jun 24 21:09:17 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069863242932052228",
+        "text": "i’m convinced that the best founders don’t post on linkedIn (or at least sparingly)",
+        "created_at": "Wed Jun 24 19:20:27 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069890469153390765",
+        "text": "@craigweiss Posting on LinkedIn is cringe",
+        "created_at": "Wed Jun 24 21:08:39 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
