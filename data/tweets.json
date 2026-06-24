@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-24T17:10:14.970Z",
-  "total": 1958,
+  "last_updated": "2026-06-24T19:56:16.144Z",
+  "total": 1967,
   "by_date": {
     "2026-05-27": [
       {
@@ -15724,6 +15724,78 @@
         "id": "2069807753581998120",
         "text": "@ID_AA_Carmack True",
         "created_at": "Wed Jun 24 15:39:58 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069848693080306061",
+        "text": "This is happening throughout the West",
+        "created_at": "Wed Jun 24 18:22:39 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069845282603630924",
+        "text": "RT @xai: Use the official @MongoDB plugin in Grok Build to query data, optimize indexes, and manage databases. https://t.co/eKT8KN9FD8",
+        "created_at": "Wed Jun 24 18:09:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069845228991963543",
+        "text": "RT @XFreeze: Elon just hinted at Neuralink’s next major leap:\n\nNot just brain-to-computer control\n\nHigher-bandwidth communication between h…",
+        "created_at": "Wed Jun 24 18:08:53 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069779028068782588",
+        "text": "USAID was a far left slush fund, not a benevolent, live-saving charity. Periodic reminder of what the DOGE team uncovered:\n\n•  $1.5 million to advance DEI in Serbia’s workplaces and business communities\n•  $70,000 for a DEI musical in Ireland\n•  $47,000 for a transgender opera",
+        "created_at": "Wed Jun 24 13:45:49 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069848751322370528",
+        "text": "@TRHLofficial True",
+        "created_at": "Wed Jun 24 18:22:52 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069592209645785294",
+        "text": "How Quake ruined id Software. \n\nThere has been a lot of praise of Quake of late, with its 30th anniversary, and it's deserved. Quake is an amazing feat of art, programming, and design. I worked on it, and everything came together almost perfectly from all of us. We ended up with https://t.co/pxtjwSwmJ5",
+        "created_at": "Wed Jun 24 01:23:28 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069846054414192767",
+        "text": "@SandyofCthulhu But Quake was an incredible game. Great products are not made without pain and extreme dedication.",
+        "created_at": "Wed Jun 24 18:12:09 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069776891473494442",
+        "text": "The Bolsheviks were a tiny extremist group nobody took seriously. They could have been crushed at any time. Until one day, they couldn't. Soon they had control of all of Russia. They were insane. But that did not matter. They were organized and committed. They ruled for 74 years.",
+        "created_at": "Wed Jun 24 13:37:20 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069845043050156418",
+        "text": "@kevinnbass @willchamberlain True",
+        "created_at": "Wed Jun 24 18:08:08 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
