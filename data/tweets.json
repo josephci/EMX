@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-23T23:13:20.636Z",
-  "total": 1916,
+  "last_updated": "2026-06-24T04:11:08.631Z",
+  "total": 1919,
   "by_date": {
     "2026-05-27": [
       {
@@ -15386,6 +15386,30 @@
         "id": "2069535601892987275",
         "text": "Starlink coming to @AmericanAir next year!",
         "created_at": "Tue Jun 23 21:38:32 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069563403472158791",
+        "text": "RT @JDVance: 460 criminal charges\n\n$6.5B intended loss, $1.4B actual loss\n\n$127M seized assets\n\nGreat work by @SecKennedy, @DAGToddBlanche,…",
+        "created_at": "Tue Jun 23 23:29:00 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069534957244907802",
+        "text": "STARMIND was just trademarked by @xai.\n\nWill this be the official name for the SpaceX AI satellite constellation? https://t.co/4x84zRGNZ0",
+        "created_at": "Tue Jun 23 21:35:58 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069563583382630894",
+        "text": "@xdNiBoR @xai Yes",
+        "created_at": "Tue Jun 23 23:29:43 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
