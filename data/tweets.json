@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-24T14:46:36.760Z",
-  "total": 1951,
+  "last_updated": "2026-06-24T17:10:14.970Z",
+  "total": 1958,
   "by_date": {
     "2026-05-27": [
       {
@@ -15668,6 +15668,62 @@
         "id": "2069652138884812855",
         "text": "@GadSaad Yikes",
         "created_at": "Wed Jun 24 05:21:36 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069808912677867707",
+        "text": "RT @KonstantinKisin: The strange thing about progress is that it only counts if you ignore where we started.\n\nEvery civilisation practised…",
+        "created_at": "Wed Jun 24 15:44:34 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069807896767107532",
+        "text": "Starlink",
+        "created_at": "Wed Jun 24 15:40:32 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069807780677243134",
+        "text": "RT @ID_AA_Carmack: I’m reading an old collection of interconnected science fiction stories by Jerry Pournelle, written in the early 70s. Hi…",
+        "created_at": "Wed Jun 24 15:40:04 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069807505539293434",
+        "text": "RT @SawyerMerritt: SpaceX's @Starlink will be installed on more than 80 giant Oldendorff ships.\n\nOldendorff is one of the world’s largest d…",
+        "created_at": "Wed Jun 24 15:38:59 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069768841043845436",
+        "text": "I’m reading an old collection of interconnected science fiction stories by Jerry Pournelle, written in the early 70s. His best books were later co-authored with Larry Niven, but it is still solid work in my favored “competence porn” genre, with entrepreneurs as protagonists.\n\nIt https://t.co/jGrgFmlFqV",
+        "created_at": "Wed Jun 24 13:05:20 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069768843912786018",
+        "text": "I was delighted the first time he mentioned one of my shareware games in Byte, and it was a pleasure to later get to know him personally when he was a fixture at the Space Access conferences.\n\nOn SpaceX -- The idea that a single commercial company would eventually be launching",
+        "created_at": "Wed Jun 24 13:05:21 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069807753581998120",
+        "text": "@ID_AA_Carmack True",
+        "created_at": "Wed Jun 24 15:39:58 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
