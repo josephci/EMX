@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-24T23:12:47.263Z",
-  "total": 1977,
+  "last_updated": "2026-06-25T04:11:23.737Z",
+  "total": 1980,
   "by_date": {
     "2026-05-27": [
       {
@@ -15876,6 +15876,32 @@
         "id": "2069890469153390765",
         "text": "@craigweiss Posting on LinkedIn is cringe",
         "created_at": "Wed Jun 24 21:08:39 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      }
+    ],
+    "2026-06-25": [
+      {
+        "id": "2069933635508338974",
+        "text": "💯",
+        "created_at": "Thu Jun 25 00:00:10 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069938385616089362",
+        "text": "The Senate shouldn’t take recess right now.\n\nWe should turn back to the SAVE America Act and debate it until it passes, working through weekends to their filibuster.\n\nWhat better way could we find to celebrate America’s 250th anniversary? https://t.co/P2H0XACNuv",
+        "created_at": "Thu Jun 25 00:19:03 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2069944741740085431",
+        "text": "@BasedMikeLee Yeah",
+        "created_at": "Thu Jun 25 00:44:18 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
