@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-26T12:17:40.684Z",
-  "total": 2068,
+  "last_updated": "2026-06-26T15:27:44.212Z",
+  "total": 2073,
   "by_date": {
     "2026-05-27": [
       {
@@ -16457,6 +16457,14 @@
         "likes": 0,
         "retweets": 0,
         "is_reply": false
+      },
+      {
+        "id": "2070100944017092734",
+        "text": "The world’s first sub‑1 nanometer node chip is here. \n\nDelivering 70% greater energy efficiency, this breakthrough powers a new era of computing that’s more capable while using less energy.\n\nDig into this next-gen tech: https://t.co/NkzAahH49S https://t.co/zfgZK77iu4",
+        "created_at": "Thu Jun 25 11:05:00 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
       }
     ],
     "2026-06-26": [
@@ -16608,6 +16616,38 @@
         "id": "2070345878775238821",
         "text": "@Austen I agree that needs to happen",
         "created_at": "Fri Jun 26 03:18:17 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2070509762366554135",
+        "text": "RT @SpaceX: Full duration single-engine static fire test of Starship https://t.co/nfR8PvHpze",
+        "created_at": "Fri Jun 26 14:09:30 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2070521686231822709",
+        "text": "@IBMNews How many atoms wide is the smallest feature size?",
+        "created_at": "Fri Jun 26 14:56:53 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2070368148201881676",
+        "text": "Actual number of printed features on this chip that are “sub-1 nanometer” = ZERO\n\nThis naming convention makes absolutely no sense and is highly misleading.",
+        "created_at": "Fri Jun 26 04:46:46 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2070521368756588670",
+        "text": "@magicsilicon True, we should switch to naming process nodes according to the number of atoms wide of the smallest feature size. That would be most accurate imo.",
+        "created_at": "Fri Jun 26 14:55:37 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
