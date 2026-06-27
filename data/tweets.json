@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-26T22:19:28.970Z",
-  "total": 2098,
+  "last_updated": "2026-06-27T00:15:15.808Z",
+  "total": 2102,
   "by_date": {
     "2026-05-27": [
       {
@@ -16848,6 +16848,38 @@
         "id": "2070625287902003221",
         "text": "@SamLenSports @realMaalouf Yikes",
         "created_at": "Fri Jun 26 21:48:33 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2070653832787562502",
+        "text": "Karma",
+        "created_at": "Fri Jun 26 23:41:59 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2070653633046389146",
+        "text": "RT @Geiger_Capital: If removing a few temporary migrants is \"ethnic cleansing\", then allowing tens of millions of migrants into a nation ag…",
+        "created_at": "Fri Jun 26 23:41:11 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2070652599012053372",
+        "text": "Citizen Vigilante 2 will be even better",
+        "created_at": "Fri Jun 26 23:37:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2070639166321557880",
+        "text": "RT @brian_armstrong: Indeed how 🤯",
+        "created_at": "Fri Jun 26 22:43:42 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
