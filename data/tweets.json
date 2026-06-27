@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-27T12:12:04.466Z",
-  "total": 2160,
+  "last_updated": "2026-06-27T14:47:58.312Z",
+  "total": 2163,
   "by_date": {
     "2026-05-27": [
       {
@@ -17346,6 +17346,30 @@
         "id": "2070743143985942659",
         "text": "@billmaher 🇺🇸🇺🇸🇺🇸",
         "created_at": "Sat Jun 27 05:36:52 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2070868415330554086",
+        "text": "RT @RupertLowe10: It has now reached the point where I truly believe that public officials and politicians who continue to knowingly import…",
+        "created_at": "Sat Jun 27 13:54:39 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2070857642092712154",
+        "text": "It has now reached the point where I truly believe that public officials and politicians who continue to knowingly import third world savages into our communities should be prosecuted.\n\nIt is that reckless, that irresponsible, that dangerous.\n\nPeople need to go to prison.",
+        "created_at": "Sat Jun 27 13:11:51 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2070868400147161230",
+        "text": "@RupertLowe10 @kevinnbass Yes",
+        "created_at": "Sat Jun 27 13:54:36 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
