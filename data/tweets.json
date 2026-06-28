@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-28T09:22:19.597Z",
-  "total": 2189,
+  "last_updated": "2026-06-28T11:51:30.205Z",
+  "total": 2199,
   "by_date": {
     "2026-05-27": [
       {
@@ -17445,6 +17445,30 @@
         "likes": 0,
         "retweets": 0,
         "is_reply": false
+      },
+      {
+        "id": "2070742742133780960",
+        "text": "A big problem with research studies on AI models is that given how long the peer review process is, the results are always out-of-date by the time the paper is published.\n\nThis time, we have something better!\n\nThe typical reaction to research results like this roughly goes",
+        "created_at": "Sat Jun 27 05:35:16 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2070953669860720853",
+        "text": "https://t.co/6qqqYPSbX5",
+        "created_at": "Sat Jun 27 19:33:26 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2070940629606051967",
+        "text": "Unfortunately, she’s spending it making the world a worse place",
+        "created_at": "Sat Jun 27 18:41:36 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
       }
     ],
     "2026-06-28": [
@@ -17580,6 +17604,62 @@
         "id": "2071142204027142179",
         "text": "@XFreeze True",
         "created_at": "Sun Jun 28 08:02:36 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071184354756477041",
+        "text": "Grok 4.5, based on our 1.5T V9 foundation model, with Cursor data added in supplemental training, is now in private beta at SpaceX & Tesla. Early evals show performance close to, perhaps exceeding Opus. \n\nRL is continuing to significantly improve the model, and the Grok Build harness gets better every day.\n\nNice work by all those involved!\n\nCompletely trained from scratch new models will be released by @SpaceX every month this year.",
+        "created_at": "Sun Jun 28 10:50:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071168922557255999",
+        "text": "RT @teslaownersSV: \"To anyone I have offended, I just want to say I reinvented electric cars and I am sending people to Mars on a Rocketshi…",
+        "created_at": "Sun Jun 28 09:48:46 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071179181673865687",
+        "text": "@yishan They should just post it here",
+        "created_at": "Sun Jun 28 10:29:32 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071168807931183435",
+        "text": "@RealJamesWoods Pretty much. It’s not promoted in any other countries …",
+        "created_at": "Sun Jun 28 09:48:18 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071168511364513833",
+        "text": "@FrenlyOfficer Sadly, yes",
+        "created_at": "Sun Jun 28 09:47:08 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071156650569060529",
+        "text": "Happy Birthday to Elon Musk.\n\nFrom helping build Tesla into the world's leading EV company to making reusable rockets a reality at SpaceX, Musk has spent decades pushing the boundaries of innovation.\n\nHis influence has also expanded into politics and public policy, making him one https://t.co/C7tiaVkYsJ",
+        "created_at": "Sun Jun 28 09:00:00 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071168189623619741",
+        "text": "@FoxNews Thanks :)",
+        "created_at": "Sun Jun 28 09:45:51 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
