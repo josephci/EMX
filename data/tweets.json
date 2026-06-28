@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-28T20:18:11.199Z",
-  "total": 2207,
+  "last_updated": "2026-06-28T22:07:17.068Z",
+  "total": 2210,
   "by_date": {
     "2026-05-27": [
       {
@@ -17724,6 +17724,30 @@
         "id": "2071320945848180875",
         "text": "@NICKIMINAJ ❤️",
         "created_at": "Sun Jun 28 19:52:51 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071347847770046671",
+        "text": "This is what people want to see",
+        "created_at": "Sun Jun 28 21:39:45 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071347623785869782",
+        "text": "RT @mayemusk: Happy birthday to my wonderful son. @elonmusk has given me 55 years of joy. \nIt’s so much fun to celebrate with family and fr…",
+        "created_at": "Sun Jun 28 21:38:51 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071328143592636606",
+        "text": "RT @brivael: Après avoir vu Elon répondre au Programme alimentaire mondial de l'ONU qui lui réclamait 6 milliards pour \"résoudre la faim da…",
+        "created_at": "Sun Jun 28 20:21:27 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
