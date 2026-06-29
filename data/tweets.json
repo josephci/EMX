@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-29T18:18:38.460Z",
-  "total": 2344,
+  "last_updated": "2026-06-29T20:52:11.772Z",
+  "total": 2346,
   "by_date": {
     "2026-05-27": [
       {
@@ -18822,6 +18822,22 @@
         "id": "2071633968106016953",
         "text": "@BasilTheGreat @DailyMail !!",
         "created_at": "Mon Jun 29 16:36:41 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071672263246508507",
+        "text": "RT @milichab: Try SpaceXAI Voice models in the Vercel AI Gateway",
+        "created_at": "Mon Jun 29 19:08:52 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071670822519853343",
+        "text": "RT @NASAAdmin: As we celebrate America's 250th birthday with @Freedom250, we're reminded that our nation's story has always been defined by…",
+        "created_at": "Mon Jun 29 19:03:08 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
