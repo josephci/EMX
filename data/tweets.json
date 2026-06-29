@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-29T00:14:43.930Z",
-  "total": 2245,
+  "last_updated": "2026-06-29T05:56:53.889Z",
+  "total": 2263,
   "by_date": {
     "2026-05-27": [
       {
@@ -17975,6 +17975,22 @@
         "likes": 0,
         "retweets": 0,
         "is_reply": false
+      },
+      {
+        "id": "2071115959037747635",
+        "text": "https://t.co/KbxhjEtidc",
+        "created_at": "Sun Jun 28 06:18:18 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071297830636134780",
+        "text": "Projections 74 years into the future are a joke. The world will be completely unrecognizable much sooner than that. No one knows what’s going to happen.",
+        "created_at": "Sun Jun 28 18:21:00 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
       }
     ],
     "2026-06-29": [
@@ -18030,6 +18046,134 @@
         "id": "2071384576249758085",
         "text": "@aaronburnett I would be disappointed if SpaceX did not significantly exceed these milestones",
         "created_at": "Mon Jun 29 00:05:42 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071422326055342243",
+        "text": "RT @jonatanpallesen: If they genuinely think that the USAID cuts have caused the deaths of hundreds of thousands, or millions, shouldn't th…",
+        "created_at": "Mon Jun 29 02:35:42 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071421174576218254",
+        "text": "RT @aaronburnett: Looking forward to 1M humans on Mars. It’s THE milestone, imo.",
+        "created_at": "Mon Jun 29 02:31:07 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071420290702127225",
+        "text": "Interesting",
+        "created_at": "Mon Jun 29 02:27:37 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071420176348615091",
+        "text": "RT @SpaceX: Watch Falcon 9 launch the @SiriusXM SXM-11 mission to orbit https://t.co/DqCgyTsEny",
+        "created_at": "Mon Jun 29 02:27:09 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071420142756548901",
+        "text": "Extremely troubling",
+        "created_at": "Mon Jun 29 02:27:01 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071414809606717905",
+        "text": "RT @voidedintern: Elon Musk reveals the moment his son Saxon left an entire sushi restaurant speechless\n\n\"I was living in L.A., and I took…",
+        "created_at": "Mon Jun 29 02:05:50 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071414148202725642",
+        "text": "RT @nypost: Today’s cover: George Soros and son Alex have funneled staggering $103M into midterms so far, on track to shatter spending reco…",
+        "created_at": "Mon Jun 29 02:03:12 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071413838818230274",
+        "text": "RT @WEschenbach: Here's one of Michael Crichton's very finest quotes, especially applicable to climate \"science\":\n\n\"I want to pause here an…",
+        "created_at": "Mon Jun 29 02:01:58 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071394667644481636",
+        "text": "RT @WilliamShatner: @MelBrooks 🎂🎉🎁🎈🪅🎊💯‼️",
+        "created_at": "Mon Jun 29 00:45:48 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071422436201898178",
+        "text": "@chuckdpete 🎯",
+        "created_at": "Mon Jun 29 02:36:08 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071421376716579236",
+        "text": "@ArtemisConsort 💯",
+        "created_at": "Mon Jun 29 02:31:56 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071395728425910566",
+        "text": "Sounds like we will get the 1.5T model in July and the 2T model in August",
+        "created_at": "Mon Jun 29 00:50:00 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071419534628540680",
+        "text": "@scaling01 Yes",
+        "created_at": "Mon Jun 29 02:24:36 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071419926850552224",
+        "text": "@scaling01 Every aspect of the 2T model is improved over the 1.5T, so it will be much more than just a 1/3 increase in params",
+        "created_at": "Mon Jun 29 02:26:10 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071397765708443655",
+        "text": "Ivy League universities are hedge funds with indoctrination camps as a side hustle.",
+        "created_at": "Mon Jun 29 00:58:06 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071414651682750565",
+        "text": "@RonDeSantis @EndWokeness Yup",
+        "created_at": "Mon Jun 29 02:05:12 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
