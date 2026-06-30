@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-06-30T15:35:37.754Z",
-  "total": 2397,
+  "last_updated": "2026-06-30T18:04:23.192Z",
+  "total": 2404,
   "by_date": {
     "2026-05-27": [
       {
@@ -19248,6 +19248,62 @@
         "id": "2071974514896826712",
         "text": "@PoppTerrence 🤔",
         "created_at": "Tue Jun 30 15:09:54 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072015711635914948",
+        "text": "Half price Starlink for people in the Memphis region",
+        "created_at": "Tue Jun 30 17:53:36 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072015455494037819",
+        "text": "RT @xAIMemphis: Earlier this year, @SpaceX acquired @xAI (now SpaceXAI), which operates the Colossus datacenters in Memphis.\n \nAs SpaceX co…",
+        "created_at": "Tue Jun 30 17:52:35 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072015266746159442",
+        "text": "RT @cb_doge: BREAKING: Philippines becomes the first country in Southeast Asia to commercially launch Starlink Direct-to-Cell through a mob…",
+        "created_at": "Tue Jun 30 17:51:50 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072000588112343388",
+        "text": "SpaceXAI",
+        "created_at": "Tue Jun 30 16:53:30 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072000185769586922",
+        "text": "And that’s just the tip of the iceberg",
+        "created_at": "Tue Jun 30 16:51:54 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071994061624426582",
+        "text": "https://t.co/VgpWIg2BFI",
+        "created_at": "Tue Jun 30 16:27:34 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2071984597311557807",
+        "text": "I will take that as a compliment https://t.co/kTZqkuPqMf",
+        "created_at": "Tue Jun 30 15:49:58 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
