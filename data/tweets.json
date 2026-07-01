@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-01T18:04:07.637Z",
-  "total": 2446,
+  "last_updated": "2026-07-01T20:50:03.932Z",
+  "total": 2447,
   "by_date": {
     "2026-05-27": [
       {
@@ -19642,6 +19642,14 @@
         "id": "2072367815194259480",
         "text": "RT @XFreeze: Elon Musk explains one of the most optimistic futures imaginable: Neuralink and Optimus restoring lost human abilities through…",
         "created_at": "Wed Jul 01 17:12:44 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072387552787759304",
+        "text": "@stocktalkweekly Utterly false",
+        "created_at": "Wed Jul 01 18:31:10 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
