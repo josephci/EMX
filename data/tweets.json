@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-01T12:12:57.889Z",
-  "total": 2436,
+  "last_updated": "2026-07-01T15:47:12.103Z",
+  "total": 2442,
   "by_date": {
     "2026-05-27": [
       {
@@ -19562,6 +19562,54 @@
         "id": "2072182962318377407",
         "text": "@nickshirleyy Wow",
         "created_at": "Wed Jul 01 04:58:12 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072322531206602948",
+        "text": "RT @KonstantinKisin: We tax cigarettes to reduce smoking.\nWe tax alcohol to reduce drinking.\nWe tax fuel to reduce driving.\n\nWhat do you th…",
+        "created_at": "Wed Jul 01 14:12:47 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072320086971658698",
+        "text": "RT @Kristof_Poland: Now The Fountainhead – arguably the better book:\n\n1. There are two ways to exist: create from your own vision, or live…",
+        "created_at": "Wed Jul 01 14:03:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072318859248644441",
+        "text": "RT @XFreeze: Creating AI voice agents has become ridiculously easy\n\nxAI’s Grok Voice Agent Builder lets you deploy a human-like voice agent…",
+        "created_at": "Wed Jul 01 13:58:12 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072318148725096531",
+        "text": "RT @XFreeze: Grok Build just got another workflow-focused update, bringing smarter controls, improved reliability, and better performance.…",
+        "created_at": "Wed Jul 01 13:55:23 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072290583406596607",
+        "text": "Director of Citizen Vigilante, Uwe Boll:\n\n\"If it were six neo-Nazis raping a migrant woman in the film, it would have been the opening film of the Berlinale.\"\n\nHe's not wrong.  https://t.co/OqID7gOFnn",
+        "created_at": "Wed Jul 01 12:05:51 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072317728015466642",
+        "text": "@Inevitablewest True",
+        "created_at": "Wed Jul 01 13:53:42 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
