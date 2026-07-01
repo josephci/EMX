@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-01T04:40:48.945Z",
-  "total": 2428,
+  "last_updated": "2026-07-01T08:52:04.279Z",
+  "total": 2436,
   "by_date": {
     "2026-05-27": [
       {
@@ -19496,6 +19496,72 @@
         "id": "2072097988064018595",
         "text": "Grok https://t.co/LMtw2XTQMn",
         "created_at": "Tue Jun 30 23:20:32 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072025645010612685",
+        "text": "Peter Thiel on fraud and USAID:\n\n“Something like Palantir ends up being a constraint on government action.”\n\n“A lot of abuses, the most extreme overreach happens where people thought there would be no accountability ever inside the government.”\n\n“There probably were a lot of deep https://t.co/Kx9p7YZ3f5",
+        "created_at": "Tue Jun 30 18:33:04 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072022273742266432",
+        "text": "Is the government giving land to SpaceX? Yes, and that’s a good thing. https://t.co/iK2P79CPH4",
+        "created_at": "Tue Jun 30 18:19:41 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      }
+    ],
+    "2026-07-01": [
+      {
+        "id": "2072221866920649176",
+        "text": "RT @teslaownersSV: “Sometimes I wonder, maybe everything is conscious, or nothing is conscious. I prefer the former; it just seems more fun…",
+        "created_at": "Wed Jul 01 07:32:47 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072214077372518657",
+        "text": "Walking the Optimus production line in Fremont https://t.co/ABS0tuRibW",
+        "created_at": "Wed Jul 01 07:01:50 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072221390510699005",
+        "text": "@jawwwn_ 🎯",
+        "created_at": "Wed Jul 01 07:30:54 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072217780636753929",
+        "text": "@lthlnkso ❤️🚀",
+        "created_at": "Wed Jul 01 07:16:33 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072196187265106381",
+        "text": "@Kristof_Poland Yeah",
+        "created_at": "Wed Jul 01 05:50:45 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072182962318377407",
+        "text": "@nickshirleyy Wow",
+        "created_at": "Wed Jul 01 04:58:12 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
