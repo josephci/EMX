@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-01T20:50:03.932Z",
-  "total": 2447,
+  "last_updated": "2026-07-01T22:22:50.690Z",
+  "total": 2449,
   "by_date": {
     "2026-05-27": [
       {
@@ -19650,6 +19650,22 @@
         "id": "2072387552787759304",
         "text": "@stocktalkweekly Utterly false",
         "created_at": "Wed Jul 01 18:31:10 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072445332315902174",
+        "text": "https://t.co/cNEdVN6nop",
+        "created_at": "Wed Jul 01 22:20:46 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072444694882341044",
+        "text": "RT @XFreeze: Tesla’s Supercharger network just delivered a monster Q2\n\nIn Q2 2026, Tesla Superchargers delivered 2 terawatt-hours of electr…",
+        "created_at": "Wed Jul 01 22:18:14 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
