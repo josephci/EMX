@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-02T21:16:23.533Z",
-  "total": 2493,
+  "last_updated": "2026-07-02T23:15:13.750Z",
+  "total": 2498,
   "by_date": {
     "2026-05-27": [
       {
@@ -20020,6 +20020,46 @@
         "id": "2072706706753143021",
         "text": "@tunguz Yeah",
         "created_at": "Thu Jul 02 15:39:22 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072818778925068596",
+        "text": "RT @Tesla: Q2 2026\n\nProduction: 451,758\n\nDeliveries: 480,126\n\nEnergy storage deployments: 13.5 GWh\n\nOur Q2 Company Update will be streamed…",
+        "created_at": "Thu Jul 02 23:04:42 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072817687256834529",
+        "text": "https://t.co/ftlBy167yO",
+        "created_at": "Thu Jul 02 23:00:22 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072817647033405864",
+        "text": "RT @XFreeze: Finally, Grok’s Speech-to-Text is now live in Grok Build\n\nYou can now just dictate prompts directly to your coding agents usin…",
+        "created_at": "Thu Jul 02 23:00:12 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072803478020227395",
+        "text": "RT @Tesla: Looking forward to the long weekend https://t.co/URzH6zOUdn",
+        "created_at": "Thu Jul 02 22:03:54 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072803370616700972",
+        "text": "Model Y long wheelbase now available to order in the US",
+        "created_at": "Thu Jul 02 22:03:29 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
