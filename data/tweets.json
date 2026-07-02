@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-02T12:13:19.815Z",
-  "total": 2470,
+  "last_updated": "2026-07-02T15:22:16.520Z",
+  "total": 2474,
   "by_date": {
     "2026-05-27": [
       {
@@ -19836,6 +19836,38 @@
         "id": "2072552862995878226",
         "text": "@magicsilicon Wow",
         "created_at": "Thu Jul 02 05:28:03 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072696059835367870",
+        "text": "Starship static fire",
+        "created_at": "Thu Jul 02 14:57:04 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072695783397159396",
+        "text": "RT @cb_doge: BREAKING: Japan is testing Starlink-powered fire hydrant signs as emergency communication hubs.\n\n• Japan has approximately 120…",
+        "created_at": "Thu Jul 02 14:55:58 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072618494324027489",
+        "text": "https://t.co/vPrPSUjTJG",
+        "created_at": "Thu Jul 02 09:48:51 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072700088481182100",
+        "text": "@chamath AI+Robots will be able to do everything, resulting in universal high income. Work will be optional.",
+        "created_at": "Thu Jul 02 15:13:04 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
