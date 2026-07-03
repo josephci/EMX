@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-03T03:54:25.613Z",
-  "total": 2505,
+  "last_updated": "2026-07-03T07:29:43.388Z",
+  "total": 2511,
   "by_date": {
     "2026-05-27": [
       {
@@ -20071,6 +20071,14 @@
         "likes": 0,
         "retweets": 0,
         "is_reply": false
+      },
+      {
+        "id": "2072711941571617265",
+        "text": "https://t.co/iSnlqUVras",
+        "created_at": "Thu Jul 02 16:00:10 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
       }
     ],
     "2026-07-03": [
@@ -20118,6 +20126,46 @@
         "id": "2072888774090965025",
         "text": "@EvelinaHahne !",
         "created_at": "Fri Jul 03 03:42:50 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072927075317457223",
+        "text": "True",
+        "created_at": "Fri Jul 03 06:15:02 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072926919406801229",
+        "text": "RT @cb_doge: BREAKING: Tesla Model Y was the best-selling vehicle overall in New Zealand for the month of June. https://t.co/ok6aBkcU9W",
+        "created_at": "Fri Jul 03 06:14:25 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072926417247989995",
+        "text": "RT @pmarca: Turbo America. 🇺🇸🚀",
+        "created_at": "Fri Jul 03 06:12:25 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072926347169562859",
+        "text": "RT @XFreeze: Another major Grok Build update just landed, packed with new features, extensive bug fixes, and meaningful performance improve…",
+        "created_at": "Fri Jul 03 06:12:08 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2072926639919333406",
+        "text": "@TheBabylonBee 😂",
+        "created_at": "Fri Jul 03 06:13:18 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
