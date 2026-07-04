@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-04T21:05:31.714Z",
-  "total": 2575,
+  "last_updated": "2026-07-04T23:03:39.511Z",
+  "total": 2576,
   "by_date": {
     "2026-05-27": [
       {
@@ -20680,6 +20680,14 @@
         "id": "2073497863661973953",
         "text": "@cb_doge ❤️🇺🇸",
         "created_at": "Sat Jul 04 20:03:09 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2073520923513425995",
+        "text": "RT @iam_smx: Elon Musk is an American by blood\n\nHis grandfather, Joshua Haldeman (6’6”) and father to Maye Musk, was born in 1902 in Pequot…",
+        "created_at": "Sat Jul 04 21:34:46 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
