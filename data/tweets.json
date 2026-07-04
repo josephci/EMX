@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-03T23:12:01.743Z",
-  "total": 2518,
+  "last_updated": "2026-07-04T03:47:48.619Z",
+  "total": 2527,
   "by_date": {
     "2026-05-27": [
       {
@@ -20222,6 +20222,80 @@
         "id": "2073158269976121848",
         "text": "@FoxNews Mamdani has built nothing. He is a taker, never a maker.",
         "created_at": "Fri Jul 03 21:33:43 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2073096935913718250",
+        "text": "Cognitive scientist Joscha Bach:\n\n\"at the moment, we are not building systems that are minds — we are building systems that predict text and visual patterns made for human consumption\"\n\nTrue machine perception has never been tried, but once it is, it may surpass human reasoning https://t.co/lN0r0bwAnb",
+        "created_at": "Fri Jul 03 17:30:00 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      }
+    ],
+    "2026-07-04": [
+      {
+        "id": "2073245901016166547",
+        "text": "https://t.co/N4P0qXubBE",
+        "created_at": "Sat Jul 04 03:21:56 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2073202960033873962",
+        "text": "RT @boringcompany: Precast concrete operation at TBC Dubai. The first phase of Dubai Loop will utilize ~25,000 segments, each weighing ~4,0…",
+        "created_at": "Sat Jul 04 00:31:18 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2073202672929501588",
+        "text": "RT @ashleevance: America needs to build again, and it is building. \n\nWe kick off our @corememory  4th of July American manufacturing extrav…",
+        "created_at": "Sat Jul 04 00:30:10 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2073202514544165087",
+        "text": "RT @StarWalk: Uranus is finally getting the attention it deserves 🔵😄\n\nScientists want to send a mission called Uranus Orbiter and Probe — a…",
+        "created_at": "Sat Jul 04 00:29:32 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2073202292942315943",
+        "text": "https://t.co/kDS4kdor2w",
+        "created_at": "Sat Jul 04 00:28:39 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2073215139055284607",
+        "text": "@haider1 True",
+        "created_at": "Sat Jul 04 01:19:42 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2073202884712480914",
+        "text": "@GadSaad Gad’s right again",
+        "created_at": "Sat Jul 04 00:31:00 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2073202837862195297",
+        "text": "@GadSaad 💯",
+        "created_at": "Sat Jul 04 00:30:49 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
