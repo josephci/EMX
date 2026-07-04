@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-04T19:23:58.914Z",
-  "total": 2570,
+  "last_updated": "2026-07-04T21:05:31.714Z",
+  "total": 2575,
   "by_date": {
     "2026-05-27": [
       {
@@ -20640,6 +20640,46 @@
         "id": "2073431863797166086",
         "text": "@gailalfaratx Cool",
         "created_at": "Sat Jul 04 15:40:53 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2073509041457025242",
+        "text": "RT @Tesla: Teslas are the most American-made cars\n\n🇺🇸 Happy 250th birthday, America 🇺🇸 https://t.co/e4NhqSJidx",
+        "created_at": "Sat Jul 04 20:47:34 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2073357930200432916",
+        "text": "“Anyone – of any race, creed or nationality – who came to America and worked like hell to contribute to this country will forever have my respect”\n\n-Elon Musk https://t.co/hCfJbimjKY",
+        "created_at": "Sat Jul 04 10:47:06 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2073497999632953775",
+        "text": "@iam_smx Yes",
+        "created_at": "Sat Jul 04 20:03:41 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2073454689262456914",
+        "text": "Happy Birthday, America! 🇺🇸 https://t.co/wr3mcNRKy2",
+        "created_at": "Sat Jul 04 17:11:35 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2073497863661973953",
+        "text": "@cb_doge ❤️🇺🇸",
+        "created_at": "Sat Jul 04 20:03:09 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
