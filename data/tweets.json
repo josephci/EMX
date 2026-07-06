@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-06T19:01:11.474Z",
-  "total": 2655,
+  "last_updated": "2026-07-06T21:41:12.442Z",
+  "total": 2660,
   "by_date": {
     "2026-05-27": [
       {
@@ -21053,6 +21053,14 @@
         "likes": 0,
         "retweets": 0,
         "is_reply": false
+      },
+      {
+        "id": "2073837749703213110",
+        "text": "I want to be transparent with you all. This wasn't just a general statement. It came from my own experience.\nFor 2 years I reported harassment targeting me. Two independent organizations confirmed the pattern and took action. The person they sanctioned was invited and sponsored",
+        "created_at": "Sun Jul 05 18:33:44 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
       }
     ],
     "2026-07-06": [
@@ -21324,6 +21332,38 @@
         "id": "2074196466571116683",
         "text": "@visegrad24 Wow",
         "created_at": "Mon Jul 06 18:19:08 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074223050334085390",
+        "text": "RT @SpaceXAI: We are now @SpaceXAI. https://t.co/ema66xDWC9",
+        "created_at": "Mon Jul 06 20:04:47 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074185529776636080",
+        "text": "The State of Mythic Items in #DiabloIV is very disappointing right now. It is now WAY too much RNG &amp; basically impossible for an avg player to get their hands on FOUND iconic Mythic Items.\n\nYou can only use ONE crafted at a time. I personally got more than 100 Mythic Items in https://t.co/HLIKGKj789",
+        "created_at": "Mon Jul 06 17:35:41 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074225458565071300",
+        "text": "@Rob_2628 Yeah, needs to be adjusted. This is silly.",
+        "created_at": "Mon Jul 06 20:14:21 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074223476974510418",
+        "text": "@Mekuna Wow, this sounds extremely unfair!",
+        "created_at": "Mon Jul 06 20:06:28 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
