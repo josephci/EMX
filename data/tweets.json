@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-06T16:55:21.341Z",
-  "total": 2652,
+  "last_updated": "2026-07-06T19:01:11.474Z",
+  "total": 2655,
   "by_date": {
     "2026-05-27": [
       {
@@ -21300,6 +21300,30 @@
         "id": "2074150209051938833",
         "text": "@visegrad24 Wow",
         "created_at": "Mon Jul 06 15:15:20 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074196121224671269",
+        "text": "RT @MichaelDell: Thank you @Gwynne_Shotwell &amp; Robert! 🙏🚀\n\nGifting @SpaceX shares to 2M kids’ @TrumpAccounts is legendary generosity. Empowe…",
+        "created_at": "Mon Jul 06 18:17:46 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074061116070576589",
+        "text": "Danish state TV channel has shortened yesterday’s viral video of migrants ignoring the minute of silence for the Swedish football supporter Christian.\n\nThe minute of silence was held before the Norway-Brazil match at the fan zone in Copenhagen where Christian was beaten to death",
+        "created_at": "Mon Jul 06 09:21:18 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074196466571116683",
+        "text": "@visegrad24 Wow",
+        "created_at": "Mon Jul 06 18:19:08 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
