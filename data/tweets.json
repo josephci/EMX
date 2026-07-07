@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-07T11:58:59.811Z",
-  "total": 2689,
+  "last_updated": "2026-07-07T15:08:11.697Z",
+  "total": 2690,
   "by_date": {
     "2026-05-27": [
       {
@@ -21590,6 +21590,14 @@
         "id": "2074348703851086144",
         "text": "@KnowledgeArchiv @DataRepublican @TheAliceSmith That and the Constitution",
         "created_at": "Tue Jul 07 04:24:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074510011099754802",
+        "text": "𝕏 had the highest monthly growth of any top 10 site in June",
+        "created_at": "Tue Jul 07 15:05:03 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
