@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-07T04:02:57.879Z",
-  "total": 2672,
+  "last_updated": "2026-07-07T08:28:19.478Z",
+  "total": 2689,
   "by_date": {
     "2026-05-27": [
       {
@@ -21061,6 +21061,22 @@
         "likes": 0,
         "retweets": 0,
         "is_reply": false
+      },
+      {
+        "id": "2073640397947978039",
+        "text": "The American War of Independence wasn’t about being anti-British.\n\nIt was about being anti-taxation.",
+        "created_at": "Sun Jul 05 05:29:31 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2073754238577197531",
+        "text": "@elonmusk @DataRepublican @TheAliceSmith Didn’t you mention you keep it on your bedside table too? Patriot",
+        "created_at": "Sun Jul 05 13:01:53 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
       }
     ],
     "2026-07-06": [
@@ -21383,6 +21399,38 @@
         "likes": 0,
         "retweets": 0,
         "is_reply": false
+      },
+      {
+        "id": "2074217932763054192",
+        "text": "The UN has now updated their guidelines so that it is now a cause for deportation if someone commits r*pe. \n\nHow on earth was this not the case before???",
+        "created_at": "Mon Jul 06 19:44:26 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074248758422864226",
+        "text": "Memory cost and capacity are significant issues for AI accelerators.\n\nUnlike game rendering, model inference can have a deterministic memory access pattern. You don’t need “random access memory” at all for model weights, and you could tolerate cold-start latencies in the multiple",
+        "created_at": "Mon Jul 06 21:46:56 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2073970411138949533",
+        "text": "I agree with this post whole heartedly but I’d push it even further. The interconnect IS the binding constraint for AI even more so than memory. If we want faster inference &amp; training with better economics we are best served by designing our interconnect first and then working https://t.co/TDCeLCKwXs",
+        "created_at": "Mon Jul 06 03:20:53 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074161701466108024",
+        "text": "\"At the Edge of the Galaxy\" – Episode 1\n\nI created this video entirely using AI, specifically the Grok Imagine software.\n\nI developed the script with @grok .\nThen I produced it using all the tools available in Grok @imagine , particularly the Agent mode, which saves a tremendous https://t.co/TQbWKN0R7e",
+        "created_at": "Mon Jul 06 16:01:00 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
       }
     ],
     "2026-07-07": [
@@ -21454,6 +21502,94 @@
         "id": "2074336804417794312",
         "text": "@SamoBurja Hmm",
         "created_at": "Tue Jul 07 03:36:48 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074380539071459839",
+        "text": "RT @dvorahfr: Grok Imagine ❤️ https://t.co/aOvp4mJqMl",
+        "created_at": "Tue Jul 07 06:30:35 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074378918727921877",
+        "text": "RT @paulg: If you want to start a startup, don't learn \"entrepreneurship.\" Learn how to build things. The hard part of startups is not \"ent…",
+        "created_at": "Tue Jul 07 06:24:08 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074378653501128833",
+        "text": "Grok Imagine update",
+        "created_at": "Tue Jul 07 06:23:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074355329517629776",
+        "text": "https://t.co/7BfdeIH3rU",
+        "created_at": "Tue Jul 07 04:50:24 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074349230370513198",
+        "text": "RT @C_3C_3: The entire “White Supremacy” narrative was a Democrat and Legacy Media creation.\n\nFrom 2010-2020:\n\nLA Times: 9749%\nNew York Tim…",
+        "created_at": "Tue Jul 07 04:26:10 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074348907161673772",
+        "text": "RT @XFreeze: Grok Voice just got a major upgrade\n\nSpaceXAI released 21 new flagship voices for Grok, joining the original five\n\nAll of them…",
+        "created_at": "Tue Jul 07 04:24:53 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074378494633533544",
+        "text": "@PeterSweden7 Seriously",
+        "created_at": "Tue Jul 07 06:22:27 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074375757099409691",
+        "text": "@ID_AA_Carmack Yeah",
+        "created_at": "Tue Jul 07 06:11:35 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074375233713148157",
+        "text": "@0xBADB01E Interesting",
+        "created_at": "Tue Jul 07 06:09:30 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074351004976320824",
+        "text": "@dvorahfr @grok @imagine Cool",
+        "created_at": "Tue Jul 07 04:33:13 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074348703851086144",
+        "text": "@KnowledgeArchiv @DataRepublican @TheAliceSmith That and the Constitution",
+        "created_at": "Tue Jul 07 04:24:05 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
