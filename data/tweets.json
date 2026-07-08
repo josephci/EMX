@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-08T21:15:54.816Z",
-  "total": 2770,
+  "last_updated": "2026-07-08T23:15:25.254Z",
+  "total": 2779,
   "by_date": {
     "2026-05-27": [
       {
@@ -22250,6 +22250,78 @@
         "id": "2074946473876185109",
         "text": "RT @KanekoaTheGreat: 🚨BREAKING: Rupert Lowe talks to Joe Rogan about the \"Rape Gang Inquiry\" report.\n\n\"The genesis of the rape gangs was th…",
         "created_at": "Wed Jul 08 19:59:24 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074971866662359519",
+        "text": "Grok has always been very strong on law",
+        "created_at": "Wed Jul 08 21:40:18 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074971308631159032",
+        "text": "RT @cb_doge: BREAKING: Tesla Cybertruck’s bulletproof body helped protect a toddler, an infant, and neighbors during a shooting.\n\nCybertruc…",
+        "created_at": "Wed Jul 08 21:38:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074971034218860963",
+        "text": "Rate of improvement is 🚀🚀",
+        "created_at": "Wed Jul 08 21:37:00 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074970378682724661",
+        "text": "Rate of improvement is accelerating. \n\nUsers should notice a meaningful improvement in the usefulness of the Grok Build harness with our V9 foundation model (aka Grok 4.5) every week.",
+        "created_at": "Wed Jul 08 21:34:24 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074969374843154500",
+        "text": "Grok 4.5 is not yet using our internally developed C/C++ inference software that exact maps to the GB300 hardware. Doubling or more of the current speed is probably achievable.",
+        "created_at": "Wed Jul 08 21:30:24 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074968500779483503",
+        "text": "RT @milichab: Grok 4.5 brings frontier performance across coding and knowledge work",
+        "created_at": "Wed Jul 08 21:26:56 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074967839027364010",
+        "text": "RT @ArtificialAnlys: Grok 4.5 in Grok Build also stands out for its efficiency. Grok 4.5 in Grok Build cost $2.49 per task while Fable 5 in…",
+        "created_at": "Wed Jul 08 21:24:18 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074959672982073572",
+        "text": "Grok 4.5 delivering Fable level performance at like 1/17th the cost! 😮 @elonmusk https://t.co/gMVwpnRsBU",
+        "created_at": "Wed Jul 08 20:51:51 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074968423394578602",
+        "text": "@DrewPavlou In fairness, Fable is definitely better than Grok 4.5, but most tasks don’t require Fable-level capability",
+        "created_at": "Wed Jul 08 21:26:37 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
