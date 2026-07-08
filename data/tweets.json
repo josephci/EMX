@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-08T19:44:15.495Z",
-  "total": 2762,
+  "last_updated": "2026-07-08T21:15:54.816Z",
+  "total": 2770,
   "by_date": {
     "2026-05-27": [
       {
@@ -22186,6 +22186,70 @@
         "id": "2074931787533328622",
         "text": "Try out Grok 4.5 in Cursor!",
         "created_at": "Wed Jul 08 19:01:03 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074964196052107336",
+        "text": "Grok 4.5 true usefulness is excellent",
+        "created_at": "Wed Jul 08 21:09:49 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074963933199282491",
+        "text": "Grok 4.5 context window will upgrade to 1M probably by next week",
+        "created_at": "Wed Jul 08 21:08:47 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074956673630793891",
+        "text": "Grok will be able to call Imagine as a tool in agentic mode for image/video generation. As Imagine keeps improving, this will be amazing for game developers!",
+        "created_at": "Wed Jul 08 20:39:56 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074955486441492823",
+        "text": "Grok groks engineering. \n\nNext month’s release will be another step-change improvement, as we close the loop on solving real-world engineering problems at Tesla, SpaceX, Neuralink and Boring Company.",
+        "created_at": "Wed Jul 08 20:35:13 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074954823338733805",
+        "text": "RT @SpaceXAI: Grok 4.5 is built for real-world engineering. It excels in large codebases and handles long-running tasks that span multiple…",
+        "created_at": "Wed Jul 08 20:32:35 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074948489792860456",
+        "text": "Artificial Analysis assessment",
+        "created_at": "Wed Jul 08 20:07:25 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074946859517309038",
+        "text": "RT @XFreeze: Grok 4.5 is now officially available in Grok Build......try it now https://t.co/KqX1gGtvAa",
+        "created_at": "Wed Jul 08 20:00:56 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2074946473876185109",
+        "text": "RT @KanekoaTheGreat: 🚨BREAKING: Rupert Lowe talks to Joe Rogan about the \"Rape Gang Inquiry\" report.\n\n\"The genesis of the rape gangs was th…",
+        "created_at": "Wed Jul 08 19:59:24 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
