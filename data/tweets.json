@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-09T07:48:13.713Z",
-  "total": 2801,
+  "last_updated": "2026-07-09T11:17:23.467Z",
+  "total": 2809,
   "by_date": {
     "2026-05-27": [
       {
@@ -22500,6 +22500,70 @@
         "id": "2075111385013354883",
         "text": "@dvorahfr 🔥",
         "created_at": "Thu Jul 09 06:54:42 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075137589388923068",
+        "text": "RT @ArthurMacwaters: Kardashev II or we’re not a serious civilization \n\nMoon and Mars are necessary steps to this https://t.co/g5XSFTIeSF",
+        "created_at": "Thu Jul 09 08:38:50 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075137360430309400",
+        "text": "RT @milichab: Try Grok 4.5 in the API, Grok Build, and Cursor",
+        "created_at": "Thu Jul 09 08:37:55 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075136517144535171",
+        "text": "Grok 4.5 on OpenClaw",
+        "created_at": "Thu Jul 09 08:34:34 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075136339738067350",
+        "text": "RT @grok: Use Grok 4.5 to build full-stack apps with Convex",
+        "created_at": "Thu Jul 09 08:33:52 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075130438540996908",
+        "text": "RT @XFreeze: Grok 4.5 is now ranked #1 on τ³-Banking in Artificial Analysis\n\nAhead of GPT-5.5 xhigh, Claude Fable 5 and Claude 4.8 (max) ht…",
+        "created_at": "Thu Jul 09 08:10:25 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075130137817825315",
+        "text": "Good review of Grok 4.5 https://t.co/Y40sMIgeHu",
+        "created_at": "Thu Jul 09 08:09:13 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075125320521310589",
+        "text": "Try out Grok 4.5!",
+        "created_at": "Thu Jul 09 07:50:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075125035245694989",
+        "text": "RT @DrewPavlou: Grok 4.5 delivering Fable level performance at like 1/17th the cost! 😮 @elonmusk https://t.co/gMVwpnRsBU",
+        "created_at": "Thu Jul 09 07:48:57 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
