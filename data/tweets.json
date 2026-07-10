@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-10T00:11:57.000Z",
-  "total": 2853,
+  "last_updated": "2026-07-10T04:58:19.863Z",
+  "total": 2863,
   "by_date": {
     "2026-05-27": [
       {
@@ -22887,6 +22887,22 @@
         "likes": 0,
         "retweets": 0,
         "is_reply": false
+      },
+      {
+        "id": "2075301455670513799",
+        "text": "The most popular names of children born in European cities:\n\n🇵🇱 Warsaw - Jan\n🇬🇧 London - Mohammed\n🇬🇧 Manchester - Mohammed\n🇩🇪 Berlin - Mohammed\n🇧🇪 Brussels - Mohammed\n🇳🇱 Amsterdam - Mohammed\n🇳🇱 The Hague - Mohammed\n🇳🇴 Oslo - Mohammed\n\nRemigration can simply fix this.",
+        "created_at": "Thu Jul 09 19:29:58 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075282798936535463",
+        "text": "@elonmusk The universe is saving on background compute",
+        "created_at": "Thu Jul 09 18:15:50 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
       }
     ],
     "2026-07-10": [
@@ -22918,6 +22934,70 @@
         "id": "2075370255971447176",
         "text": "Grok doesn’t give up",
         "created_at": "Fri Jul 10 00:03:22 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075403875410928124",
+        "text": "𝕏 is a great platform for product announcements, especially if done by the CEO directly. Way more interesting to the public than generic press releases.\n\nThis post by Mark Zuckerberg already received over 12 million views for free!",
+        "created_at": "Fri Jul 10 02:16:57 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075402698925469748",
+        "text": "RT @JeffBezos: Wally Funk waited 60 years to get to space, and no one ever earned it more. She trained with the Mercury 13 in 1961, out-tes…",
+        "created_at": "Fri Jul 10 02:12:17 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075402626284368071",
+        "text": "Starlink can now provide reliable 10Gpbs symmetric send/receive connectivity anywhere in the world",
+        "created_at": "Fri Jul 10 02:11:59 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075401832709423300",
+        "text": "RT @teslaownersSV: GROK 4.5 LEADS ON REAL PROFESSIONAL WORK BENCHMARK\n\nNew data from Snorkel shows Grok 4.5 outperforming other frontier mo…",
+        "created_at": "Fri Jul 10 02:08:50 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075387273797853612",
+        "text": "Grok only gets better from here",
+        "created_at": "Fri Jul 10 01:10:59 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075387178511700426",
+        "text": "RT @teortaxesTex: Grok is a frontier model.",
+        "created_at": "Fri Jul 10 01:10:36 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075373714007318896",
+        "text": "@TheBritLad @grok is this true?",
+        "created_at": "Fri Jul 10 00:17:06 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075372839041933555",
+        "text": "@Not_the_Bee The level of detail rendered is proportionate to the precision of the observation. Anything more than that is wasted compute.",
+        "created_at": "Fri Jul 10 00:13:38 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
