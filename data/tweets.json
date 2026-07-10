@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-09T22:36:38.841Z",
-  "total": 2844,
+  "last_updated": "2026-07-10T00:11:57.000Z",
+  "total": 2853,
   "by_date": {
     "2026-05-27": [
       {
@@ -22844,6 +22844,80 @@
         "id": "2075282994496000077",
         "text": "@visegrad24 The judge’s mind has been poisoned by the lunatic left from America",
         "created_at": "Thu Jul 09 18:16:37 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075368342014099576",
+        "text": "Grok 4.5",
+        "created_at": "Thu Jul 09 23:55:45 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075368165660324341",
+        "text": "RT @AndrewCFollett: Defense is 8% of US government spending.\n\nEducation 15%!\n\nWelfare is 47%! https://t.co/yTdX5R6Bzx",
+        "created_at": "Thu Jul 09 23:55:03 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075367242053652636",
+        "text": "RT @SawyerMerritt: New renderings of SpaceX's AI satellite, called AI1.\n\n• AI chip vendor agnostic. System architecture supports compute mo…",
+        "created_at": "Thu Jul 09 23:51:23 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075362050625208503",
+        "text": "RT @SpaceX: Super Heavy booster moved to the Starbase pad for testing ahead of Flight 13 https://t.co/xY9AO8CPxu",
+        "created_at": "Thu Jul 09 23:30:45 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075362018387726641",
+        "text": "RT @XFreeze: Grok 4.5 is dominating the latest AI leaderboards\n\nClaims the #1 spot:\n• #1 on AutomationBench-AA\n• #1 on Terminal-Bench v2\n•…",
+        "created_at": "Thu Jul 09 23:30:38 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      }
+    ],
+    "2026-07-10": [
+      {
+        "id": "2075372185158377948",
+        "text": "Grok Build improves almost every day",
+        "created_at": "Fri Jul 10 00:11:02 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075371744500552042",
+        "text": "RT @TurkeyBeaver: The Cape Gigabay is getting closer to being ready for Starship! Teams recently installed the 420-ton crane – which we’ll…",
+        "created_at": "Fri Jul 10 00:09:17 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075371558588055670",
+        "text": "Grok gaming",
+        "created_at": "Fri Jul 10 00:08:32 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075370255971447176",
+        "text": "Grok doesn’t give up",
+        "created_at": "Fri Jul 10 00:03:22 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
