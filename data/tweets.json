@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-10T19:42:29.020Z",
-  "total": 2886,
+  "last_updated": "2026-07-10T21:12:24.826Z",
+  "total": 2891,
   "by_date": {
     "2026-05-27": [
       {
@@ -23182,6 +23182,46 @@
         "id": "2075607257497153649",
         "text": "@spencerpratt They are traitors, plain and simple",
         "created_at": "Fri Jul 10 15:45:07 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075687836091625704",
+        "text": "Try Grok 4.5 in Perplexity",
+        "created_at": "Fri Jul 10 21:05:19 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075680682844569993",
+        "text": "Apple has sued OpenAI, alleging trade secret theft, saying that the company took Apple's intellectual property in order to develop its own consumer hardware.\n\nApple: \"Recently, significant evidence has emerged suggesting individuals employed by OpenAI wrongfully took Apple's https://t.co/WS2PV1lLIU",
+        "created_at": "Fri Jul 10 20:36:53 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075687938118087055",
+        "text": "@SawyerMerritt !!",
+        "created_at": "Fri Jul 10 21:05:43 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075666403596612010",
+        "text": "I'm so angry... the OpenAI team is looking into it, but this feels like something that should happen with GPT-3.5.\n\nNot a mid-2026 frontier model on the highest reasoning level.",
+        "created_at": "Fri Jul 10 19:40:09 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075687604444401833",
+        "text": "@mattshumer_ Crazy",
+        "created_at": "Fri Jul 10 21:04:23 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
