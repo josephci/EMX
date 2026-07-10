@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-10T04:58:19.863Z",
-  "total": 2863,
+  "last_updated": "2026-07-10T08:31:23.278Z",
+  "total": 2877,
   "by_date": {
     "2026-05-27": [
       {
@@ -22903,6 +22903,14 @@
         "likes": 0,
         "retweets": 0,
         "is_reply": false
+      },
+      {
+        "id": "2075357249808068837",
+        "text": "Yes.",
+        "created_at": "Thu Jul 09 23:11:41 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
       }
     ],
     "2026-07-10": [
@@ -22998,6 +23006,110 @@
         "id": "2075372839041933555",
         "text": "@Not_the_Bee The level of detail rendered is proportionate to the precision of the observation. Anything more than that is wasted compute.",
         "created_at": "Fri Jul 10 00:13:38 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075491921540034689",
+        "text": "😂",
+        "created_at": "Fri Jul 10 08:06:49 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075488922977570843",
+        "text": "RT @benhylak: i tried tesla full self driving over the weekend.\n\nit’s magical. can’t believe it got that good without it being a bigger dea…",
+        "created_at": "Fri Jul 10 07:54:54 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075488489076924839",
+        "text": "RT @TheChiefNerd: GAVIN BAKER: “Tesla and Elon have done more to decarbonize the world than all environmental activists combined.” https://…",
+        "created_at": "Fri Jul 10 07:53:11 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075487355528413607",
+        "text": "RT @ArtificialAnlys: SpaceXAI's Grok 4.5 takes the #1 spot on AutomationBench-AA with a score of 51%, ahead of Claude Fable 5 (49%) and Cla…",
+        "created_at": "Fri Jul 10 07:48:40 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075487063848206727",
+        "text": "Model comparison",
+        "created_at": "Fri Jul 10 07:47:31 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075483584102600841",
+        "text": "https://t.co/scpEQa98y1",
+        "created_at": "Fri Jul 10 07:33:41 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075482008440930315",
+        "text": "Grok Imagine https://t.co/bKYXdNnAvT",
+        "created_at": "Fri Jul 10 07:27:26 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075481886500012390",
+        "text": "RT @simworld_ai: Built from scratch by Grok 4.5 + Grok Build in UE5.8: a cyberpunk L-corner street with neon facades, rain, signs, and crow…",
+        "created_at": "Fri Jul 10 07:26:56 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075480115459289324",
+        "text": "RT @DanielPriestley: Socialists imagine a class struggle. In their made-up fantasy the CEO is in competition with low level workers, the we…",
+        "created_at": "Fri Jul 10 07:19:54 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075479476117323843",
+        "text": "RT @ArtemisConsort: I fell for a lot of progressive nonsense, and hard. I was literally trans. But two things I can honestly say I never fe…",
+        "created_at": "Fri Jul 10 07:17:22 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075478792273842370",
+        "text": "Grok Build gets better every day and we love hearing user feedback for improvements",
+        "created_at": "Fri Jul 10 07:14:39 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075445735017812317",
+        "text": "RT @CommandCodeAI: Fable 5 vs Grok 4.5 vs GPT 5.5\n\nWe put three top-tier models to build a same game challenge.\n\nUsed Command Code /design,…",
+        "created_at": "Fri Jul 10 05:03:17 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075478979713138911",
+        "text": "@GadSaad I don’t want any prizes",
+        "created_at": "Fri Jul 10 07:15:23 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
