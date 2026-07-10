@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-10T15:35:33.917Z",
-  "total": 2879,
+  "last_updated": "2026-07-10T17:51:42.513Z",
+  "total": 2886,
   "by_date": {
     "2026-05-27": [
       {
@@ -23126,6 +23126,62 @@
         "id": "2075534093803049152",
         "text": "@mattvanswol True",
         "created_at": "Fri Jul 10 10:54:24 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075611819872223385",
+        "text": "Grok is closing the loop on real-world use cases",
+        "created_at": "Fri Jul 10 16:03:15 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075608188376772644",
+        "text": "True",
+        "created_at": "Fri Jul 10 15:48:49 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075607754429854036",
+        "text": "Grok Build",
+        "created_at": "Fri Jul 10 15:47:06 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075606632629752137",
+        "text": "Try @grok",
+        "created_at": "Fri Jul 10 15:42:38 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075606415264080104",
+        "text": "Grok 4.5 has the best real-world ROI",
+        "created_at": "Fri Jul 10 15:41:46 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075545707281277081",
+        "text": "DSA = Destroying Society Altogether",
+        "created_at": "Fri Jul 10 11:40:33 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075607257497153649",
+        "text": "@spencerpratt They are traitors, plain and simple",
+        "created_at": "Fri Jul 10 15:45:07 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
