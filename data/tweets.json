@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-11T11:57:08.268Z",
-  "total": 2955,
+  "last_updated": "2026-07-11T13:45:28.536Z",
+  "total": 2962,
   "by_date": {
     "2026-05-27": [
       {
@@ -23736,6 +23736,62 @@
         "id": "2075888249789108316",
         "text": "@LockheedMartin @Freedom250 Cool",
         "created_at": "Sat Jul 11 10:21:41 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075929661725437983",
+        "text": "RT @teslaownersSV: Grok 4.5 with Grok Build has tied for the #1 spot on the SWE-Atlas-QnA benchmark, matching Codex GPT-5.6 with an impress…",
+        "created_at": "Sat Jul 11 13:06:14 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075929622290587707",
+        "text": "RT @cb_doge: BREAKING: Starlink has provided new emergency connectivity support to Armenia. 🇦🇲\n\n• 56 additional kits will be deployed by Ar…",
+        "created_at": "Sat Jul 11 13:06:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075926721337991455",
+        "text": "https://t.co/GadbcJ9EzS",
+        "created_at": "Sat Jul 11 12:54:33 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075926239848611976",
+        "text": "By “this” he means scamming 🤣🤣 https://t.co/yQ5wryw1Ai",
+        "created_at": "Sat Jul 11 12:52:39 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075926480387776675",
+        "text": "He might literally love scamming more than any human alive!",
+        "created_at": "Sat Jul 11 12:53:36 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075835012386062356",
+        "text": "@elonmusk @wholemars How sustainable are Grok prices? Are they going to have be ratcheted up significantly at some point?",
+        "created_at": "Sat Jul 11 06:50:08 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075925698863099950",
+        "text": "@peterrhague @wholemars Our token efficiency seems to be better than any other AI model  and we see many more ways to improve inference per watt, so I think Grok will continue to be the best value for money of the frontier models",
+        "created_at": "Sat Jul 11 12:50:30 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
