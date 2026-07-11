@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-11T19:13:59.621Z",
-  "total": 2962,
+  "last_updated": "2026-07-11T20:58:30.027Z",
+  "total": 2963,
   "by_date": {
     "2026-05-27": [
       {
@@ -23792,6 +23792,14 @@
         "id": "2075925698863099950",
         "text": "@peterrhague @wholemars Our token efficiency seems to be better than any other AI model  and we see many more ways to improve inference per watt, so I think Grok will continue to be the best value for money of the frontier models",
         "created_at": "Sat Jul 11 12:50:30 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2076038090947166516",
+        "text": "Tesla self-driving enables safer mobility for senior citizens",
+        "created_at": "Sat Jul 11 20:17:06 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
