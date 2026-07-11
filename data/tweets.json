@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-11T21:59:39.047Z",
-  "total": 2963,
+  "last_updated": "2026-07-11T23:03:25.110Z",
+  "total": 2965,
   "by_date": {
     "2026-05-27": [
       {
@@ -23800,6 +23800,22 @@
         "id": "2076038090947166516",
         "text": "Tesla self-driving enables safer mobility for senior citizens",
         "created_at": "Sat Jul 11 20:17:06 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075982617976230043",
+        "text": "homeboy you're the one sellling public market investors on short-term space datacenters",
+        "created_at": "Sat Jul 11 16:36:40 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2076070258654183767",
+        "text": "@sama We start flying them next year. Maybe you can come see them if your parole officer approves. \n\nAfter stealing an open source AI charity, you then stole all of Apple’s phone technology! Wow.\n\nWhat do you plan for an encore? That’s tough to beat.",
+        "created_at": "Sat Jul 11 22:24:55 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
