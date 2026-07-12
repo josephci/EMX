@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-12T20:59:05.549Z",
-  "total": 2985,
+  "last_updated": "2026-07-12T22:01:46.350Z",
+  "total": 2988,
   "by_date": {
     "2026-05-27": [
       {
@@ -23978,6 +23978,30 @@
         "id": "2076410318687776907",
         "text": "RT @XFreeze: For the first time, Starship will carry 20 next-generation Starlink V3 satellites to space\n\nStarlink V3 is designed to massive…",
         "created_at": "Sun Jul 12 20:56:12 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2076411563116835245",
+        "text": "Grok 4.5 is Opus class for browser use",
+        "created_at": "Sun Jul 12 21:01:09 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2076144541669962060",
+        "text": "I take it all back. We just got access to eval Grok 4.5 and it has landed above GPT-5.6-Sol and just shy of Opus for browser use.\n\nBecause cache input is expensive, the overall cost is only 10% cheaper than opus. Its overall a bit faster. \n\nWe have another opus-class model in the",
+        "created_at": "Sun Jul 12 03:20:06 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2076411423563948142",
+        "text": "@Alezander907 Sounds like we should lower our cached price",
+        "created_at": "Sun Jul 12 21:00:35 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
