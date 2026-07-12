@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-12T09:07:39.430Z",
-  "total": 2973,
+  "last_updated": "2026-07-12T11:16:28.385Z",
+  "total": 2975,
   "by_date": {
     "2026-05-27": [
       {
@@ -23882,6 +23882,22 @@
         "id": "2076100183100682607",
         "text": "@nikitabier @aarnogau @sama @iliketeslas 😂",
         "created_at": "Sun Jul 12 00:23:50 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2076253536388550947",
+        "text": "RT @TheRabbitHole: How many people have left America to escape Capitalism?\n\nVS\n\nHow many people have come to America while escaping sociali…",
+        "created_at": "Sun Jul 12 10:33:12 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2076252465674977609",
+        "text": "Try Grok 4.5 and see for yourself",
+        "created_at": "Sun Jul 12 10:28:57 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
