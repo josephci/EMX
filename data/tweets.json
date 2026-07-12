@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-12T19:14:50.348Z",
-  "total": 2984,
+  "last_updated": "2026-07-12T20:59:05.549Z",
+  "total": 2985,
   "by_date": {
     "2026-05-27": [
       {
@@ -23970,6 +23970,14 @@
         "id": "2076336766273966256",
         "text": "@wesyang Absolutely",
         "created_at": "Sun Jul 12 16:03:56 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2076410318687776907",
+        "text": "RT @XFreeze: For the first time, Starship will carry 20 next-generation Starlink V3 satellites to space\n\nStarlink V3 is designed to massive…",
+        "created_at": "Sun Jul 12 20:56:12 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
