@@ -2,8 +2,8 @@ name: Fetch Elon Tweets
 
 on:
   schedule:
-    - cron: '0 * * * *'   # 每小時整點執行（744次/月，免費方案1000次內）
-  workflow_dispatch:        # 允許手動觸發
+    - cron: '0 * * * *'   # 每小時整點（XTracker 免費無限制，不再需要 RapidAPI）
+  workflow_dispatch:
 
 jobs:
   fetch:
@@ -20,9 +20,7 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Fetch tweets
-        env:
-          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+      - name: Fetch tweets from XTracker
         run: node scripts/fetch.js
 
       - name: Commit and push data
