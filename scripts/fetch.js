@@ -1,40 +1,37 @@
-// scripts/fetch.js
+// scripts/fetch.js — 直接抓 Polymarket 官方結算源 XTracker（免 API key）
 const fs   = require('fs');
 const path = require('path');
 
-const RAPIDAPI_KEY  = process.env.RAPIDAPI_KEY;
-const RAPIDAPI_HOST = 'twitter-api45.p.rapidapi.com';
-const USERNAME      = 'elonmusk';
-const DATA_FILE     = path.join(__dirname, '..', 'data', 'tweets.json');
+const USERNAME  = 'elonmusk';
+const DATA_FILE = path.join(__dirname, '..', 'data', 'tweets.json');
+const API_BASE  = 'https://xtracker.polymarket.com/api';
 
-if (!RAPIDAPI_KEY) {
-  console.error('❌ 找不到 RAPIDAPI_KEY');
-  process.exit(1);
+// 抓過去 8 天的資料（每次都補齊近期歷史，錯過也能補回）
+function dateStr(offsetDays) {
+  const d = new Date();
+  d.setUTCDate(d.getUTCDate() + offsetDays);
+  return d.toISOString().slice(0, 10);
 }
 
-const HEADERS = {
-  'Content-Type':    'application/json',
-  'x-rapidapi-key':  RAPIDAPI_KEY,
-  'x-rapidapi-host': RAPIDAPI_HOST,
-};
-
-async function fetchEndpoint(endpoint) {
-  const url = `https://${RAPIDAPI_HOST}/${endpoint}?screenname=${USERNAME}`;
-  const res = await fetch(url, { headers: HEADERS });
+async function fetchPosts() {
+  const url = `${API_BASE}/users/${USERNAME}/posts?platform=x&startDate=${dateStr(-8)}&endDate=${dateStr(1)}`;
+  console.log(`🔍 ${url}`);
+  const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
   if (!res.ok) {
     const body = await res.text();
-    throw new Error(`${endpoint} 回傳 ${res.status}: ${body.slice(0, 200)}`);
+    throw new Error(`XTracker 回傳 ${res.status}: ${body.slice(0, 200)}`);
   }
-  const data = await res.json();
-  const raw  = data.timeline || data.tweets || data.replies || [];
-  return raw.map((t) => ({
-    id:         String(t.tweet_id || t.id_str || t.id),
-    text:       t.text || t.full_text || '',
-    created_at: t.created_at || new Date().toISOString(),
-    likes:      Number(t.favorite_count)  || 0,
-    retweets:   Number(t.retweet_count)   || 0,
-    is_reply:   !!(t.in_reply_to_user_id || t.in_reply_to_screen_name),
-  }));
+  const json = await res.json();
+  // 回應格式：{ success: true, data: [...] }，容錯處理不同欄位名稱
+  const raw = json.data || json.posts || (Array.isArray(json) ? json : []);
+  if (!raw.length) console.warn('⚠️ 回傳 0 則，回應樣本：', JSON.stringify(json).slice(0, 300));
+
+  return raw.map((p) => ({
+    id:         String(p.platformPostId || p.postId || p.id),
+    text:       p.text || p.content || '',
+    created_at: p.createdAt || p.created_at || p.sourceCreatedAt || null,
+    imported_at: p.importedAt || p.imported_at || null,
+  })).filter(p => p.created_at);
 }
 
 function loadExisting() {
@@ -42,17 +39,18 @@ function loadExisting() {
     if (fs.existsSync(DATA_FILE))
       return JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
   } catch {}
-  return { username: USERNAME, last_updated: null, by_date: {} };
+  return { username: USERNAME, source: 'xtracker.polymarket.com', last_updated: null, by_date: {} };
 }
 
-function mergeAndSave(existing, tweets) {
+function mergeAndSave(existing, posts) {
   const db = existing;
+  db.source = 'xtracker.polymarket.com';
   let added = 0;
-  tweets.forEach((t) => {
-    const date = new Date(t.created_at).toISOString().slice(0, 10);
+  posts.forEach((p) => {
+    const date = new Date(p.created_at).toISOString().slice(0, 10);
     if (!db.by_date[date]) db.by_date[date] = [];
-    if (!db.by_date[date].find((x) => x.id === t.id)) {
-      db.by_date[date].push(t);
+    if (!db.by_date[date].find((x) => x.id === p.id)) {
+      db.by_date[date].push(p);
       added++;
     }
   });
@@ -64,27 +62,10 @@ function mergeAndSave(existing, tweets) {
 
 (async () => {
   try {
-    console.log(`🔍 抓取 @${USERNAME}：timeline + replies…`);
-
-    // 同時發兩個請求（節省時間）
-    const [timeline, replies] = await Promise.all([
-      fetchEndpoint('timeline.php').catch(e => { console.warn('⚠️ timeline 失敗：', e.message); return []; }),
-      fetchEndpoint('replies.php').catch(e => { console.warn('⚠️ replies 失敗：', e.message); return []; }),
-    ]);
-
-    // 合併並去重
-    const seen = new Set();
-    const all  = [...timeline, ...replies].filter(t => {
-      if (seen.has(t.id)) return false;
-      seen.add(t.id);
-      return true;
-    });
-
-    console.log(`  timeline: ${timeline.length} 則，replies: ${replies.length} 則，合併: ${all.length} 則`);
-
+    const posts    = await fetchPosts();
     const existing = loadExisting();
-    const added    = mergeAndSave(existing, all);
-    console.log(`✅ 完成：新增 ${added} 則，累計 ${existing.total} 則`);
+    const added    = mergeAndSave(existing, posts);
+    console.log(`✅ 完成：本次抓到 ${posts.length} 則，新增 ${added} 則，累計 ${existing.total} 則`);
   } catch (err) {
     console.error('❌ 失敗：', err.message);
     process.exit(1);
