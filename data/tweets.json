@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-13T21:04:20.954Z",
-  "total": 2063,
+  "last_updated": "2026-07-13T23:01:24.622Z",
+  "total": 2066,
   "by_date": {
     "2026-05-27": [
       {
@@ -14796,6 +14796,24 @@
       }
     ],
     "2026-07-13": [
+      {
+        "id": "cmrjtt1ls0000l70419bmyboc",
+        "text": "RT @JasonBud: @just_cameron The default in Grok Build is off. You can also run /privacy and any synced data is deleted. ZDR is respected fo…",
+        "created_at": "2026-07-13T22:58:21.000Z",
+        "imported_at": "2026-07-13T23:00:54.486Z"
+      },
+      {
+        "id": "cmrjtt1ls0001l7044418moje",
+        "text": "RT @nikitabier: We're rolling out a small tweak to boost visibility of your posts to your mutuals (people who you follow back).\n\nWe noticed…",
+        "created_at": "2026-07-13T22:58:00.000Z",
+        "imported_at": "2026-07-13T23:00:54.486Z"
+      },
+      {
+        "id": "cmrjswmon0005l104wy8rskx2",
+        "text": "True https://t.co/76BHktfm3D",
+        "created_at": "2026-07-13T22:32:09.000Z",
+        "imported_at": "2026-07-13T22:35:42.156Z"
+      },
       {
         "id": "cmrjkwhhz000gl8049jtxv79g",
         "text": "RT @SpaceXAI: @FarhanWritess If you run /privacy and change the setting, all previously synced data is deleted.",
