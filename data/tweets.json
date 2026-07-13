@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-13T04:34:48.146Z",
-  "total": 2997,
+  "last_updated": "2026-07-13T08:21:02.868Z",
+  "total": 3008,
   "by_date": {
     "2026-05-27": [
       {
@@ -23385,6 +23385,22 @@
         "likes": 0,
         "retweets": 0,
         "is_reply": false
+      },
+      {
+        "id": "2075580771201397092",
+        "text": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released\n\nmassive gains in object detection and counting. \n\nstill very strong in OCR\n\n↓ deep GPT 5.6 dive https://t.co/Y2PQDFOXTV",
+        "created_at": "Fri Jul 10 13:59:52 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2075580773638328498",
+        "text": "object detection\n\nfrom 13.8 mAP (GPT-5.5) to 46.2 mAP (GPT-5.6 Sol)\n\nall three models are very close\n- 46.2 (Sol)\n- 44.7 (Terra) \n- 43.3 (Luna)\n\nGemini 3.5 Flash still leads at 61.7 https://t.co/aCYI6HMo0e",
+        "created_at": "Fri Jul 10 13:59:53 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
       }
     ],
     "2026-07-11": [
@@ -24061,6 +24077,14 @@
         "likes": 0,
         "retweets": 0,
         "is_reply": false
+      },
+      {
+        "id": "2076262152965410888",
+        "text": "SOUTH KOREA IS COLLAPSING EVEN FASTER THAN JAPAN\n\nSouth Korea now has the lowest fertility rate in the world — sitting at around 0.7 children per woman. That is less than half of the 2.1 replacement level needed to maintain a population.\n\nThe country is aging and shrinking at an https://t.co/RUgozkj4OD",
+        "created_at": "Sun Jul 12 11:07:27 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
       }
     ],
     "2026-07-13": [
@@ -24076,6 +24100,70 @@
         "id": "2076496078208196673",
         "text": "@chiproytx What she’s saying is such an utterly idiotic lie. Married women have to present ID all the time for everyday living!",
         "created_at": "Mon Jul 13 02:36:59 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2076564143558074616",
+        "text": "RT @mikiovsh: Well shit - grok 4.5 is KILLING it it in my video studio evals!\n\n6/33 -&gt; 23/33 with ridiculous cost efficiency compared to 5.…",
+        "created_at": "Mon Jul 13 07:07:27 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2076563677319209094",
+        "text": "Using Grok agents in background mode",
+        "created_at": "Mon Jul 13 07:05:36 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2076558971905650718",
+        "text": "The publicly available version of Mythos (Fable with Claude as fallback) is significantly nerfed, but still that’s all most people have access to",
+        "created_at": "Mon Jul 13 06:46:54 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2076538528041677013",
+        "text": "RT @Polymarket: NEW: Grok 4.5 now scores highest on the SWE-Atlas-QnA benchmark, edging Claude Fable 5 &amp; GPT-5.6 Sol.",
+        "created_at": "Mon Jul 13 05:25:39 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2076475640941830521",
+        "text": "SpaceXAI is a far better steward of frontier technology than others, and they have proven it time and time again\n\nYou don't become a trillionaire by ripping people off",
+        "created_at": "Mon Jul 13 01:15:46 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2076546904641438011",
+        "text": "@jessalanfields Grok seems to be accelerating the fastest, at least for now",
+        "created_at": "Mon Jul 13 05:58:57 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2076546600135000275",
+        "text": "@teslaownersSV True",
+        "created_at": "Mon Jul 13 05:57:44 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2076546336959205592",
+        "text": "@skalskip92 Grok update on this front coming soon",
+        "created_at": "Mon Jul 13 05:56:41 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
