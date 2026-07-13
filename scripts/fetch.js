@@ -45,18 +45,36 @@ function loadExisting() {
 function mergeAndSave(existing, posts) {
   const db = existing;
   db.source = 'xtracker.polymarket.com';
-  let added = 0;
+
+  // 抓取窗口內的日子：以 API 回傳為準「整個重建」（可同步 Elon 刪文 / XTracker audit 剔除）
+  // 窗口以外的舊歷史保持不動
+  const windowStart = dateStr(-8);
+  const grouped = {};
   posts.forEach((p) => {
     const date = new Date(p.created_at).toISOString().slice(0, 10);
-    if (!db.by_date[date]) db.by_date[date] = [];
-    if (!db.by_date[date].find((x) => x.id === p.id)) {
-      db.by_date[date].push(p);
-      added++;
-    }
+    if (!grouped[date]) grouped[date] = [];
+    if (!grouped[date].find((x) => x.id === p.id)) grouped[date].push(p);
   });
+
+  let added = 0, removed = 0;
+  // 收集需要重建的日子：窗口內已存在的 + 本次抓到的
+  const datesToRebuild = new Set([
+    ...Object.keys(db.by_date).filter((d) => d >= windowStart),
+    ...Object.keys(grouped),
+  ]);
+  datesToRebuild.forEach((date) => {
+    const before = (db.by_date[date] || []).length;
+    const fresh  = grouped[date] || [];
+    if (fresh.length > before) added   += fresh.length - before;
+    if (fresh.length < before) removed += before - fresh.length;
+    if (fresh.length === 0) delete db.by_date[date];
+    else db.by_date[date] = fresh;
+  });
+
   db.last_updated = new Date().toISOString();
   db.total = Object.values(db.by_date).reduce((a, b) => a + b.length, 0);
   fs.writeFileSync(DATA_FILE, JSON.stringify(db, null, 2), 'utf8');
+  console.log(`   同步：+${added} 則新增，-${removed} 則剔除（跟隨結算源）`);
   return added;
 }
 
