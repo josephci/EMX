@@ -204,21 +204,17 @@ function getLast(n) {
   }
   return days;
 }
-// ── ET 市場日工具（xtracker 結算口徑：ET 中午12點 → 翌日中午12點） ──────────
-function toET(iso) {
-  // 回傳一個「假本地」Date，其年月日時分 = 該時刻的 ET 牆鐘時間（自動處理夏令）
-  return new Date(new Date(iso).toLocaleString('en-US', { timeZone: 'America/New_York' }));
+// ── 市場日工具（xtracker 實測口徑：固定 UTC-5，全年不跟夏令時；日界 = 12:00 = 17:00 UTC） ──
+function toEST(iso) {
+  return new Date(new Date(iso).getTime() - 5 * 3600000); // 固定 UTC-5
 }
 function marketDayKey(iso) {
-  // 市場日 = ET 時間減 12 小時後的日期（12:00 ET 起屬新一日）
-  const shifted = new Date(toET(iso).getTime() - 12 * 3600000);
-  return shifted.getFullYear() + '-' +
-    String(shifted.getMonth() + 1).padStart(2, '0') + '-' +
-    String(shifted.getDate()).padStart(2, '0');
+  // 市場日 = EST 時間減 12 小時後的日期（12:00 EST 起屬新一日）
+  return new Date(toEST(iso).getTime() - 12 * 3600000).toISOString().slice(0, 10);
 }
 function marketCol(iso) {
-  // 欄位 0 = 12:00 ET，欄位 23 = 翌日 11:00 ET
-  return (toET(iso).getHours() - 12 + 24) % 24;
+  // 欄位 0 = 12:00 EST，欄位 23 = 翌日 11:00 EST
+  return (toEST(iso).getUTCHours() - 12 + 24) % 24;
 }
 function allPosts() {
   return filterTweets(Object.values(db.by_date || {}).flat());
@@ -315,12 +311,9 @@ function render() {
     byMktDay[k][marketCol(t.created_at)]++;
   });
   const heatDays = [];
+  const baseDay = new Date(toEST(new Date().toISOString()).getTime() - 12 * 3600000);
   for (let i = 6; i >= 0; i--) {
-    const shifted = new Date(toET(new Date().toISOString()).getTime() - 12 * 3600000);
-    shifted.setDate(shifted.getDate() - i);
-    const k = shifted.getFullYear() + '-' +
-      String(shifted.getMonth() + 1).padStart(2, '0') + '-' +
-      String(shifted.getDate()).padStart(2, '0');
+    const k = new Date(baseDay.getTime() - i * 86400000).toISOString().slice(0, 10);
     heatDays.push({ key: k, label: k.slice(5).replace('-', '/'), hours: byMktDay[k] || Array(24).fill(0) });
   }
   const maxVal = Math.max(...heatDays.flatMap(d => d.hours), 1);
@@ -508,9 +501,17 @@ async function fetchSignal() {
     });
 
     // 本期市場計數（結算窗口內的推文數，非自然日）
+    // 窗口開始 = 標題日期的 12:00（固定UTC-5）= 17:00 UTC；Gamma startDate 係上市時間，可能早過窗口，只作後備
     let periodCount = null;
     if (db && db.by_date) {
-      const mktStart = new Date(ev.startDate);
+      let mktStart = new Date(ev.startDate);
+      const MONTHS = {january:0,february:1,march:2,april:3,may:4,june:5,july:6,august:7,september:8,october:9,november:10,december:11};
+      const tm = (ev.title || '').match(/(january|february|march|april|may|june|july|august|september|october|november|december)\s+(\d{1,2})/i);
+      const ym = (ev.title || '').match(/(\d{4})/);
+      if (tm) {
+        const y = ym ? parseInt(ym[1]) : now.getUTCFullYear();
+        mktStart = new Date(Date.UTC(y, MONTHS[tm[1].toLowerCase()], parseInt(tm[2]), 17, 0, 0));
+      }
       periodCount = Object.values(db.by_date).flat().filter(p => {
         const d = new Date(p.created_at);
         return d >= mktStart && d <= now;
