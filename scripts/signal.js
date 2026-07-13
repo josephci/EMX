@@ -59,10 +59,22 @@ function silenceHours() {
   } catch { return null; }
 }
 
-function periodCount(mktStart) {
+function marketWindowStart(ev) {
+  // 窗口開始 = 標題日期的 12:00（固定UTC-5）= 17:00 UTC；Gamma startDate 只作後備
+  const MONTHS = {january:0,february:1,march:2,april:3,may:4,june:5,july:6,august:7,september:8,october:9,november:10,december:11};
+  const tm = (ev.title || '').match(/(january|february|march|april|may|june|july|august|september|october|november|december)\s+(\d{1,2})/i);
+  const ym = (ev.title || '').match(/(\d{4})/);
+  if (tm) {
+    const y = ym ? parseInt(ym[1]) : new Date().getUTCFullYear();
+    return new Date(Date.UTC(y, MONTHS[tm[1].toLowerCase()], parseInt(tm[2]), 17, 0, 0));
+  }
+  return new Date(ev.startDate);
+}
+
+function periodCount(ev) {
   try {
     const db = JSON.parse(fs.readFileSync(TWEETS, 'utf8'));
-    const s = new Date(mktStart), now = new Date();
+    const s = marketWindowStart(ev), now = new Date();
     return Object.values(db.by_date || {}).flat().filter(p => {
       const d = new Date(p.created_at);
       return d >= s && d <= now;
@@ -103,7 +115,7 @@ function saveState(s) { fs.writeFileSync(STATE_FILE, JSON.stringify(s, null, 2))
     const hoursToSettle = (new Date(ev.endDate) - now) / 3600000;
     const { name: leader, price } = leaderOf(ev);
     const silence = silenceHours();
-    const count   = periodCount(ev.startDate);
+    const count   = periodCount(ev);
 
     const c1 = hoursToSettle <= SETTLE_MAX_H;
     const c2 = silence !== null && silence >= SILENCE_MIN_H;
