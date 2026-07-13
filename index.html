@@ -80,17 +80,32 @@
       <span class="handle">@elonmusk</span>
       <div id="header-right">
         <span id="last-updated"></span>
-        <button id="btn-mode" onclick="toggleMode()" style="background:#1a1a2e;border:1px solid #2e2e4a;border-radius:7px;padding:4px 10px;color:#34d399;font-size:11px;">原創</button>
+        <button id="btn-mode" onclick="toggleMode()" style="background:#1a1a2e;border:1px solid #2e2e4a;border-radius:7px;padding:4px 10px;color:#f59e0b;font-size:11px;">全部</button>
         <button id="btn-refresh" onclick="loadData()">🔄 更新</button>
       </div>
     </div>
-    <div id="status-bar">每小時自動抓取・免費方案 744次/月</div>
+    <div id="status-bar">每小時自動抓取・資料源：xtracker.polymarket.com（官方結算源）</div>
   </div>
 </div>
 
 <div id="main">
   <div id="error-box"></div>
   <div id="content">
+
+    <!-- entry signal -->
+    <div id="signal-box" style="background:#0f0f14;border:1px solid #1a1a2e;border-radius:10px;padding:13px;margin-top:14px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:9px;">
+        <span style="font-size:12px;color:#a78bfa;font-weight:600;">🎯 進場訊號（結算前最後一晚策略）</span>
+        <span id="sig-status" style="font-size:11px;padding:3px 10px;border-radius:20px;background:#1a1a2e;color:#555;">載入中…</span>
+      </div>
+      <div id="sig-body" style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;">
+        <div><div style="font-size:9px;color:#333;">當前市場</div><div id="sig-market" style="font-size:11px;color:#bbb;margin-top:2px;">—</div></div>
+        <div><div style="font-size:9px;color:#333;">距結算</div><div id="sig-settle" style="font-size:14px;color:#e8e8e8;font-weight:600;margin-top:2px;">—</div></div>
+        <div><div style="font-size:9px;color:#333;">Elon 已沉默</div><div id="sig-silence" style="font-size:14px;color:#e8e8e8;font-weight:600;margin-top:2px;">—</div></div>
+        <div><div style="font-size:9px;color:#333;">領先 bucket</div><div id="sig-leader" style="font-size:11px;color:#bbb;margin-top:2px;">—</div></div>
+      </div>
+      <div id="sig-checklist" style="margin-top:10px;font-size:10px;color:#555;line-height:1.8;"></div>
+    </div>
 
     <!-- stat cards -->
     <div id="stats">
@@ -169,7 +184,7 @@ function fmtAgo(iso) {
   if (sec < 3600) return Math.floor(sec / 60) + '分鐘前';
   return Math.floor(sec / 3600) + '小時前';
 }
-let showMode = 'original'; // 'original' | 'all'
+let showMode = 'all'; // xtracker 回傳的每則都計入結算，預設全部
 function isRT(t) { return t.text.startsWith('RT @'); }
 function filterTweets(tweets) {
   return showMode === 'original' ? tweets.filter(t => !isRT(t)) : tweets;
@@ -432,9 +447,78 @@ function toggleMode() {
   if (db) render();
 }
 
+// ── 進場訊號 ─────────────────────────────────────────────────────────────────
+// 條件：距結算 <=10h + Elon 沉默 >=2h + 領先者價格 0.30-0.88（回測：勝率68%、平均+3.7¢）
+async function fetchSignal() {
+  const set = (id, v) => document.getElementById(id).textContent = v;
+  const statusEl = document.getElementById('sig-status');
+  try {
+    const res = await fetch('https://gamma-api.polymarket.com/public-search?q=' +
+      encodeURIComponent('elon musk tweets') + '&limit_per_type=30&events_status=active');
+    const js  = await res.json();
+    const now = new Date();
+    const evs = (js.events || []).filter(e => {
+      const t = (e.title || '').toLowerCase();
+      if (!(t.includes('elon') && (t.includes('tweet') || t.includes('post')))) return false;
+      try {
+        const s = new Date(e.startDate), en = new Date(e.endDate);
+        return en > now && (en - s) / 86400000 <= 8;
+      } catch { return false; }
+    });
+    if (!evs.length) { statusEl.textContent = '無進行中市場'; return; }
+    const ev = evs.sort((a, b) => new Date(a.endDate) - new Date(b.endDate))[0];
+    const end = new Date(ev.endDate);
+    const hrsToSettle = (end - now) / 3600000;
+
+    // 領先 bucket（gamma 事件內建 outcomePrices，免 CLOB 呼叫）
+    let leader = null, leadPrice = -1;
+    (ev.markets || []).forEach(m => {
+      try {
+        const p = parseFloat(JSON.parse(m.outcomePrices || '[]')[0]);
+        if (p > leadPrice) { leadPrice = p; leader = m.groupItemTitle || m.question || '?'; }
+      } catch {}
+    });
+
+    // Elon 沉默時數（從自己的 tweets.json 找最新一則）
+    let silenceH = null;
+    if (db && db.by_date) {
+      let latest = null;
+      Object.values(db.by_date).flat().forEach(p => {
+        const d = new Date(p.created_at);
+        if (!latest || d > latest) latest = d;
+      });
+      if (latest) silenceH = (now - latest) / 3600000;
+    }
+
+    set('sig-market', ev.title.replace('Elon Musk # tweets ', '').slice(0, 24));
+    set('sig-settle', hrsToSettle.toFixed(1) + ' 小時');
+    set('sig-silence', silenceH === null ? '—' : silenceH.toFixed(1) + ' 小時');
+    set('sig-leader', leader ? `${leader}（${(leadPrice * 100).toFixed(1)}¢）` : '—');
+
+    const c1 = hrsToSettle <= 10;
+    const c2 = silenceH !== null && silenceH >= 2;
+    const c3 = leadPrice > 0.30 && leadPrice < 0.88;
+    document.getElementById('sig-checklist').innerHTML =
+      `${c1 ? '✅' : '⬜'} 距結算 ≤10h　${c2 ? '✅' : '⬜'} 沉默 ≥2h　${c3 ? '✅' : '⬜'} 領先者 30-88¢`;
+
+    if (c1 && c2 && c3) {
+      statusEl.textContent = '🟢 條件滿足';
+      statusEl.style.cssText = 'font-size:11px;padding:3px 10px;border-radius:20px;background:#0f2a15;color:#34d399;font-weight:700;';
+      document.getElementById('signal-box').style.borderColor = '#34d399';
+    } else {
+      statusEl.textContent = '⏳ 等待條件';
+      statusEl.style.cssText = 'font-size:11px;padding:3px 10px;border-radius:20px;background:#1a1a2e;color:#555;';
+      document.getElementById('signal-box').style.borderColor = '#1a1a2e';
+    }
+  } catch (e) {
+    statusEl.textContent = '市場資料抓取失敗';
+  }
+}
+
 // ── init ──────────────────────────────────────────────────────────────────────
-loadData();
-setInterval(loadData, 60 * 60 * 1000); // 每小時自動刷新頁面資料
+loadData().then(fetchSignal);
+setInterval(() => loadData().then(fetchSignal), 60 * 60 * 1000); // 每小時刷新資料
+setInterval(fetchSignal, 5 * 60 * 1000);                          // 訊號每 5 分鐘刷新
 </script>
 </body>
 </html>
