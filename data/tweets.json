@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-13T00:00:48.406Z",
-  "total": 2994,
+  "last_updated": "2026-07-13T04:34:48.146Z",
+  "total": 2997,
   "by_date": {
     "2026-05-27": [
       {
@@ -24050,6 +24050,32 @@
         "id": "2076432602999722000",
         "text": "Cool",
         "created_at": "Sun Jul 12 22:24:45 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2076347579445506458",
+        "text": "False. Proof of Citizenship and cleaning voter rolls would expose Michigan and she knows it.",
+        "created_at": "Sun Jul 12 16:46:54 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      }
+    ],
+    "2026-07-13": [
+      {
+        "id": "2076524673139954010",
+        "text": "RT @AJamesMcCarthy: I get to see this monster fly again later this week... new photos to come! https://t.co/j1IcA7wJSD",
+        "created_at": "Mon Jul 13 04:30:36 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "is_reply": false
+      },
+      {
+        "id": "2076496078208196673",
+        "text": "@chiproytx What she’s saying is such an utterly idiotic lie. Married women have to present ID all the time for everyday living!",
+        "created_at": "Mon Jul 13 02:36:59 +0000 2026",
         "likes": 0,
         "retweets": 0,
         "is_reply": false
