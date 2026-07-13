@@ -104,12 +104,16 @@
         <div><div style="font-size:9px;color:#333;">Elon 已沉默</div><div id="sig-silence" style="font-size:14px;color:#e8e8e8;font-weight:600;margin-top:2px;">—</div></div>
         <div><div style="font-size:9px;color:#333;">領先 bucket</div><div id="sig-leader" style="font-size:11px;color:#bbb;margin-top:2px;">—</div></div>
       </div>
-      <div id="sig-checklist" style="margin-top:10px;font-size:10px;color:#555;line-height:1.8;"></div>
+      <div id="sig-count-row" style="margin-top:10px;padding-top:10px;border-top:1px solid #1a1a2e;font-size:11px;color:#bbb;">
+        本期市場已計 <span id="sig-count" style="color:#a78bfa;font-weight:700;">—</span> 則
+        <span id="sig-boundary" style="color:#555;"></span>
+      </div>
+      <div id="sig-checklist" style="margin-top:8px;font-size:10px;color:#555;line-height:1.8;"></div>
     </div>
 
     <!-- stat cards -->
     <div id="stats">
-      <div class="stat-card"><div class="stat-val" id="s-today"  style="color:#a78bfa">0</div><div class="stat-label">今日推文</div></div>
+      <div class="stat-card"><div class="stat-val" id="s-today"  style="color:#a78bfa">0</div><div class="stat-label">本市場日推文</div></div>
       <div class="stat-card"><div class="stat-val" id="s-avg7"   style="color:#34d399">0</div><div class="stat-label">7日平均</div></div>
       <div class="stat-card"><div class="stat-val" id="s-peak"   style="color:#f59e0b">0</div><div class="stat-label">今日高峰時段</div></div>
       <div class="stat-card"><div class="stat-val" id="s-total"  style="color:#fb7185">0</div><div class="stat-label">累計總數</div></div>
@@ -123,13 +127,13 @@
 
     <!-- today hourly bar chart -->
     <div class="chart-box">
-      <p>⏰ 今日每小時推文數</p>
+      <p>⏰ 本期市場日每小時（ET 中午起，同 xtracker 口徑）</p>
       <canvas id="chartHourly" style="max-height:110px"></canvas>
     </div>
 
     <!-- 7-day heatmap -->
     <div id="heatmap-wrap">
-      <p>🗓 過去 7 天・每小時熱力圖</p>
+      <p>🗓 過去 7 個市場日・每小時熱力圖（ET 中午→中午）</p>
       <div id="heatmap"></div>
       <div style="display:flex;align-items:center;gap:6px;margin-top:8px;">
         <span style="font-size:9px;color:#333">少</span>
@@ -200,6 +204,25 @@ function getLast(n) {
   }
   return days;
 }
+// ── ET 市場日工具（xtracker 結算口徑：ET 中午12點 → 翌日中午12點） ──────────
+function toET(iso) {
+  // 回傳一個「假本地」Date，其年月日時分 = 該時刻的 ET 牆鐘時間（自動處理夏令）
+  return new Date(new Date(iso).toLocaleString('en-US', { timeZone: 'America/New_York' }));
+}
+function marketDayKey(iso) {
+  // 市場日 = ET 時間減 12 小時後的日期（12:00 ET 起屬新一日）
+  const shifted = new Date(toET(iso).getTime() - 12 * 3600000);
+  return shifted.getFullYear() + '-' +
+    String(shifted.getMonth() + 1).padStart(2, '0') + '-' +
+    String(shifted.getDate()).padStart(2, '0');
+}
+function marketCol(iso) {
+  // 欄位 0 = 12:00 ET，欄位 23 = 翌日 11:00 ET
+  return (toET(iso).getHours() - 12 + 24) % 24;
+}
+function allPosts() {
+  return filterTweets(Object.values(db.by_date || {}).flat());
+}
 function heatColor(val, max) {
   if (val === 0) return '#111118';
   const t = val / Math.max(max, 1);
@@ -240,17 +263,19 @@ function render() {
   const last7       = getLast(7);
   const avg7        = (last7.reduce((a,b) => a + b.count, 0) / 7).toFixed(1);
 
-  // hourly counts for today
+  // 本期市場日每小時計數（ET 中午起，同 xtracker 口徑一致）
+  const curMktDay = marketDayKey(new Date().toISOString());
   const hourCounts = Array(24).fill(0);
-  todayTweets.forEach(t => {
-    const h = new Date(t.created_at).getUTCHours(); // UTC hour matches data storage
-    hourCounts[h]++;
+  const posts = allPosts();
+  posts.forEach(t => {
+    if (marketDayKey(t.created_at) === curMktDay) hourCounts[marketCol(t.created_at)]++;
   });
+  const mktDayTotal = hourCounts.reduce((a, b) => a + b, 0);
   const peakHour = hourCounts.indexOf(Math.max(...hourCounts));
-  const peakLabel = Math.max(...hourCounts) > 0 ? peakHour + ':00' : '—';
+  const peakLabel = Math.max(...hourCounts) > 0 ? ((12 + peakHour) % 24) + ':00 ET' : '—';
 
   // stat cards
-  document.getElementById('s-today').textContent = todayTweets.length;
+  document.getElementById('s-today').textContent = mktDayTotal;
   document.getElementById('s-avg7').textContent   = avg7;
   document.getElementById('s-peak').textContent   = peakLabel;
   document.getElementById('s-total').textContent  = db.total || 0;
@@ -273,27 +298,30 @@ function render() {
   chartHourly = new Chart(document.getElementById('chartHourly'), {
     type: 'bar',
     data: {
-      labels: Array.from({length:24}, (_,i) => i % 6 === 0 ? i + 'h' : ''),
+      labels: Array.from({length:24}, (_,i) => i % 6 === 0 ? ((12 + i) % 24) + 'h' : ''),
       datasets: [{ data: hourCounts, backgroundColor: hourCounts.map((v,i) => i === peakHour && v > 0 ? '#f59e0b' : '#34d399'), borderRadius: 2 }]
     },
-    options: { plugins: { legend: { display: false }, tooltip: { callbacks: { title: ctx => ctx[0].dataIndex + ':00', label: ctx => ctx.parsed.y + ' 則' } } }, scales: {
+    options: { plugins: { legend: { display: false }, tooltip: { callbacks: { title: ctx => ((12 + ctx[0].dataIndex) % 24) + ':00 ET', label: ctx => ctx.parsed.y + ' 則' } } }, scales: {
       x: { grid: { color: '#111118' }, ticks: { color: '#2a2a3a', font: { size: 9 } } },
       y: { grid: { color: '#111118' }, ticks: { color: '#2a2a3a', font: { size: 9 }, stepSize: 1 }, beginAtZero: true }
     }}
   });
 
-  // 7-day heatmap
-  // build matrix: rows = days (7), cols = hours (24)
+  // 7-day heatmap（ET 市場日：每行 = 中午12點ET → 翌日中午，同 xtracker 一致）
+  const byMktDay = {};
+  posts.forEach(t => {
+    const k = marketDayKey(t.created_at);
+    if (!byMktDay[k]) byMktDay[k] = Array(24).fill(0);
+    byMktDay[k][marketCol(t.created_at)]++;
+  });
   const heatDays = [];
   for (let i = 6; i >= 0; i--) {
-    const d = new Date();
-    const utcDate = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate() - i));
-    const k = utcDate.toISOString().slice(0, 10);
-    const tweets = byDate[k] || [];
-    const hours = Array(24).fill(0);
-    const tw2 = filterTweets(tweets);
-    tw2.forEach(t => { hours[new Date(t.created_at).getUTCHours()]++; });
-    heatDays.push({ key: k, label: fmtDate(k), hours });
+    const shifted = new Date(toET(new Date().toISOString()).getTime() - 12 * 3600000);
+    shifted.setDate(shifted.getDate() - i);
+    const k = shifted.getFullYear() + '-' +
+      String(shifted.getMonth() + 1).padStart(2, '0') + '-' +
+      String(shifted.getDate()).padStart(2, '0');
+    heatDays.push({ key: k, label: k.slice(5).replace('-', '/'), hours: byMktDay[k] || Array(24).fill(0) });
   }
   const maxVal = Math.max(...heatDays.flatMap(d => d.hours), 1);
 
@@ -304,7 +332,7 @@ function render() {
   for (let h = 0; h < 24; h++) {
     const el = document.createElement('div');
     el.className = 'hm-hour-label';
-    el.textContent = h % 6 === 0 ? h : '';
+    el.textContent = h % 6 === 0 ? ((12 + h) % 24) + 'ET' : '';
     hm.appendChild(el);
   }
   // empty placeholder for total column header
@@ -319,7 +347,7 @@ function render() {
       const cell = document.createElement('div');
       cell.className = 'hm-cell';
       cell.style.background = heatColor(cnt, maxVal);
-      cell.setAttribute('data-tip', day.key + ' ' + h + ':00 — ' + cnt + ' 則');
+      cell.setAttribute('data-tip', day.key + ' ' + ((12 + h) % 24) + ':00 ET — ' + cnt + ' 則');
       hm.appendChild(cell);
     });
     // daily total
@@ -478,6 +506,35 @@ async function fetchSignal() {
         if (p > leadPrice) { leadPrice = p; leader = m.groupItemTitle || m.question || '?'; }
       } catch {}
     });
+
+    // 本期市場計數（結算窗口內的推文數，非自然日）
+    let periodCount = null;
+    if (db && db.by_date) {
+      const mktStart = new Date(ev.startDate);
+      periodCount = Object.values(db.by_date).flat().filter(p => {
+        const d = new Date(p.created_at);
+        return d >= mktStart && d <= now;
+      }).length;
+    }
+    // 解析領先 bucket 邊界，計算距離跳出 bucket 差幾多則
+    let boundaryMsg = '';
+    if (leader && periodCount !== null) {
+      let upper = null;
+      let m1;
+      if ((m1 = leader.match(/^<\s*(\d+)/)))            upper = parseInt(m1[1]) - 1;
+      else if ((m1 = leader.match(/(\d+)\s*-\s*(\d+)/))) upper = parseInt(m1[2]);
+      // "240+" 冇上界
+      if (upper !== null) {
+        const room = upper - periodCount;
+        boundaryMsg = room >= 0
+          ? `（${leader} 上界仲有 ${room + 1} 則空間）`
+          : `（⚠️ 已超出 ${leader} 上界 ${-room} 則，數據可能滯後）`;
+      } else {
+        boundaryMsg = `（${leader} 無上界，愈多愈穩）`;
+      }
+    }
+    document.getElementById('sig-count').textContent = periodCount === null ? '—' : periodCount;
+    document.getElementById('sig-boundary').textContent = boundaryMsg;
 
     // Elon 沉默時數（從自己的 tweets.json 找最新一則）
     let silenceH = null;
