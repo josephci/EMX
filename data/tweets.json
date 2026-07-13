@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-13T18:00:03.481Z",
-  "total": 2057,
+  "last_updated": "2026-07-13T19:42:56.983Z",
+  "total": 2063,
   "by_date": {
     "2026-05-27": [
       {
@@ -14796,6 +14796,42 @@
       }
     ],
     "2026-07-13": [
+      {
+        "id": "cmrjkwhhz000gl8049jtxv79g",
+        "text": "RT @SpaceXAI: @FarhanWritess If you run /privacy and change the setting, all previously synced data is deleted.",
+        "created_at": "2026-07-13T18:47:03.000Z",
+        "imported_at": "2026-07-13T18:51:38.520Z"
+      },
+      {
+        "id": "cmrjkwhhz000hl80417kb56ff",
+        "text": "RT @milichab: @Sudhie That's not the case. The CLI doesn't retain data under ZDR (including headless/non-headless modes), and has since lau…",
+        "created_at": "2026-07-13T18:46:26.000Z",
+        "imported_at": "2026-07-13T18:51:38.520Z"
+      },
+      {
+        "id": "cmrjkpnjq000el804yyjuvyj2",
+        "text": "Progress https://t.co/mjATlPkWen",
+        "created_at": "2026-07-13T18:45:40.000Z",
+        "imported_at": "2026-07-13T18:46:19.767Z"
+      },
+      {
+        "id": "cmrjkpnjq000fl8049r4kvxff",
+        "text": "True. \n\nAs a precautionary measure, all user data that was uploaded to SpaceXAI before now will be completely and utterly deleted. Zero anything whatsoever will remain. https://t.co/S8XFPEfBmP",
+        "created_at": "2026-07-13T18:45:00.000Z",
+        "imported_at": "2026-07-13T18:46:19.767Z"
+      },
+      {
+        "id": "cmrjkiwhk000al8049h24s9wl",
+        "text": "RT @elonmusk: @RomanGuy20 @Teslaconomics @SpaceXAI Their zero data retention policy fine print says they still retain data? Am I reading th…",
+        "created_at": "2026-07-13T18:40:15.000Z",
+        "imported_at": "2026-07-13T18:41:04.750Z"
+      },
+      {
+        "id": "cmrjkiwhk000bl804gwow4s99",
+        "text": "SpaceX policy regarding data retention.\n\nIt is actually helpful for debugging issues if we can retain some amount of data, so allowing this would be appreciated, but your privacy settings are always respected. https://t.co/JJxxeI4kFd",
+        "created_at": "2026-07-13T18:38:16.000Z",
+        "imported_at": "2026-07-13T18:41:04.750Z"
+      },
       {
         "id": "cmrjdptaz0004jl04a5jt14nu",
         "text": "Literally true https://t.co/tcgsHNdytq",
