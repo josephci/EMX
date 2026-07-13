@@ -14,7 +14,7 @@ function dateStr(offsetDays) {
 }
 
 async function fetchPosts() {
-  const url = `${API_BASE}/users/${USERNAME}/posts?platform=x&startDate=${dateStr(-30)}&endDate=${dateStr(1)}`;
+  const url = `${API_BASE}/users/${USERNAME}/posts?platform=x&startDate=${dateStr(-8)}&endDate=${dateStr(1)}`;
   console.log(`🔍 ${url}`);
   const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
   if (!res.ok) {
