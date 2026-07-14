@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-14T14:00:20.724Z",
-  "total": 2071,
+  "last_updated": "2026-07-14T16:20:15.848Z",
+  "total": 2077,
   "by_date": {
     "2026-05-27": [
       {
@@ -14888,6 +14888,42 @@
       }
     ],
     "2026-07-14": [
+      {
+        "id": "cmrks2fs40000l404yqoj5pnh",
+        "text": "Ancient times  https://t.co/8VWNoiOHjg",
+        "created_at": "2026-07-14T14:56:19.000Z",
+        "imported_at": "2026-07-14T14:59:59.716Z"
+      },
+      {
+        "id": "cmrkrvkel0006jx04w9m9vo9k",
+        "text": "True https://t.co/qZ567SCLkU",
+        "created_at": "2026-07-14T14:52:02.000Z",
+        "imported_at": "2026-07-14T14:54:39.117Z"
+      },
+      {
+        "id": "cmrkrqtzb0005jx04bz7flret",
+        "text": "RT @SpaceX: Falcon 9 launches 27 @Starlink satellites from California https://t.co/KvYGsD6DPi",
+        "created_at": "2026-07-14T14:50:30.000Z",
+        "imported_at": "2026-07-14T14:50:58.236Z"
+      },
+      {
+        "id": "cmrkroi1d0002jx04kyfmdmhw",
+        "text": "RT @farzyness: Grok is the Flow LLM.\n\nGrok 4.5’s biggest advantage is its speed.\n\nIt’s smart enough to be comparable to the other models on…",
+        "created_at": "2026-07-14T14:48:55.000Z",
+        "imported_at": "2026-07-14T14:49:09.458Z"
+      },
+      {
+        "id": "cmrkroi1d0003jx04qh6jt5qf",
+        "text": "RT @Starlink: Starlink will provide high-speed, low-latency connectivity onboard @FlyFrontier, transforming every flight into a fully conne…",
+        "created_at": "2026-07-14T14:48:32.000Z",
+        "imported_at": "2026-07-14T14:49:09.458Z"
+      },
+      {
+        "id": "cmrkroi1d0004jx04rmg4egaj",
+        "text": "RT @PeterSweden7: Right-wing wave in Europe.\n\nFrance 🇫🇷: Marine Le Pen now leading polls to be next President.\n\nAustria 🇦🇹: the Freedom Par…",
+        "created_at": "2026-07-14T14:46:59.000Z",
+        "imported_at": "2026-07-14T14:49:09.458Z"
+      },
       {
         "id": "cmrk8sws90002i0044b9whfh8",
         "text": "Grok 4.5 reaches #1 position on Long-Horizon Terminal-Bench https://t.co/JHJPzNtbu1",
