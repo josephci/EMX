@@ -78,8 +78,41 @@ function mergeAndSave(existing, posts) {
   return added;
 }
 
+// 嘗試抓上/下機數據（endpoint 未有官方文件，逐個試；全部失敗就略過，唔影響主流程）
+async function tryFetchFlights() {
+  const candidates = [
+    `${API_BASE}/users/${USERNAME}/flights?platform=x`,
+    `${API_BASE}/users/${USERNAME}/flights`,
+  ];
+  for (const url of candidates) {
+    try {
+      const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
+      if (!res.ok) continue;
+      const json = await res.json();
+      const raw = json.data || json.flights || (Array.isArray(json) ? json : []);
+      if (!raw.length) continue;
+      // 將唔同可能欄位名統一成 [{time, type}]
+      const events = [];
+      raw.forEach((f) => {
+        const dep = f.departureTime || f.takeoffAt || f.departedAt || f.startTime;
+        const arr = f.arrivalTime   || f.landedAt  || f.arrivedAt  || f.endTime;
+        if (dep) events.push({ time: dep, type: 'takeoff' });
+        if (arr) events.push({ time: arr, type: 'landing' });
+        if (!dep && !arr && f.time && f.type) events.push({ time: f.time, type: f.type });
+      });
+      if (events.length) {
+        fs.writeFileSync(path.join(__dirname, '..', 'data', 'flights.json'), JSON.stringify(events, null, 2));
+        console.log(`✈️ 上下機數據：${events.length} 個事件（${url}）`);
+        return;
+      }
+    } catch {}
+  }
+  console.log('✈️ 無公開上下機 endpoint，略過');
+}
+
 (async () => {
   try {
+    await tryFetchFlights();
     const posts    = await fetchPosts();
     const existing = loadExisting();
     const added    = mergeAndSave(existing, posts);
