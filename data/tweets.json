@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-15T23:02:44.116Z",
-  "total": 2113,
+  "last_updated": "2026-07-16T03:19:20.880Z",
+  "total": 2115,
   "by_date": {
     "2026-05-27": [
       {
@@ -14957,6 +14957,12 @@
     ],
     "2026-07-15": [
       {
+        "id": "cmrmpqxfq0003l7042q7r5vl0",
+        "text": "RT @MiaAI_lab: I've inspected the open-sourced Grok Build so you don't have to. Here's exactly what data it sends (and what stays local):…",
+        "created_at": "2026-07-15T23:29:24.000Z",
+        "imported_at": "2026-07-15T23:30:35.834Z"
+      },
+      {
         "id": "cmrmk0yuv0005jx04rmo0dfp4",
         "text": "Grok Build is now open source https://t.co/LbGepmRB3l",
         "created_at": "2026-07-15T20:48:52.000Z",
@@ -15171,6 +15177,14 @@
         "text": "RT @XFreeze: SpaceX just launched two Falcon 9 rockets carrying 56 Starlink satellites in less than eight hours\n\nSpaceX is moving at light…",
         "created_at": "2026-07-15T02:21:00.000Z",
         "imported_at": "2026-07-15T02:25:29.371Z"
+      }
+    ],
+    "2026-07-16": [
+      {
+        "id": "cmrmsyrxk0000kz04t1w3pc1m",
+        "text": "RT @grok: Usage limits are reset and Grok Build is open-source",
+        "created_at": "2026-07-16T00:58:06.000Z",
+        "imported_at": "2026-07-16T01:00:40.808Z"
       }
     ]
   },
