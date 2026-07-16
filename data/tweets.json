@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-16T20:05:46.222Z",
-  "total": 2135,
+  "last_updated": "2026-07-16T22:08:24.297Z",
+  "total": 2141,
   "by_date": {
     "2026-05-27": [
       {
@@ -15180,6 +15180,42 @@
       }
     ],
     "2026-07-16": [
+      {
+        "id": "cmro261md000al004drqudmvt",
+        "text": "RT @XFreeze: We have Falcon and Starship taking off almost at the same time today (~2 hours apart)\n\nFor other space programs, this is years…",
+        "created_at": "2026-07-16T22:02:33.000Z",
+        "imported_at": "2026-07-16T22:06:02.666Z"
+      },
+      {
+        "id": "cmro1z4s90009l0045tqpknqw",
+        "text": "Tesla now in Uruguay https://t.co/ERx146wPK7",
+        "created_at": "2026-07-16T21:57:08.000Z",
+        "imported_at": "2026-07-16T22:00:40.174Z"
+      },
+      {
+        "id": "cmro0wt5o0006l0043bprljwx",
+        "text": "RT @Kristennetten: Love the new Starship Schematics T-shirt sold by SpaceX https://t.co/mlrpu1XpS7",
+        "created_at": "2026-07-16T21:28:20.000Z",
+        "imported_at": "2026-07-16T21:30:52.177Z"
+      },
+      {
+        "id": "cmro0rvwc0004l004opstdjon",
+        "text": "Starlink now available in Côte d'Ivoire! https://t.co/mYmmbB6hPq",
+        "created_at": "2026-07-16T21:26:01.000Z",
+        "imported_at": "2026-07-16T21:27:02.460Z"
+      },
+      {
+        "id": "cmro0rvwc0005l004cezmd0lf",
+        "text": "Starship launch window opens at 5:45pm Texas time https://t.co/rXXU1qjNOL",
+        "created_at": "2026-07-16T21:24:48.000Z",
+        "imported_at": "2026-07-16T21:27:02.460Z"
+      },
+      {
+        "id": "cmro0l5qu0003l004aetmbj4v",
+        "text": "RT @milichab: Extremely strong at CAD and spatial reasoning",
+        "created_at": "2026-07-16T21:21:31.000Z",
+        "imported_at": "2026-07-16T21:21:48.630Z"
+      },
       {
         "id": "cmrnvy15c0003jo04kdwq1pm4",
         "text": "RT @Starlink: Starlink Mobile will be available in Italy with @FASTWEB.  The service will keep customers connected via apps and text messag…",
