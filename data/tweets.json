@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-17T04:12:25.146Z",
-  "total": 2149,
+  "last_updated": "2026-07-17T07:22:20.598Z",
+  "total": 2155,
   "by_date": {
     "2026-05-27": [
       {
@@ -15380,6 +15380,42 @@
       }
     ],
     "2026-07-17": [
+      {
+        "id": "cmrolty020001jr047m6cqq83",
+        "text": "As promised https://t.co/dMoHSO4rjy",
+        "created_at": "2026-07-17T07:14:19.000Z",
+        "imported_at": "2026-07-17T07:16:30.435Z"
+      },
+      {
+        "id": "cmrolnhmg0000jr04vz3mafeb",
+        "text": "Try Grok https://t.co/MHolLozStT",
+        "created_at": "2026-07-17T07:10:26.000Z",
+        "imported_at": "2026-07-17T07:11:29.273Z"
+      },
+      {
+        "id": "cmrolbxm90005l804vzkhztdv",
+        "text": "RT @kentcdodds: Grok 4.5 is the first time I feel like I can regularly use a Grok model for building software.",
+        "created_at": "2026-07-17T06:57:53.000Z",
+        "imported_at": "2026-07-17T07:02:30.130Z"
+      },
+      {
+        "id": "cmrokwi2o0004l8049uydjrnw",
+        "text": "Grok Imagine https://t.co/vJq2bSHnfP",
+        "created_at": "2026-07-17T06:48:04.000Z",
+        "imported_at": "2026-07-17T06:50:30.145Z"
+      },
+      {
+        "id": "cmrokrp4k0003l804bp8tolmh",
+        "text": "Grok Build upgrades https://t.co/VspDCLVg25",
+        "created_at": "2026-07-17T06:44:47.000Z",
+        "imported_at": "2026-07-17T06:46:46.004Z"
+      },
+      {
+        "id": "cmrokl9650002l804jug8txf1",
+        "text": "https://t.co/NQj2euaQdh",
+        "created_at": "2026-07-17T06:40:34.000Z",
+        "imported_at": "2026-07-17T06:41:45.389Z"
+      },
       {
         "id": "cmro82km00000jx04yt07g66u",
         "text": "Starlink V3 will increase space-based bandwidth by ~2 orders of magnitude https://t.co/kOZ3UJ0u7J",
