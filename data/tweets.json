@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-16T22:08:24.297Z",
-  "total": 2141,
+  "last_updated": "2026-07-17T00:03:24.508Z",
+  "total": 2147,
   "by_date": {
     "2026-05-27": [
       {
@@ -15180,6 +15180,42 @@
       }
     ],
     "2026-07-16": [
+      {
+        "id": "cmro45gge0000kz04wsd8ik7m",
+        "text": "Some of the engines didn’t start, triggering an automatic launch abort. \n\nNow offloading propellant.\n\nNext launch attempt hopefully in a few days.",
+        "created_at": "2026-07-16T22:55:59.000Z",
+        "imported_at": "2026-07-16T23:01:34.479Z"
+      },
+      {
+        "id": "cmro31com000fl004k1r5lxza",
+        "text": "RT @techdevnotes: SpaceXAI has updated Zero Data Retention (ZDR) in Docs with more information https://t.co/1YVg0AqbHb",
+        "created_at": "2026-07-16T22:28:23.000Z",
+        "imported_at": "2026-07-16T22:30:23.350Z"
+      },
+      {
+        "id": "cmro2wsng000el0046c903v5e",
+        "text": "To understand more about Starship https://t.co/Rsqp9wxpbA",
+        "created_at": "2026-07-16T22:24:26.000Z",
+        "imported_at": "2026-07-16T22:26:50.765Z"
+      },
+      {
+        "id": "cmro2i2qo000cl004cxqxrebx",
+        "text": "RT @ARKInvest: No Starship, no orbital data centers. No orbital data centers, no potential $28.5 trillion market.\n\nBefore you watch tonight…",
+        "created_at": "2026-07-16T22:11:26.000Z",
+        "imported_at": "2026-07-16T22:15:24.001Z"
+      },
+      {
+        "id": "cmro2i2qo000dl004b6227hyc",
+        "text": "RT @finkd: A lot of people asked for this, so Muse Spark 1.1 is now on OpenRouter.",
+        "created_at": "2026-07-16T22:10:59.000Z",
+        "imported_at": "2026-07-16T22:15:24.001Z"
+      },
+      {
+        "id": "cmro2c712000bl004d6yls9la",
+        "text": "RT @jamesdouma: Today I’m really feeling the acceleration.",
+        "created_at": "2026-07-16T22:09:47.000Z",
+        "imported_at": "2026-07-16T22:10:49.622Z"
+      },
       {
         "id": "cmro261md000al004drqudmvt",
         "text": "RT @XFreeze: We have Falcon and Starship taking off almost at the same time today (~2 hours apart)\n\nFor other space programs, this is years…",
