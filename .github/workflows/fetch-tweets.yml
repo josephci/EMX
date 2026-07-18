@@ -2,7 +2,7 @@ name: Fetch Elon Tweets
 
 on:
   schedule:
-    - cron: '0 * * * *'   # 每小時整點（XTracker 免費無限制，不再需要 RapidAPI）
+    - cron: '*/20 * * * *'   # 每 20 分鐘（XTracker 免費無限制；GitHub 排程本身可能延遲幾分鐘）
   workflow_dispatch:
 
 jobs:
