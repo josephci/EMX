@@ -78,41 +78,96 @@ function mergeAndSave(existing, posts) {
   return added;
 }
 
-// 嘗試抓上/下機數據（endpoint 未有官方文件，逐個試；全部失敗就略過，唔影響主流程）
-async function tryFetchFlights() {
-  const candidates = [
-    `${API_BASE}/users/${USERNAME}/flights?platform=x`,
-    `${API_BASE}/users/${USERNAME}/flights`,
-  ];
-  for (const url of candidates) {
-    try {
-      const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
-      if (!res.ok) continue;
-      const json = await res.json();
-      const raw = json.data || json.flights || (Array.isArray(json) ? json : []);
-      if (!raw.length) continue;
-      // 將唔同可能欄位名統一成 [{time, type}]
-      const events = [];
-      raw.forEach((f) => {
-        const dep = f.departureTime || f.takeoffAt || f.departedAt || f.startTime;
-        const arr = f.arrivalTime   || f.landedAt  || f.arrivedAt  || f.endTime;
-        if (dep) events.push({ time: dep, type: 'takeoff' });
-        if (arr) events.push({ time: arr, type: 'landing' });
-        if (!dep && !arr && f.time && f.type) events.push({ time: f.time, type: f.type });
-      });
-      if (events.length) {
-        fs.writeFileSync(path.join(__dirname, '..', 'data', 'flights.json'), JSON.stringify(events, null, 2));
-        console.log(`✈️ 上下機數據：${events.length} 個事件（${url}）`);
-        return;
-      }
-    } catch {}
+// ── 上/下機：xtracker 冇公開 flights endpoint，改用 ADS-B 社群源 ────────────
+// 每次 run 查詢飛機當前狀態，同上次狀態比較：地面→空中 = 起飛，空中→地面/消失 = 降落
+const JETS = [
+  { reg: 'N628TS', label: 'G650ER（主力）' },
+  { reg: 'N272BG', label: 'G550' },
+  { reg: 'N502SX', label: 'G550' },
+];
+const ADSB_SOURCES = [
+  (reg) => `https://api.adsb.lol/v2/reg/${reg}`,
+  (reg) => `https://api.airplanes.live/v2/reg/${reg}`,
+];
+const STATE_FILE   = path.join(__dirname, '..', 'data', 'jet_state.json');
+const FLIGHTS_FILE = path.join(__dirname, '..', 'data', 'flights.json');
+
+async function fetchJetEvents() {
+  let state = {};
+  let events = [];
+  try { state  = JSON.parse(fs.readFileSync(STATE_FILE, 'utf8')); } catch {}
+  try { events = JSON.parse(fs.readFileSync(FLIGHTS_FILE, 'utf8')); if (!Array.isArray(events)) events = []; } catch {}
+
+  const now = new Date().toISOString();
+  for (const jet of JETS) {
+    // 兩個源逐個試，攞到就停
+    let seen = null; // null = 兩個源都失敗（唔好郁 state）；否則 { flying: bool }
+    for (const mk of ADSB_SOURCES) {
+      try {
+        const res = await fetch(mk(jet.reg), { headers: { 'Accept': 'application/json' }, signal: AbortSignal.timeout(15000) });
+        if (!res.ok) continue;
+        const j  = await res.json();
+        const ac = (j.ac || j.aircraft || [])[0];
+        if (!ac) { seen = { flying: false, tracked: false }; }
+        else {
+          const alt = ac.alt_baro;
+          const airborne = alt !== 'ground' && (typeof alt !== 'number' || alt > 300 || (ac.gs || 0) > 80);
+          seen = { flying: airborne, tracked: true };
+        }
+        break;
+      } catch {}
+    }
+    if (seen === null) { console.log(`✈️ ${jet.reg}：兩個 ADS-B 源都查唔到，跳過`); continue; }
+
+    const prev = state[jet.reg] || { flying: false, misses: 0 };
+    let flying = seen.flying;
+    let misses = 0;
+    // 收唔到訊號 ≠ 已降落（可能飛緊出咗接收範圍）：連續 2 次（約 40 分鐘）冇影先當落地
+    if (prev.flying && !seen.tracked) {
+      misses = (prev.misses || 0) + 1;
+      if (misses < 2) flying = true;
+    }
+    if (!prev.flying && flying)  { events.push({ time: now, type: 'takeoff', reg: jet.reg }); console.log(`🛫 ${jet.reg} 起飛`); }
+    if (prev.flying && !flying)  { events.push({ time: now, type: 'landing', reg: jet.reg }); console.log(`🛬 ${jet.reg} 降落`); }
+    state[jet.reg] = { flying, misses, at: now };
   }
-  console.log('✈️ 無公開上下機 endpoint，略過');
+
+  // 只保留 35 日內事件
+  const cutoff = Date.now() - 35 * 86400000;
+  events = events.filter((e) => new Date(e.time).getTime() > cutoff);
+  fs.writeFileSync(STATE_FILE,   JSON.stringify(state,  null, 2));
+  fs.writeFileSync(FLIGHTS_FILE, JSON.stringify(events, null, 2));
+  console.log(`✈️ 上下機追蹤完成：累計 ${events.length} 個事件`);
+}
+
+// ── SpaceX 發射排程（Launch Library 2 by TheSpaceDevs，免費；限流時保留舊檔） ──
+const LAUNCHES_FILE = path.join(__dirname, '..', 'data', 'launches.json');
+
+async function fetchLaunches() {
+  try {
+    const url = 'https://ll.thespacedevs.com/2.2.0/launch/upcoming/?lsp__name=SpaceX&limit=12&mode=list';
+    const res = await fetch(url, { headers: { 'Accept': 'application/json' }, signal: AbortSignal.timeout(20000) });
+    if (!res.ok) throw new Error(`LL2 回傳 ${res.status}`);
+    const json = await res.json();
+    const launches = (json.results || []).map((l) => ({
+      name:     l.name || '',
+      net:      l.net  || null,                       // 預計發射時間（ISO，可能改期）
+      status:   (l.status && (l.status.abbrev || l.status.name)) || '',
+      pad:      typeof l.pad === 'string' ? l.pad : (l.pad && l.pad.name) || l.pad_name || '',
+      location: typeof l.location === 'string' ? l.location : (l.pad && l.pad.location && l.pad.location.name) || '',
+    })).filter((l) => l.net);
+    fs.writeFileSync(LAUNCHES_FILE, JSON.stringify({ last_updated: new Date().toISOString(), launches }, null, 2));
+    console.log(`🚀 SpaceX 排程：${launches.length} 個即將發射`);
+  } catch (err) {
+    // LL2 免費層每小時 15 次限流；失敗就保留上次嘅檔案
+    console.warn(`🚀 排程抓取失敗（保留舊檔）：${err.message}`);
+  }
 }
 
 (async () => {
   try {
-    await tryFetchFlights();
+    await fetchJetEvents();
+    await fetchLaunches();
     const posts    = await fetchPosts();
     const existing = loadExisting();
     const added    = mergeAndSave(existing, posts);
