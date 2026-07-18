@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-18T14:57:05.517Z",
-  "total": 2183,
+  "last_updated": "2026-07-18T16:02:52.202Z",
+  "total": 2185,
   "by_date": {
     "2026-05-27": [
       {
@@ -15478,6 +15478,18 @@
       }
     ],
     "2026-07-18": [
+      {
+        "id": "cmrqhvkzk0000jr04quclnkhk",
+        "text": "Try Grok Build\n\nhttps://t.co/qrq6Gn3HCS https://t.co/HyK0Pm5yOr",
+        "created_at": "2026-07-18T15:00:02.000Z",
+        "imported_at": "2026-07-18T15:01:20.769Z"
+      },
+      {
+        "id": "cmrqhvkzk0001jr04p8q6vvvi",
+        "text": "RT @cyrilXBT: MARC ANDREESSEN WENT ON ROGAN FOR OVER 3 HOURS. HERE ARE THE 17 THINGS WORTH YOUR ATTENTION.\n\n1. AGI is already here, in his…",
+        "created_at": "2026-07-18T14:57:30.000Z",
+        "imported_at": "2026-07-18T15:01:20.769Z"
+      },
       {
         "id": "cmrqgyg3r0000jo04budnm4bc",
         "text": "https://t.co/JHdYqtIQte",
