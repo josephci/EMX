@@ -38,6 +38,18 @@
   #sig-count-row { margin-top: 10px; padding-top: 10px; border-top: 1px solid #1a1a2e; font-size: 11px; color: #bbb; }
   #sig-checklist { margin-top: 8px; font-size: 10px; color: #555; line-height: 1.8; }
 
+  #mkts-box { background: #0f0f14; border: 1px solid #1a1a2e; border-radius: 10px; padding: 13px; margin-top: 10px; }
+  #mkts-title { font-size: 12px; color: #f472b6; font-weight: 600; }
+  #mkts-note { font-size: 9px; color: #333; margin-top: 2px; margin-bottom: 6px; }
+  .mkt-card { border-top: 1px solid #14141f; padding: 8px 0; font-size: 11px; }
+  .mkt-card:first-of-type { border-top: none; }
+  .mkt-line1 { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+  .mkt-window { color: #e8e8e8; font-weight: 600; white-space: nowrap; }
+  .mkt-settle { color: #555; font-size: 10px; white-space: nowrap; }
+  .mkt-line2 { color: #bbb; margin-top: 3px; }
+  .mkt-line3 { color: #555; font-size: 10px; margin-top: 2px; }
+  .mkt-value { color: #34d399; font-weight: 700; }
+
   #launch-box { background: #0f0f14; border: 1px solid #1a1a2e; border-radius: 10px; padding: 13px; margin-top: 10px; }
   #launch-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
   #launch-title { font-size: 12px; color: #38bdf8; font-weight: 600; }
@@ -129,6 +141,12 @@
       </div>
       <div id="sig-forecast" style="margin-top:8px;padding-top:8px;border-top:1px solid #1a1a2e;font-size:11px;color:#bbb;line-height:1.7;display:none"></div>
       <div id="sig-checklist"></div>
+    </div>
+
+    <div id="mkts-box" style="display:none">
+      <div id="mkts-title">🎪 全部進行中市場</div>
+      <div id="mkts-note">每個市場獨立計數＋按 7 日 pace 預測落點・預測 bucket 現價 &lt;50¢ 標 💰</div>
+      <div id="mkts-list"></div>
     </div>
 
     <div id="launch-box" style="display:none">
@@ -603,6 +621,46 @@ function hourlyRatesPrev7d() {
   return rates.map(v => v / 7);
 }
 
+function windowStartOf(ev) {
+  // 窗口開始 = 標題日期 12:00（UTC-5）= 17:00 UTC；Gamma startDate 只作後備
+  const MONTHS = {january:0,february:1,march:2,april:3,may:4,june:5,july:6,august:7,september:8,october:9,november:10,december:11};
+  const tm = (ev.title || '').match(/(january|february|march|april|may|june|july|august|september|october|november|december)\s+(\d{1,2})/i);
+  const ym = (ev.title || '').match(/(\d{4})/);
+  if (tm) {
+    const y = ym ? parseInt(ym[1]) : new Date().getUTCFullYear();
+    return new Date(Date.UTC(y, MONTHS[tm[1].toLowerCase()], parseInt(tm[2]), 17, 0, 0));
+  }
+  return new Date(ev.startDate);
+}
+
+function countBetween(start, end) {
+  if (!db || !db.by_date) return null;
+  return Object.values(db.by_date).flat().filter(p => {
+    const d = new Date(p.created_at);
+    return d >= start && d <= end;
+  }).length;
+}
+
+function bucketsOf(ev) {
+  return (ev.markets || []).map(m => {
+    let price = null;
+    try { price = parseFloat(JSON.parse(m.outcomePrices || '[]')[0]); } catch {}
+    const nm = m.groupItemTitle || m.question || '';
+    return { name: nm, range: parseBucketRange(nm), price };
+  }).filter(b => b.range);
+}
+
+// 由「而家」計到「end」預期仲會出幾多則（按 7 日同時段 pace）
+function expectedUntil(rates, from, end) {
+  let sum = 0;
+  const hrs = (end - from) / 3600000;
+  for (let h = 0; h < hrs; h += 0.5) {
+    const t = new Date(from.getTime() + h * 3600000);
+    sum += rates[marketCol(t.toISOString())] * Math.min(0.5, hrs - h);
+  }
+  return sum;
+}
+
 async function fetchSignal() {
   const set = (id, v) => document.getElementById(id).textContent = v;
   const statusEl = document.getElementById('sig-status');
@@ -615,10 +673,11 @@ async function fetchSignal() {
       const t = (e.title || '').toLowerCase();
       if (!(t.includes('elon') && (t.includes('tweet') || t.includes('post')))) return false;
       try {
-        const s = new Date(e.startDate), en = new Date(e.endDate);
-        return en > now && (en - s) / 86400000 <= 8;
+        const s = windowStartOf(e), en = new Date(e.endDate);
+        return en > now && (en - s) / 86400000 <= 9;
       } catch { return false; }
     });
+    renderMarkets(evs, now);
     if (!evs.length) { statusEl.textContent = '無進行中市場'; return; }
     const ev = evs.sort((a, b) => new Date(a.endDate) - new Date(b.endDate))[0];
     const hrsToSettle = (new Date(ev.endDate) - now) / 3600000;
@@ -631,22 +690,8 @@ async function fetchSignal() {
       } catch {}
     });
 
-    // 本期計數：窗口開始 = 標題日期 12:00（UTC-5）= 17:00 UTC；Gamma startDate 只作後備
-    let periodCount = null;
-    if (db && db.by_date) {
-      let mktStart = new Date(ev.startDate);
-      const MONTHS = {january:0,february:1,march:2,april:3,may:4,june:5,july:6,august:7,september:8,october:9,november:10,december:11};
-      const tm = (ev.title || '').match(/(january|february|march|april|may|june|july|august|september|october|november|december)\s+(\d{1,2})/i);
-      const ym = (ev.title || '').match(/(\d{4})/);
-      if (tm) {
-        const y = ym ? parseInt(ym[1]) : now.getUTCFullYear();
-        mktStart = new Date(Date.UTC(y, MONTHS[tm[1].toLowerCase()], parseInt(tm[2]), 17, 0, 0));
-      }
-      periodCount = Object.values(db.by_date).flat().filter(p => {
-        const d = new Date(p.created_at);
-        return d >= mktStart && d <= now;
-      }).length;
-    }
+    // 本期計數：窗口開始 = 標題日期 12:00（UTC-5）= 17:00 UTC
+    const periodCount = (db && db.by_date) ? countBetween(windowStartOf(ev), now) : null;
     let boundaryMsg = '';
     if (leader && periodCount !== null) {
       let upper = null, m1;
@@ -666,20 +711,10 @@ async function fetchSignal() {
     fEl.style.display = 'none';
     if (db && periodCount !== null && hrsToSettle > 0) {
       const rates = hourlyRatesPrev7d();
-      let expected = 0;
-      for (let h = 0; h < hrsToSettle; h += 0.5) {
-        const t = new Date(now.getTime() + h * 3600000);
-        expected += rates[marketCol(t.toISOString())] * Math.min(0.5, hrsToSettle - h);
-      }
+      const expected = expectedUntil(rates, now, new Date(ev.endDate));
       const proj = Math.round(periodCount + expected);
       const esc = s => (s || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-      const buckets = (ev.markets || []).map(m => {
-        let price = null;
-        try { price = parseFloat(JSON.parse(m.outcomePrices || '[]')[0]); } catch {}
-        const nm = m.groupItemTitle || m.question || '';
-        return { name: nm, range: parseBucketRange(nm), price };
-      }).filter(b => b.range);
-      const hit = buckets.find(b => proj >= b.range[0] && proj <= b.range[1]);
+      const hit = bucketsOf(ev).find(b => proj >= b.range[0] && proj <= b.range[1]);
       if (hit) {
         const priceTxt = hit.price !== null && !isNaN(hit.price) ? (hit.price * 100).toFixed(1) + '¢' : '—';
         const isValue  = hit.price !== null && hit.price < 0.5;
@@ -724,6 +759,53 @@ async function fetchSignal() {
   } catch (e) {
     statusEl.textContent = '市場資料抓取失敗';
   }
+}
+
+// ── 全部進行中市場總覽（一條龍：計數＋預測落點） ────────────────────────────
+function renderMarkets(evs, now) {
+  const box = document.getElementById('mkts-box');
+  if (!evs.length || !db) { box.style.display = 'none'; return; }
+  box.style.display = 'block';
+  const rates = hourlyRatesPrev7d();
+  const esc = s => (s || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const fmtMD = d => (d.getUTCMonth() + 1) + '/' + d.getUTCDate();
+
+  document.getElementById('mkts-list').innerHTML =
+    [...evs].sort((a, b) => new Date(a.endDate) - new Date(b.endDate)).map(ev => {
+      const start = windowStartOf(ev);
+      const end   = new Date(ev.endDate);
+      const started = now >= start;
+      const count = started ? countBetween(start, now) : 0;
+
+      // 領先 bucket
+      let leader = null, leadPrice = -1;
+      bucketsOf(ev).forEach(b => { if (b.price !== null && b.price > leadPrice) { leadPrice = b.price; leader = b.name; } });
+
+      // 預測：已計 + 由 max(now, start) 積到 end
+      const expected = expectedUntil(rates, started ? now : start, end);
+      const proj = Math.round(count + expected);
+      const hit  = bucketsOf(ev).find(b => proj >= b.range[0] && proj <= b.range[1]);
+      const hitPriceTxt = hit && hit.price !== null && !isNaN(hit.price) ? (hit.price * 100).toFixed(1) + '¢' : '—';
+      const isValue = hit && hit.price !== null && hit.price < 0.5;
+
+      const hrsLeft = (end - now) / 3600000;
+      const settleTxt = hrsLeft < 48 ? '餘 ' + hrsLeft.toFixed(1) + 'h' : '餘 ' + (hrsLeft / 24).toFixed(1) + '日';
+
+      return `<div class="mkt-card">
+        <div class="mkt-line1">
+          <span class="mkt-window">${fmtMD(start)} → ${fmtMD(end)}</span>
+          <span class="mkt-settle">${started ? settleTxt : '未開始'}</span>
+        </div>
+        <div class="mkt-line2">
+          已計 <b style="color:#a78bfa">${count === null ? '—' : count}</b> 則
+          ${leader ? `・領先 ${esc(leader)} @ ${(leadPrice * 100).toFixed(1)}¢` : ''}
+        </div>
+        <div class="mkt-line3">
+          📈 預測 ~${proj} 則 → ${hit ? `<b style="color:#e8e8e8">${esc(hit.name)}</b>（${hitPriceTxt}）` : '超出所有 bucket 範圍'}
+          ${isValue ? '<span class="mkt-value">💰</span>' : ''}
+        </div>
+      </div>`;
+    }).join('');
 }
 
 // ── init ─────────────────────────────────────────────────────────────────────
