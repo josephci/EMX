@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-07-20T12:54:32.521Z",
+  "last_updated": "2026-07-20T15:13:32.254Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | Starlink Group 17-39",
-      "net": "2026-07-20T14:36:26Z",
-      "status": "Go",
+      "net": "2026-07-20T14:49:32Z",
+      "status": "Hold",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
     },
@@ -35,6 +35,13 @@
       "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | NROL-95",
+      "net": "2026-07-30T06:37:00Z",
+      "status": "TBC",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA"
     },
     {
       "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
@@ -73,13 +80,6 @@
     },
     {
       "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer A",
-      "net": "2026-09-30T00:00:00Z",
-      "status": "TBD",
-      "pad": "Space Launch Complex 4E",
-      "location": "Vandenberg SFB, CA, USA"
-    },
-    {
-      "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer C",
       "net": "2026-09-30T00:00:00Z",
       "status": "TBD",
       "pad": "Space Launch Complex 4E",
