@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-20T10:29:25.999Z",
-  "total": 2213,
+  "last_updated": "2026-07-20T12:54:33.151Z",
+  "total": 2215,
   "by_date": {
     "2026-05-27": [
       {
@@ -15752,6 +15752,18 @@
       }
     ],
     "2026-07-20": [
+      {
+        "id": "cmrt3v4eh0004lc04h39uml5i",
+        "text": "Grok https://t.co/xBEtwlDkA8",
+        "created_at": "2026-07-20T10:50:58.000Z",
+        "imported_at": "2026-07-20T10:52:23.177Z"
+      },
+      {
+        "id": "cmrt3hqyb0002lc04oe55mf08",
+        "text": "RT @AncientHistorry: Rome conquered Greece in 146 BC when they burned Corinth to the ground. And then the strangest thing in ancient histor…",
+        "created_at": "2026-07-20T10:41:39.000Z",
+        "imported_at": "2026-07-20T10:41:59.219Z"
+      },
       {
         "id": "cmrt2sb4p0000lc0407tgafp0",
         "text": "True https://t.co/qvEGRMsCuV",
