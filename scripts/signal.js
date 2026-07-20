@@ -106,54 +106,134 @@ function loadState() {
 }
 function saveState(s) { fs.writeFileSync(STATE_FILE, JSON.stringify(s, null, 2)); }
 
-(async () => {
-  try {
-    const ev = await gammaSearch();
-    if (!ev) { console.log('無進行中市場'); return; }
+function fmtHK(iso) {
+  return new Date(iso).toLocaleString('zh-TW', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Hong_Kong' });
+}
 
-    const now = new Date();
-    const hoursToSettle = (new Date(ev.endDate) - now) / 3600000;
-    const { name: leader, price } = leaderOf(ev);
-    const silence = silenceHours();
-    const count   = periodCount(ev);
+// ── ① 主訊號 + 價格記錄（原有邏輯） ─────────────────────────────────────────
+async function marketSignal(state, now) {
+  const ev = await gammaSearch();
+  if (!ev) { console.log('無進行中市場'); return; }
 
-    const c1 = hoursToSettle <= SETTLE_MAX_H;
-    const c2 = silence !== null && silence >= SILENCE_MIN_H;
-    const c3 = price > LEAD_MIN && price < LEAD_MAX;
-    const signal = c1 && c2 && c3;
+  const hoursToSettle = (new Date(ev.endDate) - now) / 3600000;
+  const { name: leader, price } = leaderOf(ev);
+  const silence = silenceHours();
+  const count   = periodCount(ev);
 
-    // ③ 每小時記錄價格
-    appendPriceLog([
-      now.toISOString(), `"${ev.title}"`, hoursToSettle.toFixed(1),
-      `"${leader}"`, price.toFixed(3),
-      silence === null ? '' : silence.toFixed(1),
-      count === null ? '' : count,
-      signal ? 1 : 0,
-    ].join(','));
-    console.log(`📝 已記錄：${leader} @ ${price.toFixed(3)}，距結算 ${hoursToSettle.toFixed(1)}h，沉默 ${silence?.toFixed(1)}h，訊號=${signal}`);
+  const c1 = hoursToSettle <= SETTLE_MAX_H;
+  const c2 = silence !== null && silence >= SILENCE_MIN_H;
+  const c3 = price > LEAD_MIN && price < LEAD_MAX;
+  const signal = c1 && c2 && c3;
 
-    // ② 條件滿足 → Telegram（有冷卻期避免轟炸）
-    if (signal) {
-      const state = loadState();
-      const last  = state[ev.title] ? new Date(state[ev.title]) : null;
-      if (!last || (now - last) / 3600000 >= ALERT_COOLDOWN_H) {
-        await sendTelegram(
-          `🟢 <b>進場訊號</b>\n` +
-          `市場：${ev.title}\n` +
-          `距結算：${hoursToSettle.toFixed(1)} 小時\n` +
-          `Elon 沉默：${silence.toFixed(1)} 小時\n` +
-          `領先：${leader} @ ${(price * 100).toFixed(1)}¢\n` +
-          `本期已計：${count} 則\n\n` +
-          `策略：掛 maker 買單（mid−1¢），4h 後或結算前 1h 出場`
-        );
-        state[ev.title] = now.toISOString();
-        saveState(state);
-      } else {
-        console.log('⏳ 冷卻期內，唔重複提醒');
-      }
+  appendPriceLog([
+    now.toISOString(), `"${ev.title}"`, hoursToSettle.toFixed(1),
+    `"${leader}"`, price.toFixed(3),
+    silence === null ? '' : silence.toFixed(1),
+    count === null ? '' : count,
+    signal ? 1 : 0,
+  ].join(','));
+  console.log(`📝 已記錄：${leader} @ ${price.toFixed(3)}，距結算 ${hoursToSettle.toFixed(1)}h，沉默 ${silence?.toFixed(1)}h，訊號=${signal}`);
+
+  if (signal) {
+    const last = state[ev.title] ? new Date(state[ev.title]) : null;
+    if (!last || (now - last) / 3600000 >= ALERT_COOLDOWN_H) {
+      await sendTelegram(
+        `🟢 <b>進場訊號</b>\n` +
+        `市場：${ev.title}\n` +
+        `距結算：${hoursToSettle.toFixed(1)} 小時\n` +
+        `Elon 沉默：${silence.toFixed(1)} 小時\n` +
+        `領先：${leader} @ ${(price * 100).toFixed(1)}¢\n` +
+        `本期已計：${count} 則\n\n` +
+        `策略：掛 maker 買單（mid−1¢），4h 後或結算前 1h 出場`
+      );
+      state[ev.title] = now.toISOString();
+    } else {
+      console.log('⏳ 冷卻期內，唔重複提醒');
     }
-  } catch (e) {
-    console.error('❌', e.message);
-    // 訊號功能失敗唔應該令成個 workflow 失敗
   }
+}
+
+// ── ② 爆推警報：30 分鐘內 ≥5 則（2 小時冷卻） ──────────────────────────────
+const BURST_WINDOW_MIN = 30;
+const BURST_THRESHOLD  = 5;
+const BURST_COOLDOWN_H = 2;
+
+async function burstAlert(state, now) {
+  const db = JSON.parse(fs.readFileSync(TWEETS, 'utf8'));
+  const recent = Object.values(db.by_date || {}).flat()
+    .filter(p => now - new Date(p.created_at) <= BURST_WINDOW_MIN * 60000);
+  if (recent.length < BURST_THRESHOLD) return;
+  const last = state._burst_last ? new Date(state._burst_last) : null;
+  if (last && (now - last) / 3600000 < BURST_COOLDOWN_H) { console.log('🔥 爆推中但冷卻期內'); return; }
+  await sendTelegram(
+    `🔥 <b>爆推警報</b>\n` +
+    `${BURST_WINDOW_MIN} 分鐘內已出 ${recent.length} 則\n` +
+    `pace 急升，留意上界 bucket 同高數 bucket 賠率`
+  );
+  state._burst_last = now.toISOString();
+}
+
+// ── ③ 上下機通知：flights.json 有新事件就即刻通知 ──────────────────────────
+async function flightAlerts(state, now) {
+  let events = [];
+  try { events = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'flights.json'), 'utf8')); } catch { return; }
+  if (!Array.isArray(events) || !events.length) return;
+  if (!state._flights_seen) {
+    // 第一次運行：只記位置，唔好將歷史事件炸晒出嚟
+    state._flights_seen = now.toISOString();
+    return;
+  }
+  const seen = new Date(state._flights_seen);
+  const fresh = events.filter(e => new Date(e.time) > seen).slice(0, 4);
+  for (const e of fresh) {
+    const emoji = e.type === 'takeoff' ? '🛫' : '🛬';
+    const label = e.type === 'takeoff' ? '起飛' : '降落';
+    await sendTelegram(
+      `${emoji} <b>Elon 私人機${label}</b>\n` +
+      `${e.reg || ''}・${fmtHK(e.time)} HKT\n` +
+      (e.type === 'landing' ? '落機後通常會爆推，留意 pace' : '飛行中通常靜啲')
+    );
+  }
+  if (fresh.length) state._flights_seen = fresh[fresh.length - 1].time;
+}
+
+// ── ④ 發射前提醒：12 小時內嘅 SpaceX 發射，每個發射提一次 ───────────────────
+const LAUNCH_REMIND_H = 12;
+
+async function launchAlerts(state, now) {
+  let data = null;
+  try { data = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'launches.json'), 'utf8')); } catch { return; }
+  const notified = state._launch_notified || {};
+  for (const l of (data.launches || [])) {
+    if (!l.net) continue;
+    const hrs = (new Date(l.net) - now) / 3600000;
+    const key = l.name + '|' + l.net;
+    if (hrs > 0 && hrs <= LAUNCH_REMIND_H && !notified[key]) {
+      await sendTelegram(
+        `🚀 <b>SpaceX 發射倒數</b>\n` +
+        `${l.name}\n` +
+        `T-${hrs.toFixed(1)}h・${fmtHK(l.net)} HKT\n` +
+        `${[l.pad, l.location].filter(Boolean).join('・')}\n` +
+        `發射前後 Elon 通常唔訓，推文量易升`
+      );
+      notified[key] = now.toISOString();
+    }
+  }
+  // 清走過期記錄（發射時間已過 2 日）
+  Object.keys(notified).forEach(k => {
+    const net = k.split('|').pop();
+    if (new Date(net) < new Date(now - 2 * 86400000)) delete notified[k];
+  });
+  state._launch_notified = notified;
+}
+
+(async () => {
+  const now = new Date();
+  const state = loadState();
+  // 每項獨立 try/catch：一項失敗唔影響其他，都唔會令 workflow 失敗
+  try { await marketSignal(state, now); } catch (e) { console.error('❌ 主訊號：', e.message); }
+  try { await burstAlert(state, now); }   catch (e) { console.error('❌ 爆推警報：', e.message); }
+  try { await flightAlerts(state, now); } catch (e) { console.error('❌ 上下機通知：', e.message); }
+  try { await launchAlerts(state, now); } catch (e) { console.error('❌ 發射提醒：', e.message); }
+  saveState(state);
 })();

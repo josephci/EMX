@@ -127,6 +127,7 @@
         本期市場已計 <span id="sig-count" style="color:#a78bfa;font-weight:700;">—</span> 則
         <span id="sig-boundary" style="color:#555;"></span>
       </div>
+      <div id="sig-forecast" style="margin-top:8px;padding-top:8px;border-top:1px solid #1a1a2e;font-size:11px;color:#bbb;line-height:1.7;display:none"></div>
       <div id="sig-checklist"></div>
     </div>
 
@@ -154,6 +155,11 @@
     <div class="chart-box">
       <p>⏰ 本期市場日每小時（12:00 起，xtracker 口徑）</p>
       <canvas id="chartHourly" style="max-height:110px"></canvas>
+    </div>
+
+    <div class="chart-box" id="price-box" style="display:none">
+      <p>💹 領先 bucket 賠率走勢（近 7 日・🟠 點 = 訊號亮燈）</p>
+      <canvas id="chartPrice" style="max-height:110px"></canvas>
     </div>
 
     <div id="heatmap-wrap">
@@ -192,9 +198,11 @@
 const DATA_URL     = './data/tweets.json';
 const FLIGHTS_URL  = './data/flights.json';
 const LAUNCHES_URL = './data/launches.json';
+const PRICELOG_URL = './data/price_log.csv';
 const XT_LIVE_API  = 'https://xtracker.polymarket.com/api/users/elonmusk/posts';
-let db = null, flights = null, launches = null;
+let db = null, flights = null, launches = null, priceLog = null;
 let liveOk = false, liveAt = 0;
+let chartPrice = null;
 let chartDaily = null, chartHourly = null;
 let showMode = 'all';
 let heatRange = 7;
@@ -263,6 +271,10 @@ async function loadData() {
       const lr = await fetch(LAUNCHES_URL + '?t=' + Date.now());
       launches = lr.ok ? await lr.json() : null;
     } catch { launches = null; }
+    try {
+      const pr = await fetch(PRICELOG_URL + '?t=' + Date.now());
+      priceLog = pr.ok ? parsePriceLog(await pr.text()) : null;
+    } catch { priceLog = null; }
     // 繞過 GitHub Actions / Pages 延遲：直接問 xtracker 攞最近 3 日（CORS 唔通就靜靜地 fallback）
     liveOk = await tryLiveXtracker();
     render();
@@ -392,8 +404,54 @@ function render() {
 
   renderHeatmap();
   renderLaunches();
+  renderPriceChart();
   renderTweets(todayPosts);
   renderHistory();
+}
+
+// ── 賠率走勢圖（price_log.csv 由 signal.js 每 20 分鐘寫入） ──────────────────
+function parsePriceLog(text) {
+  // CSV 欄位：timestamp,market,hours_to_settle,leader_bucket,leader_price,silence_h,period_count,signal
+  // market / leader_bucket 有引號兼可能含逗號，要逐字符解析
+  return text.trim().split('\n').slice(1).map(line => {
+    const cells = []; let cur = '', q = false;
+    for (const ch of line) {
+      if (ch === '"') q = !q;
+      else if (ch === ',' && !q) { cells.push(cur); cur = ''; }
+      else cur += ch;
+    }
+    cells.push(cur);
+    return { ts: cells[0], leader: cells[3] || '', price: parseFloat(cells[4]), signal: cells[7] === '1' };
+  }).filter(r => r.ts && !isNaN(r.price));
+}
+
+function renderPriceChart() {
+  const box = document.getElementById('price-box');
+  const rows = (priceLog || []).filter(r => Date.now() - new Date(r.ts) <= 7 * 86400000);
+  if (rows.length < 2) { box.style.display = 'none'; return; }
+  box.style.display = 'block';
+  if (chartPrice) chartPrice.destroy();
+  chartPrice = new Chart(document.getElementById('chartPrice'), {
+    type: 'line',
+    data: {
+      labels: rows.map(r => {
+        const d = new Date(r.ts);
+        return d.toLocaleString('zh-TW', { month: 'numeric', day: 'numeric', hour: '2-digit', timeZone: 'Asia/Hong_Kong' });
+      }),
+      datasets: [{
+        data: rows.map(r => r.price * 100),
+        borderColor: '#a78bfa', borderWidth: 1.5, tension: 0.25, fill: false,
+        pointRadius: rows.map(r => r.signal ? 3.5 : 0),
+        pointBackgroundColor: '#f59e0b', pointBorderColor: '#f59e0b',
+      }]
+    },
+    options: { plugins: { legend: { display: false }, tooltip: { callbacks: {
+        label: c => rows[c.dataIndex].leader + ' @ ' + c.parsed.y.toFixed(1) + '¢' + (rows[c.dataIndex].signal ? '・🟠 訊號亮燈' : ''),
+      } } }, scales: {
+      x: { grid: { color: '#111118' }, ticks: { color: '#2a2a3a', font: { size: 9 }, maxTicksLimit: 8, maxRotation: 0 } },
+      y: { grid: { color: '#111118' }, ticks: { color: '#2a2a3a', font: { size: 9 }, callback: v => v + '¢' }, suggestedMin: 0, suggestedMax: 100 }
+    }}
+  });
 }
 
 // ── SpaceX 發射排程 ──────────────────────────────────────────────────────────
@@ -527,6 +585,24 @@ function switchTab(tab) {
 }
 
 // ── 進場訊號 ─────────────────────────────────────────────────────────────────
+function parseBucketRange(s) {
+  let m;
+  if ((m = s.match(/less\s+than\s+(\d+)/i)) || (m = s.match(/^<\s*(\d+)/))) return [0, parseInt(m[1]) - 1];
+  if ((m = s.match(/(\d+)\s*[-–—]\s*(\d+)/))) return [parseInt(m[1]), parseInt(m[2])];
+  if ((m = s.match(/(\d+)\s*\+/)) || (m = s.match(/(\d+)\s+or\s+more/i))) return [parseInt(m[1]), Infinity];
+  return null;
+}
+
+function hourlyRatesPrev7d() {
+  // 每個市場日時段嘅平均發推率（用之前 7 個完整市場日，唔計今日）
+  const keys = new Set(lastNMarketDays(8).slice(0, 7));
+  const rates = Array(24).fill(0);
+  Object.values(db.by_date || {}).flat().forEach(p => {
+    if (keys.has(marketDayKey(p.created_at))) rates[marketCol(p.created_at)]++;
+  });
+  return rates.map(v => v / 7);
+}
+
 async function fetchSignal() {
   const set = (id, v) => document.getElementById(id).textContent = v;
   const statusEl = document.getElementById('sig-status');
@@ -584,6 +660,36 @@ async function fetchSignal() {
     }
     set('sig-count', periodCount === null ? '—' : periodCount);
     document.getElementById('sig-boundary').textContent = boundaryMsg;
+
+    // 📈 bucket 落點預測：本期已計 + 按過去 7 日同時段 pace 推算餘下時間
+    const fEl = document.getElementById('sig-forecast');
+    fEl.style.display = 'none';
+    if (db && periodCount !== null && hrsToSettle > 0) {
+      const rates = hourlyRatesPrev7d();
+      let expected = 0;
+      for (let h = 0; h < hrsToSettle; h += 0.5) {
+        const t = new Date(now.getTime() + h * 3600000);
+        expected += rates[marketCol(t.toISOString())] * Math.min(0.5, hrsToSettle - h);
+      }
+      const proj = Math.round(periodCount + expected);
+      const esc = s => (s || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      const buckets = (ev.markets || []).map(m => {
+        let price = null;
+        try { price = parseFloat(JSON.parse(m.outcomePrices || '[]')[0]); } catch {}
+        const nm = m.groupItemTitle || m.question || '';
+        return { name: nm, range: parseBucketRange(nm), price };
+      }).filter(b => b.range);
+      const hit = buckets.find(b => proj >= b.range[0] && proj <= b.range[1]);
+      if (hit) {
+        const priceTxt = hit.price !== null && !isNaN(hit.price) ? (hit.price * 100).toFixed(1) + '¢' : '—';
+        const isValue  = hit.price !== null && hit.price < 0.5;
+        fEl.innerHTML =
+          `📈 按 7 日 pace 預測結算約 <b style="color:#a78bfa">${proj}</b> 則 → 落 <b>${esc(hit.name)}</b>（現價 ${priceTxt}）` +
+          (isValue ? '　<span style="color:#34d399;font-weight:700">💰 有 value</span>' : '') +
+          `<br><span style="color:#555">已計 ${periodCount} 則＋餘下 ${hrsToSettle.toFixed(1)}h 預期再出 ~${Math.round(expected)} 則・發推 pace 隨時變，僅供參考</span>`;
+        fEl.style.display = 'block';
+      }
+    }
 
     let silenceH = null;
     if (db && db.by_date) {
