@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-21T18:17:05.276Z",
-  "total": 2238,
+  "last_updated": "2026-07-21T19:56:53.494Z",
+  "total": 2240,
   "by_date": {
     "2026-05-27": [
       {
@@ -15820,6 +15820,18 @@
       }
     ],
     "2026-07-21": [
+      {
+        "id": "cmrv0e1yx000al2049hn3jred",
+        "text": "RT @karpathy: One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understan…",
+        "created_at": "2026-07-21T18:47:30.000Z",
+        "imported_at": "2026-07-21T18:50:40.366Z"
+      },
+      {
+        "id": "cmruzbx9x0007l2045tj12gg2",
+        "text": "RT @ProfTomYeh: Backpropagation by hand ✍️ ~ 11 steps walkthrough below\n\nBackpropagation is the algorithm that actually trains a neural net…",
+        "created_at": "2026-07-21T18:16:06.000Z",
+        "imported_at": "2026-07-21T18:21:01.353Z"
+      },
       {
         "id": "cmruvxcd20003l704fya4ehky",
         "text": "RT @Anc_Aesthetics: Someone tipped me off to a website where it compiles all the real ratings for movies on Rotten Tomatoes and compares it…",
