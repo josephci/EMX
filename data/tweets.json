@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-22T22:06:10.958Z",
-  "total": 2306,
+  "last_updated": "2026-07-22T23:26:42.354Z",
+  "total": 2309,
   "by_date": {
     "2026-05-27": [
       {
@@ -15966,6 +15966,24 @@
       }
     ],
     "2026-07-22": [
+      {
+        "id": "cmrwoedve0006jr0433swkkzi",
+        "text": "RT @mathemetica: Three fundamental integrals stand out for their elegant closed forms despite spanning infinite domains. \n\n- The Gaussian ∫…",
+        "created_at": "2026-07-22T22:47:05.000Z",
+        "imported_at": "2026-07-22T22:50:32.762Z"
+      },
+      {
+        "id": "cmrwo8bg60004jr04p0dxmyun",
+        "text": "RT @XFreeze: Grok Build just got another powerful plugin: Exa\n\nThe new Exa plugin brings semantic web search, content extraction and multi-…",
+        "created_at": "2026-07-22T22:45:15.000Z",
+        "imported_at": "2026-07-22T22:45:49.675Z"
+      },
+      {
+        "id": "cmrwmys9e0002jr04laznu8sv",
+        "text": "RT @heavypulp: It's really fun to direct a character's emotion in Grok Imagine.\n\nAll four of these videos are the same scene, the only thin…",
+        "created_at": "2026-07-22T22:06:37.000Z",
+        "imported_at": "2026-07-22T22:10:25.298Z"
+      },
       {
         "id": "cmrwmlunv0000jr047kgk6imd",
         "text": "Try out Grok Build!\n\nhttps://t.co/lOJK57xbED https://t.co/kboALwTj64",
