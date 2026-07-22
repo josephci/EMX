@@ -1,13 +1,6 @@
 {
-  "last_updated": "2026-07-22T20:43:00.629Z",
+  "last_updated": "2026-07-22T22:06:10.729Z",
   "launches": [
-    {
-      "name": "Falcon 9 Block 5 | MRV-1",
-      "net": "2026-07-21T21:15:00Z",
-      "status": "Success",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA"
-    },
     {
       "name": "Starship | Flight 13",
       "net": "2026-07-23T22:45:00Z",
@@ -80,6 +73,13 @@
     },
     {
       "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer C",
+      "net": "2026-09-30T00:00:00Z",
+      "status": "TBD",
+      "pad": "Space Launch Complex 4E",
+      "location": "Vandenberg SFB, CA, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer E",
       "net": "2026-09-30T00:00:00Z",
       "status": "TBD",
       "pad": "Space Launch Complex 4E",
