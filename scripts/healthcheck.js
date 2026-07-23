@@ -21,7 +21,9 @@ if (!tweets || !tweets.last_updated) {
   problems.push('tweets.json 讀唔到或者冇 last_updated');
 } else {
   const h = ageH(tweets.last_updated);
-  if (h > 1.5) problems.push(`推文資料已 ${h.toFixed(1)} 小時未更新（正常 ≤40 分鐘）`);
+  // GitHub 免費排程實際 ~1.5-3 小時先 fire 一次（best-effort，會 drop 觸發），
+  // 所以 4 小時先當 pipeline 有事；即時資料靠頁面直連 xtracker，唔靠呢個檔案
+  if (h > 4) problems.push(`推文資料已 ${h.toFixed(1)} 小時未更新（GitHub 排程可能停咗）`);
   else console.log(`✅ tweets.json 新鮮（${(h * 60).toFixed(0)} 分鐘前）`);
 }
 

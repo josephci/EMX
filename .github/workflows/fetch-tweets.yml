@@ -2,7 +2,9 @@ name: Fetch Elon Tweets
 
 on:
   schedule:
-    - cron: '*/20 * * * *'   # 每 20 分鐘（XTracker 免費無限制；GitHub 排程本身可能延遲幾分鐘）
+    # 用冷門分鐘（:07 :27 :47）而唔用 :00 :20 :40——GitHub 免費排程會 drop 擠塞時刻嘅觸發，
+    # 錯開後實際 fire 率高好多。頁面本身仲有直連 xtracker 兜底，唔靠呢個 cron 都有即時資料。
+    - cron: '7,27,47 * * * *'
   workflow_dispatch:
 
 jobs:
