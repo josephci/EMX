@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-24T22:31:27.159Z",
-  "total": 2393,
+  "last_updated": "2026-07-24T23:43:04.001Z",
+  "total": 2397,
   "by_date": {
     "2026-05-27": [
       {
@@ -16588,6 +16588,30 @@
       }
     ],
     "2026-07-24": [
+      {
+        "id": "cmrzkvcz90005l404x4pd0vcc",
+        "text": "Starlink V3 satellites deployed to test how they operate in space https://t.co/FaKcqfQrQe",
+        "created_at": "2026-07-24T23:30:13.000Z",
+        "imported_at": "2026-07-24T23:35:04.821Z"
+      },
+      {
+        "id": "cmrzjzd4q0003l404033019k5",
+        "text": "RT @SpaceX: Starship’s Raptor engines ignite during hot-staging separation. Super Heavy is boosting back towards its splashdown site in the…",
+        "created_at": "2026-07-24T23:09:58.000Z",
+        "imported_at": "2026-07-24T23:10:12.026Z"
+      },
+      {
+        "id": "cmrzjz7jz0001l404anjk1ohz",
+        "text": "RT @SpaceX: Live views brought to you by @Starlink https://t.co/jdU5q8a6nQ",
+        "created_at": "2026-07-24T23:09:38.000Z",
+        "imported_at": "2026-07-24T23:10:04.799Z"
+      },
+      {
+        "id": "cmrzj32gj0000l4047412n8c3",
+        "text": "Flight 13 of Starship launch attempt in 10 minutes! https://t.co/ESZmj7O0dV",
+        "created_at": "2026-07-24T22:40:18.000Z",
+        "imported_at": "2026-07-24T22:45:05.204Z"
+      },
       {
         "id": "cmrzi0h8z000cjs04r0gnhlrm",
         "text": "RT @doganuraldesign: If you curate your feed right, 𝕏 is your best bet for predicting the future.",

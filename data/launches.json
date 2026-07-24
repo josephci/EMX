@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-07-24T22:31:26.808Z",
+  "last_updated": "2026-07-24T23:43:03.628Z",
   "launches": [
     {
       "name": "Starship | Flight 13",
       "net": "2026-07-24T22:51:00Z",
-      "status": "Go",
+      "status": "In Flight",
       "pad": "Orbital Launch Pad 2",
       "location": "SpaceX Starbase, TX, USA"
     },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 17-51",
-      "net": "2026-07-25T14:00:00Z",
+      "net": "2026-07-25T15:51:21Z",
       "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
