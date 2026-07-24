@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-24T18:24:27.614Z",
-  "total": 2377,
+  "last_updated": "2026-07-24T19:52:24.048Z",
+  "total": 2385,
   "by_date": {
     "2026-05-27": [
       {
@@ -16588,6 +16588,54 @@
       }
     ],
     "2026-07-24": [
+      {
+        "id": "cmrzcv8ph0003la049u6vgi2b",
+        "text": "RT @GavinSBaker: New Pareto Frontier: Grok 4.5, SWE-1.7 and Opus 5.\n\nIntelligence per $ will be the only metric that matters over time.\n\nK3…",
+        "created_at": "2026-07-24T19:50:46.000Z",
+        "imported_at": "2026-07-24T19:51:02.347Z"
+      },
+      {
+        "id": "cmrzcv8ph0004la04agag5axq",
+        "text": "RT @nvidia: Welcome @jensenhuang 💚\n\nThe future of AI leadership needs both frontier closed models and frontier open models.",
+        "created_at": "2026-07-24T19:50:15.000Z",
+        "imported_at": "2026-07-24T19:51:02.347Z"
+      },
+      {
+        "id": "cmrzb9nx6000oie04xez1gcpm",
+        "text": "RT @jack: excellent",
+        "created_at": "2026-07-24T19:05:55.000Z",
+        "imported_at": "2026-07-24T19:06:16.026Z"
+      },
+      {
+        "id": "cmrzacbnl000jie04cfo5873m",
+        "text": "Grok 4.6 in 2 weeks and Grok 4.7 in 4 weeks",
+        "created_at": "2026-07-24T18:37:35.000Z",
+        "imported_at": "2026-07-24T18:40:20.481Z"
+      },
+      {
+        "id": "cmrzacbnl000kie04fhiyhz6m",
+        "text": "Grok 4.5 and Opus 5 are alone on Pareto frontier https://t.co/FZPeCT5wQr",
+        "created_at": "2026-07-24T18:36:40.000Z",
+        "imported_at": "2026-07-24T18:40:20.481Z"
+      },
+      {
+        "id": "cmrz9zf6z000iie043cx9i0oj",
+        "text": "RT @elonmusk: @KanekoaTheGreat Extinctionists should be reviled for being the genocidal lunatics they are",
+        "created_at": "2026-07-24T18:28:06.000Z",
+        "imported_at": "2026-07-24T18:30:18.539Z"
+      },
+      {
+        "id": "cmrz9t2a3000gie04wnridhjq",
+        "text": "RT @miramurati: The knowledge that makes AI useful is diffused. It lives with scientists, engineers, clinicians, firms. For AI to benefit f…",
+        "created_at": "2026-07-24T18:24:10.000Z",
+        "imported_at": "2026-07-24T18:25:21.868Z"
+      },
+      {
+        "id": "cmrz9t2a3000hie041zb541k5",
+        "text": "RT @MichaelDell: America's tech leadership has always come from ecosystems where the best ideas compete. \n\nAI is no different. Open-weight…",
+        "created_at": "2026-07-24T18:21:24.000Z",
+        "imported_at": "2026-07-24T18:25:21.868Z"
+      },
       {
         "id": "cmrz9n7lt000die043i0ry87q",
         "text": "RT @cb_doge: \"My partner, Shivon, is half Indian, and one of my son’s middle names is Sekhar, named after Aragorn and the great Indian phys…",
