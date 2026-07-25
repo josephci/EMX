@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-24T23:43:04.001Z",
-  "total": 2397,
+  "last_updated": "2026-07-25T01:09:38.247Z",
+  "total": 2404,
   "by_date": {
     "2026-05-27": [
       {
@@ -16893,6 +16893,50 @@
         "text": "Just common sense https://t.co/cLWFscLWPu",
         "created_at": "2026-07-24T00:14:34.000Z",
         "imported_at": "2026-07-24T00:15:37.409Z"
+      }
+    ],
+    "2026-07-25": [
+      {
+        "id": "cmrzo33zg0007lb04liowwulg",
+        "text": "RT @astro_anil: Our view of Starbase from space!  Here's to a successful launch.  Send it! https://t.co/Yk0i9exLmZ",
+        "created_at": "2026-07-25T01:03:48.000Z",
+        "imported_at": "2026-07-25T01:05:05.156Z"
+      },
+      {
+        "id": "cmrznjtbh0005lb04zz9ce7ch",
+        "text": "Latest heat shield design looks great! https://t.co/PitlHFwilp",
+        "created_at": "2026-07-25T00:48:10.000Z",
+        "imported_at": "2026-07-25T00:50:04.973Z"
+      },
+      {
+        "id": "cmrzmu3s30002lb04hieatcdx",
+        "text": "RT @BLKMDL3: Tesla Diner live-streaming Starship Test Flight 13 on their large screens! @SpaceX @tesla_na https://t.co/JRlORz7Jm3",
+        "created_at": "2026-07-25T00:28:27.000Z",
+        "imported_at": "2026-07-25T00:30:05.475Z"
+      },
+      {
+        "id": "cmrzmu3s30003lb04sjaewj3r",
+        "text": "https://t.co/Y8KiPR3mb5",
+        "created_at": "2026-07-25T00:27:21.000Z",
+        "imported_at": "2026-07-25T00:30:05.475Z"
+      },
+      {
+        "id": "cmrzmnnzt0000lb04wrvcnsae",
+        "text": "RT @SawyerMerritt: Unreal! Starship didn't blow up on upon landing in the ocean! It's still floating in the ocean and Starlink is still giv…",
+        "created_at": "2026-07-25T00:23:29.000Z",
+        "imported_at": "2026-07-25T00:25:05.081Z"
+      },
+      {
+        "id": "cmrzm4dde0009l404cbku049l",
+        "text": "RT @OwenSparks: Possibly the most beautiful thing I have ever seen. SpaceX and Starlink are opening our eyes to the universe. https://t.co/…",
+        "created_at": "2026-07-25T00:09:31.000Z",
+        "imported_at": "2026-07-25T00:10:04.851Z"
+      },
+      {
+        "id": "cmrzm4dde000al40471padsel",
+        "text": "Starship is intact, floating in the ocean and transmitting telemetry! https://t.co/hLVXJqkHSA",
+        "created_at": "2026-07-25T00:09:16.000Z",
+        "imported_at": "2026-07-25T00:10:04.851Z"
       }
     ]
   },
