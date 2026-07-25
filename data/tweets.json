@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-25T07:02:07.776Z",
-  "total": 2431,
+  "last_updated": "2026-07-25T09:06:08.804Z",
+  "total": 2432,
   "by_date": {
     "2026-05-27": [
       {
@@ -16896,6 +16896,12 @@
       }
     ],
     "2026-07-25": [
+      {
+        "id": "cms014ipi0003l8046e8two1y",
+        "text": "RT @cb_doge: Elon Musk on early days of SpaceX:\n\n\"When I started SpaceX, one of my friends got a compilation of rocket failures &amp; made me w…",
+        "created_at": "2026-07-25T07:08:41.000Z",
+        "imported_at": "2026-07-25T07:10:06.007Z"
+      },
       {
         "id": "cms00l8a50002l804oeq0b3o8",
         "text": "RT @Polymarket: JUST IN: Grok 4.5 overtakes GPT-5.6 Sol &amp; Fable 5 in OpenRouter token volume, cracking the top 10 closed models.",
