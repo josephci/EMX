@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-25T23:42:55.303Z",
-  "total": 2454,
+  "last_updated": "2026-07-26T01:14:13.852Z",
+  "total": 2458,
   "by_date": {
     "2026-05-27": [
       {
@@ -16897,6 +16897,12 @@
     ],
     "2026-07-25": [
       {
+        "id": "cms117eca0006l904azb6qigg",
+        "text": "Hardcore https://t.co/gbepDfrFNt",
+        "created_at": "2026-07-25T23:59:55.000Z",
+        "imported_at": "2026-07-26T00:00:06.490Z"
+      },
+      {
         "id": "cms10hobx0004l9044vvux0uq",
         "text": "A low birth rate due to extended periods of prosperity and low perceived external danger is the primary reason that Rome and most other powerful civilizations collapsed. \n\nRome had a very high birth rate when under extreme pressure from Carthage and a low birth rate a few https://t.co/71mx4vrUJU",
         "created_at": "2026-07-25T23:35:42.000Z",
@@ -17237,6 +17243,26 @@
         "text": "Starship is intact, floating in the ocean and transmitting telemetry! https://t.co/hLVXJqkHSA",
         "created_at": "2026-07-25T00:09:16.000Z",
         "imported_at": "2026-07-25T00:10:04.851Z"
+      }
+    ],
+    "2026-07-26": [
+      {
+        "id": "cms129zqf000al904uvvdfyvc",
+        "text": "Download Grok Build and type /tutorial\n\nhttps://t.co/lOJK57wDP5 https://t.co/XWmqoGZAVO",
+        "created_at": "2026-07-26T00:25:41.000Z",
+        "imported_at": "2026-07-26T00:30:07.143Z"
+      },
+      {
+        "id": "cms11k9290007l904fhj4gfs4",
+        "text": "https://t.co/nHCGQfRurA",
+        "created_at": "2026-07-26T00:09:16.000Z",
+        "imported_at": "2026-07-26T00:10:06.177Z"
+      },
+      {
+        "id": "cms11k9290008l904z9kps4uf",
+        "text": "Yup https://t.co/pUzQTCjOrL",
+        "created_at": "2026-07-26T00:06:25.000Z",
+        "imported_at": "2026-07-26T00:10:06.177Z"
       }
     ]
   },
