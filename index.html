@@ -158,7 +158,7 @@
 
     <div id="mkts-box" style="display:none">
       <div id="mkts-title">🎪 全部進行中市場</div>
-      <div id="mkts-note">每個市場獨立計數＋按 7 日 pace 預測落點・預測 bucket 現價 &lt;50¢ 標 💰</div>
+      <div id="mkts-note">每個市場獨立計數＋按「同星期幾」pace 預測範圍・預測格現價 &lt;50¢ 標 💰・⚠️跨格 = 落邊個未定</div>
       <div id="mkts-list"></div>
     </div>
 
@@ -671,14 +671,67 @@ function parseBucketRange(s) {
   return null;
 }
 
-function hourlyRatesPrev7d() {
-  // 每個市場日時段嘅平均發推率（用之前 7 個完整市場日，唔計今日）
-  const keys = new Set(lastNMarketDays(8).slice(0, 7));
-  const rates = Array(24).fill(0);
-  Object.values(db.by_date || {}).flat().forEach(p => {
-    if (keys.has(marketDayKey(p.created_at))) rates[marketCol(p.created_at)]++;
+// ── 發推 pace 模型（A：同星期幾 pace／B：預測範圍／C：自我校準誤差） ──────────
+function wdOfKey(key) { return new Date(key + 'T00:00:00Z').getUTCDay(); }
+
+function buildPaceModel() {
+  if (!db || !db.by_date) return null;
+  const todayKey = marketDayKey(new Date().toISOString());
+  const byDay = {};
+  Object.values(db.by_date).flat().forEach(p => {
+    const k = marketDayKey(p.created_at);
+    (byDay[k] = byDay[k] || []).push(p);
   });
-  return rates.map(v => v / 7);
+  const recent = new Set(lastNMarketDays(36));                 // 只用近 35 個市場日
+  const days = Object.keys(byDay).filter(k => k !== todayKey && recent.has(k)).sort();
+  if (days.length < 4) return null;                            // 數據太少唔預測
+
+  const wdSum = {}, wdCnt = {};        // 星期幾 → 每個時段累計 / 日數
+  const colSum = Array(24).fill(0);    // 全部日嘅每時段累計（fallback 用）
+  const dayHrs = {}, dayTot = [];
+  days.forEach(k => {
+    const wd = wdOfKey(k), hrs = Array(24).fill(0);
+    byDay[k].forEach(p => hrs[marketCol(p.created_at)]++);
+    dayHrs[k] = hrs;
+    if (!wdSum[wd]) { wdSum[wd] = Array(24).fill(0); wdCnt[wd] = 0; }
+    for (let c = 0; c < 24; c++) { wdSum[wd][c] += hrs[c]; colSum[c] += hrs[c]; }
+    wdCnt[wd]++;
+    dayTot.push(hrs.reduce((a, b) => a + b, 0));
+  });
+  const dayCnt  = days.length;
+  const dayMean = dayTot.reduce((a, b) => a + b, 0) / dayCnt;
+  const dayStd  = Math.sqrt(dayTot.reduce((a, b) => a + (b - dayMean) ** 2, 0) / dayCnt);
+
+  // A：優先用「同星期幾」同時段平均，該星期樣本 <2 就退返全部日平均
+  const rate = (wd, c) => (wdCnt[wd] >= 2 ? wdSum[wd][c] / wdCnt[wd] : colSum[c] / dayCnt);
+
+  const expected = (from, end) => {
+    let sum = 0; const hrs = (end - from) / 3600000;
+    for (let h = 0; h < hrs; h += 0.5) {
+      const t = new Date(from.getTime() + h * 3600000).toISOString();
+      sum += rate(wdOfKey(marketDayKey(t)), marketCol(t)) * Math.min(0.5, hrs - h);
+    }
+    return sum;
+  };
+  // B：剩餘時間愈長不確定性愈大（按日總數變異，scale 到剩幾多「日等量」）
+  const stdRemaining = (exp) => dayMean > 0 ? dayStd * Math.sqrt(Math.max(0, exp) / dayMean) : dayStd;
+
+  // C：leave-one-out 校準——喺當前市場時段預測「今日總數」對比實際，取平均絕對誤差
+  const curCol = marketCol(new Date().toISOString());
+  let errSum = 0, errCnt = 0;
+  days.forEach(k => {
+    const wd = wdOfKey(k), hrs = dayHrs[k];
+    let known = 0; for (let c = 0; c <= curCol; c++) known += hrs[c];
+    let rest = 0;
+    for (let c = curCol + 1; c < 24; c++) {
+      rest += wdCnt[wd] >= 2 ? (wdSum[wd][c] - hrs[c]) / (wdCnt[wd] - 1)
+                             : (colSum[c] - hrs[c]) / (dayCnt - 1);
+    }
+    errSum += Math.abs(known + rest - hrs.reduce((a, b) => a + b, 0)); errCnt++;
+  });
+  const mae = errCnt ? errSum / errCnt : null;
+
+  return { expected, stdRemaining, mae, samples: dayCnt };
 }
 
 function windowStartOf(ev) {
@@ -710,15 +763,12 @@ function bucketsOf(ev) {
   }).filter(b => b.range);
 }
 
-// 由「而家」計到「end」預期仲會出幾多則（按 7 日同時段 pace）
-function expectedUntil(rates, from, end) {
-  let sum = 0;
-  const hrs = (end - from) / 3600000;
-  for (let h = 0; h < hrs; h += 0.5) {
-    const t = new Date(from.getTime() + h * 3600000);
-    sum += rates[marketCol(t.toISOString())] * Math.min(0.5, hrs - h);
-  }
-  return sum;
+// bucket 命中：中位落邊個 bucket；範圍 [lo,hi] 橫跨邊幾個 bucket
+function bucketsForRange(ev, mid, lo, hi) {
+  const bs = bucketsOf(ev);
+  const hit  = bs.find(b => mid >= b.range[0] && mid <= b.range[1]) || null;
+  const span = bs.filter(b => hi >= b.range[0] && lo <= b.range[1]);
+  return { hit, span };
 }
 
 async function fetchSignal() {
@@ -737,7 +787,8 @@ async function fetchSignal() {
         return en > now && (en - s) / 86400000 <= 9;
       } catch { return false; }
     });
-    renderMarkets(evs, now);
+    const pace = buildPaceModel();
+    renderMarkets(evs, now, pace);
     if (!evs.length) { statusEl.textContent = '無進行中市場'; return; }
     const ev = evs.sort((a, b) => new Date(a.endDate) - new Date(b.endDate))[0];
     const hrsToSettle = (new Date(ev.endDate) - now) / 3600000;
@@ -766,22 +817,31 @@ async function fetchSignal() {
     set('sig-count', periodCount === null ? '—' : periodCount);
     document.getElementById('sig-boundary').textContent = boundaryMsg;
 
-    // 📈 bucket 落點預測：本期已計 + 按過去 7 日同時段 pace 推算餘下時間
+    // 📈 落點預測（A 同星期幾 pace／B 範圍／C 校準誤差）
     const fEl = document.getElementById('sig-forecast');
     fEl.style.display = 'none';
-    if (db && periodCount !== null && hrsToSettle > 0) {
-      const rates = hourlyRatesPrev7d();
-      const expected = expectedUntil(rates, now, new Date(ev.endDate));
-      const proj = Math.round(periodCount + expected);
+    if (pace && periodCount !== null && hrsToSettle > 0) {
       const esc = s => (s || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-      const hit = bucketsOf(ev).find(b => proj >= b.range[0] && proj <= b.range[1]);
+      const expected = pace.expected(now, new Date(ev.endDate));
+      const proj = Math.round(periodCount + expected);
+      const std  = pace.stdRemaining(expected);
+      const lo   = Math.max(periodCount, Math.round(proj - std));
+      const hi   = Math.round(proj + std);
+      const { hit, span } = bucketsForRange(ev, proj, lo, hi);
       if (hit) {
         const priceTxt = hit.price !== null && !isNaN(hit.price) ? (hit.price * 100).toFixed(1) + '¢' : '—';
         const isValue  = hit.price !== null && hit.price < 0.5;
+        // 範圍橫跨多過一個 bucket → 提示唔穩陣（邊界附近）
+        const spanTxt = span.length > 1
+          ? `　<span style="color:#f59e0b">⚠️ 範圍橫跨 ${span.length} 個格：${span.map(b => esc(b.name)).join('／')}</span>`
+          : '';
+        const maeTxt = pace.mae !== null
+          ? `・模型近期同時段誤差 ±${pace.mae.toFixed(0)} 則（${pace.samples}日校準）`
+          : '';
         fEl.innerHTML =
-          `📈 按 7 日 pace 預測結算約 <b style="color:#a78bfa">${proj}</b> 則 → 落 <b>${esc(hit.name)}</b>（現價 ${priceTxt}）` +
-          (isValue ? '　<span style="color:#34d399;font-weight:700">💰 有 value</span>' : '') +
-          `<br><span style="color:#555">已計 ${periodCount} 則＋餘下 ${hrsToSettle.toFixed(1)}h 預期再出 ~${Math.round(expected)} 則・發推 pace 隨時變，僅供參考</span>`;
+          `📈 預測結算 <b style="color:#a78bfa">${lo}–${hi}</b> 則（中位 ${proj}）→ 落 <b>${esc(hit.name)}</b>（現價 ${priceTxt}）` +
+          (isValue ? '　<span style="color:#34d399;font-weight:700">💰 有 value</span>' : '') + spanTxt +
+          `<br><span style="color:#555">已計 ${periodCount} 則＋餘下 ${hrsToSettle.toFixed(1)}h 預期再出 ~${Math.round(expected)} 則（同星期幾 pace）${maeTxt}</span>`;
         fEl.style.display = 'block';
       }
     }
@@ -822,11 +882,10 @@ async function fetchSignal() {
 }
 
 // ── 全部進行中市場總覽（一條龍：計數＋預測落點） ────────────────────────────
-function renderMarkets(evs, now) {
+function renderMarkets(evs, now, pace) {
   const box = document.getElementById('mkts-box');
   if (!evs.length || !db) { box.style.display = 'none'; return; }
   box.style.display = 'block';
-  const rates = hourlyRatesPrev7d();
   const esc = s => (s || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   const fmtMD = d => (d.getUTCMonth() + 1) + '/' + d.getUTCDate();
 
@@ -841,15 +900,25 @@ function renderMarkets(evs, now) {
       let leader = null, leadPrice = -1;
       bucketsOf(ev).forEach(b => { if (b.price !== null && b.price > leadPrice) { leadPrice = b.price; leader = b.name; } });
 
-      // 預測：已計 + 由 max(now, start) 積到 end
-      const expected = expectedUntil(rates, started ? now : start, end);
-      const proj = Math.round(count + expected);
-      const hit  = bucketsOf(ev).find(b => proj >= b.range[0] && proj <= b.range[1]);
-      const hitPriceTxt = hit && hit.price !== null && !isNaN(hit.price) ? (hit.price * 100).toFixed(1) + '¢' : '—';
-      const isValue = hit && hit.price !== null && hit.price < 0.5;
-
       const hrsLeft = (end - now) / 3600000;
       const settleTxt = hrsLeft < 48 ? '餘 ' + hrsLeft.toFixed(1) + 'h' : '餘 ' + (hrsLeft / 24).toFixed(1) + '日';
+
+      // 預測：已計 + 由 max(now, start) 積到 end；B 範圍
+      let forecastHtml = '📈 預測需更多歷史數據';
+      if (pace) {
+        const expected = pace.expected(started ? now : start, end);
+        const proj = Math.round(count + expected);
+        const std  = pace.stdRemaining(expected);
+        const lo   = Math.max(count, Math.round(proj - std));
+        const hi   = Math.round(proj + std);
+        const { hit, span } = bucketsForRange(ev, proj, lo, hi);
+        const hitPriceTxt = hit && hit.price !== null && !isNaN(hit.price) ? (hit.price * 100).toFixed(1) + '¢' : '—';
+        const isValue = hit && hit.price !== null && hit.price < 0.5;
+        forecastHtml =
+          `📈 預測 <b style="color:#a78bfa">${lo}–${hi}</b> 則 → ${hit ? `<b style="color:#e8e8e8">${esc(hit.name)}</b>（${hitPriceTxt}）` : '超出所有格範圍'}` +
+          (isValue ? ' <span class="mkt-value">💰</span>' : '') +
+          (span.length > 1 ? ` <span style="color:#f59e0b">⚠️跨${span.length}格</span>` : '');
+      }
 
       return `<div class="mkt-card">
         <div class="mkt-line1">
@@ -860,10 +929,7 @@ function renderMarkets(evs, now) {
           已計 <b style="color:#a78bfa">${count === null ? '—' : count}</b> 則
           ${leader ? `・領先 ${esc(leader)} @ ${(leadPrice * 100).toFixed(1)}¢` : ''}
         </div>
-        <div class="mkt-line3">
-          📈 預測 ~${proj} 則 → ${hit ? `<b style="color:#e8e8e8">${esc(hit.name)}</b>（${hitPriceTxt}）` : '超出所有 bucket 範圍'}
-          ${isValue ? '<span class="mkt-value">💰</span>' : ''}
-        </div>
+        <div class="mkt-line3">${forecastHtml}</div>
       </div>`;
     }).join('');
 }
