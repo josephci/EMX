@@ -90,8 +90,9 @@
   .hm-tab { background: #0f0f14; border: 1px solid #111118; border-radius: 6px; padding: 3px 10px; color: #333; font-size: 10px; }
   .hm-tab.active { border-color: #a78bfa; background: rgba(167,139,250,0.09); color: #a78bfa; }
   #heatmap-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; padding-top: 4px; }
-  #heatmap { display: grid; grid-template-columns: 40px repeat(24, 1fr) 34px; gap: 2px; min-width: 580px; }
-  .hm-label { font-size: 8px; color: #333; display: flex; align-items: center; justify-content: flex-end; padding-right: 4px; white-space: nowrap; }
+  #heatmap { display: grid; grid-template-columns: 58px repeat(24, 1fr) 34px; gap: 2px; min-width: 598px; }
+  .hm-label { font-size: 8px; color: #444; display: flex; align-items: center; justify-content: flex-end; padding-right: 4px; white-space: nowrap; }
+  .hm-label.hm-weekend { color: #8a6d3b; }
   .hm-hour-label { font-size: 7px; color: #2a2a3a; text-align: center; min-width: 0; }
   .hm-cell { aspect-ratio: 1; min-width: 0; border-radius: 2px; position: relative; display: flex; align-items: center; justify-content: center; font-size: 8px; color: #ddd; }
   .hm-cell .fl { position: absolute; top: -4px; right: -3px; font-size: 10px; text-shadow: 0 0 2px #000; z-index: 2; }
@@ -251,6 +252,8 @@ function toEST(iso)        { return new Date(new Date(iso).getTime() - 5 * 36000
 function marketDayKey(iso) { return new Date(toEST(iso).getTime() - 12 * 3600000).toISOString().slice(0, 10); }
 function marketCol(iso)    { return (toEST(iso).getUTCHours() - 12 + 24) % 24; }
 function colHourLabel(c)   { return ((12 + c) % 24); }
+function weekdayShort(key) { return ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][new Date(key + 'T00:00:00Z').getUTCDay()]; }
+function isWeekendKey(key) { const d = new Date(key + 'T00:00:00Z').getUTCDay(); return d === 0 || d === 6; }
 function isRT(t)           { return (t.text || '').startsWith('RT @'); }
 function filterTweets(ts)  { return showMode === 'original' ? ts.filter(t => !isRT(t)) : ts; }
 function allPosts()        { return filterTweets(Object.values(db.by_date || {}).flat()); }
@@ -601,8 +604,8 @@ function renderHeatmap() {
     (byMkt[k] || []).forEach(p => hours[marketCol(p.created_at)]++);
 
     const lbl = document.createElement('div');
-    lbl.className = 'hm-label';
-    lbl.textContent = k.slice(5).replace('-', '/');
+    lbl.className = 'hm-label' + (isWeekendKey(k) ? ' hm-weekend' : '');
+    lbl.textContent = weekdayShort(k) + ' ' + k.slice(5).replace('-', '/');
     hm.appendChild(lbl);
 
     hours.forEach((cnt, c) => {
