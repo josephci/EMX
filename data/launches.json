@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29T14:37:50.152Z",
+  "last_updated": "2026-07-29T16:09:27.271Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | NROL-95",
@@ -10,14 +10,14 @@
     },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 17-52",
-      "net": "2026-07-31T02:00:00Z",
+      "net": "2026-08-01T02:00:00Z",
       "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
     },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 17-53",
-      "net": "2026-08-03T14:00:00Z",
+      "net": "2026-08-04T14:00:00Z",
       "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
@@ -31,7 +31,7 @@
     },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 17-38",
-      "net": "2026-08-07T14:00:00Z",
+      "net": "2026-08-08T14:00:00Z",
       "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
@@ -45,7 +45,7 @@
     },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 17-49",
-      "net": "2026-08-11T02:00:00Z",
+      "net": "2026-08-12T02:00:00Z",
       "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
