@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-29T01:08:35.488Z",
-  "total": 2523,
+  "last_updated": "2026-07-29T04:37:23.079Z",
+  "total": 2524,
   "by_date": {
     "2026-05-27": [
       {
@@ -17657,6 +17657,14 @@
         "text": "This is money https://t.co/vwo9qZrYwv",
         "created_at": "2026-07-28T01:35:38.000Z",
         "imported_at": "2026-07-28T01:40:08.130Z"
+      }
+    ],
+    "2026-07-29": [
+      {
+        "id": "cms5e7e8d0002ju044p2ahqrz",
+        "text": "RT @finkd: I wrote about why we believe the future is for everyone. More coming about a positive vision for a world with superintelligence…",
+        "created_at": "2026-07-29T01:14:06.000Z",
+        "imported_at": "2026-07-29T01:15:06.061Z"
       }
     ]
   },
