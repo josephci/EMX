@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-29T19:59:33.738Z",
-  "total": 2558,
+  "last_updated": "2026-07-29T21:05:41.152Z",
+  "total": 2563,
   "by_date": {
     "2026-05-27": [
       {
@@ -17660,6 +17660,36 @@
       }
     ],
     "2026-07-29": [
+      {
+        "id": "cms6ixyvb0005i704l1ia80tw",
+        "text": "RT @DirtyTesLa: The Economist uploaded their full Elon interview to YouTube and left the comments on 🔥 😂 https://t.co/KZpp88HGRj",
+        "created_at": "2026-07-29T20:13:01.000Z",
+        "imported_at": "2026-07-29T20:15:30.503Z"
+      },
+      {
+        "id": "cms6ixyvb0006i7040uj9ou8j",
+        "text": "Grok Voice is now #1 in agentic performance https://t.co/1MxiX1MPn1",
+        "created_at": "2026-07-29T20:12:25.000Z",
+        "imported_at": "2026-07-29T20:15:30.503Z"
+      },
+      {
+        "id": "cms6ixyvb0007i704rfxaqkwe",
+        "text": "RT @XBusiness: A joint statement from the WFA and X Corp.\n\nToday the World Federation of Advertisers (WFA) and X Corp. are putting the liti…",
+        "created_at": "2026-07-29T20:11:18.000Z",
+        "imported_at": "2026-07-29T20:15:30.503Z"
+      },
+      {
+        "id": "cms6irlwj0003i704u2kb39ct",
+        "text": "RT @dvorahfr: Happy birthday Grok Imagine ❣️ https://t.co/ryR5NvD9wZ",
+        "created_at": "2026-07-29T20:09:36.000Z",
+        "imported_at": "2026-07-29T20:10:33.763Z"
+      },
+      {
+        "id": "cms6irlwj0004i704r7uwvbia",
+        "text": "RT @XFreeze: SpaceXAI has built the best voice model I’ve ever used\n\nOnce you experience how precisely Grok Voice recognizes speech and und…",
+        "created_at": "2026-07-29T20:09:26.000Z",
+        "imported_at": "2026-07-29T20:10:33.763Z"
+      },
       {
         "id": "cms6hve910002i7041rkcy09r",
         "text": "RT @cb_doge: BREAKING: SpaceXAI's newly released Grok Voice Think Fast 2.0 beats voice models from OpenAI, Google, Alibaba, and DeepSlate i…",
