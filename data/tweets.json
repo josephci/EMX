@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-29T23:27:04.896Z",
-  "total": 2563,
+  "last_updated": "2026-07-30T00:52:50.380Z",
+  "total": 2565,
   "by_date": {
     "2026-05-27": [
       {
@@ -17661,6 +17661,12 @@
     ],
     "2026-07-29": [
       {
+        "id": "cms6qg8wn0000kz04awtk5x4x",
+        "text": "RT @jk_rowling: \"Amnesty has moved so far away from their original mission... They are now acting like the types of authoritarian regimes t…",
+        "created_at": "2026-07-29T23:42:04.000Z",
+        "imported_at": "2026-07-29T23:45:40.621Z"
+      },
+      {
         "id": "cms6ixyvb0005i704l1ia80tw",
         "text": "RT @DirtyTesLa: The Economist uploaded their full Elon interview to YouTube and left the comments on 🔥 😂 https://t.co/KZpp88HGRj",
         "created_at": "2026-07-29T20:13:01.000Z",
@@ -17899,6 +17905,14 @@
         "text": "RT @finkd: I wrote about why we believe the future is for everyone. More coming about a positive vision for a world with superintelligence…",
         "created_at": "2026-07-29T01:14:06.000Z",
         "imported_at": "2026-07-29T01:15:06.061Z"
+      }
+    ],
+    "2026-07-30": [
+      {
+        "id": "cms6rc9q80001kz04du4gqsw6",
+        "text": "Good analysis  https://t.co/LQXnKgwU3z",
+        "created_at": "2026-07-30T00:05:55.000Z",
+        "imported_at": "2026-07-30T00:10:34.688Z"
       }
     ]
   },
