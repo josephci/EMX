@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-30T06:46:37.891Z",
-  "total": 2590,
+  "last_updated": "2026-07-30T09:19:12.838Z",
+  "total": 2593,
   "by_date": {
     "2026-05-27": [
       {
@@ -17908,6 +17908,24 @@
       }
     ],
     "2026-07-30": [
+      {
+        "id": "cms76w1ku0004jp04vizd07v9",
+        "text": "RT @xenocosmography: Gates-ism perfectly epitomized. https://t.co/sBKVK5lmma",
+        "created_at": "2026-07-30T07:23:11.000Z",
+        "imported_at": "2026-07-30T07:25:51.475Z"
+      },
+      {
+        "id": "cms76w1ku0005jp04177a4o0e",
+        "text": "RT @techdevnotes: Grok Build now has a way to enable/disable MCP\n\ngrok mcp enable &lt;name&gt;\n\ngrok mcp disable &lt;name&gt; https://t.co/X3kKAn5vfK",
+        "created_at": "2026-07-30T07:22:42.000Z",
+        "imported_at": "2026-07-30T07:25:51.475Z"
+      },
+      {
+        "id": "cms76w1ku0006jp04ap6jastb",
+        "text": "RT @SpaceX: Watch Falcon 9 launch the @NRO_gov and @USSF_SSC’s NROL-95 mission from pad 40 in Florida  https://t.co/SHLMM2Oat4",
+        "created_at": "2026-07-30T07:21:28.000Z",
+        "imported_at": "2026-07-30T07:25:51.475Z"
+      },
       {
         "id": "cms75g7qc0001jp044cbvsqrt",
         "text": "RT @tomzhu_nz: Congrats to all Tesla teams. Proud to be part of this amazing journey. And we’re just getting started.",
