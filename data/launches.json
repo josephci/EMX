@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30T21:18:48.306Z",
+  "last_updated": "2026-07-30T22:31:06.442Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | NROL-95",
@@ -38,7 +38,7 @@
     },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 10-19",
-      "net": "2026-08-10T11:00:00Z",
+      "net": "2026-08-10T14:50:00Z",
       "status": "Go",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA"
