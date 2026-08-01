@@ -176,7 +176,7 @@
         <span id="flights-title">✈️ 私人機上落記錄</span>
         <span id="flights-status"></span>
       </div>
-      <div id="flights-note">追蹤 N628TS / N272BG / N502SX・落機後 Elon 通常會爆推・時間為香港時間</div>
+      <div id="flights-note">ADS-B 估算（±X 分為不確定範圍）・精準時間以 xTracker 為準・追蹤 N628TS/N272BG/N502SX・時間為香港時間</div>
       <div id="flights-list"></div>
     </div>
 
@@ -562,9 +562,10 @@ function renderFlights() {
     const ago  = fmtAgo(e.time);
     const up   = e.type === 'takeoff';
     const lbl  = JET_LABELS[e.reg] ? `${e.reg}（${JET_LABELS[e.reg]}）` : (e.reg || '');
+    const winTxt = (typeof e.w === 'number' && e.w > 0) ? ` <span style="color:#3a3a4a">±${e.w}分</span>` : '';
     return `<div class="fl-row">
       <span class="fl-emoji">${up ? '🛫' : '🛬'}</span>
-      <span class="fl-when">${when}</span>
+      <span class="fl-when">${when}${winTxt}</span>
       <span class="fl-what">${up ? '起飛' : '降落'}${up ? '' : '　落機易爆推'}</span>
       <span class="fl-reg">${lbl}・${ago}</span>
     </div>`;
