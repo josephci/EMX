@@ -130,7 +130,7 @@
         <button id="btn-refresh" onclick="loadData()">🔄 更新</button>
       </div>
     </div>
-    <div id="status-bar">頁面直連 xtracker 即時更新（背景每小時備份）・全站統一市場日口徑（12:00 UTC-5 日界）</div>
+    <div id="status-bar">頁面直連 xtracker 即時更新（背景每小時備份）・市場日口徑：中午 12:00 美東 ET（自動夏令）</div>
   </div>
 </div>
 
@@ -250,10 +250,26 @@ let chartDaily = null, chartHourly = null;
 let showMode = 'all';
 let heatRange = 7;
 
-// ── 市場日工具（xtracker 實測口徑：固定 UTC-5；日界 = 12:00 = 17:00 UTC） ──────
-function toEST(iso)        { return new Date(new Date(iso).getTime() - 5 * 3600000); }
-function marketDayKey(iso) { return new Date(toEST(iso).getTime() - 12 * 3600000).toISOString().slice(0, 10); }
-function marketCol(iso)    { return (toEST(iso).getUTCHours() - 12 + 24) % 24; }
+// ── 市場日工具（xtracker 口徑：美東時間 ET，中午 12:00 為日界；自動處理夏令 DST） ──
+// 之前寫死 UTC-5 喺夏令（EDT=UTC-4）會遲一個鐘，令窗口起點漏咗中午頭一個鐘嘅推文
+function toET(iso) {
+  const d = new Date(iso);
+  const p = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', hourCycle: 'h23',
+    year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' })
+    .formatToParts(d).reduce((a, x) => (a[x.type] = x.value, a), {});
+  // 回傳一個「UTC 欄位 = ET 牆鐘時間」嘅 Date，等原有 getUTC* 邏輯照用
+  return new Date(Date.UTC(+p.year, +p.month - 1, +p.day, +p.hour, +p.minute, +p.second));
+}
+function etNoonUTC(y, m, d) {   // y-m(0基)-d 當日中午 12:00 ET 對應嘅真實 UTC 時刻
+  for (const off of [4, 5]) {   // 先試 EDT(UTC-4) 再試 EST(UTC-5)
+    const guess = new Date(Date.UTC(y, m, d, 12 + off, 0, 0));
+    if (toET(guess).getUTCHours() === 12) return guess;
+  }
+  return new Date(Date.UTC(y, m, d, 16, 0, 0));
+}
+function toEST(iso)        { return toET(iso); }   // 舊名相容
+function marketDayKey(iso) { return new Date(toET(iso).getTime() - 12 * 3600000).toISOString().slice(0, 10); }
+function marketCol(iso)    { return (toET(iso).getUTCHours() - 12 + 24) % 24; }
 function colHourLabel(c)   { return ((12 + c) % 24); }
 function weekdayShort(key) { return ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][new Date(key + 'T00:00:00Z').getUTCDay()]; }
 function isWeekendKey(key) { const d = new Date(key + 'T00:00:00Z').getUTCDay(); return d === 0 || d === 6; }
@@ -770,13 +786,13 @@ function buildPaceModel() {
 }
 
 function windowStartOf(ev) {
-  // 窗口開始 = 標題日期 12:00（UTC-5）= 17:00 UTC；Gamma startDate 只作後備
+  // 窗口開始 = 標題日期 12:00 ET（夏令自動 = 16:00 UTC，冬令 = 17:00 UTC）；Gamma startDate 後備
   const MONTHS = {january:0,february:1,march:2,april:3,may:4,june:5,july:6,august:7,september:8,october:9,november:10,december:11};
   const tm = (ev.title || '').match(/(january|february|march|april|may|june|july|august|september|october|november|december)\s+(\d{1,2})/i);
   const ym = (ev.title || '').match(/(\d{4})/);
   if (tm) {
     const y = ym ? parseInt(ym[1]) : new Date().getUTCFullYear();
-    return new Date(Date.UTC(y, MONTHS[tm[1].toLowerCase()], parseInt(tm[2]), 17, 0, 0));
+    return etNoonUTC(y, MONTHS[tm[1].toLowerCase()], parseInt(tm[2]));
   }
   return new Date(ev.startDate);
 }

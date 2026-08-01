@@ -59,14 +59,22 @@ function silenceHours() {
   } catch { return null; }
 }
 
+function etNoonUTC(y, m, d) {   // 當日中午 12:00 美東 ET 對應嘅真實 UTC 時刻（自動夏令）
+  const hourET = (date) => +new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', hourCycle: 'h23', hour: '2-digit' }).format(date);
+  for (const off of [4, 5]) {   // 先試 EDT(UTC-4) 再試 EST(UTC-5)
+    const guess = new Date(Date.UTC(y, m, d, 12 + off, 0, 0));
+    if (hourET(guess) === 12) return guess;
+  }
+  return new Date(Date.UTC(y, m, d, 16, 0, 0));
+}
 function marketWindowStart(ev) {
-  // 窗口開始 = 標題日期的 12:00（固定UTC-5）= 17:00 UTC；Gamma startDate 只作後備
+  // 窗口開始 = 標題日期的 12:00 美東 ET（夏令自動 = 16:00 UTC，冬令 = 17:00 UTC）；Gamma startDate 後備
   const MONTHS = {january:0,february:1,march:2,april:3,may:4,june:5,july:6,august:7,september:8,october:9,november:10,december:11};
   const tm = (ev.title || '').match(/(january|february|march|april|may|june|july|august|september|october|november|december)\s+(\d{1,2})/i);
   const ym = (ev.title || '').match(/(\d{4})/);
   if (tm) {
     const y = ym ? parseInt(ym[1]) : new Date().getUTCFullYear();
-    return new Date(Date.UTC(y, MONTHS[tm[1].toLowerCase()], parseInt(tm[2]), 17, 0, 0));
+    return etNoonUTC(y, MONTHS[tm[1].toLowerCase()], parseInt(tm[2]));
   }
   return new Date(ev.startDate);
 }
