@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-07-31T23:40:51.943Z",
-  "total": 2661,
+  "last_updated": "2026-08-01T01:13:24.984Z",
+  "total": 2667,
   "by_date": {
     "2026-05-27": [
       {
@@ -18491,6 +18491,44 @@
         "text": "RT @Tesla_Megapack: Autobidder, our battery optimization service, is maximizing the value of one of France’s largest battery storage projec…",
         "created_at": "2026-07-31T00:48:30.000Z",
         "imported_at": "2026-07-31T00:50:42.245Z"
+      }
+    ],
+    "2026-08-01": [
+      {
+        "id": "cms9o03tx0000lc044v40w3i6",
+        "text": "Imagine Video 1.5 improvements https://t.co/Fhipf1c5va",
+        "created_at": "2026-08-01T00:58:58.000Z",
+        "imported_at": "2026-08-01T01:00:26.854Z"
+      },
+      {
+        "id": "cms9nn8fs0009l504gkmun6ev",
+        "text": "RT @StateDept: SECRETARY RUBIO: We in America have no interest in being polite and orderly caretakers of the West's managed decline. https:…",
+        "created_at": "2026-08-01T00:48:57.000Z",
+        "imported_at": "2026-08-01T00:50:26.296Z"
+      },
+      {
+        "id": "cms9nn8fs000al504t6c1x5wf",
+        "text": "RT @thatsKAIZEN: Wake up Europe.\n\nYou have civilizations worth preserving, and it’s not racist to make sure entrants are compatible with it…",
+        "created_at": "2026-08-01T00:48:48.000Z",
+        "imported_at": "2026-08-01T00:50:26.296Z"
+      },
+      {
+        "id": "cms9nn8fs000bl504na68jhmm",
+        "text": "SpaceX is hiring exceptional engineering &amp; skilled trades talent to build &amp; operate the most powerful AI supercomputer clusters on &amp; off Earth. \n\nIf interested, please email 3 bullet points demonstrating evidence of exceptional ability &amp; your resume to datacenters@spacex.com.",
+        "created_at": "2026-08-01T00:46:44.000Z",
+        "imported_at": "2026-08-01T00:50:26.296Z"
+      },
+      {
+        "id": "cms9mknj80007l5049dg4rp3l",
+        "text": "RT @Starlink: Starlink with @SostGlobalMX, is providing high-speed internet to two community centers run by Indigenous Maya groups on Mexic…",
+        "created_at": "2026-08-01T00:19:25.000Z",
+        "imported_at": "2026-08-01T00:20:26.277Z"
+      },
+      {
+        "id": "cms9m7sd20005l504foqk53n7",
+        "text": "Moonlight Sonata Starship https://t.co/BSL0kpjuBR",
+        "created_at": "2026-08-01T00:06:14.000Z",
+        "imported_at": "2026-08-01T00:10:26.006Z"
       }
     ]
   },
