@@ -96,7 +96,8 @@
   .hm-hour-label { font-size: 7px; color: #2a2a3a; text-align: center; min-width: 0; }
   .hm-cell { aspect-ratio: 1; min-width: 0; border-radius: 2px; position: relative; display: flex; align-items: center; justify-content: center; font-size: 8px; color: #ddd; }
   .hm-cell .fl { position: absolute; top: -4px; right: -3px; font-size: 10px; text-shadow: 0 0 2px #000; z-index: 2; }
-  .hm-cell:hover::after { content: attr(data-tip); position: absolute; bottom: calc(100% + 4px); left: 50%; transform: translateX(-50%); background: #1a1a2e; color: #ccc; font-size: 9px; padding: 3px 6px; border-radius: 4px; white-space: nowrap; z-index: 10; pointer-events: none; }
+  #hm-tip { position: fixed; z-index: 60; background: #1a1a2e; color: #ddd; font-size: 11px; padding: 5px 9px; border-radius: 6px; white-space: nowrap; pointer-events: none; display: none; box-shadow: 0 2px 10px rgba(0,0,0,.55); border: 1px solid #2e2e4a; }
+  .hm-cell.hm-sel { outline: 2px solid #a78bfa; }
   .hm-now { outline: 2px solid #f59e0b; animation: hmblink 1.1s ease-in-out infinite; }
   @keyframes hmblink { 0%,100% { outline-color: #f59e0b; } 50% { outline-color: transparent; } }
   .hm-total { font-size: 10px; color: #a78bfa; display: flex; align-items: center; padding-left: 5px; font-weight: 600; white-space: nowrap; }
@@ -176,7 +177,7 @@
         <span id="flights-title">✈️ 私人機上落記錄</span>
         <span id="flights-status"></span>
       </div>
-      <div id="flights-note">ADS-B 估算（±X 分為不確定範圍）・精準時間以 xTracker 為準・追蹤 N628TS/N272BG/N502SX・時間為香港時間</div>
+      <div id="flights-note">ADS-B 估算（±X 分為不確定範圍）・精準時間以 xTracker 為準・追蹤 N628TS/N8628/N272BG/N502SX・時間為香港時間</div>
       <div id="flights-list"></div>
     </div>
 
@@ -210,6 +211,7 @@
         <button class="hm-tab" id="hm-30" onclick="setHeatRange(30)">30日</button>
       </div>
       <div id="heatmap-scroll"><div id="heatmap"></div></div>
+      <div id="hm-tip"></div>
       <div style="display:flex;align-items:center;gap:6px;margin-top:8px;">
         <span style="font-size:9px;color:#333">少</span>
         <div style="display:flex;gap:2px;">
@@ -242,6 +244,7 @@ const PRICELOG_URL = './data/price_log.csv';
 const XT_LIVE_API  = 'https://xtracker.polymarket.com/api/users/elonmusk/posts';
 let db = null, flights = null, launches = null, priceLog = null;
 let liveOk = false, liveAt = 0;
+let liveJets = null;   // 客戶端直查 ADS-B 得到嘅即時航班狀態（CORS 唔通就 null）
 let chartPrice = null;
 let chartDaily = null, chartHourly = null;
 let showMode = 'all';
@@ -319,6 +322,7 @@ async function loadData() {
     } catch { priceLog = null; }
     // 繞過 GitHub Actions / Pages 延遲：直接問 xtracker 攞最近 3 日（CORS 唔通就靜靜地 fallback）
     liveOk = await tryLiveXtracker();
+    liveJets = await tryLiveJets();   // 即時航班狀態（CORS 唔通就 null，靜靜地 fallback）
     render();
     document.getElementById('content').style.display = 'block';
     lastLoadAt = Date.now();
@@ -373,6 +377,30 @@ async function tryLiveXtracker() {
     liveAt = Date.now();
     return true;
   } catch { return false; }
+}
+
+// ── 即時航班狀態：客戶端直查 ADS-B（繞過 GitHub 限流；CORS 唔通就 null） ─────
+async function tryLiveJets() {
+  const srcs = reg => [`https://api.adsb.lol/v2/reg/${reg}`, `https://api.airplanes.live/v2/reg/${reg}`];
+  const out = {}; let anyOk = false;
+  await Promise.all(JET_REGS.map(async reg => {
+    for (const url of srcs(reg)) {
+      try {
+        const r = await fetch(url, { signal: AbortSignal.timeout(6000) });
+        if (!r.ok) continue;
+        const j = await r.json();
+        const ac = (j.ac || j.aircraft || [])[0];
+        anyOk = true;
+        if (!ac) { out[reg] = { flying: false }; }
+        else {
+          const alt = ac.alt_baro;
+          out[reg] = { flying: alt !== 'ground' && (typeof alt !== 'number' || alt > 300 || (ac.gs || 0) > 80) };
+        }
+        return;
+      } catch {}
+    }
+  }));
+  return anyOk ? out : null;
 }
 
 function toggleMode() {
@@ -535,7 +563,8 @@ function renderLaunches() {
   }).join('');
 }
 
-const JET_LABELS = { N628TS: 'G650ER 主力', N272BG: 'G550', N502SX: 'G550' };
+const JET_LABELS = { N628TS: 'G650ER 主力', N8628: 'G800 新旗艦', N272BG: 'G550', N502SX: 'G550' };
+const JET_REGS = ['N628TS', 'N8628', 'N272BG', 'N502SX'];
 
 function renderFlights() {
   const box = document.getElementById('flights-box');
@@ -544,17 +573,22 @@ function renderFlights() {
   box.style.display = 'block';
   evs.sort((a, b) => new Date(b.time) - new Date(a.time));
 
-  // 由事件流推算而家邊架機仲飛緊（每架睇最新一單事件）
-  const airborne = [];
-  const seen = new Set();
-  evs.forEach(e => {
-    if (seen.has(e.reg)) return;
-    seen.add(e.reg);
-    if (e.type === 'takeoff') airborne.push(e.reg || '?');
-  });
+  // 即時狀態：優先用客戶端直查 ADS-B（liveJets）；唔通就退返事件流推算
   const st = document.getElementById('flights-status');
-  if (airborne.length) { st.textContent = '🟢 ' + airborne.join('、') + ' 飛行中'; st.style.color = '#34d399'; }
-  else { st.textContent = '全部喺地面'; st.style.color = '#555'; }
+  let airborne, live = false;
+  if (liveJets) {
+    airborne = JET_REGS.filter(r => liveJets[r] && liveJets[r].flying);
+    live = true;
+  } else {
+    airborne = []; const seen = new Set();
+    evs.forEach(e => {
+      if (seen.has(e.reg)) return;
+      seen.add(e.reg);
+      if (e.type === 'takeoff') airborne.push(e.reg || '?');
+    });
+  }
+  if (airborne.length) { st.textContent = '🟢 ' + airborne.join('、') + ' 飛行中' + (live ? '（即時）' : ''); st.style.color = '#34d399'; }
+  else { st.textContent = '全部喺地面' + (live ? '（即時）' : ''); st.style.color = '#555'; }
 
   document.getElementById('flights-list').innerHTML = evs.slice(0, 10).map(e => {
     const t    = new Date(e.time);
@@ -934,6 +968,34 @@ function renderMarkets(evs, now, pace) {
       </div>`;
     }).join('');
 }
+
+// ── 熱力圖 tooltip：改用 tap 顯示（iOS 冇 hover，原本 :hover 會黐住兼超出邊界） ──
+(function setupHeatTip() {
+  const tip = document.getElementById('hm-tip');
+  let selected = null;
+  function hide() {
+    tip.style.display = 'none';
+    if (selected) { selected.classList.remove('hm-sel'); selected = null; }
+  }
+  document.getElementById('heatmap-scroll').addEventListener('click', (e) => {
+    const cell = e.target.closest('.hm-cell');
+    if (!cell || !cell.getAttribute('data-tip')) return;
+    e.stopPropagation();
+    if (selected) selected.classList.remove('hm-sel');
+    selected = cell; cell.classList.add('hm-sel');
+    tip.textContent = cell.getAttribute('data-tip');
+    tip.style.display = 'block';
+    const r = cell.getBoundingClientRect(), tw = tip.offsetWidth, th = tip.offsetHeight, m = 8;
+    let left = r.left + r.width / 2 - tw / 2;
+    left = Math.max(m, Math.min(left, window.innerWidth - tw - m));   // 夾喺畫面內
+    let top = r.top - th - 6;
+    if (top < m) top = r.bottom + 6;                                  // 頂部唔夠位就放下面
+    tip.style.left = left + 'px';
+    tip.style.top  = top + 'px';
+  });
+  document.addEventListener('click', hide);   // 撳其他地方收起
+  window.addEventListener('scroll', hide, true);
+})();
 
 // ── init ─────────────────────────────────────────────────────────────────────
 // 資料係 GitHub Pages 上嘅靜態 JSON，5 分鐘 poll 一次好平；市場報價 5 分鐘一次

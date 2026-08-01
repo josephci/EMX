@@ -80,8 +80,10 @@ function mergeAndSave(existing, posts) {
 
 // ── 上/下機：xtracker 冇公開 flights endpoint，改用 ADS-B 社群源 ────────────
 // 每次 run 查詢飛機當前狀態，同上次狀態比較：地面→空中 = 起飛，空中→地面/消失 = 降落
+// Elon 現役機隊（Falcon Landing LLC）——已對照公開航班資料庫核實
 const JETS = [
   { reg: 'N628TS', label: 'G650ER（主力）' },
+  { reg: 'N8628',  label: 'G800（新旗艦 2025）' },
   { reg: 'N272BG', label: 'G550' },
   { reg: 'N502SX', label: 'G550' },
 ];
