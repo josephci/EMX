@@ -98,7 +98,14 @@ async function fetchJetEvents() {
   try { state  = JSON.parse(fs.readFileSync(STATE_FILE, 'utf8')); } catch {}
   try { events = JSON.parse(fs.readFileSync(FLIGHTS_FILE, 'utf8')); if (!Array.isArray(events)) events = []; } catch {}
 
-  const now = new Date().toISOString();
+  const nowMs  = Date.now();
+  const nowIso = new Date(nowMs).toISOString();
+  // 真實起降喺「上次 check → 今次 check」之間，取中點做估計，並記低 ±不確定範圍（分鐘）
+  function eventTime(prevAt) {
+    const p = prevAt ? new Date(prevAt).getTime() : nowMs;
+    const mid = (p + nowMs) / 2;
+    return { time: new Date(mid).toISOString(), w: Math.round((nowMs - p) / 2 / 60000) };
+  }
   for (const jet of JETS) {
     // 兩個源逐個試，攞到就停
     let seen = null; // null = 兩個源都失敗（唔好郁 state）；否則 { flying: bool }
@@ -127,9 +134,9 @@ async function fetchJetEvents() {
       misses = (prev.misses || 0) + 1;
       if (misses < 2) flying = true;
     }
-    if (!prev.flying && flying)  { events.push({ time: now, type: 'takeoff', reg: jet.reg }); console.log(`🛫 ${jet.reg} 起飛`); }
-    if (prev.flying && !flying)  { events.push({ time: now, type: 'landing', reg: jet.reg }); console.log(`🛬 ${jet.reg} 降落`); }
-    state[jet.reg] = { flying, misses, at: now };
+    if (!prev.flying && flying)  { const t = eventTime(prev.at); events.push({ time: t.time, type: 'takeoff', reg: jet.reg, w: t.w }); console.log(`🛫 ${jet.reg} 起飛 ~${t.time}（±${t.w}分）`); }
+    if (prev.flying && !flying)  { const t = eventTime(prev.at); events.push({ time: t.time, type: 'landing', reg: jet.reg, w: t.w }); console.log(`🛬 ${jet.reg} 降落 ~${t.time}（±${t.w}分）`); }
+    state[jet.reg] = { flying, misses, at: nowIso };
   }
 
   // 只保留 35 日內事件
