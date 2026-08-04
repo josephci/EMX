@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-04T18:59:43.139Z",
-  "total": 2742,
+  "last_updated": "2026-08-04T20:38:39.794Z",
+  "total": 2749,
   "by_date": {
     "2026-05-27": [
       {
@@ -18908,6 +18908,48 @@
       }
     ],
     "2026-08-04": [
+      {
+        "id": "cmsf45jtk000ajp04b897jlbq",
+        "text": "RT @SpaceX: Tune into SpaceX’s first earnings audio-only webcast since going public\nhttps://t.co/0PSOpIvMkM",
+        "created_at": "2026-08-04T20:30:55.000Z",
+        "imported_at": "2026-08-04T20:31:25.580Z"
+      },
+      {
+        "id": "cmsf3reou0009jp040zp9e928",
+        "text": "RT @imagine: Learn how to use References on Grok Imagine: characters, locations and props.",
+        "created_at": "2026-08-04T20:20:13.000Z",
+        "imported_at": "2026-08-04T20:20:25.759Z"
+      },
+      {
+        "id": "cmsf3pfmv0008jp04dulux1um",
+        "text": "RT @SpaceX: We posted our second quarter 2026 financial and operational results → https://t.co/DOfDhFnAZ5\n\nQ2 highlights:\n· Demonstrated th…",
+        "created_at": "2026-08-04T20:18:26.000Z",
+        "imported_at": "2026-08-04T20:18:53.671Z"
+      },
+      {
+        "id": "cmsf3kzib0007jp04g38uwylt",
+        "text": "RT @SpaceX: Falcon 9 launches 24 @Starlink satellites from California https://t.co/VxaSakL8u4",
+        "created_at": "2026-08-04T20:13:32.000Z",
+        "imported_at": "2026-08-04T20:15:26.148Z"
+      },
+      {
+        "id": "cmsf3ipeq0006jp04y7tdc0vj",
+        "text": "RT @SpaceX: Crew-13 completed training in California this past week. Falcon 9 is targeted to launch Dragon and the crew to the @Space_Stati…",
+        "created_at": "2026-08-04T20:13:27.000Z",
+        "imported_at": "2026-08-04T20:13:39.747Z"
+      },
+      {
+        "id": "cmsf3ejsd0004jp044vmgzo8e",
+        "text": "The same Starmind V1 satellite design (minus solar &amp; radiator) will be deployed on the ground in our data centers. It’s a major improvement in data center efficiency. https://t.co/0D0ZQUqS4M",
+        "created_at": "2026-08-04T20:09:42.000Z",
+        "imported_at": "2026-08-04T20:10:25.837Z"
+      },
+      {
+        "id": "cmsf384h00003jp041hnoh7h9",
+        "text": "RT @MrGoldBro: The scale of what Elon is building in Bastrop is not well understood. https://t.co/MLHiIc0kXq",
+        "created_at": "2026-08-04T20:03:59.000Z",
+        "imported_at": "2026-08-04T20:05:26.053Z"
+      },
       {
         "id": "cmsexosjj0000k104s7bqdf7p",
         "text": "RT @GadSaad: A very small percentage of my academic colleagues have ever openly supported my efforts to fight against the parasitic rot in…",
