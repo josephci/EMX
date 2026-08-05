@@ -15,7 +15,7 @@ function readJSON(name) {
   try { return JSON.parse(fs.readFileSync(path.join(DATA_DIR, name), 'utf8')); } catch { return null; }
 }
 
-// 1) tweets.json：20 分鐘 cron，超過 90 分鐘未更新 = fetch/commit 鏈有事
+// 1) tweets.json：cron 每 20 分鐘（GitHub 實際 ~1-2h 先 fire），超過 4 小時未更新 = fetch/commit 鏈有事
 const tweets = readJSON('tweets.json');
 if (!tweets || !tweets.last_updated) {
   problems.push('tweets.json 讀唔到或者冇 last_updated');
