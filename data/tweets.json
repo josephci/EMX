@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-04T23:11:22.235Z",
-  "total": 2753,
+  "last_updated": "2026-08-05T00:51:11.297Z",
+  "total": 2755,
   "by_date": {
     "2026-05-27": [
       {
@@ -18908,6 +18908,18 @@
       }
     ],
     "2026-08-04": [
+      {
+        "id": "cmsfajqx4000el104fc5d4iyb",
+        "text": "RT @nvidia: AI compute is going to orbit. 🚀\n\n@SpaceX’s Starmind AI1 satellite compute payload is powered by NVIDIA Vera Rubin NVL72, bringi…",
+        "created_at": "2026-08-04T23:29:49.000Z",
+        "imported_at": "2026-08-04T23:30:25.673Z"
+      },
+      {
+        "id": "cmsfadbiz000dl104qh7d8ulp",
+        "text": "RT @Kristennetten: @elonmusk Elon &amp; Jensen with NVIDIA GPUs\n\nAugust 2016 https://t.co/6BfVmwOIwd",
+        "created_at": "2026-08-04T23:24:35.000Z",
+        "imported_at": "2026-08-04T23:25:25.787Z"
+      },
       {
         "id": "cmsf75l7g0000l1042v4hpcf3",
         "text": "RT @JensenHuang: Today, we’re launching Alpamayo 2 Super, our frontier open reasoning model for autonomous vehicles.\n\nBeyond seeing, Alpama…",
