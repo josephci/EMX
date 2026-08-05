@@ -852,7 +852,7 @@ async function fetchSignal() {
       } catch {}
     });
 
-    // 本期計數：窗口開始 = 標題日期 12:00（UTC-5）= 17:00 UTC
+    // 本期計數：窗口開始 = 標題日期 12:00 美東 ET（自動夏令）
     const periodCount = (db && db.by_date) ? countBetween(windowStartOf(ev), now) : null;
     let boundaryMsg = '';
     if (leader && periodCount !== null) {
