@@ -1,13 +1,6 @@
 {
-  "last_updated": "2026-08-06T06:16:27.044Z",
+  "last_updated": "2026-08-06T09:16:13.875Z",
   "launches": [
-    {
-      "name": "Falcon 9 Block 5 | BlueBird 11-13 (Block 2 #6-8)",
-      "net": "2026-08-05T07:49:00Z",
-      "status": "Success",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA"
-    },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 17-38",
       "net": "2026-08-08T14:00:00Z",
@@ -80,6 +73,13 @@
     },
     {
       "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+      "net": "2026-09-30T00:00:00Z",
+      "status": "TBD",
+      "pad": "Space Launch Complex 4E",
+      "location": "Vandenberg SFB, CA, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer D",
       "net": "2026-09-30T00:00:00Z",
       "status": "TBD",
       "pad": "Space Launch Complex 4E",
