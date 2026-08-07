@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06T13:18:48.925Z",
+  "last_updated": "2026-08-07T00:31:27.519Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | Starlink Group 17-38",
@@ -23,6 +23,13 @@
       "location": "Vandenberg SFB, CA, USA"
     },
     {
+      "name": "Falcon 9 Block 5 | R-1",
+      "net": "2026-08-15T21:52:00Z",
+      "status": "TBC",
+      "pad": "Space Launch Complex 4E",
+      "location": "Vandenberg SFB, CA, USA"
+    },
+    {
       "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
       "net": "2026-08-16T01:12:00Z",
       "status": "TBC",
@@ -30,8 +37,15 @@
       "location": "Cape Canaveral SFS, FL, USA"
     },
     {
+      "name": "Falcon 9 Block 5 | Starlink Group 17-50",
+      "net": "2026-08-19T02:00:00Z",
+      "status": "Go",
+      "pad": "Space Launch Complex 4E",
+      "location": "Vandenberg SFB, CA, USA"
+    },
+    {
       "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
-      "net": "2026-08-30T11:26:00Z",
+      "net": "2026-08-30T11:25:00Z",
       "status": "Go",
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA"
@@ -47,7 +61,7 @@
       "name": "Falcon 9 Block 5 | O3b mPower 11-13",
       "net": "2026-09-30T00:00:00Z",
       "status": "TBD",
-      "pad": "Unknown Pad",
+      "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA"
     },
     {
@@ -66,20 +80,6 @@
     },
     {
       "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer E",
-      "net": "2026-09-30T00:00:00Z",
-      "status": "TBD",
-      "pad": "Space Launch Complex 4E",
-      "location": "Vandenberg SFB, CA, USA"
-    },
-    {
-      "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-      "net": "2026-09-30T00:00:00Z",
-      "status": "TBD",
-      "pad": "Space Launch Complex 4E",
-      "location": "Vandenberg SFB, CA, USA"
-    },
-    {
-      "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer D",
       "net": "2026-09-30T00:00:00Z",
       "status": "TBD",
       "pad": "Space Launch Complex 4E",
