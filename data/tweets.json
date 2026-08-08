@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-08T03:48:05.170Z",
-  "total": 2839,
+  "last_updated": "2026-08-08T05:05:48.145Z",
+  "total": 2841,
   "by_date": {
     "2026-05-27": [
       {
@@ -19534,6 +19534,18 @@
       }
     ],
     "2026-08-08": [
+      {
+        "id": "cmsjuozgv0000l104pihh1adx",
+        "text": "https://t.co/ue7NOSuFt4",
+        "created_at": "2026-08-08T04:04:25.000Z",
+        "imported_at": "2026-08-08T04:05:27.055Z"
+      },
+      {
+        "id": "cmsjuc4s3000cie04zh8ec08i",
+        "text": "https://t.co/Atfa3oFHdr",
+        "created_at": "2026-08-08T03:54:50.000Z",
+        "imported_at": "2026-08-08T03:55:27.411Z"
+      },
       {
         "id": "cmsjss924000bie04vmv37dg0",
         "text": "https://t.co/fosLc0KtcA",
