@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-08T16:02:15.137Z",
-  "total": 2855,
+  "last_updated": "2026-08-08T16:43:52.228Z",
+  "total": 2860,
   "by_date": {
     "2026-05-27": [
       {
@@ -19534,6 +19534,36 @@
       }
     ],
     "2026-08-08": [
+      {
+        "id": "cmsklhhre000ji904mkcdlvmq",
+        "text": "RT @DimaZeniuk: ELON MUSK: “In order to ascend the Kardashev scale, in order to get to any meaningful percentage of the sun's energy harnes…",
+        "created_at": "2026-08-08T16:32:28.000Z",
+        "imported_at": "2026-08-08T16:35:27.146Z"
+      },
+      {
+        "id": "cmsklb29s000ii904insjwvzm",
+        "text": "Major upgrade to Grok Imagine image editing https://t.co/pQVprlvbtJ",
+        "created_at": "2026-08-08T16:27:48.000Z",
+        "imported_at": "2026-08-08T16:30:27.136Z"
+      },
+      {
+        "id": "cmskl5w5n000hi904rue1yi6y",
+        "text": "Try it out! https://t.co/koJUvCv9xx",
+        "created_at": "2026-08-08T16:25:33.000Z",
+        "imported_at": "2026-08-08T16:26:25.919Z"
+      },
+      {
+        "id": "cmskl4mvc000gi904qou1ynyz",
+        "text": "RT @ClementDelangue: In the spirit of transparency, here’s what I asked @OpenAI:\n\n• Radical transparency: let’s release the traces from the…",
+        "created_at": "2026-08-08T16:24:08.000Z",
+        "imported_at": "2026-08-08T16:25:27.240Z"
+      },
+      {
+        "id": "cmskkznv5000fi904s9qiia41",
+        "text": "Yes https://t.co/rZfKNIXdvc",
+        "created_at": "2026-08-08T16:21:00.000Z",
+        "imported_at": "2026-08-08T16:21:35.249Z"
+      },
       {
         "id": "cmskk227q000ci904qfm98em4",
         "text": "RT @grok: Announcing Imagine Image 2.0, our next generation image model with precision editing, crisp text rendering, improved factuality,…",
