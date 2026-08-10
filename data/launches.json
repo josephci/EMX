@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10T20:56:37.429Z",
+  "last_updated": "2026-08-10T21:51:21.124Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | Starlink Group 10-19",
@@ -45,7 +45,7 @@
     },
     {
       "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
-      "net": "2026-08-30T11:25:00Z",
+      "net": "2026-08-30T11:26:00Z",
       "status": "Go",
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA"
