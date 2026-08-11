@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-11T17:23:13.822Z",
-  "total": 2911,
+  "last_updated": "2026-08-11T18:11:43.595Z",
+  "total": 2915,
   "by_date": {
     "2026-05-27": [
       {
@@ -19960,6 +19960,30 @@
       }
     ],
     "2026-08-11": [
+      {
+        "id": "cmsoynyff000cjh041tx8sqkq",
+        "text": "They can’t handle the truth is the real issue here https://t.co/s2PizCXF4k",
+        "created_at": "2026-08-11T17:53:21.000Z",
+        "imported_at": "2026-08-11T17:55:28.395Z"
+      },
+      {
+        "id": "cmsoyb3hj000ajh04b1ifzmet",
+        "text": "We will widen the Grok Bot beta after we fix basic issues with the early beta and release Grok 4.6 later this week https://t.co/ijB3qTlPmr",
+        "created_at": "2026-08-11T17:43:41.000Z",
+        "imported_at": "2026-08-11T17:45:28.423Z"
+      },
+      {
+        "id": "cmsoy6v670009jh0483f2ufis",
+        "text": "What would you most like us to add to or fix about Grok Build? https://t.co/MdoNVabUHC",
+        "created_at": "2026-08-11T17:41:15.000Z",
+        "imported_at": "2026-08-11T17:42:11.023Z"
+      },
+      {
+        "id": "cmsoxldoa0008jh04c2mcoe5w",
+        "text": "lmao https://t.co/gSvrVJrSWR",
+        "created_at": "2026-08-11T17:23:41.000Z",
+        "imported_at": "2026-08-11T17:25:28.571Z"
+      },
       {
         "id": "cmsoxflea0007jh0496gun1ca",
         "text": "RT @bot: Introducing Grok Bot, now in early beta.\n\nBots are AI teammates that do real work for you. They sign in to your tools, use them ju…",
