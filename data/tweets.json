@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-11T05:16:08.123Z",
-  "total": 2904,
+  "last_updated": "2026-08-11T06:10:18.451Z",
+  "total": 2907,
   "by_date": {
     "2026-05-27": [
       {
@@ -19960,6 +19960,24 @@
       }
     ],
     "2026-08-11": [
+      {
+        "id": "cmso7vgmu0002l204lk7ehhld",
+        "text": "RT @nicksortor: 🚨 JUST NOW: Anthony Fauci's successor, NIH Director Jay Bhattacharya, BLASTS Fauci for COVERING UP the alleged 82% MISCARRI…",
+        "created_at": "2026-08-11T05:23:01.000Z",
+        "imported_at": "2026-08-11T05:25:28.951Z"
+      },
+      {
+        "id": "cmso7p0sz0000l2045wv1ylpv",
+        "text": "Tesla https://t.co/gkMXpTU4MG",
+        "created_at": "2026-08-11T05:20:07.000Z",
+        "imported_at": "2026-08-11T05:20:28.500Z"
+      },
+      {
+        "id": "cmso7p0sz0001l204n56rl2gp",
+        "text": "Grok Imagine https://t.co/jDaOR8IarF",
+        "created_at": "2026-08-11T05:19:33.000Z",
+        "imported_at": "2026-08-11T05:20:28.500Z"
+      },
       {
         "id": "cmso69lbc0000kw04gv7jfehu",
         "text": "RT @grok: Try Grok 4.5 for free, an all new Opus-class model that is fast and low cost. Great for real-world coding and engineering tasks.",
