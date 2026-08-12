@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-12T18:35:32.893Z",
-  "total": 2948,
+  "last_updated": "2026-08-12T19:46:56.107Z",
+  "total": 2950,
   "by_date": {
     "2026-05-27": [
       {
@@ -20064,6 +20064,18 @@
       }
     ],
     "2026-08-12": [
+      {
+        "id": "cmsqgyp290000jw04j048sdhg",
+        "text": "RT @billlee: one step closer to moon cannon and party. https://t.co/VFG3MNNb3D",
+        "created_at": "2026-08-12T19:12:59.000Z",
+        "imported_at": "2026-08-12T19:15:28.737Z"
+      },
+      {
+        "id": "cmsqgyp290001jw04hannetl3",
+        "text": "RT @JasonBud: give 4.6 a try and let us know how it goes. your feedback is a big part of why the model gets better with each iteration.",
+        "created_at": "2026-08-12T19:12:25.000Z",
+        "imported_at": "2026-08-12T19:15:28.737Z"
+      },
       {
         "id": "cmsqep1qu000mjl04ntp124m8",
         "text": "RT @paranoidream: In case you missed it yesterday, here is the full video of Elon Musk giving a company update on the future of SpaceX: htt…",
