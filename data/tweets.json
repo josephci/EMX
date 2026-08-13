@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-13T22:07:03.464Z",
-  "total": 2982,
+  "last_updated": "2026-08-13T22:57:04.966Z",
+  "total": 2989,
   "by_date": {
     "2026-05-27": [
       {
@@ -20258,6 +20258,48 @@
       }
     ],
     "2026-08-13": [
+      {
+        "id": "cmss432dy0007jl04v555c7v6",
+        "text": "RT @gailalfaratx: Just took a Tesla Robotaxi ride in an area of Austin where the normal wait in the past was up to 20 minutes and my wait w…",
+        "created_at": "2026-08-13T22:46:54.000Z",
+        "imported_at": "2026-08-13T22:50:29.974Z"
+      },
+      {
+        "id": "cmss3wmsa0003jl04m5pnztuq",
+        "text": "RT @SpaceXAIMemphis: We don’t just build in Memphis – we live, work, and invest here. We are committed to being good neighbors and responsi…",
+        "created_at": "2026-08-13T22:45:09.000Z",
+        "imported_at": "2026-08-13T22:45:29.818Z"
+      },
+      {
+        "id": "cmss3wmsa0004jl04hzz0h6c4",
+        "text": "RT @warpdotdev: Grok 4.6 is now available in Warp and the Warp Agent CLI. \n\nRun /connect-grok in Warp to sign in with your X Premium or Sup…",
+        "created_at": "2026-08-13T22:44:57.000Z",
+        "imported_at": "2026-08-13T22:45:29.818Z"
+      },
+      {
+        "id": "cmss3wmsa0005jl04cfklyyyb",
+        "text": "RT @ericzakariasson: grok 4.6 is live! a write up on my learnings, findings and tips to using the model! https://t.co/1D3yeieZDT",
+        "created_at": "2026-08-13T22:43:54.000Z",
+        "imported_at": "2026-08-13T22:45:29.818Z"
+      },
+      {
+        "id": "cmss3wmsa0006jl040rtbo28l",
+        "text": "Grok 4.6 https://t.co/gkLbWIPEEb",
+        "created_at": "2026-08-13T22:42:58.000Z",
+        "imported_at": "2026-08-13T22:45:29.818Z"
+      },
+      {
+        "id": "cmss3js1k0000jl0470ithqhw",
+        "text": "RT @Daniel_Farinax: Grok 4.6 built this 🤯\n\nAn exploded jet engine.\nHigh-bypass turbofan, then ignited. Fire, heat, N1/N2 spool, engine roar…",
+        "created_at": "2026-08-13T22:34:56.000Z",
+        "imported_at": "2026-08-13T22:35:30.104Z"
+      },
+      {
+        "id": "cmss3et950001l204kcg5b4rw",
+        "text": "RT @SpaceXAI: 1st Place: Nova taught Grok to reverse-engineer binaries into clean C. Started with 262KB GameBoy ROMs, ended up rebuilding a…",
+        "created_at": "2026-08-13T22:30:53.000Z",
+        "imported_at": "2026-08-13T22:31:38.394Z"
+      },
       {
         "id": "cmss2dgqh000ml10466qm4x6p",
         "text": "Prosecute/Fauci https://t.co/GhsDr8kxDO",
