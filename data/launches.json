@@ -1,13 +1,6 @@
 {
-  "last_updated": "2026-08-13T04:29:18.954Z",
+  "last_updated": "2026-08-13T06:05:37.581Z",
   "launches": [
-    {
-      "name": "Falcon 9 Block 5 | Starlink Group 17-49",
-      "net": "2026-08-12T04:46:47Z",
-      "status": "Success",
-      "pad": "Space Launch Complex 4E",
-      "location": "Vandenberg SFB, CA, USA"
-    },
     {
       "name": "Falcon 9 Block 5 | USSF-366",
       "net": "2026-08-15T21:52:00Z",
@@ -80,6 +73,13 @@
     },
     {
       "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer E",
+      "net": "2026-09-30T00:00:00Z",
+      "status": "TBD",
+      "pad": "Space Launch Complex 4E",
+      "location": "Vandenberg SFB, CA, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
       "net": "2026-09-30T00:00:00Z",
       "status": "TBD",
       "pad": "Space Launch Complex 4E",
