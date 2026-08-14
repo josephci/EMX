@@ -79,6 +79,49 @@ function marketWindowStart(ev) {
   return new Date(ev.startDate);
 }
 
+// ── 市場日 helper（同 index.html 一致，ET + 自動夏令） ──────────────────────
+function toET(iso) {
+  const p = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', hourCycle: 'h23',
+    year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' })
+    .formatToParts(new Date(iso)).reduce((a, x) => (a[x.type] = x.value, a), {});
+  return new Date(Date.UTC(+p.year, +p.month - 1, +p.day, +p.hour, +p.minute, +p.second));
+}
+const mdKey = (iso) => new Date(toET(iso).getTime() - 12 * 3600000).toISOString().slice(0, 10);
+const mCol  = (iso) => (toET(iso).getUTCHours() - 12 + 24) % 24;
+const wdOfKey = (k) => new Date(k + 'T00:00:00Z').getUTCDay();
+
+function parseBucketRange(s) {
+  let m;
+  if ((m = s.match(/less\s+than\s+(\d+)/i)) || (m = s.match(/^<\s*(\d+)/))) return [0, parseInt(m[1]) - 1];
+  if ((m = s.match(/(\d+)\s*[-–—]\s*(\d+)/))) return [parseInt(m[1]), parseInt(m[2])];
+  if ((m = s.match(/(\d+)\s*\+/)) || (m = s.match(/(\d+)\s+or\s+more/i))) return [parseInt(m[1]), Infinity];
+  return null;
+}
+
+// 同星期幾同時段 pace（近 35 完整市場日），由 from 積分到 end 嘅預期則數
+function paceExpected(db, from, end) {
+  const todayKey = mdKey(new Date().toISOString());
+  const byDay = {};
+  Object.values(db.by_date || {}).flat().forEach(p => { const k = mdKey(p.created_at); (byDay[k] = byDay[k] || []).push(p); });
+  const keys = Object.keys(byDay).filter(k => k < todayKey).sort().slice(-35);
+  if (keys.length < 4) return null;
+  const wdSum = {}, wdCnt = {}, colSum = Array(24).fill(0); let dayCnt = 0;
+  keys.forEach(k => {
+    const wd = wdOfKey(k), hrs = Array(24).fill(0);
+    byDay[k].forEach(p => hrs[mCol(p.created_at)]++);
+    if (!wdSum[wd]) { wdSum[wd] = Array(24).fill(0); wdCnt[wd] = 0; }
+    for (let c = 0; c < 24; c++) { wdSum[wd][c] += hrs[c]; colSum[c] += hrs[c]; }
+    wdCnt[wd]++; dayCnt++;
+  });
+  const rate = (wd, c) => wdCnt[wd] >= 2 ? wdSum[wd][c] / wdCnt[wd] : colSum[c] / dayCnt;
+  let sum = 0; const hrs = (end - from) / 3600000;
+  for (let h = 0; h < hrs; h += 0.5) {
+    const t = new Date(from.getTime() + h * 3600000).toISOString();
+    sum += rate(wdOfKey(mdKey(t)), mCol(t)) * Math.min(0.5, hrs - h);
+  }
+  return sum;
+}
+
 function periodCount(ev) {
   try {
     const db = JSON.parse(fs.readFileSync(TWEETS, 'utf8'));
@@ -235,13 +278,61 @@ async function launchAlerts(state, now) {
   state._launch_notified = notified;
 }
 
+// ── ⑤ 建議 B：預測 vs 實際命中率追蹤 ────────────────────────────────────────
+const PRED_FILE    = path.join(DATA_DIR, 'predictions.json');        // 待結算預測（keyed by title，keep latest）
+const RESULTS_FILE = path.join(DATA_DIR, 'prediction_results.json'); // 已結算：預測 vs 實際
+
+function countIn(db, start, end) {
+  return Object.values(db.by_date || {}).flat().filter(x => { const d = new Date(x.created_at); return d >= start && d <= end; }).length;
+}
+
+async function trackPredictions(now) {
+  const db = JSON.parse(fs.readFileSync(TWEETS, 'utf8'));
+  let preds = {};   try { preds = JSON.parse(fs.readFileSync(PRED_FILE, 'utf8')) || {}; } catch {}
+  let results = []; try { results = JSON.parse(fs.readFileSync(RESULTS_FILE, 'utf8')); if (!Array.isArray(results)) results = []; } catch {}
+
+  // 1) 已結算嘅預測 → 對比實際最終計數，記命中/落空
+  for (const [title, p] of Object.entries(preds)) {
+    if (new Date(p.settle) > now) continue;
+    const actual = countIn(db, new Date(p.windowStart), new Date(p.settle));
+    const hit = actual >= p.lo && actual <= p.hi ? 1 : 0;
+    results.push({ title, settle: p.settle, predBucket: p.bucket, lo: p.lo, hi: p.hi, predMid: p.mid, actual, hit, leadH: p.leadH, scored: now.toISOString() });
+    delete preds[title];
+    console.log(`🎯 結算校對：${title} 預測 ${p.bucket} vs 實際 ${actual} → ${hit ? '命中✅' : '落空❌'}`);
+  }
+  if (results.length > 80) results = results.slice(-80);
+
+  // 2) 為 soonest 進行中市場記低最新預測（每次覆蓋，最終保留結算前最後一次）
+  const ev = await gammaSearch();
+  if (ev) {
+    const exp = paceExpected(db, now, new Date(ev.endDate));
+    if (exp !== null) {
+      const start = marketWindowStart(ev);
+      const proj  = Math.round(countIn(db, start, now) + exp);
+      const bs = (ev.markets || []).map(m => {
+        let price = null; try { price = parseFloat(JSON.parse(m.outcomePrices || '[]')[0]); } catch {}
+        return { name: m.groupItemTitle || m.question || '', range: parseBucketRange(m.groupItemTitle || m.question || ''), price };
+      }).filter(b => b.range);
+      const hit = bs.find(b => proj >= b.range[0] && proj <= b.range[1]);
+      if (hit) preds[ev.title] = {
+        settle: ev.endDate, windowStart: start.toISOString(), bucket: hit.name,
+        lo: hit.range[0], hi: hit.range[1] === Infinity ? 999999 : hit.range[1],
+        mid: proj, leadH: +((new Date(ev.endDate) - now) / 3600000).toFixed(1), logged: now.toISOString(),
+      };
+    }
+  }
+  fs.writeFileSync(PRED_FILE,    JSON.stringify(preds, null, 2));
+  fs.writeFileSync(RESULTS_FILE, JSON.stringify(results, null, 2));
+}
+
 (async () => {
   const now = new Date();
   const state = loadState();
   // 每項獨立 try/catch：一項失敗唔影響其他，都唔會令 workflow 失敗
-  try { await marketSignal(state, now); } catch (e) { console.error('❌ 主訊號：', e.message); }
-  try { await burstAlert(state, now); }   catch (e) { console.error('❌ 爆推警報：', e.message); }
-  try { await flightAlerts(state, now); } catch (e) { console.error('❌ 上下機通知：', e.message); }
-  try { await launchAlerts(state, now); } catch (e) { console.error('❌ 發射提醒：', e.message); }
+  try { await marketSignal(state, now); }     catch (e) { console.error('❌ 主訊號：', e.message); }
+  try { await burstAlert(state, now); }       catch (e) { console.error('❌ 爆推警報：', e.message); }
+  try { await flightAlerts(state, now); }     catch (e) { console.error('❌ 上下機通知：', e.message); }
+  try { await launchAlerts(state, now); }     catch (e) { console.error('❌ 發射提醒：', e.message); }
+  try { await trackPredictions(now); }        catch (e) { console.error('❌ 預測追蹤：', e.message); }
   saveState(state);
 })();

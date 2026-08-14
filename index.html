@@ -241,8 +241,9 @@ const DATA_URL     = './data/tweets.json';
 const FLIGHTS_URL  = './data/flights.json';
 const LAUNCHES_URL = './data/launches.json';
 const PRICELOG_URL = './data/price_log.csv';
+const RESULTS_URL  = './data/prediction_results.json';
 const XT_LIVE_API  = 'https://xtracker.polymarket.com/api/users/elonmusk/posts';
-let db = null, flights = null, launches = null, priceLog = null;
+let db = null, flights = null, launches = null, priceLog = null, predResults = null;
 let liveOk = false, liveAt = 0;
 let liveJets = null;   // 客戶端直查 ADS-B 得到嘅即時航班狀態（CORS 唔通就 null）
 let chartPrice = null;
@@ -303,14 +304,16 @@ function heatColor(v, max) {
 
 // ── 上/下機事件（如 flights.json 存在） ──────────────────────────────────────
 function flightMarks() {
-  // 回傳 { 'YYYY-MM-DD|col': '🛫' / '🛬' }
-  const marks = {};
-  if (!Array.isArray(flights)) return marks;
+  // 回傳 { 'YYYY-MM-DD|col': '🛫' / '🛬' / '🛫🛬' }；同格多個事件唔會互相覆蓋
+  const bucket = {};
+  if (!Array.isArray(flights)) return {};
   flights.forEach(f => {
     if (!f || !f.time || !f.type) return;
     const key = marketDayKey(f.time) + '|' + marketCol(f.time);
-    marks[key] = f.type === 'takeoff' ? '🛫' : '🛬';
+    (bucket[key] = bucket[key] || new Set()).add(f.type === 'takeoff' ? '🛫' : '🛬');
   });
+  const marks = {};
+  Object.keys(bucket).forEach(k => { marks[k] = [...bucket[k]].join(''); });
   return marks;
 }
 
@@ -336,9 +339,12 @@ async function loadData() {
       const pr = await fetch(PRICELOG_URL + '?t=' + Date.now());
       priceLog = pr.ok ? parsePriceLog(await pr.text()) : null;
     } catch { priceLog = null; }
-    // 繞過 GitHub Actions / Pages 延遲：直接問 xtracker 攞最近 3 日（CORS 唔通就靜靜地 fallback）
-    liveOk = await tryLiveXtracker();
-    liveJets = await tryLiveJets();   // 即時航班狀態（CORS 唔通就 null，靜靜地 fallback）
+    try {
+      const rr = await fetch(RESULTS_URL + '?t=' + Date.now());
+      predResults = rr.ok ? await rr.json() : null;
+    } catch { predResults = null; }
+    // 繞過 GitHub Actions / Pages 延遲：直接問 xtracker + ADS-B（並行，CORS 唔通就靜靜地 fallback）
+    [liveOk, liveJets] = await Promise.all([tryLiveXtracker(), tryLiveJets()]);
     render();
     document.getElementById('content').style.display = 'block';
     lastLoadAt = Date.now();
@@ -822,6 +828,52 @@ function bucketsForRange(ev, mid, lo, hi) {
   return { hit, span };
 }
 
+// ── 建議 A：edge 量化 + 建議注碼 ─────────────────────────────────────────────
+function normCdf(z) {   // 標準常態 CDF（Abramowitz-Stegun 近似）
+  const t = 1 / (1 + 0.2316419 * Math.abs(z));
+  const d = 0.3989423 * Math.exp(-z * z / 2);
+  const p = d * t * (0.3193815 + t * (-0.3565638 + t * (1.781478 + t * (-1.821256 + t * 1.330274))));
+  return z > 0 ? 1 - p : p;
+}
+function bucketProb(range, proj, std) {   // 預測落某 bucket 嘅機率（總數 ~ Normal(proj,std)）
+  if (!(std > 0)) return (proj >= range[0] && proj <= range[1]) ? 1 : 0;
+  const Phi = z => z === Infinity ? 1 : (z === -Infinity ? 0 : normCdf(z));
+  const zHi = range[1] === Infinity ? Infinity : (range[1] + 0.5 - proj) / std;
+  const zLo = (range[0] - 0.5 - proj) / std;
+  return Math.max(0, Phi(zHi) - Phi(zLo));
+}
+// 揀 edge 最大嘅 bucket：edge = 模型機率 − 市價；kelly = 買 YES @ 市價嘅 Kelly 分數
+function bestEdge(ev, proj, std) {
+  let best = null;
+  bucketsOf(ev).forEach(b => {
+    if (b.price === null || isNaN(b.price) || b.price <= 0 || b.price >= 1) return;
+    const q = bucketProb(b.range, proj, std);
+    const edge = q - b.price;
+    const kelly = (q - b.price) / (1 - b.price);
+    if (!best || edge > best.edge) best = { name: b.name, price: b.price, q, edge, kelly };
+  });
+  return best;
+}
+// 建議注碼：¼ Kelly，上限 10% 本金（保守）
+function suggestStake(kelly) { return Math.max(0, Math.min(0.10, kelly * 0.25)); }
+
+// 建議 B：真實預測往績（命中率）
+function predAccuracy() {
+  if (!Array.isArray(predResults) || !predResults.length) return null;
+  const rows = predResults.slice(-30);
+  const hit = rows.reduce((a, r) => a + (r.hit ? 1 : 0), 0);
+  return { n: rows.length, hit, pct: Math.round(hit / rows.length * 100) };
+}
+function edgeHtml(ev, proj, std) {
+  const b = bestEdge(ev, proj, std);
+  if (!b || b.edge < 0.05) return '';   // edge <5% 唔值得推
+  const esc = s => (s || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const stake = suggestStake(b.kelly);
+  return `💡 最抵搏 <b>${esc(b.name)}</b>：模型 ${(b.q * 100).toFixed(0)}% vs 市價 ${(b.price * 100).toFixed(1)}¢ ` +
+         `→ <b style="color:#34d399">+${(b.edge * 100).toFixed(0)}% edge</b>` +
+         (stake > 0 ? `・建議注 ~${(stake * 100).toFixed(1)}% 本金（¼ Kelly）` : '');
+}
+
 async function fetchSignal() {
   const set = (id, v) => document.getElementById(id).textContent = v;
   const statusEl = document.getElementById('sig-status');
@@ -886,12 +938,16 @@ async function fetchSignal() {
         const spanTxt = span.length > 1
           ? `　<span style="color:#f59e0b">⚠️ 範圍橫跨 ${span.length} 個格：${span.map(b => esc(b.name)).join('／')}</span>`
           : '';
-        const maeTxt = pace.mae !== null
+        const acc = predAccuracy();
+        const maeTxt = (pace.mae !== null
           ? `・模型近期同時段誤差 ±${pace.mae.toFixed(0)} 則（${pace.samples}日校準）`
-          : '';
+          : '')
+          + (acc ? `・往績 命中 ${acc.hit}/${acc.n}（${acc.pct}%）` : '');
+        const edge = edgeHtml(ev, proj, std);
         fEl.innerHTML =
           `📈 預測結算 <b style="color:#a78bfa">${lo}–${hi}</b> 則（中位 ${proj}）→ 落 <b>${esc(hit.name)}</b>（現價 ${priceTxt}）` +
           (isValue ? '　<span style="color:#34d399;font-weight:700">💰 有 value</span>' : '') + spanTxt +
+          (edge ? `<br>${edge}` : '') +
           `<br><span style="color:#555">已計 ${periodCount} 則＋餘下 ${hrsToSettle.toFixed(1)}h 預期再出 ~${Math.round(expected)} 則（同星期幾 pace）${maeTxt}</span>`;
         fEl.style.display = 'block';
       }
@@ -965,10 +1021,15 @@ function renderMarkets(evs, now, pace) {
         const { hit, span } = bucketsForRange(ev, proj, lo, hi);
         const hitPriceTxt = hit && hit.price !== null && !isNaN(hit.price) ? (hit.price * 100).toFixed(1) + '¢' : '—';
         const isValue = hit && hit.price !== null && hit.price < 0.5;
+        const be = bestEdge(ev, proj, std);
+        const edgeTag = (be && be.edge >= 0.05)
+          ? `<br><span style="color:#34d399">💡 ${esc(be.name)} +${(be.edge * 100).toFixed(0)}% edge・注 ~${(suggestStake(be.kelly) * 100).toFixed(1)}%</span>`
+          : '';
         forecastHtml =
           `📈 預測 <b style="color:#a78bfa">${lo}–${hi}</b> 則 → ${hit ? `<b style="color:#e8e8e8">${esc(hit.name)}</b>（${hitPriceTxt}）` : '超出所有格範圍'}` +
           (isValue ? ' <span class="mkt-value">💰</span>' : '') +
-          (span.length > 1 ? ` <span style="color:#f59e0b">⚠️跨${span.length}格</span>` : '');
+          (span.length > 1 ? ` <span style="color:#f59e0b">⚠️跨${span.length}格</span>` : '') +
+          edgeTag;
       }
 
       return `<div class="mkt-card">
