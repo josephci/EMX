@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-14T18:31:35.576Z",
+  "last_updated": "2026-08-14T19:36:11.968Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-366",
@@ -72,14 +72,14 @@
       "location": "Cape Canaveral SFS, FL, USA"
     },
     {
-      "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer A",
+      "name": "Starship | Flight 14",
       "net": "2026-09-30T00:00:00Z",
       "status": "TBD",
-      "pad": "Space Launch Complex 4E",
-      "location": "Vandenberg SFB, CA, USA"
+      "pad": "Orbital Launch Pad 2",
+      "location": "SpaceX Starbase, TX, USA"
     },
     {
-      "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer C",
+      "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer A",
       "net": "2026-09-30T00:00:00Z",
       "status": "TBD",
       "pad": "Space Launch Complex 4E",
