@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-14T04:27:41.816Z",
-  "total": 2993,
+  "last_updated": "2026-08-14T06:04:25.225Z",
+  "total": 3004,
   "by_date": {
     "2026-05-27": [
       {
@@ -20500,6 +20500,72 @@
       }
     ],
     "2026-08-14": [
+      {
+        "id": "cmssjjk5j0005la04487j2tge",
+        "text": "RT @wholemars: Tesla Self-Driving 14.3.7 is quite a beautiful build. Like a world of art really. It cuts through dense LA traffic expertly",
+        "created_at": "2026-08-14T05:59:24.000Z",
+        "imported_at": "2026-08-14T06:03:13.736Z"
+      },
+      {
+        "id": "cmssiwrav0004la04zdarukcx",
+        "text": "RT @grok: Workflows are now in Grok Build.\n\nBuild plans the work, runs up to hundreds of agents in parallel, and comes back with one report.",
+        "created_at": "2026-08-14T05:42:28.000Z",
+        "imported_at": "2026-08-14T05:45:29.912Z"
+      },
+      {
+        "id": "cmssirqcg0003la04rlvith9q",
+        "text": "RT @hexiang: Thrilled to receive this feedback from Tesla — they tackle the world’s most critical multimodal challenges. \n\nExtremely proud…",
+        "created_at": "2026-08-14T05:41:16.000Z",
+        "imported_at": "2026-08-14T05:41:35.393Z"
+      },
+      {
+        "id": "cmssiqv6o0002la04yi3xybeu",
+        "text": "Grok 4.6 ranks #1 on CursorBench for real-world coding https://t.co/HBDSn3tqVs",
+        "created_at": "2026-08-14T05:40:35.000Z",
+        "imported_at": "2026-08-14T05:40:54.997Z"
+      },
+      {
+        "id": "cmssil33w0001la041ftreifd",
+        "text": "RT @arcprize: Grok 4.6 from @SpaceXAI on ARC-AGI (Verified):\n\n- ARC-AGI-1: 87.5%, $0.30/task\n- ARC-AGI-2: 67.1%, $0.76/task\n- ARC-AGI-3: 2.…",
+        "created_at": "2026-08-14T05:36:05.000Z",
+        "imported_at": "2026-08-14T05:36:25.329Z"
+      },
+      {
+        "id": "cmssijwdj0000la04s4mk98aq",
+        "text": "Grok Imagine https://t.co/c4MR8L1BcZ",
+        "created_at": "2026-08-14T05:35:06.000Z",
+        "imported_at": "2026-08-14T05:35:29.960Z"
+      },
+      {
+        "id": "cmssh5s920003l404nq6oj2ll",
+        "text": "RT @grok: Use Grok 4.6 for CAD",
+        "created_at": "2026-08-14T04:56:10.000Z",
+        "imported_at": "2026-08-14T04:56:31.802Z"
+      },
+      {
+        "id": "cmssh5s920004l404dxk21js8",
+        "text": "Try Grok 4.6 image &amp; video understanding, it’s a major upgrade! https://t.co/WrUKkhv0QG",
+        "created_at": "2026-08-14T04:55:56.000Z",
+        "imported_at": "2026-08-14T04:56:31.802Z"
+      },
+      {
+        "id": "cmssh4gf50002l404eqh585l3",
+        "text": "RT @SpaceXAI: Build a voice agent in under 2 minutes.",
+        "created_at": "2026-08-14T04:54:19.000Z",
+        "imported_at": "2026-08-14T04:55:29.825Z"
+      },
+      {
+        "id": "cmssgy0sg0001l404ejob9u3i",
+        "text": "RT @Scobleizer: He built the computer vision system in my oven. (True story). \n\nSo when he praises something I listen a little harder.",
+        "created_at": "2026-08-14T04:49:40.000Z",
+        "imported_at": "2026-08-14T04:50:29.632Z"
+      },
+      {
+        "id": "cmssgrla90000l40450clhmy8",
+        "text": "Kekius Maximus https://t.co/OD24y3viQv",
+        "created_at": "2026-08-14T04:44:29.000Z",
+        "imported_at": "2026-08-14T04:45:29.601Z"
+      },
       {
         "id": "cmssddfoq0001l1049jlulb3d",
         "text": "Grok 4.6 will work best with the Grok Build harness. The experience will be significantly worse without it, so best to evaluate using Build. \n\nhttps://t.co/RRE8XKbiRI https://t.co/ld2laz3fMR",
