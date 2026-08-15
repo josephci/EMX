@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "title": "Elon Musk # tweets August 13 - August 15, 2026?",
+    "settle": "2026-08-15T16:00:00Z",
+    "predBucket": "40-64",
+    "lo": 40,
+    "hi": 64,
+    "predMid": 57,
+    "actual": 57,
+    "hit": 1,
+    "leadH": 0.1,
+    "scored": "2026-08-15T16:33:30.020Z"
+  }
+]
