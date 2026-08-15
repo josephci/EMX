@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-08-15T18:39:47.209Z",
+  "last_updated": "2026-08-15T19:01:38.925Z",
   "launches": [
-    {
-      "name": "Falcon 9 Block 5 | USSF-366",
-      "net": "2026-08-15T23:47:12Z",
-      "status": "Go",
-      "pad": "Space Launch Complex 4E",
-      "location": "Vandenberg SFB, CA, USA"
-    },
     {
       "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
       "net": "2026-08-16T01:12:00Z",
       "status": "Go",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | USSF-366",
+      "net": "2026-08-16T01:50:45Z",
+      "status": "Go",
+      "pad": "Space Launch Complex 4E",
+      "location": "Vandenberg SFB, CA, USA"
     },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 17-50",
