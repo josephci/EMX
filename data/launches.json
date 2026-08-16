@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-08-16T01:51:15.611Z",
+  "last_updated": "2026-08-16T03:07:59.739Z",
   "launches": [
     {
-      "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
+      "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 8)",
       "net": "2026-08-16T01:12:14Z",
-      "status": "In Flight",
+      "status": "Success",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA"
     },
