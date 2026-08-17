@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-16T23:55:39.967Z",
-  "total": 3043,
+  "last_updated": "2026-08-17T01:48:24.046Z",
+  "total": 3049,
   "by_date": {
     "2026-05-27": [
       {
@@ -20815,6 +20815,44 @@
         "text": "RT @BurnhamDC: After @elonmusk bought Twitter, a bunch of advertisers engaged in an illegal group boycott of @X.  The advertisers coordinat…",
         "created_at": "2026-08-16T00:08:57.000Z",
         "imported_at": "2026-08-16T00:10:30.135Z"
+      }
+    ],
+    "2026-08-17": [
+      {
+        "id": "cmswj2zy10008kv04c17lfda4",
+        "text": "RT @Starlink: For those impacted by Hurricane Lala in Hawaii, Starlink is providing free service through September 17 to new and existing c…",
+        "created_at": "2026-08-17T00:56:32.000Z",
+        "imported_at": "2026-08-17T01:01:25.747Z"
+      },
+      {
+        "id": "cmswic2ww0006kv044jao93lo",
+        "text": "RT @yunta_tsai: https://t.co/gzSYQMPb5f",
+        "created_at": "2026-08-17T00:36:27.000Z",
+        "imported_at": "2026-08-17T00:40:29.889Z"
+      },
+      {
+        "id": "cmswic2ww0007kv04fitwuqyo",
+        "text": "RT @Starlink: For those impacted by the earthquake in Indonesia, Starlink is providing free service through September 16 to new and existin…",
+        "created_at": "2026-08-17T00:35:46.000Z",
+        "imported_at": "2026-08-17T00:40:29.889Z"
+      },
+      {
+        "id": "cmswi5nd50004kv04ff38xrwa",
+        "text": "Two major rocket launches almost simultaneously https://t.co/ttv9xWHJYm",
+        "created_at": "2026-08-17T00:33:54.000Z",
+        "imported_at": "2026-08-17T00:35:29.801Z"
+      },
+      {
+        "id": "cmswi5nd50005kv04cazioign",
+        "text": "Try Grok @Bot! https://t.co/uOA9aVWGXd",
+        "created_at": "2026-08-17T00:33:21.000Z",
+        "imported_at": "2026-08-17T00:35:29.801Z"
+      },
+      {
+        "id": "cmswi0a390003kv04n0rg6z1l",
+        "text": "RT @cb_doge: Tesla Model Y was China’s #1 best-selling midsize SUV last month. 🇨🇳\n\n• 25,158 retail sales\n• #3 best-selling vehicle overall…",
+        "created_at": "2026-08-17T00:27:21.000Z",
+        "imported_at": "2026-08-17T00:31:19.318Z"
       }
     ]
   },
