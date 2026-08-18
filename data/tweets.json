@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-18T13:48:36.271Z",
-  "total": 3066,
+  "last_updated": "2026-08-18T14:41:37.172Z",
+  "total": 3068,
   "by_date": {
     "2026-05-27": [
       {
@@ -20928,6 +20928,18 @@
       }
     ],
     "2026-08-18": [
+      {
+        "id": "cmsyr8x7h0003i504r3ukzv7u",
+        "text": "Grok https://t.co/MqnqbhWXQH",
+        "created_at": "2026-08-18T14:23:35.000Z",
+        "imported_at": "2026-08-18T14:25:31.421Z"
+      },
+      {
+        "id": "cmsyqw1fn0002i5048ri408wt",
+        "text": "Starship Flight 13 is being recovered from sea https://t.co/cfdIhk8BLN",
+        "created_at": "2026-08-18T14:12:33.000Z",
+        "imported_at": "2026-08-18T14:15:30.371Z"
+      },
       {
         "id": "cmsy97ge00000k004qcpiiajj",
         "text": "Grok 4.6 takes top spot on this benchmark https://t.co/ucAZCEkjIf",
