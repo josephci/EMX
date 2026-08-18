@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-18T14:41:37.172Z",
-  "total": 3068,
+  "last_updated": "2026-08-18T15:06:27.512Z",
+  "total": 3069,
   "by_date": {
     "2026-05-27": [
       {
@@ -20928,6 +20928,12 @@
       }
     ],
     "2026-08-18": [
+      {
+        "id": "cmsysbgtu0000l6045dhgbms9",
+        "text": "RT @cb_doge: BREAKING: Starlink has now partnered with 48 airlines worldwide, covering more than 7,000 aircraft that are already equipped,…",
+        "created_at": "2026-08-18T14:51:18.000Z",
+        "imported_at": "2026-08-18T14:55:29.778Z"
+      },
       {
         "id": "cmsyr8x7h0003i504r3ukzv7u",
         "text": "Grok https://t.co/MqnqbhWXQH",
