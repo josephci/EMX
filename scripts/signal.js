@@ -302,23 +302,31 @@ async function trackPredictions(now) {
   }
   if (results.length > 80) results = results.slice(-80);
 
-  // 2) 為 soonest 進行中市場記低最新預測（每次覆蓋，最終保留結算前最後一次）
+  // 2) 記低預測——鎖定「結算前約 10h」嗰次（策略真正落注窗口）。
+  //    唔可以每次覆蓋去到結算前一刻，否則答案已定、命中率虛高到冇意義。
+  const LOCK_LEAD_H = 10;
   const ev = await gammaSearch();
   if (ev) {
-    const exp = paceExpected(db, now, new Date(ev.endDate));
-    if (exp !== null) {
-      const start = marketWindowStart(ev);
-      const proj  = Math.round(countIn(db, start, now) + exp);
-      const bs = (ev.markets || []).map(m => {
-        let price = null; try { price = parseFloat(JSON.parse(m.outcomePrices || '[]')[0]); } catch {}
-        return { name: m.groupItemTitle || m.question || '', range: parseBucketRange(m.groupItemTitle || m.question || ''), price };
-      }).filter(b => b.range);
-      const hit = bs.find(b => proj >= b.range[0] && proj <= b.range[1]);
-      if (hit) preds[ev.title] = {
-        settle: ev.endDate, windowStart: start.toISOString(), bucket: hit.name,
-        lo: hit.range[0], hi: hit.range[1] === Infinity ? 999999 : hit.range[1],
-        mid: proj, leadH: +((new Date(ev.endDate) - now) / 3600000).toFixed(1), logged: now.toISOString(),
-      };
+    const existing = preds[ev.title];
+    if (!existing || !existing.locked) {   // 未鎖定先更新
+      const exp = paceExpected(db, now, new Date(ev.endDate));
+      if (exp !== null) {
+        const start = marketWindowStart(ev);
+        const proj  = Math.round(countIn(db, start, now) + exp);
+        const leadH = (new Date(ev.endDate) - now) / 3600000;
+        const bs = (ev.markets || []).map(m => {
+          let price = null; try { price = parseFloat(JSON.parse(m.outcomePrices || '[]')[0]); } catch {}
+          return { name: m.groupItemTitle || m.question || '', range: parseBucketRange(m.groupItemTitle || m.question || ''), price };
+        }).filter(b => b.range);
+        const hit = bs.find(b => proj >= b.range[0] && proj <= b.range[1]);
+        if (hit) preds[ev.title] = {
+          settle: ev.endDate, windowStart: start.toISOString(), bucket: hit.name,
+          lo: hit.range[0], hi: hit.range[1] === Infinity ? 999999 : hit.range[1],
+          mid: proj, leadH: +leadH.toFixed(1),
+          locked: leadH <= LOCK_LEAD_H,   // 一入結算前 10h 就鎖死，之後唔再更新
+          logged: now.toISOString(),
+        };
+      }
     }
   }
   fs.writeFileSync(PRED_FILE,    JSON.stringify(preds, null, 2));
