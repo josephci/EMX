@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-20T15:53:15.700Z",
-  "total": 3222,
+  "last_updated": "2026-08-20T16:43:49.847Z",
+  "total": 3226,
   "by_date": {
     "2026-05-27": [
       {
@@ -21598,6 +21598,30 @@
       }
     ],
     "2026-08-20": [
+      {
+        "id": "cmt1q245q000mjy043albbk2z",
+        "text": "Grok @Bot https://t.co/cwtfOsoy4p",
+        "created_at": "2026-08-20T16:13:05.000Z",
+        "imported_at": "2026-08-20T16:15:32.750Z"
+      },
+      {
+        "id": "cmt1q245q000njy04v2dnwylx",
+        "text": "Grok @Bot https://t.co/Fq0TDncvFA",
+        "created_at": "2026-08-20T16:12:12.000Z",
+        "imported_at": "2026-08-20T16:15:32.750Z"
+      },
+      {
+        "id": "cmt1pvopc000jjy04bx8w1nb2",
+        "text": "RT @XFreeze: Qatar Airways is rolling out Starlink at an incredible pace\n\nThe airline now has 150 widebody aircraft equipped with Starlink…",
+        "created_at": "2026-08-20T16:10:07.000Z",
+        "imported_at": "2026-08-20T16:10:32.785Z"
+      },
+      {
+        "id": "cmt1pvopc000kjy04ma755hj1",
+        "text": "RT @JasonBud: Our goal is to make Grok Build as easy to use as possible.\n\nWhat are tasks you find harder to do with Grok Build compared to…",
+        "created_at": "2026-08-20T16:08:14.000Z",
+        "imported_at": "2026-08-20T16:10:32.785Z"
+      },
       {
         "id": "cmt1gewdq0000jy04qw6w5q4u",
         "text": "😂 https://t.co/OP7UGdRUN4",
