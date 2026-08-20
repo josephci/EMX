@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-20T20:37:32.813Z",
-  "total": 3239,
+  "last_updated": "2026-08-20T21:03:10.348Z",
+  "total": 3241,
   "by_date": {
     "2026-05-27": [
       {
@@ -21598,6 +21598,18 @@
       }
     ],
     "2026-08-20": [
+      {
+        "id": "cmt1zpbtx0006l904cp7wwzip",
+        "text": "RT @milichab: Build apps with full auth, database, private sharing, custom domains, and SpaceXAI API use from any Grok app",
+        "created_at": "2026-08-20T20:42:59.000Z",
+        "imported_at": "2026-08-20T20:45:32.326Z"
+      },
+      {
+        "id": "cmt1zpbtx0007l904vrfk400r",
+        "text": "RT @Baconbrix: We've expanded Grok Build mode to all SuperGrok and X Premium users!\n\nCreate, remix, and prototype ideas from anywhere. No c…",
+        "created_at": "2026-08-20T20:42:43.000Z",
+        "imported_at": "2026-08-20T20:45:32.326Z"
+      },
       {
         "id": "cmt1tt55v000fl70406cfnruq",
         "text": "RT @joehansen: Grok Bot never sleeps!\n\nElon just highlighted the real difference with Grok Bot.\n\nIt runs on its own remote computer managed…",
