@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-20T17:05:59.157Z",
-  "total": 3229,
+  "last_updated": "2026-08-20T17:39:27.694Z",
+  "total": 3232,
   "by_date": {
     "2026-05-27": [
       {
@@ -21598,6 +21598,24 @@
       }
     ],
     "2026-08-20": [
+      {
+        "id": "cmt1swzr00009l704dlp1ky0s",
+        "text": "Grok @Bot can make videos explaining complex concepts https://t.co/Icp7ybx1wV",
+        "created_at": "2026-08-20T17:33:47.000Z",
+        "imported_at": "2026-08-20T17:35:32.604Z"
+      },
+      {
+        "id": "cmt1sk4o00007l704dfj5y4w4",
+        "text": "Interesting ways to use Grok @Bot https://t.co/oTPZoNza6U",
+        "created_at": "2026-08-20T17:23:49.000Z",
+        "imported_at": "2026-08-20T17:25:32.448Z"
+      },
+      {
+        "id": "cmt1sk4o00008l7047y8022dm",
+        "text": "Preparing for another Starship flight https://t.co/MsML86joOw",
+        "created_at": "2026-08-20T17:22:49.000Z",
+        "imported_at": "2026-08-20T17:25:32.448Z"
+      },
       {
         "id": "cmt1rnzt00004l704eksgyr16",
         "text": "The media never mentioned that the police officers called an ambulance immediately when Floyd complained of shortness of breath.\n\nUnusual behavior for “murderers”. https://t.co/0H59ZKhihI",
