@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-20T22:01:01.026Z",
-  "total": 3247,
+  "last_updated": "2026-08-20T22:36:07.516Z",
+  "total": 3249,
   "by_date": {
     "2026-05-27": [
       {
@@ -21598,6 +21598,18 @@
       }
     ],
     "2026-08-20": [
+      {
+        "id": "cmt22qn2t0001l904a6m7pz91",
+        "text": "RT @cb_doge: ELON MUSK: \"If you've got humanoid robots that have very high dexterity and are incredibly smart, it means that everyone on ea…",
+        "created_at": "2026-08-20T22:06:09.000Z",
+        "imported_at": "2026-08-20T22:10:32.405Z"
+      },
+      {
+        "id": "cmt22qn2t0002l9048tph1v00",
+        "text": "Easiest way to try Grok Build https://t.co/CdsCcjm5fq",
+        "created_at": "2026-08-20T22:05:35.000Z",
+        "imported_at": "2026-08-20T22:10:32.405Z"
+      },
       {
         "id": "cmt214rn5000dl9041dsuip36",
         "text": "RT @Starlink: Reliable high-speed internet on Earth’s oceans and waterways 🛰️⛵️",
