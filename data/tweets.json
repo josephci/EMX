@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-21T15:53:25.603Z",
-  "total": 3261,
+  "last_updated": "2026-08-21T16:42:47.192Z",
+  "total": 3268,
   "by_date": {
     "2026-05-27": [
       {
@@ -22092,6 +22092,48 @@
       }
     ],
     "2026-08-21": [
+      {
+        "id": "cmt36e45d0009l404toa6qndu",
+        "text": "Grok 4.6 on extra high thinking mode now achieves #1 score on CursorBench! https://t.co/MZDjMTtqK2",
+        "created_at": "2026-08-21T16:36:35.000Z",
+        "imported_at": "2026-08-21T16:40:32.642Z"
+      },
+      {
+        "id": "cmt367ols0007l404wl0hs0aj",
+        "text": "Improvements to Grok Build almost every day \n\nhttps://t.co/v7TKF3lvAF https://t.co/ugOc77vY2t",
+        "created_at": "2026-08-21T16:32:48.000Z",
+        "imported_at": "2026-08-21T16:35:32.560Z"
+      },
+      {
+        "id": "cmt3619180005l404anztoxjl",
+        "text": "Starlink now has 11k satellites in orbit https://t.co/exXh9CJszi",
+        "created_at": "2026-08-21T16:27:43.000Z",
+        "imported_at": "2026-08-21T16:30:32.444Z"
+      },
+      {
+        "id": "cmt35utnt0003l4040rafqmku",
+        "text": "RT @ARKInvest: Last week, @SpaceXAI released Grok 4.6, its new frontier model designed for coding, agentic tasks, and knowledge work.\n\nInde…",
+        "created_at": "2026-08-21T16:24:25.000Z",
+        "imported_at": "2026-08-21T16:25:32.586Z"
+      },
+      {
+        "id": "cmt35utnt0004l404klja9hy2",
+        "text": "RT @cb_doge: Starlink is taking over aviation.\n\nThe number of airlines announcing deals with Starlink is surging, and the reason is simple:…",
+        "created_at": "2026-08-21T16:23:45.000Z",
+        "imported_at": "2026-08-21T16:25:32.586Z"
+      },
+      {
+        "id": "cmt35oech0001l4045olrd48u",
+        "text": "RT @BasilTheGreat: \"I used to be super left wing\nThen the migrants arrived and started raping everyone,\nNow I'm super right wing\"\n\nMany suc…",
+        "created_at": "2026-08-21T16:18:20.000Z",
+        "imported_at": "2026-08-21T16:20:32.801Z"
+      },
+      {
+        "id": "cmt35hyol0000l404gx6sxa7q",
+        "text": "RT @cb_doge: THE ELON EFFECT: Terafab is already attracting more companies to Texas’ Brazos Valley. 🇺🇸\n\nThe Greater Brazos Partnership says…",
+        "created_at": "2026-08-21T16:14:44.000Z",
+        "imported_at": "2026-08-21T16:15:32.565Z"
+      },
       {
         "id": "cmt33xdqs0005jo044f8tgppn",
         "text": "RT @XFreeze: 𝕏 has become the nervous system of the world\n\nWhen something happens in politics, technology, markets, science or culture, it…",
