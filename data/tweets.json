@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-21T22:59:40.273Z",
-  "total": 3286,
+  "last_updated": "2026-08-21T23:31:09.846Z",
+  "total": 3289,
   "by_date": {
     "2026-05-27": [
       {
@@ -22092,6 +22092,24 @@
       }
     ],
     "2026-08-21": [
+      {
+        "id": "cmt3ki46b000hl704qm934c21",
+        "text": "RT @VladSaigau: Falcon 9 has been priced at ~$70M for many years now, leading many to believe market prices have stayed flat. \n\nHeres what…",
+        "created_at": "2026-08-21T23:12:34.000Z",
+        "imported_at": "2026-08-21T23:15:33.923Z"
+      },
+      {
+        "id": "cmt3kbohi000fl704vnsyuzrq",
+        "text": "RT @PeterDiamandis: While pessimism sounds smart, optimism makes money by turning life-changing technologies into reality.",
+        "created_at": "2026-08-21T23:10:06.000Z",
+        "imported_at": "2026-08-21T23:10:33.655Z"
+      },
+      {
+        "id": "cmt3kbohi000gl704s5vaflet",
+        "text": "RT @Starlink: Starlink enabling remote connectivity and live coverage during the solar eclipse 🛰️❤️",
+        "created_at": "2026-08-21T23:09:14.000Z",
+        "imported_at": "2026-08-21T23:10:33.655Z"
+      },
       {
         "id": "cmt3icy28000cl704r7kkkenz",
         "text": "RT @dee_bosa: I know it’s been said many times… but just had Starlink on a flight for the first time and wow. \nOne of those Apple-like mome…",
