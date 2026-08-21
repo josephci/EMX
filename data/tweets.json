@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-21T20:33:16.943Z",
-  "total": 3271,
+  "last_updated": "2026-08-21T20:59:33.190Z",
+  "total": 3273,
   "by_date": {
     "2026-05-27": [
       {
@@ -22092,6 +22092,18 @@
       }
     ],
     "2026-08-21": [
+      {
+        "id": "cmt3fbmk10000k004yq2106ie",
+        "text": "RT @SpaceXAI: Grok 4.6 is now available on Google Vertex AI \nhttps://t.co/K8433IlivQ https://t.co/04hnhPq2lu",
+        "created_at": "2026-08-21T20:48:18.000Z",
+        "imported_at": "2026-08-21T20:50:33.073Z"
+      },
+      {
+        "id": "cmt3fbmk10001k004x8uq8es6",
+        "text": "RT @SpaceXAIMemphis: Our Memphis and Southaven sites will be powered by the world’s largest grid-connected battery pack, reducing the cost…",
+        "created_at": "2026-08-21T20:48:11.000Z",
+        "imported_at": "2026-08-21T20:50:33.073Z"
+      },
       {
         "id": "cmt39lutq000gjn04hbxil9nn",
         "text": "True https://t.co/1uzaDpNsrp",
