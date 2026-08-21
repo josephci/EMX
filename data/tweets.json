@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-21T01:49:14.223Z",
-  "total": 3256,
+  "last_updated": "2026-08-21T03:10:46.583Z",
+  "total": 3259,
   "by_date": {
     "2026-05-27": [
       {
@@ -22092,6 +22092,24 @@
       }
     ],
     "2026-08-21": [
+      {
+        "id": "cmt2c7fjy0001l404otwpzead",
+        "text": "True https://t.co/UpumHvHiMt",
+        "created_at": "2026-08-21T02:34:22.000Z",
+        "imported_at": "2026-08-21T02:35:32.350Z"
+      },
+      {
+        "id": "cmt2c10710000l404u5i84fmd",
+        "text": "RT @TheChiefNerd: TRUMP: \"I want to thank @elonmusk because Elon was able to get us communication systems. As you know, Starlink ... I thin…",
+        "created_at": "2026-08-21T02:29:01.000Z",
+        "imported_at": "2026-08-21T02:30:32.509Z"
+      },
+      {
+        "id": "cmt2alk100001jw04wa2fz4f4",
+        "text": "Starlink would help the least served in India, especially in rural areas https://t.co/ffCvpL61WQ",
+        "created_at": "2026-08-21T01:46:01.000Z",
+        "imported_at": "2026-08-21T01:50:32.101Z"
+      },
       {
         "id": "cmt2a29ud0000jw04gxjg6rz9",
         "text": "RT @DavidCarbutt_: Grok Bot is hands down one of the best products I have ever used. Maybe the best ever. \n\nI have had it less than a week.…",
