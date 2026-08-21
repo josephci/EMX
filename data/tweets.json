@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-21T23:31:09.846Z",
-  "total": 3289,
+  "last_updated": "2026-08-21T23:58:30.902Z",
+  "total": 3292,
   "by_date": {
     "2026-05-27": [
       {
@@ -22092,6 +22092,24 @@
       }
     ],
     "2026-08-21": [
+      {
+        "id": "cmt3lxk4p0000jx04qly1rytw",
+        "text": "Interesting https://t.co/fGB58KPfRF",
+        "created_at": "2026-08-21T23:55:11.000Z",
+        "imported_at": "2026-08-21T23:55:34.058Z"
+      },
+      {
+        "id": "cmt3le9wu000jl704vbqogcsi",
+        "text": "It really doesn’t https://t.co/AjBg1NKWrw",
+        "created_at": "2026-08-21T23:40:19.000Z",
+        "imported_at": "2026-08-21T23:40:34.351Z"
+      },
+      {
+        "id": "cmt3le9ms000il704vja9yem8",
+        "text": "RT @SwipeWright: I'm not lying when I tell everyone I don't cherry pick the crazy papers and PhD theses I post on X constantly. \n\nThe modal…",
+        "created_at": "2026-08-21T23:38:35.000Z",
+        "imported_at": "2026-08-21T23:40:33.989Z"
+      },
       {
         "id": "cmt3ki46b000hl704qm934c21",
         "text": "RT @VladSaigau: Falcon 9 has been priced at ~$70M for many years now, leading many to believe market prices have stayed flat. \n\nHeres what…",
