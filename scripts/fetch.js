@@ -185,6 +185,49 @@ async function fetchLaunches() {
   }
 }
 
+// 嘗試抓「回覆」——市場唔計回覆，但係 Elon 活躍嘅領先指標。xtracker /posts 唔含
+// 回覆，逐個試可能嘅 endpoint（喺 GitHub runner 上跑，連得到 xtracker）；全部失敗就略過。
+const REPLIES_FILE = path.join(__dirname, '..', 'data', 'replies.json');
+async function fetchReplies(postIds) {
+  const s = dateStr(-3), e = dateStr(1);
+  const attempts = [
+    { url: `${API_BASE}/users/${USERNAME}/replies?platform=x&startDate=${s}&endDate=${e}`, allReplies: true },
+    { url: `${API_BASE}/users/${USERNAME}/posts?platform=x&type=reply&startDate=${s}&endDate=${e}`, allReplies: true },
+    { url: `${API_BASE}/users/${USERNAME}/posts?platform=x&includeReplies=true&startDate=${s}&endDate=${e}`, allReplies: false },
+    { url: `${API_BASE}/users/${USERNAME}/activity?platform=x&startDate=${s}&endDate=${e}`, allReplies: false },
+  ];
+  for (const { url, allReplies } of attempts) {
+    try {
+      const res = await fetch(url, { headers: { Accept: 'application/json' }, signal: AbortSignal.timeout(15000) });
+      if (!res.ok) continue;
+      const json = await res.json();
+      const raw = json.data || json.replies || json.posts || (Array.isArray(json) ? json : []);
+      if (!raw.length) continue;
+      const items = raw.map((p) => ({
+        id: String(p.platformPostId || p.postId || p.id),
+        created_at: p.createdAt || p.created_at || p.sourceCreatedAt || null,
+        kind: classifyKind(p),
+      })).filter((p) => p.created_at);
+      // 專用 endpoint：全部當回覆；混合 endpoint：只收 kind=reply 或者唔喺 posts 集嘅
+      const replies = (allReplies ? items : items.filter((p) => p.kind === 'reply' || !postIds.has(p.id)))
+        .filter((p) => !postIds.has(p.id));   // 剔走實際上係 post 嘅（防止端點忽略參數回傳 posts）
+      if (replies.length) {
+        let prev = [];
+        try { prev = JSON.parse(fs.readFileSync(REPLIES_FILE, 'utf8')); if (!Array.isArray(prev)) prev = []; } catch {}
+        const seen = new Set(), merged = [];
+        [...prev, ...replies].forEach((r) => { if (!seen.has(r.id)) { seen.add(r.id); merged.push(r); } });
+        const cutoff = Date.now() - 5 * 86400000;
+        const keep = merged.filter((r) => new Date(r.created_at).getTime() > cutoff)
+                           .sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
+        fs.writeFileSync(REPLIES_FILE, JSON.stringify(keep, null, 2));
+        console.log(`💬 回覆數據：本次 ${replies.length} 則，累計 ${keep.length}（${url}）`);
+        return;
+      }
+    } catch {}
+  }
+  console.log('💬 未搵到回覆數據源（xtracker /posts 唔含回覆），略過');
+}
+
 (async () => {
   try {
     await fetchJetEvents();
@@ -192,6 +235,7 @@ async function fetchLaunches() {
     const posts    = await fetchPosts();
     const existing = loadExisting();
     const added    = mergeAndSave(existing, posts);
+    try { await fetchReplies(new Set(posts.map((p) => p.id))); } catch (e) { console.warn('💬 回覆抓取出錯（略過）：', e.message); }
     console.log(`✅ 完成：本次抓到 ${posts.length} 則，新增 ${added} 則，累計 ${existing.total} 則`);
   } catch (err) {
     console.error('❌ 失敗：', err.message);

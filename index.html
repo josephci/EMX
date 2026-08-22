@@ -253,8 +253,9 @@ const FLIGHTS_URL  = './data/flights.json';
 const LAUNCHES_URL = './data/launches.json';
 const PRICELOG_URL = './data/price_log.csv';
 const RESULTS_URL  = './data/prediction_results.json';
+const REPLIES_URL  = './data/replies.json';
 const XT_LIVE_API  = 'https://xtracker.polymarket.com/api/users/elonmusk/posts';
-let db = null, flights = null, launches = null, priceLog = null, predResults = null;
+let db = null, flights = null, launches = null, priceLog = null, predResults = null, replies = null;
 let liveOk = false, liveAt = 0;
 let liveJets = null;   // 客戶端直查 ADS-B 得到嘅即時航班狀態（CORS 唔通就 null）
 let chartPrice = null;
@@ -358,6 +359,10 @@ async function loadData() {
       const rr = await fetch(RESULTS_URL + '?t=' + Date.now());
       predResults = rr.ok ? await rr.json() : null;
     } catch { predResults = null; }
+    try {
+      const vr = await fetch(REPLIES_URL + '?t=' + Date.now());
+      replies = vr.ok ? await vr.json() : null;
+    } catch { replies = null; }
     // 繞過 GitHub Actions / Pages 延遲：直接問 xtracker + ADS-B（並行，CORS 唔通就靜靜地 fallback）
     [liveOk, liveJets] = await Promise.all([tryLiveXtracker(), tryLiveJets()]);
     render();
@@ -891,17 +896,26 @@ function renderActivity(now, pace) {
   const lastMin = (now - last) / 60000;
   const c30 = all.filter(p => now - new Date(p.created_at) <= 30 * 60000).length;
   const exp30 = pace ? pace.expected(new Date(now - 30 * 60000), now) : null;
-  const hot   = exp30 !== null && c30 >= exp30 * 2 + 1;      // 速度明顯高過平時
-  const active = lastMin <= 20 || hot;
+  // 回覆（如 replies.json 有數據）：市場唔計，但係「Elon 而家喺線」嘅最直接信號
+  const hasReplies = Array.isArray(replies) && replies.length > 0;
+  const r30 = hasReplies ? replies.filter(r => now - new Date(r.created_at) <= 30 * 60000).length : 0;
+  let lastReplyMin = null;
+  if (hasReplies) { const lr = replies.reduce((a, r) => Math.max(a, new Date(r.created_at)), 0); if (lr) lastReplyMin = (now - lr) / 60000; }
+  const hot    = (exp30 !== null && c30 >= exp30 * 2 + 1) || r30 >= 3;   // post 速度高、或近 30 分鐘 ≥3 回覆
+  const active = lastMin <= 20 || (lastReplyMin !== null && lastReplyMin <= 20) || hot;
   const lastTxt = lastMin < 60 ? `${lastMin.toFixed(0)} 分鐘前` : `${(lastMin / 60).toFixed(1)} 小時前`;
   const paceTxt = exp30 !== null
-    ? `近 30 分鐘 <b style="color:${hot ? '#f59e0b' : '#bbb'}">${c30}</b> 則（平時 ~${exp30.toFixed(1)}）`
-    : `近 30 分鐘 ${c30} 則`;
+    ? `近 30 分鐘 <b style="color:${hot ? '#f59e0b' : '#bbb'}">${c30}</b> post（平時 ~${exp30.toFixed(1)}）`
+    : `近 30 分鐘 ${c30} post`;
+  const replyTxt = hasReplies ? `・<b style="color:#38bdf8">${r30}</b> 回覆` : '';
   const badge = active
-    ? `<span style="color:#34d399;font-weight:700">🟢 活躍中</span>` + (hot ? ' <span style="color:#f59e0b">🔥 速度高於平時</span>' : '')
+    ? `<span style="color:#34d399;font-weight:700">🟢 活躍中</span>` + (hot ? ' <span style="color:#f59e0b">🔥 高於平時</span>' : '')
     : `<span style="color:#888">⚪ 靜</span>`;
-  el.innerHTML = `${badge}　${paceTxt}・最後 post ${lastTxt}` +
-    `<div style="font-size:9px;color:#333;margin-top:2px">＊只計 post／RT／引用（xtracker 唔提供純回覆）</div>`;
+  const foot = hasReplies
+    ? `＊回覆唔計入市場，但係 Elon 在線嘅領先信號`
+    : `＊只計 post／RT／引用（xtracker 未提供回覆數據）`;
+  el.innerHTML = `${badge}　${paceTxt}${replyTxt}・最後 post ${lastTxt}` +
+    `<div style="font-size:9px;color:#333;margin-top:2px">${foot}</div>`;
   el.style.display = 'block';
 }
 
