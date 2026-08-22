@@ -38,6 +38,16 @@
   #sig-count-row { margin-top: 10px; padding-top: 10px; border-top: 1px solid #1a1a2e; font-size: 11px; color: #bbb; }
   #sig-checklist { margin-top: 8px; font-size: 10px; color: #555; line-height: 1.8; }
 
+  .dist { margin-top: 9px; display: flex; flex-direction: column; gap: 3px; }
+  .dist-cap { font-size: 9px; color: #444; margin-bottom: 1px; }
+  .dist-row { display: grid; grid-template-columns: 76px 1fr 60px; gap: 6px; align-items: center; font-size: 10px; }
+  .dist-name { color: #bbb; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .dist-bar { position: relative; height: 11px; background: #14141f; border-radius: 3px; }
+  .dist-bar i { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 3px; }
+  .dist-bar b { position: absolute; top: -2px; bottom: -2px; width: 2px; background: #f59e0b; border-radius: 1px; }
+  .dist-num { text-align: right; white-space: nowrap; color: #888; }
+  .dist-num .qv { font-weight: 700; }
+
   #mkts-box { background: #0f0f14; border: 1px solid #1a1a2e; border-radius: 10px; padding: 13px; margin-top: 10px; }
   #mkts-title { font-size: 12px; color: #f472b6; font-weight: 600; }
   #mkts-note { font-size: 9px; color: #333; margin-top: 2px; margin-bottom: 6px; }
@@ -857,6 +867,28 @@ function bestEdge(ev, proj, std) {
 // 建議注碼：¼ Kelly，上限 10% 本金（保守）
 function suggestStake(kelly) { return Math.max(0, Math.min(0.10, kelly * 0.25)); }
 
+// 建議 2：bucket 機率分佈條——每格「模型%（紫條）vs 市價（🟧 刻度）」一次過睇晒
+function bucketDistHtml(ev, proj, std) {
+  const esc = s => (s || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const bs = bucketsOf(ev).map(b => ({ ...b, q: bucketProb(b.range, proj, std) }));
+  if (!bs.length) return '';
+  const maxV = Math.max(0.01, ...bs.map(b => Math.max(b.q, b.price || 0)));
+  const rows = bs.map(b => {
+    const value = b.price !== null && b.q > b.price + 0.03;   // 模型明顯高過市價 = 抵
+    const over  = b.price !== null && b.q < b.price - 0.03;   // 明顯低 = 貴
+    const barCol = value ? '#34d399' : over ? '#555' : '#a78bfa';
+    const tick = b.price !== null && !isNaN(b.price)
+      ? `<b style="left:calc(${Math.min(100, b.price / maxV * 100).toFixed(1)}% - 1px)"></b>` : '';
+    const priceTxt = b.price !== null && !isNaN(b.price) ? ` / ${(b.price * 100).toFixed(0)}¢` : '';
+    return `<div class="dist-row">
+      <span class="dist-name">${esc(b.name)}</span>
+      <span class="dist-bar"><i style="width:${(b.q / maxV * 100).toFixed(1)}%;background:${barCol}"></i>${tick}</span>
+      <span class="dist-num"><span class="qv" style="color:${barCol}">${(b.q * 100).toFixed(0)}%</span>${priceTxt}</span>
+    </div>`;
+  }).join('');
+  return `<div class="dist"><div class="dist-cap">📊 各格：紫條=模型機率　🟧=市價　綠=抵搏</div>${rows}</div>`;
+}
+
 // 建議 B：真實預測往績（命中率）——樣本太少（<5）唔顯示百分比，避免誤導
 function predAccuracy() {
   if (!Array.isArray(predResults)) return null;   // 檔案未載入先返 null
@@ -953,7 +985,8 @@ async function fetchSignal() {
           `📈 預測結算 <b style="color:#a78bfa">${lo}–${hi}</b> 則（中位 ${proj}）→ 落 <b>${esc(hit.name)}</b>（現價 ${priceTxt}）` +
           (isValue ? '　<span style="color:#34d399;font-weight:700">💰 有 value</span>' : '') + spanTxt +
           (edge ? `<br>${edge}` : '') +
-          `<br><span style="color:#555">已計 ${periodCount} 則＋餘下 ${hrsToSettle.toFixed(1)}h 預期再出 ~${Math.round(expected)} 則（同星期幾 pace）${maeTxt}</span>`;
+          `<br><span style="color:#555">已計 ${periodCount} 則＋餘下 ${hrsToSettle.toFixed(1)}h 預期再出 ~${Math.round(expected)} 則（同星期幾 pace）${maeTxt}</span>` +
+          bucketDistHtml(ev, proj, std);
         fEl.style.display = 'block';
       }
     }
