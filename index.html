@@ -859,7 +859,7 @@ function suggestStake(kelly) { return Math.max(0, Math.min(0.10, kelly * 0.25));
 
 // 建議 B：真實預測往績（命中率）——樣本太少（<5）唔顯示百分比，避免誤導
 function predAccuracy() {
-  if (!Array.isArray(predResults) || !predResults.length) return null;
+  if (!Array.isArray(predResults)) return null;   // 檔案未載入先返 null
   const rows = predResults.slice(-30);
   if (rows.length < 5) return { pending: rows.length };
   const hit = rows.reduce((a, r) => a + (r.hit ? 1 : 0), 0);
@@ -942,7 +942,8 @@ async function fetchSignal() {
           : '';
         const acc = predAccuracy();
         const accTxt = !acc ? ''
-          : acc.pending !== undefined ? `・往績累積中（${acc.pending} 場）`
+          : acc.pending === 0 ? '・往績：等首個市場結算後開始記錄'
+          : acc.pending !== undefined ? `・往績累積中（${acc.pending}/5 場，夠 5 場出命中率）`
           : `・往績 命中 ${acc.hit}/${acc.n}（${acc.pct}%，約結算前 ${acc.avgLead.toFixed(0)}h 預測）`;
         const maeTxt = (pace.mae !== null
           ? `・模型近期同時段誤差 ±${pace.mae.toFixed(0)} 則（${pace.samples}日校準）`
@@ -967,7 +968,8 @@ async function fetchSignal() {
       if (latest) silenceH = (now - latest) / 3600000;
     }
 
-    set('sig-market', ev.title.replace('Elon Musk # tweets ', '').slice(0, 26));
+    // 去走前綴同尾巴年份/問號，避免被截斷（例：「August 20 - August 22」）
+    set('sig-market', ev.title.replace('Elon Musk # tweets ', '').replace(/,?\s*\d{4}\s*\??$/, ''));
     set('sig-settle', hrsToSettle.toFixed(1) + ' 小時');
     set('sig-silence', silenceH === null ? '—' : silenceH.toFixed(1) + ' 小時');
     set('sig-leader', leader ? `${leader}（${(leadPrice * 100).toFixed(1)}¢）` : '—');
