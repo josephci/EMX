@@ -159,6 +159,7 @@
         <div><div class="sig-label">Elon 已沉默</div><div class="sig-val" id="sig-silence">—</div></div>
         <div><div class="sig-label">領先 bucket</div><div class="sig-val-sm" id="sig-leader">—</div></div>
       </div>
+      <div id="sig-activity" style="margin-top:9px;font-size:11px;display:none"></div>
       <div id="sig-count-row">
         本期市場已計 <span id="sig-count" style="color:#a78bfa;font-weight:700;">—</span> 則
         <span id="sig-boundary" style="color:#555;"></span>
@@ -284,7 +285,11 @@ function marketCol(iso)    { return (toET(iso).getUTCHours() - 12 + 24) % 24; }
 function colHourLabel(c)   { return ((12 + c) % 24); }
 function weekdayShort(key) { return ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][new Date(key + 'T00:00:00Z').getUTCDay()]; }
 function isWeekendKey(key) { const d = new Date(key + 'T00:00:00Z').getUTCDay(); return d === 0 || d === 6; }
-function isRT(t)           { return (t.text || '').startsWith('RT @'); }
+function isRT(t)           { return (t.kind ? t.kind === 'retweet' : (t.text || '').startsWith('RT @')); }
+function kindLabel(t) {
+  const k = t.kind || ((t.text || '').startsWith('RT @') ? 'retweet' : (/^@\w/.test(t.text || '') ? 'reply' : 'original'));
+  return { retweet: 'RT', quote: '引用', reply: '回覆', original: '' }[k] || '';
+}
 function filterTweets(ts)  { return showMode === 'original' ? ts.filter(t => !isRT(t)) : ts; }
 function allPosts()        { return filterTweets(Object.values(db.by_date || {}).flat()); }
 function lastNMarketDays(n) {
@@ -704,7 +709,7 @@ function renderTweets(tweets) {
   if (!tweets.length) { list.innerHTML = '<div style="text-align:center;color:#2a2a3a;font-size:12px;padding:24px 0">本市場日尚無資料</div>'; return; }
   list.innerHTML = [...tweets].sort((a, b) => new Date(b.created_at) - new Date(a.created_at)).map(tw => `
     <div class="tweet-card">
-      <div class="tweet-meta"><span>${fmtTime(tw.created_at)}</span>${isRT(tw) ? '<span>RT</span>' : ''}</div>
+      <div class="tweet-meta"><span>${fmtTime(tw.created_at)}</span>${kindLabel(tw) ? `<span>${kindLabel(tw)}</span>` : ''}</div>
       <div class="tweet-text">${(tw.text || '').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</div>
     </div>`).join('');
 }
@@ -874,6 +879,32 @@ function bestEdge(ev, proj, std, floor) {
 // 建議注碼：¼ Kelly，上限 10% 本金（保守）
 function suggestStake(kelly) { return Math.max(0, Math.min(0.10, kelly * 0.25)); }
 
+// ── 活躍度：發推速度做領先指標（市場提早郁正正就係睇緊呢個） ──────────────────
+// 註：xtracker /posts 唔包「回覆」，所以睇唔到純回覆活動；用「近 30 分鐘 vs 平時
+// pace」做「Elon 而家活躍緊」嘅代理——速度高過平時＝好可能仲會爆，count 跟住上。
+function renderActivity(now, pace) {
+  const el = document.getElementById('sig-activity');
+  const all = db && db.by_date ? Object.values(db.by_date).flat() : [];
+  if (!all.length) { el.style.display = 'none'; return; }
+  let last = null;
+  all.forEach(p => { const d = new Date(p.created_at); if (!last || d > last) last = d; });
+  const lastMin = (now - last) / 60000;
+  const c30 = all.filter(p => now - new Date(p.created_at) <= 30 * 60000).length;
+  const exp30 = pace ? pace.expected(new Date(now - 30 * 60000), now) : null;
+  const hot   = exp30 !== null && c30 >= exp30 * 2 + 1;      // 速度明顯高過平時
+  const active = lastMin <= 20 || hot;
+  const lastTxt = lastMin < 60 ? `${lastMin.toFixed(0)} 分鐘前` : `${(lastMin / 60).toFixed(1)} 小時前`;
+  const paceTxt = exp30 !== null
+    ? `近 30 分鐘 <b style="color:${hot ? '#f59e0b' : '#bbb'}">${c30}</b> 則（平時 ~${exp30.toFixed(1)}）`
+    : `近 30 分鐘 ${c30} 則`;
+  const badge = active
+    ? `<span style="color:#34d399;font-weight:700">🟢 活躍中</span>` + (hot ? ' <span style="color:#f59e0b">🔥 速度高於平時</span>' : '')
+    : `<span style="color:#888">⚪ 靜</span>`;
+  el.innerHTML = `${badge}　${paceTxt}・最後 post ${lastTxt}` +
+    `<div style="font-size:9px;color:#333;margin-top:2px">＊只計 post／RT／引用（xtracker 唔提供純回覆）</div>`;
+  el.style.display = 'block';
+}
+
 // 建議 2：bucket 機率分佈條——每格「模型%（紫條）vs 市價（🟧 刻度）」一次過睇晒
 function bucketDistHtml(ev, proj, std, floor) {
   const esc = s => (s || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -1007,6 +1038,8 @@ async function fetchSignal() {
       });
       if (latest) silenceH = (now - latest) / 3600000;
     }
+
+    renderActivity(now, pace);
 
     // 去走前綴同尾巴年份/問號，避免被截斷（例：「August 20 - August 22」）
     set('sig-market', ev.title.replace('Elon Musk # tweets ', '').replace(/,?\s*\d{4}\s*\??$/, ''));

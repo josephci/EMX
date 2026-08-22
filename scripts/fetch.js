@@ -31,7 +31,19 @@ async function fetchPosts() {
     text:       p.text || p.content || '',
     created_at: p.createdAt || p.created_at || p.sourceCreatedAt || null,
     imported_at: p.importedAt || p.imported_at || null,
+    kind:       classifyKind(p),
   })).filter(p => p.created_at);
+}
+
+// 盡量由 xtracker 原始欄位判斷類型（原創/RT/引用/回覆）；冇欄位就用文字啟發式
+function classifyKind(p) {
+  const type = String(p.type || p.postType || p.kind || '').toLowerCase();
+  const text = p.text || p.content || '';
+  if (p.isRetweet || p.retweeted || type.includes('retweet') || /^RT @/.test(text)) return 'retweet';
+  if (p.isQuote || p.quoted || p.quotedStatusId || p.quoteTweetId || type.includes('quote')) return 'quote';
+  if (p.isReply || p.inReplyToId || p.inReplyToStatusId || p.in_reply_to_status_id ||
+      p.replyToId || p.inReplyToScreenName || type.includes('reply') || /^@\w/.test(text)) return 'reply';
+  return 'original';
 }
 
 function loadExisting() {
