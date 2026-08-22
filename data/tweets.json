@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-22T15:56:16.196Z",
-  "total": 3316,
+  "last_updated": "2026-08-22T16:33:12.939Z",
+  "total": 3318,
   "by_date": {
     "2026-05-27": [
       {
@@ -22623,6 +22623,20 @@
       }
     ],
     "2026-08-22": [
+      {
+        "id": "cmt4kl232000ajr043mnfxac3",
+        "text": "RT @SawyerMerritt: Mona, a member of the Federation of the Blind, gave amazing testimony yesterday about @Tesla’s Cybercab after sitting in…",
+        "created_at": "2026-08-22T16:02:20.000Z",
+        "imported_at": "2026-08-22T16:05:37.359Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt4kfw650009jr04jz3u6bbb",
+        "text": "Try Tesla self-driving\n\nFeels like magic https://t.co/LTIccRuXbW",
+        "created_at": "2026-08-22T15:56:28.000Z",
+        "imported_at": "2026-08-22T16:01:36.414Z",
+        "kind": "original"
+      },
       {
         "id": "cmt4k1rrz0008jr04g28pwicf",
         "text": "Try Grok @Bot https://t.co/ABm1RSn3Sz",
