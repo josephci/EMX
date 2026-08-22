@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-21T23:58:30.902Z",
-  "total": 3292,
+  "last_updated": "2026-08-22T01:42:32.827Z",
+  "total": 3296,
   "by_date": {
     "2026-05-27": [
       {
@@ -22319,6 +22319,32 @@
         "text": "RT @BrianNorgard: I’ve spent my life using and building software. With almost no effort, @bot is the first machine I’ve talked to that prod…",
         "created_at": "2026-08-21T00:23:08.000Z",
         "imported_at": "2026-08-21T00:25:32.449Z"
+      }
+    ],
+    "2026-08-22": [
+      {
+        "id": "cmt3oacf50004jx04rdogq8ep",
+        "text": "The reason Rome fell was because they stopped making Romans https://t.co/YPR0Vvbg1p",
+        "created_at": "2026-08-22T00:58:36.000Z",
+        "imported_at": "2026-08-22T01:01:29.825Z"
+      },
+      {
+        "id": "cmt3o2plm0003jx04agh8us4r",
+        "text": "Murder 1 https://t.co/rJugbRZZkJ",
+        "created_at": "2026-08-22T00:52:46.000Z",
+        "imported_at": "2026-08-22T00:55:33.659Z"
+      },
+      {
+        "id": "cmt3npujq0002jx04zstq27pv",
+        "text": "Grok Voice ranked first https://t.co/Hb42BHUdHo",
+        "created_at": "2026-08-22T00:43:16.000Z",
+        "imported_at": "2026-08-22T00:45:33.543Z"
+      },
+      {
+        "id": "cmt3nczta0001jx04ffikmc5c",
+        "text": "The only large-scale lithium battery cathode production in the Americas https://t.co/EBc0pgo5xM",
+        "created_at": "2026-08-22T00:34:03.000Z",
+        "imported_at": "2026-08-22T00:35:33.839Z"
       }
     ]
   },
