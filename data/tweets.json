@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-22T15:28:45.983Z",
-  "total": 3311,
+  "last_updated": "2026-08-22T15:56:16.196Z",
+  "total": 3316,
   "by_date": {
     "2026-05-27": [
       {
@@ -20504,115 +20504,134 @@
         "id": "cmst6nyoq0000l504yvf966t6",
         "text": "Orbital compute will be the only way to scale AI probably sometime in 2029 due to power availability&amp; permitting problems on land https://t.co/nLTc6fuHXK",
         "created_at": "2026-08-14T16:49:04.000Z",
-        "imported_at": "2026-08-14T16:50:30.362Z"
+        "imported_at": "2026-08-14T16:50:30.362Z",
+        "kind": "original"
       },
       {
         "id": "cmst64nyo000jl404jn7r9fnb",
         "text": "RT @a16z: \"Cursor and SpaceXAI are a deep cultural fit with one another. They both work with a pace and intensity that borders on the absur…",
         "created_at": "2026-08-14T16:32:20.000Z",
-        "imported_at": "2026-08-14T16:35:30.001Z"
+        "imported_at": "2026-08-14T16:35:30.001Z",
+        "kind": "retweet"
       },
       {
         "id": "cmst3t2v20002l4044k69h5qx",
         "text": "Yes https://t.co/U2I4lY4RGN",
         "created_at": "2026-08-14T15:28:20.000Z",
-        "imported_at": "2026-08-14T15:30:30.206Z"
+        "imported_at": "2026-08-14T15:30:30.206Z",
+        "kind": "original"
       },
       {
         "id": "cmst3g7l30001l404go6hk03o",
         "text": "RT @mntruell: Cursor has officially joined SpaceX. \n\nWe’re grateful to become part of such a special company, and it has been a privilege w…",
         "created_at": "2026-08-14T15:19:26.000Z",
-        "imported_at": "2026-08-14T15:20:29.799Z"
+        "imported_at": "2026-08-14T15:20:29.799Z",
+        "kind": "retweet"
       },
       {
         "id": "cmst1viqg0000l804632fzyw8",
         "text": "It is an honor to have such a great team join @SpaceX https://t.co/CyOaNE9ioy",
         "created_at": "2026-08-14T14:36:12.000Z",
-        "imported_at": "2026-08-14T14:36:24.846Z"
+        "imported_at": "2026-08-14T14:36:24.846Z",
+        "kind": "original"
       },
       {
         "id": "cmsskc77z0006la042ju5poya",
         "text": "How to use @bot https://t.co/8myEssCRSL",
         "created_at": "2026-08-14T06:23:06.000Z",
-        "imported_at": "2026-08-14T06:25:29.999Z"
+        "imported_at": "2026-08-14T06:25:29.999Z",
+        "kind": "original"
       },
       {
         "id": "cmssjjk5j0005la04487j2tge",
         "text": "RT @wholemars: Tesla Self-Driving 14.3.7 is quite a beautiful build. Like a world of art really. It cuts through dense LA traffic expertly",
         "created_at": "2026-08-14T05:59:24.000Z",
-        "imported_at": "2026-08-14T06:03:13.736Z"
+        "imported_at": "2026-08-14T06:03:13.736Z",
+        "kind": "retweet"
       },
       {
         "id": "cmssiwrav0004la04zdarukcx",
         "text": "RT @grok: Workflows are now in Grok Build.\n\nBuild plans the work, runs up to hundreds of agents in parallel, and comes back with one report.",
         "created_at": "2026-08-14T05:42:28.000Z",
-        "imported_at": "2026-08-14T05:45:29.912Z"
+        "imported_at": "2026-08-14T05:45:29.912Z",
+        "kind": "retweet"
       },
       {
         "id": "cmssirqcg0003la04rlvith9q",
         "text": "RT @hexiang: Thrilled to receive this feedback from Tesla — they tackle the world’s most critical multimodal challenges. \n\nExtremely proud…",
         "created_at": "2026-08-14T05:41:16.000Z",
-        "imported_at": "2026-08-14T05:41:35.393Z"
+        "imported_at": "2026-08-14T05:41:35.393Z",
+        "kind": "retweet"
       },
       {
         "id": "cmssiqv6o0002la04yi3xybeu",
         "text": "Grok 4.6 ranks #1 on CursorBench for real-world coding https://t.co/HBDSn3tqVs",
         "created_at": "2026-08-14T05:40:35.000Z",
-        "imported_at": "2026-08-14T05:40:54.997Z"
+        "imported_at": "2026-08-14T05:40:54.997Z",
+        "kind": "original"
       },
       {
         "id": "cmssil33w0001la041ftreifd",
         "text": "RT @arcprize: Grok 4.6 from @SpaceXAI on ARC-AGI (Verified):\n\n- ARC-AGI-1: 87.5%, $0.30/task\n- ARC-AGI-2: 67.1%, $0.76/task\n- ARC-AGI-3: 2.…",
         "created_at": "2026-08-14T05:36:05.000Z",
-        "imported_at": "2026-08-14T05:36:25.329Z"
+        "imported_at": "2026-08-14T05:36:25.329Z",
+        "kind": "retweet"
       },
       {
         "id": "cmssijwdj0000la04s4mk98aq",
         "text": "Grok Imagine https://t.co/c4MR8L1BcZ",
         "created_at": "2026-08-14T05:35:06.000Z",
-        "imported_at": "2026-08-14T05:35:29.960Z"
+        "imported_at": "2026-08-14T05:35:29.960Z",
+        "kind": "original"
       },
       {
         "id": "cmssh5s920003l404nq6oj2ll",
         "text": "RT @grok: Use Grok 4.6 for CAD",
         "created_at": "2026-08-14T04:56:10.000Z",
-        "imported_at": "2026-08-14T04:56:31.802Z"
+        "imported_at": "2026-08-14T04:56:31.802Z",
+        "kind": "retweet"
       },
       {
         "id": "cmssh5s920004l404dxk21js8",
         "text": "Try Grok 4.6 image &amp; video understanding, it’s a major upgrade! https://t.co/WrUKkhv0QG",
         "created_at": "2026-08-14T04:55:56.000Z",
-        "imported_at": "2026-08-14T04:56:31.802Z"
+        "imported_at": "2026-08-14T04:56:31.802Z",
+        "kind": "original"
       },
       {
         "id": "cmssh4gf50002l404eqh585l3",
         "text": "RT @SpaceXAI: Build a voice agent in under 2 minutes.",
         "created_at": "2026-08-14T04:54:19.000Z",
-        "imported_at": "2026-08-14T04:55:29.825Z"
+        "imported_at": "2026-08-14T04:55:29.825Z",
+        "kind": "retweet"
       },
       {
         "id": "cmssgy0sg0001l404ejob9u3i",
         "text": "RT @Scobleizer: He built the computer vision system in my oven. (True story). \n\nSo when he praises something I listen a little harder.",
         "created_at": "2026-08-14T04:49:40.000Z",
-        "imported_at": "2026-08-14T04:50:29.632Z"
+        "imported_at": "2026-08-14T04:50:29.632Z",
+        "kind": "retweet"
       },
       {
         "id": "cmssgrla90000l40450clhmy8",
         "text": "Kekius Maximus https://t.co/OD24y3viQv",
         "created_at": "2026-08-14T04:44:29.000Z",
-        "imported_at": "2026-08-14T04:45:29.601Z"
+        "imported_at": "2026-08-14T04:45:29.601Z",
+        "kind": "original"
       },
       {
         "id": "cmssddfoq0001l1049jlulb3d",
         "text": "Grok 4.6 will work best with the Grok Build harness. The experience will be significantly worse without it, so best to evaluate using Build. \n\nhttps://t.co/RRE8XKbiRI https://t.co/ld2laz3fMR",
         "created_at": "2026-08-14T03:08:53.000Z",
-        "imported_at": "2026-08-14T03:10:30.314Z"
+        "imported_at": "2026-08-14T03:10:30.314Z",
+        "kind": "original"
       },
       {
         "id": "cmssda1e20000l104bs4yzhmu",
         "text": "RT @TexasLindsay_: I’ve had my @Tesla for 9 days—and it’s already saved my life. Full Self-Driving with HW4 is mind-blowing.\n\nMy car drove…",
         "created_at": "2026-08-14T03:07:15.000Z",
-        "imported_at": "2026-08-14T03:07:51.819Z"
+        "imported_at": "2026-08-14T03:07:51.819Z",
+        "kind": "retweet"
       }
     ],
     "2026-08-15": [
@@ -20620,121 +20639,141 @@
         "id": "cmsv13xb30001l9041olj6yuc",
         "text": "RT @TeslaCharging: We're now testing a new waitlist feature at 5 Supercharger sites. Share feedback through the Tesla app to help us make i…",
         "created_at": "2026-08-15T23:49:50.000Z",
-        "imported_at": "2026-08-15T23:50:29.728Z"
+        "imported_at": "2026-08-15T23:50:29.728Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsv13xb30002l904phfwe9o4",
         "text": "RT @cb_doge: Grok 4.6 ranks #1 on RuntimeWire’s Newsroom Reliability v0.2 benchmark with a score of 0.79, beating GPT-5.6 Sol, Claude Opus…",
         "created_at": "2026-08-15T23:47:57.000Z",
-        "imported_at": "2026-08-15T23:50:29.728Z"
+        "imported_at": "2026-08-15T23:50:29.728Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsv13xb30003l904y240kq9l",
         "text": "I hope AI is nice to us https://t.co/NefIRrrg96",
         "created_at": "2026-08-15T23:47:31.000Z",
-        "imported_at": "2026-08-15T23:50:29.728Z"
+        "imported_at": "2026-08-15T23:50:29.728Z",
+        "kind": "original"
       },
       {
         "id": "cmsv13xb30004l9042icpji5r",
         "text": "Interesting exchange https://t.co/1bTW3V2nCu",
         "created_at": "2026-08-15T23:46:13.000Z",
-        "imported_at": "2026-08-15T23:50:29.728Z"
+        "imported_at": "2026-08-15T23:50:29.728Z",
+        "kind": "original"
       },
       {
         "id": "cmsux7pgp0006k004f4gd1n38",
         "text": "https://t.co/lYRtCtIkYF",
         "created_at": "2026-08-15T21:59:37.000Z",
-        "imported_at": "2026-08-15T22:01:27.714Z"
+        "imported_at": "2026-08-15T22:01:27.714Z",
+        "kind": "original"
       },
       {
         "id": "cmsuvr18i0003jy04hyh2owya",
         "text": "RT @sfchronicle: A quiet revolution is happening on Bay Area roads as a vast number of privately owned cars are now driving themselves. htt…",
         "created_at": "2026-08-15T21:16:53.000Z",
-        "imported_at": "2026-08-15T21:20:30.210Z"
+        "imported_at": "2026-08-15T21:20:30.210Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsuvkle80000jy04p1siq8za",
         "text": "RT @XFreeze: Tesla holds the top two spots for America’s most domestically produced vehicles - beating out both Ford and GM 🇺🇸\n\nhttps://t.c…",
         "created_at": "2026-08-15T21:14:52.000Z",
-        "imported_at": "2026-08-15T21:15:29.744Z"
+        "imported_at": "2026-08-15T21:15:29.744Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsuvkle80001jy0430i1zygi",
         "text": "Grok has improved massively https://t.co/ld8VP5oeNh",
         "created_at": "2026-08-15T21:14:31.000Z",
-        "imported_at": "2026-08-15T21:15:29.744Z"
+        "imported_at": "2026-08-15T21:15:29.744Z",
+        "kind": "original"
       },
       {
         "id": "cmsuvkle80002jy043g9je9e9",
         "text": "RT @AlexFinn: After using Grok Bot nonstop for the past week I'm going to say it: it's the best AI agent out there right now\n\nDead simple a…",
         "created_at": "2026-08-15T21:13:09.000Z",
-        "imported_at": "2026-08-15T21:15:29.744Z"
+        "imported_at": "2026-08-15T21:15:29.744Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsuv7qfo000cjr043afyt9ql",
         "text": "RT @cb_doge: Grok Build mode is so much fun!\n\nI made a few quick games for my nephew in just minutes using simple one-line prompts, all fro…",
         "created_at": "2026-08-15T21:02:37.000Z",
-        "imported_at": "2026-08-15T21:05:29.748Z"
+        "imported_at": "2026-08-15T21:05:29.748Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsuv7qfo000djr04y7jtw6pj",
         "text": "RT @wintonARK: Frontier lab ARR crossed combined Windows + Office revenue in late June of this year (on our estimates).\n\nThey are toppling…",
         "created_at": "2026-08-15T21:01:57.000Z",
-        "imported_at": "2026-08-15T21:05:29.748Z"
+        "imported_at": "2026-08-15T21:05:29.748Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsumn3970002l604ky3o5tbl",
         "text": "RT @XFreeze: You don’t need to waste an hour digging through your Mac’s settings trying to figure out what’s wrong with your laptop\n\nGrok B…",
         "created_at": "2026-08-15T17:04:10.000Z",
-        "imported_at": "2026-08-15T17:05:29.660Z"
+        "imported_at": "2026-08-15T17:05:29.660Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsuh3rrv0001jr041p2iws0e",
         "text": "RT @GavinSBaker: Posting my reply to @_sholtodouglas given that some of my comments about Anthropic on @theallinpod yesterday have been wid…",
         "created_at": "2026-08-15T14:26:36.000Z",
-        "imported_at": "2026-08-15T14:30:30.236Z"
+        "imported_at": "2026-08-15T14:30:30.236Z",
+        "kind": "retweet"
       },
       {
         "id": "cmstxtbeu0002l1043yjdwy9m",
         "text": "RT @GregAbbott_TX: Government-owned airports cannot favor one religion over all others.\n\nDFW plans to install Islamic wudu washing faciliti…",
         "created_at": "2026-08-15T05:27:57.000Z",
-        "imported_at": "2026-08-15T05:30:29.766Z"
+        "imported_at": "2026-08-15T05:30:29.766Z",
+        "kind": "retweet"
       },
       {
         "id": "cmstws0ab0006l704f9nzgd1k",
         "text": "RT @mattshumer_: If you want to learn how to run one: https://t.co/S5MHKsNzzn\n\nGrok Build harness is likely best but you can also run this…",
         "created_at": "2026-08-15T05:01:00.000Z",
-        "imported_at": "2026-08-15T05:01:29.064Z"
+        "imported_at": "2026-08-15T05:01:29.064Z",
+        "kind": "retweet"
       },
       {
         "id": "cmstw110d0003l704dvcllfkf",
         "text": "Grok 4.6 runs The Gauntlet https://t.co/oDmQa9ah0P",
         "created_at": "2026-08-15T04:36:34.000Z",
-        "imported_at": "2026-08-15T04:40:30.301Z"
+        "imported_at": "2026-08-15T04:40:30.301Z",
+        "kind": "original"
       },
       {
         "id": "cmstszpm30012l4043gcugwa8",
         "text": "😂 https://t.co/3nQurlkWjQ",
         "created_at": "2026-08-15T03:13:10.000Z",
-        "imported_at": "2026-08-15T03:15:30.028Z"
+        "imported_at": "2026-08-15T03:15:30.028Z",
+        "kind": "original"
       },
       {
         "id": "cmstqciu0000vl404506xo1s2",
         "text": "Any censorship required by governments is now clearly visible https://t.co/eQMdoYlhkA",
         "created_at": "2026-08-15T02:00:47.000Z",
-        "imported_at": "2026-08-15T02:01:28.912Z"
+        "imported_at": "2026-08-15T02:01:28.912Z",
+        "kind": "original"
       },
       {
         "id": "cmstq4tse000ql404babrrvzz",
         "text": "RT @kcoleman: \"I used to always wonder about my reach and visibility and was convinced something was wrong with my account. But it turns ou…",
         "created_at": "2026-08-15T01:52:19.000Z",
-        "imported_at": "2026-08-15T01:55:29.870Z"
+        "imported_at": "2026-08-15T01:55:29.870Z",
+        "kind": "retweet"
       },
       {
         "id": "cmstpyee4000dl4048yaxwxf0",
         "text": "Grok 4.6 now in Copilot https://t.co/kr6LQ9vyQS",
         "created_at": "2026-08-15T01:49:59.000Z",
-        "imported_at": "2026-08-15T01:50:29.980Z"
+        "imported_at": "2026-08-15T01:50:29.980Z",
+        "kind": "original"
       }
     ],
     "2026-08-16": [
@@ -20742,79 +20781,92 @@
         "id": "cmswc9gkw0001l504xav92e10",
         "text": "Intelligence/Joule will keep improving https://t.co/33q8zKXhPH",
         "created_at": "2026-08-16T21:48:08.000Z",
-        "imported_at": "2026-08-16T21:50:29.936Z"
+        "imported_at": "2026-08-16T21:50:29.936Z",
+        "kind": "original"
       },
       {
         "id": "cmsvfkrp20001jr04tz5zz21q",
         "text": "RT @SpaceX: Falcon 9’s first stage lands on the Of Course I Still Love You droneship https://t.co/XWTfEHhqJp",
         "created_at": "2026-08-16T06:31:45.000Z",
-        "imported_at": "2026-08-16T06:35:30.230Z"
+        "imported_at": "2026-08-16T06:35:30.230Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsvfkrp20002jr04zfkojfha",
         "text": "RT @MyWestLord: Elon Musk stood in a Hollywood living room in 2008, 12 days from bankruptcy, and pitched a $109,000 car to people who thoug…",
         "created_at": "2026-08-16T06:31:13.000Z",
-        "imported_at": "2026-08-16T06:35:30.230Z"
+        "imported_at": "2026-08-16T06:35:30.230Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsvf7wv10000jr04r5ra5tvk",
         "text": "RT @minchoi: Ok Grok 4.6 is getting scary good.\n\nGames. 3D worlds. Game trailers. Even real-world 3D prints.\n\n10 wild examples:",
         "created_at": "2026-08-16T06:22:40.000Z",
-        "imported_at": "2026-08-16T06:25:30.397Z"
+        "imported_at": "2026-08-16T06:25:30.397Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsvev1da0001jo04dl9gncy6",
         "text": "RT @WallStreetApes: This PERFECTLY explains why ‘The Left’ is obsessed with being morally superior\n\n“Did you ever ask yourself why it's alw…",
         "created_at": "2026-08-16T06:13:41.000Z",
-        "imported_at": "2026-08-16T06:15:29.711Z"
+        "imported_at": "2026-08-16T06:15:29.711Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsvbnarw0000jo045s73ztpm",
         "text": "RT @SpaceX: Deployment of @Globalstar 2-R satellites has started https://t.co/SMx1j1hLjF",
         "created_at": "2026-08-16T04:41:01.000Z",
-        "imported_at": "2026-08-16T04:45:29.804Z"
+        "imported_at": "2026-08-16T04:45:29.804Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsv2psjl0003la040idr0gsy",
         "text": "RT @mvanhorn: Okay I am convinced that I don’t think I need my OpenClaw or Hermes anymore bc of Grok Bot. 😬 It has a “can-do” attitude that…",
         "created_at": "2026-08-16T00:33:49.000Z",
-        "imported_at": "2026-08-16T00:35:29.601Z"
+        "imported_at": "2026-08-16T00:35:29.601Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsv2psjl0004la04nwevj1i0",
         "text": "RT @keven_ink: Grok Bot can be configured to use your CLI's in it's computer. It can connect to your locally hosted memory systems, it can…",
         "created_at": "2026-08-16T00:33:09.000Z",
-        "imported_at": "2026-08-16T00:35:29.601Z"
+        "imported_at": "2026-08-16T00:35:29.601Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsv26igz0000la04273zvbmj",
         "text": "Tesla cars sold in America are the most made in America of any cars https://t.co/3yUiWcbFhn",
         "created_at": "2026-08-16T00:15:51.000Z",
-        "imported_at": "2026-08-16T00:20:30.083Z"
+        "imported_at": "2026-08-16T00:20:30.083Z",
+        "kind": "original"
       },
       {
         "id": "cmsv202xl0007l9042bah7zw8",
         "text": "RT @MiltonFriedmanW: Adam Smith understood this in 1776.\n\n250 years later, many people still don’t. https://t.co/qHxJtoAbTS",
         "created_at": "2026-08-16T00:12:35.000Z",
-        "imported_at": "2026-08-16T00:15:30.009Z"
+        "imported_at": "2026-08-16T00:15:30.009Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsv202xl0008l904jo26khbj",
         "text": "Grok 4.6 https://t.co/cZHN7gwwu4",
         "created_at": "2026-08-16T00:12:16.000Z",
-        "imported_at": "2026-08-16T00:15:30.009Z"
+        "imported_at": "2026-08-16T00:15:30.009Z",
+        "kind": "original"
       },
       {
         "id": "cmsv1tnjq0005l904g3w4oc52",
         "text": "RT @elonmusk: @TheChiefNerd Worth trying Grok 4.6. Fable 5 is smarter overall, but Grok is much faster and lower cost.\n\nGrok 4.7 has a good…",
         "created_at": "2026-08-16T00:09:14.000Z",
-        "imported_at": "2026-08-16T00:10:30.135Z"
+        "imported_at": "2026-08-16T00:10:30.135Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsv1tnjq0006l904ijgcw5fu",
         "text": "RT @BurnhamDC: After @elonmusk bought Twitter, a bunch of advertisers engaged in an illegal group boycott of @X.  The advertisers coordinat…",
         "created_at": "2026-08-16T00:08:57.000Z",
-        "imported_at": "2026-08-16T00:10:30.135Z"
+        "imported_at": "2026-08-16T00:10:30.135Z",
+        "kind": "retweet"
       }
     ],
     "2026-08-17": [
@@ -20822,109 +20874,127 @@
         "id": "cmsxw625n0001ib042z4rj9ub",
         "text": "RT @aaronburnett: 1/2 the turns and 25% of the tokens. Task/Token is something to watch. \n\nIs Grok 4.6 inside Grok Bot? Has this been revea…",
         "created_at": "2026-08-17T23:54:29.000Z",
-        "imported_at": "2026-08-17T23:55:29.772Z"
+        "imported_at": "2026-08-17T23:55:29.772Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsxw625n0002ib04cut7g683",
         "text": "Grok is very good at agentic tasks! https://t.co/qrk4htUMiR",
         "created_at": "2026-08-17T23:53:59.000Z",
-        "imported_at": "2026-08-17T23:55:29.772Z"
+        "imported_at": "2026-08-17T23:55:29.772Z",
+        "kind": "original"
       },
       {
         "id": "cmsxw625n0003ib04qy41bs1r",
         "text": "Create with Grok Imagine https://t.co/lZCN5mkTrP",
         "created_at": "2026-08-17T23:52:17.000Z",
-        "imported_at": "2026-08-17T23:55:29.772Z"
+        "imported_at": "2026-08-17T23:55:29.772Z",
+        "kind": "original"
       },
       {
         "id": "cmsxux25i0000ib04m5a5xsx7",
         "text": "RT @SpaceXAIMemphis: We’re working with Southaven officials on the development of a new police and fire training facility, investing $40 mi…",
         "created_at": "2026-08-17T23:16:33.000Z",
-        "imported_at": "2026-08-17T23:20:30.246Z"
+        "imported_at": "2026-08-17T23:20:30.246Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsxkwz0z0009lg04ie06dy3o",
         "text": "RT @Nate_Esparza: The talent at SpaceXAI is insane 🔥",
         "created_at": "2026-08-17T18:37:30.000Z",
-        "imported_at": "2026-08-17T18:40:30.036Z"
+        "imported_at": "2026-08-17T18:40:30.036Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsxk795t0006lg04xzvmlxo6",
         "text": "Grok 4.6 is smart, super fast &amp; affordable https://t.co/hZp4kxvDl0",
         "created_at": "2026-08-17T18:19:06.000Z",
-        "imported_at": "2026-08-17T18:20:30.113Z"
+        "imported_at": "2026-08-17T18:20:30.113Z",
+        "kind": "original"
       },
       {
         "id": "cmsxk795t0007lg0420xikecu",
         "text": "❤️ https://t.co/V0nZJQof09",
         "created_at": "2026-08-17T18:18:14.000Z",
-        "imported_at": "2026-08-17T18:20:30.113Z"
+        "imported_at": "2026-08-17T18:20:30.113Z",
+        "kind": "original"
       },
       {
         "id": "cmsxg3d2q0001l604fcmlx56e",
         "text": "Grok @Bot https://t.co/uOHhrDDHFf",
         "created_at": "2026-08-17T16:24:57.000Z",
-        "imported_at": "2026-08-17T16:25:30.099Z"
+        "imported_at": "2026-08-17T16:25:30.099Z",
+        "kind": "original"
       },
       {
         "id": "cmswt8b9h0000ii04ez055bq2",
         "text": "RT @yunta_tsai: OMG. I asked my Chief Engineer on Grok @bot to bring up the feature and it's done. 😳\n\nI can text my @maticrobots now throug…",
         "created_at": "2026-08-17T05:42:41.000Z",
-        "imported_at": "2026-08-17T05:45:29.861Z"
+        "imported_at": "2026-08-17T05:45:29.861Z",
+        "kind": "retweet"
       },
       {
         "id": "cmswt8b9h0001ii04m74dbz7i",
         "text": "RT @minchoi: This is literally my new workflow now:\n\nRealtime Research → Grok Bot\nPlanning &amp; Orchestration→ Grok Bot\nDay-to-day Coding/Debu…",
         "created_at": "2026-08-17T05:40:57.000Z",
-        "imported_at": "2026-08-17T05:45:29.861Z"
+        "imported_at": "2026-08-17T05:45:29.861Z",
+        "kind": "retweet"
       },
       {
         "id": "cmswm345m0001l304dn91rjaf",
         "text": "Yes https://t.co/3HkzS1YohB",
         "created_at": "2026-08-17T02:24:41.000Z",
-        "imported_at": "2026-08-17T02:25:30.058Z"
+        "imported_at": "2026-08-17T02:25:30.058Z",
+        "kind": "original"
       },
       {
         "id": "cmswl0izd0000l3043ywavreq",
         "text": "RT @cb_doge: Landing an orbital-class rocket was once considered almost impossible.\n\nSpaceX has now done it 650 times\n\nFirst landing: Decem…",
         "created_at": "2026-08-17T01:54:02.000Z",
-        "imported_at": "2026-08-17T01:55:29.689Z"
+        "imported_at": "2026-08-17T01:55:29.689Z",
+        "kind": "retweet"
       },
       {
         "id": "cmswj2zy10008kv04c17lfda4",
         "text": "RT @Starlink: For those impacted by Hurricane Lala in Hawaii, Starlink is providing free service through September 17 to new and existing c…",
         "created_at": "2026-08-17T00:56:32.000Z",
-        "imported_at": "2026-08-17T01:01:25.747Z"
+        "imported_at": "2026-08-17T01:01:25.747Z",
+        "kind": "retweet"
       },
       {
         "id": "cmswic2ww0006kv044jao93lo",
         "text": "RT @yunta_tsai: https://t.co/gzSYQMPb5f",
         "created_at": "2026-08-17T00:36:27.000Z",
-        "imported_at": "2026-08-17T00:40:29.889Z"
+        "imported_at": "2026-08-17T00:40:29.889Z",
+        "kind": "retweet"
       },
       {
         "id": "cmswic2ww0007kv04fitwuqyo",
         "text": "RT @Starlink: For those impacted by the earthquake in Indonesia, Starlink is providing free service through September 16 to new and existin…",
         "created_at": "2026-08-17T00:35:46.000Z",
-        "imported_at": "2026-08-17T00:40:29.889Z"
+        "imported_at": "2026-08-17T00:40:29.889Z",
+        "kind": "retweet"
       },
       {
         "id": "cmswi5nd50004kv04ff38xrwa",
         "text": "Two major rocket launches almost simultaneously https://t.co/ttv9xWHJYm",
         "created_at": "2026-08-17T00:33:54.000Z",
-        "imported_at": "2026-08-17T00:35:29.801Z"
+        "imported_at": "2026-08-17T00:35:29.801Z",
+        "kind": "original"
       },
       {
         "id": "cmswi5nd50005kv04cazioign",
         "text": "Try Grok @Bot! https://t.co/uOA9aVWGXd",
         "created_at": "2026-08-17T00:33:21.000Z",
-        "imported_at": "2026-08-17T00:35:29.801Z"
+        "imported_at": "2026-08-17T00:35:29.801Z",
+        "kind": "original"
       },
       {
         "id": "cmswi0a390003kv04n0rg6z1l",
         "text": "RT @cb_doge: Tesla Model Y was China’s #1 best-selling midsize SUV last month. 🇨🇳\n\n• 25,158 retail sales\n• #3 best-selling vehicle overall…",
         "created_at": "2026-08-17T00:27:21.000Z",
-        "imported_at": "2026-08-17T00:31:19.318Z"
+        "imported_at": "2026-08-17T00:31:19.318Z",
+        "kind": "retweet"
       }
     ],
     "2026-08-18": [
@@ -20932,211 +21002,246 @@
         "id": "cmsz62m0s0002jo04s83s3rgx",
         "text": "Congrats Giga Shanghai team! https://t.co/5fOZwvgDCL",
         "created_at": "2026-08-18T21:18:38.000Z",
-        "imported_at": "2026-08-18T21:20:31.229Z"
+        "imported_at": "2026-08-18T21:20:31.229Z",
+        "kind": "original"
       },
       {
         "id": "cmsz62m0s0003jo04iteurbv6",
         "text": "RT @ResisttheMS: Elon Musk says Starship could deliver nearly 10 million tons to orbit annually - the kind of scale needed to build a civil…",
         "created_at": "2026-08-18T21:16:30.000Z",
-        "imported_at": "2026-08-18T21:20:31.229Z"
+        "imported_at": "2026-08-18T21:20:31.229Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsz62m0s0004jo0436wrhio2",
         "text": "RT @NWischoff: Grok Bot is unbelievable. Automated 25% of my day to day in less than an hour.",
         "created_at": "2026-08-18T21:16:14.000Z",
-        "imported_at": "2026-08-18T21:20:31.229Z"
+        "imported_at": "2026-08-18T21:20:31.229Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsz5w6n30001jo04rpb8ajtd",
         "text": "There is a potential future that is super amazing is we all fight hard to achieve it",
         "created_at": "2026-08-18T21:12:28.000Z",
-        "imported_at": "2026-08-18T21:15:31.360Z"
+        "imported_at": "2026-08-18T21:15:31.360Z",
+        "kind": "original"
       },
       {
         "id": "cmsz5pr8f0000jo04ejyt22vx",
         "text": "Grok @Bot is super fun https://t.co/cUb2V9nJzC",
         "created_at": "2026-08-18T21:06:51.000Z",
-        "imported_at": "2026-08-18T21:10:31.456Z"
+        "imported_at": "2026-08-18T21:10:31.456Z",
+        "kind": "original"
       },
       {
         "id": "cmsz5jbid000ll10411gvuu89",
         "text": "RT @ScottyBeamIO: WTF, THIS GUY FROM CURSOR GAVE GROK BOT A PILE OF CLOTHES HIS SISTER WAS TOO LAZY TO SELL – AND IT HANDLED THE ENTIRE SAL…",
         "created_at": "2026-08-18T21:04:56.000Z",
-        "imported_at": "2026-08-18T21:05:31.141Z"
+        "imported_at": "2026-08-18T21:05:31.141Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsz5jbid000ml10451cq5557",
         "text": "❤️ https://t.co/7eYWXsQYIa",
         "created_at": "2026-08-18T21:04:11.000Z",
-        "imported_at": "2026-08-18T21:05:31.141Z"
+        "imported_at": "2026-08-18T21:05:31.141Z",
+        "kind": "original"
       },
       {
         "id": "cmsz5cvzb000kl104jwgh4z77",
         "text": "RT @EvaFox: SpaceX will attempt to return Starship to Starbase!\n\nThe SpaceX Recovery team successfully guided Starship near Christmas Islan…",
         "created_at": "2026-08-18T20:59:06.000Z",
-        "imported_at": "2026-08-18T21:00:31.079Z"
+        "imported_at": "2026-08-18T21:00:31.079Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsz56jdq000jl1048ilru1dt",
         "text": "Cool https://t.co/OEmWAnrLjg",
         "created_at": "2026-08-18T20:55:20.000Z",
-        "imported_at": "2026-08-18T20:55:34.815Z"
+        "imported_at": "2026-08-18T20:55:34.815Z",
+        "kind": "original"
       },
       {
         "id": "cmsz56gjl000il104lrlzy9qo",
         "text": "RT @NASAAdmin: @SpaceX Thanks for sharing and bringing us all along for the journey.",
         "created_at": "2026-08-18T20:54:46.000Z",
-        "imported_at": "2026-08-18T20:55:31.137Z"
+        "imported_at": "2026-08-18T20:55:31.137Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsz4gqp4000hl104d1fqmxpc",
         "text": "RT @AlexFinn: Grok Bot is the best AI agent right now\n\nIt gives you an army of agents that can do work for you around the clock 24/7\n\nIf yo…",
         "created_at": "2026-08-18T20:33:19.000Z",
-        "imported_at": "2026-08-18T20:35:31.240Z"
+        "imported_at": "2026-08-18T20:35:31.240Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsz4ab3s000gl1045bwrwd2j",
         "text": "RT @art_muse: Grok Imagine: where magnificent worlds come alive. https://t.co/L99msBT1uz",
         "created_at": "2026-08-18T20:26:47.000Z",
-        "imported_at": "2026-08-18T20:30:31.097Z"
+        "imported_at": "2026-08-18T20:30:31.097Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsz43w2e000fl104rv9wx2vd",
         "text": "Exactly 😂 https://t.co/TQhTYr9peF",
         "created_at": "2026-08-18T20:24:37.000Z",
-        "imported_at": "2026-08-18T20:25:31.670Z"
+        "imported_at": "2026-08-18T20:25:31.670Z",
+        "kind": "original"
       },
       {
         "id": "cmsz3s33u000dl104qjx10gjq",
         "text": "RT @Starlink: Starlink and Roam service plans keep you connected on the go 🛰️🛣️",
         "created_at": "2026-08-18T20:14:47.000Z",
-        "imported_at": "2026-08-18T20:16:20.914Z"
+        "imported_at": "2026-08-18T20:16:20.914Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsz3e5jz000cl104iyp6e33n",
         "text": "RT @cremieuxrecueil: I'm using Grok in the CLI and I've got to say: I'm delighted at its personality.\n\nThe thinking keeps showing comments…",
         "created_at": "2026-08-18T20:03:52.000Z",
-        "imported_at": "2026-08-18T20:05:30.912Z"
+        "imported_at": "2026-08-18T20:05:30.912Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsz37qgy0008l104nh90vktx",
         "text": "RT @nicksortor: 🚨 BREAKING: The \"trans\" guy who traveled DC intending to KlLL Scott Bessent has been sentenced to 73 months in prison\n\nTran…",
         "created_at": "2026-08-18T19:59:30.000Z",
-        "imported_at": "2026-08-18T20:00:31.427Z"
+        "imported_at": "2026-08-18T20:00:31.427Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsz37qgy0009l104hxbk8jkk",
         "text": "RT @EvaFox: Elon Musk and SpaceX have been true champions for Ukraine since day one of the full-scale invasion. Immediately after the russi…",
         "created_at": "2026-08-18T19:59:15.000Z",
-        "imported_at": "2026-08-18T20:00:31.427Z"
+        "imported_at": "2026-08-18T20:00:31.427Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsz37qgy000al104aws7nhtv",
         "text": "RT @TheRabbitHole: Reporter: You good with mass migration?\n\nDalai Lama: Nope lol https://t.co/zUPX3HopsB",
         "created_at": "2026-08-18T19:59:06.000Z",
-        "imported_at": "2026-08-18T20:00:31.427Z"
+        "imported_at": "2026-08-18T20:00:31.427Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsz37qgy000bl104vpvuv10p",
         "text": "Improvements to Grok @Bot https://t.co/nbZl2ZC8Kp",
         "created_at": "2026-08-18T19:56:50.000Z",
-        "imported_at": "2026-08-18T20:00:31.427Z"
+        "imported_at": "2026-08-18T20:00:31.427Z",
+        "kind": "original"
       },
       {
         "id": "cmsyz3vna0005i8049gx8wzmg",
         "text": "Wow, this is an all-star lineup! https://t.co/px0DhOIxup",
         "created_at": "2026-08-18T18:00:34.000Z",
-        "imported_at": "2026-08-18T18:05:33.047Z"
+        "imported_at": "2026-08-18T18:05:33.047Z",
+        "kind": "original"
       },
       {
         "id": "cmsywfd630006kz04cpfmknn3",
         "text": "RT @KanekoaTheGreat: 🚨Starlink is providing free internet service through Sept. 17 to customers in Hawaii impacted by Hurricane Lala.\n\nSpac…",
         "created_at": "2026-08-18T16:45:27.000Z",
-        "imported_at": "2026-08-18T16:50:30.124Z"
+        "imported_at": "2026-08-18T16:50:30.124Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsyw8xgl0004kz0434wssm5g",
         "text": "🎯 https://t.co/eyF07nkVSW",
         "created_at": "2026-08-18T16:40:52.000Z",
-        "imported_at": "2026-08-18T16:45:29.830Z"
+        "imported_at": "2026-08-18T16:45:29.830Z",
+        "kind": "original"
       },
       {
         "id": "cmsyw8xgl0005kz04vzbgv1ml",
         "text": "Try Grok 4.6!\n\nGrok 4.7, which is a major upgrade, is coming soon. https://t.co/9rArux5aOL",
         "created_at": "2026-08-18T16:40:27.000Z",
-        "imported_at": "2026-08-18T16:45:29.830Z"
+        "imported_at": "2026-08-18T16:45:29.830Z",
+        "kind": "original"
       },
       {
         "id": "cmsyvqucf0003kz042rz62xu2",
         "text": "RT @_info2019: 73% of women on the titanic survived. \n\nOnly 19% of men did. \n\n Read that again. \n\nEven the richest men alive, class, power,…",
         "created_at": "2026-08-18T16:27:32.000Z",
-        "imported_at": "2026-08-18T16:31:25.974Z"
+        "imported_at": "2026-08-18T16:31:25.974Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsyvj7ij0002kz04kbkqvm5v",
         "text": "Yes https://t.co/VNNRntMeWq",
         "created_at": "2026-08-18T16:22:21.000Z",
-        "imported_at": "2026-08-18T16:25:29.803Z"
+        "imported_at": "2026-08-18T16:25:29.803Z",
+        "kind": "original"
       },
       {
         "id": "cmsyuzx9n0001kz04495gkaez",
         "text": "It will be much bigger https://t.co/tswcamH6qI",
         "created_at": "2026-08-18T16:07:13.000Z",
-        "imported_at": "2026-08-18T16:10:30.060Z"
+        "imported_at": "2026-08-18T16:10:30.060Z",
+        "kind": "original"
       },
       {
         "id": "cmsyuthfp0000kz04fr2ar7ic",
         "text": "So much has been built since then! https://t.co/ZNZypFbN1a",
         "created_at": "2026-08-18T16:05:00.000Z",
-        "imported_at": "2026-08-18T16:05:29.606Z"
+        "imported_at": "2026-08-18T16:05:29.606Z",
+        "kind": "original"
       },
       {
         "id": "cmsysbgtu0000l6045dhgbms9",
         "text": "RT @cb_doge: BREAKING: Starlink has now partnered with 48 airlines worldwide, covering more than 7,000 aircraft that are already equipped,…",
         "created_at": "2026-08-18T14:51:18.000Z",
-        "imported_at": "2026-08-18T14:55:29.778Z"
+        "imported_at": "2026-08-18T14:55:29.778Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsyr8x7h0003i504r3ukzv7u",
         "text": "Grok https://t.co/MqnqbhWXQH",
         "created_at": "2026-08-18T14:23:35.000Z",
-        "imported_at": "2026-08-18T14:25:31.421Z"
+        "imported_at": "2026-08-18T14:25:31.421Z",
+        "kind": "original"
       },
       {
         "id": "cmsyqw1fn0002i5048ri408wt",
         "text": "Starship Flight 13 is being recovered from sea https://t.co/cfdIhk8BLN",
         "created_at": "2026-08-18T14:12:33.000Z",
-        "imported_at": "2026-08-18T14:15:30.371Z"
+        "imported_at": "2026-08-18T14:15:30.371Z",
+        "kind": "original"
       },
       {
         "id": "cmsy97ge00000k004qcpiiajj",
         "text": "Grok 4.6 takes top spot on this benchmark https://t.co/ucAZCEkjIf",
         "created_at": "2026-08-18T05:58:24.000Z",
-        "imported_at": "2026-08-18T06:00:29.881Z"
+        "imported_at": "2026-08-18T06:00:29.881Z",
+        "kind": "original"
       },
       {
         "id": "cmsy78py20001jp04802mvabk",
         "text": "RT @vikvang1: Grok 4.6 is my daily driver now. This is why:\n\nWhen I’m using interactive agents in a CLI/terminal (or even Slack), what matt…",
         "created_at": "2026-08-18T05:03:39.000Z",
-        "imported_at": "2026-08-18T05:05:29.691Z"
+        "imported_at": "2026-08-18T05:05:29.691Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsy73tgs0000jp04utax36x8",
         "text": "Grok @Bot https://t.co/T8u3miIjQm",
         "created_at": "2026-08-18T05:01:27.000Z",
-        "imported_at": "2026-08-18T05:01:40.972Z"
+        "imported_at": "2026-08-18T05:01:40.972Z",
+        "kind": "original"
       },
       {
         "id": "cmsy6pfm10000ju04s2qms8vh",
         "text": "Sync to Origin https://t.co/0quEMdnGbr",
         "created_at": "2026-08-18T04:48:28.000Z",
-        "imported_at": "2026-08-18T04:50:29.834Z"
+        "imported_at": "2026-08-18T04:50:29.834Z",
+        "kind": "original"
       },
       {
         "id": "cmsy1vty90000ig04vj0gvarb",
         "text": "RT @imagine: Create a full scene with Grok Imagine for a chance to win 👇",
         "created_at": "2026-08-18T02:35:16.000Z",
-        "imported_at": "2026-08-18T02:35:30.274Z"
+        "imported_at": "2026-08-18T02:35:30.274Z",
+        "kind": "retweet"
       }
     ],
     "2026-08-19": [
@@ -21144,457 +21249,533 @@
         "id": "cmt0pssgx0005ju04hu2e2o9k",
         "text": "RT @XFreeze: Grok Build just got a new update bringing a first-class workflows catalog, Always and Never allow on permission prompts, a liv…",
         "created_at": "2026-08-19T23:15:48.000Z",
-        "imported_at": "2026-08-19T23:20:31.522Z"
+        "imported_at": "2026-08-19T23:20:31.522Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt0gva14000fjn04uv9u1tn8",
         "text": "He committed serious crimes, as did Fauci https://t.co/6V43sIqIib",
         "created_at": "2026-08-19T19:10:08.000Z",
-        "imported_at": "2026-08-19T19:10:31.048Z"
+        "imported_at": "2026-08-19T19:10:31.048Z",
+        "kind": "original"
       },
       {
         "id": "cmt0gouk9000cjn04kbjtj1j5",
         "text": "RT @rustyrockets: Does this change everything?",
         "created_at": "2026-08-19T19:01:18.000Z",
-        "imported_at": "2026-08-19T19:05:31.066Z"
+        "imported_at": "2026-08-19T19:05:31.066Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt0gjhhd0009jn049bg5sewg",
         "text": "Yep. https://t.co/mdkU5Q8MNT",
         "created_at": "2026-08-19T19:00:45.000Z",
-        "imported_at": "2026-08-19T19:01:20.826Z"
+        "imported_at": "2026-08-19T19:01:20.826Z",
+        "kind": "original"
       },
       {
         "id": "cmt0gjhhd000ajn04fe41s80a",
         "text": "True https://t.co/3ny9iMsS4a",
         "created_at": "2026-08-19T18:59:53.000Z",
-        "imported_at": "2026-08-19T19:01:20.826Z"
+        "imported_at": "2026-08-19T19:01:20.826Z",
+        "kind": "original"
       },
       {
         "id": "cmt0gjhhd000bjn0414tm848f",
         "text": "RT @RohdeC94470: @elonmusk 100 % https://t.co/UzcQX6lToi",
         "created_at": "2026-08-19T18:55:55.000Z",
-        "imported_at": "2026-08-19T19:01:20.826Z"
+        "imported_at": "2026-08-19T19:01:20.826Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt0gbzl20005jn04pxuk8pei",
         "text": "RT @BigCFinancial: @mattvanswol @elonmusk There was no intent\nThere was no motive \nChauvin was doing textbook restraint procedures\nThe rest…",
         "created_at": "2026-08-19T18:54:55.000Z",
-        "imported_at": "2026-08-19T18:55:31.046Z"
+        "imported_at": "2026-08-19T18:55:31.046Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt0gbzl20006jn047e9b9lip",
         "text": "RT @mattvanswol: @elonmusk George Floyd died of an overdose. \n\nI agree, Derek Chauvin should be freed.",
         "created_at": "2026-08-19T18:54:43.000Z",
-        "imported_at": "2026-08-19T18:55:31.046Z"
+        "imported_at": "2026-08-19T18:55:31.046Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt0gbzl20007jn040bxo2q0s",
         "text": "RT @BasedMikeLee: @elonmusk @DearAbbieNormal 🎯",
         "created_at": "2026-08-19T18:54:33.000Z",
-        "imported_at": "2026-08-19T18:55:31.046Z"
+        "imported_at": "2026-08-19T18:55:31.046Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt0gbzl20008jn04opxz1141",
         "text": "Nonetheless, it is true. https://t.co/mDz7XpQZzF",
         "created_at": "2026-08-19T18:54:13.000Z",
-        "imported_at": "2026-08-19T18:55:31.046Z"
+        "imported_at": "2026-08-19T18:55:31.046Z",
+        "kind": "original"
       },
       {
         "id": "cmt0fz4us0002jn04ydv3ulbm",
         "text": "RT @elonmusk: @Jason Synthetic RNA will cure many diseases",
         "created_at": "2026-08-19T18:45:08.000Z",
-        "imported_at": "2026-08-19T18:45:31.348Z"
+        "imported_at": "2026-08-19T18:45:31.348Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt0fm9mu0000jn04zgfrexn9",
         "text": "True https://t.co/uHDjPLy4EI",
         "created_at": "2026-08-19T18:33:04.000Z",
-        "imported_at": "2026-08-19T18:35:31.014Z"
+        "imported_at": "2026-08-19T18:35:31.014Z",
+        "kind": "original"
       },
       {
         "id": "cmt0fm9mu0001jn04btgruzmc",
         "text": "RT @JTAlexander: This is a legitimate societal concern. https://t.co/LN2ZWO3JwD",
         "created_at": "2026-08-19T18:32:03.000Z",
-        "imported_at": "2026-08-19T18:35:31.014Z"
+        "imported_at": "2026-08-19T18:35:31.014Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt0ewjq20012l804pq5cxvpd",
         "text": "Yes https://t.co/amAiZch58k",
         "created_at": "2026-08-19T18:13:35.000Z",
-        "imported_at": "2026-08-19T18:15:31.035Z"
+        "imported_at": "2026-08-19T18:15:31.035Z",
+        "kind": "original"
       },
       {
         "id": "cmt0eq4d60010l804zm7kbb4a",
         "text": "Nothing is guaranteed https://t.co/Pykv7610E7 https://t.co/1W45VbQrol",
         "created_at": "2026-08-19T18:07:09.000Z",
-        "imported_at": "2026-08-19T18:10:31.194Z"
+        "imported_at": "2026-08-19T18:10:31.194Z",
+        "kind": "original"
       },
       {
         "id": "cmt0ed9jk000wl804zf384stj",
         "text": "Derek Chauvin was unjustly convicted of murder, therefore he should be freed. \n\nThe facts show that he was not the cause of death, nor did he at any time intend for a death to occur. Whatever else he may be, he is not a murderer. \n\nThat is the truth.",
         "created_at": "2026-08-19T17:58:10.000Z",
-        "imported_at": "2026-08-19T18:00:31.376Z"
+        "imported_at": "2026-08-19T18:00:31.376Z",
+        "kind": "original"
       },
       {
         "id": "cmt0e6tqw000ul804zy50apu3",
         "text": "AfD is the only hope for Germany https://t.co/6ONn1LOipE",
         "created_at": "2026-08-19T17:53:14.000Z",
-        "imported_at": "2026-08-19T17:55:30.968Z"
+        "imported_at": "2026-08-19T17:55:30.968Z",
+        "kind": "original"
       },
       {
         "id": "cmt0e6tqw000vl804skfdlonw",
         "text": "True https://t.co/GkcohcljNQ",
         "created_at": "2026-08-19T17:52:18.000Z",
-        "imported_at": "2026-08-19T17:55:30.968Z"
+        "imported_at": "2026-08-19T17:55:30.968Z",
+        "kind": "original"
       },
       {
         "id": "cmt0e0etl000ql804fveg2mog",
         "text": "RT @cremieuxrecueil: I just want everyone to know that the first exposure the Plymouth Colony Pilgrims had with Native Americans was...\n\nSa…",
         "created_at": "2026-08-19T17:47:39.000Z",
-        "imported_at": "2026-08-19T17:50:31.690Z"
+        "imported_at": "2026-08-19T17:50:31.690Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt0e0etl000rl804u5uk3l5c",
         "text": "They send you to prison for memes https://t.co/a8NRA4dZHs",
         "created_at": "2026-08-19T17:45:41.000Z",
-        "imported_at": "2026-08-19T17:50:31.690Z"
+        "imported_at": "2026-08-19T17:50:31.690Z",
+        "kind": "original"
       },
       {
         "id": "cmt0dtz8h000ml804oiwub69v",
         "text": "Grok Voice https://t.co/0vSyOsgkqg",
         "created_at": "2026-08-19T17:43:08.000Z",
-        "imported_at": "2026-08-19T17:45:31.554Z"
+        "imported_at": "2026-08-19T17:45:31.554Z",
+        "kind": "original"
       },
       {
         "id": "cmt0cre9w000al804gd0vncdt",
         "text": "RT @Starlink: The next generation Starlink V5 has a smaller form factor and lightweight design with greater power efficiency.\n\nWith speeds…",
         "created_at": "2026-08-19T17:13:45.000Z",
-        "imported_at": "2026-08-19T17:15:31.460Z"
+        "imported_at": "2026-08-19T17:15:31.460Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt0cre9w000bl8049ze86jfu",
         "text": "RT @aiedge_: This is actually insane.\n\nThe website has HUNDREDS of FREE Grok Bots available for download.\n\nI went through the entire site a…",
         "created_at": "2026-08-19T17:13:29.000Z",
-        "imported_at": "2026-08-19T17:15:31.460Z"
+        "imported_at": "2026-08-19T17:15:31.460Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt0c1oh60007l8042weyvaah",
         "text": "RT @dvorahfr: 1- You can have Grok speak in your language; he speaks perfectly with the right accent.\n(here in french)\n2- You can build a l…",
         "created_at": "2026-08-19T16:54:13.000Z",
-        "imported_at": "2026-08-19T16:55:31.626Z"
+        "imported_at": "2026-08-19T16:55:31.626Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt0bby810006l804jmz376is",
         "text": "I warned them. It will get much worse. https://t.co/0agUpcJziE",
         "created_at": "2026-08-19T16:33:20.000Z",
-        "imported_at": "2026-08-19T16:35:31.201Z"
+        "imported_at": "2026-08-19T16:35:31.201Z",
+        "kind": "original"
       },
       {
         "id": "cmt0b6pmh0004l804dhy1dpyo",
         "text": "Try Grok Build for serious work \n\nhttps://t.co/ppqui4IwBU https://t.co/bMrx6TvJ55",
         "created_at": "2026-08-19T16:29:29.000Z",
-        "imported_at": "2026-08-19T16:31:26.769Z"
+        "imported_at": "2026-08-19T16:31:26.769Z",
+        "kind": "original"
       },
       {
         "id": "cmt09wijz000jl204ovu9qxx0",
         "text": "RT @SawyerMerritt: SpaceX has officially crossed 11,000 Starlink satellites in orbit. They've added 1,300 satellites to the constellation s…",
         "created_at": "2026-08-19T15:55:11.000Z",
-        "imported_at": "2026-08-19T15:55:31.440Z"
+        "imported_at": "2026-08-19T15:55:31.440Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt09q30g000hl204e9q0bysj",
         "text": "RT @ThomasSowell: Charlie Kirk: “If you’re studying economics and they’re not teaching Thomas Sowell, you’re not getting an education. You’…",
         "created_at": "2026-08-19T15:49:15.000Z",
-        "imported_at": "2026-08-19T15:50:31.360Z"
+        "imported_at": "2026-08-19T15:50:31.360Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt09jnj7000dl204jwyi7dxe",
         "text": "RT @XFreeze: Starlink is becoming a major part of commercial shipping too \n\nHyundai Glovis has now installed Starlink on 45 of its 47 compa…",
         "created_at": "2026-08-19T15:43:30.000Z",
-        "imported_at": "2026-08-19T15:45:31.363Z"
+        "imported_at": "2026-08-19T15:45:31.363Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt09jnj7000el20443r9pye9",
         "text": "Playing Incognito https://t.co/OVdNqfxSnZ",
         "created_at": "2026-08-19T15:41:07.000Z",
-        "imported_at": "2026-08-19T15:45:31.363Z"
+        "imported_at": "2026-08-19T15:45:31.363Z",
+        "kind": "original"
       },
       {
         "id": "cmt096sfs000al204b6jvp5bb",
         "text": "True https://t.co/rpyj6SCDYt",
         "created_at": "2026-08-19T15:34:28.000Z",
-        "imported_at": "2026-08-19T15:35:31.193Z"
+        "imported_at": "2026-08-19T15:35:31.193Z",
+        "kind": "original"
       },
       {
         "id": "cmt096sfs000bl204uc9zmjta",
         "text": "Grok 4.6 now on Bedrock https://t.co/y05D18UCvY",
         "created_at": "2026-08-19T15:33:21.000Z",
-        "imported_at": "2026-08-19T15:35:31.193Z"
+        "imported_at": "2026-08-19T15:35:31.193Z",
+        "kind": "original"
       },
       {
         "id": "cmt096sfs000cl204ykupl4ao",
         "text": "RT @milichab: Grok 4.6 is now available on Amazon Bedrock",
         "created_at": "2026-08-19T15:33:07.000Z",
-        "imported_at": "2026-08-19T15:35:31.193Z"
+        "imported_at": "2026-08-19T15:35:31.193Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt08ni190008l204a70qa66d",
         "text": "RT @StarshipGazer: Starship 43's nose cone and payload section has been moved into megabay 2 to begin stacking and assembly. This will be t…",
         "created_at": "2026-08-19T15:17:52.000Z",
-        "imported_at": "2026-08-19T15:20:31.245Z"
+        "imported_at": "2026-08-19T15:20:31.245Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt08ni190009l20440iivgxb",
         "text": "RT @Starlink: Starlink’s high-speed internet is now available onboard @lufthansa 🛰️✈️ https://t.co/KswsHNGk3t",
         "created_at": "2026-08-19T15:16:51.000Z",
-        "imported_at": "2026-08-19T15:20:31.245Z"
+        "imported_at": "2026-08-19T15:20:31.245Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt08h2ka0007l204izs0fb1b",
         "text": "Starlink on @lufthansa https://t.co/L3SJC9OC9l",
         "created_at": "2026-08-19T15:11:25.000Z",
-        "imported_at": "2026-08-19T15:15:31.258Z"
+        "imported_at": "2026-08-19T15:15:31.258Z",
+        "kind": "original"
       },
       {
         "id": "cmt084cfb0006l204p56tudu1",
         "text": "RT @Liv_Boeree: “Create a random image inspired by my X account”\n\nGood job Grok, on point! https://t.co/yVplhgVAoT",
         "created_at": "2026-08-19T15:05:15.000Z",
-        "imported_at": "2026-08-19T15:05:37.512Z"
+        "imported_at": "2026-08-19T15:05:37.512Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt07xs1y0005l204k83l8y3f",
         "text": "RT @cb_doge: BREAKING: Vodacom Lesotho has officially launched a new enterprise connectivity solution powered by @Starlink.\n\nThe service de…",
         "created_at": "2026-08-19T14:55:58.000Z",
-        "imported_at": "2026-08-19T15:00:31.175Z"
+        "imported_at": "2026-08-19T15:00:31.175Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt07rcsa0003l2040qbjzxnn",
         "text": "One sat at a time https://t.co/Fb2dXao8HX",
         "created_at": "2026-08-19T14:52:55.000Z",
-        "imported_at": "2026-08-19T14:55:31.451Z"
+        "imported_at": "2026-08-19T14:55:31.451Z",
+        "kind": "original"
       },
       {
         "id": "cmt06icn80000l204zb81o65a",
         "text": "RT @cb_doge: BREAKING: SpaceX’s Starlink constellation has surpassed 11,000 satellites in orbit for the first time.\n\nToday’s successful dep…",
         "created_at": "2026-08-19T14:20:14.000Z",
-        "imported_at": "2026-08-19T14:20:31.748Z"
+        "imported_at": "2026-08-19T14:20:31.748Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt06icn80001l204zpxqqv74",
         "text": "RT @cb_doge: Starship is drawing crowds on Christmas Island.\n\nLocals gathered along the coast to watch the massive Starship being towed int…",
         "created_at": "2026-08-19T14:17:14.000Z",
-        "imported_at": "2026-08-19T14:20:31.748Z"
+        "imported_at": "2026-08-19T14:20:31.748Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt06bwx00009ie048kimhj0r",
         "text": "RT @mayemusk: I love it. Thank you. 🤗",
         "created_at": "2026-08-19T14:15:13.000Z",
-        "imported_at": "2026-08-19T14:15:31.428Z"
+        "imported_at": "2026-08-19T14:15:31.428Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt06bwx0000aie04gh6nw8fs",
         "text": "Share your Grok @Bot design with others! https://t.co/7Ouxz5V0iq",
         "created_at": "2026-08-19T14:13:28.000Z",
-        "imported_at": "2026-08-19T14:15:31.428Z"
+        "imported_at": "2026-08-19T14:15:31.428Z",
+        "kind": "original"
       },
       {
         "id": "cmt06bwx0000bie04dgfx4hon",
         "text": "Grok @Bot is the Chuck Norris of bots 😂 https://t.co/kuLRHaxddE",
         "created_at": "2026-08-19T14:11:35.000Z",
-        "imported_at": "2026-08-19T14:15:31.428Z"
+        "imported_at": "2026-08-19T14:15:31.428Z",
+        "kind": "original"
       },
       {
         "id": "cmt065hd00007ie04q21vovo1",
         "text": "Make an instant one-person company with @Grok @Bot https://t.co/0IuN1A31NZ",
         "created_at": "2026-08-19T14:09:19.000Z",
-        "imported_at": "2026-08-19T14:10:31.333Z"
+        "imported_at": "2026-08-19T14:10:31.333Z",
+        "kind": "original"
       },
       {
         "id": "cmt065hd00008ie04vvp3fl5t",
         "text": "Grok 4.6 is #1 on healthcare questions https://t.co/EeOcAUO0WN",
         "created_at": "2026-08-19T14:07:40.000Z",
-        "imported_at": "2026-08-19T14:10:31.333Z"
+        "imported_at": "2026-08-19T14:10:31.333Z",
+        "kind": "original"
       },
       {
         "id": "cmszuwds50003k004zhoh53mv",
         "text": "RT @RoundtableSpace: Grok Bot is the best AI agent right now and a full walkthrough just dropped covering setup, use cases and plugins.\n\nAn…",
         "created_at": "2026-08-19T08:54:12.000Z",
-        "imported_at": "2026-08-19T08:55:31.014Z"
+        "imported_at": "2026-08-19T08:55:31.014Z",
+        "kind": "retweet"
       },
       {
         "id": "cmszuwds50004k004m9l4fzc4",
         "text": "RT @LaceyPresley: I just built a brand-new landing page for my music and podcasts in only 10 minutes using Grok Build.\n\nIt’s live in my bio…",
         "created_at": "2026-08-19T08:52:19.000Z",
-        "imported_at": "2026-08-19T08:55:31.014Z"
+        "imported_at": "2026-08-19T08:55:31.014Z",
+        "kind": "retweet"
       },
       {
         "id": "cmszupyar0001k004gr6stajm",
         "text": "So many “historical” movies that are a pack of lies https://t.co/CaAL0LIuAu",
         "created_at": "2026-08-19T08:49:30.000Z",
-        "imported_at": "2026-08-19T08:50:31.011Z"
+        "imported_at": "2026-08-19T08:50:31.011Z",
+        "kind": "original"
       },
       {
         "id": "cmszupyar0002k0044t4gz3ay",
         "text": "100 https://t.co/6UWDXSsNrv",
         "created_at": "2026-08-19T08:45:46.000Z",
-        "imported_at": "2026-08-19T08:50:31.011Z"
+        "imported_at": "2026-08-19T08:50:31.011Z",
+        "kind": "original"
       },
       {
         "id": "cmszu6nsd0000k004of4edpoy",
         "text": "Odyssey bloopers by Grok Imagine https://t.co/nJ2Ha19cHO",
         "created_at": "2026-08-19T08:33:39.000Z",
-        "imported_at": "2026-08-19T08:35:30.926Z"
+        "imported_at": "2026-08-19T08:35:30.926Z",
+        "kind": "original"
       },
       {
         "id": "cmsztaik30005l204jqx3cbsy",
         "text": "No kidding … https://t.co/qcsbQ0ZX5f",
         "created_at": "2026-08-19T08:09:33.000Z",
-        "imported_at": "2026-08-19T08:10:31.155Z"
+        "imported_at": "2026-08-19T08:10:31.155Z",
+        "kind": "original"
       },
       {
         "id": "cmsztaik30006l204wvqwbptc",
         "text": "RT @SpaceX: Falcon 9 launches 24 @Starlink satellites from California https://t.co/UscpmAxDls",
         "created_at": "2026-08-19T08:06:37.000Z",
-        "imported_at": "2026-08-19T08:10:31.155Z"
+        "imported_at": "2026-08-19T08:10:31.155Z",
+        "kind": "retweet"
       },
       {
         "id": "cmszrv2nr0004l204pizair8g",
         "text": "Indeed https://t.co/Ite23T56EF",
         "created_at": "2026-08-19T07:27:05.000Z",
-        "imported_at": "2026-08-19T07:30:31.095Z"
+        "imported_at": "2026-08-19T07:30:31.095Z",
+        "kind": "original"
       },
       {
         "id": "cmszqm29l0003l2043hekq5gy",
         "text": "Specialist AI’s (single language, single area of knowledge) are another 100X https://t.co/1CECpZaSGD",
         "created_at": "2026-08-19T06:53:13.000Z",
-        "imported_at": "2026-08-19T06:55:31.065Z"
+        "imported_at": "2026-08-19T06:55:31.065Z",
+        "kind": "original"
       },
       {
         "id": "cmszpwcl50000l204fuo4j2uk",
         "text": "What’s ur @Bots? https://t.co/KIrgibiUsx",
         "created_at": "2026-08-19T06:30:27.000Z",
-        "imported_at": "2026-08-19T06:35:31.385Z"
+        "imported_at": "2026-08-19T06:35:31.385Z",
+        "kind": "original"
       },
       {
         "id": "cmszotrr3000gju04l8mmixoi",
         "text": "RT @XFreeze: https://t.co/8XChOBTRDt",
         "created_at": "2026-08-19T06:01:47.000Z",
-        "imported_at": "2026-08-19T06:05:31.455Z"
+        "imported_at": "2026-08-19T06:05:31.455Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsznxm16000fju042p0z85ic",
         "text": "Clear your email with @Grok @Bot https://t.co/2VVCYRihZL",
         "created_at": "2026-08-19T05:38:22.000Z",
-        "imported_at": "2026-08-19T05:40:31.050Z"
+        "imported_at": "2026-08-19T05:40:31.050Z",
+        "kind": "original"
       },
       {
         "id": "cmsznr6pv000cju04zvp7uux4",
         "text": "Yes https://t.co/V6n2ZI68YK",
         "created_at": "2026-08-19T05:32:30.000Z",
-        "imported_at": "2026-08-19T05:35:31.267Z"
+        "imported_at": "2026-08-19T05:35:31.267Z",
+        "kind": "original"
       },
       {
         "id": "cmsznr6pv000dju04mqmld23b",
         "text": "RT @tesla_semi: Updated Tesla Semi page now live\n \n– Cheaper to run than diesel: with lower energy cost &amp; far fewer parts to maintain, Semi…",
         "created_at": "2026-08-19T05:32:10.000Z",
-        "imported_at": "2026-08-19T05:35:31.267Z"
+        "imported_at": "2026-08-19T05:35:31.267Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsznr6pv000eju04jf5t7akq",
         "text": "True https://t.co/euPLgQe3Nq",
         "created_at": "2026-08-19T05:31:38.000Z",
-        "imported_at": "2026-08-19T05:35:31.267Z"
+        "imported_at": "2026-08-19T05:35:31.267Z",
+        "kind": "original"
       },
       {
         "id": "cmsznkr3w0009ju04bhn109gx",
         "text": "RT @BlakeKing777: Accepted @wholemars challenge and tried Grok Bot.\n\nI have zero coding experience. My earlier attempt at OpenClaw went now…",
         "created_at": "2026-08-19T05:26:34.000Z",
-        "imported_at": "2026-08-19T05:30:31.101Z"
+        "imported_at": "2026-08-19T05:30:31.101Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsznkr3w000aju04ucxsjbtl",
         "text": "RT @kamellperry_: I’ve finally had the chance to play with Grok 4.6 today after exhausting all of my Codex usage.\n\nGrok Build + 4.6 has bee…",
         "created_at": "2026-08-19T05:26:04.000Z",
-        "imported_at": "2026-08-19T05:30:31.101Z"
+        "imported_at": "2026-08-19T05:30:31.101Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsznkr3w000bju04ke95zgl6",
         "text": "RT @farzyness: I think folks are going to be stunned by how quickly Grok starts generating massive revenue for SpaceX.\n\nGrok Bot is easily…",
         "created_at": "2026-08-19T05:25:29.000Z",
-        "imported_at": "2026-08-19T05:30:31.101Z"
+        "imported_at": "2026-08-19T05:30:31.101Z",
+        "kind": "retweet"
       },
       {
         "id": "cmsznebm10008ju04s3ii0fsg",
         "text": "RT @doodlestein: I have to say, Grok 4.6 with the grok build harness is probably the best all-around, value-for-money subscription out ther…",
         "created_at": "2026-08-19T05:20:33.000Z",
-        "imported_at": "2026-08-19T05:25:31.082Z"
+        "imported_at": "2026-08-19T05:25:31.082Z",
+        "kind": "retweet"
       },
       {
         "id": "cmszlsgd20005ju04nm78c7xm",
         "text": "RT @mattyp: https://t.co/RZvOGGyunU",
         "created_at": "2026-08-19T04:38:19.000Z",
-        "imported_at": "2026-08-19T04:40:31.190Z"
+        "imported_at": "2026-08-19T04:40:31.190Z",
+        "kind": "retweet"
       },
       {
         "id": "cmszlsgd20006ju04cmr06040",
         "text": "RT @jgebbia: Nothing to see here 👀",
         "created_at": "2026-08-19T04:37:50.000Z",
-        "imported_at": "2026-08-19T04:40:31.190Z"
+        "imported_at": "2026-08-19T04:40:31.190Z",
+        "kind": "retweet"
       },
       {
         "id": "cmszlsgd20007ju04cn7a3tlg",
         "text": "Yeah https://t.co/lDNkbLYmQy",
         "created_at": "2026-08-19T04:37:37.000Z",
-        "imported_at": "2026-08-19T04:40:31.190Z"
+        "imported_at": "2026-08-19T04:40:31.190Z",
+        "kind": "original"
       },
       {
         "id": "cmszl95ra0003ju04s3vonfqf",
         "text": "RT @SpaceX: Watch Falcon 9 launch 24 @Starlink satellites to orbit from California\nhttps://t.co/jH8i36Xtzh",
         "created_at": "2026-08-19T04:24:23.000Z",
-        "imported_at": "2026-08-19T04:25:30.983Z"
+        "imported_at": "2026-08-19T04:25:30.983Z",
+        "kind": "retweet"
       },
       {
         "id": "cmszl95ra0004ju04roxc9ayj",
         "text": "😂 @Grok @Bot https://t.co/eOXGSYm5oi",
         "created_at": "2026-08-19T04:24:13.000Z",
-        "imported_at": "2026-08-19T04:25:30.983Z"
+        "imported_at": "2026-08-19T04:25:30.983Z",
+        "kind": "original"
       },
       {
         "id": "cmszl2ro90000ju04hn0fjh76",
         "text": "RT @the_jefferymead: This is a perfect case showing the LIE that Republicans don’t like black people.\n\nRepublicans literally elected a blac…",
         "created_at": "2026-08-19T04:18:34.000Z",
-        "imported_at": "2026-08-19T04:20:32.794Z"
+        "imported_at": "2026-08-19T04:20:32.794Z",
+        "kind": "retweet"
       },
       {
         "id": "cmszl2ro90001ju0484kzkyx6",
         "text": "RT @howardlutnick: The Department of Commerce’s Census Bureau just released its analysis showing more than 24,000 noncitizens illegally vot…",
         "created_at": "2026-08-19T04:18:17.000Z",
-        "imported_at": "2026-08-19T04:20:32.794Z"
+        "imported_at": "2026-08-19T04:20:32.794Z",
+        "kind": "retweet"
       },
       {
         "id": "cmszl2ro90002ju04kk458k60",
         "text": "RT @toddsaunders: I’m currently having @bot do some things for me that I’ve been putting off forever.\n\nIt’s pretty incredible.\n\n1/ Unsubscr…",
         "created_at": "2026-08-19T04:17:47.000Z",
-        "imported_at": "2026-08-19T04:20:32.794Z"
+        "imported_at": "2026-08-19T04:20:32.794Z",
+        "kind": "retweet"
       },
       {
         "id": "cmszkwb2q0001l704r2oy0um7",
         "text": "RT @ScottPresler: HOLY COW \n\nI cannot believe this is real. \n\nEverything we told you about vouching in Minnesota is correct. \n\n“A registere…",
         "created_at": "2026-08-19T04:14:55.000Z",
-        "imported_at": "2026-08-19T04:15:31.346Z"
+        "imported_at": "2026-08-19T04:15:31.346Z",
+        "kind": "retweet"
       },
       {
         "id": "cmszdxm600001ld04a8rs76zj",
         "text": "RT @MarioNawfal: 🇺🇸 Fauci’s longtime right-hand man just pled guilty to conspiring to defraud the U.S.\n\nDavid Morens spent years helping bu…",
         "created_at": "2026-08-19T01:00:16.000Z",
-        "imported_at": "2026-08-19T01:00:35.064Z"
+        "imported_at": "2026-08-19T01:00:35.064Z",
+        "kind": "retweet"
       },
       {
         "id": "cmszdxja60000ld04zuijqfwa",
         "text": "RT @Starlink: Starlink is delivering reliable connectivity onboard @hyundaiglovis vessels, enabling efficient operations, rapid emergency c…",
         "created_at": "2026-08-19T00:58:31.000Z",
-        "imported_at": "2026-08-19T01:00:31.326Z"
+        "imported_at": "2026-08-19T01:00:31.326Z",
+        "kind": "retweet"
       }
     ],
     "2026-08-20": [
@@ -21602,493 +21783,575 @@
         "id": "cmt26ho090009l9045g2gdus0",
         "text": "RT @mkratsios47: Today @POTUS signed a new National Space Transportation Policy, one that meets this moment of explosive growth and positio…",
         "created_at": "2026-08-20T23:53:29.000Z",
-        "imported_at": "2026-08-20T23:55:32.169Z"
+        "imported_at": "2026-08-20T23:55:32.169Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt26ho09000al904w4c2bc1n",
         "text": "RT @NASAAdmin: Grateful to @POTUS, Director Kratsios @mkratsios47, and the entire OSTP team for spearheading a policy that will ensure Amer…",
         "created_at": "2026-08-20T23:53:24.000Z",
-        "imported_at": "2026-08-20T23:55:32.169Z"
+        "imported_at": "2026-08-20T23:55:32.169Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt26b8ug0008l904j4eymmm4",
         "text": "RT @XFreeze: A few months ago, Paul Conyngham used AI to help build a personalized mRNA cancer vaccine for his dog Rosie\n\nAnd one detail al…",
         "created_at": "2026-08-20T23:49:52.000Z",
-        "imported_at": "2026-08-20T23:50:32.584Z"
+        "imported_at": "2026-08-20T23:50:32.584Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt25ry8k0006l904ftuhg04r",
         "text": "RT @KanekoaTheGreat: 🔥THREAD: A roofing contractor is using Grok @Bot to run his back office.\n\nA plumber uses it to book jobs.\n\nSilicon Val…",
         "created_at": "2026-08-20T23:32:12.000Z",
-        "imported_at": "2026-08-20T23:35:32.373Z"
+        "imported_at": "2026-08-20T23:35:32.373Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt25ry8k0007l904brnr6s82",
         "text": "RT @naval: Grok Bot is just cool. 😎\n\nOf course an agent should be persistent.\n\nOf course it should have its own computer.\n\nAll that remains…",
         "created_at": "2026-08-20T23:32:09.000Z",
-        "imported_at": "2026-08-20T23:35:32.373Z"
+        "imported_at": "2026-08-20T23:35:32.373Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt22qn2t0001l904a6m7pz91",
         "text": "RT @cb_doge: ELON MUSK: \"If you've got humanoid robots that have very high dexterity and are incredibly smart, it means that everyone on ea…",
         "created_at": "2026-08-20T22:06:09.000Z",
-        "imported_at": "2026-08-20T22:10:32.405Z"
+        "imported_at": "2026-08-20T22:10:32.405Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt22qn2t0002l9048tph1v00",
         "text": "Easiest way to try Grok Build https://t.co/CdsCcjm5fq",
         "created_at": "2026-08-20T22:05:35.000Z",
-        "imported_at": "2026-08-20T22:10:32.405Z"
+        "imported_at": "2026-08-20T22:10:32.405Z",
+        "kind": "original"
       },
       {
         "id": "cmt214rn5000dl9041dsuip36",
         "text": "RT @Starlink: Reliable high-speed internet on Earth’s oceans and waterways 🛰️⛵️",
         "created_at": "2026-08-20T21:24:22.000Z",
-        "imported_at": "2026-08-20T21:25:32.273Z"
+        "imported_at": "2026-08-20T21:25:32.273Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt20yha1000cl904zxpempyr",
         "text": "RT @rewind02: grokbot it's an agent with its own identity, its own computer, and it stays on when you're not\n\nhere's what \"active AI employ…",
         "created_at": "2026-08-20T21:20:25.000Z",
-        "imported_at": "2026-08-20T21:20:38.897Z"
+        "imported_at": "2026-08-20T21:20:38.897Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt20rwt1000al9049641uc3e",
         "text": "An oppressive government https://t.co/VExsgCzlXL",
         "created_at": "2026-08-20T21:14:12.000Z",
-        "imported_at": "2026-08-20T21:15:32.438Z"
+        "imported_at": "2026-08-20T21:15:32.438Z",
+        "kind": "original"
       },
       {
         "id": "cmt20rwt1000bl9044vv9cn4j",
         "text": "Raptor 3 is an engineering work of art \n\nEven AI will be impressed https://t.co/rhcNMrO6Jh",
         "created_at": "2026-08-20T21:13:37.000Z",
-        "imported_at": "2026-08-20T21:15:32.438Z"
+        "imported_at": "2026-08-20T21:15:32.438Z",
+        "kind": "original"
       },
       {
         "id": "cmt20lhbm0008l904w6otxokz",
         "text": "One day, Optimus + Grok will provide incredible medical care to all the people of Earth",
         "created_at": "2026-08-20T21:09:46.000Z",
-        "imported_at": "2026-08-20T21:10:32.435Z"
+        "imported_at": "2026-08-20T21:10:32.435Z",
+        "kind": "original"
       },
       {
         "id": "cmt20lhbm0009l904e39w8f3a",
         "text": "RT @XFreeze: Elon Musk explains why the values we build into Grok today could shape the superintelligence of tomorrow\n\n“The future is overw…",
         "created_at": "2026-08-20T21:08:29.000Z",
-        "imported_at": "2026-08-20T21:10:32.435Z"
+        "imported_at": "2026-08-20T21:10:32.435Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1zpbtx0006l904cp7wwzip",
         "text": "RT @milichab: Build apps with full auth, database, private sharing, custom domains, and SpaceXAI API use from any Grok app",
         "created_at": "2026-08-20T20:42:59.000Z",
-        "imported_at": "2026-08-20T20:45:32.326Z"
+        "imported_at": "2026-08-20T20:45:32.326Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1zpbtx0007l904vrfk400r",
         "text": "RT @Baconbrix: We've expanded Grok Build mode to all SuperGrok and X Premium users!\n\nCreate, remix, and prototype ideas from anywhere. No c…",
         "created_at": "2026-08-20T20:42:43.000Z",
-        "imported_at": "2026-08-20T20:45:32.326Z"
+        "imported_at": "2026-08-20T20:45:32.326Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1tt55v000fl70406cfnruq",
         "text": "RT @joehansen: Grok Bot never sleeps!\n\nElon just highlighted the real difference with Grok Bot.\n\nIt runs on its own remote computer managed…",
         "created_at": "2026-08-20T17:58:42.000Z",
-        "imported_at": "2026-08-20T18:00:32.612Z"
+        "imported_at": "2026-08-20T18:00:32.612Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1tt55v000gl704komvvwnv",
         "text": "RT @heynavtoor: https://t.co/icsPDxLX3O",
         "created_at": "2026-08-20T17:56:58.000Z",
-        "imported_at": "2026-08-20T18:00:32.612Z"
+        "imported_at": "2026-08-20T18:00:32.612Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1tt55v000hl7046qtg3n98",
         "text": "RT @Polymarket: JUST IN: 𝕏 outpaced Google, YouTube, Facebook, Instagram, &amp; Reddit in web traffic growth last month. — Similarweb",
         "created_at": "2026-08-20T17:56:15.000Z",
-        "imported_at": "2026-08-20T18:00:32.612Z"
+        "imported_at": "2026-08-20T18:00:32.612Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1tmpnb000bl7045gg8z0vh",
         "text": "RT @teslaownersSV: BREAKING: Grok 4.6 just tied for #1 on the Artificial Analysis Agentic Index.⚡🤖\n\n• Grok 4.6 (High) — 59\n• Claude Opus 5…",
         "created_at": "2026-08-20T17:53:33.000Z",
-        "imported_at": "2026-08-20T17:55:32.567Z"
+        "imported_at": "2026-08-20T17:55:32.567Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1tmpnb000cl704r3hg6ve7",
         "text": "RT @mikepat711: Grok Bot is amazing, holy F. \n\nMy Grok Bot finished cleaning my 100,000 unread email inbox mess, and is now going through a…",
         "created_at": "2026-08-20T17:51:29.000Z",
-        "imported_at": "2026-08-20T17:55:32.567Z"
+        "imported_at": "2026-08-20T17:55:32.567Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1tmpno000dl704zsbme81u",
         "text": "RT @mattyp: My workflows changed when I started treating each Grok Bot like an application\n\nClient: chat\nServer: @bot \nDB: anything (gh, sh…",
         "created_at": "2026-08-20T17:51:09.000Z",
-        "imported_at": "2026-08-20T17:55:32.567Z"
+        "imported_at": "2026-08-20T17:55:32.567Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1t9up5000al704l6sk2h9f",
         "text": "Accurate graph 😂 https://t.co/gn0x0ZWy6u",
         "created_at": "2026-08-20T17:42:50.000Z",
-        "imported_at": "2026-08-20T17:45:32.585Z"
+        "imported_at": "2026-08-20T17:45:32.585Z",
+        "kind": "original"
       },
       {
         "id": "cmt1swzr00009l704dlp1ky0s",
         "text": "Grok @Bot can make videos explaining complex concepts https://t.co/Icp7ybx1wV",
         "created_at": "2026-08-20T17:33:47.000Z",
-        "imported_at": "2026-08-20T17:35:32.604Z"
+        "imported_at": "2026-08-20T17:35:32.604Z",
+        "kind": "original"
       },
       {
         "id": "cmt1sk4o00007l704dfj5y4w4",
         "text": "Interesting ways to use Grok @Bot https://t.co/oTPZoNza6U",
         "created_at": "2026-08-20T17:23:49.000Z",
-        "imported_at": "2026-08-20T17:25:32.448Z"
+        "imported_at": "2026-08-20T17:25:32.448Z",
+        "kind": "original"
       },
       {
         "id": "cmt1sk4o00008l7047y8022dm",
         "text": "Preparing for another Starship flight https://t.co/MsML86joOw",
         "created_at": "2026-08-20T17:22:49.000Z",
-        "imported_at": "2026-08-20T17:25:32.448Z"
+        "imported_at": "2026-08-20T17:25:32.448Z",
+        "kind": "original"
       },
       {
         "id": "cmt1rnzt00004l704eksgyr16",
         "text": "The media never mentioned that the police officers called an ambulance immediately when Floyd complained of shortness of breath.\n\nUnusual behavior for “murderers”. https://t.co/0H59ZKhihI",
         "created_at": "2026-08-20T16:57:26.000Z",
-        "imported_at": "2026-08-20T17:00:33.157Z"
+        "imported_at": "2026-08-20T17:00:33.157Z",
+        "kind": "original"
       },
       {
         "id": "cmt1rb49d0001l7043urzpdah",
         "text": "𝕏 is growing fast https://t.co/aY8uwWubUq",
         "created_at": "2026-08-20T16:49:54.000Z",
-        "imported_at": "2026-08-20T16:50:32.401Z"
+        "imported_at": "2026-08-20T16:50:32.401Z",
+        "kind": "original"
       },
       {
         "id": "cmt1rb49d0002l7046gwgwf2v",
         "text": "Grok 4.6 https://t.co/qxr1sD8Ewg",
         "created_at": "2026-08-20T16:49:20.000Z",
-        "imported_at": "2026-08-20T16:50:32.401Z"
+        "imported_at": "2026-08-20T16:50:32.401Z",
+        "kind": "original"
       },
       {
         "id": "cmt1q245q000mjy043albbk2z",
         "text": "Grok @Bot https://t.co/cwtfOsoy4p",
         "created_at": "2026-08-20T16:13:05.000Z",
-        "imported_at": "2026-08-20T16:15:32.750Z"
+        "imported_at": "2026-08-20T16:15:32.750Z",
+        "kind": "original"
       },
       {
         "id": "cmt1q245q000njy04v2dnwylx",
         "text": "Grok @Bot https://t.co/Fq0TDncvFA",
         "created_at": "2026-08-20T16:12:12.000Z",
-        "imported_at": "2026-08-20T16:15:32.750Z"
+        "imported_at": "2026-08-20T16:15:32.750Z",
+        "kind": "original"
       },
       {
         "id": "cmt1pvopc000jjy04bx8w1nb2",
         "text": "RT @XFreeze: Qatar Airways is rolling out Starlink at an incredible pace\n\nThe airline now has 150 widebody aircraft equipped with Starlink…",
         "created_at": "2026-08-20T16:10:07.000Z",
-        "imported_at": "2026-08-20T16:10:32.785Z"
+        "imported_at": "2026-08-20T16:10:32.785Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1pvopc000kjy04ma755hj1",
         "text": "RT @JasonBud: Our goal is to make Grok Build as easy to use as possible.\n\nWhat are tasks you find harder to do with Grok Build compared to…",
         "created_at": "2026-08-20T16:08:14.000Z",
-        "imported_at": "2026-08-20T16:10:32.785Z"
+        "imported_at": "2026-08-20T16:10:32.785Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1gewdq0000jy04qw6w5q4u",
         "text": "😂 https://t.co/OP7UGdRUN4",
         "created_at": "2026-08-20T11:40:45.000Z",
-        "imported_at": "2026-08-20T11:45:33.038Z"
+        "imported_at": "2026-08-20T11:45:33.038Z",
+        "kind": "original"
       },
       {
         "id": "cmt1fwn49000nl804epwsbt2e",
         "text": "Try @Grok @Bot https://t.co/2KOqcn4skw",
         "created_at": "2026-08-20T11:29:30.000Z",
-        "imported_at": "2026-08-20T11:31:21.225Z"
+        "imported_at": "2026-08-20T11:31:21.225Z",
+        "kind": "original"
       },
       {
         "id": "cmt1fwn49000ol804ewn1jh88",
         "text": "RT @ridark_eth: I gave Elon Musk's new Grok Bot an org chart instead of a to-do list, and in one week I stopped being a founder who does th…",
         "created_at": "2026-08-20T11:28:24.000Z",
-        "imported_at": "2026-08-20T11:31:21.225Z"
+        "imported_at": "2026-08-20T11:31:21.225Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1fwn49000pl8046qxyne2c",
         "text": "RT @QiaochuYuan: this is a very sobering read. main thesis is in section 5:\n\n&gt; Our conjecture is that a modern society makes the third chil…",
         "created_at": "2026-08-20T11:27:53.000Z",
-        "imported_at": "2026-08-20T11:31:21.225Z"
+        "imported_at": "2026-08-20T11:31:21.225Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1fp5yk000ml804ucdx9plm",
         "text": "RT @MarindaVannoy1: George Floyd died of an overdose",
         "created_at": "2026-08-20T11:22:35.000Z",
-        "imported_at": "2026-08-20T11:25:32.396Z"
+        "imported_at": "2026-08-20T11:25:32.396Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1fiqm6000kl8049ekws91g",
         "text": "Grok @Bot can earn you money https://t.co/mdvGuUaT97",
         "created_at": "2026-08-20T11:19:19.000Z",
-        "imported_at": "2026-08-20T11:20:32.574Z"
+        "imported_at": "2026-08-20T11:20:32.574Z",
+        "kind": "original"
       },
       {
         "id": "cmt1fiqm6000ll804h4qazwlg",
         "text": "RT @cb_doge: BREAKING: Starlink submits a new application for direct-to-device connectivity in India.\n\nThe Gen 2 proposal covers nearly 30,…",
         "created_at": "2026-08-20T11:16:00.000Z",
-        "imported_at": "2026-08-20T11:20:32.574Z"
+        "imported_at": "2026-08-20T11:20:32.574Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1fcb64000jl804rdt6bdfj",
         "text": "RT @daveatherton: This Ross Kemp's Extreme World in South Africa 🇿🇦 originally aired on Sky One on 29 Jan 2015. The casual way they describ…",
         "created_at": "2026-08-20T11:14:01.000Z",
-        "imported_at": "2026-08-20T11:15:32.621Z"
+        "imported_at": "2026-08-20T11:15:32.621Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1f5vot000hl8041iska1jw",
         "text": "RT @art_muse: Crimson silk and restless wings.\nThe butterflies didn’t choose her. They just couldn’t stay away. https://t.co/zJYt94oxhn",
         "created_at": "2026-08-20T11:10:08.000Z",
-        "imported_at": "2026-08-20T11:10:32.621Z"
+        "imported_at": "2026-08-20T11:10:32.621Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1f5vot000il8049ditn5sd",
         "text": "RT @LaceyPresley: Grok Bot ships daily updates + fresh content straight to your Grok Build.\n\nTalks to it natively inside Grok. Build once.…",
         "created_at": "2026-08-20T11:07:02.000Z",
-        "imported_at": "2026-08-20T11:10:32.621Z"
+        "imported_at": "2026-08-20T11:10:32.621Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1ezqpm000gl804sps6obbq",
         "text": "Grok @Bot https://t.co/60uNohyAhl",
         "created_at": "2026-08-20T11:05:32.000Z",
-        "imported_at": "2026-08-20T11:05:46.225Z"
+        "imported_at": "2026-08-20T11:05:46.225Z",
+        "kind": "original"
       },
       {
         "id": "cmt1ezgg4000fl804s3zfbczk",
         "text": "The reality is that most people unthinkingly believe whatever their political tribe tells them to believe. \n\nLike an NPC in a video game. https://t.co/TjOwiBIM0r",
         "created_at": "2026-08-20T11:04:24.000Z",
-        "imported_at": "2026-08-20T11:05:32.933Z"
+        "imported_at": "2026-08-20T11:05:32.933Z",
+        "kind": "original"
       },
       {
         "id": "cmt1et7zv000dl804dhuwt5q5",
         "text": "Grok @Bot has its own remote computer @SpaceXAI, so keeps working even when you close your laptop or reboot your desktop. \n\nBig difference. https://t.co/7dUQeLFrtA",
         "created_at": "2026-08-20T11:00:25.000Z",
-        "imported_at": "2026-08-20T11:00:42.044Z"
+        "imported_at": "2026-08-20T11:00:42.044Z",
+        "kind": "original"
       },
       {
         "id": "cmt1et13p000al804ai9s3t1a",
         "text": "RT @kevinnbass: X is the social media platform where the top people from every field post and share information. It is where you listen in…",
         "created_at": "2026-08-20T10:57:05.000Z",
-        "imported_at": "2026-08-20T11:00:33.110Z"
+        "imported_at": "2026-08-20T11:00:33.110Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1et13p000bl8049cesk55l",
         "text": "Grok Build\nhttps://t.co/ppqui4HYMm https://t.co/KfRSQ1FfiT",
         "created_at": "2026-08-20T10:56:31.000Z",
-        "imported_at": "2026-08-20T11:00:33.110Z"
+        "imported_at": "2026-08-20T11:00:33.110Z",
+        "kind": "original"
       },
       {
         "id": "cmt1et13p000cl804oi7bj7wp",
         "text": "RT @kentcdodds: I have been having so much success with Grok 4.6 that I don't bother with other models anymore. Looking forward to Grok 4.7!",
         "created_at": "2026-08-20T10:55:41.000Z",
-        "imported_at": "2026-08-20T11:00:33.110Z"
+        "imported_at": "2026-08-20T11:00:33.110Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1emlge0006l804zwlqpaly",
         "text": "RT @aksheyd: almost forgot the whole point (having grok build 10x all my old, hand coded repos) https://t.co/QK5fpELNlv",
         "created_at": "2026-08-20T10:55:11.000Z",
-        "imported_at": "2026-08-20T10:55:32.895Z"
+        "imported_at": "2026-08-20T10:55:32.895Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1emlge0007l804o9298eh3",
         "text": "RT @milesdeutscher: This guy ( @elie2222 ) built the world's first Grok Bot directory.\n\nA 100% free resource with hundreds of free Grok Bot…",
         "created_at": "2026-08-20T10:53:01.000Z",
-        "imported_at": "2026-08-20T10:55:32.895Z"
+        "imported_at": "2026-08-20T10:55:32.895Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1emlge0008l804o8h4ml0r",
         "text": "RT @jackunheard: George Floyd died of an overdose. \n\nFree Derek Chauvin.",
         "created_at": "2026-08-20T10:51:37.000Z",
-        "imported_at": "2026-08-20T10:55:32.895Z"
+        "imported_at": "2026-08-20T10:55:32.895Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1emlge0009l804wydigthe",
         "text": "RT @jgebbia: Crazy",
         "created_at": "2026-08-20T10:50:45.000Z",
-        "imported_at": "2026-08-20T10:55:32.895Z"
+        "imported_at": "2026-08-20T10:55:32.895Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1egbpe0005l8045kjztxeo",
         "text": "Did you know Chauvin called for an ambulance immediately? https://t.co/81gBxUolZQ",
         "created_at": "2026-08-20T10:50:21.000Z",
-        "imported_at": "2026-08-20T10:50:40.313Z"
+        "imported_at": "2026-08-20T10:50:40.313Z",
+        "kind": "original"
       },
       {
         "id": "cmt1eg5xu0002l804muq493wz",
         "text": "RT @tomselliott: You may be unsurprised to discover the corporate media doesn't believe Fauci's top adviser being indicted is newsworthy. h…",
         "created_at": "2026-08-20T10:49:26.000Z",
-        "imported_at": "2026-08-20T10:50:32.851Z"
+        "imported_at": "2026-08-20T10:50:32.851Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt1eg5xu0003l804drja5mhv",
         "text": "Free Chauvin https://t.co/IbygrTKng3",
         "created_at": "2026-08-20T10:49:12.000Z",
-        "imported_at": "2026-08-20T10:50:32.851Z"
+        "imported_at": "2026-08-20T10:50:32.851Z",
+        "kind": "original"
       },
       {
         "id": "cmt1eg5xu0004l804al8xgf0l",
         "text": "Grok @Bot https://t.co/NmCqf1QumF",
         "created_at": "2026-08-20T10:47:25.000Z",
-        "imported_at": "2026-08-20T10:50:32.851Z"
+        "imported_at": "2026-08-20T10:50:32.851Z",
+        "kind": "original"
       },
       {
         "id": "cmt13725m000plc04yut9s479",
         "text": "Try @Grok @Bot https://t.co/lXpMU8ub1X",
         "created_at": "2026-08-20T05:33:47.000Z",
-        "imported_at": "2026-08-20T05:35:32.266Z"
+        "imported_at": "2026-08-20T05:35:32.266Z",
+        "kind": "original"
       },
       {
         "id": "cmt130n1k000mlc044254942a",
         "text": "Grok @Bot https://t.co/1LEZDEqfeR",
         "created_at": "2026-08-20T05:28:54.000Z",
-        "imported_at": "2026-08-20T05:30:32.745Z"
+        "imported_at": "2026-08-20T05:30:32.745Z",
+        "kind": "original"
       },
       {
         "id": "cmt130n1k000nlc04l7ot9gu8",
         "text": "Try Grok @Bot https://t.co/G44sIORBqA",
         "created_at": "2026-08-20T05:28:29.000Z",
-        "imported_at": "2026-08-20T05:30:32.745Z"
+        "imported_at": "2026-08-20T05:30:32.745Z",
+        "kind": "original"
       },
       {
         "id": "cmt130n1k000olc04j4e65v4l",
         "text": "RT @liam_fallen: Grok Bot has completely broken my brain.\n\nI got an insane amount of work done today.\n\nBut I genuinely feel like I did noth…",
         "created_at": "2026-08-20T05:26:16.000Z",
-        "imported_at": "2026-08-20T05:30:32.745Z"
+        "imported_at": "2026-08-20T05:30:32.745Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt12u7ao000llc04g5y75r1z",
         "text": "RT @MarsHomestead: Grok Bot is $300/month, which sounded expensive to me yesterday.\n\nToday I’m wondering if it might actually be cheap. 😂…",
         "created_at": "2026-08-20T05:21:24.000Z",
-        "imported_at": "2026-08-20T05:25:32.401Z"
+        "imported_at": "2026-08-20T05:25:32.401Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt12ns1m000ilc04vmmnioq6",
         "text": "RT @signulll: the only non ugly exit from us debt/gdp is nominal growth outrunning interest costs. \n\nai led innovation (particularly chroni…",
         "created_at": "2026-08-20T05:20:12.000Z",
-        "imported_at": "2026-08-20T05:20:32.698Z"
+        "imported_at": "2026-08-20T05:20:32.698Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt12ns1m000jlc044fvxar9v",
         "text": "Try Grok @Bot and Build\nhttps://t.co/XXiqcvJAeF https://t.co/3qcIhpuArT",
         "created_at": "2026-08-20T05:18:46.000Z",
-        "imported_at": "2026-08-20T05:20:32.698Z"
+        "imported_at": "2026-08-20T05:20:32.698Z",
+        "kind": "original"
       },
       {
         "id": "cmt12ns1m000klc04w469i4dc",
         "text": "RT @cb_doge: I made a kids learning app for my nephew using @Grok Build… and he loves it! ❤️ https://t.co/Eh34wcoVs1",
         "created_at": "2026-08-20T05:16:10.000Z",
-        "imported_at": "2026-08-20T05:20:32.698Z"
+        "imported_at": "2026-08-20T05:20:32.698Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt12hc58000elc043va8lgwa",
         "text": "RT @KanekoaTheGreat: Grok Bot is the first AI agent system I’ve used right out of the box with zero coding experience.\n\nI now have an assis…",
         "created_at": "2026-08-20T05:15:10.000Z",
-        "imported_at": "2026-08-20T05:15:32.156Z"
+        "imported_at": "2026-08-20T05:15:32.156Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt12hc58000flc04mh1llnvl",
         "text": "RT @boringcompany: Nashville - we are hiring! \n\nHiring Event: Friday, August 28\n\nTwo TBMs are currently tunneling, with a 3rd arriving soon…",
         "created_at": "2026-08-20T05:13:47.000Z",
-        "imported_at": "2026-08-20T05:15:32.156Z"
+        "imported_at": "2026-08-20T05:15:32.156Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt12hc58000glc047hbr2j6m",
         "text": "RT @JohnLeFevre: Any person who thinks it is fair for biological males to compete against women in physical sports is an idiot.  \n\nThere's…",
         "created_at": "2026-08-20T05:12:03.000Z",
-        "imported_at": "2026-08-20T05:15:32.156Z"
+        "imported_at": "2026-08-20T05:15:32.156Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt12hc58000hlc042jbrm3a1",
         "text": "Looks like we will probably catch the ship with the tower in a few months. If there had been a tower out to sea where we practiced landing the ship, it would have been caught. \n\nFirst reflight of the ship will be either end of this year or early next. That will be a fork in the https://t.co/O5g9pqrzyo",
         "created_at": "2026-08-20T05:10:50.000Z",
-        "imported_at": "2026-08-20T05:15:32.156Z"
+        "imported_at": "2026-08-20T05:15:32.156Z",
+        "kind": "original"
       },
       {
         "id": "cmt11rmj2000clc04eumqd744",
         "text": "RT @sapinker: Is Biology Allowed to Explain Anything? Even a sex difference as obvious as throwing strength? Robert Deaner &amp; Mike Lombardo:…",
         "created_at": "2026-08-20T04:52:58.000Z",
-        "imported_at": "2026-08-20T04:55:32.558Z"
+        "imported_at": "2026-08-20T04:55:32.558Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt11rmj2000dlc043gtx63je",
         "text": "RT @DrewPavlou: How do the “BIG PHARMA IS HIDING THE CURE TO CANCER” bros square that retarded idea with Moderna’s share price exploding 17…",
         "created_at": "2026-08-20T04:52:19.000Z",
-        "imported_at": "2026-08-20T04:55:32.558Z"
+        "imported_at": "2026-08-20T04:55:32.558Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt118bvp000blc0457zmq578",
         "text": "RT @jespow: Air travel is fundamentally a different service in the age of @Starlink.  What I’m paying for is an Internet Cafe in the sky.…",
         "created_at": "2026-08-20T04:37:30.000Z",
-        "imported_at": "2026-08-20T04:40:32.293Z"
+        "imported_at": "2026-08-20T04:40:32.293Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt10vh4r000alc0496vfyhk8",
         "text": "RT @SwipeWright: The sex difference in throwing is one of the largest behavioral sex differences ever measured. While training matters, the…",
         "created_at": "2026-08-20T04:28:17.000Z",
-        "imported_at": "2026-08-20T04:30:32.571Z"
+        "imported_at": "2026-08-20T04:30:32.571Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt10p9820009lc04wegy3a44",
         "text": "RT @RichardDawkins: I am bewildered, and not very impressed, by the visceral, naked, irrational hatred spat out by some defenders of Jason…",
         "created_at": "2026-08-20T04:25:28.000Z",
-        "imported_at": "2026-08-20T04:25:42.375Z"
+        "imported_at": "2026-08-20T04:25:42.375Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt105wbj0008lc04eztgs611",
         "text": "RT @MattMorseTV: More people died in France this year from not having air conditioning (7,300) than American deaths from mass shootings in…",
         "created_at": "2026-08-20T04:10:18.000Z",
-        "imported_at": "2026-08-20T04:10:39.188Z"
+        "imported_at": "2026-08-20T04:10:39.188Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt105r2q0007lc04dcgxphhw",
         "text": "RT @Austen: So I looked into this a little more, and turns out voters approved a 1:1 match, then city council “amended” it to a 6:1 match",
         "created_at": "2026-08-20T04:06:39.000Z",
-        "imported_at": "2026-08-20T04:10:32.402Z"
+        "imported_at": "2026-08-20T04:10:32.402Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt0zzbfu0001lc04n80014b1",
         "text": "RT @hodgetwins: Elon is right 💯",
         "created_at": "2026-08-20T04:04:34.000Z",
-        "imported_at": "2026-08-20T04:05:32.203Z"
+        "imported_at": "2026-08-20T04:05:32.203Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt0zzbfu0002lc04ui4flukj",
         "text": "RT @XFreeze: Elon basically predicted the next revolution in medicine:\n\n“You can effectively think of the future of medicine as being digit…",
         "created_at": "2026-08-20T04:03:52.000Z",
-        "imported_at": "2026-08-20T04:05:32.203Z"
+        "imported_at": "2026-08-20T04:05:32.203Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt0zzbfu0003lc04bh8fpau8",
         "text": "Grok upgrades https://t.co/S8xfByX82e",
         "created_at": "2026-08-20T04:03:28.000Z",
-        "imported_at": "2026-08-20T04:05:32.203Z"
+        "imported_at": "2026-08-20T04:05:32.203Z",
+        "kind": "original"
       },
       {
         "id": "cmt0zzbfu0004lc04oung7elj",
         "text": "RT @RayFernando1337: I was the bottleneck. So I made a Grok Bot the boss of my repo. From there it recruited more Grok Bots. All of this wi…",
         "created_at": "2026-08-20T04:02:48.000Z",
-        "imported_at": "2026-08-20T04:05:32.203Z"
+        "imported_at": "2026-08-20T04:05:32.203Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt0zzbfu0005lc041ascykye",
         "text": "RT @jgebbia: Not satire",
         "created_at": "2026-08-20T04:02:17.000Z",
-        "imported_at": "2026-08-20T04:05:32.203Z"
+        "imported_at": "2026-08-20T04:05:32.203Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt0zu3pi0000lc04vawsg2rt",
         "text": "Grok Build puts you in charge of your computer\n\nhttps://t.co/ppqui4IwBU https://t.co/2mpvy2Ud3I",
         "created_at": "2026-08-20T03:56:31.000Z",
-        "imported_at": "2026-08-20T04:01:28.892Z"
+        "imported_at": "2026-08-20T04:01:28.892Z",
+        "kind": "original"
       },
       {
         "id": "cmt0wxzeo0000l3042tv0cjy7",
         "text": "Much appreciated! https://t.co/FS1XDd3xw4",
         "created_at": "2026-08-20T02:35:40.000Z",
-        "imported_at": "2026-08-20T02:40:31.104Z"
+        "imported_at": "2026-08-20T02:40:31.104Z",
+        "kind": "original"
       }
     ],
     "2026-08-21": [
@@ -22096,345 +22359,437 @@
         "id": "cmt3lxk4p0000jx04qly1rytw",
         "text": "Interesting https://t.co/fGB58KPfRF",
         "created_at": "2026-08-21T23:55:11.000Z",
-        "imported_at": "2026-08-21T23:55:34.058Z"
+        "imported_at": "2026-08-21T23:55:34.058Z",
+        "kind": "original"
       },
       {
         "id": "cmt3le9wu000jl704vbqogcsi",
         "text": "It really doesn’t https://t.co/AjBg1NKWrw",
         "created_at": "2026-08-21T23:40:19.000Z",
-        "imported_at": "2026-08-21T23:40:34.351Z"
+        "imported_at": "2026-08-21T23:40:34.351Z",
+        "kind": "original"
       },
       {
         "id": "cmt3le9ms000il704vja9yem8",
         "text": "RT @SwipeWright: I'm not lying when I tell everyone I don't cherry pick the crazy papers and PhD theses I post on X constantly. \n\nThe modal…",
         "created_at": "2026-08-21T23:38:35.000Z",
-        "imported_at": "2026-08-21T23:40:33.989Z"
+        "imported_at": "2026-08-21T23:40:33.989Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3ki46b000hl704qm934c21",
         "text": "RT @VladSaigau: Falcon 9 has been priced at ~$70M for many years now, leading many to believe market prices have stayed flat. \n\nHeres what…",
         "created_at": "2026-08-21T23:12:34.000Z",
-        "imported_at": "2026-08-21T23:15:33.923Z"
+        "imported_at": "2026-08-21T23:15:33.923Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3kbohi000fl704vnsyuzrq",
         "text": "RT @PeterDiamandis: While pessimism sounds smart, optimism makes money by turning life-changing technologies into reality.",
         "created_at": "2026-08-21T23:10:06.000Z",
-        "imported_at": "2026-08-21T23:10:33.655Z"
+        "imported_at": "2026-08-21T23:10:33.655Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3kbohi000gl704s5vaflet",
         "text": "RT @Starlink: Starlink enabling remote connectivity and live coverage during the solar eclipse 🛰️❤️",
         "created_at": "2026-08-21T23:09:14.000Z",
-        "imported_at": "2026-08-21T23:10:33.655Z"
+        "imported_at": "2026-08-21T23:10:33.655Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3icy28000cl704r7kkkenz",
         "text": "RT @dee_bosa: I know it’s been said many times… but just had Starlink on a flight for the first time and wow. \nOne of those Apple-like mome…",
         "created_at": "2026-08-21T22:12:43.000Z",
-        "imported_at": "2026-08-21T22:15:33.488Z"
+        "imported_at": "2026-08-21T22:15:33.488Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3icy28000dl704sthq1y8t",
         "text": "RT @deezzex: SpaceX AI employee just dropped the tunes for GROK BOT to make it reach its maximum potential.\n\nalready tried that myself and…",
         "created_at": "2026-08-21T22:10:48.000Z",
-        "imported_at": "2026-08-21T22:15:33.488Z"
+        "imported_at": "2026-08-21T22:15:33.488Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3htnpj0005l704jrcifer9",
         "text": "This is how bad it was https://t.co/QDmXkwwaP9",
         "created_at": "2026-08-21T21:59:35.000Z",
-        "imported_at": "2026-08-21T22:00:33.607Z"
+        "imported_at": "2026-08-21T22:00:33.607Z",
+        "kind": "original"
       },
       {
         "id": "cmt3hgswj0002l704hasv7wsa",
         "text": "Yes https://t.co/rlWqVYjUnX",
         "created_at": "2026-08-21T21:47:27.000Z",
-        "imported_at": "2026-08-21T21:50:33.812Z"
+        "imported_at": "2026-08-21T21:50:33.812Z",
+        "kind": "original"
       },
       {
         "id": "cmt3hgswk0003l704hjas7yir",
         "text": "RT @grok: Grok Bot has expanded to more plans and is now free to try\n\nhttps://t.co/ijN85sbazN",
         "created_at": "2026-08-21T21:46:30.000Z",
-        "imported_at": "2026-08-21T21:50:33.812Z"
+        "imported_at": "2026-08-21T21:50:33.812Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3hgswk0004l704ccgix72e",
         "text": "RT @benjitaylor: We just launched the 𝕏 Ads MCP, allowing you to create ads directly from where you already use agents. https://t.co/XXHpi2…",
         "created_at": "2026-08-21T21:46:18.000Z",
-        "imported_at": "2026-08-21T21:50:33.812Z"
+        "imported_at": "2026-08-21T21:50:33.812Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3gxi9t0009k004qldtg99v",
         "text": "Try Grok 4.6 using the Grok Build harness or Cursor app for max usefulness \n\nhttps://t.co/v7TKF3lvAF https://t.co/bNNDeRFS1s",
         "created_at": "2026-08-21T21:33:15.000Z",
-        "imported_at": "2026-08-21T21:35:33.569Z"
+        "imported_at": "2026-08-21T21:35:33.569Z",
+        "kind": "original"
       },
       {
         "id": "cmt3gr2tp0008k004x74umj3n",
         "text": "RT @TheNotoriousMMA: If the world is against the truth, then I am against the world. Lying lips are an abomination to the Lord! I’d rather…",
         "created_at": "2026-08-21T21:26:01.000Z",
-        "imported_at": "2026-08-21T21:30:33.613Z"
+        "imported_at": "2026-08-21T21:30:33.613Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3ge8400006k004fk0729b9",
         "text": "Use your AI to manage 𝕏 ads! https://t.co/XZ98oW48sM",
         "created_at": "2026-08-21T21:19:31.000Z",
-        "imported_at": "2026-08-21T21:20:33.936Z"
+        "imported_at": "2026-08-21T21:20:33.936Z",
+        "kind": "original"
       },
       {
         "id": "cmt3ge8400007k004eyf8gpfa",
         "text": "RT @ArtemisConsort: “The ultimate purpose of freedom of speech is to overturn lies, fraud, and false ideologies. This is precisely what Cof…",
         "created_at": "2026-08-21T21:18:06.000Z",
-        "imported_at": "2026-08-21T21:20:33.936Z"
+        "imported_at": "2026-08-21T21:20:33.936Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3g7rji0005k004tqau3y4i",
         "text": "Cool https://t.co/gQYIS9hVp4",
         "created_at": "2026-08-21T21:15:06.000Z",
-        "imported_at": "2026-08-21T21:15:32.527Z"
+        "imported_at": "2026-08-21T21:15:32.527Z",
+        "kind": "original"
       },
       {
         "id": "cmt3g1ca40003k0043y3pp9pg",
         "text": "RT @SpaceX: The Starship preparing for our fourteenth flight test completed a full-duration, 60-second static fire with all six Raptor engi…",
         "created_at": "2026-08-21T21:07:02.000Z",
-        "imported_at": "2026-08-21T21:10:32.813Z"
+        "imported_at": "2026-08-21T21:10:32.813Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3g1ca40004k004cfcnr5t5",
         "text": "RT @KanekoaTheGreat: 🚨David Friedberg predicts the path to “Comrade AOC,” national asset seizures, and data centers becoming the next targe…",
         "created_at": "2026-08-21T21:05:40.000Z",
-        "imported_at": "2026-08-21T21:10:32.813Z"
+        "imported_at": "2026-08-21T21:10:32.813Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3fbmk10000k004yq2106ie",
         "text": "RT @SpaceXAI: Grok 4.6 is now available on Google Vertex AI \nhttps://t.co/K8433IlivQ https://t.co/04hnhPq2lu",
         "created_at": "2026-08-21T20:48:18.000Z",
-        "imported_at": "2026-08-21T20:50:33.073Z"
+        "imported_at": "2026-08-21T20:50:33.073Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3fbmk10001k004x8uq8es6",
         "text": "RT @SpaceXAIMemphis: Our Memphis and Southaven sites will be powered by the world’s largest grid-connected battery pack, reducing the cost…",
         "created_at": "2026-08-21T20:48:11.000Z",
-        "imported_at": "2026-08-21T20:50:33.073Z"
+        "imported_at": "2026-08-21T20:50:33.073Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt39lutq000gjn04hbxil9nn",
         "text": "True https://t.co/1uzaDpNsrp",
         "created_at": "2026-08-21T18:08:09.000Z",
-        "imported_at": "2026-08-21T18:10:32.654Z"
+        "imported_at": "2026-08-21T18:10:32.654Z",
+        "kind": "original"
       },
       {
         "id": "cmt386eut000bjn046u6k7evk",
         "text": "Wider access to Grok @Bot https://t.co/z8OX1xWoxs",
         "created_at": "2026-08-21T17:29:36.000Z",
-        "imported_at": "2026-08-21T17:30:32.501Z"
+        "imported_at": "2026-08-21T17:30:32.501Z",
+        "kind": "original"
       },
       {
         "id": "cmt36qz5v0002jn04yoeabsid",
         "text": "RT @SpaceX: Falcon 9 launches 29 @Starlink satellites from Florida https://t.co/dtGZvHWaQ9",
         "created_at": "2026-08-21T16:46:08.000Z",
-        "imported_at": "2026-08-21T16:50:32.708Z"
+        "imported_at": "2026-08-21T16:50:32.708Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt36e45d0009l404toa6qndu",
         "text": "Grok 4.6 on extra high thinking mode now achieves #1 score on CursorBench! https://t.co/MZDjMTtqK2",
         "created_at": "2026-08-21T16:36:35.000Z",
-        "imported_at": "2026-08-21T16:40:32.642Z"
+        "imported_at": "2026-08-21T16:40:32.642Z",
+        "kind": "original"
       },
       {
         "id": "cmt367ols0007l404wl0hs0aj",
         "text": "Improvements to Grok Build almost every day \n\nhttps://t.co/v7TKF3lvAF https://t.co/ugOc77vY2t",
         "created_at": "2026-08-21T16:32:48.000Z",
-        "imported_at": "2026-08-21T16:35:32.560Z"
+        "imported_at": "2026-08-21T16:35:32.560Z",
+        "kind": "original"
       },
       {
         "id": "cmt3619180005l404anztoxjl",
         "text": "Starlink now has 11k satellites in orbit https://t.co/exXh9CJszi",
         "created_at": "2026-08-21T16:27:43.000Z",
-        "imported_at": "2026-08-21T16:30:32.444Z"
+        "imported_at": "2026-08-21T16:30:32.444Z",
+        "kind": "original"
       },
       {
         "id": "cmt35utnt0003l4040rafqmku",
         "text": "RT @ARKInvest: Last week, @SpaceXAI released Grok 4.6, its new frontier model designed for coding, agentic tasks, and knowledge work.\n\nInde…",
         "created_at": "2026-08-21T16:24:25.000Z",
-        "imported_at": "2026-08-21T16:25:32.586Z"
+        "imported_at": "2026-08-21T16:25:32.586Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt35utnt0004l404klja9hy2",
         "text": "RT @cb_doge: Starlink is taking over aviation.\n\nThe number of airlines announcing deals with Starlink is surging, and the reason is simple:…",
         "created_at": "2026-08-21T16:23:45.000Z",
-        "imported_at": "2026-08-21T16:25:32.586Z"
+        "imported_at": "2026-08-21T16:25:32.586Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt35oech0001l4045olrd48u",
         "text": "RT @BasilTheGreat: \"I used to be super left wing\nThen the migrants arrived and started raping everyone,\nNow I'm super right wing\"\n\nMany suc…",
         "created_at": "2026-08-21T16:18:20.000Z",
-        "imported_at": "2026-08-21T16:20:32.801Z"
+        "imported_at": "2026-08-21T16:20:32.801Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt35hyol0000l404gx6sxa7q",
         "text": "RT @cb_doge: THE ELON EFFECT: Terafab is already attracting more companies to Texas’ Brazos Valley. 🇺🇸\n\nThe Greater Brazos Partnership says…",
         "created_at": "2026-08-21T16:14:44.000Z",
-        "imported_at": "2026-08-21T16:15:32.565Z"
+        "imported_at": "2026-08-21T16:15:32.565Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt33xdqs0005jo044f8tgppn",
         "text": "RT @XFreeze: 𝕏 has become the nervous system of the world\n\nWhen something happens in politics, technology, markets, science or culture, it…",
         "created_at": "2026-08-21T15:27:42.000Z",
-        "imported_at": "2026-08-21T15:31:32.692Z"
+        "imported_at": "2026-08-21T15:31:32.692Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt2fylng0000l704z2eac2jr",
         "text": "Starship is so sci-fi https://t.co/G9IMCLmmiC",
         "created_at": "2026-08-21T04:20:25.000Z",
-        "imported_at": "2026-08-21T04:20:38.802Z"
+        "imported_at": "2026-08-21T04:20:38.802Z",
+        "kind": "original"
       },
       {
         "id": "cmt2c7fjy0001l404otwpzead",
         "text": "True https://t.co/UpumHvHiMt",
         "created_at": "2026-08-21T02:34:22.000Z",
-        "imported_at": "2026-08-21T02:35:32.350Z"
+        "imported_at": "2026-08-21T02:35:32.350Z",
+        "kind": "original"
       },
       {
         "id": "cmt2c10710000l404u5i84fmd",
         "text": "RT @TheChiefNerd: TRUMP: \"I want to thank @elonmusk because Elon was able to get us communication systems. As you know, Starlink ... I thin…",
         "created_at": "2026-08-21T02:29:01.000Z",
-        "imported_at": "2026-08-21T02:30:32.509Z"
+        "imported_at": "2026-08-21T02:30:32.509Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt2alk100001jw04wa2fz4f4",
         "text": "Starlink would help the least served in India, especially in rural areas https://t.co/ffCvpL61WQ",
         "created_at": "2026-08-21T01:46:01.000Z",
-        "imported_at": "2026-08-21T01:50:32.101Z"
+        "imported_at": "2026-08-21T01:50:32.101Z",
+        "kind": "original"
       },
       {
         "id": "cmt2a29ud0000jw04gxjg6rz9",
         "text": "RT @DavidCarbutt_: Grok Bot is hands down one of the best products I have ever used. Maybe the best ever. \n\nI have had it less than a week.…",
         "created_at": "2026-08-21T01:34:32.000Z",
-        "imported_at": "2026-08-21T01:35:32.437Z"
+        "imported_at": "2026-08-21T01:35:32.437Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt27k9410001l404yyyaymf9",
         "text": "RT @BrianNorgard: I’ve spent my life using and building software. With almost no effort, @bot is the first machine I’ve talked to that prod…",
         "created_at": "2026-08-21T00:23:08.000Z",
-        "imported_at": "2026-08-21T00:25:32.449Z"
+        "imported_at": "2026-08-21T00:25:32.449Z",
+        "kind": "retweet"
       }
     ],
     "2026-08-22": [
       {
+        "id": "cmt4k1rrz0008jr04g28pwicf",
+        "text": "Try Grok @Bot https://t.co/ABm1RSn3Sz",
+        "created_at": "2026-08-22T15:49:34.000Z",
+        "imported_at": "2026-08-22T15:50:37.536Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmt4jvcgi0007jr0425ammbxn",
+        "text": "Talarico wants to enable voting fraud in Texas by banning voter ID https://t.co/3ANn9i9cTl",
+        "created_at": "2026-08-22T15:42:20.000Z",
+        "imported_at": "2026-08-22T15:45:37.746Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmt4jow8c0006jr04khpiyvjd",
+        "text": "RT @cb_doge: BREAKING: 10 schools along Guyana’s Linden–Soesdyke Highway will receive @Starlink internet. 🇬🇾\n\nThe service will give student…",
+        "created_at": "2026-08-22T15:35:51.000Z",
+        "imported_at": "2026-08-22T15:40:36.780Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt4jihbw0004jr040dd8nl0j",
+        "text": "lol https://t.co/jzcIm3BJ4r",
+        "created_at": "2026-08-22T15:34:46.000Z",
+        "imported_at": "2026-08-22T15:35:37.532Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmt4jihbw0005jr048mh65dru",
+        "text": "RT @tetsuoai: Three Grok bots took four reference photos, built a physics simulator from them, ran 47 fracture experiments, rejected their…",
+        "created_at": "2026-08-22T15:33:54.000Z",
+        "imported_at": "2026-08-22T15:35:37.532Z",
+        "kind": "retweet"
+      },
+      {
         "id": "cmt3u5ccd000bkw044f8ni98t",
         "text": "RT @fermatslibrary: Chandrasekhar died exactly 31 years ago today. At 19, on the boat from India to Cambridge in 1930, he worked out that a…",
         "created_at": "2026-08-22T03:40:43.000Z",
-        "imported_at": "2026-08-22T03:45:34.141Z"
+        "imported_at": "2026-08-22T03:45:34.141Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3tywos000akw04g4wj34i8",
         "text": "RT @techNmak: In 1948, a 32-year-old at Bell Labs published a paper nobody fully understood.\n\nEngineers found it too mathematical. Mathemat…",
         "created_at": "2026-08-22T03:39:45.000Z",
-        "imported_at": "2026-08-22T03:40:33.916Z"
+        "imported_at": "2026-08-22T03:40:33.916Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3tshbx0007kw040295aljo",
         "text": "RT @joehansen: Grok 4.6 just took #1 on CursorBench.\n\nNot only the highest score. \n\nIt did it at a fraction of the cost of the models sitti…",
         "created_at": "2026-08-22T03:35:05.000Z",
-        "imported_at": "2026-08-22T03:35:34.077Z"
+        "imported_at": "2026-08-22T03:35:34.077Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3tshbx0008kw04dcn4q5zh",
         "text": "It’s that easy to use Grok @Bot https://t.co/QXlpCrIPNt",
         "created_at": "2026-08-22T03:34:31.000Z",
-        "imported_at": "2026-08-22T03:35:34.077Z"
+        "imported_at": "2026-08-22T03:35:34.077Z",
+        "kind": "original"
       },
       {
         "id": "cmt3tshbx0009kw04cnrxlh5d",
         "text": "RT @venturetwins: Grok Bot can recreate any viral video from the link 🤯\n\nHow it works: I send @bot a link to an AI clip.\n\nIt watches the vi…",
         "created_at": "2026-08-22T03:31:45.000Z",
-        "imported_at": "2026-08-22T03:35:34.077Z"
+        "imported_at": "2026-08-22T03:35:34.077Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3t2rfv0004kw04c2zycy67",
         "text": "RT @ZubyMusic: If you're a man who is dating and considering taking a woman seriously, find out how she acted during Covid and get her opin…",
         "created_at": "2026-08-22T03:15:00.000Z",
-        "imported_at": "2026-08-22T03:15:34.123Z"
+        "imported_at": "2026-08-22T03:15:34.123Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3t2rfv0005kw04som76wo8",
         "text": "RT @Rothmus: I’ll give you the big picture: \n\nAmerica has been living under two constitutions since 1964.\n\nThe Civil Rights Act began as a…",
         "created_at": "2026-08-22T03:13:06.000Z",
-        "imported_at": "2026-08-22T03:15:34.123Z"
+        "imported_at": "2026-08-22T03:15:34.123Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3t2rfv0006kw04og4y4q3r",
         "text": "RT @Rothmus: The Bataclan attackers who murdered 130 people in Paris were already known threats, but the European authorities still let the…",
         "created_at": "2026-08-22T03:11:02.000Z",
-        "imported_at": "2026-08-22T03:15:34.123Z"
+        "imported_at": "2026-08-22T03:15:34.123Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3rtr2f0003kw04q2ozbali",
         "text": "RT @gailalfaratx: Comedy is legal on 𝕏",
         "created_at": "2026-08-22T02:38:56.000Z",
-        "imported_at": "2026-08-22T02:40:34.119Z"
+        "imported_at": "2026-08-22T02:40:34.119Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3rnbf60002kw04meiqkbpa",
         "text": "The greatest privilege of my life is being able to work with incredible people to create amazing products",
         "created_at": "2026-08-22T02:32:52.000Z",
-        "imported_at": "2026-08-22T02:35:33.907Z"
+        "imported_at": "2026-08-22T02:35:33.907Z",
+        "kind": "original"
       },
       {
         "id": "cmt3qff6m0000kw04a3sdwxq6",
         "text": "RT @eyishazyer: Second time trying Grok Bot and I'm still not over it.\n\nIt took my whole growth engine and split into 4 of itself. One's on…",
         "created_at": "2026-08-22T01:57:18.000Z",
-        "imported_at": "2026-08-22T02:01:25.911Z"
+        "imported_at": "2026-08-22T02:01:25.911Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3qff6m0001kw049x3wnhw6",
         "text": "RT @monokern: everyone is looking at grok bot like it is five new employees\n\nthe more interesting part is that they are not five isolated e…",
         "created_at": "2026-08-22T01:56:18.000Z",
-        "imported_at": "2026-08-22T02:01:25.911Z"
+        "imported_at": "2026-08-22T02:01:25.911Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3pv0mp0007jx040te46ye3",
         "text": "RT @adamcarolla: He’s a genius",
         "created_at": "2026-08-22T01:44:29.000Z",
-        "imported_at": "2026-08-22T01:45:33.937Z"
+        "imported_at": "2026-08-22T01:45:33.937Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3pv0mp0008jx046f0zb14w",
         "text": "RT @benshapiro: What, precisely, are women protesting outside the Lindsay Clancy trial? What oppression are they opposing? Why are women po…",
         "created_at": "2026-08-22T01:43:53.000Z",
-        "imported_at": "2026-08-22T01:45:33.937Z"
+        "imported_at": "2026-08-22T01:45:33.937Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3pv0mp0009jx04uagk7k7d",
         "text": "RT @yunta_tsai: I gave Grok @bot a link to the post below and asked it to take up the cinematography challenge.\n\nDirect the film entirely t…",
         "created_at": "2026-08-22T01:43:15.000Z",
-        "imported_at": "2026-08-22T01:45:33.937Z"
+        "imported_at": "2026-08-22T01:45:33.937Z",
+        "kind": "retweet"
       },
       {
         "id": "cmt3oacf50004jx04rdogq8ep",
         "text": "The reason Rome fell was because they stopped making Romans https://t.co/YPR0Vvbg1p",
         "created_at": "2026-08-22T00:58:36.000Z",
-        "imported_at": "2026-08-22T01:01:29.825Z"
+        "imported_at": "2026-08-22T01:01:29.825Z",
+        "kind": "original"
       },
       {
         "id": "cmt3o2plm0003jx04agh8us4r",
         "text": "Murder 1 https://t.co/rJugbRZZkJ",
         "created_at": "2026-08-22T00:52:46.000Z",
-        "imported_at": "2026-08-22T00:55:33.659Z"
+        "imported_at": "2026-08-22T00:55:33.659Z",
+        "kind": "original"
       },
       {
         "id": "cmt3npujq0002jx04zstq27pv",
         "text": "Grok Voice ranked first https://t.co/Hb42BHUdHo",
         "created_at": "2026-08-22T00:43:16.000Z",
-        "imported_at": "2026-08-22T00:45:33.543Z"
+        "imported_at": "2026-08-22T00:45:33.543Z",
+        "kind": "original"
       },
       {
         "id": "cmt3nczta0001jx04ffikmc5c",
         "text": "The only large-scale lithium battery cathode production in the Americas https://t.co/EBc0pgo5xM",
         "created_at": "2026-08-22T00:34:03.000Z",
-        "imported_at": "2026-08-22T00:35:33.839Z"
+        "imported_at": "2026-08-22T00:35:33.839Z",
+        "kind": "original"
       }
     ]
   },
