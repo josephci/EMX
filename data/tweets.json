@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-23T21:56:57.953Z",
-  "total": 3350,
+  "last_updated": "2026-08-23T22:30:26.110Z",
+  "total": 3352,
   "by_date": {
     "2026-05-27": [
       {
@@ -22856,6 +22856,20 @@
       }
     ],
     "2026-08-23": [
+      {
+        "id": "cmt6df59y0000jp04zsd06fb0",
+        "text": "RT @gippp69: HOLY SH*T, I BUILT A F**KING COMPANY INSIDE GROK BOT\n\ni split the operation into separate roles for research, writing, outreac…",
+        "created_at": "2026-08-23T22:18:48.000Z",
+        "imported_at": "2026-08-23T22:20:36.599Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt6df59y0001jp04zqrj7v7z",
+        "text": "RT @XFreeze: This chart really scares the hell out of me\nyou can see how dramatically U.S. birth rates have fallen in just a few decades… a…",
+        "created_at": "2026-08-23T22:16:20.000Z",
+        "imported_at": "2026-08-23T22:20:36.599Z",
+        "kind": "retweet"
+      },
       {
         "id": "cmt6c65ph0007jj04xoewb56z",
         "text": "RT @kristaletz: Hi friends! Going to walk through Grok Bot for GTM this week, come join and we can chat about our @bot teams: https://t.co/…",
