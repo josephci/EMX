@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-23T17:55:53.035Z",
-  "total": 3335,
+  "last_updated": "2026-08-23T18:40:06.013Z",
+  "total": 3342,
   "by_date": {
     "2026-05-27": [
       {
@@ -22856,6 +22856,55 @@
       }
     ],
     "2026-08-23": [
+      {
+        "id": "cmt65dsog0006kz04fmboqkf8",
+        "text": "RT @ClassicLearner: The Bolsheviks killed more ppl &amp; committed more acts of systematic mass murder &amp; pure horror than any other group in th…",
+        "created_at": "2026-08-23T18:31:29.000Z",
+        "imported_at": "2026-08-23T18:35:36.688Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt650xpy0002kz04ajcuqu7d",
+        "text": "RT @yunta_tsai: Curious about the journey from photons to the image or video on your phone? I made a video with Grok @bot, @imagine, and Vo…",
+        "created_at": "2026-08-23T18:24:24.000Z",
+        "imported_at": "2026-08-23T18:25:36.694Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt650xpy0003kz042wlv1wtb",
+        "text": "They faced the same issues in Ancient Rome https://t.co/50FKEJoiAI",
+        "created_at": "2026-08-23T18:23:51.000Z",
+        "imported_at": "2026-08-23T18:25:36.694Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmt650xpy0004kz044pjume8h",
+        "text": "Grok Bot can do amazing things! https://t.co/BZZaXrfUVQ",
+        "created_at": "2026-08-23T18:21:38.000Z",
+        "imported_at": "2026-08-23T18:25:36.694Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmt64b8d60007le04zj5bu3nv",
+        "text": "RT @wil_da_beast630: AIDS is...not what we were told in high school in the 1990s.",
+        "created_at": "2026-08-23T18:00:42.000Z",
+        "imported_at": "2026-08-23T18:05:37.435Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt644sxb0005le04kzwgrnl4",
+        "text": "RT @cb_doge: Starlink has around 11,040 working satellites in orbit. The next nine largest LEO constellations combined have only about 2,10…",
+        "created_at": "2026-08-23T17:58:59.000Z",
+        "imported_at": "2026-08-23T18:00:37.488Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt644sxb0006le04dos4iv3m",
+        "text": "RT @yunta_tsai: Three months later, Grok’s progress is amazing, and @bot makes it even more powerful and easier to use.\n\nThis is the fideli…",
+        "created_at": "2026-08-23T17:58:18.000Z",
+        "imported_at": "2026-08-23T18:00:37.488Z",
+        "kind": "retweet"
+      },
       {
         "id": "cmt620w8n000al7045sba8tbg",
         "text": "RT @Rothmus: A world with zero discrimination would still produce wildly unequal group outcomes.\n\nThomas Sowell demonstrated how firstborn…",
