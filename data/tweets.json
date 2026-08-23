@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-23T19:54:51.745Z",
-  "total": 3343,
+  "last_updated": "2026-08-23T20:31:38.573Z",
+  "total": 3345,
   "by_date": {
     "2026-05-27": [
       {
@@ -22856,6 +22856,20 @@
       }
     ],
     "2026-08-23": [
+      {
+        "id": "cmt68rywh0000jj046rky0gbg",
+        "text": "RT @paulg: LinkedIn users have been editing their work histories to add \"AI\" and remove \"DEI\". https://t.co/oUIhwnLJ1W",
+        "created_at": "2026-08-23T20:09:25.000Z",
+        "imported_at": "2026-08-23T20:10:36.785Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt68rywh0001jj043a6004tl",
+        "text": "This is why I switched Starship to stainless steel. \n\nWe have since created our own new alloys and no longer use 301. https://t.co/9er7qEgzoI",
+        "created_at": "2026-08-23T20:05:48.000Z",
+        "imported_at": "2026-08-23T20:10:36.785Z",
+        "kind": "original"
+      },
       {
         "id": "cmt67iypn000ckz04trpgt3jv",
         "text": "RT @0gMirren: A French writer explained the error in 1850. A Nobel economist repeated it in a Pennsylvania lecture hall in 1978. Government…",
