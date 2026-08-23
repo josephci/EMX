@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-23T09:58:57.416Z",
-  "total": 3325,
+  "last_updated": "2026-08-23T10:31:42.215Z",
+  "total": 3330,
   "by_date": {
     "2026-05-27": [
       {
@@ -22853,6 +22853,43 @@
         "created_at": "2026-08-22T00:34:03.000Z",
         "imported_at": "2026-08-22T00:35:33.839Z",
         "kind": "original"
+      }
+    ],
+    "2026-08-23": [
+      {
+        "id": "cmt5o23t50002l604rdbes5mi",
+        "text": "RT @teslaownersSV: NICK SHIRLEY: \"The most powerful people in the world use 𝕏. I'm able to reach the audience of people that are trying to…",
+        "created_at": "2026-08-23T10:29:47.000Z",
+        "imported_at": "2026-08-23T10:30:37.769Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt5o23t50003l604q2vuu3jv",
+        "text": "RT @TheAliceSmith: 🤔… 😔 https://t.co/lS63DKNCPY",
+        "created_at": "2026-08-23T10:28:26.000Z",
+        "imported_at": "2026-08-23T10:30:37.769Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt5o23t50004l60464g7udqd",
+        "text": "Exactly 1000% https://t.co/THWzq9YHfI",
+        "created_at": "2026-08-23T10:28:02.000Z",
+        "imported_at": "2026-08-23T10:30:37.769Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmt5o23t50005l604ozlhf6bx",
+        "text": "Yeah, that was dumb https://t.co/RM2ZJGkyHq",
+        "created_at": "2026-08-23T10:27:08.000Z",
+        "imported_at": "2026-08-23T10:30:37.769Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmt5o23t50006l604fzk7jptz",
+        "text": "RT @ArthurMacwaters: we’re having debates about  datacenters and China is publicly developing superhuman robot armies \n\nwhat the actual hel…",
+        "created_at": "2026-08-23T10:25:56.000Z",
+        "imported_at": "2026-08-23T10:30:37.769Z",
+        "kind": "retweet"
       }
     ]
   },
