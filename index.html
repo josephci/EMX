@@ -884,13 +884,41 @@ function bestEdge(ev, proj, std, floor) {
 // 建議注碼：¼ Kelly，上限 10% 本金（保守）
 function suggestStake(kelly) { return Math.max(0, Math.min(0.10, kelly * 0.25)); }
 
+// ── 市場異動：領先賠率短時間急變 = 市場提早重估（通常代表 Elon 有動作） ──────
+let livePrices = [];   // session 內每次 poll 嘅領先賠率（5 分鐘解析度）
+function pushLivePrice(now, leadPrice) {
+  if (leadPrice == null || isNaN(leadPrice)) return;
+  livePrices.push({ t: now, p: leadPrice });
+  livePrices = livePrices.filter(x => x.t >= now - 3 * 3600000);
+}
+function marketMomentum(now, leadPrice) {
+  const pts = [];
+  if (Array.isArray(priceLog)) priceLog.forEach(r => { const t = new Date(r.ts).getTime(); if (!isNaN(r.price) && !isNaN(t)) pts.push({ t, p: r.price }); });
+  livePrices.forEach(x => pts.push(x));
+  if (leadPrice != null && !isNaN(leadPrice)) pts.push({ t: now, p: leadPrice });
+  pts.sort((a, b) => a.t - b.t);
+  if (pts.length < 2) return null;
+  const latest = pts[pts.length - 1];
+  let ref = null;                                   // 搵 20–120 分鐘前嘅參考點（盡量近 45 分鐘）
+  for (let i = pts.length - 2; i >= 0; i--) {
+    const mins = (latest.t - pts[i].t) / 60000;
+    if (mins >= 20 && mins <= 120) { ref = pts[i]; if (mins >= 45) break; }
+  }
+  if (!ref) return null;
+  const delta = latest.p - ref.p;
+  if (Math.abs(delta) < 0.06) return null;          // <6¢ 唔當異動
+  return { delta, mins: Math.round((latest.t - ref.t) / 60000) };
+}
+
 // ── 活躍度：發推速度做領先指標（市場提早郁正正就係睇緊呢個） ──────────────────
 // 註：xtracker /posts 唔包「回覆」，所以睇唔到純回覆活動；用「近 30 分鐘 vs 平時
 // pace」做「Elon 而家活躍緊」嘅代理——速度高過平時＝好可能仲會爆，count 跟住上。
-function renderActivity(now, pace) {
+function renderActivity(now, pace, leadPrice) {
   const el = document.getElementById('sig-activity');
   const all = db && db.by_date ? Object.values(db.by_date).flat() : [];
   if (!all.length) { el.style.display = 'none'; return; }
+  pushLivePrice(now, leadPrice);
+  const mom = marketMomentum(now, leadPrice);
   let last = null;
   all.forEach(p => { const d = new Date(p.created_at); if (!last || d > last) last = d; });
   const lastMin = (now - last) / 60000;
@@ -914,7 +942,11 @@ function renderActivity(now, pace) {
   const foot = hasReplies
     ? `＊回覆唔計入市場，但係 Elon 在線嘅領先信號`
     : `＊只計 post／RT／引用（xtracker 未提供回覆數據）`;
-  el.innerHTML = `${badge}　${paceTxt}${replyTxt}・最後 post ${lastTxt}` +
+  const momTxt = mom
+    ? `<div style="margin-top:4px;color:#38bdf8">📈 市場異動：領先賠率 ${mom.mins} 分鐘內 <b>${mom.delta >= 0 ? '+' : ''}${(mom.delta * 100).toFixed(0)}¢</b>` +
+      `（市場快速${mom.delta >= 0 ? '看好↑' : '看淡↓'}——通常代表 Elon 有動作）</div>`
+    : '';
+  el.innerHTML = `${badge}　${paceTxt}${replyTxt}・最後 post ${lastTxt}` + momTxt +
     `<div style="font-size:9px;color:#333;margin-top:2px">${foot}</div>`;
   el.style.display = 'block';
 }
@@ -1053,7 +1085,7 @@ async function fetchSignal() {
       if (latest) silenceH = (now - latest) / 3600000;
     }
 
-    renderActivity(now, pace);
+    renderActivity(now, pace, leadPrice);
 
     // 去走前綴同尾巴年份/問號，避免被截斷（例：「August 20 - August 22」）
     set('sig-market', ev.title.replace('Elon Musk # tweets ', '').replace(/,?\s*\d{4}\s*\??$/, ''));
