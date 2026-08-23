@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-23T17:00:51.878Z",
-  "total": 3333,
+  "last_updated": "2026-08-23T17:27:44.676Z",
+  "total": 3335,
   "by_date": {
     "2026-05-27": [
       {
@@ -22856,6 +22856,20 @@
       }
     ],
     "2026-08-23": [
+      {
+        "id": "cmt620w8n000al7045sba8tbg",
+        "text": "RT @Rothmus: A world with zero discrimination would still produce wildly unequal group outcomes.\n\nThomas Sowell demonstrated how firstborn…",
+        "created_at": "2026-08-23T17:01:09.000Z",
+        "imported_at": "2026-08-23T17:01:35.927Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt620w8n000bl7041nb1zv9h",
+        "text": "RT @SawyerMerritt: Starlink Stories: From the eye of a 190-mph tornado to the middle of the Indian Ocean, these innovators are using @Starl…",
+        "created_at": "2026-08-23T16:57:41.000Z",
+        "imported_at": "2026-08-23T17:01:35.927Z",
+        "kind": "retweet"
+      },
       {
         "id": "cmt5p4p2z0009l604qm5fw4wb",
         "text": "Precisely articulated https://t.co/xAVg4WN7DH",
