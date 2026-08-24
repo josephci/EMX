@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-24T16:48:40.393Z",
-  "total": 3361,
+  "last_updated": "2026-08-24T17:37:22.703Z",
+  "total": 3369,
   "by_date": {
     "2026-05-27": [
       {
@@ -23054,6 +23054,62 @@
       }
     ],
     "2026-08-24": [
+      {
+        "id": "cmt7ionj60066jm04fk99s8fv",
+        "text": "RT @AriEmanuel: Thank you @mrbobodenkirk. Preorder Roll the Calls audiobook:\nhttps://t.co/rQH5abgzly https://t.co/V44owMJhuk",
+        "created_at": "2026-08-24T17:33:50.000Z",
+        "imported_at": "2026-08-24T17:35:44.412Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt7ionj60067jm04vuuxr8ba",
+        "text": "Grok @Bot ported Doom to a new device in 10 mins https://t.co/zbLJlKoFRg",
+        "created_at": "2026-08-24T17:32:04.000Z",
+        "imported_at": "2026-08-24T17:35:44.412Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmt7ii4460065jm04d81h4pgh",
+        "text": "Our design is significantly simpler, lower cost, denser and lighter than a traditional rack",
+        "created_at": "2026-08-24T17:26:07.000Z",
+        "imported_at": "2026-08-24T17:30:39.312Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmt7ibpln0064jm045ob4fhob",
+        "text": "SpaceX, in partnership with Nvidia, has designed a space-optimized Vera Rubin NVL72 system for launch to orbit in Q4 next year, with significant scale in 2028 https://t.co/qdDq8YBkzl",
+        "created_at": "2026-08-24T17:22:05.000Z",
+        "imported_at": "2026-08-24T17:25:40.566Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmt7i5a4l0063jm04k58hh6zj",
+        "text": "RT @Rothmus: Communist authorities engineered cannibalism on purpose.\n\nIn May 1933 they dumped 6,000 ordinary people on a bare island in Si…",
+        "created_at": "2026-08-24T17:16:30.000Z",
+        "imported_at": "2026-08-24T17:20:40.575Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt7hyv6g0062jm04qaq4rpkj",
+        "text": "RT @XFreeze: How it started → How it’s going\n\nElon Musk and Jensen Huang were the first to begin the modern AI revolution...this is how it…",
+        "created_at": "2026-08-24T17:15:16.000Z",
+        "imported_at": "2026-08-24T17:15:41.273Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt7hmejg0061jm04wo8q1ri6",
+        "text": "RT @cremieuxrecueil: This is a super cool website.\n\nYou can scroll around and look at any country's population pyramid, fertility rate, and…",
+        "created_at": "2026-08-24T17:05:32.000Z",
+        "imported_at": "2026-08-24T17:05:59.826Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt7hm008005zjm04q4rpsi3n",
+        "text": "RT @sowelleconomics: Thomas Sowell on Paul Krugman’s favorite inequality talking point.\n\nKrugman claimed that between 1979 and 2005, median…",
+        "created_at": "2026-08-24T17:02:25.000Z",
+        "imported_at": "2026-08-24T17:05:40.996Z",
+        "kind": "retweet"
+      },
       {
         "id": "cmt7eklyy0000jm04jnf5m4q0",
         "text": "RT @teslaownersSV: Nvidia CEO Jensen Huang on Elon Musk and @xAI \n\n“Never been done before – xAI did in 19 days what everyone else needs on…",
