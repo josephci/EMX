@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-24T01:49:54.803Z",
-  "total": 3353,
+  "last_updated": "2026-08-24T03:11:42.288Z",
+  "total": 3356,
   "by_date": {
     "2026-05-27": [
       {
@@ -23050,6 +23050,29 @@
         "text": "RT @ArthurMacwaters: we’re having debates about  datacenters and China is publicly developing superhuman robot armies \n\nwhat the actual hel…",
         "created_at": "2026-08-23T10:25:56.000Z",
         "imported_at": "2026-08-23T10:30:37.769Z",
+        "kind": "retweet"
+      }
+    ],
+    "2026-08-24": [
+      {
+        "id": "cmt6m67v10005k304rvm2gfav",
+        "text": "RT @r0ck3t23: Elon Musk described the mechanism that lets millions of intelligent people arrive at the same conclusion without a single ind…",
+        "created_at": "2026-08-24T02:23:13.000Z",
+        "imported_at": "2026-08-24T02:25:36.589Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt6lzssa0002k304sesgrgv6",
+        "text": "Yes https://t.co/07e4upnVsd",
+        "created_at": "2026-08-24T02:19:20.000Z",
+        "imported_at": "2026-08-24T02:20:37.115Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmt6lzssa0003k304b3rie0c5",
+        "text": "RT @nickshirleyy: California has officially signed the “Stop Nick Shirley Act” (AB 2624) into law. This bill was created only after I expos…",
+        "created_at": "2026-08-24T02:18:55.000Z",
+        "imported_at": "2026-08-24T02:20:37.115Z",
         "kind": "retweet"
       }
     ]
