@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-24T21:04:27.573Z",
-  "total": 3377,
+  "last_updated": "2026-08-24T21:37:53.508Z",
+  "total": 3383,
   "by_date": {
     "2026-05-27": [
       {
@@ -23054,6 +23054,48 @@
       }
     ],
     "2026-08-24": [
+      {
+        "id": "cmt7qkk450004jq042215yfhq",
+        "text": "RT @TheAliceSmith: https://t.co/ziccBRZPwg",
+        "created_at": "2026-08-24T21:15:16.000Z",
+        "imported_at": "2026-08-24T21:16:30.288Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt7qkk450005jq04prfcyb3c",
+        "text": "RT @spencerpratt: Postal workers busted stealing checks from mail routes &amp; selling them in $23M fraud case. \n\nIf they can steal your checks…",
+        "created_at": "2026-08-24T21:12:36.000Z",
+        "imported_at": "2026-08-24T21:16:30.288Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt7qkk450006jq0448x3c8rz",
+        "text": "Grok Voice is used by Starlink at scale for support &amp; sales https://t.co/gJxI5m9OHN",
+        "created_at": "2026-08-24T21:11:17.000Z",
+        "imported_at": "2026-08-24T21:16:30.288Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmt7qdely0003jq04dcto0hrs",
+        "text": "RT @EpochAIResearch: We discovered that US GDP statistics miss most of the value Nvidia adds to the US economy.\n\nAs a result, GDP growth ha…",
+        "created_at": "2026-08-24T21:10:37.000Z",
+        "imported_at": "2026-08-24T21:10:56.557Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt7q6s3k0001jq041y322exo",
+        "text": "RT @cb_doge: BREAKING: SpaceXAI just added a powerful new 'Browser Use' plugin to Grok Build.\n\nIt gives Grok access to a real browser, eith…",
+        "created_at": "2026-08-24T21:05:26.000Z",
+        "imported_at": "2026-08-24T21:05:47.450Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt7q6s3k0002jq04p10n38zh",
+        "text": "True https://t.co/Mc4a4ju1NG",
+        "created_at": "2026-08-24T21:04:14.000Z",
+        "imported_at": "2026-08-24T21:05:47.450Z",
+        "kind": "original"
+      },
       {
         "id": "cmt7q1ebf0000jq04f1l72vyn",
         "text": "Grok Voice 2 is great https://t.co/80KVbZYIt7",
