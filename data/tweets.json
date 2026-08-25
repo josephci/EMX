@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-25T16:47:20.428Z",
-  "total": 3394,
+  "last_updated": "2026-08-25T17:37:54.722Z",
+  "total": 3401,
   "by_date": {
     "2026-05-27": [
       {
@@ -23287,6 +23287,55 @@
       }
     ],
     "2026-08-25": [
+      {
+        "id": "cmt8xlapw0001jv04vqok7gqf",
+        "text": "RT @ShanaDiez: As a Louisiana native (I was born and raised in and around Baton Rouge), I’m excited to share this post. Building off of wha…",
+        "created_at": "2026-08-25T17:17:34.000Z",
+        "imported_at": "2026-08-25T17:20:48.244Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt8xlapw0002jv04keslol84",
+        "text": "RT @elonmusk: @aaronburnett Megatons to orbit &amp; beyond is a critical piece of the K2 puzzle. \n\nThe other parts are: massive amounts of sola…",
+        "created_at": "2026-08-25T17:16:43.000Z",
+        "imported_at": "2026-08-25T17:20:48.244Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt8wwgew001fjg04xhyfefvv",
+        "text": "RT @SpaceX: Starbase, Louisiana will be built to support thousands of Starship flights a year with missions launching to Earth orbit, the M…",
+        "created_at": "2026-08-25T16:56:47.000Z",
+        "imported_at": "2026-08-25T17:01:29.241Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt8woz3i001cjg046yxi9p58",
+        "text": "Yes https://t.co/maOuOUS4Ta",
+        "created_at": "2026-08-25T16:51:53.000Z",
+        "imported_at": "2026-08-25T16:55:40.195Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmt8wil7q0017jg04pj0hfj5l",
+        "text": "All accurate https://t.co/FkmQCEoS0i",
+        "created_at": "2026-08-25T16:49:45.000Z",
+        "imported_at": "2026-08-25T16:50:42.266Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmt8wil7q0018jg04ap4hqdms",
+        "text": "RT @SpaceX: Introducing Starbase, Louisiana – a high-cadence launch site that will enable Starship to open a pathway to the stars for human…",
+        "created_at": "2026-08-25T16:47:30.000Z",
+        "imported_at": "2026-08-25T16:50:42.266Z",
+        "kind": "retweet"
+      },
+      {
+        "id": "cmt8wil7q0019jg04hz7w1zth",
+        "text": "Starbase Louisiana will ultimately have over a dozen launch towers, enabling more than 30 Starship flights per day and making it the biggest launch site on Earth! \n\nSpaceX makes sci-fi real. https://t.co/C7Ht0U12ba",
+        "created_at": "2026-08-25T16:47:24.000Z",
+        "imported_at": "2026-08-25T16:50:42.266Z",
+        "kind": "original"
+      },
       {
         "id": "cmt8udm0k000ijg04g1sxswod",
         "text": "RT @SpaceX: Falcon 9 launches 29 @Starlink satellites from Florida https://t.co/9VqdPjdcpr",
