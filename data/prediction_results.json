@@ -22,5 +22,17 @@
     "hit": 1,
     "leadH": 8.8,
     "scored": "2026-08-24T16:48:41.631Z"
+  },
+  {
+    "title": "Elon Musk # tweets August 24 - August 26, 2026?",
+    "settle": "2026-08-26T16:00:00Z",
+    "predBucket": "65-89",
+    "lo": 65,
+    "hi": 89,
+    "predMid": 78,
+    "actual": 57,
+    "hit": 0,
+    "leadH": 9.9,
+    "scored": "2026-08-26T16:52:59.215Z"
   }
 ]
