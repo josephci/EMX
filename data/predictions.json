@@ -2,12 +2,12 @@
   "Elon Musk # tweets August 27 - August 29, 2026?": {
     "settle": "2026-08-29T16:00:00Z",
     "windowStart": "2026-08-27T16:00:00.000Z",
-    "bucket": "115-139",
-    "lo": 115,
-    "hi": 139,
-    "mid": 118,
-    "leadH": 71.1,
+    "bucket": "90-114",
+    "lo": 90,
+    "hi": 114,
+    "mid": 111,
+    "leadH": 68.8,
     "locked": false,
-    "logged": "2026-08-26T16:52:59.215Z"
+    "logged": "2026-08-26T19:11:56.828Z"
   }
 }
