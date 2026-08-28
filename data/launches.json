@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28T11:11:08.100Z",
+  "last_updated": "2026-08-28T21:27:17.641Z",
   "launches": [
     {
       "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
@@ -17,7 +17,7 @@
     },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-24",
-      "net": "2026-09-05T11:13:00Z",
+      "net": "2026-09-06T10:59:00Z",
       "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
