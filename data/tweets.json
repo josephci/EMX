@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-29T21:13:51.822Z",
-  "total": 3488,
+  "last_updated": "2026-08-29T23:25:55.912Z",
+  "total": 3491,
   "by_date": {
     "2026-05-27": [
       {
@@ -23841,6 +23841,27 @@
       }
     ],
     "2026-08-29": [
+      {
+        "id": "cmtf0dozf0001jj042oripqgh",
+        "text": "Starship is designed to completely change the economics of space\n\nIt is unlike anything humanity has ever built before\n\nThe amount of engineering SpaceX has packed into this machine is insane... constantly pushing closer to the limits of what physics allows\n\nEverything around Starship is built for insane scale: payload, reusability, launch cadence, propellant, orbital infrastructure, the Moon, and Mars\n\nAnything humanity wants to build at serious scale in space eventually comes back to one machine that makes it possible: Starship\n\nThis is the kind of scale humanity used to only imagine\n\nEverything changes when you realize Starship is no longer just a “rocket”\n\nIt starts to look like a transportation system built for an entire civilization",
+        "created_at": "2026-08-29T23:24:48.000Z",
+        "imported_at": "2026-08-29T23:25:29.403Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtf079eh0000jj04wzt4v63e",
+        "text": "Falcon Heavy is vertical at pad 39A in Florida ahead of Sunday’s launch of @NASA’s Nancy Grace Roman Space Telescope, designed to study dark energy, exoplanets, and astrophysics → https://spacex.com/launches/roman https://pbs.twimg.com/media/HQ6i07TX0AAE-cU.jpg",
+        "created_at": "2026-08-29T23:17:23.000Z",
+        "imported_at": "2026-08-29T23:20:29.274Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtevwy0k0000ju04j3otrfhm",
+        "text": "Consensus estimate is that ~15GW of AI compute produced in 2027 cannot be turned on in 2027. \n\nThis is harder than just finding power, as you also need to build out all the transformers, wiring, liquid-cooling, (massive) chillers &amp; complex networking. https://grok.com/share/bGVnYWN5_4f06d401-90e9-4ed4-bad8-89e3b4fadde2",
+        "created_at": "2026-08-29T21:17:15.000Z",
+        "imported_at": "2026-08-29T21:20:29.493Z",
+        "kind": "original"
+      },
       {
         "id": "cmteuud3u0004lh04rbsw8sd0",
         "text": "Wow",
