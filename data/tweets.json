@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-28T21:27:17.995Z",
-  "total": 3456,
+  "last_updated": "2026-08-29T03:22:28.991Z",
+  "total": 3467,
   "by_date": {
     "2026-05-27": [
       {
@@ -23537,6 +23537,62 @@
     ],
     "2026-08-28": [
       {
+        "id": "cmtdjv9cd000bky04sdslb9yi",
+        "text": "How to use Grok @Bot",
+        "created_at": "2026-08-28T22:51:36.000Z",
+        "imported_at": "2026-08-28T22:55:29.294Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtdjou060008ky04zab3abcc",
+        "text": "Rest in peace, Peter Cullen – voice of Optimus Prime, Optimus’ namesake\n\n‘Till all are one \n\n❤️ https://pbs.twimg.com/media/HQxGWyTbsAAob4V.jpg",
+        "created_at": "2026-08-28T22:48:57.000Z",
+        "imported_at": "2026-08-28T22:50:29.478Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtdjou060009ky04n1922goz",
+        "text": "United States Space Academy 🇺🇸",
+        "created_at": "2026-08-28T22:45:33.000Z",
+        "imported_at": "2026-08-28T22:50:29.478Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtdi2yl80002ky043t0ohkjh",
+        "text": "Grok Bot can now buy things on the internet.\n\nTo get started, connect @link, send your Bot shopping, and it can complete purchases on your behalf. https://video.twimg.com/amplify_video/2093419690362314753/vid/avc1/480x270/B4w8uKP05UwCqgVp.mp4?tag=29",
+        "created_at": "2026-08-28T22:02:11.000Z",
+        "imported_at": "2026-08-28T22:05:29.373Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtdi2yl80003ky045mtbv7fp",
+        "text": "Space Academy!",
+        "created_at": "2026-08-28T22:01:55.000Z",
+        "imported_at": "2026-08-28T22:05:29.373Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtdhxptn0000ky04o3dsnwh2",
+        "text": "BREAKING: President Donald J. Trump just signed an Executive Order establishing a new federal academy, THE UNITED STATES SPACE ACADEMY. 🚀🇺🇸 https://pbs.twimg.com/media/HQ0wOKiWUAAOLRP.jpg",
+        "created_at": "2026-08-28T22:01:16.000Z",
+        "imported_at": "2026-08-28T22:01:24.731Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtdhxptn0001ky047rv1lhn7",
+        "text": "The numbers speak for themselves. \n\n@SpaceX’s $100 billion investment will transform Louisiana as we know it— a better, more prosperous Louisiana is shaping up right in front of our eyes. https://pbs.twimg.com/media/HQ08DHpWUAAUUWz.jpg",
+        "created_at": "2026-08-28T21:57:30.000Z",
+        "imported_at": "2026-08-28T22:01:24.731Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtdgtyjn0004l5044302uky3",
+        "text": "Grok @Bot works with @Link",
+        "created_at": "2026-08-28T21:30:09.000Z",
+        "imported_at": "2026-08-28T21:30:29.796Z",
+        "kind": "original"
+      },
+      {
         "id": "cmtdbnhbj0000jl04tgggyykl",
         "text": "modern SAT tests if you can read\nin 1926, when it was first introduced, they asked students to learn an invented language, understand the construction rules and then translate sentences back to english https://pbs.twimg.com/media/HQ0ZJ-VXMAAm8aB.png",
         "created_at": "2026-08-28T19:04:34.000Z",
@@ -23781,6 +23837,29 @@
         "text": "“Eat liver pie instead”,\n\nreplied the commie Marie Antoinette director of the Novocherkassk locomotive plant when the workers asked him how they will afford meat.\n\nThe Soviet government had just hiked meat and dairy prices while simultaneously slashing factory wages in 1962.\n\nThe wage dispute escalated into an uprising.  Marches headed toward the Communist Party HQ, protesters singing revolutionary songs, and holding portraits of Lenin in defense of “real” communism against the Soviet authorities.\n\nSo they shot them. \n\n7 organizers were executed, 26 dead were thrown in unmarked graves so there wouldn’t be any public memorials, and people living under the commie regime never found out any of this happened until the Soviet Union fell nearly 30 years later.",
         "created_at": "2026-08-27T04:57:45.000Z",
         "imported_at": "2026-08-28T17:12:45.853Z",
+        "kind": "original"
+      }
+    ],
+    "2026-08-29": [
+      {
+        "id": "cmtdp85vn0003l104csp2pcsj",
+        "text": "It’s a function of SF Bay Area political views. \n\nGrok is California plus Texas, so more centered.",
+        "created_at": "2026-08-29T01:22:37.000Z",
+        "imported_at": "2026-08-29T01:25:29.412Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtdp1qf80001l104kt4zn757",
+        "text": "🔥😂",
+        "created_at": "2026-08-29T01:20:00.000Z",
+        "imported_at": "2026-08-29T01:20:29.445Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtdp1qf80002l1044hs63sz5",
+        "text": "BREAKING: SpaceXAI has released a major new update for Grok Build (v1.0.13).\n\nThe update improves reliability with automatic retries and recovery from truncated responses, inference failures, oversized images and session-saving issues.\n\nIt also adds smarter hooks, better Windows support, faster MCP and session startup, improved scheduled tasks and quicker compressed CLI downloads.\n\nFeatures\n\n• Length-truncated responses now continue automatically instead of failing the turn.\n• Hooks can now ask the user to confirm a tool call instead of always allowing or denying.\n• Hooks can now request deferral or add context shown to the model after a tool runs.\n• Session close now records detailed timing data for performance analysis.\n• Credit limit upsell now offers a Try Again button to retry the last prompt.\n• Pasted images now show a live pixel preview in the prompt box on iTerm2.\n\nBug Fixes\n\n• Transient inference failures (stalls, drops, 5xx) now retry automatically instead of ending the turn.\n• Windows users can now correctly open ~/.grok and worktree sessions.\n• Session data is now more reliably saved after prompts and on power loss.\n• Compaction failures now show the actual error instead of a generic message.\n• Truncation error messages now show the right guidance instead of suggesting an unhelpful retry.\n• Truncated tool calls are now executed instead of failing the turn when arguments are complete.\n• Images larger than 2000px no longer brick sessions on many-image requests.\n• Wrapped hyperlinks in the pager now remain fully clickable on Windows Terminal instead of only the first line.\n• Recurring scheduled tasks now include a reminder to stop the monitor when work finishes.\n• Scheduled task IDs are now full UUID strings, preventing collisions when tasks are created in the same millisecond.\n\nPerformance\n\n• Subagent spawning is faster when connections drop during bursts.\n• Session startup with MCP servers is now much faster when auth is already configured.\n• MCP server startup no longer stalls behind a fixed batch size.\n• CLI downloads are now compressed, making fresh installs and updates substantially faster.\n\nDownload Grok Build: https://x.ai/build\n\nUpdate to the latest Alpha release: grok update --alpha  \n\nUpdate to the latest Stable release: grok update",
+        "created_at": "2026-08-29T01:19:40.000Z",
+        "imported_at": "2026-08-29T01:20:29.445Z",
         "kind": "original"
       }
     ]
