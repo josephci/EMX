@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-29T18:39:44.827Z",
-  "total": 3484,
+  "last_updated": "2026-08-29T21:13:51.822Z",
+  "total": 3488,
   "by_date": {
     "2026-05-27": [
       {
@@ -23841,6 +23841,34 @@
       }
     ],
     "2026-08-29": [
+      {
+        "id": "cmteuud3u0004lh04rbsw8sd0",
+        "text": "Wow",
+        "created_at": "2026-08-29T20:50:04.000Z",
+        "imported_at": "2026-08-29T20:50:29.466Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtetlco40003lh0465nrcx5e",
+        "text": "SpaceX and Tesla are each building 100GW/year of solar production capacity as fast as possible, but natural gas will still be needed to supplement and bootstrap solar for several years. \n\nThe limiting factor for nat gas turbine production is casting the blades & vanes. By doing in-house casting at SpaceX, we can accelerate nat gas turbines coming online by up to 18 months, which is a profound game-changer.",
+        "created_at": "2026-08-29T20:15:26.000Z",
+        "imported_at": "2026-08-29T20:15:29.380Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtet5kgb0002lh04joeyjbta",
+        "text": "An important launch",
+        "created_at": "2026-08-29T19:56:56.000Z",
+        "imported_at": "2026-08-29T20:03:12.972Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmteqqhex0009jn04m8fnrtk8",
+        "text": "Grok Bot has overtaken OpenClaw in Google Trends search interest. 🔥 https://pbs.twimg.com/media/HQ5T8NuasAAMsri.jpg",
+        "created_at": "2026-08-29T18:52:32.000Z",
+        "imported_at": "2026-08-29T18:55:29.961Z",
+        "kind": "original"
+      },
       {
         "id": "cmtepb1js0005jn042myhapsj",
         "text": "Here's a better comparison of @Tesla's new Robotaxi service area in Dallas. It's actually 158% larger than the old service area (in orange). New service area is about 80 square miles (vs 31 before).\n\nAll Tesla robotaxi rides in Dallas are unsupervised. https://pbs.twimg.com/media/HQ55XznXgAA3sJ6.jpg",
