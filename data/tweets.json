@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-30T06:50:16.187Z",
-  "total": 3502,
+  "last_updated": "2026-08-30T12:45:50.702Z",
+  "total": 3505,
   "by_date": {
     "2026-05-27": [
       {
@@ -24039,6 +24039,27 @@
       }
     ],
     "2026-08-30": [
+      {
+        "id": "cmtfjcjju0004l7042ji4gobl",
+        "text": "BREAKING: Grok Companions will officially be removed from the Grok app on September 1, 2026. 🤖\n\nThe change will remove the Companions feature from the app starting September 1.\n\nSource: @PrivateIcedC81 https://pbs.twimg.com/media/HQ5ijocbMAAv-pU.jpg",
+        "created_at": "2026-08-30T08:11:19.000Z",
+        "imported_at": "2026-08-30T08:16:28.407Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtfitv6o0003l704gehc0nhs",
+        "text": "Which frontier AI model company is most likely to create an AI that causes serious harm?",
+        "created_at": "2026-08-30T07:57:56.000Z",
+        "imported_at": "2026-08-30T08:01:57.014Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtfi9c0b0002l704b0rqvsqe",
+        "text": "Jensen Huang says the first AI supercomputer he ever built had exactly one customer on earth:\n\nElon Musk.\n\nBack in 2016, he had just created a machine called the DGX1.\n\nIt cost $300,000 dollars.\n\nHe announced it on stage, and the room went completely silent since nobody understood it, so nobody wanted to buy it.\n\nSince Elon knew him because Nvidia had built the first self-driving computer for the Tesla Model S, Elon bought & tried it.\n\nElon said he had a small company that could use it.\n\nJensen boxed one up himself and drove it to San Francisco. He carried it up to a room full of researchers. That tiny company turned out to be OpenAI.\n\nThe machine nobody wanted went on to launch the AI revolution.\n\n— Jensen Huang (.@JensenHuang)",
+        "created_at": "2026-08-30T07:42:08.000Z",
+        "imported_at": "2026-08-30T07:45:59.048Z",
+        "kind": "original"
+      },
       {
         "id": "cmtff7dkp0000ju04k5sk6k29",
         "text": "First time watching your Grok Bots work on a task  https://video.twimg.com/amplify_video/1969830523657666560/vid/avc1/320x334/t0IjzqD3_9xZuXqk.mp4?tag=21",
