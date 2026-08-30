@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-30T16:58:54.382Z",
-  "total": 3512,
+  "last_updated": "2026-08-30T19:43:24.046Z",
+  "total": 3520,
   "by_date": {
     "2026-05-27": [
       {
@@ -24039,6 +24039,62 @@
       }
     ],
     "2026-08-30": [
+      {
+        "id": "cmtg7s6ub0003jv042gsxsybq",
+        "text": "Try Tesla self-driving. It will improve your quality of life and may save your life.",
+        "created_at": "2026-08-30T19:38:01.000Z",
+        "imported_at": "2026-08-30T19:40:29.220Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtg7s6ub0004jv04t6rgxahb",
+        "text": "Should say that I personally still find the @Grok app more useful for some tasks than @Bot. \n\nWorth trying it out on super tough tasks if you haven’t in a while. \n\nhttps://apps.apple.com/app/id6670324846",
+        "created_at": "2026-08-30T19:36:34.000Z",
+        "imported_at": "2026-08-30T19:40:29.220Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtg78wqi0001jv04b6t3zfpl",
+        "text": "@cremieuxrecueil https://video.twimg.com/amplify_video/2094143102499926016/vid/avc1/498x270/LOgYFx7byuJY1lFC.mp4?tag=29",
+        "created_at": "2026-08-30T19:21:38.000Z",
+        "imported_at": "2026-08-30T19:25:29.547Z",
+        "kind": "reply"
+      },
+      {
+        "id": "cmtg5a5zl0008l004y449r2hz",
+        "text": "Extending consciousness beyond Earth, ultimately to the stars, is a fundamentally good goal",
+        "created_at": "2026-08-30T18:30:13.000Z",
+        "imported_at": "2026-08-30T18:30:29.074Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtg53qbg0007l004b1mz69zf",
+        "text": "How to share your Grok @Bot design with others",
+        "created_at": "2026-08-30T18:24:17.000Z",
+        "imported_at": "2026-08-30T18:25:28.829Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtg4xaro0003l004o3w5qftg",
+        "text": "\"Elon Musk is not a danger to democracy, George Soros is.”\n\n@GiorgiaMeloni https://video.twimg.com/amplify_video/1877404226034487296/vid/avc1/320x324/DYLVL5kexeIghivK.mp4?tag=16",
+        "created_at": "2026-08-30T18:18:14.000Z",
+        "imported_at": "2026-08-30T18:20:28.741Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtg4xarp0004l004z9a44pbo",
+        "text": "Been building out my army of personal assistant bots using (@bot). Thus far I have a:\n- House bot - keeps track of everything related to properties: taxes, HOA fees, maintenance, assessment values etc. It can email / call / schedule things as needed on my behalf.\n- Finance bot - this one needs work. I wish there was a Plaid integration for Grok bot. But the goal is to track spend. Right now it's not really doing much ... \n- LP bot - manages all paperwork personal LP investments\n- Family bot - I've already gotten in trouble with this one. But it helps me make sure I'm making enough space and time for my family. Checks my calendar, makes sure I have enough time for wife, kids etc. \n- News bot - aggregates news from X, traditional media etc. \n- Manager bot - helps manage all the other bots. Reports activity, and distributes tasks. \n\nThis is all still experimental. But if it turns out to work well, will make the templates public.",
+        "created_at": "2026-08-30T18:18:02.000Z",
+        "imported_at": "2026-08-30T18:20:28.741Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtg4xarp0005l004e09xy1sg",
+        "text": "I hope you like this short (very realistic) film that my son made using Grok Imagine\n\nGrok Imagine and kids are a winning combo\n\nWe adults have certain hangups when it comes to using AI that the next generation won't even consider. They'll just be creating https://video.twimg.com/amplify_video/2094118156075716608/vid/avc1/480x270/MBBv_-lYB1aPIGuP.mp4?tag=25",
+        "created_at": "2026-08-30T18:15:41.000Z",
+        "imported_at": "2026-08-30T18:20:28.741Z",
+        "kind": "original"
+      },
       {
         "id": "cmtg1cpu6000cky04vnj1h9vv",
         "text": "BREAKING: SpaceX gets approval for 444 acres near the Port of Brownsville, clearing the way for a major expansion.\n\nThe city also approved a major infrastructure agreement with SpaceX:\n\n• Up to $220 million for regional water and wastewater projects\n• An initial $40 million escrow contribution\n• Six additional quarterly payments of $30 million each\n• Projects capable of adding around 18 million gallons of water supply per day\n• Funding for water reuse, wastewater reclamation and expansion of the Southmost Regional Water Authority plant\n\nThis is much bigger than a land deal. SpaceX is helping build critical infrastructure that could strengthen South Texas for generations.",
