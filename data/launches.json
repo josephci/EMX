@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-08-30T12:45:50.176Z",
+  "last_updated": "2026-08-30T16:58:53.954Z",
   "launches": [
     {
       "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
       "net": "2026-08-30T11:26:04Z",
-      "status": "In Flight",
+      "status": "Success",
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA"
     },
