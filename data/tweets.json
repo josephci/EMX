@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-08-29T23:25:55.912Z",
-  "total": 3491,
+  "last_updated": "2026-08-30T01:23:27.440Z",
+  "total": 3499,
   "by_date": {
     "2026-05-27": [
       {
@@ -23842,6 +23842,13 @@
     ],
     "2026-08-29": [
       {
+        "id": "cmtf0k4bz0002jj0412qjal4n",
+        "text": "Elon means the universe’s volume is discrete: made of a finite integer number of Planck cubes (each the Planck length cubed, ~10⁻¹⁰⁵ m³). Space isn’t continuous; at the smallest scale it’s quantized like voxels in a simulation. Irrational numbers (like unlimited digits of π) have no physical basis beyond that granularity.",
+        "created_at": "2026-08-29T23:27:41.000Z",
+        "imported_at": "2026-08-29T23:30:29.231Z",
+        "kind": "original"
+      },
+      {
         "id": "cmtf0dozf0001jj042oripqgh",
         "text": "Starship is designed to completely change the economics of space\n\nIt is unlike anything humanity has ever built before\n\nThe amount of engineering SpaceX has packed into this machine is insane... constantly pushing closer to the limits of what physics allows\n\nEverything around Starship is built for insane scale: payload, reusability, launch cadence, propellant, orbital infrastructure, the Moon, and Mars\n\nAnything humanity wants to build at serious scale in space eventually comes back to one machine that makes it possible: Starship\n\nThis is the kind of scale humanity used to only imagine\n\nEverything changes when you realize Starship is no longer just a “rocket”\n\nIt starts to look like a transportation system built for an entire civilization",
         "created_at": "2026-08-29T23:24:48.000Z",
@@ -24028,6 +24035,57 @@
         "text": "BREAKING: SpaceXAI has released a major new update for Grok Build (v1.0.13).\n\nThe update improves reliability with automatic retries and recovery from truncated responses, inference failures, oversized images and session-saving issues.\n\nIt also adds smarter hooks, better Windows support, faster MCP and session startup, improved scheduled tasks and quicker compressed CLI downloads.\n\nFeatures\n\n• Length-truncated responses now continue automatically instead of failing the turn.\n• Hooks can now ask the user to confirm a tool call instead of always allowing or denying.\n• Hooks can now request deferral or add context shown to the model after a tool runs.\n• Session close now records detailed timing data for performance analysis.\n• Credit limit upsell now offers a Try Again button to retry the last prompt.\n• Pasted images now show a live pixel preview in the prompt box on iTerm2.\n\nBug Fixes\n\n• Transient inference failures (stalls, drops, 5xx) now retry automatically instead of ending the turn.\n• Windows users can now correctly open ~/.grok and worktree sessions.\n• Session data is now more reliably saved after prompts and on power loss.\n• Compaction failures now show the actual error instead of a generic message.\n• Truncation error messages now show the right guidance instead of suggesting an unhelpful retry.\n• Truncated tool calls are now executed instead of failing the turn when arguments are complete.\n• Images larger than 2000px no longer brick sessions on many-image requests.\n• Wrapped hyperlinks in the pager now remain fully clickable on Windows Terminal instead of only the first line.\n• Recurring scheduled tasks now include a reminder to stop the monitor when work finishes.\n• Scheduled task IDs are now full UUID strings, preventing collisions when tasks are created in the same millisecond.\n\nPerformance\n\n• Subagent spawning is faster when connections drop during bursts.\n• Session startup with MCP servers is now much faster when auth is already configured.\n• MCP server startup no longer stalls behind a fixed batch size.\n• CLI downloads are now compressed, making fresh installs and updates substantially faster.\n\nDownload Grok Build: https://x.ai/build\n\nUpdate to the latest Alpha release: grok update --alpha  \n\nUpdate to the latest Stable release: grok update",
         "created_at": "2026-08-29T01:19:40.000Z",
         "imported_at": "2026-08-29T01:20:29.445Z",
+        "kind": "original"
+      }
+    ],
+    "2026-08-30": [
+      {
+        "id": "cmtf3yb740000jy0499s5tdoy",
+        "text": "Why Starship\n\nThe point of Starship is not that it is the biggest rocket.\nIt is that mass to orbit stops being a one-way ticket.\n\n@elonmusk \n“It's the first rocket design that is capable of full and rapid reusability.”\n\nTranslation: every other orbital rocket is still a disposable truck. Starship is built so the truck comes home and goes again. Refill is the next chapter. Reuse is the breakthrough.\n\n1. Falcon Heavy: ~64 t to LEO (expendable)\n2. Starship V3: >100 t to LEO reusable (SpaceX’s stated target)\n3. You cannot make enough rockets unless you can refly them\n4. Flight 13: Ship came home intact after entry\n\nYou cannot become multiplanetary on expendable trucks.",
+        "created_at": "2026-08-30T01:04:19.000Z",
+        "imported_at": "2026-08-30T01:05:30.061Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtf3yb740001jy04f4lbo7ww",
+        "text": "Stack for x10 world GPD.\n\nAnd btw should we separate space GDP from world GDP? https://pbs.twimg.com/media/HQ7gEdCW4AAOzkT.jpg",
+        "created_at": "2026-08-30T01:02:24.000Z",
+        "imported_at": "2026-08-30T01:05:30.061Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtf2vqwm0008jj0476j6pp7s",
+        "text": "Keeping up with the Kardashevs",
+        "created_at": "2026-08-30T00:32:28.000Z",
+        "imported_at": "2026-08-30T00:35:30.934Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtf2pba50006jj04hdl3ic2q",
+        "text": "Grok @Bot buys a Tesla!",
+        "created_at": "2026-08-30T00:28:17.000Z",
+        "imported_at": "2026-08-30T00:30:30.749Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtf2pba50007jj04ff6zotgx",
+        "text": "I made a video about what happens when you execute `c = a @ b` in PyTorch, from the code to silicon.\n\nHopefully it will help you appreciate that simple line of code more.\n\nMade by Grok @bot. Enjoy! https://video.twimg.com/amplify_video/2093848370385465344/vid/avc1/480x270/xZByJ7YupT4XglxX.mp4?tag=29",
+        "created_at": "2026-08-30T00:26:54.000Z",
+        "imported_at": "2026-08-30T00:30:30.749Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtf2dkmq0005jj04tlu58np2",
+        "text": "True",
+        "created_at": "2026-08-30T00:17:00.000Z",
+        "imported_at": "2026-08-30T00:21:22.983Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtf25zua0004jj04tdghshlg",
+        "text": "This is the way.\n\nThe Left will attack people for thinking like this because it would mean putting an end to their racist Affirmative Action and DEI programs. https://pbs.twimg.com/media/HQ60B3ua0AAKRmV.jpg",
+        "created_at": "2026-08-30T00:14:40.000Z",
+        "imported_at": "2026-08-30T00:15:29.356Z",
         "kind": "original"
       }
     ]
