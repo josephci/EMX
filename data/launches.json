@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30T01:23:26.973Z",
+  "last_updated": "2026-08-30T06:50:15.785Z",
   "launches": [
     {
       "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
@@ -24,8 +24,8 @@
     },
     {
       "name": "Falcon 9 Block 5 | Crew-13",
-      "net": "2026-09-12T22:34:00Z",
-      "status": "Go",
+      "net": "2026-09-30T00:00:00Z",
+      "status": "TBD",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA"
     },
