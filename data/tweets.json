@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-01T12:44:29.197Z",
-  "total": 3552,
+  "last_updated": "2026-09-01T16:55:57.498Z",
+  "total": 3575,
   "by_date": {
     "2026-05-27": [
       {
@@ -24407,6 +24407,167 @@
       }
     ],
     "2026-09-01": [
+      {
+        "id": "cmtiwevj10000jm04quhzntsf",
+        "text": "Transportation Secretary Sean Duffy on Autonomous Vehicle Regulations:\n\n“My philosophy is this: if I move the regulations too slowly, we kill innovation, we kill the companies, or they’ll go overseas. If I go too fast and the AVs aren’t ready for the rules I give them, people get hurt. I have to find the Goldilocks approach — the right stage of where we are with AVs before we set them loose.\n\n“Congress has to say the federal government should regulate these standards. We shouldn’t have every state individually deciding yes or no, what they’ll allow and what they won’t. It’s a hodgepodge. Let us set one standard. That’s the biggest issue for AVs right now.\n\n“If you have an autonomous vehicle, do you need rearview mirrors? \n\n“Do you need windshield wipers? \n\n“Do you need a brake pedal and a gas pedal? \n\n“Do you need a steering wheel? \n\n“There are a whole bunch of conversations we have to have about what we think we need in an automobile versus what an autonomous vehicle actually should have.”",
+        "created_at": "2026-09-01T16:43:53.000Z",
+        "imported_at": "2026-09-01T16:45:30.781Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtivvlzb0012l404na4m4us3",
+        "text": "Luxor, Egypt offers the longest totality at about 6 min 20 sec near the maximum, with near-certain clear skies (though very hot). Other top spots: Gibraltar (~4.5 min), Tangier Morocco (~5 min), southern Spain (easier access, 2-4+ min), or Tunisia/Libya for 5+ min. Path runs Spain to Somalia. Book early and use proper eclipse glasses.",
+        "created_at": "2026-09-01T16:27:07.000Z",
+        "imported_at": "2026-09-01T16:30:31.943Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtivipvm000wl4041uluw0vh",
+        "text": "Starship Flight 14 is likely to deploy operational V3 Starlinks (per Elon and FCC filings). Depending on the exact number of V3 sats (I expect between 20-60) in this first launch, this starship launch will be equivalent to 3-8 weeks of F9 Starlink bandwidth (at peak cadence). Said another way, what F9 took up to 2 months to deploy Starship can do in ~45 minutes.",
+        "created_at": "2026-09-01T16:18:24.000Z",
+        "imported_at": "2026-09-01T16:20:30.467Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtivipvm000xl404zuck1m6i",
+        "text": "I need UK 10 year gilt yields translated into play language. @grok can you map % yields on to “fucked” “proper fucked” “utterly fucked” and “time to buy tinned goods”",
+        "created_at": "2026-09-01T16:16:25.000Z",
+        "imported_at": "2026-09-01T16:20:30.467Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtivipvm000yl404lahnm1bd",
+        "text": "𝕏 makes money simple. https://video.twimg.com/amplify_video/2094800965711106048/vid/avc1/320x320/IgCKcvBftiQOcfO4.mp4?tag=29",
+        "created_at": "2026-09-01T16:15:34.000Z",
+        "imported_at": "2026-09-01T16:20:30.467Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtivca97000ul4044jqureki",
+        "text": "New Apple CEO posting on 𝕏",
+        "created_at": "2026-09-01T16:15:24.000Z",
+        "imported_at": "2026-09-01T16:15:30.283Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtivca97000vl404mfdqzlr9",
+        "text": "Interesting",
+        "created_at": "2026-09-01T16:13:17.000Z",
+        "imported_at": "2026-09-01T16:15:30.283Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtiumnmx000pl404q5qmf5zy",
+        "text": "Workflows are now in Grok Build.\n\nHand Grok a task a single conversation can't hold: Triage 100+ issues, or review thousands of lines of code in detail.",
+        "created_at": "2026-09-01T15:52:08.000Z",
+        "imported_at": "2026-09-01T15:55:34.569Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtiumnmx000ql404fxoows4s",
+        "text": "Grok @Bot runs on its own computer in the cloud 24/7, so it doesn’t matter if you turn off your laptop",
+        "created_at": "2026-09-01T15:50:37.000Z",
+        "imported_at": "2026-09-01T15:55:34.569Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtiug4pv000ol404hx6tu6gw",
+        "text": "Wake me up when AI can write like John Steinbeck to Marilyn Monroe 😂 https://pbs.twimg.com/media/HRDyC1FXUAACKcx.jpg",
+        "created_at": "2026-09-01T15:48:09.000Z",
+        "imported_at": "2026-09-01T15:50:30.115Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtiu9q0c000kl404jjjcabkp",
+        "text": "We’re giving all @Grok @Bot users another free reset on token usage",
+        "created_at": "2026-09-01T15:45:03.000Z",
+        "imported_at": "2026-09-01T15:45:31.116Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtiu3act000hl4042cqwsya3",
+        "text": "The ultimate Grok @bot set up for me is to filter EVERYTHING - absolutely everything through one agent and hide everything else.\n\nThat agent is in charge of as many agents as needed that will own specific areas for your process/business/personal life. You can even ask the master agent to spin up agents that make sense to own each area.\n\nThen ask your master agent to create chat rooms for all the agents where it makes sense for them to get together and chat about whatever they need to. Remind your master agent to do this periodically so the chats/agents are optimized to whatever the latest iteration of what you're doing is.\n\nThen - most importantly - tell your master agent to PING YOU whenever something needs your attention or needs your action. And tell it to ping you ONLY ONE AT A TIME, and once you clear an item, THEN it can ping you for the next item.\n\nSo essentially ask the Master agent to keep a running list of items it needs you to action on.\n\nThis massively helps with clutter/distractions/doing too many things at once, which is STUPIDLY EASY to do with a tool that can give you quasi-infinite agents.\n\nOFFLOAD all the complex/multitasking stuff to your agents, and empower them to be as fully autonomous as you feel comfortable, and TRUST THEM with as many things you can trust them with.\n\nThe more you trust them with things, and the more autonomy you give them, the less you have to do/worry about it, and with this set up, whatever you need to do will COME TO YOU, instead of YOU GOING TO IT.\n\nBasically treat them as you would a team of ultra talented people - give them the keys to the kingdom, allow them to experiment, and be available for them when they need your help. I think Grok Bot is at a point where this can be done because of how consistent and stable it is, especially relative to other agentic harnesses.\n\nIf you want your own set up like this, you can copy the link to this post and give it to your Grok Bot, or you can click on the link here to copy my own: https://x.ai/bot/j7B5LHnEIPTuPQZxxQwpx",
+        "created_at": "2026-09-01T15:37:30.000Z",
+        "imported_at": "2026-09-01T15:40:30.893Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtitrjgg0007l404lordncju",
+        "text": "Starlink Mini keeps you connected to high-speed internet on the go 🛰️❤️",
+        "created_at": "2026-09-01T15:30:04.000Z",
+        "imported_at": "2026-09-01T15:31:22.817Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtitrjgg0008l404pydhajpo",
+        "text": "Si l’Occident veut retrouver sa superbe, il va falloir revenir à un rapport adulte avec la vérité.\n\nLa vérité, la voici.\n\nLes individus exceptionnels existent.\n\nCe n’est pas une opinion. Ce n’est pas un « biais du survivant ». C’est un fait. J’avais listé les vrais génies de l’histoire il y a quelques mois. 108 milliards d’humains ont vécu sur Terre. La liste tient en une centaine de noms. Un pour un milliard.\n\nNewton, qui refonde la science occidentale seul.\nMaxwell, qui prédit les ondes avant qu’on les mesure.\nEinstein.\nGauss. Euler. Ramanujan. Gödel.\nTuring. von Neumann. Shannon.\nDarwin. Pasteur.\nBach. Mozart. Beethoven.\nLéonard de Vinci. Michel-Ange. Shakespeare.\nTesla.\nJobs. Musk. Ford.\n\nSans ces gens-là, le monde n’est pas « un peu moins bien ». Il est autre. En retard de trente ans. Ou il n’arrive jamais.\n\nNos démocraties socialistes n’arrivent pas à avaler cette phrase.\n\nElles acceptent l’exception au stade. Elles l’acceptent au musée. Elles la vomissent dans l’entreprise.\n\nPersonne ne dit que Messi vole le smicard. Tout le monde dit qu’Elon vole le prolétariat.\n\nC’est le même phénomène. La même loi. On a juste décidé que le ballon était noble et que le capital était sale.\n\nCe qu’on voit dans le sport, on le voit dans l’entrepreneuriat. Une minuscule fraction d’individus tire toute la courbe. Dans un monde libre, tout le monde a le droit d’essayer. Ceux qui réussissent doivent devenir les héros du monde moderne.\n\nPourquoi ?\n\nParce que ce sont eux qui font vraiment avancer la civilisation.\n\nÉvidemment qu’ils avancent grâce aux autres. Grâce à des équipes, des fournisseurs, des clients, des hasards. Mais la magie n’opère que quand un alignement rare se met en place. L’intégrité. Le sacrifice. L’obsession. La capacité à ne pas s’arrêter.\n\nCe n’est pas l’État qui a créé Apple. Ce n’est pas l’État qui a créé Google. Ce n’est pas l’État qui a créé Uber. Ce sont les génies à leur tête.\n\nEt oui : dans une économie qui marche, ces gens-là deviennent millionnaires, milliardaires, parfois trillionnaires. Ce n’est pas un scandale. C’est le reçu. La preuve qu’ils ont mieux alloué le capital que n’importe quel groupe de mille bureaucrates.\n\nÊtre milliardaire quand on s’appelle Elon Musk, c’est normal. Pour la raison la plus simple du monde : il sait mieux que Bercy où mettre l’argent.\n\nLa social-démocratie occidentale a cassé ce rapport à l’exception. Elle l’a gardé là où il est décoratif le sport, les arts et elle l’a criminalisé là où il crée le niveau de vie. D’où cette phrase entendue mille fois : « ce n’est pas normal d’être milliardaire. »\n\nSi. Ça l’est. Quand tu sers des milliards de gens mieux que l’alternative.\n\nL’archétype, on le connaît. Il revient. Cicatrice d’enfance. Intelligence haute. Signe précoce qu’il va construire quelque chose, souvent trop tôt, souvent mal. Et surtout cette chose que presque personne n’a : la capacité à ne pas partir en vacances quand il a dix millions sur le compte. À relancer. À remettre toute la mise. À continuer quand le rationnel dirait « tu as gagné, arrête ».\n\nJobs, enfant adopté, renvoyé de sa propre boîte, revient et refait l’informatique personnelle.\nMusk, tabassé à l’école, dort au bureau, remet PayPal dans la fusée.\nTesla, ruiné, scammé, continue quand même.\nMozart, exploité dès l’enfance, 600 œuvres avant 35 ans.\nVinci, bâtard, touche à tout, ne finit presque rien, et change quand même le regard de l’espèce.\n\nCe n’est pas un roman. C’est le moteur.\n\nÀ Davos, face à la caste même qui vit de la honte de l’exception, Javier Milei @JMilei a dit la seule phrase qui compte :\n\n« Vous êtes des bienfaiteurs sociaux. Vous êtes des héros. Que personne ne vous dise que votre ambition est immorale. Si vous gagnez de l’argent, c’est parce que vous offrez un meilleur produit à un meilleur prix. »\n\nIl avait tout compris.\n\nLe but d’une civilisation qui veut vivre, ce n’est pas de raboter ses sommets. C’est d’en produire. Des dizaines d’Elon Musk. Des dizaines de Mozart. Des dizaines de Tesla. Des dizaines de Vinci.\n\nOn n’obtient pas ça avec un barème. On l’obtient avec un sol : le droit d’essayer, le droit d’échouer, le droit de garder le fruit si on réussit, et le droit d’être admiré pour ça.\n\nLes ennemis ne sont pas les gens qui votent mal. Ce sont les idées qui ont transformé l’excellence en faute morale.\n\nLe 21e siècle sera celui des civilisations qui célèbrent encore leurs bâtisseurs.\n\nLe reste gérera le déclin. Avec beaucoup de réunions.\n\nAllez construire.",
+        "created_at": "2026-09-01T15:27:57.000Z",
+        "imported_at": "2026-09-01T15:31:22.817Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtitrjgg0009l404fqvjko11",
+        "text": "Ok. This guy is getting some jokes - but the double standard here is insane.\n\nZhong is suing the University of WASHINGTON, average GPA 3.1. They rejected him. He had a 1590. What do you think it would take an in-state Native guy to get in?",
+        "created_at": "2026-09-01T15:27:10.000Z",
+        "imported_at": "2026-09-01T15:31:22.817Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtitdk1f0004l404jlkyeydj",
+        "text": "To bring large AI data centers online requires building massive power plants, transformers, liquid cooling loops &amp; chillers, as well as incredibly complex networking (especially for training clusters)",
+        "created_at": "2026-09-01T15:19:52.000Z",
+        "imported_at": "2026-09-01T15:20:30.388Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtitdk1f0005l404jue0sa3j",
+        "text": "Movies make people fear the wrong thing",
+        "created_at": "2026-09-01T15:16:00.000Z",
+        "imported_at": "2026-09-01T15:20:30.388Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtit74yv0002l404o4lae7kl",
+        "text": "Summary of my G20 address",
+        "created_at": "2026-09-01T15:13:54.000Z",
+        "imported_at": "2026-09-01T15:15:30.919Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtit74yv0003l404wz450h7o",
+        "text": "𝕏 is where almost all AI discourse takes place",
+        "created_at": "2026-09-01T15:11:20.000Z",
+        "imported_at": "2026-09-01T15:15:30.919Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtit0rox0001l4041xmoed5a",
+        "text": "gooooood grok bot https://pbs.twimg.com/media/HRGAyN4bcAA-VKG.jpg",
+        "created_at": "2026-09-01T15:09:12.000Z",
+        "imported_at": "2026-09-01T15:10:33.777Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtirroob0002l104rbutkl28",
+        "text": "ELON MUSK: A billion humanoid robots will be more productive than all humans combined within 10 years.\n\n“There will be at least a billion robots in 10 years, and each will produce at least five times the output of a human.” https://video.twimg.com/amplify_video/2094793660739260416/vid/avc1/410x270/XVWKW8g-VO9OHFHC.mp4?tag=29",
+        "created_at": "2026-09-01T14:32:05.000Z",
+        "imported_at": "2026-09-01T14:35:30.347Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtirroob0003l104ups7k3if",
+        "text": "𝕏 will stop paying interest on New York customers’ 𝕏 Money balances starting October 1, 2026 and the APY for those customers will drop to 0.00%.\n\nThe New York Department of Financial Services informed 𝕏 that it is currently not permitted to pay interest on stored-value accounts in the state.\n\n𝕏 is working to resolve this.",
+        "created_at": "2026-09-01T14:30:58.000Z",
+        "imported_at": "2026-09-01T14:35:30.347Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtiojy6g0006if04bi72jqxf",
+        "text": "https://pbs.twimg.com/media/HRED5aVWgAAF9rS.jpg",
+        "created_at": "2026-09-01T13:02:35.000Z",
+        "imported_at": "2026-09-01T13:05:30.569Z",
+        "kind": "original"
+      },
       {
         "id": "cmti2rhto0004la04ukrecyvu",
         "text": "𝕏 Money is awesome",
