@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-02T00:31:59.553Z",
-  "total": 3581,
+  "last_updated": "2026-09-02T05:04:49.725Z",
+  "total": 3584,
   "by_date": {
     "2026-05-27": [
       {
@@ -24664,6 +24664,29 @@
         "text": "Grok @Bot upgrades",
         "created_at": "2026-09-01T00:05:19.000Z",
         "imported_at": "2026-09-01T00:05:29.116Z",
+        "kind": "original"
+      }
+    ],
+    "2026-09-02": [
+      {
+        "id": "cmtjids910007lc04dht4p0to",
+        "text": "Grok 4.7 comes out in 10 days",
+        "created_at": "2026-09-02T02:59:57.000Z",
+        "imported_at": "2026-09-02T03:00:31.430Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtji7c3c0005lc04a7hdrilh",
+        "text": "🚨🇺🇸 CAR@LHO, QUE LAPADA! 🔥🔥🔥\n\nCNN: “Este é um imigrante sem documentos...”\n\nMiller: “Eles estavam aqui ILEGALMENTE?”\n\nCNN: “Quero que esta seja uma discussão de boa-fé...”\n\nMiller: “Quando você usa uma linguagem feita para ocultar a verdade, isso NÃO é boa-fé. Um ESTRANGEIRO ILEGAL é um ESTRANGEIRO ILEGAL. Eles não são ‘imigrantes sem documentos’.”\n\nCNN: “Stephen, estamos tentando humanizar o debate...”\n\nMiller: “Humanizar? Então vamos humanizar o Código Penal também. O assaltante de banco passa a ser ‘especialista em retirada sem agendamento prévio’. O estelionatário vira ‘empreendedor de narrativas financeiras alternativas’. O cara que entra na sua casa sem convite é só um ‘visitante com documentação pendente’. Que tal?”\n\nCNN: “Isso é uma analogia grosseira.”\n\nMiller: “Grosseira é fingir que a lei federal some porque a redação da CNN inventou um eufemismo mais fofo. ‘Sem documentos’ soa como alguém que esqueceu a carteira no Uber. Não. É alguém que cruzou a fronteira sem autorização, ficou, e agora a imprensa trata o estatuto jurídico como se fosse uma questão de estilo de escrita.”\n\nCNN: “Mas muitos contribuem para a economia...”\n\nMiller: “Ah, o argumento clássico: o crime deixa de ser crime se a pessoa lava prato ou constrói telhado. Pelo mesmo critério, o contrabandista de cigarro também ‘contribui’, gera emprego no transporte. Quer que a gente chame ele de ‘empreendedor logístico informal’? A CNN topa?”\n\nCNN: “Você está polarizando.”\n\nMiller: “Não. Eu estou recusando o dicionário de marketing. Vocês mudam a palavra, depois acusam quem usa o termo legal de ser ‘desumano’. É o truque mais velho do livro: primeiro suaviza o vocabulário, depois declara vitória moral. Os Estados Unidos já cansaram desse teatro. Chamem o que é. Ou admitam que o objetivo nunca foi clareza — foi controle da narrativa.”",
+        "created_at": "2026-09-02T02:55:03.000Z",
+        "imported_at": "2026-09-02T02:55:30.552Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtji7c3c0006lc04la2prkc4",
+        "text": "Transparency builds trust",
+        "created_at": "2026-09-02T02:53:53.000Z",
+        "imported_at": "2026-09-02T02:55:30.552Z",
         "kind": "original"
       }
     ]
