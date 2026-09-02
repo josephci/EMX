@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-02T17:50:12.321Z",
-  "total": 3596,
+  "last_updated": "2026-09-02T20:56:17.370Z",
+  "total": 3600,
   "by_date": {
     "2026-05-27": [
       {
@@ -24668,6 +24668,34 @@
       }
     ],
     "2026-09-02": [
+      {
+        "id": "cmtkgobeu000gjs04759j3lyq",
+        "text": "Alex Gibney is obviously going to make the most convincingly terrible hit piece on me that he can possibly think of. \n\nHe’s a douchebag to his core and, in his own words, incredibly biased against me.",
+        "created_at": "2026-09-02T18:58:24.000Z",
+        "imported_at": "2026-09-02T19:00:29.766Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtkghvkx000fjs04ieirenpt",
+        "text": "Starlink",
+        "created_at": "2026-09-02T18:52:49.000Z",
+        "imported_at": "2026-09-02T18:55:29.313Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtkecpy70003js04kfwszy5w",
+        "text": "Falcon 9 launches 27 @Starlink satellites from California https://pbs.twimg.com/media/HRM-rBtWkAE4GFO.jpg",
+        "created_at": "2026-09-02T17:55:12.000Z",
+        "imported_at": "2026-09-02T17:55:29.504Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtkecpy70004js04icq226ru",
+        "text": "Grok @Bot now on Android!",
+        "created_at": "2026-09-02T17:53:07.000Z",
+        "imported_at": "2026-09-02T17:55:29.504Z",
+        "kind": "original"
+      },
       {
         "id": "cmtkdgl2r0001js043cy4ry6i",
         "text": "https://video.twimg.com/amplify_video/2095156392063815680/vid/avc1/480x270/hZ0Zq-0KqijEXHZh.mp4?tag=29",
