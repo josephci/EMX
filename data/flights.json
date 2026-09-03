@@ -1,15 +1,5 @@
 [
   {
-    "time": "2026-07-30T21:18:46.912Z",
-    "type": "takeoff",
-    "reg": "N628TS"
-  },
-  {
-    "time": "2026-07-30T21:18:46.912Z",
-    "type": "landing",
-    "reg": "N272BG"
-  },
-  {
     "time": "2026-07-30T22:31:04.606Z",
     "type": "landing",
     "reg": "N628TS"
