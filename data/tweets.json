@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-03T11:04:47.525Z",
-  "total": 3629,
+  "last_updated": "2026-09-03T14:57:25.072Z",
+  "total": 3633,
   "by_date": {
     "2026-05-27": [
       {
@@ -24803,6 +24803,34 @@
       }
     ],
     "2026-09-03": [
+      {
+        "id": "cmtllr8sz0000l104hax8zc1u",
+        "text": "Grok Bot is like a self-guided missile when it comes to cancelling DTC subscriptions I impulse bought but never have time to cancel",
+        "created_at": "2026-09-03T14:07:20.000Z",
+        "imported_at": "2026-09-03T14:10:30.611Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtllr8sz0001l104ffd3mw70",
+        "text": "Talk to @Grok in your Tesla",
+        "created_at": "2026-09-03T14:06:20.000Z",
+        "imported_at": "2026-09-03T14:10:30.611Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtll801k0009l1045jeusak9",
+        "text": "Super happy to share our intention to join forces with NVIDIA in a $12,930,300,000 acquisition  💛💚\n\n10 years after starting Hugging Face, open-source AI is at an inflection point. Thanks to the community, we’ve shown that it can be a complement, and even an alternative, to closed-source APIs. But for it to happen at larger scale, it needs more compute, more support, more collaboration and more visibility. That’s why we went to talk to Jensen, who offered to do exactly that with us.\n\nIn addition to doubling down on NVIDIA’s massive contributions to open-source AI (I called them the “King of American open-source AI” earlier this year), they’ve committed to strongly supporting Hugging Face and our mission while keeping the platform open, independent and compute agnostic. The founders and the team are all staying to keep pushing this mission forward.\n\nTogether, we think we can make open source the default way to build AI, with the goal of empowering 100 million AI builders to own their intelligence rather than rent it.\n\nExcited about the next 10 years! 🤗🤗🤗",
+        "created_at": "2026-09-03T13:53:59.000Z",
+        "imported_at": "2026-09-03T13:55:32.792Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtll1ihr0008l104ak6v17p3",
+        "text": "Exciting day for NVIDIA and @huggingface.\n\nOpen models strengthen safety and cybersecurity, accelerate innovation and diffusion, and enable sovereignty. They allow every developer, startup, university, industry and country to build with, customize and benefit from AI.\n\nThank you @ClementDelangue for coming to me.\n\nNVIDIA is going to be a great home for Hugging Face, its community and the future of open models. 🤗\n\nhttps://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+        "created_at": "2026-09-03T13:49:13.000Z",
+        "imported_at": "2026-09-03T13:50:30.111Z",
+        "kind": "original"
+      },
       {
         "id": "cmtl3jcif0004ih04yuccerna",
         "text": "https://x.com/i/article/2095216967989010433",
