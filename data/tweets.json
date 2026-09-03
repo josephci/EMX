@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-03T14:57:25.072Z",
-  "total": 3633,
+  "last_updated": "2026-09-03T18:30:03.289Z",
+  "total": 3642,
   "by_date": {
     "2026-05-27": [
       {
@@ -24803,6 +24803,69 @@
       }
     ],
     "2026-09-03": [
+      {
+        "id": "cmtlu5gx00003l104xr7z569k",
+        "text": "True",
+        "created_at": "2026-09-03T18:04:12.000Z",
+        "imported_at": "2026-09-03T18:05:31.236Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtlpiabw000cju042wpf7283",
+        "text": "Humans writing code as seen by future AI",
+        "created_at": "2026-09-03T15:54:47.000Z",
+        "imported_at": "2026-09-03T15:55:31.149Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtlpiabw000dju04h1ru7cy7",
+        "text": "Going to be saying “Hey Grok” in a Robotaxi a lot. This is the norm in any Tesla so really great to see in Cybercabs too https://pbs.twimg.com/media/HRSmn_gXEAMhIsP.jpg",
+        "created_at": "2026-09-03T15:53:29.000Z",
+        "imported_at": "2026-09-03T15:55:31.149Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtlosmc50008ju04wrggqozr",
+        "text": "Our society has gaslit its young women about their reality in terrible and destructive ways.",
+        "created_at": "2026-09-03T15:33:04.000Z",
+        "imported_at": "2026-09-03T15:35:33.654Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtlosmc50009ju046dyykikl",
+        "text": "True",
+        "created_at": "2026-09-03T15:32:23.000Z",
+        "imported_at": "2026-09-03T15:35:33.654Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtlom3y60006ju04x7jiqmlh",
+        "text": "Indeed,",
+        "created_at": "2026-09-03T15:28:34.000Z",
+        "imported_at": "2026-09-03T15:30:29.886Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtlnwgev0000ju049xgxfzc0",
+        "text": "This is what Tesla’s Robotaxi app looks like when your Cybercab arrives.\n\nThe screen glows to match whatever the color the RGB front light bar is on the Cybercab, while an arrow points to where the vehicle is located. You can also flash the lights and honk the horn to identity it.",
+        "created_at": "2026-09-03T15:09:40.000Z",
+        "imported_at": "2026-09-03T15:10:32.983Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtlnpzrp000fl104evzkkawy",
+        "text": "It is indeed a disgrace. Those publications have an obligation to adhere to the truth and yet have become woke propaganda outlets.",
+        "created_at": "2026-09-03T15:04:14.000Z",
+        "imported_at": "2026-09-03T15:05:31.478Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtlnjm9k000bl1043or87vrs",
+        "text": "The second law of thermodynamics says that the total entropy of a closed system cannot decrease. Entropy is a measure of how many microscopic states are possible in a system.\n\nAt first, black holes might seem to have very little entropy because they are described by only a few properties, such as their mass, charge, and angular momentum.\n\nHowever, in 1972, physicist Jacob Bekenstein proposed that black holes should have entropy.\n\nHis argument was based on the second law of thermodynamics. If an object with entropy falls into a black hole, its entropy would no longer be directly accessible outside the black hole. If the black hole had no entropy of its own, this could lead to a decrease in the total entropy of the universe, which would conflict with the second law.\n\nSo, how much entropy does a black hole have?\n\nIn 1974, Stephen Hawking showed that black holes have a temperature and emit thermal radiation, now called Hawking radiation. This means that black holes have thermodynamic properties.\n\nUsing the relationship between energy, temperature, and entropy, physicists found that the entropy of a black hole is proportional to the area of its event horizon.\n\nThis result is known as the Bekenstein–Hawking formula:\n\nS = A/4ℓₚ²\n\nwhere S is the black hole's entropy, A is the area of its event horizon, and ℓₚ is the Planck length.\n\nThe important point is that black holes do not violate the second law of thermodynamics. Instead, they can contain an extremely large amount of entropy. For a given region of space, a black hole represents the maximum possible entropy allowed by known physics.\n\nSo, although a black hole looks simple from the outside, its entropy can be extremely large.",
+        "created_at": "2026-09-03T14:58:03.000Z",
+        "imported_at": "2026-09-03T15:00:34.040Z",
+        "kind": "original"
+      },
       {
         "id": "cmtllr8sz0000l104hax8zc1u",
         "text": "Grok Bot is like a self-guided missile when it comes to cancelling DTC subscriptions I impulse bought but never have time to cancel",
