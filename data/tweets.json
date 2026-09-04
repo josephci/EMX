@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-04T19:51:12.244Z",
-  "total": 3681,
+  "last_updated": "2026-09-04T22:18:13.145Z",
+  "total": 3686,
   "by_date": {
     "2026-05-27": [
       {
@@ -25176,6 +25176,41 @@
       }
     ],
     "2026-09-04": [
+      {
+        "id": "cmtnh3bx00006jp04uv0hlx2g",
+        "text": "BREAKING: SpaceXAI has released another major new update for Grok Build (v1.0.19)\n\nThis update improves background task handling, adds transparent terminal themes, worktree support for headless sessions, and better session/dashboard controls. It also fixes UI freezes, crashes, feedback issues, clickable URLs, and makes the first prompt after login faster.\n\nBreaking Changes\n\n• Scheduled /loop tasks always run in the background; they no longer inject turns into your conversation.\n\nFeatures\n\n• New terminal theme option makes backgrounds transparent so the terminal's own colors show through.\n• MCP servers blocked by organization policy now show clear messages and are refused before any config change.\n• Session resume now tells the model what loops, subagents, and workflows were still running.\n• Dashboard now shows newly dispatched sessions immediately instead of waiting for the store.\n• Headless sessions (grok -p) now support the --worktree flag to run in a separate git worktree.\n• Dashboard now says 'Open session' instead of 'Add session' for the session picker button.\n• Multi-line bash commands now render with proper wrapping and highlighting when opening the block viewer.\n• /usage now works from the dashboard and shows account allowance when no session is active.\n\nBug Fixes\n\n• Fixed mid-turn UI freezes when the terminal stops reading output.\n• Fixed crashes that occurred when the terminal pane was closed while grok was exiting.\n• MCP server list in minimal mode now correctly shows policy-blocked servers.\n• URLs that wrap across multiple lines inside quotes or lists are now fully clickable.\n• The welcome screen composer now grows taller when you paste multi-line text.\n• Enterprise policy files are no longer deleted on startup when your team login is stored at a custom GROK_AUTH_PATH.\n• /feedback now drops unsupported images with a notice (matching the modal) and never loses your report text on save errors.\n• Feedback drafts keep their paragraph breaks when updated, and the modal no longer switches tabs unexpectedly.\n• Turn summary lines no longer lose their spacing after background tasks finish.\n• Thinking blocks no longer stay expanded after switching between fullscreen and minimal modes.\n\nPerformance\n\n• First prompt after login is faster when MCP servers are configured; they connect in the background.\n\nDownload Grok Build: https://x.ai/build\n\nUpdate to the latest Alpha release: grok update --alpha   \n\nUpdate to the latest Stable release: grok update",
+        "created_at": "2026-09-04T21:35:21.000Z",
+        "imported_at": "2026-09-04T21:35:28.789Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtnh3bx00007jp04bfe4u3gt",
+        "text": "Violence between Blacks and Whites:\n— 86.5% was Black-On-White\n— 13.5% was White-On-Black https://pbs.twimg.com/media/HRZs39fagAAjbsL.jpg",
+        "created_at": "2026-09-04T21:35:07.000Z",
+        "imported_at": "2026-09-04T21:35:28.789Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtnh3bx00008jp045xkig4cn",
+        "text": "Gave our @bot updater a little Friday makeover. https://video.twimg.com/amplify_video/2095942789532188672/vid/avc1/424x270/ay5eZLIylkPA0-KS.mp4?tag=29",
+        "created_at": "2026-09-04T21:31:51.000Z",
+        "imported_at": "2026-09-04T21:35:28.789Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtnh3bx00009jp04c352erf7",
+        "text": "Grok @Bot templates. \n\nTry Haggle Bot for saving money on procurement! This is a gamechanger.",
+        "created_at": "2026-09-04T21:31:21.000Z",
+        "imported_at": "2026-09-04T21:35:28.789Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtngwwqq0005jp04lu2h9862",
+        "text": "True",
+        "created_at": "2026-09-04T21:29:51.000Z",
+        "imported_at": "2026-09-04T21:30:29.186Z",
+        "kind": "original"
+      },
       {
         "id": "cmtnahfoz0000jo043h9aefc6",
         "text": "Friend just sent me this 😂 https://pbs.twimg.com/media/HRZIdtQXMAE4oiG.jpg",
