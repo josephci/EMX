@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T17:39:46.056Z",
+  "last_updated": "2026-09-04T19:51:11.719Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-24",
@@ -16,14 +16,14 @@
       "location": "Vandenberg SFB, CA, USA"
     },
     {
-      "name": "Falcon 9 Block 5 | Crew-13",
-      "net": "2026-09-30T00:00:00Z",
-      "status": "TBD",
+      "name": "Falcon 9 Block 5 | O3b mPower 11-13",
+      "net": "2026-09-13T18:50:00Z",
+      "status": "TBC",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA"
     },
     {
-      "name": "Falcon 9 Block 5 | O3b mPower 11-13",
+      "name": "Falcon 9 Block 5 | Crew-13",
       "net": "2026-09-30T00:00:00Z",
       "status": "TBD",
       "pad": "Space Launch Complex 40",
@@ -54,7 +54,7 @@
       "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
       "net": "2026-10-31T00:00:00Z",
       "status": "TBD",
-      "pad": "Unknown Pad",
+      "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA"
     },
     {

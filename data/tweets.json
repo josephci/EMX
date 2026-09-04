@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-04T17:39:46.820Z",
-  "total": 3677,
+  "last_updated": "2026-09-04T19:51:12.244Z",
+  "total": 3681,
   "by_date": {
     "2026-05-27": [
       {
@@ -25176,6 +25176,34 @@
       }
     ],
     "2026-09-04": [
+      {
+        "id": "cmtnahfoz0000jo043h9aefc6",
+        "text": "Friend just sent me this 😂 https://pbs.twimg.com/media/HRZIdtQXMAE4oiG.jpg",
+        "created_at": "2026-09-04T18:29:34.000Z",
+        "imported_at": "2026-09-04T18:30:29.556Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtnahfoz0001jo04s8m8bknf",
+        "text": "A group of incredibly talented and dedicated engineers made Cybercab happen.\n\nIf you want to join them, we’re hiring AI engineers across the board: scaling, data, RL, reasoning, evals, world models, audio, distillation, inference, quantization, infra, and more.\n\nCheck out http://tesla.com/careers, or DM me your most impressive work.",
+        "created_at": "2026-09-04T18:26:34.000Z",
+        "imported_at": "2026-09-04T18:30:29.556Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtnaazty000mjo047sk0ksd1",
+        "text": "Cybercab decibel level cruising at 40 MPH. https://video.twimg.com/amplify_video/2095886614627266561/vid/avc1/320x568/LjiIvD4N5rRdsf6g.mp4?tag=29",
+        "created_at": "2026-09-04T18:25:00.000Z",
+        "imported_at": "2026-09-04T18:25:29.063Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtnaazty000njo04i6rotgsi",
+        "text": "BREAKING: Aer Lingus just announced that 50% of its long-haul fleet is now equipped with @Starlink, less than six months after its first aircraft went live.\n\nIt first announced Starlink in November 2025 and plans to equip its full long-haul fleet by year-end. https://pbs.twimg.com/media/HRZDI8ea4AA7u0J.jpg",
+        "created_at": "2026-09-04T18:24:51.000Z",
+        "imported_at": "2026-09-04T18:25:29.063Z",
+        "kind": "original"
+      },
       {
         "id": "cmtn41xsm0008l7047darws98",
         "text": "Your car doors open sideways.\n\nMy Cybercab doors open up to the sky.\n\nI literally tap “Open” on the screen… and the doors lift up for me to step out.\n\nAnd it’s cheaper.\nAnd it’s safer.\nAnd it’s cooler.\nAnd it drives itself.\n\nWe are not the same… the Cybercab is the best. https://video.twimg.com/amplify_video/2095888793014304769/vid/avc1/320x568/F-0X5pnb3l09AneS.mp4?tag=29",
