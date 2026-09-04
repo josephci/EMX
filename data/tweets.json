@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-03T23:20:25.611Z",
-  "total": 3652,
+  "last_updated": "2026-09-04T01:04:47.350Z",
+  "total": 3655,
   "by_date": {
     "2026-05-27": [
       {
@@ -24804,6 +24804,13 @@
     ],
     "2026-09-03": [
       {
+        "id": "cmtm5sfor0005l104a62m682s",
+        "text": "Horses and the Cybercabs. The past and the future. https://pbs.twimg.com/media/HRVCt_3WIAECWw0.jpg",
+        "created_at": "2026-09-03T23:30:06.000Z",
+        "imported_at": "2026-09-03T23:31:18.500Z",
+        "kind": "original"
+      },
+      {
         "id": "cmtlz5i8d0004l404k57qnre3",
         "text": "I’m so glad this is being done!\n\nAn important next step is making it autonomous.",
         "created_at": "2026-09-03T20:24:16.000Z",
@@ -25165,6 +25172,22 @@
         "text": "Now that silicon-based intelligence has been bootloaded, we should view the next era as bio-silicon co-design.\n\nWe need to be much more open-minded about modifying the biological substrate and exploring its parameter space, like we do for artificial life in silicon.\n\nThe response to a rapid acceleration of complexification in the non-biological subtrate should be one where we accelerate biology.",
         "created_at": "2026-09-03T03:05:42.000Z",
         "imported_at": "2026-09-03T03:10:32.516Z",
+        "kind": "original"
+      }
+    ],
+    "2026-09-04": [
+      {
+        "id": "cmtm7q3h20001k004ebmz2ynu",
+        "text": "Starlink will allow you to watch 4k live video while riding in Cybercab",
+        "created_at": "2026-09-04T00:24:16.000Z",
+        "imported_at": "2026-09-04T00:25:28.599Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtm7jo1d0000k004eat6svnc",
+        "text": "Grok @Bot Enterprise is now available",
+        "created_at": "2026-09-04T00:20:11.000Z",
+        "imported_at": "2026-09-04T00:20:28.658Z",
         "kind": "original"
       }
     ]
