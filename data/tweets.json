@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-05T04:40:20.527Z",
-  "total": 3703,
+  "last_updated": "2026-09-05T08:35:38.385Z",
+  "total": 3713,
   "by_date": {
     "2026-05-27": [
       {
@@ -25465,6 +25465,76 @@
       }
     ],
     "2026-09-05": [
+      {
+        "id": "cmto2ci8b0005jo04nwt38e1o",
+        "text": "It will only get better",
+        "created_at": "2026-09-05T07:28:45.000Z",
+        "imported_at": "2026-09-05T07:30:28.812Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmto2ci8b0006jo04ora4r78d",
+        "text": "True",
+        "created_at": "2026-09-05T07:26:43.000Z",
+        "imported_at": "2026-09-05T07:30:28.812Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmto262pw0003jo04bynz3ggp",
+        "text": "les gens détestent Elon pour des raisons complètement débiles\n\npollution, climat, net worth, individualité, etc.\n\nalors que c’est un des types qui fait le plus pour tout\n\nle cybercab :\n- moteur sans métaux rares\n- voiture plus légère, moins chère à produire\n- 100% électrique, zéro CO2 à l’usage\n- un seul véhicule qui sert des dizaines de personnes → moins de voitures au total\n- dispo jour et nuit, pas d’indisponibilité\n- facile d’accès, ultra sécurisé\n- ça va faire chuter les morts sur la route de manière massive\n\nstarlink :\n- internet accessible partout, pour tous\n\nspacex :\n- a cassé le prix d’accès à l’espace\n- fusées réutilisables, cadences de lancement absurdes\n- veut rendre l'espèce multi-planétaire\n\nneuralink :\n- déjà utile pour des gens qui ne pouvaient plus bouger / communiquer\n\nX :\n- info en temps réel, moins de filtre politique\n- a open-source l’algo\n\nénergie :\n- défend le solaire au-dessus du reste, devant le nucléaire et le fossile\n- pousse une énergie abondante et clean\n\noptimus :\n- un robot humanoïde qui peut faire les tâches répétitives / dangereuses\n\nc’est objectivement l'un des plus grand entrepreneur de ce monde et certainement l'une des personnes qui a le plus d'impact positif pour l'espèce",
+        "created_at": "2026-09-05T07:24:58.000Z",
+        "imported_at": "2026-09-05T07:25:28.773Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmto262pw0004jo04ffg22r4d",
+        "text": "https://video.twimg.com/amplify_video/2096132739753996288/vid/avc1/480x270/n77pI4RclgEbLwFF.mp4?tag=29",
+        "created_at": "2026-09-05T07:21:55.000Z",
+        "imported_at": "2026-09-05T07:25:28.773Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmto19xdr0000jo047d7k4hc2",
+        "text": "Elon has managed to meme the birthrate back up. To celebrate, @elonmusk should put up the Shinzo Abe meme but with him on it in Times Square. 😂 https://pbs.twimg.com/media/HRbnBwfaAAAX8yN.jpg",
+        "created_at": "2026-09-05T06:57:34.000Z",
+        "imported_at": "2026-09-05T07:00:28.863Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmto19xdr0001jo04uqju2el1",
+        "text": "Three Grok Build updates in a single day: v1.0.19 → v1.0.20 → v1.0.21\n\nAnd the latest one keeps polishing the experience......permission modes now stay visible through plan mode, sessions open instantly when you start typing or pasting, and crowded terminal layouts behave properly\n\nThe release cadence here is getting ridiculous again\n\nRelease Notes: v1.0.21\n\nBug Fixes:\n• Permission mode (auto / always-approve) now stays visible when the agent enters plan mode and is restored on exit.\n• Typing, pasting, or pressing Shift+Tab on the welcome screen now immediately opens the session instead of creating a duplicate one.\n• Dock sections, queue body, and reveal rows now stay within their documented height rules even on crowded terminals.",
+        "created_at": "2026-09-05T06:56:14.000Z",
+        "imported_at": "2026-09-05T07:00:28.863Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmto19xdr0002jo049loz9cbm",
+        "text": "Meet Cybercab\n東京・大阪・名古屋の全4会場を回るCybercab Japan Tourはまもなくスタート\n\nhttps://www.tesla.com/ja_jp/event/2026sep_cc_tour_getupdate https://pbs.twimg.com/media/HRbn4kub0AEnCll.jpg",
+        "created_at": "2026-09-05T06:55:59.000Z",
+        "imported_at": "2026-09-05T07:00:28.863Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtnzo2cx0002ky040x9z5e1a",
+        "text": "@elonmusk I love when the hard-hitting cosmic realities sink in for people and pique their interest....and there are sextillions of other G-type stars in the observable universe broadly similar to our own.",
+        "created_at": "2026-09-05T06:11:17.000Z",
+        "imported_at": "2026-09-05T06:15:29.265Z",
+        "kind": "reply"
+      },
+      {
+        "id": "cmtnzhmfr0001ky04vrezu2hi",
+        "text": "【Starlink ホーム お客様の声】\n東日本大震災後、福島県双葉町で避難指示が解除されてから数年経っても、従来のインターネット環境が復旧しなかったため、Starlinkを導入することにしました。通信速度も非常に速く快適に使えており本当に助かっています。",
+        "created_at": "2026-09-05T06:06:16.000Z",
+        "imported_at": "2026-09-05T06:10:28.696Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtnzb6yh0000ky040t3v3c0b",
+        "text": "When Elon Musk visited the U.S. Air Force Academy in 2022. 🇺🇸\n https://video.twimg.com/ext_tw_video/1603098362722467841/pu/vid/320x566/TELVFaQzHcjIGIBP.mp4?tag=14",
+        "created_at": "2026-09-05T06:04:26.000Z",
+        "imported_at": "2026-09-05T06:05:28.697Z",
+        "kind": "original"
+      },
       {
         "id": "cmtnv0vkk000el804pxelxzku",
         "text": "Starlink customers can earn cash for each eligible referral in countries around the world.\n\nShare your referral link in 3 easy steps. The person you refer gets one month free of Starlink service and you get paid.\n\nLearn more and see program availability: https://starlink.com/referral https://video.twimg.com/amplify_video/2096015834485493760/vid/avc1/320x320/GabSa-UOidwwPrpC.mp4?tag=29",
