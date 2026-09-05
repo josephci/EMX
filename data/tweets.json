@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-04T22:18:13.145Z",
-  "total": 3686,
+  "last_updated": "2026-09-05T00:11:47.667Z",
+  "total": 3694,
   "by_date": {
     "2026-05-27": [
       {
@@ -25176,6 +25176,62 @@
       }
     ],
     "2026-09-04": [
+      {
+        "id": "cmtnldnee0007ky04um76qbrp",
+        "text": "Lithium made in America",
+        "created_at": "2026-09-04T23:34:50.000Z",
+        "imported_at": "2026-09-04T23:35:28.695Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtnldnee0008ky04b1lf4jnn",
+        "text": "The future of transport",
+        "created_at": "2026-09-04T23:30:36.000Z",
+        "imported_at": "2026-09-04T23:35:28.695Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtnkud370004ky04n2t7tn7s",
+        "text": "Grok Imagine Odyssey Contest",
+        "created_at": "2026-09-04T23:20:18.000Z",
+        "imported_at": "2026-09-04T23:20:28.868Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtnkud370005ky045oyo68su",
+        "text": "This is \"The Odyssey\" as Homer intended. My longest, most intricate work to date. I pushed @grok @imagine to its absolute limits to create this 5-minute epic. \n\nWhat bothered me most about the recent adaptation was the omission of the Phaeacians and Princess Nausicaa, whom Odysseus told his story to in the original poem.\n\nI focused my rendition on the introduction to Nausicaa and his love for his family. The motive driving him was the memory he kept for so long, even when his journey tried to make him forget. As a husband and new father, that's something I felt deeply. I challenged myself to try to fit everything I could from the source material and used GROK for research. \n\nHope you enjoy. Workflow and process coming soon. I'm working on a deep dive showing how I used @grok for research, scripting, and prompting. I used  @imagine to animate and visualize every shot and bring this to life. Share it if you dig it!  @elonmusk",
+        "created_at": "2026-09-04T23:19:44.000Z",
+        "imported_at": "2026-09-04T23:20:28.868Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtnj8hxq0000ky04h97qq7xt",
+        "text": "It only gets better from here",
+        "created_at": "2026-09-04T22:32:05.000Z",
+        "imported_at": "2026-09-04T22:35:29.103Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtnj22cr000djp04uniav5ny",
+        "text": "Gaming in Cybercab",
+        "created_at": "2026-09-04T22:29:17.000Z",
+        "imported_at": "2026-09-04T22:30:28.971Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtnj22cr000ejp0424wpxs81",
+        "text": "Grok @Bot available for iPad",
+        "created_at": "2026-09-04T22:25:37.000Z",
+        "imported_at": "2026-09-04T22:30:28.971Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtnip787000cjp04kz13m7hx",
+        "text": "BREAKING: Paraguay’s Ministry of Justice just posted a new video about @Starlink.\n\nParaguay is deploying 1,600 Starlink kits to schools, health centers and remote communities to bring high-speed internet to more than 50,000 students and teachers. https://video.twimg.com/amplify_video/2095990096885678080/vid/avc1/480x270/9FS_cc5iZfLorpcS.mp4?tag=29",
+        "created_at": "2026-09-04T22:19:02.000Z",
+        "imported_at": "2026-09-04T22:20:28.759Z",
+        "kind": "original"
+      },
       {
         "id": "cmtnh3bx00006jp04uv0hlx2g",
         "text": "BREAKING: SpaceXAI has released another major new update for Grok Build (v1.0.19)\n\nThis update improves background task handling, adds transparent terminal themes, worktree support for headless sessions, and better session/dashboard controls. It also fixes UI freezes, crashes, feedback issues, clickable URLs, and makes the first prompt after login faster.\n\nBreaking Changes\n\n• Scheduled /loop tasks always run in the background; they no longer inject turns into your conversation.\n\nFeatures\n\n• New terminal theme option makes backgrounds transparent so the terminal's own colors show through.\n• MCP servers blocked by organization policy now show clear messages and are refused before any config change.\n• Session resume now tells the model what loops, subagents, and workflows were still running.\n• Dashboard now shows newly dispatched sessions immediately instead of waiting for the store.\n• Headless sessions (grok -p) now support the --worktree flag to run in a separate git worktree.\n• Dashboard now says 'Open session' instead of 'Add session' for the session picker button.\n• Multi-line bash commands now render with proper wrapping and highlighting when opening the block viewer.\n• /usage now works from the dashboard and shows account allowance when no session is active.\n\nBug Fixes\n\n• Fixed mid-turn UI freezes when the terminal stops reading output.\n• Fixed crashes that occurred when the terminal pane was closed while grok was exiting.\n• MCP server list in minimal mode now correctly shows policy-blocked servers.\n• URLs that wrap across multiple lines inside quotes or lists are now fully clickable.\n• The welcome screen composer now grows taller when you paste multi-line text.\n• Enterprise policy files are no longer deleted on startup when your team login is stored at a custom GROK_AUTH_PATH.\n• /feedback now drops unsupported images with a notice (matching the modal) and never loses your report text on save errors.\n• Feedback drafts keep their paragraph breaks when updated, and the modal no longer switches tabs unexpectedly.\n• Turn summary lines no longer lose their spacing after background tasks finish.\n• Thinking blocks no longer stay expanded after switching between fullscreen and minimal modes.\n\nPerformance\n\n• First prompt after login is faster when MCP servers are configured; they connect in the background.\n\nDownload Grok Build: https://x.ai/build\n\nUpdate to the latest Alpha release: grok update --alpha   \n\nUpdate to the latest Stable release: grok update",
