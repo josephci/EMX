@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-08T00:15:16.866Z",
-  "total": 3758,
+  "last_updated": "2026-09-08T04:51:17.510Z",
+  "total": 3764,
   "by_date": {
     "2026-05-27": [
       {
@@ -25915,6 +25915,50 @@
         "text": "the Grok @Bot desktop app just got a whole lot faster! there's still more to improve, but we shipped many perf improvements over the past week:\n\n• cold start to usable shell: -247ms (18% faster).\n• cold start LCP: -425ms (23% faster).\n• cold start FCP: -234ms (16% faster). \n• total blocking time to the shell: -101 ms (34% faster).\n• warm restart to shell: -194 ms (18% faster).\n• marketplace bots tab first open: -18ms (41% faster).\n\nother stats that are unchanged:\n• INP p98: 48 ms to 56 ms. \n• composer keystroke to next frame: 8.4 to 8.5 ms.\n• chat switching: 64 to 77 ms short chat first visit, 66 to 68 ms long chat, revisits equal.\n• long chat scroll: zero long tasks.\n\nenjoy the long weekend building with Grok @Bot!",
         "created_at": "2026-09-07T05:57:40.000Z",
         "imported_at": "2026-09-07T06:00:29.092Z",
+        "kind": "original"
+      }
+    ],
+    "2026-09-08": [
+      {
+        "id": "cmts6yat20003l504ivv6jyn0",
+        "text": "“The Earth is the cradle of humanity, but one cannot live in the cradle forever.” — Konstantin Tsiolkovsky\n\nThe unique character of AI in Tesla and SpaceX is that same spirit of exploration: the true frontier not confined by benchmarks, but lifting humanity out of its cradle so we can see with our own eyes how far the laws of physics and the universe will let us go—from Earth to Mars.",
+        "created_at": "2026-09-08T04:50:23.000Z",
+        "imported_at": "2026-09-08T04:50:28.791Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmts6yat20004l5045dmkiip6",
+        "text": "Yup",
+        "created_at": "2026-09-08T04:50:12.000Z",
+        "imported_at": "2026-09-08T04:50:28.791Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmts43fxn0001l5041vrovk0b",
+        "text": "The future is being built at an insane scale\nAbundance is coming https://pbs.twimg.com/media/HRl4ySVW0AMcI6J.jpg",
+        "created_at": "2026-09-08T03:29:16.000Z",
+        "imported_at": "2026-09-08T03:30:29.868Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmts43fxn0002l5047x3p71pb",
+        "text": "“Far right” is a propaganda term that became especially popular in recent years",
+        "created_at": "2026-09-08T03:28:58.000Z",
+        "imported_at": "2026-09-08T03:30:29.868Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmts3x0oa0000l504ushik9a9",
+        "text": "What I like about the Cybercab is that it only has two seats. In the eight years I lived in Los Angeles and had a Tesla S, I used four seats twice, and two seats four times. So, most of the time I was driving alone. A smaller car that’s safe and drives itself would’ve been fabulous.",
+        "created_at": "2026-09-08T03:21:42.000Z",
+        "imported_at": "2026-09-08T03:25:30.154Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtrywy96000djv04i1lc3k3v",
+        "text": "Tonight’s aurora has a purple hue.  The KP is ~4.  We are approaching high beta so there is more light creeping over the horizon.  It mixes the colors and you can see the satellites in the nights sky.  (14mm, 1/4 interval, broken into two parts) https://video.twimg.com/ext_tw_video/2097114989592973312/pu/vid/avc1/480x270/U_CCYkX9RDvytgmQ.mp4?tag=12",
+        "created_at": "2026-09-08T01:04:34.000Z",
+        "imported_at": "2026-09-08T01:05:28.939Z",
         "kind": "original"
       }
     ]
