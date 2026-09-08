@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-08T21:02:32.128Z",
-  "total": 3784,
+  "last_updated": "2026-09-08T23:18:06.086Z",
+  "total": 3787,
   "by_date": {
     "2026-05-27": [
       {
@@ -25919,6 +25919,27 @@
       }
     ],
     "2026-09-08": [
+      {
+        "id": "cmtt6bgcv0009js046y22yd8f",
+        "text": "𝕏 is the global town square",
+        "created_at": "2026-09-08T21:17:16.000Z",
+        "imported_at": "2026-09-08T21:20:29.072Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtt6bgcv000ajs04r8fjv1k6",
+        "text": "We redesigned Cybercab production for production over 5 times faster than conventional automotive manufacturing!",
+        "created_at": "2026-09-08T21:16:38.000Z",
+        "imported_at": "2026-09-08T21:20:29.072Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtt5ylos0008js04xb3mozjn",
+        "text": "Heading to Starbase now with our rental Car - feels like half a spaceship already!\n\nChallenge accepted! Full self driving until destination about 350 miles - do you think we‘ll make it? @AnnacakeLive \n\nThen we get to see Starbase & Starship scheduled to launch Flight 14 later this month. Super excited 🚀",
+        "created_at": "2026-09-08T21:09:05.000Z",
+        "imported_at": "2026-09-08T21:10:29.453Z",
+        "kind": "original"
+      },
       {
         "id": "cmtt1o9wo0006i904zuc7uezj",
         "text": "If you notice anything concerning about 𝕏, please lmk directly in replies",
