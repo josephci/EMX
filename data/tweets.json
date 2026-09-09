@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-09T01:17:54.114Z",
-  "total": 3787,
+  "last_updated": "2026-09-09T06:05:40.434Z",
+  "total": 3793,
   "by_date": {
     "2026-05-27": [
       {
@@ -26120,6 +26120,50 @@
         "text": "Tonight’s aurora has a purple hue.  The KP is ~4.  We are approaching high beta so there is more light creeping over the horizon.  It mixes the colors and you can see the satellites in the nights sky.  (14mm, 1/4 interval, broken into two parts) https://video.twimg.com/ext_tw_video/2097114989592973312/pu/vid/avc1/480x270/U_CCYkX9RDvytgmQ.mp4?tag=12",
         "created_at": "2026-09-08T01:04:34.000Z",
         "imported_at": "2026-09-08T01:05:28.939Z",
+        "kind": "original"
+      }
+    ],
+    "2026-09-09": [
+      {
+        "id": "cmttp2ll50002l804jih8ps62",
+        "text": "Built for Japan\n\nPowerwall 3 now available https://video.twimg.com/amplify_video/2097441483599347712/vid/avc1/480x270/3WWls_ytOX_PHkZX.mp4?tag=29",
+        "created_at": "2026-09-09T06:03:18.000Z",
+        "imported_at": "2026-09-09T06:05:28.541Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmttp2ll50003l804h0qqpia9",
+        "text": "Starlink",
+        "created_at": "2026-09-09T06:00:41.000Z",
+        "imported_at": "2026-09-09T06:05:28.541Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmttow6nf0000l8044oaeptf3",
+        "text": "Starlink with @MinCapHum_Ar and @ENACOMArgentina will provide 6,000 kits to rural schools in Argentina, giving thousands of students and teachers fast, reliable internet.\n\nTeachers can build lesson plans with digital resources, while students can join online classes, use digital libraries, and learn through a variety of tools that were not accessible before.",
+        "created_at": "2026-09-09T06:00:25.000Z",
+        "imported_at": "2026-09-09T06:00:29.356Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmttow6nf0001l804a4kw31ro",
+        "text": "https://x.com/i/article/2097390019019456512",
+        "created_at": "2026-09-09T06:00:06.000Z",
+        "imported_at": "2026-09-09T06:00:29.356Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmttntlag0001la046fngqkp8",
+        "text": "😂",
+        "created_at": "2026-09-09T05:29:16.000Z",
+        "imported_at": "2026-09-09T05:30:28.745Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmttngqe20000la04zxe4dudt",
+        "text": "Palantir CEO Alex Karp says the rise of Germany's AfD party is due to \"very deep and large migration into Germany without the buy-in of the German people, and without an honest discussion of the consequences.\"\n\n\"AfD is much stronger than they appear. I have friends who 5 years ago were telling me they would never vote for the AfD, who are voting for the AfD, who are social democrats.\"\n\n\"And then when the AfD is polling at 40%—there's another 10 points above that that would vote for them if they weren't the AfD.\"\n\nVia Mathias Döpfner",
+        "created_at": "2026-09-09T05:17:22.000Z",
+        "imported_at": "2026-09-09T05:20:28.827Z",
         "kind": "original"
       }
     ]
