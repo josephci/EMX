@@ -94,5 +94,17 @@
     "hit": 1,
     "leadH": 6.5,
     "scored": "2026-09-07T19:15:27.631Z"
+  },
+  {
+    "title": "Elon Musk # tweets September 7 - September 9, 2026?",
+    "settle": "2026-09-09T16:00:00Z",
+    "predBucket": "40-64",
+    "lo": 40,
+    "hi": 64,
+    "predMid": 60,
+    "actual": 56,
+    "hit": 1,
+    "leadH": 9.9,
+    "scored": "2026-09-09T18:43:02.194Z"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T15:10:38.879Z",
+  "last_updated": "2026-09-09T18:43:00.639Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-153",
@@ -10,8 +10,8 @@
     },
     {
       "name": "Falcon 9 Block 5 | O3b mPower 11-13",
-      "net": "2026-09-13T18:50:00Z",
-      "status": "TBC",
+      "net": "2026-09-13T18:49:00Z",
+      "status": "Go",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA"
     },
@@ -21,6 +21,13 @@
       "status": "TBD",
       "pad": "Orbital Launch Pad 2",
       "location": "SpaceX Starbase, TX, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | USSF-259",
+      "net": "2026-09-16T01:00:00Z",
+      "status": "Go",
+      "pad": "Space Launch Complex 4E",
+      "location": "Vandenberg SFB, CA, USA"
     },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-27",
@@ -77,13 +84,6 @@
       "status": "TBD",
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA"
-    },
-    {
-      "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-      "net": "2026-12-31T00:00:00Z",
-      "status": "TBD",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA"
     }
   ]
 }
