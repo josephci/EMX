@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-10T01:11:12.458Z",
-  "total": 3806,
+  "last_updated": "2026-09-10T06:05:32.304Z",
+  "total": 3811,
   "by_date": {
     "2026-05-27": [
       {
@@ -26255,6 +26255,43 @@
         "text": "Palantir CEO Alex Karp says the rise of Germany's AfD party is due to \"very deep and large migration into Germany without the buy-in of the German people, and without an honest discussion of the consequences.\"\n\n\"AfD is much stronger than they appear. I have friends who 5 years ago were telling me they would never vote for the AfD, who are voting for the AfD, who are social democrats.\"\n\n\"And then when the AfD is polling at 40%—there's another 10 points above that that would vote for them if they weren't the AfD.\"\n\nVia Mathias Döpfner",
         "created_at": "2026-09-09T05:17:22.000Z",
         "imported_at": "2026-09-09T05:20:28.827Z",
+        "kind": "original"
+      }
+    ],
+    "2026-09-10": [
+      {
+        "id": "cmtv4igaw0000ky04yrco4daj",
+        "text": "Congrats Boring Company team!",
+        "created_at": "2026-09-10T06:04:38.000Z",
+        "imported_at": "2026-09-10T06:05:28.712Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtv2q5g40001kz04jz28kf6x",
+        "text": "The logic is symmetric",
+        "created_at": "2026-09-10T05:13:31.000Z",
+        "imported_at": "2026-09-10T05:15:28.660Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtuy9egl0004ju04t2mumubw",
+        "text": "And @Grok @Bot gets better almost every day",
+        "created_at": "2026-09-10T03:06:53.000Z",
+        "imported_at": "2026-09-10T03:10:28.725Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtuy2ywm0003ju044kyjnjv1",
+        "text": "After experiencing Cybercab for the past few days in Austin, I think the biggest thing people are missing is the zero-sum game built into Uber.\n\nYou have two people sharing one environment, with different preferences. The driver likes the temperature at 66. I want 72. If I get more comfortable, he gets less comfortable.\nHe likes his music. I want mine. He wants the windows open. I want them closed. I take a few extra minutes getting to the car, and those are minutes another human spends waiting for me.\n\nThere’s this constant little tug of war. My comfort and convenience can come at the expense of his. And I don’t blame the driver. It’s his working environment. He’s in that car all day. Of course he has preferences. That’s why I just let him play whatever music he wants. I don’t want my comfort to come at his expense. We’ve gotten so accustomed to this that we barely notice the tension anymore.\n\nThen you take a Cybercab. I set the temperature to 72. Nobody gets less comfortable.\nI play my Spotify at the volume I want. Nobody has to give up their music. I grab my Starbucks and take a couple of minutes to walk over, within the pickup window. Nobody is sitting there getting irritated with me.\n\nThe car has no competing preferences. That is a profound change in the experience. I can optimize the ride around what makes me comfortable without asking another person to sacrifice what makes them comfortable. And you feel it. You get in, lean back, and relax. There’s no negotiation. No wondering whether your request is going to annoy someone. That whole layer of social tension disappears.\n\nI think this is a huge part of Cybercab’s value. Removing that zero-sum dynamic changes what the service feels like at its core. Once people experience that, I think a lot of them are going to have a very hard time going back to Uber.",
+        "created_at": "2026-09-10T03:05:05.000Z",
+        "imported_at": "2026-09-10T03:05:28.630Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtuxwjsr0002ju04bx3b01uq",
+        "text": "Tesla virtual powerplant grid stabilization system",
+        "created_at": "2026-09-10T02:58:00.000Z",
+        "imported_at": "2026-09-10T03:00:29.116Z",
         "kind": "original"
       }
     ]
