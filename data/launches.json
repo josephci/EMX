@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T18:21:40.622Z",
+  "last_updated": "2026-09-11T21:03:54.573Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | O3b mPower 11-13",
@@ -17,8 +17,8 @@
     },
     {
       "name": "Starship | Flight 14",
-      "net": "2026-09-18T00:00:00Z",
-      "status": "TBD",
+      "net": "2026-09-18T12:15:00Z",
+      "status": "TBC",
       "pad": "Orbital Launch Pad 2",
       "location": "SpaceX Starbase, TX, USA"
     },
