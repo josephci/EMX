@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-12T16:30:17.146Z",
-  "total": 3875,
+  "last_updated": "2026-09-12T18:46:09.711Z",
+  "total": 3876,
   "by_date": {
     "2026-05-27": [
       {
@@ -26669,6 +26669,13 @@
       }
     ],
     "2026-09-12": [
+      {
+        "id": "cmtyn5cmd0003jk04he1i8xpw",
+        "text": "Next week, @mattyp @roshan_s and myself will be speedrunning building a new company using only Grok @Bot on the Grok Bot Galaxy livestream! We’ve been given just 3 days to do it, or else we might be turned into pizza 🤪 it will be so fun and I hope to see you on the livestream!\n\nI will have to miss the Cursor Compile conf in London and Amsterdam though. I will instead record an extended version of my talk and make it freely available here. So stay tuned for that post!\n\nhttps://x.ai/galaxy",
+        "created_at": "2026-09-12T17:10:01.000Z",
+        "imported_at": "2026-09-12T17:10:28.646Z",
+        "kind": "original"
+      },
       {
         "id": "cmtyljhaj0000jk0403t9aysk",
         "text": "Grok available in Microsoft Copilot",
