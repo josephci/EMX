@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-12T05:55:48.747Z",
-  "total": 3865,
+  "last_updated": "2026-09-12T10:35:30.880Z",
+  "total": 3867,
   "by_date": {
     "2026-05-27": [
       {
@@ -26669,6 +26669,20 @@
       }
     ],
     "2026-09-12": [
+      {
+        "id": "cmty0gqd90001jp04zfpycnzz",
+        "text": "Liftoff! https://video.twimg.com/amplify_video/2098074794201694220/vid/avc1/480x270/nErQExVMF79eX0W3.mp4?tag=29",
+        "created_at": "2026-09-12T06:31:40.000Z",
+        "imported_at": "2026-09-12T06:35:28.509Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtxzxfz60000jp04ktdsq7gt",
+        "text": "BREAKING: The Yale AI Association kicked off its academic year with a live demo of Grok Bot at Yale University.\n\nThe student group also announced a contest to build a useful app for Yale. Cursor brought the event to campus &amp; offered attendees a free month of Cursor Pro. https://pbs.twimg.com/media/HR9DVFabwAANQuw.jpg",
+        "created_at": "2026-09-12T06:18:52.000Z",
+        "imported_at": "2026-09-12T06:20:28.578Z",
+        "kind": "original"
+      },
       {
         "id": "cmtxvtjpi0002ju0403y1y70o",
         "text": "Starlink",
