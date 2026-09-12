@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-12T13:44:12.433Z",
-  "total": 3872,
+  "last_updated": "2026-09-12T16:30:17.146Z",
+  "total": 3875,
   "by_date": {
     "2026-05-27": [
       {
@@ -26669,6 +26669,27 @@
       }
     ],
     "2026-09-12": [
+      {
+        "id": "cmtyljhaj0000jk0403t9aysk",
+        "text": "Grok available in Microsoft Copilot",
+        "created_at": "2026-09-12T16:24:21.000Z",
+        "imported_at": "2026-09-12T16:25:28.651Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtyiolh10006jn046emnvohl",
+        "text": "Another AI attack https://pbs.twimg.com/media/HSBl-lRW8AgnGLT.jpg",
+        "created_at": "2026-09-12T15:03:19.000Z",
+        "imported_at": "2026-09-12T15:05:28.501Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtyiolh10007jn04tjx1c4fw",
+        "text": "Dario is right",
+        "created_at": "2026-09-12T15:01:32.000Z",
+        "imported_at": "2026-09-12T15:05:28.501Z",
+        "kind": "original"
+      },
       {
         "id": "cmtyfafg70004kz04hmt30dzz",
         "text": "Los milagros los hace Dios, pero nuestro piloto, primero Dios, sorprenderá al mundo.",
