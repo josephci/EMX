@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-13T00:48:03.624Z",
-  "total": 3878,
+  "last_updated": "2026-09-13T05:55:43.498Z",
+  "total": 3882,
   "by_date": {
     "2026-05-27": [
       {
@@ -26755,6 +26755,34 @@
       }
     ],
     "2026-09-13": [
+      {
+        "id": "cmtzbsoyn0007lb04pf45jec4",
+        "text": "Banger",
+        "created_at": "2026-09-13T04:37:57.000Z",
+        "imported_at": "2026-09-13T04:40:28.512Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtza0eca0001lb04j10fytlb",
+        "text": "A comfortable ride wherever it takes you",
+        "created_at": "2026-09-13T03:45:56.000Z",
+        "imported_at": "2026-09-13T03:50:28.662Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtz9aoeu0001lb0442jkpuxp",
+        "text": "I’m speedrunning a company with @poteto and @roshan_s next week\n\nwe’ll go from nothing to a business in 72 hours and stream the whole thing\n\nwe don’t have a name, a product, or an idea yet\n\nwe’ll use @bot as our employees, but keep real people (us) at the core\n\nLauren says we’ll be turned into pizza in some sort of bond-villain punishment if we fail\n\nwatch: https://x.ai/galaxy",
+        "created_at": "2026-09-13T03:28:42.000Z",
+        "imported_at": "2026-09-13T03:30:28.758Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmtz3rc6s0002l4042abjqzuo",
+        "text": "12 years ago",
+        "created_at": "2026-09-13T00:51:44.000Z",
+        "imported_at": "2026-09-13T00:55:28.373Z",
+        "kind": "original"
+      },
       {
         "id": "cmtz3ehlf0001l404sl7tnwnf",
         "text": "I’ve been sounding the alarm on AI for a long time",
