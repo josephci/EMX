@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-13T18:03:39.502Z",
+  "last_updated": "2026-09-13T20:41:01.419Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | O3b mPower 11-13",
       "net": "2026-09-13T18:49:00Z",
-      "status": "Go",
+      "status": "In Flight",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA"
     },
