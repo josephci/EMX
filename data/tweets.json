@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-14T10:47:36.536Z",
-  "total": 3924,
+  "last_updated": "2026-09-14T16:55:02.947Z",
+  "total": 3937,
   "by_date": {
     "2026-05-27": [
       {
@@ -26918,6 +26918,97 @@
       }
     ],
     "2026-09-14": [
+      {
+        "id": "cmu1ddvja0001l60401b9r4qk",
+        "text": "Great news for Whitehaven!\n \nSome recent upgrades are complete at Fairley High School – students and faculty are now enjoying an updated gym with soon-to-open renovated locker rooms, classrooms, and restrooms.\n \nWe are proud to work with our local schools and community to complete upgrades that will benefit students and teachers. We’re excited to keep working with Memphis schools to inspire the next generation of explorers on the road to making life multiplanetary.",
+        "created_at": "2026-09-14T14:55:47.000Z",
+        "imported_at": "2026-09-14T15:00:28.774Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu1cbaoq000blb04se1q4myz",
+        "text": "True",
+        "created_at": "2026-09-14T14:28:58.000Z",
+        "imported_at": "2026-09-14T14:30:28.827Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu1byfzk000alb04e1xjrvov",
+        "text": "AI data centers resulting in lower electricity prices for consumers",
+        "created_at": "2026-09-14T14:18:56.000Z",
+        "imported_at": "2026-09-14T14:20:29.168Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu16rysa0007l204sw0vnren",
+        "text": "FSD Supervised v14.3.9 starting to roll out shortly\n\nThis release includes a new active safety feature set: FSD Supervised can now activate on your behalf when an imminent collision is detected and Automatic Emergency Braking (AEB) may not be enough. \n\nIt may also engage if we detect you’re heavily distracted or have accidentally disengaged FSD",
+        "created_at": "2026-09-14T11:53:28.000Z",
+        "imported_at": "2026-09-14T11:55:28.859Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu16lj4k0006l2043c2uvos6",
+        "text": "Elon Musk on scaling AI beyond Earth.\n\n\"To reach a terawatt of compute per year, we need about 10 million tons to orbit annually. This is feasible—no new physics required—and I'm confident SpaceX can achieve it.\"\n\nMost people treat orbital mass as sci-fi. Elon treats it as a logistics problem with hard numbers — and a factory plan to match.\n\n• ~10 million tons to orbit per year\n• Terawatt of solar for power\n• Terawatt of compute → Terafab fills the gap\n\nNo new physics.\nStarship is the freighter.\nTerafab is the factory.\n\n\"We're also scaling to a terawatt of solar for power. The remaining piece is a terawatt of compute, which is why we're building Terafab.\"\n https://x.com/teslaownersSV/status/2035780274869702741/video/1",
+        "created_at": "2026-09-14T11:45:53.000Z",
+        "imported_at": "2026-09-14T11:50:28.628Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu168ohf0005l204083sfnol",
+        "text": "'Well Done,' Says God To Man Who Spent Life Arguing In The Comments Section https://buff.ly/3OMGuDB",
+        "created_at": "2026-09-14T11:36:05.000Z",
+        "imported_at": "2026-09-14T11:40:29.043Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu1628nn0003l2047rzbkrhq",
+        "text": "A welfare state and free immigration will obviously bankrupt any country. \n\nAI + robotics is the only path to universal high income for everyone on Earth.",
+        "created_at": "2026-09-14T11:34:44.000Z",
+        "imported_at": "2026-09-14T11:35:28.595Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu1628nn0004l204w68qi5cv",
+        "text": "\"If a perfectly moral man entered this world, he would be humiliated and impaled\"\n\n– Plato, The Republic (375 BC) https://video.twimg.com/amplify_video/2099157026857426944/vid/avc1/480x270/aEdqpTfLdP1XyHfM.mp4?tag=29",
+        "created_at": "2026-09-14T11:31:14.000Z",
+        "imported_at": "2026-09-14T11:35:28.595Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu15vt7l0002l204obg78mhg",
+        "text": "Starlink supporting rural communities in Bolivia 🇧🇴",
+        "created_at": "2026-09-14T11:30:04.000Z",
+        "imported_at": "2026-09-14T11:30:28.641Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu15pdsn0001l204fu81gy02",
+        "text": "Gaming ftw",
+        "created_at": "2026-09-14T11:23:56.000Z",
+        "imported_at": "2026-09-14T11:25:28.728Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu1563y10000l204o5f1h6w2",
+        "text": "People keep misunderstanding this. I CONTRIBUTED to Bostrom’s Superintelligence book and he thanks me by name in the foreword. \n\nI was thinking about AI safety long before 2014.",
+        "created_at": "2026-09-14T11:08:46.000Z",
+        "imported_at": "2026-09-14T11:10:29.497Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu14zo2s0001jm045gpqxxkv",
+        "text": "True",
+        "created_at": "2026-09-14T11:05:10.000Z",
+        "imported_at": "2026-09-14T11:05:28.997Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu14gdao0000jm04dezp1g53",
+        "text": "Grok Bot now lets your route through your local machine",
+        "created_at": "2026-09-14T10:49:55.000Z",
+        "imported_at": "2026-09-14T10:50:28.437Z",
+        "kind": "original"
+      },
       {
         "id": "cmu13x2x90003la04fxi5tjty",
         "text": "FSD Supervised is making driving safer &amp; now cheaper\n\nZurich is the first insurer in Australia to offer Tesla owners lower premiums, reflecting fewer collisions &amp; fewer claims",
