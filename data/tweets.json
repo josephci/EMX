@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-13T22:36:35.876Z",
-  "total": 3899,
+  "last_updated": "2026-09-14T00:26:27.086Z",
+  "total": 3906,
   "by_date": {
     "2026-05-27": [
       {
@@ -26914,6 +26914,57 @@
         "text": "New Tesla Roadster Unveil 10.01",
         "created_at": "2026-09-13T00:31:04.000Z",
         "imported_at": "2026-09-13T00:35:28.691Z",
+        "kind": "original"
+      }
+    ],
+    "2026-09-14": [
+      {
+        "id": "cmu0hy6r40007jm047crb7rnk",
+        "text": "Tesla Model 3 achieved 5-star safety rating in all categories!",
+        "created_at": "2026-09-14T00:19:26.000Z",
+        "imported_at": "2026-09-14T00:20:28.720Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu0hy6r40008jm04bqjssrku",
+        "text": "Named my grok bot after the sentient AI, Jane, in speaker for the dead. \n\nI look forward to when I can sub-vocalize like Ender to communicate with Jane, but would honestly even be happy with verbal communication back and forth like we have for the Grok app. \n\nRight now it seems I can dictate, but the app needs to start and stop recording, then process and reply which it does in text only. it's clunky. Let's take the excellent conversation flow capability from Grok and bring it to Grok bot",
+        "created_at": "2026-09-14T00:17:19.000Z",
+        "imported_at": "2026-09-14T00:20:28.720Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu0hy6r40009jm04jlksivq6",
+        "text": "this is the milky way galaxy flying through space \n\nlike a butterfly https://video.twimg.com/amplify_video/2099214129089454080/vid/avc1/492x270/z7i8hlY4eCWFaa83.mp4?tag=29",
+        "created_at": "2026-09-14T00:17:12.000Z",
+        "imported_at": "2026-09-14T00:20:28.720Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu0hrrhj0003jm0441hg0vqt",
+        "text": "@arampell @lipko 10/10 been my experience as well. Drove a loaner Y and it's damn near perfect at self-driving in the Bay Area. Very difficult to justify buying another \"car\".",
+        "created_at": "2026-09-14T00:15:23.000Z",
+        "imported_at": "2026-09-14T00:15:28.999Z",
+        "kind": "reply"
+      },
+      {
+        "id": "cmu0hrrhj0004jm04c0kw3qm9",
+        "text": "Try Tesla self-driving. It will blow your mind!",
+        "created_at": "2026-09-14T00:15:13.000Z",
+        "imported_at": "2026-09-14T00:15:28.999Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu0hrrhj0005jm0422hjmkg2",
+        "text": "Try Grok Build https://x.ai/build",
+        "created_at": "2026-09-14T00:13:22.000Z",
+        "imported_at": "2026-09-14T00:15:28.999Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu0hrrhj0006jm04zz11a0d5",
+        "text": "My @bot  Grok Bot team just sold their first item on @Poshmarkapp, amazing.\n\n- Poshy built the ad, advised on pricing, followed up on offers.\n- Cosie monitored her.\n- Weary is now updating my online wardrobe to archive the shoes that sold.\n\nWell done, team\n\nhttps://poshmark.com/listing/Dolce-Vita-Metallic-Silver-Crackle-Ballet-Flats-Size-12-6a9f2bdc70582631a69b3aee",
+        "created_at": "2026-09-14T00:11:38.000Z",
+        "imported_at": "2026-09-14T00:15:28.999Z",
         "kind": "original"
       }
     ]
