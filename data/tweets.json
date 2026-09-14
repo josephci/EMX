@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-14T00:26:27.086Z",
-  "total": 3906,
+  "last_updated": "2026-09-14T05:13:21.295Z",
+  "total": 3918,
   "by_date": {
     "2026-05-27": [
       {
@@ -26918,6 +26918,90 @@
       }
     ],
     "2026-09-14": [
+      {
+        "id": "cmu0nb3bg0006jv0472w6fy6m",
+        "text": "FSD Supervised will change your life",
+        "created_at": "2026-09-14T02:48:38.000Z",
+        "imported_at": "2026-09-14T02:50:28.877Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu0k9rwd0004jv043cfcxb9a",
+        "text": "Starlink",
+        "created_at": "2026-09-14T01:20:39.000Z",
+        "imported_at": "2026-09-14T01:25:28.574Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu0jk2450001jv04y4903b6k",
+        "text": "Today we completed our 700th successful Falcon mission! Proud doesn’t even cover it. The @SpaceX team continues to raise the bar on reliability. Thank you to all of our customers for flying with us! Extra fun to celebrate yet another major milestone with @SES_Satellites",
+        "created_at": "2026-09-14T01:01:42.000Z",
+        "imported_at": "2026-09-14T01:05:28.647Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu0jk2450002jv04t4rfvi1r",
+        "text": "This was the mission that launched Elon Musk’s original Tesla Roadster into space.\n\nOn February 6, 2018, Falcon Heavy made its first-ever flight, sent Starman into orbit around the Sun, and landed two boosters side by side.\n\nEight years later, the Roadster is still flying. https://video.twimg.com/amplify_video/2099118454477664256/vid/avc1/320x400/yoQ8uI8BhzLe97Xm.mp4?tag=29",
+        "created_at": "2026-09-14T01:01:08.000Z",
+        "imported_at": "2026-09-14T01:05:28.647Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu0jdmze0000jv04y92bg34r",
+        "text": "16 years of relentless engineering in one video.\n\nFrom SpaceX’s first Falcon 9 launch in 2010 to the 700th Falcon launch today.\n\nBoth lifted off from the same pad, SLC-40.\n\nFrom proving Falcon 9 could reach orbit to making reusable launches look routine.\n\nCongratulations SpaceX! https://video.twimg.com/amplify_video/2099262396422656000/vid/avc1/320x320/V1AKV5UbTFXVY1eo.mp4?tag=29",
+        "created_at": "2026-09-14T00:58:14.000Z",
+        "imported_at": "2026-09-14T01:00:29.210Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu0j7711000jjm04bknaiop9",
+        "text": "Elon Musk showing Tesla Roadster to Arnold Schwarzenegger in 2008. https://pbs.twimg.com/media/HSI2GfnaQAATW_Z.jpg",
+        "created_at": "2026-09-14T00:54:10.000Z",
+        "imported_at": "2026-09-14T00:55:28.598Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu0j7711000kjm04eospnpen",
+        "text": "Commit yourself to these seven virtues: Honor, strength, courage, duty, justice, beauty, and truth.",
+        "created_at": "2026-09-14T00:53:44.000Z",
+        "imported_at": "2026-09-14T00:55:28.598Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu0j7711000ljm0486kwfens",
+        "text": "Eight years ago, Elon Musk said:\n\n“Mark my words: AI is far more dangerous than nukes.”\n\nElon didn’t give in to the AI doomers. In fact, his position is very different from theirs. He has warned about the risks of AI for years while still pushing for its development, with a strong focus on safety. His view is that companies should build powerful AI, but do it safely and responsibly, even if that means slowing the pace when necessary\n\n“I think the danger of AI is much greater than the danger of nuclear warheads by a lot and nobody would suggest that we allow anyone to just build Nuclear warheads if they want that? That would be insane. And Far.”",
+        "created_at": "2026-09-14T00:52:49.000Z",
+        "imported_at": "2026-09-14T00:55:28.598Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu0j0rm5000hjm04uw0gl3in",
+        "text": "Important reading",
+        "created_at": "2026-09-14T00:47:02.000Z",
+        "imported_at": "2026-09-14T00:50:28.686Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu0iucf8000gjm0450vhu22f",
+        "text": "Grok Build just got another update focused on making multi-agent sessions easier to read and navigate\n\nSubagent groups now clearly show how many agents are still running versus finished, dashboard search and resume selection behave more predictably, cancellation banners show the actual cause, and long paths are cleaned up across headers and dashboards\n\nMCP handling also gets a useful fix....tools with long server prefixes are no longer silently dropped\n\nAnother small release that makes busy agent sessions much easier to understand at a glance\n\nRelease Notes: v1.0.31\n\nBug Fixes: • Folded subagent groups in scrollback now correctly label how many are still running versus completed.\n• Dashboard search and the resume picker now clearly indicate the active text field and restore list selection after search.\n• Dock sections no longer keep a selection highlight after you collapse them with a click.\n• Worktree paths no longer show an extra suffix in the header or dashboard.\n• MCP tools with long server prefixes are now kept instead of being silently dropped.\n• Turn cancelled banners now correctly name the cause instead of always saying \"by user\".\n• Long paths in headers are now always shortened to the last two components",
+        "created_at": "2026-09-14T00:44:11.000Z",
+        "imported_at": "2026-09-14T00:45:29.060Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu0ihh5u000cjm044cnqn0tx",
+        "text": "This @waitbutwhy cartoon hits the 🎯 https://pbs.twimg.com/media/HSIyfrxacAAoBMf.jpg",
+        "created_at": "2026-09-14T00:35:20.000Z",
+        "imported_at": "2026-09-14T00:35:28.675Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu0ihh5u000djm044lkxnbig",
+        "text": "700 Falcon flights completed. Congrats to the SpaceX Falcon team!",
+        "created_at": "2026-09-14T00:32:41.000Z",
+        "imported_at": "2026-09-14T00:35:28.675Z",
+        "kind": "original"
+      },
       {
         "id": "cmu0hy6r40007jm047crb7rnk",
         "text": "Tesla Model 3 achieved 5-star safety rating in all categories!",
