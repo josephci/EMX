@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-14T23:49:12.954Z",
-  "total": 3943,
+  "last_updated": "2026-09-15T04:42:26.161Z",
+  "total": 3949,
   "by_date": {
     "2026-05-27": [
       {
@@ -27224,6 +27224,50 @@
         "text": "My @bot  Grok Bot team just sold their first item on @Poshmarkapp, amazing.\n\n- Poshy built the ad, advised on pricing, followed up on offers.\n- Cosie monitored her.\n- Weary is now updating my online wardrobe to archive the shoes that sold.\n\nWell done, team\n\nhttps://poshmark.com/listing/Dolce-Vita-Metallic-Silver-Crackle-Ballet-Flats-Size-12-6a9f2bdc70582631a69b3aee",
         "created_at": "2026-09-14T00:11:38.000Z",
         "imported_at": "2026-09-14T00:15:28.999Z",
+        "kind": "original"
+      }
+    ],
+    "2026-09-15": [
+      {
+        "id": "cmu26oeay0001jy04bl4iea32",
+        "text": "I thought white supremacy was the big issue",
+        "created_at": "2026-09-15T04:38:46.000Z",
+        "imported_at": "2026-09-15T04:40:28.522Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu26oeay0002jy04jgrm67ow",
+        "text": "This was surreal",
+        "created_at": "2026-09-15T04:37:51.000Z",
+        "imported_at": "2026-09-15T04:40:28.522Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu2654700000jy047r8utcqa",
+        "text": "Grok @Bot summary",
+        "created_at": "2026-09-15T04:20:33.000Z",
+        "imported_at": "2026-09-15T04:25:28.957Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu252j0i0003l004dsoa6hd5",
+        "text": "🚨 GOVT CAUSED THE GREAT DEPRESSION: Milton Friedman describes how the Federal Reserve made the Great Depression much worse.\n\nFriedman describes the main problem with Govt is that it EXPANDS failures, while private markets PUNISH and ELIMINATE failures.\n\nHOW MANY GOVT AGENCIES HAVE EVER BEEN ABOLISHED?",
+        "created_at": "2026-09-15T03:52:33.000Z",
+        "imported_at": "2026-09-15T03:55:28.578Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu24w3kr0002l0041l5of84x",
+        "text": "MUST SEE: Amazing moment as President Trump calls Nvidia CEO Jensen Huang while he's on stage at the All-In Summit.\n\n@POTUS on AI Doomerism: “I'm telling you, it's all a hoax… and we're not going to let that happen.” https://video.twimg.com/amplify_video/2099619964869300224/vid/avc1/480x270/OyZfVYXL5Pu5eqrh.mp4?tag=29",
+        "created_at": "2026-09-15T03:50:18.000Z",
+        "imported_at": "2026-09-15T03:50:28.635Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu24po1u0001l004erxq9t7h",
+        "text": "Tesla self-driving is amazing",
+        "created_at": "2026-09-15T03:44:38.000Z",
+        "imported_at": "2026-09-15T03:45:28.578Z",
         "kind": "original"
       }
     ]
