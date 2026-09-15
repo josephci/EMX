@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-15T14:28:14.927Z",
-  "total": 3963,
+  "last_updated": "2026-09-15T18:28:35.324Z",
+  "total": 3969,
   "by_date": {
     "2026-05-27": [
       {
@@ -27228,6 +27228,48 @@
       }
     ],
     "2026-09-15": [
+      {
+        "id": "cmu305d0x000al3048giaf8va",
+        "text": "Next Starship flight on 9/22",
+        "created_at": "2026-09-15T18:23:59.000Z",
+        "imported_at": "2026-09-15T18:25:28.882Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu2zyxqf0008l304za2985az",
+        "text": "SpaceX is currently targeting Starship Flight 14 for September 22 🚀\n\nAnd this flight is a huge step beyond everything Starship has done so far\n\nFlight 14 will attempt to:\n\n• Reach stable Low Earth Orbit for the first time\n• Deploy production Starlink V3 satellites into orbit\n• Become Starship’s first revenue-generating mission\n• Attempt the full orbital mission profile from launch → deployment → deorbit → reentry\n• Push the V3 heat shield through another major test\n• Continue proving Raptor 3, guidance, landing burns and vehicle control needed for rapid reuse\n\nThe hardware:\n\n• Super Heavy Booster 21\n• Starship Ship 41\n• Third flight of the Starship V3 architecture\n• 33 Raptor 3 engines on Super Heavy\n• 6 Raptor engines on Starship\n• Launching from Pad 2 at Starbase\n\nAfter liftoff, Super Heavy will separate from Starship, perform its boostback and return for a controlled ocean splashdown\n\nNo tower catch is planned for Flight 14\n\nThe really big part happens with Ship 41\n\nInstead of following another suborbital trajectory, Starship will continue into orbit\n\nThen it will deploy production Starlink V3 satellites into stable LEO\n\nThat is a massive milestone by itself\n\nFlight 13 proved Starship could deploy V3 satellites in space....Flight 14 is the first time Starship is expected to actually leave production V3 satellites in orbit\n\nAnd these satellites are monsters\n\nEach Starlink V3 is designed for:\n\n• 1 Tbps of downlink capacity\n• 160 Gbps of uplink capacity\n• 2,048 beams in each direction\n• Six 400 Gbps laser links\n\nEventually a single Starship will be able to carry up to 60 V3 satellites....adding around 60 Tbps of Starlink capacity in ONE launch\n\nAround 20× the downlink capacity deployed by a Falcon 9 Starlink launch\n\nAfter payload deployment, Ship 41 will perform its deorbit sequence and come back through the atmosphere\n\nThat means another major test of:\n\n• The orbital heat shield\n• Flap control through reentry\n• Guidance during the return\n• Raptor relight\n• Landing flip and burn\n\nShip 41 will then return for a controlled ocean splashdown\n\nAnd the next step is already lined up....Elon has confirmed Flight 15 is planned for the first attempt to bring Starship all the way back to the tower and catch it\n\nBut Flight 14 comes first\n\nReach orbit....Deploy real Starlink V3 satellites.....Come back through reentry\n\nThis is where things start getting very real",
+        "created_at": "2026-09-15T18:19:32.000Z",
+        "imported_at": "2026-09-15T18:20:29.127Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu2zyxqf0009l3045wfuaj00",
+        "text": "SpaceX says they've made several upgrades to Starship's heatshield for test flight 14:\n\nThe upgrades include additional retention mechanisms added to tiles in areas deemed to be at highest risk of falling off during ascent, addressing recently discovered areas that offer flow paths behind tiles for plasma, and flying multiple areas with a curved tile design that has shown the ability to reduce heating in the gaps between tiles. Lastly, two tiles recovered from Ship 40 are planned to be reflown on Ship 41, marking the first tile reuse for Starship.\n\nLooking forward to the launch!",
+        "created_at": "2026-09-15T18:19:10.000Z",
+        "imported_at": "2026-09-15T18:20:29.127Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu2z2s000005l304psmby3zq",
+        "text": "Grok Bot watching Grok Bot. Tell me about yourself 😂",
+        "created_at": "2026-09-15T17:51:41.000Z",
+        "imported_at": "2026-09-15T17:55:28.705Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu2webw8000hjt04vjsujsx7",
+        "text": "❤️",
+        "created_at": "2026-09-15T16:38:51.000Z",
+        "imported_at": "2026-09-15T16:40:28.857Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu2td0x20000jt04uh84cvke",
+        "text": "Ever wake up and want to build a company?\n\nI'm building one today with @poteto &amp; @roshan_s \n\nhttps://x.com/i/broadcasts/1AxRnZbVpjaxl?s=20",
+        "created_at": "2026-09-15T15:13:48.000Z",
+        "imported_at": "2026-09-15T15:15:29.022Z",
+        "kind": "original"
+      },
       {
         "id": "cmu2a906a0001jw04ijmbcvfb",
         "text": "Trump calling @JensenHuang live during @theallinpod interview. “The grt thing about Jensen is that he can create the best AI chip in the world but can’t figure out how to put me on speaker phone.”  They agree that AI is safe, grt for jobs, economic growth &amp; natl security. 😂🇺🇸🚀 https://video.twimg.com/amplify_video/2099572979541975040/vid/avc1/480x270/7RXv3mbFZpKI6GT1.mp4?tag=29",
