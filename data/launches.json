@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-09-16T12:07:43.602Z",
+  "last_updated": "2026-09-16T17:08:25.530Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-259",
-      "net": "2026-09-17T01:00:00Z",
+      "net": "2026-09-17T01:07:56Z",
       "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
@@ -24,17 +24,10 @@
     },
     {
       "name": "Falcon 9 Block 5 | USSF-xxx (\"R-3\")",
-      "net": "2026-09-27T11:42:00Z",
+      "net": "2026-09-26T11:56:00Z",
       "status": "TBC",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
-    },
-    {
-      "name": "Falcon 9 Block 5 | Crew-13",
-      "net": "2026-09-30T00:00:00Z",
-      "status": "TBD",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA"
     },
     {
       "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
@@ -45,6 +38,13 @@
     },
     {
       "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
+      "net": "2026-10-31T00:00:00Z",
+      "status": "TBD",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Crew-13",
       "net": "2026-10-31T00:00:00Z",
       "status": "TBD",
       "pad": "Space Launch Complex 40",
