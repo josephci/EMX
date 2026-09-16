@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-09-15T23:43:31.670Z",
+  "last_updated": "2026-09-16T01:40:34.748Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-259",
-      "net": "2026-09-16T02:18:38Z",
+      "net": "2026-09-17T01:00:00Z",
       "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
