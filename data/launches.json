@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-16T20:14:57.714Z",
+  "last_updated": "2026-09-16T23:02:33.033Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-259",
@@ -16,7 +16,7 @@
       "location": "Vandenberg SFB, CA, USA"
     },
     {
-      "name": "Starship | Flight 14",
+      "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
       "net": "2026-09-22T12:15:00Z",
       "status": "Go",
       "pad": "Orbital Launch Pad 2",
