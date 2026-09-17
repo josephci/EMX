@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-16T23:02:33.691Z",
-  "total": 3999,
+  "last_updated": "2026-09-17T01:17:26.593Z",
+  "total": 4004,
   "by_date": {
     "2026-05-27": [
       {
@@ -27620,6 +27620,43 @@
         "text": "True",
         "created_at": "2026-09-16T03:52:11.000Z",
         "imported_at": "2026-09-16T03:55:28.882Z",
+        "kind": "original"
+      }
+    ],
+    "2026-09-17": [
+      {
+        "id": "cmu4u8h8o0000ij04kjl3136q",
+        "text": "💯",
+        "created_at": "2026-09-17T01:14:45.000Z",
+        "imported_at": "2026-09-17T01:15:28.968Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu4tcbnx0005l804wwaq1kqm",
+        "text": "My Mom’s book is coming out soon @mayemusk \n\nhttps://lnk.to/TimelessMayeMusk",
+        "created_at": "2026-09-17T00:48:39.000Z",
+        "imported_at": "2026-09-17T00:50:28.749Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu4t5w490001l8047bb7j9x4",
+        "text": "On the rise of transgenderism with @GadSaad:\n\n“When I’m a Hollywood superstar, as you said earlier—the stats on having one transgender child are already abysmally low. Having two, three, or four is nonexistent. So it becomes a pathway for me to demonstrate that I’m deserving of empathy.\n\n“It’s a form of Munchausen.\n\n“Munchausen syndrome by proxy is when I cause injury to someone I care for—my biological child, my pet, my elderly parents—because I’m going to get empathy and sympathy by proxy through harming them. ‘Look, I’ve got an ailing child.’\n\n“So the transgender parent you see with the Hollywood star is engaging in Munchausen by proxy.”",
+        "created_at": "2026-09-17T00:43:45.000Z",
+        "imported_at": "2026-09-17T00:45:28.666Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu4t5w490002l8045j4ekvd7",
+        "text": "• Flashback: Elon Musk Explaining SpaceX In 2008\n\nSo long ago he needed a name tag 😂 https://video.twimg.com/amplify_video/2100099063375101952/vid/avc1/480x270/yzpLCA5eLqkfjTGz.mp4?tag=29",
+        "created_at": "2026-09-17T00:42:56.000Z",
+        "imported_at": "2026-09-17T00:45:28.666Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu4t5w490003l8045xdhlhny",
+        "text": "New episode of @SpaceX documentary",
+        "created_at": "2026-09-17T00:40:39.000Z",
+        "imported_at": "2026-09-17T00:45:28.666Z",
         "kind": "original"
       }
     ]
