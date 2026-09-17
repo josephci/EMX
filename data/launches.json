@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17T16:49:01.678Z",
+  "last_updated": "2026-09-17T20:09:35.124Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-259",
@@ -16,18 +16,18 @@
       "location": "Vandenberg SFB, CA, USA"
     },
     {
-      "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
-      "net": "2026-09-22T12:15:00Z",
-      "status": "Go",
-      "pad": "Orbital Launch Pad 2",
-      "location": "SpaceX Starbase, TX, USA"
-    },
-    {
       "name": "Falcon 9 Block 5 | USSF-385",
       "net": "2026-09-26T11:56:00Z",
       "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
+    },
+    {
+      "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
+      "net": "2026-09-28T12:15:00Z",
+      "status": "TBC",
+      "pad": "Orbital Launch Pad 2",
+      "location": "SpaceX Starbase, TX, USA"
     },
     {
       "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
