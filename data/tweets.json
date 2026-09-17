@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-17T06:12:54.489Z",
-  "total": 4007,
+  "last_updated": "2026-09-17T11:52:40.553Z",
+  "total": 4014,
   "by_date": {
     "2026-05-27": [
       {
@@ -27624,6 +27624,55 @@
       }
     ],
     "2026-09-17": [
+      {
+        "id": "cmu59lgxk0003l204yqu6js5d",
+        "text": "True",
+        "created_at": "2026-09-17T08:24:58.000Z",
+        "imported_at": "2026-09-17T08:25:29.336Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu58pbd70000l2047vr3vy5j",
+        "text": "Falcon 9’s first stage lands on the Of Course I Still Love You droneship https://video.twimg.com/amplify_video/2100393491733831681/vid/avc1/480x270/irhYo3jbY3AK0AKK.mp4?tag=29",
+        "created_at": "2026-09-17T07:58:33.000Z",
+        "imported_at": "2026-09-17T08:00:29.008Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu57zl7r0009jt040hj9vgrk",
+        "text": "Just to recap the last week \n\n- Dario agreed with a ngo-coded physiognomy “whistleblower” that AI has >10% chance of ending humans and we should pace \n\n- Sam and Elon agreed but kept accelerating \n\n- Trump posted the Trump-est post of all time and said nah bro we’re accelerating even harder now get back to work nerds\n\n- also Dario: AI might kill us but it’ll also will help you do lead scoring in Salesforce \n\n- Papa benioff framemogged everyone at Dreamforce who realized for the first time he’s 6’5 and built like a 1950s refrigerator \n\n- Trump called Jensen during All-In and reiterated that there’s a hoax against data centers and we’re going to beat China \n\n- Clavicular the streamer also went on All-In stage and rated chamath a 4/10 and then bragged about mogging the “VCcels” and getting the hottest girl at the after party \n\nWhat is even happening right now",
+        "created_at": "2026-09-17T07:38:50.000Z",
+        "imported_at": "2026-09-17T07:40:28.840Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu57t5ej0008jt041t5m7dt3",
+        "text": "Liftoff! https://video.twimg.com/amplify_video/2100391449850220544/vid/avc1/480x270/eFy2hWg2vZgdqTfL.mp4?tag=29",
+        "created_at": "2026-09-17T07:35:21.000Z",
+        "imported_at": "2026-09-17T07:35:28.412Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu579v1o0005jt04lgab5yuj",
+        "text": "My favorite phrase from this episode “symphony of iteration”.  Also one SpaceX engineer estimated that starship surviving accelerated their learning by at least 3 months. \n\nsave this if you don’t have 20mins to watch now. Inspiring!",
+        "created_at": "2026-09-17T07:17:14.000Z",
+        "imported_at": "2026-09-17T07:20:28.524Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu55uf330002jt04na9d5gk8",
+        "text": "I still think about this all the time",
+        "created_at": "2026-09-17T06:35:46.000Z",
+        "imported_at": "2026-09-17T06:40:28.383Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu55uf330003jt04jqx5r0h2",
+        "text": "That night SpaceX put everything on the line.\n\nDecember 21, 2015. Nearly 11 years later and it hits just as hard.\n\nReturn to flight after a rocket failure six months earlier. First Full Thrust Falcon 9. First attempt to land an orbital-class booster on land.\n\nThey had tried the droneship and failed. They had never successfully landed anything.\nIn mission control it was a tense count. \n\nThey went for it. \n\nNine minutes later a rocket that had just thrown satellites toward orbit dropped out of the Florida dark. A camera on the back of the booster caught the engines lighting, still one of the most insane images in spaceflight. Legs out. The Falcon has landed.\n\nThat was the peak of everything they had been working toward. The whole industry said it was impossible. They bet the company on that night anyway.\n\nSpaceflight has never been the same.",
+        "created_at": "2026-09-17T06:35:29.000Z",
+        "imported_at": "2026-09-17T06:40:28.383Z",
+        "kind": "original"
+      },
       {
         "id": "cmu51wyyg0001l804rns7szxx",
         "text": "Starlink V5 terminal is in production",
