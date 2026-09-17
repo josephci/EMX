@@ -2,12 +2,12 @@
   "Elon Musk # tweets September 17 - September 19, 2026?": {
     "settle": "2026-09-19T16:00:00Z",
     "windowStart": "2026-09-17T16:00:00.000Z",
-    "bucket": "90-114",
-    "lo": 90,
-    "hi": 114,
-    "mid": 90,
-    "leadH": 62.7,
+    "bucket": "65-89",
+    "lo": 65,
+    "hi": 89,
+    "mid": 78,
+    "leadH": 57.8,
     "locked": false,
-    "logged": "2026-09-17T01:17:27.148Z"
+    "logged": "2026-09-17T06:12:55.195Z"
   }
 }
