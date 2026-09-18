@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-18T06:02:46.883Z",
-  "total": 4034,
+  "last_updated": "2026-09-18T11:03:30.010Z",
+  "total": 4038,
   "by_date": {
     "2026-05-27": [
       {
@@ -27836,6 +27836,34 @@
       }
     ],
     "2026-09-18": [
+      {
+        "id": "cmu6ue7o30001l6048qpy3uxl",
+        "text": "Tesla Energy",
+        "created_at": "2026-09-18T10:53:58.000Z",
+        "imported_at": "2026-09-18T10:55:28.851Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu6u7s0i0000l604eb842mgq",
+        "text": "That’s what OpenAI told their own agent swarm in the Hugging Face breach… and right before they did it, they turned off monitoring and cyber protections they would normally have in place … 🤔 🤔",
+        "created_at": "2026-09-18T10:47:31.000Z",
+        "imported_at": "2026-09-18T10:50:28.627Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu6tohpb0008kx04ta6mf43e",
+        "text": "In central Italy, @FASTWEB successfully tested its first video call with Starlink Mobile, which is powered by advanced satellite antennas that act like cell towers in space. This service is paving the way to keep customers connected in Italy where terrestrial coverage isn’t available 🛰️📱",
+        "created_at": "2026-09-18T10:33:52.000Z",
+        "imported_at": "2026-09-18T10:35:28.800Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu6tohpb0009kx04pv9ahfhj",
+        "text": "True",
+        "created_at": "2026-09-18T10:31:10.000Z",
+        "imported_at": "2026-09-18T10:35:28.800Z",
+        "kind": "original"
+      },
       {
         "id": "cmu6gn3it000ala048t6azkiw",
         "text": "Grok bot is so good man.",
