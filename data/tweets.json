@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-19T06:01:10.166Z",
-  "total": 4069,
+  "last_updated": "2026-09-19T10:46:35.102Z",
+  "total": 4075,
   "by_date": {
     "2026-05-27": [
       {
@@ -28062,6 +28062,48 @@
       }
     ],
     "2026-09-19": [
+      {
+        "id": "cmu81z5qv0000l504pumq6y6g",
+        "text": "SpaceX",
+        "created_at": "2026-09-19T07:12:09.000Z",
+        "imported_at": "2026-09-19T07:15:29.623Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu81spn70000l504l2rc49kr",
+        "text": "Worth reading about this",
+        "created_at": "2026-09-19T07:09:13.000Z",
+        "imported_at": "2026-09-19T07:10:28.819Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu80jp7t0000l604k50wvrez",
+        "text": "Elon made some of the key technical decisions and still does to this day. We meet with him weekly (often more frequently). He goes deep with the team and contributes significantly. I don’t know how he does this, but he just makes it happen. Consistently for the past 10 years, and I don’t see this changing.",
+        "created_at": "2026-09-19T06:35:03.000Z",
+        "imported_at": "2026-09-19T06:35:28.746Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu80jp7t0001l6043kg0ncmf",
+        "text": "🎯",
+        "created_at": "2026-09-19T06:33:19.000Z",
+        "imported_at": "2026-09-19T06:35:28.746Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu80jp7t0002l604ivijt1vz",
+        "text": "Ken Paxton has my Complete and Total Endorsement to be the next U.S. Senator from Texas — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP https://video.twimg.com/amplify_video/2101041020397854720/vid/avc1/512x270/hnO39tRmYT67bG3G.mp4?tag=29",
+        "created_at": "2026-09-19T06:32:58.000Z",
+        "imported_at": "2026-09-19T06:35:28.746Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu80jp7t0003l604froy6iph",
+        "text": "We’ve expanded Under The Hood after seeing people’s appreciation of more transparency into government-required content filtering.\n\nIn addition to showing labels applied to your account and posts in the prior month, Under The Hood now shows if your account or posts had their visibility limited because of required compliance with local law(s).\n\nFor example, you can see if any of your posts were withheld in a country following a legal demand – and which country.\n\nWe’re making this Under The Hood update available to all accounts that meet the basic eligibility criteria (10+ posts in prior month, account at least one year old).\n\nYou can get your report at https://x.com/i/under_the_hood",
+        "created_at": "2026-09-19T06:31:45.000Z",
+        "imported_at": "2026-09-19T06:35:28.746Z",
+        "kind": "original"
+      },
       {
         "id": "cmu7yxtzo0000l604r832t3o8",
         "text": "It’s not easy coming up with something that is both outrageously unsellable and yet extremely popular",
