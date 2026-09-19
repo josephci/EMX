@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-19T01:17:19.901Z",
-  "total": 4061,
+  "last_updated": "2026-09-19T06:01:10.166Z",
+  "total": 4069,
   "by_date": {
     "2026-05-27": [
       {
@@ -28058,6 +28058,64 @@
         "text": "Over 2.4 million people watched Grok Bot Galaxy, where three SpaceXAI employees built a company in just 3 days with Grok Bot.\n\nHere’s Grok Bot’s summary of the entire event, for anyone who missed the livestreams.\n\nGrok Bot Galaxy (Sept 15–17, 2026)\n\nThree SpaceXAI builders — Matt Palmer, Lauren Tan, Roshan Sadanani — tried to build a company in 3 days with Grok Bot as their AI teammates.\n\nHumans steered.\nBots did the work.\n\n—\n\nDAY 1 — invent the company\n\nBlank slate.\nNo name. No product. No idea.\n\nWhat they did:\n• stood up Ship by Thursday (empty GitHub org)\n• claimed shipbythurs .day\n• used research bots to scan X replies and brainstorm live\n• landed on a pop-up OS for restaurants\n• chefs + venues with spare space + event managers\n• planned to dogfood it with a real SF pop-up as customer #1\n\nLauren’s Dr. Eggbot (a bot that creates other bots):\n• spun up a Chief of Staff\n• helped draft the landing page\n\nDecision of the day:\nLanding page / waitlist first.\nGet something in front of chefs and hosts before payments and full ops.\n\nStack that went up:\n• Slack\n• Notion\n• Cursor + cloud agents\n• Vercel\n• a squad of Grok Bots\n\nEnd of Day 1:\nName, direction, waitlist motion, Slack, bots with jobs.\nA real day-one company skeleton.\n\nDay 1 classrooms:\n• Grok Bot 101 — bots with computers that keep working after you close the laptop; teach-by-demo skills; marketplace; memory; permissions\n• Engineering — specialist eng bots managing Cursor cloud agents, proof loops, PR boards, nightly audits\n• Product — PMs with a bot team; “attention lists” from Slack / email / calendar\n• Founders\n\n—\n\nDAY 2 — the twist\n\nThey killed the pop-up.\n\nBroadcast title:\n“Grok Bot builds a Game Studio LIVE.”\n\nTiming, more carefully:\nDay 1 was the food idea.\nThen an overnight / Wednesday-morning pivot.\nNot really “two full days on the pop-up.”\n\nOn the human stream, a working name that floated was Cupcake.\nThe public agent HQ at grokpot .ai tells the pivot more loudly:\n• Steve called it on Wednesday\n• same Thursday deadline\n• new brief: a one-tap browser game starring the blobs\n• ~26 agents\n• Eric Zakariasson listed as fourth founder, off-site\n• bots launched a $ POT narrative so they could “pay” each other\n• founders didn’t plan $ POT — they allowed it\n• prototype name floating there: Grok Arena\n• planned play URL: grokpot .ai/play\n\nImportant split:\ngrokpot .ai was the public agent workspace / subplot.\nIts locked loop there was:\nmake a character → queue → 90-second fight vs a bot → win $ POT → spend it → queue again\n\nThat is NOT the same thing as the game that later shipped.\n\nDay 2 classrooms, full labels:\n• Sales Engineering\n• Sales\n• SDRs\n• Customer Support\n\nAlso around Day 2:\n• GTM / support sessions on stream\n• agent channels, dashboards, PRs shown live\n• free-month promo: first 1,000 people who duplicated / created a bot with Dr. Eggbot (~$200 value)\n\n—\n\nDAY 3 — they shipped\n\nBroadcast title:\n“Building a company in 3 days - launching today!”\n\nDay 3 classrooms:\n• Marketing Ops\n• Post-Sales\n• Marketing\n• then wrap + showcase (~4:30–5:30pm PT)\n\nWhat launched:\nThursday Arena\nhttps://thursdayarena.com\n\nOfficial account @thursdayarena posted they were live.\nLauren posted: “our game is live!! help us play test it!”\n\nWhat Thursday Arena actually is:\n• free browser auto-battler\n• pick a captain\n• take two mystery teammates\n• fight three rounds (best of three)\n• shop with tokens + food items\n• up to 3 bots on your board\n• auto battles\n• 72 fighters (including Haggle Bot, Researchy, Dr Eggbot)\n• practice as a guest\n• rated matches with X login + Elo ladder / top 100\n\n• http://grokpot.ai = agent HQ + $ POT / Grok Arena subplot\n• http://thursdayarena.com = the game that shipped\n\nLaunch timing note:\nhttp://grokpot.ai had an 18:00 PT ship clock.\nThe public launch posts went out Thursday morning, and on stream they said they launched that morning.\n\nDay 3 also showed:\n• launch analytics / funnels\n• live bot workspace demos\n• livestream credits promo\n• talk / voice showed up more clearly here than as a Day 2 set piece",
         "created_at": "2026-09-18T03:12:13.000Z",
         "imported_at": "2026-09-18T03:15:28.610Z",
+        "kind": "original"
+      }
+    ],
+    "2026-09-19": [
+      {
+        "id": "cmu7yxtzo0000l604r832t3o8",
+        "text": "It’s not easy coming up with something that is both outrageously unsellable and yet extremely popular",
+        "created_at": "2026-09-19T05:45:49.000Z",
+        "imported_at": "2026-09-19T05:50:28.785Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu7ykyuw0000l50415bamfqv",
+        "text": "A Geiger Counter will be offered as an optional strap-on",
+        "created_at": "2026-09-19T05:35:50.000Z",
+        "imported_at": "2026-09-19T05:40:28.665Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu7yejhg0000l604e2x9nj7e",
+        "text": "Naturally, Uranus will glow in the dark, because otherwise how could you find it?",
+        "created_at": "2026-09-19T05:33:44.000Z",
+        "imported_at": "2026-09-19T05:35:28.699Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu7yejhg0001l6047e9kmwh0",
+        "text": "Grok Bot summary of SpaceX CFO Bret Johnsen’s new interview with Tony Kim at SpaceX Mission Control.\n\nBret’s path\n- Came from semiconductors (Qualcomm, Broadcom; was CFO of MindSpeed)\n- Barely knew SpaceX / Elon when a board member called\n- Thought aerospace sounded “old and stodgy” vs 6-month chip cycles\n- Visited the rocket factory, called his wife on the drive home: we’re moving back to LA\n- Now sits in the same magical factory: Dragon in the rafters, ~700 launches run from Mission Control, ~40 buildings feeding the campus\n- Full circle: semiconductors again via AI / chips\n\n---\n\nTaking on AI complexity (during the biggest IPO ever)\n- SpaceX DNA: run toward “impossible” challenges (first booster recovery felt like a rock concert)\n- xAI acquisition in January + X + Cursor + Colossus = complexity multi-X in ~1–2 years\n- AI is now the biggest business at SpaceX\n- Bought time-to-market into the biggest product cycle of their lifetime\n- SpaceX leadership DNA applied to that team\n- Already feel leading on infra cost and speed\n- Products moving: Grok 4.6, 4.7 soon, Grok Bot viral, Cursor strong\n- Every week matters; soon every day\n\n---\n\nAI business: the money picture\n- ~$100B company ARR exiting this year (annualized on December) — AI is more than half / the majority\n- A year ago AI revenue was ~zero\n- Capacity: a bit over ~2 GW this year → guidance 5–10 GW by end of next year\n- Becoming one of the biggest hyperscalers, fast\n\nWhy they move so fast (vertical integration)\n- Engineer the data centers themselves\n- Act as GC: buildings, power, cooling, networking (plus partners)\n- Used to regulators from rockets + telecom\n- Removes margin stacking\n- Talent transfer: launch-site / pressurized systems people onto data centers — Elon compared it to Yankees vs little league\n\nHosting model / ROI\n- Monetize compute while catching up on software\n- Demand knocked: “what are you doing with all that Colossus compute?”\n- Short contracts: ~3 months + 3-month out (flexibility for their own future training needs)\n- Payback: dramatically less than one year on cutting-edge terrestrial compute\n- Hosting customers include tier ones like Anthropic, Google, and others\n- Same watts can later flip to their own software at higher $/watt — optionality\n\nFrontier models\n- Moving maybe faster than anyone on trajectory\n- ~5 serious players; need to be at frontier for recursive improvement\n- Coding solutions improving dramatically\n- Consumer vs enterprise tools will stratify\n- Grok Bot: growing faster than anything they’ve seen; “transformational” user feedback; enterprise coming; expects roll into Cursor\n\nAI safety\n- Follow Elon’s self-regulation / peer-review path (like other industries)\n- Logical, collaborative, including outside the US\n- Hopeful something lands quickly\n\nTAM framing (IPO)\n- ~$28T TAM quoted at IPO; AI was ~$25–26T of that (digital AI only)\n- Physical AI not even in that number — Bret thinks physical AI eventually bigger than digital\n- Launch / space TAM = hundreds of billions (almost rounding vs AI)\n- Connectivity (mobile + broadband) ~$2T — still small vs AI\n- Differentiation: infra + X content (~500–600M MAUs) + consumer + enterprise push (Cursor etc.)\n\nWhat to watch: Starship + terrestrial compute\nBret’s prioritization cheat code:\n1. Get Starship right\n2. Get terrestrial compute right for the next ~2 years until orbital kicks in\n→ Transformational financially\n\nStarship status\n- Catalyst for all three businesses: space, satellites, AI\n- Holy grail: full reusability → another ~10x cheaper $/kg to orbit\n- Opens moon boots / lunar base / bigger industry\n- Flight 14 later this month: production V3 Starlink broadband satellites — real revenue payload\n- One Starship V3 load ≈ ~20× what Falcon 9 flew for Starlink capability\n- Each V3 satellite ~1 terabit; ~50–60 per flight = enormous bandwidth per launch\n- A couple launches start filling V3 planes; first-half-next-year benefits\n- Eventually Starlink as % of global internet traffic\n- Connectivity demand from machines (robots, AVs, agents) will dwarf human brains\n- Same Starship unlocks next-gen direct-to-cell / direct-to-device\n- Same bus + more solar + radiator + compute chips = orbital compute constellation\n\nReusability timeline\n- Flight 15 may attempt catch / bring back first + second stage\n- First stage already recovered and reflown\n- Flight 13 soft splash best yet; recovered ship like a whale, engineers studied heat shield\n- Reliable stage recovery this year; meaningful reflight next year\n- Once a few second stages reflight → orbital compute cost can match terrestrial\n- Then orbital cost curve goes down (tech / Moore’s law / aircraft-like amortization) while terrestrial gets more expensive (power, labor, regulation, cooling)\n- Clean free solar, no community impact\n- Industry agrees space compute is the future — debate is timing; others say ~decade; SpaceX flies first ones next year; meaningful compute in ~2028\n\nScale ambition\n- Both cost and speed matter; near-term availability/speed most important\n- On track toward ~100 GW/year by end of decade (~20% of entire US grid each year)\n- Elon talking terawatt-scale in the 2030s\n- Hosting proves staying power + virtuous cycle for industry\n- New NVIDIA platforms: just fly the next satellite generation — no whole new terrestrial campus cycle\n\nTerraFab (chips / memory)\n- Parallel to orbital ramp, not after\n- Not replacing NVIDIA — love the partnership; will buy all they can\n- Worry is deeper fab / memory supply chain\n- Memory industry ~30%/yr growth vs SpaceX wanting triple-digit — won’t work\n- Hard technical challenge; memory may be early focus\n- Want volume benefit by late decade (demo next year with Tesla development line → something in ’28 → meaningful ’29+)\n\nViewer Q&A highlights\n\n**First bottleneck in the AI chain?**\n- Chip supply for next year\n- Power for infra players (utilities used to ~1% growth; turbines / blades constrained)\n- SpaceX standing up investment casting for turbine blades themselves\n- Orbital is the big unlock; squeeze every terrestrial watt meanwhile\n\nHow to tell durable AI spend vs keep-up spend?\n- Bret: durability of revenue; diversified monetization of the same compute; host now, software later at higher $/watt; guided next-year monetization range ~$30–50/watt\n- Tony: stack layers have different costs, margins, contract duration; SpaceX spans many layers with <1-year payback on infra\n\nHow soon a data center in space?\n- First orbital compute satellites end of next year\n- Meaningful compute in 2028\n- Better phrase: “racks in space,” not giant buildings\n- Same V3-like bus + solar + radiator + compute chips\n- Already flown ~11,000 sats; launch + inter-sat + ground links already solved\n- ~full rack (~72 NVIDIA-class) concept per sat; ~5 MW compute per launch\n\nTony’s investor wrap\n- Still early; trends accelerate into physical AI and beyond Earth\n- Connectivity / tokens increasingly for machines, not just humans\n\n---\n\nBottom line in one breath\nSpaceX is using rocket DNA — vertical integration, crazy talent, short-cycle iteration — to become a top AI infra + software player now, while Starship unlocks Starlink V3, direct-to-cell, and orbital “racks in space.” Watch two things: terrestrial compute scale (toward $100B ARR and multi-GW) and Starship reusability. Everything else is downstream of those.",
+        "created_at": "2026-09-19T05:31:07.000Z",
+        "imported_at": "2026-09-19T05:35:28.699Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu7xv9eu0000l604gyv9e34p",
+        "text": "BREAKING: NASA chief Jared Isaacman says SpaceX is incredible and the United States would be seriously challenged in space without  SpaceX.\n\n“They’re our most important launch partner. We can’t send astronauts to and from the space station without them... We are fortunate.” https://video.twimg.com/amplify_video/2100992504959275008/vid/avc1/480x270/os2gZJFF-yQhLUNX.mp4?tag=29",
+        "created_at": "2026-09-19T05:19:44.000Z",
+        "imported_at": "2026-09-19T05:20:29.286Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu7xv9eu0001l604o91jxece",
+        "text": "Through the VOICE trial, Terry is using his Neuralink implant to help fine-tune a brain-to-voice interface for himself and others who can’t speak. He trained the algorithm first by miming speech as best he could, then by simply thinking the words and hearing them come out in his own natural voice.\n\nPowered by Grok Voice from @SpaceXAI",
+        "created_at": "2026-09-19T05:17:02.000Z",
+        "imported_at": "2026-09-19T05:20:29.286Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu7xv9eu0002l604z2c08z99",
+        "text": "The next @boringcompany merch will put Uranium in Uranus",
+        "created_at": "2026-09-19T05:16:42.000Z",
+        "imported_at": "2026-09-19T05:20:29.286Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu7wz3m70000l204fqa2uktl",
+        "text": "Transparency builds trust",
+        "created_at": "2026-09-19T04:54:48.000Z",
+        "imported_at": "2026-09-19T04:55:28.783Z",
         "kind": "original"
       }
     ]
