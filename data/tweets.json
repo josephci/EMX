@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-19T23:32:58.940Z",
-  "total": 4088,
+  "last_updated": "2026-09-20T01:39:04.276Z",
+  "total": 4090,
   "by_date": {
     "2026-05-27": [
       {
@@ -28249,6 +28249,22 @@
         "text": "Transparency builds trust",
         "created_at": "2026-09-19T04:54:48.000Z",
         "imported_at": "2026-09-19T04:55:28.783Z",
+        "kind": "original"
+      }
+    ],
+    "2026-09-20": [
+      {
+        "id": "cmu93b0ne0001jq04az3hst08",
+        "text": "No Dooming in the Kardashev casino",
+        "created_at": "2026-09-20T00:36:50.000Z",
+        "imported_at": "2026-09-20T00:40:28.682Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu92y5pl0000jq041yx7itxt",
+        "text": "Uranium in Uranus will be our best merch ever. \n\nPut it on your mantelpiece and show your guests Uranus!",
+        "created_at": "2026-09-20T00:25:43.000Z",
+        "imported_at": "2026-09-20T00:30:28.713Z",
         "kind": "original"
       }
     ]
