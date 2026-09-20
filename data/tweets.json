@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-20T18:53:49.397Z",
-  "total": 4109,
+  "last_updated": "2026-09-20T21:25:06.351Z",
+  "total": 4114,
   "by_date": {
     "2026-05-27": [
       {
@@ -28253,6 +28253,41 @@
       }
     ],
     "2026-09-20": [
+      {
+        "id": "cmua9a2yn000ejn0457fufh00",
+        "text": "Cybertruck as Heavy Cav",
+        "created_at": "2026-09-20T20:14:38.000Z",
+        "imported_at": "2026-09-20T20:15:28.896Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmua9a2yn000fjn04qjvq5ttz",
+        "text": "A Tesla saves its owner from prison!",
+        "created_at": "2026-09-20T20:13:43.000Z",
+        "imported_at": "2026-09-20T20:15:28.896Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmua7umzw0007jn041xf7qfws",
+        "text": "Every glib, arrogant, virtue-signalling celebrity who’s broadcast the lie that  kids will kill themselves if not allowed to transition deserves to have this read aloud to them non-stop through a megaphone for a year.",
+        "created_at": "2026-09-20T19:34:09.000Z",
+        "imported_at": "2026-09-20T19:35:28.749Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmua7umzw0008jn04xkm6v2lp",
+        "text": "Amazing.\n\nEverybody is sleeping on how important this is. For all of us!\n\nFor a relatively very small additional cost, we could add in a few dozen stations and get rid of a lot of traffic in Austin, too. This is key for growing business but also the cultural / music scene, etc.",
+        "created_at": "2026-09-20T19:32:13.000Z",
+        "imported_at": "2026-09-20T19:35:28.749Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmua7o7kv0006jn04tcvm65jb",
+        "text": "TBC would be excited and honored to build this massive infrastructure project. \n\nBecause Loop/Hyperloop is express (i.e. no intermediate stops), one could travel from an Austin parking lot to a favorite San Antonio restaurant in ~30 min.  As long as they both have Loop stations!",
+        "created_at": "2026-09-20T19:26:26.000Z",
+        "imported_at": "2026-09-20T19:30:28.831Z",
+        "kind": "original"
+      },
       {
         "id": "cmua4ggt30002kz041faoctvg",
         "text": "Boring Company is working on a simple, precursor Hyperloop tunnel between Austin and San Antonio (&gt;200 mph). \n\nDue to traffic congestion, that journey can currently take up to 2.5 hours. @BoringCompany can reduce that to a consistent &lt;30 mins.",
