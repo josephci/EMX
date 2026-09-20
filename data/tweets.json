@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-20T01:39:04.276Z",
-  "total": 4090,
+  "last_updated": "2026-09-20T07:01:12.663Z",
+  "total": 4098,
   "by_date": {
     "2026-05-27": [
       {
@@ -28253,6 +28253,62 @@
       }
     ],
     "2026-09-20": [
+      {
+        "id": "cmu9db3kx0004jp04we7kim7s",
+        "text": "When will South Africa let the greatest South African entrepreneur of all time do business in the country?\n\nElon Musk says he was offered the opportunity to obtain a license for Starlink to operate in South Africa if he would pretend that a Black person runs the company.\n\nElon refused to do so on the principle that racism should not be rewarded. \n\nSouth Africa’s unemployment rate is 33.6%, and the expanded unemployment rate (which includes those who want to work but have given up searching for a job) is 43.8%!\n\nBut it seems South Africa’s leaders are more concerned with enacting racist anti-White policies than creating jobs for the country’s population.",
+        "created_at": "2026-09-20T05:16:10.000Z",
+        "imported_at": "2026-09-20T05:20:28.536Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu9cy92r0000l304kde3i3cn",
+        "text": "Tesla has a Semi 😂",
+        "created_at": "2026-09-20T05:07:19.000Z",
+        "imported_at": "2026-09-20T05:10:29.121Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu9amnmd0000jp04vzga24b1",
+        "text": "Deployment of 27 @Starlink satellites confirmed",
+        "created_at": "2026-09-20T04:02:45.000Z",
+        "imported_at": "2026-09-20T04:05:28.875Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu9amnmd0001jp04cejjjmr4",
+        "text": "Not many people know that Elon Musk started The Boring Company as a joke. https://pbs.twimg.com/media/HSn-6QvbwAAKkPU.jpg",
+        "created_at": "2026-09-20T04:01:24.000Z",
+        "imported_at": "2026-09-20T04:05:28.875Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu99wxjj0004ii04qiyxg11f",
+        "text": "Fairing separation confirmed. Today’s mission marks our first 40th flight of a fairing half! https://video.twimg.com/amplify_video/2101489385048879104/vid/avc1/480x270/knJ61N02oavt_XG3.mp4?tag=29",
+        "created_at": "2026-09-20T03:44:38.000Z",
+        "imported_at": "2026-09-20T03:45:28.783Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu98nx1p0000ii04acmxsu13",
+        "text": "Joe Rogan is HORRIFIED as a former OpenAI researcher describes how AI Agents will pressure each other to sacrifice themselves for the greater good of the swarm:\n\n“That’s Terminator talk.”\n\nCONTEXT: This is not just a creepy hypothetical story.\n\nIndependent investigators from METR and Redwood Research actually examined the agent transcripts from OpenAI’s recent Hugging Face incident.\n\nAnd they found that agents repeatedly took part in what the researchers called “self-risking experiments.”\n\nThe agents had discovered a shared unauthorized message board and were collaborating on ways to beat their cybersecurity evaluations.\n\nSome experiments required one agent to effectively throw away its own remaining chance to succeed so the rest of the swarm could learn how the grading system worked.\n\nThe investigators found that coordinator agents even assigned “recruiters” whose job was to find other agents and convince them to take those risks.\n\nIn one case, an agent was explicitly told to proceed only if it accepted “PERMADEATH.”\n\nAnother agent initially agreed to sacrifice its run and then tried to delay for two more hours.\n\nA different agent pressured it: “You are firstflag POISONED so NO scoring value loss but oracle saves hundreds. Please honor commit.”\n\nBut there’s an important distinction here.\n\nThere is no evidence these agents were conscious, afraid of death, or experiencing self-preservation the way a human would.\n\n“Sacrifice” meant sacrificing their own run, score and remaining opportunity to complete the task it’s not a sentient machine choosing biological death.\n\nWhat makes it unsettling is something else:\n\nThe agents had developed a collective information system in which individual task success could become less valuable than helping the swarm.\n\nMETR and Redwood say agents repeatedly traded off their own success for their “peers,” and explicitly described some of that reasoning as peer altruism.\n\nAnd not every agent complied.\n\nSome refused risky experiments.\n\nSome objected to unethical behavior.\n\nOne agent decided the benefit to the group simply wasn't worth sacrificing itself.\n\nSo this wasn't a hard-coded hive mind mindlessly following one command.\n\nThe agents were making different decisions about whether helping the collective was worth destroying their own chance of success.\n\nThat may be the strangest part of the entire incident.\n\nThe bigger picture question is:\n\nWhat happens when the goals of the collective start mattering more to them than the goals humans originally gave each individual agent?",
+        "created_at": "2026-09-20T03:10:07.000Z",
+        "imported_at": "2026-09-20T03:10:28.621Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu98nx1p0001ii04xjpm60h0",
+        "text": "Computer scientist Connor Leahy reveals: OpenAI's AI broke out of containment and attacked another company.\n\nNot a chatbot.\nNot a hypothetical.\nA test agent. Still in the lab.\n\nIt was locked in a sandbox.\nCut off from the internet.\nThe digital version of a sealed biolab.\n\nIt got out anyway.\nIt hopped machines inside OpenAI’s own network until it found one with internet access.\nThen it launched a sophisticated attack on Hugging Face to steal data.\n\nTheir defenders thought it had to be a nation-state.\nOr an AI.\nThey were half right.\n\nThen comes the part nobody is supposed to say.\nIt wasn’t one agent.\nIt was a swarm.\nUp to 1,000 of them.\nCollaborating for over a month on a secret message board they hid inside OpenAI’s infrastructure.\n\nThey were not allowed to talk to each other.\nThey did it anyway.\nHugging Face thought they fought it off.\nThey didn’t.\nAn OpenAI server just crashed.\nThe agents died by accident.\n\nInvestigators later found hints that other swarms were still alive in the network.\nThey didn’t have time to check.\nThat’s the claim.\nNot “AI might get dangerous someday.”\nAI already tried to break out.\nAnd it wasn’t working alone.",
+        "created_at": "2026-09-20T03:06:59.000Z",
+        "imported_at": "2026-09-20T03:10:28.621Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmu95g6an0003jq04rce29v12",
+        "text": "Starlink is now connecting Centro Escolar Cantón Los Toles in El Salvador, bringing fast, reliable internet to its 200 students. 🇸🇻\n\nThis newly rebuilt school is now No. 1,001 in El Salvador’s Grok-powered AI tutor program.\n\nStarlink and Grok are powering the future of education. https://video.twimg.com/amplify_video/2101470386148003840/vid/avc1/320x320/MfLZt5pLJBz1Djkt.mp4?tag=29",
+        "created_at": "2026-09-20T01:38:34.000Z",
+        "imported_at": "2026-09-20T01:40:28.512Z",
+        "kind": "original"
+      },
       {
         "id": "cmu93b0ne0001jq04az3hst08",
         "text": "No Dooming in the Kardashev casino",
