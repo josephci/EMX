@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-21T18:47:25.909Z",
-  "total": 4156,
+  "last_updated": "2026-09-21T22:32:40.172Z",
+  "total": 4158,
   "by_date": {
     "2026-05-27": [
       {
@@ -28472,6 +28472,20 @@
       }
     ],
     "2026-09-21": [
+      {
+        "id": "cmublom9s000clb04tmw7kx15",
+        "text": "and here’s the grok 4.7 model card. a few jumps vs 4.6 that stood out:\n\n- Terminal-Bench: 20.3% → 38.0%\n- SWE-Marathon: 31.9% → 46.0%\n- HealthBench Pro: 48.5% → 56.7%\n- Legal Agent: 15.8% → 19.6%\n- EEBench: 60.0% → 66.0%\n\nfor the same price as 4.6!\n\nhttps://media.x.ai/v1/website/4p7card-5eccc980.pdf https://pbs.twimg.com/media/HSwiP5pa4AA1v89.jpg",
+        "created_at": "2026-09-21T18:47:50.000Z",
+        "imported_at": "2026-09-21T18:50:28.672Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmublom9s000dlb04iljmcgzu",
+        "text": "“I’ve used FSD for like 90%+ of my miles since Saturday morning. Literally feels like magic. Has handled issues on the road better than I would have at times.\n\nJust remarkable technology”\n\nA demo drive might change your life\n\nhttp://Tesla.com/drive",
+        "created_at": "2026-09-21T18:47:15.000Z",
+        "imported_at": "2026-09-21T18:50:28.672Z",
+        "kind": "original"
+      },
       {
         "id": "cmubli6z70007lb04we5tv77m",
         "text": "Wow Grok 4.7 mogging out there. @SpaceXAI has been cooking hard. https://pbs.twimg.com/media/HSwhyQJW0AAc5fh.jpg",
