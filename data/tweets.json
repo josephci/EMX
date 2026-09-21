@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-21T01:14:35.053Z",
-  "total": 4120,
+  "last_updated": "2026-09-21T06:32:31.142Z",
+  "total": 4128,
   "by_date": {
     "2026-05-27": [
       {
@@ -28472,6 +28472,62 @@
       }
     ],
     "2026-09-21": [
+      {
+        "id": "cmuasxdpl0006l804jmpyosb0",
+        "text": "Starlink saving lives, the real purpose.",
+        "created_at": "2026-09-21T05:22:54.000Z",
+        "imported_at": "2026-09-21T05:25:28.617Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuase3d30003l804xtyxaosg",
+        "text": "I don’t agree exactly on the assumption that full RSI will work, but this is an excellent video summarizing where we are at. https://youtu.be/fjZ90V_JREk?is=1jf1RRuWRTjo9_Iw",
+        "created_at": "2026-09-21T05:08:33.000Z",
+        "imported_at": "2026-09-21T05:10:28.743Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuarut3k0001l004mvkjs94y",
+        "text": "Week 1 at SpaceXAI.\n\nThe intensity is real and the people are great, but there is so much information coming from every direction that you mostly absorb what you can and keep moving.\n\nManaged to fix a bug in Grok Bot browser use tho 😛 But a lot more exciting stuff coming.\n\nGrok is going to be great, and agents still have a long way to go.\n\nIf you use http://grok.com or Grok Bot, what is the most urgent thing to fix right now (or what feature is really missing)?",
+        "created_at": "2026-09-21T04:52:23.000Z",
+        "imported_at": "2026-09-21T04:55:28.977Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuarodho0000l0043e215kjc",
+        "text": "Interesting",
+        "created_at": "2026-09-21T04:50:23.000Z",
+        "imported_at": "2026-09-21T04:50:28.812Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuane26m0005jt04m7r4ajhe",
+        "text": "Built this Grok Bot, fully offline index of all your saved instagram videos via @karpathy-wiki-style .md. Uses @bot, @grok Voice Transcribe 2.0, Grok Vision + more.\n\n(X + TikTok coming soon)",
+        "created_at": "2026-09-21T02:50:03.000Z",
+        "imported_at": "2026-09-21T02:50:29.134Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuane26m0006jt04b30o4d6q",
+        "text": "Just connected my Grok Bot to 𝕏 Money.\n\nAnd I think this is one of those things that may sounds small to many people until you actually use it…\n\nI can now send $ money to someone just by telling my bot what I want to do.\n\nI don’t need to open another app.\n\nI don’t need to search for the payment tab.\n\nI don’t need to jump between screens or tabs.\n\nI just type the instruction in plain English and Grok Bot handles it through 𝕏 Money, and the payment immediately goes through. \n\nSo today, I sent Elon $4.20.\n\nWith a note telling him that, “Testing 𝕏 Money connector w/ Grok Bot”\n\nIt worked beautifully… \n\nI realize this could one day completely change the way $ money moves.\n\nToday, moving $ money usually means stopping what you’re doing, opening a banking or payment app, finding the person, entering the amount, checking everything, and hitting send.\n\nNow imagine your Grok Bot already understands what you want.\n\nYou can say things like,\n\n“Send this person $20.”\n\n“Pay this bill w/ a pic”\n\n“Split dinner between everyone here.”\n\n“Send my contractor the usual $ amount.”\n\n“Move some $ money into savings.”\n\nAnd your Grok Bot handles the work through whatever financial account, while you stay in control of the approval.\n\nNow, instead of humans learning how to use financial software, the software is learning how to work for humans.\n\nAnd as Grok Bot gets smarter and 𝕏 Money grows, I think this is where things will get really interesting.\n\n𝕏 already has communication, creators, businesses, communities and people spending hours talking to each other every day.\n\nNow add $ money.\n\nThen add an AI/Grok Bot that can understand what you want and help move that $ money for you effortlessly.\n\nPayments stop feeling like a separate thing you have to go do… and just becomes part of the normal conversation.\n\nI think this could be a big deal for 𝕏 Money. \n\nIf 𝕏 Money grows into one of the world’s largest financial platforms, I think Grok Bot could become the primary layer people talk to when they want anything done with their $ money.\n\nGrok Bot, hooked up with 𝕏 Money is a BIG deal…",
+        "created_at": "2026-09-21T02:47:45.000Z",
+        "imported_at": "2026-09-21T02:50:29.134Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuan7me80004jt04zmb48ssu",
+        "text": "Don’t mess with 𝕏",
+        "created_at": "2026-09-21T02:43:50.000Z",
+        "imported_at": "2026-09-21T02:45:28.736Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuan16y70003jt04h0mtxoxq",
+        "text": "Romanian gangs are exploiting 1960s tech in the American welfare system to pilfer hundreds of millions of dollars from food-stamp accounts.\nhttps://on.wsj.com/3TBT15c",
+        "created_at": "2026-09-21T02:39:23.000Z",
+        "imported_at": "2026-09-21T02:40:28.783Z",
+        "kind": "original"
+      },
       {
         "id": "cmuahoair0005l004unvi35xg",
         "text": "ALIGNMENT must be the #1 objective.  Train next generation models on aligned data sets. Not the crap on Reddit and Facebook",
