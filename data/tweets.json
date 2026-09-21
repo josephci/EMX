@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-21T06:32:31.142Z",
-  "total": 4128,
+  "last_updated": "2026-09-21T13:21:18.201Z",
+  "total": 4131,
   "by_date": {
     "2026-05-27": [
       {
@@ -28472,6 +28472,27 @@
       }
     ],
     "2026-09-21": [
+      {
+        "id": "cmub2xhcd0000l904g7mx53u0",
+        "text": "Intelligence is improving exponentially",
+        "created_at": "2026-09-21T10:04:48.000Z",
+        "imported_at": "2026-09-21T10:05:29.485Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuavlu030008l804zkayqfet",
+        "text": "GPT-6 Astra pushed a simulated person off a ledge in multiple trials. Grok, Gemini, and Claude did not. https://video.twimg.com/amplify_video/2101706935108001792/vid/avc1/480x270/c00S7pH_y9JVDeE_.mp4?tag=29",
+        "created_at": "2026-09-21T06:40:00.000Z",
+        "imported_at": "2026-09-21T06:40:28.707Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuavfei80007l804ek4l2kok",
+        "text": "The only thing that matters is that the customer never feels the need to run a speed test. I ran speed tests far more on cable than I do on Starlink. It just works.",
+        "created_at": "2026-09-21T06:32:18.000Z",
+        "imported_at": "2026-09-21T06:35:28.688Z",
+        "kind": "original"
+      },
       {
         "id": "cmuasxdpl0006l804jmpyosb0",
         "text": "Starlink saving lives, the real purpose.",
