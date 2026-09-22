@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-22T01:10:12.779Z",
+  "last_updated": "2026-09-22T06:21:53.866Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-385",
@@ -31,8 +31,8 @@
     },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-25",
-      "net": "2026-10-10T00:00:00Z",
-      "status": "TBD",
+      "net": "2026-10-10T16:00:00Z",
+      "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
     },
