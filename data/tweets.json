@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-22T11:51:17.355Z",
-  "total": 4173,
+  "last_updated": "2026-09-22T16:47:07.700Z",
+  "total": 4189,
   "by_date": {
     "2026-05-27": [
       {
@@ -28754,6 +28754,118 @@
       }
     ],
     "2026-09-22": [
+      {
+        "id": "cmucwhf2t000ckz044uopqqmw",
+        "text": "Grok Bot has just officially launched in @Tesla vehicles.\n\nI got early access a couple weeks ago. You can order stuff on online (such as Amazon), manage your email, calendar, finances, or other tasks through Grok @Bot using just your voice in your Tesla.\n\nThere is no separate app, everything just lives within the existing Grok Voice interface in your Tesla (as shown in my Model Y below).\n\nOne good use case for Grok Bot in your Tesla: You get in, tell Grok Bot to order coffee at a location of your choice, and while your Tesla drives you to the coffee shop using FSD (Supervised), Grok places the order so it’s ready when you arrive.\n\nGrok Bot in Tesla vehicles is currently only available to SuperGrok Heavy users, but will expand to more owners later. Connectors are available to all users.",
+        "created_at": "2026-09-22T16:40:19.000Z",
+        "imported_at": "2026-09-22T16:40:34.709Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmucvept0000jl5048k84o32d",
+        "text": "Interesting",
+        "created_at": "2026-09-22T16:10:13.000Z",
+        "imported_at": "2026-09-22T16:10:29.029Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmucv8e5c000hl504ug42p51j",
+        "text": "lol",
+        "created_at": "2026-09-22T16:02:05.000Z",
+        "imported_at": "2026-09-22T16:05:33.985Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmucuio72000bl504fwgyt1x0",
+        "text": "🚨 WTF! New York dumped the literacy exam for TEACHERS, because only 61% could pass it. \n\nNot the kids… The teachers! \n\nThat is the education system in one statistic. Lower the bar. Fail the kids. Call it progress.",
+        "created_at": "2026-09-22T15:44:02.000Z",
+        "imported_at": "2026-09-22T15:45:33.950Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmucuio72000cl504t79hrfya",
+        "text": "Grok 4.7 doing real engineering work at Tesla",
+        "created_at": "2026-09-22T15:42:16.000Z",
+        "imported_at": "2026-09-22T15:45:33.950Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmucuc5uu0009l504zs9fza75",
+        "text": "Grok 4.7",
+        "created_at": "2026-09-22T15:40:08.000Z",
+        "imported_at": "2026-09-22T15:40:30.246Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmucuc5uu000al50493pdb7x2",
+        "text": "Grok 4.7 turned a simple prompt into this interactive 3D jet engine visualizer in minutes.\n\nThis is insane. 🔥 https://video.twimg.com/amplify_video/2102416151028563968/vid/avc1/558x270/V05TSc_U9UOpAIC8.mp4?tag=29",
+        "created_at": "2026-09-22T15:39:55.000Z",
+        "imported_at": "2026-09-22T15:40:30.246Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuctg3b00000l504ajks7qg2",
+        "text": "Grok 4.7 Fast is now live in Grok Build and Cursor\n\nIt’s the same Grok 4.7 model running on faster infrastructure, with roughly 2× the output speed\n\n• Available now in only Grok Build and Cursor\n• Costs 2× the standard Grok 4.7 token rates\n• Not included in Grok Build’s free tier\n• Not available on the public xAI API\n\nSame intelligence, much faster inference......at 2× the cost",
+        "created_at": "2026-09-22T15:10:44.000Z",
+        "imported_at": "2026-09-22T15:15:33.949Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuct34o1000gi604jgxwomet",
+        "text": "Grok 4.7 just outperformed GPT-6 Astra on professional work\n\nOn the same Artificial Analysis run:\n\n• GDPval-AA — Grok leads by +153 Elo\n• AA-Briefcase — Grok leads by +88 Elo\n\nGrok 4.7 is now ahead on both professional deliverables and multi-hour office work\n\nSpaceXAI is pushing Grok hard into real-world knowledge work",
+        "created_at": "2026-09-22T15:00:57.000Z",
+        "imported_at": "2026-09-22T15:05:29.185Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuct34o1000hi604pp0yvini",
+        "text": "@XFreeze Not a big fan of benchmarking. \n\nI just took it out for a real life test. Asked it to build me a bash only, self contained agenda, based on some sparse text files with tasks. Finished in 45 minutes end to end. \n\nFull video and repo link\nhttps://youtu.be/HI0ea6urJMw\n\nSolid model.",
+        "created_at": "2026-09-22T15:00:46.000Z",
+        "imported_at": "2026-09-22T15:05:29.185Z",
+        "kind": "reply"
+      },
+      {
+        "id": "cmucswskq000ei6040tevj06n",
+        "text": "Grok 4.7 with our Build harness is a strong daily workhorse",
+        "created_at": "2026-09-22T14:59:03.000Z",
+        "imported_at": "2026-09-22T15:00:33.579Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmucsdhvd0008i604v5f3w59c",
+        "text": "Interesting perspective",
+        "created_at": "2026-09-22T14:42:39.000Z",
+        "imported_at": "2026-09-22T14:45:33.242Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmucsdhvd0009i604qxgmnnms",
+        "text": "Made a fun little game for my nephew using Grok 4.7. I gave it a simple prompt, and within minutes, he was playing the game.\n\nSeeing a random idea turn into a real game that quickly is honestly incredible. https://video.twimg.com/amplify_video/2102261795964821504/vid/avc1/564x270/eCaA1Iyo_RIWvykA.mp4?tag=29",
+        "created_at": "2026-09-22T14:41:39.000Z",
+        "imported_at": "2026-09-22T14:45:33.242Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmucsdhvd000ai604jndfvw3z",
+        "text": "I let Grok Bot manage my YouTube channel... and it's better than I am!\n\n0:53 Automating tagging with @Bot\n1:40 How the Bot works\n2:38 Figma thumbs and brand-voice descriptions\n3:47 Template setup (YouTube Data API + AssemblyAI)\n4:34 Install and get started https://video.twimg.com/amplify_video/2101003615598981120/vid/avc1/480x270/IKQJybyIoqQc884Y.mp4?tag=29",
+        "created_at": "2026-09-22T14:41:09.000Z",
+        "imported_at": "2026-09-22T14:45:33.242Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmucs0jr70007i6044flbhby5",
+        "text": "Grok will be able to make photo-realistic &amp; physics-precise games",
+        "created_at": "2026-09-22T14:34:57.000Z",
+        "imported_at": "2026-09-22T14:35:29.155Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmucr4hos0000i604ak292fak",
+        "text": "Tell Grok an idea, and it builds a working version live in your chat. \n\nGrok Build is now available on every plan - on web, iOS, and Android.",
+        "created_at": "2026-09-22T14:05:40.000Z",
+        "imported_at": "2026-09-22T14:10:33.485Z",
+        "kind": "original"
+      },
       {
         "id": "cmuc7tyxm0000l204aypnoyj7",
         "text": "In just the last 90 days:\n\n1. Grok 4.3 — barely top 10. “xAI is dead beyond compute leases.”\n\n2. Grok 4.5 — massive comeback. “Maybe a chance. But Grok will never catch up to the frontier.”\n\n3. Grok 4.6 — they’re frontier. “Still not top 3.”\n\n4. Grok 4.7 — now top 3 in frontier coding, while being much cheaper & faster. \n\n5. Grok 4.8 next month.....\n\nThe model machine is just starting up.\n\nGrok will be the workhorse of the upcoming agentic era.",
