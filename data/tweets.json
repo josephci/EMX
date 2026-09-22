@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-21T22:32:40.172Z",
-  "total": 4158,
+  "last_updated": "2026-09-22T01:10:13.430Z",
+  "total": 4165,
   "by_date": {
     "2026-05-27": [
       {
@@ -28473,6 +28473,13 @@
     ],
     "2026-09-21": [
       {
+        "id": "cmubu9a830000li04d1431ptp",
+        "text": "Grok 4.7 xHigh is now at the top with just ONE point away from Claude Fable 5.1 Max on Artificial Analysis’ AA-Briefcase benchmark\n\nClaude Fable 5.1 Max — 59%\nGrok 4.7 xHigh — 58%\n\nJust a 1-point difference at the very top\n\nAnd Grok is ahead of GPT-6 Astra, GPT-5.6, Gemini, Kimi, GLM and nearly every other frontier model  on the benchmark",
+        "created_at": "2026-09-21T22:46:27.000Z",
+        "imported_at": "2026-09-21T22:50:29.764Z",
+        "kind": "original"
+      },
+      {
         "id": "cmublom9s000clb04tmw7kx15",
         "text": "and here’s the grok 4.7 model card. a few jumps vs 4.6 that stood out:\n\n- Terminal-Bench: 20.3% → 38.0%\n- SWE-Marathon: 31.9% → 46.0%\n- HealthBench Pro: 48.5% → 56.7%\n- Legal Agent: 15.8% → 19.6%\n- EEBench: 60.0% → 66.0%\n\nfor the same price as 4.6!\n\nhttps://media.x.ai/v1/website/4p7card-5eccc980.pdf https://pbs.twimg.com/media/HSwiP5pa4AA1v89.jpg",
         "created_at": "2026-09-21T18:47:50.000Z",
@@ -28743,6 +28750,50 @@
         "text": "ALIGNMENT must be the #1 objective.  Train next generation models on aligned data sets. Not the crap on Reddit and Facebook",
         "created_at": "2026-09-21T00:08:37.000Z",
         "imported_at": "2026-09-21T00:10:28.803Z",
+        "kind": "original"
+      }
+    ],
+    "2026-09-22": [
+      {
+        "id": "cmubz2vpb0002jy043gfhq8hg",
+        "text": "Been testing Grok 4.7 for the past week or more. It’s been a great improvement over 4.6. \nIt worked for over 70 hours straight on a goal. Much better attention to detail. \nThe 500k context window really makes a difference imo. 4.7 much better at things like skill selection; workflows. Found it particularly good with pstack. \nDidn’t have access to it in Grokbot, but I really wanted to test it there. Together it’s a great daily driver.",
+        "created_at": "2026-09-22T01:02:49.000Z",
+        "imported_at": "2026-09-22T01:05:29.088Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmubz2vpb0003jy04cn6n6mk5",
+        "text": "True",
+        "created_at": "2026-09-22T01:01:17.000Z",
+        "imported_at": "2026-09-22T01:05:29.088Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmubywgky0001jy0453ngscyu",
+        "text": "@elonmusk I'm using it right now to build a game engine in C. It's really good.",
+        "created_at": "2026-09-22T01:00:16.000Z",
+        "imported_at": "2026-09-22T01:00:29.554Z",
+        "kind": "reply"
+      },
+      {
+        "id": "cmuby0c6e0000jy04g9dvqini",
+        "text": "Grok 4.7 just released and it's an EXCELLENT model\n\nIt was trained FOR Grok Bot\n\nMeaning this is a fully agentic model trained to do your knowledge work better than you can\n\nIn this video I show you how to use Grok 4.7 and a Grok Bot workflow that will 10x your productivity: https://video.twimg.com/amplify_video/2102187463200718848/vid/avc1/526x270/kLNrrxE13NeuhkcC.mp4?tag=29",
+        "created_at": "2026-09-22T00:25:46.000Z",
+        "imported_at": "2026-09-22T00:35:30.742Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmubx45pe0000li04imvqzwxg",
+        "text": "Cool",
+        "created_at": "2026-09-22T00:08:10.000Z",
+        "imported_at": "2026-09-22T00:10:29.474Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmubwxpru0000li041j0p1tg2",
+        "text": "Grok 4.7",
+        "created_at": "2026-09-22T00:05:13.000Z",
+        "imported_at": "2026-09-22T00:05:28.765Z",
         "kind": "original"
       }
     ]

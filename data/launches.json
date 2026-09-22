@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T22:32:39.533Z",
+  "last_updated": "2026-09-22T01:10:12.779Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-385",
@@ -16,13 +16,6 @@
       "location": "SpaceX Starbase, TX, USA"
     },
     {
-      "name": "Falcon 9 Block 5 | Starlink Group 15-25",
-      "net": "2026-09-30T16:00:00Z",
-      "status": "Go",
-      "pad": "Space Launch Complex 4E",
-      "location": "Vandenberg SFB, CA, USA"
-    },
-    {
       "name": "Falcon 9 Block 5 | Crew-13",
       "net": "2026-10-01T15:10:06Z",
       "status": "TBC",
@@ -33,6 +26,13 @@
       "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
       "net": "2026-10-01T18:08:00Z",
       "status": "TBC",
+      "pad": "Space Launch Complex 4E",
+      "location": "Vandenberg SFB, CA, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Starlink Group 15-25",
+      "net": "2026-10-10T00:00:00Z",
+      "status": "TBD",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
     },
