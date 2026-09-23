@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-23T06:06:45.344Z",
-  "total": 4201,
+  "last_updated": "2026-09-23T11:26:18.653Z",
+  "total": 4206,
   "by_date": {
     "2026-05-27": [
       {
@@ -29046,6 +29046,43 @@
         "text": "Grok 4.7",
         "created_at": "2026-09-22T00:05:13.000Z",
         "imported_at": "2026-09-22T00:05:28.765Z",
+        "kind": "original"
+      }
+    ],
+    "2026-09-23": [
+      {
+        "id": "cmudr0var0003jy0468vfb1zj",
+        "text": "日本でのStarlinkの導入が、かつてないほど簡単になりました。  一部の地域では、ホーム向けの「レンタルMiniキット」の初期費用が0円になります。日本全国の大半の地域でスピーディに設置でき、いつでも最適なパフォーマンスを発揮します。  また、お申し込みの前後はもちろん、ご利用開始後も日本語のカスタマーサポートがしっかりと対応いたしますので安心です。\n\n詳しくはこちら：http://starlink.com/japan-residential",
+        "created_at": "2026-09-23T06:52:20.000Z",
+        "imported_at": "2026-09-23T06:55:30.675Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmudr0var0004jy046hu7nr2m",
+        "text": "the Grok @Bot desktop app just got even faster! we shipped 53 perf fixes over the past few days:  \n\n• reconnecting after a flaky connection: 60s → 0.7s \n• waking your laptop: 23s → 1s \n• switching back to a bot's Computer view: 868ms → 27ms\n• opening a chat with a long code block: 954ms → 228ms\n• the Media tab no longer re-downloads every time: 137MB → 0.7MB\n\nplus smoother sidebar animations, no more jumpy screenshot-heavy chats, and much lower memory usage while idle.\n\nstill more to improve!",
+        "created_at": "2026-09-23T06:50:33.000Z",
+        "imported_at": "2026-09-23T06:55:30.675Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmudqufld0002jy04pmu7dovl",
+        "text": "Fitch gives Tesla its first-ever BBB investment-grade credit rating.\n\nFitch highlighted Tesla’s EV leadership, strong profitability, $43.5B in cash and investments, and “unmatched” vertical integration as it expands into AI, Robotaxi and Optimus.\n\nThis is huge. 🔥 https://pbs.twimg.com/media/HS2c3khbQAAJ1il.jpg",
+        "created_at": "2026-09-23T06:50:24.000Z",
+        "imported_at": "2026-09-23T06:50:30.386Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmudprv4m0000jy04k4a8pn5n",
+        "text": "BREAKING: Elon Musk on Optimus, and a future where money may not matter in his new interview with CCTV:\n\n“If you think like Star Wars, where you had C-3PO and R2-D2, and they were friendly, helpful robots. Well, wouldn't it be great if everyone could have their own personal C-3PO R2-D2? But even better than that, like more productive.\n\nThat could take care of elderly parents, guardian and watch over the children. Or be a teacher, like an individualized tutor to your child. And taking care of any jobs that you can think of.\n\nI think everyone would like to have a future where they can have their own personal robots. And then I think you'll see many companies where it's one person with hundreds, maybe thousands of robots. Like physical robots as well as digital robots.\n\nSo the productivity of one person will be greatly amplified. And my prediction is that there will be effectively universal high income. In fact, it's not clear to me that money will even matter in the future.”",
+        "created_at": "2026-09-23T06:17:55.000Z",
+        "imported_at": "2026-09-23T06:20:30.935Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmudprv4m0001jy0476opoyeb",
+        "text": "We’re indebted to the @FDNY for their selfless bravery every day, and last week I had the great honor to tell them how I and all New Yorkers feel about them. Support the @FDNYFoundation! https://video.twimg.com/amplify_video/2102359105419587584/vid/avc1/480x270/yuKLf2dVnnwnbZ9Y.mp4?tag=16",
+        "created_at": "2026-09-23T06:17:13.000Z",
+        "imported_at": "2026-09-23T06:20:30.935Z",
         "kind": "original"
       }
     ]
