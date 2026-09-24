@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-24T00:35:57.246Z",
-  "total": 4219,
+  "last_updated": "2026-09-24T05:25:44.559Z",
+  "total": 4227,
   "by_date": {
     "2026-05-27": [
       {
@@ -29174,6 +29174,64 @@
         "text": "We’re indebted to the @FDNY for their selfless bravery every day, and last week I had the great honor to tell them how I and all New Yorkers feel about them. Support the @FDNYFoundation! https://video.twimg.com/amplify_video/2102359105419587584/vid/avc1/480x270/yuKLf2dVnnwnbZ9Y.mp4?tag=16",
         "created_at": "2026-09-23T06:17:13.000Z",
         "imported_at": "2026-09-23T06:20:30.935Z",
+        "kind": "original"
+      }
+    ],
+    "2026-09-24": [
+      {
+        "id": "cmuezbhyx0009kz04pjpbha7k",
+        "text": "Streaming live at 6pm PDT tomorrow https://x.com/i/broadcasts/1vJpPNaYnYQJE",
+        "created_at": "2026-09-24T03:31:45.000Z",
+        "imported_at": "2026-09-24T03:35:29.722Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuexw1v10008kz04j6nqw60j",
+        "text": "True",
+        "created_at": "2026-09-24T02:50:57.000Z",
+        "imported_at": "2026-09-24T02:55:29.390Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuexpmdv0005kz04pp7ba8hb",
+        "text": "True",
+        "created_at": "2026-09-24T02:47:05.000Z",
+        "imported_at": "2026-09-24T02:50:29.395Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuexpmdv0006kz04f0t4odh4",
+        "text": "Preparing for launch on Monday",
+        "created_at": "2026-09-24T02:46:03.000Z",
+        "imported_at": "2026-09-24T02:50:29.395Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuexpmdv0007kz04x1i3ohe5",
+        "text": "Stacking Starship ahead of Flight 14 https://video.twimg.com/amplify_video/2102819857670496256/vid/avc1/480x270/-MIG377JJvpxDKYG.mp4?tag=29",
+        "created_at": "2026-09-24T02:45:37.000Z",
+        "imported_at": "2026-09-24T02:50:29.395Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuexj72a0004kz04w0fb3war",
+        "text": "Sunrise at Starbase. Opportunistic full stack testing is planned ahead of Flight 14's launch, which is on track for Monday, Sept. 28, pending regulatory approval https://pbs.twimg.com/media/HS7_82eXsAAa-Hx.jpg",
+        "created_at": "2026-09-24T02:45:23.000Z",
+        "imported_at": "2026-09-24T02:45:29.602Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmueuuquy000ijn0429sjmnt0",
+        "text": "This turned out to be the most prophetic tweet of the year https://pbs.twimg.com/media/HS8VeJ0WMAAm0-k.jpg",
+        "created_at": "2026-09-24T01:28:22.000Z",
+        "imported_at": "2026-09-24T01:30:29.626Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuetykpw000cjn04e725y1ip",
+        "text": "Made with nickel cathode manufactured locally at Gigafactory Texas!",
+        "created_at": "2026-09-24T01:00:30.000Z",
+        "imported_at": "2026-09-24T01:05:28.676Z",
         "kind": "original"
       }
     ]
