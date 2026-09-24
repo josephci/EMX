@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-24T05:25:44.559Z",
-  "total": 4227,
+  "last_updated": "2026-09-24T10:16:23.925Z",
+  "total": 4230,
   "by_date": {
     "2026-05-27": [
       {
@@ -29178,6 +29178,27 @@
       }
     ],
     "2026-09-24": [
+      {
+        "id": "cmuf57pd20002jp04wttjp19q",
+        "text": "An Earth economy is less than a trillionth the size of a K2 economy",
+        "created_at": "2026-09-24T06:15:51.000Z",
+        "imported_at": "2026-09-24T06:20:30.374Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuf518ty0001jp041gwx8ori",
+        "text": "Good idea to post an image of the front page",
+        "created_at": "2026-09-24T06:14:02.000Z",
+        "imported_at": "2026-09-24T06:15:29.015Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuf4odre0000jp04l5waieki",
+        "text": "Grok 4.7 works really well with Blender. I’ve been using them to create these rough Raptor engine 3D models, and the improvement in quality is huge.\n\nThey’re still early versions, but the details are already coming together beautifully. https://video.twimg.com/amplify_video/2102955496852656128/vid/avc1/564x270/uYYFuA4nTFfWSZ4M.mp4?tag=29",
+        "created_at": "2026-09-24T06:03:24.000Z",
+        "imported_at": "2026-09-24T06:05:28.875Z",
+        "kind": "original"
+      },
       {
         "id": "cmuezbhyx0009kz04pjpbha7k",
         "text": "Streaming live at 6pm PDT tomorrow https://x.com/i/broadcasts/1vJpPNaYnYQJE",
