@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24T22:32:05.396Z",
+  "last_updated": "2026-09-25T00:49:59.929Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-385",
@@ -24,8 +24,8 @@
     },
     {
       "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
-      "net": "2026-10-01T18:08:00Z",
-      "status": "TBC",
+      "net": "2026-10-01T18:18:00Z",
+      "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
     },
