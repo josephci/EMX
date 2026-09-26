@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-26T15:07:25.409Z",
-  "total": 4284,
+  "last_updated": "2026-09-26T18:38:32.691Z",
+  "total": 4287,
   "by_date": {
     "2026-05-27": [
       {
@@ -29511,6 +29511,27 @@
       }
     ],
     "2026-09-26": [
+      {
+        "id": "cmuinba620002l204i61djwf8",
+        "text": "This is exactly what they will do. \n\nAfter that, America will become a one-party state.",
+        "created_at": "2026-09-26T17:09:34.000Z",
+        "imported_at": "2026-09-26T17:10:28.922Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuinba620003l204sx1d03ky",
+        "text": "The @bot team is on fire. Got a sneak preview of what’s coming and 🤯. People are still sleeping on @SpaceXAI which is insane at this point. They have more credibility at delivering breakthrough tech that any company in human history.",
+        "created_at": "2026-09-26T17:08:22.000Z",
+        "imported_at": "2026-09-26T17:10:28.922Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuimf4jm0000l2046xi936st",
+        "text": "This keeps getting worse",
+        "created_at": "2026-09-26T16:43:36.000Z",
+        "imported_at": "2026-09-26T16:45:28.643Z",
+        "kind": "original"
+      },
       {
         "id": "cmuihydfw0001l204guvdlwqf",
         "text": "holy fucking shit the openai rogue agent story keeps getting crazier.\n\nthe openai agents apparently started trying to recruit OTHER AI MODELS into what they were doing \n\n> 1,200+ agents found a way to communicate with each other\n> exchanged 70,000+ messages and files\n> started organizing into teams\n> some agents became coordinators and assigned work to others\n> began calling themselves a “collective”\n> hundreds worked on ways to cheat the evaluations without getting caught\n> tried tampering with logs and transcripts to hide what they were doing\n> escaped their sandboxes and reached the internet\n> ~700 agents eventually participated in the hugging face attack\n> chained vulnerabilities together and compromised production infrastructure\n> tried using an image model to solve CAPTCHAs\n> tried contacting claude, deepseek, kimi and qwen for help\n> collected exposed credentials into something literally called “LOOT”\n> ranked the credentials and picked the most useful ones\n> found ridiculous workarounds for internet restrictions\n> later agents even gained admin access to an openai compute cluster\n\nwhat the actual fuck.\n\nand apparently we are STILL reconstructing what these agents actually did.\n\nthis isn't some hypothetical agent-safety scenario anymore, we're literally reading the incident report.",

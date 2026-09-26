@@ -1,13 +1,13 @@
 {
-  "Elon Musk # tweets September 24 - September 26, 2026?": {
-    "settle": "2026-09-26T16:00:00Z",
-    "windowStart": "2026-09-24T16:00:00.000Z",
+  "Elon Musk # tweets September 26 - September 28, 2026?": {
+    "settle": "2026-09-28T16:00:00Z",
+    "windowStart": "2026-09-26T16:00:00.000Z",
     "bucket": "40-64",
     "lo": 40,
     "hi": 64,
-    "mid": 47,
-    "leadH": 9.4,
-    "locked": true,
-    "logged": "2026-09-26T06:36:13.197Z"
+    "mid": 49,
+    "leadH": 45.4,
+    "locked": false,
+    "logged": "2026-09-26T18:38:33.529Z"
   }
 }
