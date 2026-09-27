@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-26T23:54:18.184Z",
-  "total": 4291,
+  "last_updated": "2026-09-27T05:07:57.300Z",
+  "total": 4295,
   "by_date": {
     "2026-05-27": [
       {
@@ -29684,6 +29684,36 @@
         "text": "I was surprised how bad it was just walking from the hotel to the Rails World venue. One strung-out guy wanted to fight me for some reason, another was swinging wildly and swearing profusely. Lots of zombie vibes too. Whatever Austin is doing, it's not working.",
         "created_at": "2026-09-26T03:14:42.000Z",
         "imported_at": "2026-09-26T03:15:28.553Z",
+        "kind": "original"
+      }
+    ],
+    "2026-09-27": [
+      {
+        "id": "cmujb2gv10002l4043kh8kwlj",
+        "text": "Literally",
+        "created_at": "2026-09-27T04:10:42.000Z",
+        "imported_at": "2026-09-27T04:15:28.478Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuj43pcn0001ky04zphnu4ql",
+        "text": "Update https://pbs.twimg.com/media/HTLug07aoAAWIlt.jpg",
+        "created_at": "2026-09-27T00:57:51.000Z",
+        "imported_at": "2026-09-27T01:00:28.824Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuj43pcn0002ky04qj29xji2",
+        "text": "Yes 😂",
+        "created_at": "2026-09-27T00:56:46.000Z",
+        "imported_at": "2026-09-27T01:00:28.824Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuj3kepm0000ky04635kmxgc",
+        "text": "SpaceX’s Starship flight 14 is launching 26 V3 Starlinks and represents ~26 Tbps for the launch (based on company specs)… at a very conservative cost estimate for Starship this puts Starships first operational launch at ~$9.8M per Tbps. Meaning in its first operational launch it nearly hits the same cost of Falcon9’s launch cost per Tbps. This is before full payload utilization, reusability and manufacturing learning rates kick in, which we expect to lead to 16x cheaper launch/Tbps cost by 2028.",
+        "created_at": "2026-09-27T00:44:12.000Z",
+        "imported_at": "2026-09-27T00:45:28.570Z",
         "kind": "original"
       }
     ]
