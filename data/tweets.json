@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-27T19:03:55.048Z",
-  "total": 4314,
+  "last_updated": "2026-09-27T22:00:57.058Z",
+  "total": 4321,
   "by_date": {
     "2026-05-27": [
       {
@@ -29688,6 +29688,55 @@
       }
     ],
     "2026-09-27": [
+      {
+        "id": "cmuk7kr5s0000jt047zmatqqt",
+        "text": "How is this real life? Seriously wtf man. https://video.twimg.com/amplify_video/2104255905206341632/vid/avc1/442x270/0CN-LF4CB9nXwU9M.mp4?tag=29",
+        "created_at": "2026-09-27T19:21:16.000Z",
+        "imported_at": "2026-09-27T19:25:29.345Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuk77ysd000ijp04ojyacx2w",
+        "text": "SpaceXAI has just introduced Grok @Bot Creator Rewards!\n\nRewards will go out every two weeks. Rewards are based on usage:\n• How many people use your Bots. Are your Bots useful and popular?\n• How often your Bots are used. Are your Bots providing consistent value over time?\n\nFor your templates to be eligible for rewards, you must:\n• Post about your public Bots (and specifically link to them) on X ≥ 2x per pay period\n• Have X Money set up\n• Payouts will be sent as part of X’s Original Content Rewards for now.\n \nIn the last two weeks, I’ve earned $500 in rewards due to people using my Home Robots template 🔥\n\nMore info: https://legal.x.com/en/grok-bot-template-rewards-terms.html",
+        "created_at": "2026-09-27T19:10:41.000Z",
+        "imported_at": "2026-09-27T19:15:32.702Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuk71ild000ejp04tx862tgd",
+        "text": "Grok 4.7 is insanely good.\n\nThe model is not the bottleneck anymore. I believe harness reliability and everything around it is...\n\nI read almost every comment on my \"Week 1 at SpaceXAI\" post, and one thing surprised me.\n\nNot many people said \"make Grok smarter\", but rather make the agents and bots finish the work 😅\n\n> don't stop halfway through\n> don't lose the browser\n> don't forget what you're doing\n> don't get stuck and wait for me to notice\n\nThat's actually a great problem to have. People are already using Grok for real work (love that!). Now the rest of the system needs to be as reliable as the model is capable.\n\nTools, browser, memory, state, retries, errors... There are so many ways an agent can fail even when the model knows exactly what to do.\n\nBeen working on some of that 👀",
+        "created_at": "2026-09-27T19:10:17.000Z",
+        "imported_at": "2026-09-27T19:10:31.777Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuk71ild000fjp04z5na7eyw",
+        "text": "Sam Altman was asked in 2023: “You have an incredible amount of power at this moment. Why should we trust you?”\n\nSam responds: “You shouldn’t.”\n\nNothing has changed. OpenAI isn’t to be trusted. https://video.twimg.com/amplify_video/2104209046848884736/vid/avc1/476x270/oPQDSamn6S7phhW7.mp4?tag=29",
+        "created_at": "2026-09-27T19:07:54.000Z",
+        "imported_at": "2026-09-27T19:10:31.777Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuk71ild000gjp04nzwrid38",
+        "text": "Yup",
+        "created_at": "2026-09-27T19:06:44.000Z",
+        "imported_at": "2026-09-27T19:10:31.777Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuk71ild000hjp04ll4pue8o",
+        "text": "*taps sign https://pbs.twimg.com/media/HTO-JVsaEAAWjDJ.jpg",
+        "created_at": "2026-09-27T19:06:00.000Z",
+        "imported_at": "2026-09-27T19:10:31.777Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuk6v0rf000cjp04grithu5j",
+        "text": "In New York and California, they have made it illegal for officials to ask for or for you to show your voter ID!\n\nThey made election fraud mandatory.",
+        "created_at": "2026-09-27T19:04:57.000Z",
+        "imported_at": "2026-09-27T19:05:28.732Z",
+        "kind": "original"
+      },
       {
         "id": "cmuk4puyg0006jp049zmzwz4i",
         "text": "JUST IN: 98% of new cars sold in Norway this year are EVs, with Tesla's Model Y leading the next model by over 300%",
