@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-28T13:40:52.950Z",
+  "last_updated": "2026-09-28T20:13:38.875Z",
   "launches": [
     {
       "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
       "net": "2026-09-28T12:48:59Z",
-      "status": "In Flight",
+      "status": "Success",
       "pad": "Orbital Launch Pad 2",
       "location": "SpaceX Starbase, TX, USA"
     },
