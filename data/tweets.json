@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-09-27T22:00:57.058Z",
-  "total": 4321,
+  "last_updated": "2026-09-28T00:29:57.857Z",
+  "total": 4326,
   "by_date": {
     "2026-05-27": [
       {
@@ -29689,6 +29689,13 @@
     ],
     "2026-09-27": [
       {
+        "id": "cmukgbtmr0001l3046jp0qiui",
+        "text": "Deleted Muse after seeing this post on Threads about how it told some Facebook Marketplace sellers the guy’s address and they showed up at his door\n\nDangerous and creepy\n\nThis would have been 1000x worse if the person was a woman https://pbs.twimg.com/media/HTQB0s1WEAAbRWp.jpg",
+        "created_at": "2026-09-27T23:27:20.000Z",
+        "imported_at": "2026-09-27T23:30:29.187Z",
+        "kind": "original"
+      },
+      {
         "id": "cmuk7kr5s0000jt047zmatqqt",
         "text": "How is this real life? Seriously wtf man. https://video.twimg.com/amplify_video/2104255905206341632/vid/avc1/442x270/0CN-LF4CB9nXwU9M.mp4?tag=29",
         "created_at": "2026-09-27T19:21:16.000Z",
@@ -29896,6 +29903,36 @@
         "text": "SpaceX’s Starship flight 14 is launching 26 V3 Starlinks and represents ~26 Tbps for the launch (based on company specs)… at a very conservative cost estimate for Starship this puts Starships first operational launch at ~$9.8M per Tbps. Meaning in its first operational launch it nearly hits the same cost of Falcon9’s launch cost per Tbps. This is before full payload utilization, reusability and manufacturing learning rates kick in, which we expect to lead to 16x cheaper launch/Tbps cost by 2028.",
         "created_at": "2026-09-27T00:44:12.000Z",
         "imported_at": "2026-09-27T00:45:28.570Z",
+        "kind": "original"
+      }
+    ],
+    "2026-09-28": [
+      {
+        "id": "cmukiajll0003ig04cd8qh1ge",
+        "text": "Accurate (for now)",
+        "created_at": "2026-09-28T00:24:12.000Z",
+        "imported_at": "2026-09-28T00:25:28.762Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmukhktzj0000ig04bz27o1xm",
+        "text": "Worth considering",
+        "created_at": "2026-09-28T00:05:14.000Z",
+        "imported_at": "2026-09-28T00:05:29.168Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmukhktzk0001ig04ugrmd0ne",
+        "text": "Starship Flight 14 aiming to launch tomorrow morning",
+        "created_at": "2026-09-28T00:03:47.000Z",
+        "imported_at": "2026-09-28T00:05:29.168Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmukhktzk0002ig0484q9q0z4",
+        "text": "I really felt the AGI profoundly this time https://video.twimg.com/amplify_video/2103533196721704960/vid/avc1/480x270/Q5HrLPih067FgbgU.mp4?tag=29",
+        "created_at": "2026-09-28T00:01:56.000Z",
+        "imported_at": "2026-09-28T00:05:29.168Z",
         "kind": "original"
       }
     ]
