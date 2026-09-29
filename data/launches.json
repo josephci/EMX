@@ -1,13 +1,6 @@
 {
-  "last_updated": "2026-09-29T12:39:11.604Z",
+  "last_updated": "2026-09-29T18:15:12.356Z",
   "launches": [
-    {
-      "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
-      "net": "2026-09-28T12:48:59Z",
-      "status": "Success",
-      "pad": "Orbital Launch Pad 2",
-      "location": "SpaceX Starbase, TX, USA"
-    },
     {
       "name": "Falcon 9 Block 5 | Crew-13",
       "net": "2026-10-01T15:10:06Z",
@@ -84,6 +77,13 @@
       "status": "TBD",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Telesat Lightspeed 1",
+      "net": "2026-12-31T00:00:00Z",
+      "status": "TBD",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA"
     }
   ]
 }
