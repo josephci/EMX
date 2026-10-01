@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-10-01T07:48:09.141Z",
+  "last_updated": "2026-10-01T20:23:36.474Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | Crew-13",
       "net": "2026-10-01T15:10:06Z",
-      "status": "Go",
+      "status": "Success",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA"
     },
     {
       "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
-      "net": "2026-10-01T18:18:00Z",
-      "status": "Go",
+      "net": "2026-10-01T18:32:00Z",
+      "status": "Success",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
     },
@@ -24,7 +24,7 @@
     },
     {
       "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-      "net": "2026-10-05T08:16:00Z",
+      "net": "2026-10-05T08:17:00Z",
       "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
@@ -37,25 +37,18 @@
       "location": "Vandenberg SFB, CA, USA"
     },
     {
+      "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
+      "net": "2026-10-13T00:00:00Z",
+      "status": "TBD",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA"
+    },
+    {
       "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
       "net": "2026-10-31T00:00:00Z",
       "status": "TBD",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA"
-    },
-    {
-      "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
-      "net": "2026-10-31T00:00:00Z",
-      "status": "TBD",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA"
-    },
-    {
-      "name": "Falcon Heavy | Griffin Mission One",
-      "net": "2026-11-30T00:00:00Z",
-      "status": "TBD",
-      "pad": "Launch Complex 39A",
-      "location": "Kennedy Space Center, FL, USA"
     },
     {
       "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
@@ -84,6 +77,13 @@
       "status": "TBD",
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA"
+    },
+    {
+      "name": "Falcon Heavy | Griffin Mission One",
+      "net": "2026-12-31T00:00:00Z",
+      "status": "TBD",
+      "pad": "Launch Complex 39A",
+      "location": "Kennedy Space Center, FL, USA"
     }
   ]
 }
