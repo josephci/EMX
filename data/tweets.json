@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-01T01:34:54.651Z",
-  "total": 4418,
+  "last_updated": "2026-10-01T07:48:09.756Z",
+  "total": 4428,
   "by_date": {
     "2026-05-27": [
       {
@@ -30571,6 +30571,76 @@
       }
     ],
     "2026-10-01": [
+      {
+        "id": "cmup72xoy000bjh04kxhjgl1s",
+        "text": "WHAT THE F*CK. SpaceXAI is using Grok Bot to build Grok Bot. Its agents design, code, test, and ship the product.\n\nIn this 45-minute session, Peng Zheng and Lauren Tanshowed their internal setup across design, engineering, user feedback, and bot management.\n\nOne key frame becomes a complete Figma flow. One project gets split across four engineer bots. Repeated bug reports from X become fix proposals without anyone copying the context by hand.\n\nSome PRs merge before a human reads them. This talk alone replaces a $500 course on building AI agent teams.\n\nWatch it today, then read the article on building your own Grok Bot team from scratch below.",
+        "created_at": "2026-10-01T07:06:55.000Z",
+        "imported_at": "2026-10-01T07:10:28.882Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmup5h22x0006jh04wj9gmok1",
+        "text": "Data centers on the ground are limited by permits and power.\n\nSpaceX's answer is Starmind, orbital AI data centers with about 72 Nvidia chips and up to 175 kW per satellite.\n\nThat's about 5,700 satellites per gigawatt. Terafab builds the chips, and Starship launches them.\n\n@JOBhakdi thinks it goes from gigawatts to terawatts by 2028 or 2029.\n\n$SPCX",
+        "created_at": "2026-10-01T06:25:03.000Z",
+        "imported_at": "2026-10-01T06:25:28.522Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmup5h22x0007jh04iuhzdnmq",
+        "text": "Try the latest Grok @Bot. Many great upgrades!",
+        "created_at": "2026-10-01T06:23:01.000Z",
+        "imported_at": "2026-10-01T06:25:28.522Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmup5h22x0008jh04315f6b6p",
+        "text": "We must expand the scope and scale of consciousness",
+        "created_at": "2026-10-01T06:21:14.000Z",
+        "imported_at": "2026-10-01T06:25:28.522Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmup5h22x0009jh04x54wm1zl",
+        "text": "Introducing the newly refreshed Grokipedia. https://grokipedia.com/",
+        "created_at": "2026-10-01T06:20:59.000Z",
+        "imported_at": "2026-10-01T06:25:28.522Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmup5h22x000ajh04ymt9dsxp",
+        "text": "Grokipedia v0.3 just released. \n\nJoin @SpaceXAI if you want to create Encyclopedia Galactica!",
+        "created_at": "2026-10-01T06:20:45.000Z",
+        "imported_at": "2026-10-01T06:25:28.522Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmup547eh0005jh04jvo8s4ph",
+        "text": "You Are NOT Ready For These Jaw Dropping Starlink Numbers\n\nStarlink Could Be More Profitable Than NVIDIA, Google, Amazon & Apple",
+        "created_at": "2026-10-01T06:13:31.000Z",
+        "imported_at": "2026-10-01T06:15:28.889Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmup4xrqc0004jh04bqeopv5t",
+        "text": "🚨🚨🚨 @DavidSacks nails it. We already have laws that apply to super intelligence: laws covering cyberattacks, privacy violations, fraud, and product liability laws, among others. Even Biden's former FTC chair agrees.\n\nAnd now thanks to President Trump's Accord on Super Intelligence, these companies are committed to greater transparency and auditing. \n\nThe full interview is a must-watch. \n\nWATCH:",
+        "created_at": "2026-10-01T06:08:48.000Z",
+        "imported_at": "2026-10-01T06:10:28.644Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmup4rc3e0002jh04j6zk6g8h",
+        "text": "Andrew Ross Sorkin gushes over Trump's new America. gov website on live TV while Joe Kernen sits there stunned.\n\nSorkin is not a Trump fan, and he lets that be known. But the moment he said the word \"credit,\" Kernen nearly fell out of his chair.\n\nSORKIN: “I want to be clear. I am actually not critical of the president in this instance at all, because I actually think it was great to bring everybody together.”\n\n “For 29,000 websites, the ability to get a passport, the ability to get your medicare. I mean, the it was like being at a product. It was like being at an Apple product announcement. And when they went through what they did and the president was there in the morning and walked through what they were doing, and Marco Rubio was there, Scott Bessent was there, the whole cabinet was there. It was one of those moments where you actually thought the government was working for you, really? And Gebbia deserves an extraordinary amount of praise for it.”\n\nKERNEN: “Do you feel great? Are you have the warmest fuzziest feeling right now listening.”\n\nSORKIN: “And by the way, the president deserves credit for that.\"\n\nKERNEN: \"Oh my God!\"\n\nSORKIN: \"Credit for putting you in that role. And Jeb and his team putting it all together.”\n\nKERNEN: “So now I'm getting hot flashes. Wow. So this is just amazing.”\n\nCONTEXT (What happened): Trump launched America. gov, a single government site meant to replace 29,000 federal websites for things like passports and Medicare. It was built by Airbnb co-founder Joe Gebbia, and Sorkin was in the room for the demo.\n\nSorkin also credited the Trump accounts interface as \"really easy to use\" and \"like using a real app.\"",
+        "created_at": "2026-10-01T06:00:53.000Z",
+        "imported_at": "2026-10-01T06:05:28.442Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmup41mfr0001jh04fgm3qtxt",
+        "text": "No company inspires me more than @SpaceX. https://video.twimg.com/amplify_video/2105526774998151168/vid/avc1/480x270/MlzRblVhlHQM3tuT.mp4?tag=29",
+        "created_at": "2026-10-01T05:43:10.000Z",
+        "imported_at": "2026-10-01T05:45:28.791Z",
+        "kind": "original"
+      },
       {
         "id": "cmuou1jot0000lc044elmfrjr",
         "text": "Worth trying",
