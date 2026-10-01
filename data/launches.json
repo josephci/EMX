@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-01T20:23:36.474Z",
+  "last_updated": "2026-10-01T23:58:20.361Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | Crew-13",
@@ -38,8 +38,8 @@
     },
     {
       "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
-      "net": "2026-10-13T00:00:00Z",
-      "status": "TBD",
+      "net": "2026-10-13T10:33:00Z",
+      "status": "TBC",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA"
     },
