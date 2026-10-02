@@ -1,13 +1,6 @@
 {
-  "last_updated": "2026-10-02T16:42:45.064Z",
+  "last_updated": "2026-10-02T20:58:31.951Z",
   "launches": [
-    {
-      "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
-      "net": "2026-10-01T18:32:00Z",
-      "status": "Success",
-      "pad": "Space Launch Complex 4E",
-      "location": "Vandenberg SFB, CA, USA"
-    },
     {
       "name": "Falcon Heavy | NROL-97",
       "net": "2026-10-02T03:54:00Z",
@@ -31,8 +24,8 @@
     },
     {
       "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
-      "net": "2026-10-13T10:33:00Z",
-      "status": "TBC",
+      "net": "2026-10-13T10:33:44Z",
+      "status": "Go",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA"
     },
@@ -80,6 +73,13 @@
     },
     {
       "name": "Falcon 9 Block 5 | CHORUS",
+      "net": "2026-12-31T00:00:00Z",
+      "status": "TBD",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Inmarsat-7 F1 (GX-7)",
       "net": "2026-12-31T00:00:00Z",
       "status": "TBD",
       "pad": "Unknown Pad",
