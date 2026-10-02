@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-02T05:23:04.237Z",
-  "total": 4465,
+  "last_updated": "2026-10-02T11:10:56.348Z",
+  "total": 4477,
   "by_date": {
     "2026-05-27": [
       {
@@ -30909,6 +30909,90 @@
       }
     ],
     "2026-10-02": [
+      {
+        "id": "cmuqpwyes0008jt04f0kblf30",
+        "text": "Today’s mission is the @NRO_gov’s first launch aboard the Falcon Heavy rocket. Falcon 9 previously launched 22 missions over nine years for the NRO https://pbs.twimg.com/media/HTmKXkKW8AAtRmz.jpg",
+        "created_at": "2026-10-02T08:42:41.000Z",
+        "imported_at": "2026-10-02T08:45:28.757Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuqpqiql0005jt04fyoiz2kh",
+        "text": "• SpaceX Makes History\n• Tesla Secures Future\n• Grok Team Can't Stop Cooking\n\nTIMESTAMPS\n\n0:00 Crew Dragon ISS Mission Highlights: SpaceX Just Broke A Record With Crew Dragon Mission To ISS\n3:23 Grok Team Keeps Cooking. BIG Grok Bot Updates As OpenAI Shamelessly Copies Grok Bot With ‘Dots”\n12:14 Tesla Secures Its Future\n17:26 Ways To Support (Want More Content? Early Access? Tesla & SpaceX Valuation Model?)",
+        "created_at": "2026-10-02T08:38:24.000Z",
+        "imported_at": "2026-10-02T08:40:28.509Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuqpdnr90004jt04io48mu6c",
+        "text": "Ask @Grok in XChat",
+        "created_at": "2026-10-02T08:25:30.000Z",
+        "imported_at": "2026-10-02T08:30:28.485Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuqp78cj0001jt04vpl421ra",
+        "text": "I was lucky enough to be in a group chat testing this last month, and it's a lot of fun. Grok can see images in the chat and as well as text. Grok will always respond when directly addressed, but can also choose to respond in chat in context.",
+        "created_at": "2026-10-02T08:25:05.000Z",
+        "imported_at": "2026-10-02T08:25:28.475Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuqp78cj0002jt046nr1heir",
+        "text": "In the very near future, it will be considered malpractice *not* to put every x-ray, lab report, blood panel, etc into an lllm \n\nAnd every patient will do this with their own model regardless of whether it is done for them \n\nAnd millions of lives will be saved.",
+        "created_at": "2026-10-02T08:23:43.000Z",
+        "imported_at": "2026-10-02T08:25:28.475Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuqp0t460000jt04mfi1anrs",
+        "text": "Grok Bot can now suggest ways to help without you needing to ask. https://video.twimg.com/amplify_video/2105713021926678529/vid/avc1/480x270/1TAZfKh1lNV5EY9Q.mp4?tag=29",
+        "created_at": "2026-10-02T08:18:50.000Z",
+        "imported_at": "2026-10-02T08:20:28.903Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuqob32e0008l304xvh2iusj",
+        "text": "For folks not understanding where we are at with AI now - if the task is verifiable, it is now solved by AI.\n\nYes, earlier days you could argue that 'AI isn't that good' (e.g. see first attached chart here, where GPT-4o underperformed average accountants on tasks)\n\nBut now, it's a totally different story (only ~2 years later). The second chart is astounding. It took me a while to even understand it because it looks so odd. It compares manual accounting tasks to tasks complete with Opus 5.5. Basically Opus 5.5. solves all tasks almost instantly at a 100% accuracy rate, whereas a person takes a lot more time and gets a lot of things wrong. It makes the chart look entirely silly because the axes aren't even comparable.\n\nSo yeah, this is where we're at. If it is verifiable, it is solved. This is just how these model architectures work now.",
+        "created_at": "2026-10-02T07:58:10.000Z",
+        "imported_at": "2026-10-02T08:00:28.743Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuqo4ncn0007l3040demvcoe",
+        "text": "Super Intelligence (fka AI) is now acing accounting tests",
+        "created_at": "2026-10-02T07:53:39.000Z",
+        "imported_at": "2026-10-02T07:55:28.440Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuqmis990004l304h7ou91ix",
+        "text": "Side booster separation confirmed https://video.twimg.com/amplify_video/2105870101589176320/vid/avc1/480x270/n82kl4Aq7XCHoF1k.mp4?tag=29",
+        "created_at": "2026-10-02T07:05:30.000Z",
+        "imported_at": "2026-10-02T07:10:28.750Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuqmccgz0002l304wgm38oc2",
+        "text": "Love a little ambiance https://pbs.twimg.com/media/HTlXYbbacAArg2u.jpg",
+        "created_at": "2026-10-02T07:04:41.000Z",
+        "imported_at": "2026-10-02T07:05:28.356Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuqmccgz0003l304zxmdk4iq",
+        "text": "I remember the first meeting where the team pitched the idea of putting compute in space - exciting idea!\n\nToday's successful launch with our partner @planet prototype satellite shows how far we've come...and how far there is to go. Thanks for the lift, @SpaceX, another spectacular booster landing too🚀",
+        "created_at": "2026-10-02T07:00:45.000Z",
+        "imported_at": "2026-10-02T07:05:28.356Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuqlzhx50001l304l18rf28b",
+        "text": "Falcon Heavy launches NROL-97 from pad 39A in Florida https://pbs.twimg.com/media/HTmmWoDXwAAeVEd.jpg",
+        "created_at": "2026-10-02T06:53:26.000Z",
+        "imported_at": "2026-10-02T06:55:28.890Z",
+        "kind": "original"
+      },
       {
         "id": "cmuqilbfg0001l304x14dggmy",
         "text": "4 astronauts \n130 payloads \n1 docking \n1 secret\n4 boosters landed\nAnother day at the office ! https://pbs.twimg.com/media/HTmRT3UakAAd2Mx.jpg",

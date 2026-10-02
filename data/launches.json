@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-02T05:23:03.687Z",
+  "last_updated": "2026-10-02T11:10:55.939Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | Crew-13",
@@ -18,7 +18,7 @@
     {
       "name": "Falcon Heavy | NROL-97",
       "net": "2026-10-02T03:54:00Z",
-      "status": "In Flight",
+      "status": "Success",
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA"
     },
