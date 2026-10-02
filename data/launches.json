@@ -1,13 +1,6 @@
 {
-  "last_updated": "2026-10-02T11:10:55.939Z",
+  "last_updated": "2026-10-02T16:42:45.064Z",
   "launches": [
-    {
-      "name": "Falcon 9 Block 5 | Crew-13",
-      "net": "2026-10-01T15:10:06Z",
-      "status": "Success",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA"
-    },
     {
       "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
       "net": "2026-10-01T18:32:00Z",
@@ -84,6 +77,13 @@
       "status": "TBD",
       "pad": "Launch Complex 39A",
       "location": "Kennedy Space Center, FL, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | CHORUS",
+      "net": "2026-12-31T00:00:00Z",
+      "status": "TBD",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA"
     }
   ]
 }
