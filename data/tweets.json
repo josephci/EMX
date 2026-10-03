@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-02T20:58:32.360Z",
-  "total": 4494,
+  "last_updated": "2026-10-03T00:22:17.437Z",
+  "total": 4497,
   "by_date": {
     "2026-05-27": [
       {
@@ -30909,6 +30909,27 @@
       }
     ],
     "2026-10-02": [
+      {
+        "id": "cmurlcn1d0009jj04ujyufvw1",
+        "text": "Teams complete three Falcon launches, four first stage landings at four landing zones in Florida and California, and docking Dragon to the @Space_Station for our 21st human spaceflight in under 13 hours https://pbs.twimg.com/media/HTpJgLeWgAAVDZN.jpg",
+        "created_at": "2026-10-02T23:24:13.000Z",
+        "imported_at": "2026-10-02T23:25:28.610Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmurlcn1d000ajj04c5rs22yg",
+        "text": "@SpaceX is the greatest team on Earth",
+        "created_at": "2026-10-02T23:24:05.000Z",
+        "imported_at": "2026-10-02T23:25:28.610Z",
+        "kind": "reply"
+      },
+      {
+        "id": "cmurktclz0005jj047omomgeu",
+        "text": "Not a phone in sight, just people living in the moment https://pbs.twimg.com/media/HTpW57cbIAEUgoD.jpg",
+        "created_at": "2026-10-02T23:06:29.000Z",
+        "imported_at": "2026-10-02T23:10:28.631Z",
+        "kind": "original"
+      },
       {
         "id": "cmurclkhv000ql504hg3l1itu",
         "text": "Travel anywhere with Tesla Superchargers",
