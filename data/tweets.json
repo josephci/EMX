@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-04T00:05:00.210Z",
-  "total": 4516,
+  "last_updated": "2026-10-04T05:41:31.026Z",
+  "total": 4524,
   "by_date": {
     "2026-05-27": [
       {
@@ -31273,6 +31273,64 @@
         "text": "Robotaxi operating hours moved from 10pm to 11pm. \n\nThe main thing we’re trying to solve is making sure that we don’t run over pets when they’re hard to see at night. Literally trying to avoid grey kittens on grey tarmac in the dark.",
         "created_at": "2026-10-03T04:27:29.000Z",
         "imported_at": "2026-10-03T04:30:28.433Z",
+        "kind": "original"
+      }
+    ],
+    "2026-10-04": [
+      {
+        "id": "cmut7xp6t0000id04pjaf7ixs",
+        "text": "A public service announcement. https://video.twimg.com/amplify_video/2106548834684088322/vid/avc1/320x568/iPI2b_563AwSGEui.mp4?tag=29",
+        "created_at": "2026-10-04T02:43:03.000Z",
+        "imported_at": "2026-10-04T02:45:28.800Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmut5yynj0007jw047x2n4csh",
+        "text": "In 2024, Canada euthanized 16,499 non-criminals. \n\nIn 2024, the United States executed 25 convinced criminals. \n\nIn 2025, Canada euthanized over 17,000 non-criminals. \n\nIn 2025, the United States executed 47 convinced criminals.",
+        "created_at": "2026-10-04T01:46:39.000Z",
+        "imported_at": "2026-10-04T01:50:28.592Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmut5sj370006jw04iltcyt16",
+        "text": "Exactly",
+        "created_at": "2026-10-04T01:42:36.000Z",
+        "imported_at": "2026-10-04T01:45:28.484Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmut5m3kh0004jw043tnojq2x",
+        "text": "Elon Musk explains why Tesla is being extremely careful while scaling Robotaxi\n\nThe ambition is massive...but Elon’s priority is making sure they do not hurt anyone\n\nThere are roughly 30,000–40,000 automotive deaths every year in the U.S., and most receive almost no national attention\n\nBut if a Tesla Robotaxi injures even ONE person, it can instantly become worldwide headline news and regulators could clamp down on the entire operation\n\nSo Tesla has to do two things at the same time:\n\nScale Robotaxi as fast as humanly possible\n\nAND make sure it causes essentially no harm\n\nElon put it very simply:\n\n“We do not want to injure anyone”\n\n“And ideally...not even run over a pet”\n\nThat is the real constraint on Robotaxi right now\n\nAnd despite being this cautious, the rollout is accelerating fast\n\nTesla’s authorized Cybercab fleet in Texas has nearly QUADRUPLED in just one month\n\n45 → 169 Cybercabs\n\nAnd Tesla now has 589 Robotaxi vehicles authorized in Texas when you include 420 Model Ys\n\nUnsupervised Robotaxi miles have also been growing at double-digit rates week after week\n\nSo Tesla is not moving slowly\n\nIt’s scaling incredibly fast while trying to maintain an insanely high safety bar\n\nThat’s the balance Elon is trying to solve https://x.com/XFreeze/status/2080096187584274809/video/1",
+        "created_at": "2026-10-04T01:36:14.000Z",
+        "imported_at": "2026-10-04T01:40:28.433Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmut5m3kh0005jw04d0kmrzb1",
+        "text": "91% of black female homicides in the US are committed by black men\n\n8% are committed by black women\n\n1% from all other categories",
+        "created_at": "2026-10-04T01:35:36.000Z",
+        "imported_at": "2026-10-04T01:40:28.433Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmut5fo9j0003jw04mnxnc09v",
+        "text": "Grok Bot is the superior product. \n\nLast month, I set @bot up to pay recurring monthly bills. This morning without prompting not let me know it was complete. \n\nNo thank you required.",
+        "created_at": "2026-10-04T01:30:54.000Z",
+        "imported_at": "2026-10-04T01:35:28.663Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmut598rh0002jw045bsvah46",
+        "text": "Tesla FSD feels like magic",
+        "created_at": "2026-10-04T01:27:08.000Z",
+        "imported_at": "2026-10-04T01:30:28.637Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmut52uv80001jw04rxhaiks6",
+        "text": "Congratulations to the @NASA workforce and our partner @SpaceX on another successful crewed launch to the International Space Station.\n\nCrew-13 is now aboard the station, Crew-12 will be home soon, and 2026 is far from over. Still ahead: more science missions, more flyovers, the MAX POWER exposition, cargo resupply, a possible Starliner-1 demonstration mission to the ISS, Artemis III rollout and tanking tests, and the first Moon Base launch before the year ends.\n\nWe will never stop going. 🇺🇸",
+        "created_at": "2026-10-04T01:21:05.000Z",
+        "imported_at": "2026-10-04T01:25:30.693Z",
         "kind": "original"
       }
     ]
