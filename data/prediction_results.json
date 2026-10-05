@@ -226,5 +226,17 @@
     "hit": 1,
     "leadH": 5.4,
     "scored": "2026-10-03T18:38:35.632Z"
+  },
+  {
+    "title": "Elon Musk # tweets October 3 - October 5, 2026?",
+    "settle": "2026-10-05T16:00:00Z",
+    "predBucket": "65-89",
+    "lo": 65,
+    "hi": 89,
+    "predMid": 67,
+    "actual": 69,
+    "hit": 1,
+    "leadH": 8.8,
+    "scored": "2026-10-05T16:11:28.589Z"
   }
 ]
