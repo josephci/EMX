@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-04T22:32:11.114Z",
-  "total": 4555,
+  "last_updated": "2026-10-05T01:16:38.127Z",
+  "total": 4559,
   "by_date": {
     "2026-05-27": [
       {
@@ -31548,6 +31548,36 @@
         "text": "Congratulations to the @NASA workforce and our partner @SpaceX on another successful crewed launch to the International Space Station.\n\nCrew-13 is now aboard the station, Crew-12 will be home soon, and 2026 is far from over. Still ahead: more science missions, more flyovers, the MAX POWER exposition, cargo resupply, a possible Starliner-1 demonstration mission to the ISS, Artemis III rollout and tanking tests, and the first Moon Base launch before the year ends.\n\nWe will never stop going. 🇺🇸",
         "created_at": "2026-10-04T01:21:05.000Z",
         "imported_at": "2026-10-04T01:25:30.693Z",
+        "kind": "original"
+      }
+    ],
+    "2026-10-05": [
+      {
+        "id": "cmuuj382a0003kz04atwb2svq",
+        "text": "BREAKING: United Airlines just announced that 880+ aircraft will have @Starlink by the end of 2026, with its entire fleet expected to be connected by end of 2027.\n\nStarlink has connected 14.2 million devices on 464,000+ flights and is active on over 560 United aircraft today. https://pbs.twimg.com/media/HT03BDybEAEEZ9o.jpg",
+        "created_at": "2026-10-05T00:41:13.000Z",
+        "imported_at": "2026-10-05T00:45:28.594Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuuiwsvg0001kz04yvaob4bu",
+        "text": "Before vs after college (these are real) https://video.twimg.com/amplify_video/2068780419172958208/vid/avc1/320x422/Es3KCiPGVD0T0S6X.mp4?tag=28",
+        "created_at": "2026-10-05T00:40:18.000Z",
+        "imported_at": "2026-10-05T00:40:28.972Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuuiwsvg0002kz04mpiowh9y",
+        "text": "Propagating super intelligence to the stars is a great success condition for a biological bootloader",
+        "created_at": "2026-10-05T00:37:51.000Z",
+        "imported_at": "2026-10-05T00:40:28.972Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuuiqd1c0000kz04nikyigif",
+        "text": "Grok @Bot",
+        "created_at": "2026-10-05T00:31:19.000Z",
+        "imported_at": "2026-10-05T00:35:28.512Z",
         "kind": "original"
       }
     ]
