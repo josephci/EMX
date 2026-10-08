@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-08T05:53:52.920Z",
-  "total": 4620,
+  "last_updated": "2026-10-08T13:16:57.585Z",
+  "total": 4628,
   "by_date": {
     "2026-05-27": [
       {
@@ -31873,6 +31873,62 @@
       }
     ],
     "2026-10-08": [
+      {
+        "id": "cmuzk0uu40000jp04oxlmctut",
+        "text": "Starlink coming to KLM!",
+        "created_at": "2026-10-08T13:08:31.000Z",
+        "imported_at": "2026-10-08T13:10:28.637Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuzjo02h0003jt04zqzmxnmw",
+        "text": "People who oppose @Starlink hurt only the least-served. \n\nThe wealthy or those living in large cities already have good Internet, so they don’t understand.",
+        "created_at": "2026-10-08T12:58:50.000Z",
+        "imported_at": "2026-10-08T13:00:28.890Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuzjhkiy0002jt04x9yn6tsa",
+        "text": "Starlink provides Internet connectivity to the least-served, enabling self-education and prosperity by giving people access to sell their products worldwide!",
+        "created_at": "2026-10-08T12:55:11.000Z",
+        "imported_at": "2026-10-08T12:55:28.811Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuzjb56w0001jt044u5t1pq4",
+        "text": "🇮🇳  Starlink will help the least-served in India  🇮🇳",
+        "created_at": "2026-10-08T12:48:25.000Z",
+        "imported_at": "2026-10-08T12:50:29.001Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuzeny840003l804mjwngo9q",
+        "text": "Starlink will be of great help to areas of India that have bad or no Internet and even no mobile coverage. \n\nNo country has perfect coverage, including America, but Starlink can fill in the coverage gaps for those who most need it.",
+        "created_at": "2026-10-08T10:36:10.000Z",
+        "imported_at": "2026-10-08T10:40:28.420Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuzehj0b0002l804iskluq06",
+        "text": "2003",
+        "created_at": "2026-10-08T10:30:59.000Z",
+        "imported_at": "2026-10-08T10:35:28.763Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuzeb3ei0001l80448jn7a91",
+        "text": "Thank you",
+        "created_at": "2026-10-08T10:27:11.000Z",
+        "imported_at": "2026-10-08T10:30:28.602Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmuz4hfs2000elg041ffxsulj",
+        "text": "Try Grok @Bot yourself \n\nIt can change your life",
+        "created_at": "2026-10-08T05:53:57.000Z",
+        "imported_at": "2026-10-08T05:55:28.418Z",
+        "kind": "original"
+      },
       {
         "id": "cmuz4b0fx000clg04crrxa7z2",
         "text": "True",
