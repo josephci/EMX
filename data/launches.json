@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-10-09T13:04:21.418Z",
+  "last_updated": "2026-10-09T22:54:31.911Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-      "net": "2026-10-10T07:29:00Z",
+      "net": "2026-10-10T07:39:00Z",
       "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
