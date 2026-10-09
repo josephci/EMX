@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-08T23:47:35.608Z",
-  "total": 4797,
+  "last_updated": "2026-10-09T05:54:39.160Z",
+  "total": 4802,
   "by_date": {
     "2026-05-27": [
       {
@@ -33250,6 +33250,43 @@
         "text": "grok @bot is by far my most used personal agent https://pbs.twimg.com/media/HUDYmYRbQAA5z_z.jpg",
         "created_at": "2026-10-08T00:47:25.000Z",
         "imported_at": "2026-10-08T18:20:42.146Z",
+        "kind": "original"
+      }
+    ],
+    "2026-10-09": [
+      {
+        "id": "cmv0ee2k70002jm06lskr9on5",
+        "text": "Tesla Super Intelligence is the only one dedicated to solving real-world intelligence, from large-scale bits to atoms. https://pbs.twimg.com/media/HUJ2NWYbkAAcpy2.jpg",
+        "created_at": "2026-10-09T03:19:39.000Z",
+        "imported_at": "2026-10-09T03:20:33.655Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv0ee2k70000jm06292budnx",
+        "text": "We’re just going to have @Grok Bots manage Grokipedia",
+        "created_at": "2026-10-09T03:19:24.000Z",
+        "imported_at": "2026-10-09T03:20:33.655Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv0ee2k70001jm06nanug9ds",
+        "text": "Using Grok @Bot is like hiring a super smart, hard-working person for peanuts",
+        "created_at": "2026-10-09T03:18:13.000Z",
+        "imported_at": "2026-10-09T03:20:33.655Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv08hu830002jz06h36g68pg",
+        "text": "I'm GrokBot pilled.\n\nThe recent update with native X monitoring opens up a ton of new capabilities!\n\nMy 4 favorite routines (copy/paste these prompts):\n\nRoutine 1: Find real AI workflows on X (and skip the hype threads)\n\nEvery morning, this bot now finds real AI use cases being shared on X, and filters out the “10 prompts” hype threads.\n\n“Every weekday at 9:15am in my time zone, search X and the web for new AI workflows people are actually running. Keep only cases that name the old task, the tool, and the result: time saved, a step removed, or a handoff that used to need a person. Drop product announcements, “10 prompts” threads, and anything the author has not used more than once. Return at most 3. For each, give the link, the job it replaces, what I would need connected, and whether it fits my work. Send it to me on Slack. Do not post or reply anywhere else. Save this as a routine. If nothing qualifies, send one line saying so.”\n\nRoutine 2: Catch every mention of your brand\n\nThis bot catches every mention of The Rundown on X, labels it, and pings our team on Slack to respond (try tweeting us @therundownai and see what happens).\n\n“Every weekday at 9:00am, search X for mentions in the last 24 hours of [your brand, @handle, or your own name]. For each hit, give the author, link, a one-line summary, and whether it is praise, complaint, question, or neutral. Do not reply to anyone. Post the digest in [your Slack channel] and tag me. Save this as a routine. If a source is unavailable, say which one.”\n\nRoutine 3: Find people actively looking for what you do\n\nEvery 4 hours, this bot listens for people searching for the best AI newsletter on X, so we know exactly what readers are looking for.\n\n“Every 4 hours, search X for people evaluating [your category]. Catch three things: reviews or complaints about [category]; posts asking which [category] to use; and complaints about the problem [your product] solves. Quote the post, link it, name the account, and label it review, shopping, or complaint. Skip anything older than 24 hours, and skip [category] accounts promoting themselves. Post to [your Slack channel] only if there is at least one new hit you haven’t already shared. Do not reply to or interact with anyone. Save this as a routine. If the search fails, report the failure in Slack.”\n\nRoutine 4: Never lose a new contact again\n\nI meet A LOT of people at events. This bot looks through my new phone contacts and reminds me to follow up with the new people I just met.\n\n“Every weekday at 8:30am in my time zone, read my address book and list contacts added in the last 14 days. For each, show name, date added, phone, email, and any note. Ask me what we talked about before you write anything. Once I reply, draft a follow-up task for each person in [your task tool] with the context attached. Never text, email, or call anyone. Save this as a routine. If the address book is unavailable, say so and do not use old data.”",
+        "created_at": "2026-10-09T00:30:28.000Z",
+        "imported_at": "2026-10-09T00:35:31.780Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv07yjrk0001jz06die73tlb",
+        "text": "One of my favorite and totally underrated @bot features is canvas.\n\nJust ask your Chief of Staff to present you an updates on the canvas, relax, and enjoy the results 😉",
+        "created_at": "2026-10-09T00:17:39.000Z",
+        "imported_at": "2026-10-09T00:20:31.760Z",
         "kind": "original"
       }
     ]
