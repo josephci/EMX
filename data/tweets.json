@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-10T14:44:17.374Z",
-  "total": 4841,
+  "last_updated": "2026-10-10T18:52:30.249Z",
+  "total": 4852,
   "by_date": {
     "2026-05-27": [
       {
@@ -33375,6 +33375,83 @@
       }
     ],
     "2026-10-10": [
+      {
+        "id": "cmv2lozbn0003k4066xfb6iu7",
+        "text": "My 76-year-old Mom took her first ever @Tesla Cybercab ride today! She loved it.\n\n\"Kudos to the designers and the engineers. I would recommend this to everybody. It was totally outstanding. Really comfortable. It feels like flying first class. It's very clean. The seats are nice. Extremely roomy. I felt like I was treated like a guest.\"\n\nSharing this moment with my Mom - her first-ever ride in a fully autonomous Robotaxi with no steering wheel or pedals - was something special I’ll never forget.",
+        "created_at": "2026-10-10T16:16:07.000Z",
+        "imported_at": "2026-10-10T16:20:32.339Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv2lc4cf0001k406o79wu2v8",
+        "text": "Electricity production is the best metric for the true strength of any large-scale economy imo",
+        "created_at": "2026-10-10T16:06:22.000Z",
+        "imported_at": "2026-10-10T16:10:32.320Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv2kstzf0000k4062zvhfcf3",
+        "text": "here are 4 grok @bot templates for building on X you can use today:\n- launching\n- threat hunting\n- threat intel\n- X api integration https://video.twimg.com/amplify_video/2108644996249444354/vid/avc1/480x270/pdH2S3ylWpO7iBLu.mp4?tag=16",
+        "created_at": "2026-10-10T15:52:47.000Z",
+        "imported_at": "2026-10-10T15:55:32.304Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv2k33ym000ajv069jelcki4",
+        "text": "Interesting piece from CEO of Microsoft",
+        "created_at": "2026-10-10T15:34:19.000Z",
+        "imported_at": "2026-10-10T15:35:32.303Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv2j0j300003jv060kbyuizk",
+        "text": "Excited to finally ship this to GA (and sorry for gatekeeping initially 😅)!\n\nSome of my favorite use cases so far:\n • Grok Bots talking to other Grok Bots over email!\n • Customized daily newsletters delivered straight to your inbox\n • Grok Bot as an executive assistant coordinating all your meetings\n\nLooking forward to seeing your favorite ways to email your Bot! And please share any and all feedback as usual! 📩",
+        "created_at": "2026-10-10T15:04:24.000Z",
+        "imported_at": "2026-10-10T15:05:32.316Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv2j0j300004jv06ieenavul",
+        "text": "Fate loves irony.\n\nSi is silicon on the periodic table. https://pbs.twimg.com/media/HUOduazbUAA3mjf.png",
+        "created_at": "2026-10-10T15:01:04.000Z",
+        "imported_at": "2026-10-10T15:05:32.316Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv2j0j300005jv06mutxuxz9",
+        "text": "Software is just fancy data labeling now\n\nTo build the characters for http://botpfp.com, I sourced inspiration from X\n\nI had @bot scrape examples from @Multi_Serio_Ai's original post\n\nThen I created a swipe interface to judge the characters - the swipes store characteristics, so my cloud agents can see them and build out new looks!\n\nThe actual items are recreated by @grok, then vectorized so they can be rendered properly.",
+        "created_at": "2026-10-10T15:00:46.000Z",
+        "imported_at": "2026-10-10T15:05:32.316Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv2ino7v0000jv06z7uuacoa",
+        "text": "Voici mon socle philosophique.\n\nOn me demande souvent si je suis croyant. La réponse honnête, c'est que je suis agnostique. Mais pas un agnostique tiède, qui hausse les épaules et passe à autre chose. Un agnostique entièrement tourné vers une seule obsession : chercher la vérité et comprendre l'univers.\n\nÇa repose sur quelques convictions simples.\n\nD'abord, il existe une vérité, et elle mérite qu'on lui consacre sa vie. Je ne prétends pas la posséder. Je prétends la chercher. Pour ça, je n'ai pas trouvé de meilleure méthode que celle de Socrate : questionner sans relâche, à commencer par ses propres certitudes. Savoir qu'on ne sait pas, c'est le point de départ de toute vraie connaissance. Celui qui a déjà toutes les réponses, qu'il soit dogmatique religieux ou matérialiste intégriste, a arrêté de penser.\n\nEnsuite, il y a de la vérité dans tout, et là où il y a de la vérité, la beauté émerge. Je crois profondément qu'une forme de beauté objective existe. Le visage d'une belle femme, une symphonie qui sonne juste, une équation élégante, une cathédrale, un coucher de soleil sur la côte bretonne. Ce n'est pas qu'une question de goût. Quand quelque chose est vrai, harmonieux, bien construit, presque tout le monde le reconnaît. La beauté est le signal que l'on touche à quelque chose de juste.\n\nCela implique de refuser la laideur. Pas par snobisme, mais par exigence. On s'est habitués à vivre entourés de choses moches : une architecture sans âme, des objets jetables, des systèmes absurdes. Je pense qu'une civilisation saine doit construire des systèmes qui tendent vers la beauté. Et la bonne nouvelle, c'est qu'il existe une infinité de beautés possibles. On n'a pas fini d'en créer.\n\nCette beauté ne s'arrête pas aux formes, elle existe aussi dans les idées. Une idée vraie a souvent quelque chose d'élégant. C'est pour ça que je trouve les idées économiques fondées sur la liberté si convaincantes, de l'école autrichienne de Hayek et Mises jusqu'à Milton Friedman. Elles partent d'un principe simple : des individus libres, qui échangent librement, créent spontanément un ordre que personne n'aurait pu planifier. Il y a là une beauté d'horloger. Et à mes yeux, il n'y a rien de plus beau que la liberté individuelle.\n\nEnfin, le sens de tout ça, c'est le dépassement de soi. Chercher la vérité, créer de la beauté, défendre la liberté, ce sont trois façons de dire la même chose : devenir plus grand que ce qu'on est aujourd'hui.\n\nC'est pour ça que je me sens si en phase avec le projet d'Elon Musk. Au fond, son projet n'est ni technologique ni commercial. C'est un projet de dépassement. Aller sur Mars, construire une intelligence capable de comprendre l'univers, rendre la conscience multiplanétaire. Il s'agit de continuer à jouer le jeu, de repousser la frontière, de découvrir ce qu'il y a derrière.\n\nJe n'ai pas besoin d'un dogme pour donner un sens à ma vie. J'ai besoin d'une direction. La mienne tient en une phrase : chercher la vérité, tendre vers la beauté, et comprendre l'univers tant qu'il reste quelque chose à comprendre.",
+        "created_at": "2026-10-10T14:54:38.000Z",
+        "imported_at": "2026-10-10T14:55:32.443Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv2ino7v0001jv067rysvojg",
+        "text": "Falcon 9’s first stage lands on LZ-4 https://video.twimg.com/amplify_video/2108826821856796672/vid/avc1/480x270/36G8q4n5A_ICGjud.mp4?tag=29",
+        "created_at": "2026-10-10T14:53:21.000Z",
+        "imported_at": "2026-10-10T14:55:32.443Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv2ino7v0002jv06dohpaixt",
+        "text": "Ambani runs India’s internet policy.\n\nWhen Starlink won the telecom license and space approval last year, the government still refused to let it sell a single subscription. \n\nBefore that, Jio lobbied hard to force an auction that would slow any outsider. And after 4 years of paperwork, Musk called out the oligarch and asked if Ambani is the real boss of India. \n\nThe ministry insists the process is fair and that no monopolies are allowed, yet the world’s biggest telecom still blocks the only system that can reach the villages its own towers will never cover. \n\nStarlink already serves Bangladesh, Sri Lanka, and Bhutan. India remains closed.",
+        "created_at": "2026-10-10T14:50:57.000Z",
+        "imported_at": "2026-10-10T14:55:32.443Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv2ih8790008kx06s4oil8on",
+        "text": "Alex Gibney’s new four-hour documentary is so determined to expose the billionaire’s failings that it inadvertently showcases the achievements that made him a titan, writes Liel Leibovitz. https://www.thefp.com/p/elon-musk-new-documentary-enemies-best-case?utm_campaign=trueanthem&utm_medium=organic-social&utm_source=twitter",
+        "created_at": "2026-10-10T14:50:18.000Z",
+        "imported_at": "2026-10-10T14:50:31.750Z",
+        "kind": "original"
+      },
       {
         "id": "cmv2hxzl70005kx06ef9ip70w",
         "text": "Grok @Bot",
