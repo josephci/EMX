@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-10-12T18:53:36.894Z",
+  "last_updated": "2026-10-13T01:13:59.540Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-25",
-      "net": "2026-10-13T00:11:44Z",
-      "status": "Go",
+      "net": "2026-10-13T00:28:11Z",
+      "status": "In Flight",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
     },
@@ -23,18 +23,18 @@
       "location": "Vandenberg SFB, CA, USA"
     },
     {
+      "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
+      "net": "2026-10-19T10:30:00Z",
+      "status": "TBC",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA"
+    },
+    {
       "name": "Falcon 9 Block 5 | Starlink Group 15-15",
       "net": "2026-10-20T22:14:00Z",
       "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
-    },
-    {
-      "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
-      "net": "2026-10-31T00:00:00Z",
-      "status": "TBD",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA"
     },
     {
       "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
