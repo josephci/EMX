@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-13T07:49:35.915Z",
+  "last_updated": "2026-10-13T15:51:00.672Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-25",
@@ -11,7 +11,7 @@
     {
       "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
       "net": "2026-10-13T10:33:44Z",
-      "status": "Go",
+      "status": "Success",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA"
     },
@@ -32,6 +32,13 @@
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-15",
       "net": "2026-10-20T22:14:00Z",
+      "status": "Go",
+      "pad": "Space Launch Complex 4E",
+      "location": "Vandenberg SFB, CA, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Starlink Group 15-16",
+      "net": "2026-10-24T05:29:00Z",
       "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
@@ -73,13 +80,6 @@
     },
     {
       "name": "Falcon 9 Block 5 | CHORUS",
-      "net": "2026-12-31T00:00:00Z",
-      "status": "TBD",
-      "pad": "Unknown Pad",
-      "location": "Cape Canaveral SFS, FL, USA"
-    },
-    {
-      "name": "Falcon 9 Block 5 | Inmarsat-7 F1 (GX-7)",
       "net": "2026-12-31T00:00:00Z",
       "status": "TBD",
       "pad": "Unknown Pad",
