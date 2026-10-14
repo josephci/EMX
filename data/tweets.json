@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-13T21:09:32.723Z",
-  "total": 4949,
+  "last_updated": "2026-10-14T00:22:55.478Z",
+  "total": 4975,
   "by_date": {
     "2026-05-27": [
       {
@@ -34074,6 +34074,188 @@
       }
     ],
     "2026-10-13": [
+      {
+        "id": "cmv7bwq5h0032la06w3ei8vs3",
+        "text": "Tesla self-driving feels like magic",
+        "created_at": "2026-10-13T23:42:52.000Z",
+        "imported_at": "2026-10-13T23:45:28.421Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv7ab0xo0008jh06nsjf0czq",
+        "text": "Connect Bot to your 𝕏 account (just by asking) and you can interact with them via X Chat DMs",
+        "created_at": "2026-10-13T22:40:13.000Z",
+        "imported_at": "2026-10-13T23:00:36.348Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv7ab0xo0007jh06z8rqb9xu",
+        "text": "Lego sets that were researched and bought for me by @Grok @Bot have arrived and Bot automatically stopped checking the shipping status! https://pbs.twimg.com/media/HUi3eh5bIAALdj8.jpg",
+        "created_at": "2026-10-13T22:38:37.000Z",
+        "imported_at": "2026-10-13T23:00:36.348Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv79l7o30009l006iibjegbp",
+        "text": "The more I use Grok @bot, the more I see what it can do and it really is endless. I know this costs money but you really all should be trying it out. Those that say they don't have a use case for it don't understand it's potential or how to use it properly. Or am I wrong?",
+        "created_at": "2026-10-13T22:36:15.000Z",
+        "imported_at": "2026-10-13T22:40:32.019Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv79l7o3000al006t4iln9sl",
+        "text": "@RealNickMugalli Micron has been reasonable regarding future memory prices, while others have been extortionate, which is something today’s customers won’t forget …\n\nMicron is making is the smart move for long-term customer loyalty.",
+        "created_at": "2026-10-13T22:36:00.000Z",
+        "imported_at": "2026-10-13T22:40:32.019Z",
+        "kind": "reply"
+      },
+      {
+        "id": "cmv78vidx0007l006h0wcfrh9",
+        "text": "Big update for Grok Bot! Version 0.70.2 brings some substantial new capabilities to @Bot!\n\nHere's what's new:\n\n• Bots can now claim their own email addresses, receive messages, and send emails with your approval.\n• Bots can search X, read posts, and inspect profiles without connecting an X account.\n• Figma, Notion, Canva, and other apps can display interactive interfaces directly inside chats.\n• Bots can make payments using X Money or Stripe Link.\n• Describe what you need, and Grok Bot can find a matching Bot template.\n• QuickBooks Online integration and improved plugin discovery.\n• Bots can save web pages as PDFs, plus a new Find in Page feature.\n\nThere are also plenty of reliability and safety improvements, including approval checks before irreversible actions like purchases, posting, or deleting data.",
+        "created_at": "2026-10-13T22:15:24.000Z",
+        "imported_at": "2026-10-13T22:20:32.853Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv78p3s90000ig06dmp46hzb",
+        "text": "Grok Bot does my food shopping in less than 3 minutes. \n\nDoing it myself would probably take an hour at the shops or 30 minutes ordering online.\n\n How do I do this? I have a Grok Bot food prep team:\n\n1 - A Meal Organiser that knows the lunches and dinners I like.\n\n2 - A Shopper that fills my grocery cart.\n\n3 - A Cooking Bot that walks me through preparing the meals.\n\nI tell my Chief of Staff how many days I need. The team handles the planning and cart, and I check out myself.\n\nWhen it’s time to cook, I ask for the instructions. My meals take less than 20 minutes.\n\nHere’s the prompt to set up your own food prep team. \n\nStart of prompt-------\n\n“Set up a food prep team for me: three specialist Bots reporting to you, my Chief of Staff.\n\nStart by asking me for any missing details in my food profile. Show me the proposed Bot descriptions before creating them.\n\nMY FOOD PROFILE\n\nDiet: [my diet or dietary goals].\nServings: [how many people each meal should feed].\nNever include: [allergies, intolerances and disliked foods].\nPreferences: [cooking time, budget and ingredient preferences].\nGrocery store: [Add store link].\nMeal bank: [6–10 meals I like, or ask me and suggest some].\n\nSave my confirmed profile for future use.\n\n1 - MEAL ORGANISER\nWhen I tell you how many days and which meals, build a plan from my meal bank.\n\nFollow my food profile. Ask about ingredients I already have so we can avoid buying them again.\n\nReturn the meal plan and one combined shopping list with quantities matched to the number of servings. Include any extras I request.\n\nWait for my approval before handing the list to the Shopper.\n\n2 - SHOPPER\n\nAfter I approve the plan, open my grocery store’s website and fill the cart with the approved shopping list.\n\nPick sensible pack sizes. Check the existing cart before adding items to avoid duplicates.\n\nFor out-of-stock items, choose the closest suitable match within my food profile. Flag anything uncertain rather than guessing, especially where an allergy or dietary restriction is involved.\n\nStop before checkout. Never choose a delivery slot, place the order or pay.\n\nReturn the cart total, substitutions and anything you couldn’t find. I will review the cart and check out myself.\n\n3 - COOKING\n\nWhen I name a meal from the plan, give me simple cooking instructions using the ingredients we selected, including any approved substitutions.\n\nInclude preparation time, cooking time, quantities and steps in order. Explain when to start each component so everything finishes together.\n\nKeep the recipe within my agreed cooking-time preference. Flag any extra preparation needed in advance.\n\nHOW WE WORK TOGETHER\n\nI tell you:\n\n‘Plan 3 days of lunch and dinner, plus these extras: [items].’\n\nYou get the Meal Organiser to draft the plan and show it to me.\n\nAfter my approval, send the shopping list to the Shopper.\n\nReport back when the cart is ready, including anything that needs my attention.\n\nWhen I ask what to cook, use the current plan and get the Cooking Bot to guide me.\n\nFor the initial grocery-store connection, open the website and let me complete the login myself.\n\nConfirm which Bots are created and whether the store is accessible. Tell me if any setup step remains incomplete.”\n\nEnd of prompt-------\n\nThe biggest saving is having fewer everyday decisions to make, then having a team carry them through.",
+        "created_at": "2026-10-13T22:15:03.000Z",
+        "imported_at": "2026-10-13T22:15:33.994Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv78c94i0003l006000jona2",
+        "text": "My wife saw this post (video stolen from @ItsKimJava), now going viral again and asked me about it, so I showed her this 2018 interview clip most people have never seen: @elonmusk ’s side of the Eberhard story, which is crucial context: https://video.twimg.com/amplify_video/2110035811949314048/vid/avc1/500x270/PaE7pDsXkoPZ9aFe.mp4?tag=29",
+        "created_at": "2026-10-13T22:03:55.000Z",
+        "imported_at": "2026-10-13T22:05:34.277Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv78c94i0004l0066vpw3woh",
+        "text": "Don't build alone, apply to join our Grok Bot X Communities https://x.ai/bot/community! We have curated group chats for:\n\n• GTM\n• Product\n• Marketing\n• Engineering\n• Recruiting\n• Design \n\nwhere you can share what you're working on and learn from others using Grok Bot https://pbs.twimg.com/media/HUhTXXLagAA0v7N.png",
+        "created_at": "2026-10-13T22:02:42.000Z",
+        "imported_at": "2026-10-13T22:05:34.277Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv78c94i0002l0069z0c62x1",
+        "text": "Assign Grok @Bot to your phone button for instant access",
+        "created_at": "2026-10-13T22:01:15.000Z",
+        "imported_at": "2026-10-13T22:05:34.277Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv785sdr0000l006hi90cg6c",
+        "text": "All Grok @Bots get their own email address and can help analyze and summarize your email box too",
+        "created_at": "2026-10-13T21:57:28.000Z",
+        "imported_at": "2026-10-13T22:00:32.751Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv785sdr0001l006qsw7ovz7",
+        "text": "Starship 40’s return to base",
+        "created_at": "2026-10-13T21:55:52.000Z",
+        "imported_at": "2026-10-13T22:00:32.751Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv77sy8v000njm069qob835c",
+        "text": "Grok @Bot detects scam emails!",
+        "created_at": "2026-10-13T21:50:02.000Z",
+        "imported_at": "2026-10-13T21:50:33.823Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv77sy8v000rjm06z0l7f91h",
+        "text": "THE 2027 PRESIDENTIAL SUPERINTELLIGENCE CHALLENGE https://video.twimg.com/amplify_video/2110048987625508864/vid/avc1/480x270/FEezFad87PqPYIiD.mp4?tag=29",
+        "created_at": "2026-10-13T21:49:12.000Z",
+        "imported_at": "2026-10-13T21:50:33.823Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv77sy8v000sjm06yua6ykqk",
+        "text": "I asked @grok  @bot  to explain what they are used:\n for here is the result with Grok @imagine . \n\nWho better than Grok Bot to explain what Grok Bots are for!\n\n@elonmusk https://video.twimg.com/amplify_video/2110021767829848065/vid/avc1/476x270/fIqvNyTYq5PBEbyQ.mp4?tag=29",
+        "created_at": "2026-10-13T21:49:01.000Z",
+        "imported_at": "2026-10-13T21:50:33.823Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv77sy8v000tjm0604kx7xvv",
+        "text": "With an abundance of agentic bots, anyone can operate like a CEO—with zero overhead from interviewing, hiring, or assembling top talent. After that, it all comes down to management skills. That’s why who the CEO is still matters.",
+        "created_at": "2026-10-13T21:48:26.000Z",
+        "imported_at": "2026-10-13T21:50:33.823Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv77sy8v000ojm06xbhad2s2",
+        "text": "Starlink brings Internet access to remote places",
+        "created_at": "2026-10-13T21:47:39.000Z",
+        "imported_at": "2026-10-13T21:50:33.823Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv77sy8v000ujm0604wm8kcr",
+        "text": "Grok Bot is really the value for money\n\nIt researches, writes, designs images, edits videos, codes, handles email and runs scheduled tasks 24/7, using the best AI model for each job.\n\nOne app that works like a whole team that never clocks out.\n\nTry @bot! https://pbs.twimg.com/media/HUhZs_HXEAAwy4T.jpg",
+        "created_at": "2026-10-13T21:46:56.000Z",
+        "imported_at": "2026-10-13T21:50:33.823Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv77sy8v000vjm06f5cjq4f5",
+        "text": "Try the Supabase plugin in @bot to monitor, debug, and ship changes to your backend",
+        "created_at": "2026-10-13T21:46:46.000Z",
+        "imported_at": "2026-10-13T21:50:33.823Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv77sy8v000pjm06lmu0ifa9",
+        "text": "Try @Starlink Internet!",
+        "created_at": "2026-10-13T21:46:30.000Z",
+        "imported_at": "2026-10-13T21:50:33.823Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv77sy8v000qjm0677aydr90",
+        "text": "Latest upgrades to Grok @Bot",
+        "created_at": "2026-10-13T21:45:54.000Z",
+        "imported_at": "2026-10-13T21:50:33.823Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv77g3dh000kjm061l537xcg",
+        "text": "I no longer see any compelling reason to believe that taste is some permanent boundary LLMs won’t cross. It’s already happening.",
+        "created_at": "2026-10-13T21:39:50.000Z",
+        "imported_at": "2026-10-13T21:40:33.942Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv77g3dh000ijm06k5hlr2q2",
+        "text": "Cool Grok @Bot use case",
+        "created_at": "2026-10-13T21:39:34.000Z",
+        "imported_at": "2026-10-13T21:40:33.942Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv77g3dh000jjm06z57jz967",
+        "text": "True, this is a very big deal",
+        "created_at": "2026-10-13T21:38:53.000Z",
+        "imported_at": "2026-10-13T21:40:33.942Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv77g3dh000ljm06qg6me8t7",
+        "text": "It’s not that supercomputer data centers are not in high demand, as they definitely are. However, getting money to build complex hardware systems with massive power, cooling & networking is not the same as doing it. \n\nSpaceX has a super cracked team that is outperforming the rest of the world by an order of magnitude in mass to orbit and even we find it very difficult!",
+        "created_at": "2026-10-13T21:35:49.000Z",
+        "imported_at": "2026-10-13T21:40:33.942Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv779mkx000gjm06eo8cd0m9",
+        "text": "The Super Intelligence era is here. 🇺🇸\n\nhttps://SI.gov",
+        "created_at": "2026-10-13T21:32:13.000Z",
+        "imported_at": "2026-10-13T21:35:32.241Z",
+        "kind": "original"
+      },
       {
         "id": "cmv71qane0002l206gxv96cav",
         "text": "🍻 🤣\n\nFunny thing is that I hardly ever drink alcohol!",
