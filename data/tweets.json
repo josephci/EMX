@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-14T19:16:16.161Z",
-  "total": 5009,
+  "last_updated": "2026-10-14T22:23:30.798Z",
+  "total": 5011,
   "by_date": {
     "2026-05-27": [
       {
@@ -34510,6 +34510,20 @@
       }
     ],
     "2026-10-14": [
+      {
+        "id": "cmv8mphqk006dla06wqbchpkd",
+        "text": "Grok Voice is one of our fastest growing segments on API. Exciting to see companies switching to Grok from providers like ElevenLabs, seeing better naturalness across languages and lower cost.\n\nWe just dropped Grok Voice 3.0, which is back at #1 on the AA Speech to Speech Index. Don't sleep on Grok!",
+        "created_at": "2026-10-14T21:32:50.000Z",
+        "imported_at": "2026-10-14T21:35:32.877Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv8mpenu006cla067e0g8eq1",
+        "text": "Grok Voice 3.0 is now the world’s leading conversational voice model",
+        "created_at": "2026-10-14T21:32:41.000Z",
+        "imported_at": "2026-10-14T21:35:28.890Z",
+        "kind": "original"
+      },
       {
         "id": "cmv8g9xva005yla06gkhwxk7j",
         "text": "Try Grok Voice",
