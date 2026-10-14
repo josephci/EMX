@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-14T00:22:55.478Z",
-  "total": 4975,
+  "last_updated": "2026-10-14T05:04:12.502Z",
+  "total": 4987,
   "by_date": {
     "2026-05-27": [
       {
@@ -34506,6 +34506,92 @@
         "text": "Robotaxi improvements",
         "created_at": "2026-10-13T00:30:23.000Z",
         "imported_at": "2026-10-13T00:35:34.285Z",
+        "kind": "original"
+      }
+    ],
+    "2026-10-14": [
+      {
+        "id": "cmv7lx11u0039jv06eikem1yf",
+        "text": "Grok Bot or ChatGPT Dots?\n\nBe honest… https://pbs.twimg.com/media/HUjL8toW0AA4431.jpg",
+        "created_at": "2026-10-14T04:25:26.000Z",
+        "imported_at": "2026-10-14T04:25:38.706Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv7lqgdy001rjv067osvb4um",
+        "text": "Grok @bot has gotten so good lately\n\nIt's a huge difference from just a few weeks ago\n\nIn this video:\n&gt;All the latest Grok Bot updates\n&gt;My top use cases and how my set up looks\n&gt;Can it run autonomous businesses now?\n\nFull breakdown: https://video.twimg.com/amplify_video/2110106272645181441/vid/avc1/480x270/h1CASI22po2GQApr.mp4?tag=29",
+        "created_at": "2026-10-14T04:16:53.000Z",
+        "imported_at": "2026-10-14T04:20:31.990Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv7lqdon001pjv067ufwd2dx",
+        "text": "Grok @Bot can help with complex taxes",
+        "created_at": "2026-10-14T04:16:10.000Z",
+        "imported_at": "2026-10-14T04:20:28.488Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv7lk0u5000xjv06qjwwc4ww",
+        "text": "Today, we’re open sourcing the full NVIDIA Run:ai platform as part of the NVIDIA DSX AI Factory Platform.\n\nDevelopers, platform teams, and partners can build on production-grade AI workloads and GPU orchestration to improve GPU utilization, increase workload throughput, and bring AI factory solutions to market faster.\n\nDeploy the integrated NVIDIA Run:ai platform or adopt individual components to fit your needs.\n\nSee what’s included, how to get started, and how to contribute: https://nvda.ws/4hRTubt",
+        "created_at": "2026-10-14T04:13:13.000Z",
+        "imported_at": "2026-10-14T04:15:31.902Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv7ljyb7000vjv06gy5xbgck",
+        "text": "Timing is everything",
+        "created_at": "2026-10-14T04:12:02.000Z",
+        "imported_at": "2026-10-14T04:15:28.627Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv7ldlkp000ajv06fxh1oiji",
+        "text": "Welcome home! Ship 40 has come full circle, back to where it began in the City of Starbase.",
+        "created_at": "2026-10-14T04:07:23.000Z",
+        "imported_at": "2026-10-14T04:10:32.070Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv7ldlkp000bjv06zaxeainj",
+        "text": "I built a @Grok @Bot that watches $SPCX on its own — fully automated, no manual work.\n\nI’ve been running it for over a month and fine-tuned it several times. This version is very good.\n\nEvery weekday before the market opens, it scans filings, analyst moves, insider buying, X sentiment, Starlink licenses, and space policy. Then it posts a fixed-format brief with links to every source.\n\nSwap the ticker you like or add as many tickers as you wanted → $TSLA, $INTC, $NVDA and others. Same bot, new target.\n\nWhat this Bot will do: \n\n•  ⁠Monitors NASDAQ:SPCX (SpaceX) every weekday before market open\n\n•  ⁠Fixed-format morning brief, even on quiet days\n\n•  ⁠Tracks filings: 10-K, 10-Q, 8-K, 13D, 13F, Form 4\n\n•  ⁠Analyst upgrades, downgrades, and price target changes\n\n•  ⁠Insider buying clusters and named 13F moves\n\n•  ⁠X discussion volume and sentiment spikes\n\n•  ⁠Official posts from @elonmusk, @SpaceX, @spacexai, @grok, @bot\n\n•  ⁠Starlink licenses and spectrum approvals worldwide\n\n•  ⁠Space policy: NASA, Space Force, FCC, export controls\n\n•  ⁠AI and data center news affecting SpaceX\n\n•  ⁠Every item links back to its source\n\n•  ⁠Reports stay in chat — no emails, no spam\n\nhttps://x.ai/bot/awNIyq3TPG4tSKBPqyvO7",
+        "created_at": "2026-10-14T04:06:57.000Z",
+        "imported_at": "2026-10-14T04:10:32.070Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv7ldlkp000cjv06te0ug8zw",
+        "text": "Using this prompt, here’s what @grok @bot returned on a few of my bots. \n\nIncredible. https://pbs.twimg.com/media/HUjIa0dWoAA4Q0w.jpg",
+        "created_at": "2026-10-14T04:06:39.000Z",
+        "imported_at": "2026-10-14T04:10:32.070Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv7ldlkp000djv062z6vbop9",
+        "text": "Send this to your chief of staff @bot : \n\"Get all the bots together and send each one off to improve one thing. Be proactive and impress me, but nothing that needs my permission. Find the gaps I haven't thought of.\"",
+        "created_at": "2026-10-14T04:06:31.000Z",
+        "imported_at": "2026-10-14T04:10:32.070Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv7l73aw0000jv060xhr5agx",
+        "text": "Grok @Bot is awesome",
+        "created_at": "2026-10-14T04:03:55.000Z",
+        "imported_at": "2026-10-14T04:05:28.568Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv7l761f0001jv063ou11c0c",
+        "text": "ask your bot to email tibo@mail.grokbot.com if you want to send in a bug report!",
+        "created_at": "2026-10-14T04:03:22.000Z",
+        "imported_at": "2026-10-14T04:05:32.115Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv7l761f0002jv06i7kxiul4",
+        "text": "it won't be long before \"have your bot talk to my bot\" becomes common!\n\nsome fun use cases of multiplayer grok bot over email could be:\n\n• debugging (you can send my bot bug reports!)\n• customer support\n• booking meetings and events\n• group buys\n• buying and selling stuff off craigslist\n\nwhat have you used bot mail for?",
+        "created_at": "2026-10-14T04:03:14.000Z",
+        "imported_at": "2026-10-14T04:05:32.115Z",
         "kind": "original"
       }
     ]
