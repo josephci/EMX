@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-14T22:23:30.798Z",
-  "total": 5011,
+  "last_updated": "2026-10-15T00:37:07.313Z",
+  "total": 5022,
   "by_date": {
     "2026-05-27": [
       {
@@ -34511,6 +34511,55 @@
     ],
     "2026-10-14": [
       {
+        "id": "cmv8rvvnl006ul206l9fzhpl8",
+        "text": "Grok is the best conversational voice model in the world",
+        "created_at": "2026-10-14T23:58:19.000Z",
+        "imported_at": "2026-10-15T00:00:28.929Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv8rpjcm006fl206isc6s0xj",
+        "text": "BREAKING: SpaceXSI just revealed that Starlink uses Grok Voice 3.0 to handle 20,000 daily calls in multiple languages.\n\nAbout 70% need no human &amp; 1 in 4 sales calls ends in a purchase. AI agent verifies customers, troubleshoots hardware, issues credits &amp; ships replacement. https://pbs.twimg.com/media/HUm2ienbAAA0hP2.jpg",
+        "created_at": "2026-10-14T23:50:46.000Z",
+        "imported_at": "2026-10-14T23:55:33.046Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv8qtayy003bl206pdkpuqfd",
+        "text": "Starlink now available in Curaçao! 🛰️🇨🇼",
+        "created_at": "2026-10-14T23:26:47.000Z",
+        "imported_at": "2026-10-14T23:30:29.195Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv8qtdoi003el206qda43w07",
+        "text": "SpaceX says @Starlink call centers use Grok Voice to answer 20,000 customer calls per day. ~70% are resolved with no human in the loop, and one in four sales calls ends in a purchase before the caller hangs up. Grok Voice 3.0 also handles millions of convos a day in Tesla vehicles.",
+        "created_at": "2026-10-14T23:26:13.000Z",
+        "imported_at": "2026-10-14T23:30:32.706Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv8qtayy003cl206wuyvx617",
+        "text": "Grok @Bot can detect scam emails",
+        "created_at": "2026-10-14T23:26:00.000Z",
+        "imported_at": "2026-10-14T23:30:29.195Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv8qmuwx002ul2068docw705",
+        "text": "Major threshold passed. Almost all cars will be electric in the future.",
+        "created_at": "2026-10-14T23:23:32.000Z",
+        "imported_at": "2026-10-14T23:25:28.450Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv8qggx0002dl206zko8s3jp",
+        "text": "NEW: Joe Rogan slams Democrats for opening the border to 10 million illegal immigrants, lying about Joe Biden's cognitive decline, and COVID tyranny.\n\n“It was insane to just not only leave the border open, but give people instructions on how to get in and also transport them to cities and then put them up in hotels.”\n\n“It seems crazy to have 10 million people of unknown origin enter into your country over a period of four years.”\n\n“Biden wasn’t the president for four years… And then they gaslit us for four years while whoever is behind the scenes, unelected, is actually running the country.”\n\n“I didn’t like the coercion. I didn’t like keeping people from flying… It was all crazy. And to me, that’s what that group stood for.”\n\nHe’s not exaggerating. Biden’s CHNV parole program let in ~530,000 people, and the CBP One app scheduled 900,000+ border entries.\n\nBiden mandated COVID vaccines for federal workers, contractors, the military, and healthcare workers, tried to force them on every company with 100+ employees, and banned unvaccinated foreigners from flying into the US until May 2023.\n\nAll while Democrats and the media gaslit the country, insisting Biden was mentally sharp.",
+        "created_at": "2026-10-14T23:16:31.000Z",
+        "imported_at": "2026-10-14T23:20:30.372Z",
+        "kind": "original"
+      },
+      {
         "id": "cmv8mphqk006dla06wqbchpkd",
         "text": "Grok Voice is one of our fastest growing segments on API. Exciting to see companies switching to Grok from providers like ElevenLabs, seeing better naturalness across languages and lower cost.\n\nWe just dropped Grok Voice 3.0, which is back at #1 on the AA Speech to Speech Index. Don't sleep on Grok!",
         "created_at": "2026-10-14T21:32:50.000Z",
@@ -34760,6 +34809,36 @@
         "text": "it won't be long before \"have your bot talk to my bot\" becomes common!\n\nsome fun use cases of multiplayer grok bot over email could be:\n\n• debugging (you can send my bot bug reports!)\n• customer support\n• booking meetings and events\n• group buys\n• buying and selling stuff off craigslist\n\nwhat have you used bot mail for?",
         "created_at": "2026-10-14T04:03:14.000Z",
         "imported_at": "2026-10-14T04:05:32.115Z",
+        "kind": "original"
+      }
+    ],
+    "2026-10-15": [
+      {
+        "id": "cmv8sf8wc009al206wmyxqdlt",
+        "text": "Meet Grok Voice 3.0! The world's most intelligent speech-to-speech model that also excels in latency and pricing. \n\nThis is the same model that powers voice in Grok @bot, Grok in @Tesla, and @Starlink customer support. Now available to everyone!\n\nExcited to hear what everyone thinks. Time to yap. https://x.com/SpaceXSI/status/2110416580899168305/photo/1",
+        "created_at": "2026-10-15T00:10:48.000Z",
+        "imported_at": "2026-10-15T00:15:32.557Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv8s8t9x008dl206lc8ax34s",
+        "text": "Grok Voice 3.0 in Grok Bot is 🔥\n\nSpaceXSI just launched Grok Voice 3.0, its new speech-to-speech model, which is currently beating GPT Live 1 and Gemini 3.8 Flash Live on all major benchmarks.\n\nI tried it in Grok Bot, and the experience is great. It’s fast, responsive, and makes voice interactions feel much better.",
+        "created_at": "2026-10-15T00:06:48.000Z",
+        "imported_at": "2026-10-15T00:10:32.373Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv8s2di1007jl206999xnqnm",
+        "text": "$SPCX isn't just building compute faster than every other neocloud\n\nIt has something none of them have: OPTIONALITY on every GPU it deploys\n\nEvery GW SpaceX brings online has two paths to revenue:\n\n1. use it for Grok / xAI and capture the frontier model economics themselves, which generates more revenue than renting it out (Semianalysis estimates around $100B/GW)\n\n2. rent it out to everyone else, at a premium\n\nThe reason SpaceX can rent out their compute at a premium is twofold:\n\n1. Speed. SpaceX builds faster than anyone on earth, so they can get compute into customers' hands faster than any competitor. AI labs that need compute NOW pay up for that\n\n2. The backstop. SpaceX can sign short-term contracts at higher prices because if a customer backs out, that compute simply goes to their own AI models. No empty racks, no panic\n\nCoreWeave and Nebius can't take that risk, so they lock in most long-term deals at lower rents and fund the buildout with debt\n\nWhich brings us to funding, which is where the gap between these companies gets even wider\n\nSpaceX doesn't have to fund the buildout (or the interest costs) from compute revenue alone. Starlink and launch cash flows can carry part of it. CoreWeave is paying 15% on unsecured bonds right now while SpaceX has diversified revenue streams across the whole company (and the best capital raiser alive running it)\n\nAnd the part almost nobody is pricing in: as compute moves to space in the next few years, SpaceX owns the cheapest path to win there too. The rockets that bring the compute up AND the connectivity that beams it back down\n\nThat's why the chart above looks the way it does. Bloomberg Intelligence models SpaceX's AI ROIC going from negative 4% in 2026 to ~25% by 2030, above AWS and Google Cloud, while the pure neoclouds stay stuck in single digits\n\nNo one is better positioned to dominate the compute business in the coming years than SpaceX\n\nThis is why I still believe SpaceX is undervalued and why I've made it a core holding in my Milk Road PRO portfolio. You can see my entire real-time portfolio here: https://link.milkroad.com/t5837z",
+        "created_at": "2026-10-15T00:04:49.000Z",
+        "imported_at": "2026-10-15T00:05:31.993Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv8s2di1007kl206cvzpvday",
+        "text": "Grok @bot now supports plus aliases! Send and receive email using dedicated aliases, or set up routines that only trigger for mail to a specific alias! https://pbs.twimg.com/media/HUn9G2SXcAAQsX_.png",
+        "created_at": "2026-10-15T00:02:05.000Z",
+        "imported_at": "2026-10-15T00:05:31.993Z",
         "kind": "original"
       }
     ]
