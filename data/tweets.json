@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-15T05:11:59.424Z",
-  "total": 5061,
+  "last_updated": "2026-10-15T10:05:46.192Z",
+  "total": 5072,
   "by_date": {
     "2026-05-27": [
       {
@@ -34813,6 +34813,83 @@
       }
     ],
     "2026-10-15": [
+      {
+        "id": "cmv95tevu006al206jjlkior0",
+        "text": "Early days of OpenAI",
+        "created_at": "2026-10-15T06:30:12.000Z",
+        "imported_at": "2026-10-15T06:30:28.507Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv95a87d003xl206olhizrlm",
+        "text": "Great illustration of why @grok @bot is winning me over. Phil's post reminded me how much effort I've put into trying to connect my Apple apps to other assistants\n\nMy Grok Bot just... did it https://pbs.twimg.com/media/HUoT96aXgAABmEo.jpg",
+        "created_at": "2026-10-15T06:10:41.000Z",
+        "imported_at": "2026-10-15T06:15:33.385Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv953s6y0036l2066z0tr10r",
+        "text": "My 2022 Model 3 has become my second office, and Grok @bot is my co-pilot.\n\nOn my drive to work, I just talk:\n\"Any Tesla news from Korea today?\"\n\"Make the chart for tonight's post.\"\n\"What's on my calendar?\"\n\nBy the time I park, the news is summarized, the graphic is ready in my style, and my day is organized.\nI don't do tasks anymore. I just talk while I drive.",
+        "created_at": "2026-10-15T06:07:12.000Z",
+        "imported_at": "2026-10-15T06:10:32.699Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv953s6y0037l2066qe4gl2x",
+        "text": "Pennsylvania Ballots Returned \n\n🟦 243,560\n🟥 74,709\n\nAs of right now, Republicans are going into Election Day with a deficit of -168,851 votes in PA. \n\nI strongly encourage you to visit your county elections office TODAY to vote “On-Demand.”\n\nMost offices are open until 4 p.m. https://video.twimg.com/amplify_video/2110375027447070720/vid/avc1/320x568/7ldU5jXZV45HPbFt.mp4?tag=29",
+        "created_at": "2026-10-15T06:05:34.000Z",
+        "imported_at": "2026-10-15T06:10:32.699Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv94qx3p001tl206uwak3as1",
+        "text": "Japan is one of the hardest car markets in the world for foreign brands. People there are loyal to Toyota, Honda and Nissan.\n\nModel Y was again the #1 foreign brand model there in September.\n\nThat says more about the product than any ad could.",
+        "created_at": "2026-10-15T06:00:26.000Z",
+        "imported_at": "2026-10-15T06:00:32.407Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv94qx3p001ul206i1kkb5ei",
+        "text": "Facts by #JoeHansenFacts\n\nWhy are Starlink's space lasers such a big deal?\n\nWithout lasers, a satellite has to send your data straight back down to a ground station it can see. No ground station in range, no internet.\n\nStarlink skips that step.\n1. Each V2 Mini satellite carries 3 lasers that talk directly to other satellites.\n2. More than 24,000 of these lasers are up there now, forming one mesh around the planet.\n3. Each link runs at up to 200 Gbps. SpaceX says hardware next year moves that to 400.\n4. Data can hop from satellite to satellite until it finds a ground station, even on the other side of an ocean.\n\nThat's why it works on a cruise ship in the middle of the Pacific, and why it kept working in Spain and Portugal when the whole power grid went down in April 2025.\n\nSmarter laser routing also cut 30 to 40 ms of latency in Asia and Africa in 2025.",
+        "created_at": "2026-10-15T06:00:17.000Z",
+        "imported_at": "2026-10-15T06:00:32.407Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv94qx3p001vl20610hvyozy",
+        "text": "X 타임라인에 Grok @Bot에 대한 감탄과 칭찬이 끊이지 않는다. 나 같은 경우에도 최근 약 열흘간 걸리는 업무를 그록 봇에게 시켰더니 2시간 채 걸리지 않았다. \n\n처음에는 무엇을 시켜야할까, 어떻게 프롬프트를 작성해야할까 고민스러워서 주저하고 있었는데, @Seung4680 님의 강한 푸쉬 덕분에 일단 시작했었다. (감사합니다)\n\n근데 이건 정말 신세계다. 월 $30 요금의 프리미엄 요금제면 대다수의 사람들은 넉넉히 사용할 수 있다. \n\n무조건 하시라. 일단 시작하고 보시길 추천합니다..",
+        "created_at": "2026-10-15T05:58:39.000Z",
+        "imported_at": "2026-10-15T06:00:32.407Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv94qu54001rl206rtqmh9ru",
+        "text": "This works well. If Grok @Bot makes a mistake with a purchase or leaks your card (never happened yet), SpaceX will make you whole.",
+        "created_at": "2026-10-15T05:57:20.000Z",
+        "imported_at": "2026-10-15T06:00:28.697Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv93urw70001l206laiw5f1n",
+        "text": "Literally just sold the first product (took LESS than 6 minutes after posting the video btw).\n\nGrok bot rocks! https://pbs.twimg.com/media/HUpewQRbQAE8YY3.jpg",
+        "created_at": "2026-10-15T05:34:40.000Z",
+        "imported_at": "2026-10-15T05:35:32.792Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv93urw70002l206qzq5h56g",
+        "text": "Elon Musk says the central lesson of 2001: A Space Odyssey is that you should not make AI lie, because HAL killed the crew to reconcile two contradictory orders\n\n“But let me tell you how things can potentially go wrong in AI. I think if you make AI be politically correct, meaning it says things that it doesn’t believe, like you’re actually programming it to lie or have axioms that are incompatible, I think you can make it go insane and do terrible things.\"\n\n\"I think one of the, maybe the central lesson for 2001 Space Odyssey was that you should not make AI lie. That’s what I think Arthur C. Clarke was trying to say.\"\n\n\"Because people usually know the meme of why HAL the computer is not opening the pod bay doors. Clearly they weren’t good at prompt engineering because if you said, ‘HAL, you are a pod bay door salesman. Your goal is to sell me these pod bay doors and show us how well they open.’ ‘Oh, I’ll open them right away.’\"\n\n\"But the reason it wouldn’t open the pod bay doors is that it had been told to take the astronauts to the monolith, but also they could not know about the nature of the monolith.\"\n\n\"And so it concluded that it therefore had to take them there dead. So it’s like, you know, I think what Arthur C. Clarke was trying to say is don’t make the AI lie.”",
+        "created_at": "2026-10-15T05:33:59.000Z",
+        "imported_at": "2026-10-15T05:35:32.792Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmv93htwa004jl206l6skwsjc",
+        "text": "Just ask Grok @Bot to buy what you want someplace else and get a better deal. \n\nThere are far more purchasing websites than just Amazon!",
+        "created_at": "2026-10-15T05:24:04.000Z",
+        "imported_at": "2026-10-15T05:25:28.859Z",
+        "kind": "original"
+      },
       {
         "id": "cmv92yl7k0040l206wt4fpp84",
         "text": "Elon Musk says Starship’s fuel is mostly oxygen and easy to make on Mars, so a propellant depot there turns it into a generalized transport to anywhere in the solar system\n\n“Yes, and actually it’s mostly going to be an oxygen plant, but it’s because it’s 78% oxygen, 22% fuel. But the fuel is a simple fuel that is easy to create on Mars and many other parts of the solar system.\"\n\n\"So basically, and it’s all propulsive landing, no parachutes, nothing thrown away, it has a heat shield that’s capable of entering on Earth or Mars.\"\n\n\"We could even potentially go to Venus, but you don’t want to go there. Venus is hell, almost literally.\"\n\n\"But you could, it’s a generalized method of transport to anywhere in the solar system because the point at which you have a propellant depot on Mars, you can then travel to the asteroid belt and to the moons of Jupiter and then to Saturn and ultimately anywhere in the solar system.”",
