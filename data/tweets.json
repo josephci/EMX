@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-15T22:06:51.502Z",
-  "total": 5105,
+  "last_updated": "2026-10-16T00:19:08.347Z",
+  "total": 5110,
   "by_date": {
     "2026-05-27": [
       {
@@ -34813,6 +34813,41 @@
       }
     ],
     "2026-10-15": [
+      {
+        "id": "cmva6m0cg001ajn06uzqcrngn",
+        "text": "Maybe more than 10GW",
+        "created_at": "2026-10-15T23:36:46.000Z",
+        "imported_at": "2026-10-15T23:40:28.865Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmva6m3qj001djn0661o3egze",
+        "text": "NVIDIA CEO Jensen Huang on Elon Musk’s AI buildout:\n\n“He’s moved from the K’s to the M’s.”\n\nNVIDIA has moved Elon’s AI business from its enterprise category into its cloud service provider category.\n\n“They’re massive.” https://video.twimg.com/amplify_video/2110806957502451712/vid/avc1/480x270/e6B_ggd9BSpwmTni.mp4?tag=29",
+        "created_at": "2026-10-15T23:35:48.000Z",
+        "imported_at": "2026-10-15T23:40:33.260Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmva5053i006vjp064tf9g837",
+        "text": "Never seen anything grow as fast as @Grok @Bot!\n\nAnd there is no free tier, which means people are deriving real value in excess of what they pay. \n\nAs the saying goes, you get what you pay for.",
+        "created_at": "2026-10-15T22:52:49.000Z",
+        "imported_at": "2026-10-15T22:55:28.974Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmva4tx6k006ejp06ags5nudt",
+        "text": "Grok @Bot improves significantly every day",
+        "created_at": "2026-10-15T22:50:25.000Z",
+        "imported_at": "2026-10-15T22:50:38.778Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmva4ne92005mjp068gef649w",
+        "text": "Today's the day 🔥 The Roadster unveil is tonight, and the FAA just locked down the sky over SpaceX's McGregor site from this morning through Oct 31, ground to 5,000 ft within 1.5 nautical miles, with SpaceX as the point of contact.\n\nA 16-day closure tells you tonight's show is only the beginning of what's being tested out there.",
+        "created_at": "2026-10-15T22:42:25.000Z",
+        "imported_at": "2026-10-15T22:45:34.310Z",
+        "kind": "original"
+      },
       {
         "id": "cmva31f6u0000jp06b4h3yw8w",
         "text": "Ask your @Grok @Bot to remove your phone number from spam call &amp; text lists!",
