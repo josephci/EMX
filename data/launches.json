@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-10-16T00:19:08.026Z",
+  "last_updated": "2026-10-16T04:43:44.689Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-481",
       "net": "2026-10-16T00:01:05Z",
-      "status": "In Flight",
+      "status": "Success",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
     },
