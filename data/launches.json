@@ -1,13 +1,6 @@
 {
-  "last_updated": "2026-10-16T23:26:12.736Z",
+  "last_updated": "2026-10-17T01:23:20.677Z",
   "launches": [
-    {
-      "name": "Falcon 9 Block 5 | USSF-481",
-      "net": "2026-10-16T00:01:05Z",
-      "status": "Success",
-      "pad": "Space Launch Complex 4E",
-      "location": "Vandenberg SFB, CA, USA"
-    },
     {
       "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
       "net": "2026-10-19T10:30:00Z",
@@ -84,6 +77,13 @@
       "status": "TBD",
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer A",
+      "net": "2026-12-31T00:00:00Z",
+      "status": "TBD",
+      "pad": "Space Launch Complex 4E",
+      "location": "Vandenberg SFB, CA, USA"
     }
   ]
 }
