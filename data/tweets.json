@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-18T17:32:52.245Z",
-  "total": 5241,
+  "last_updated": "2026-10-18T19:41:05.425Z",
+  "total": 5244,
   "by_date": {
     "2026-05-27": [
       {
@@ -36170,6 +36170,27 @@
       }
     ],
     "2026-10-18": [
+      {
+        "id": "cmve4lwx2001bjt06q14hgmuz",
+        "text": "Try Grok @Bot",
+        "created_at": "2026-10-18T17:50:43.000Z",
+        "imported_at": "2026-10-18T17:55:29.895Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmve494r80064l306une2ia14",
+        "text": "Elon says connecting Grok Bot to your X DMs is the best way to use it\n\nand it shipped in the same update that made it 3x FASTER\n\nthe part crypto people should care about:\n\n> Robinhood, Coinbase and eToro connectors just went live\n> it reads your X Chat, so deal DMs and collab offers get sorted for you\n> tag @bot under any post to dig into a project before you ape\n> email aliases: one routine per inbox, launches in one, invoices in another\n\nMy read: speed gets the headline, but the connectors are why I'm keeping it on all day",
+        "created_at": "2026-10-18T17:43:06.000Z",
+        "imported_at": "2026-10-18T17:45:33.525Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmve494r80065l306izh8u9d3",
+        "text": "They took out the iconic Hermès Store in Marseilles 😳 https://pbs.twimg.com/media/HU2lj5XXAAEPCLS.jpg",
+        "created_at": "2026-10-18T17:42:13.000Z",
+        "imported_at": "2026-10-18T17:45:33.525Z",
+        "kind": "original"
+      },
       {
         "id": "cmve36jqk001cl30628twwf7l",
         "text": "China is building around 69 power semiconductor fabs (under construction, planned, or ramping) across 58 suppliers\n15 are planned, 29 are under construction, and 25 are ramping up production https://pbs.twimg.com/media/HU4s4tiakAA1xOp.jpg",
