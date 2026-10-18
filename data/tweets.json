@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-17T23:12:54.430Z",
-  "total": 5210,
+  "last_updated": "2026-10-18T01:12:52.730Z",
+  "total": 5214,
   "by_date": {
     "2026-05-27": [
       {
@@ -35973,6 +35973,13 @@
     ],
     "2026-10-17": [
       {
+        "id": "cmvd14wht002fk006mp13ytr3",
+        "text": "Invasion update from France:",
+        "created_at": "2026-10-17T23:25:27.000Z",
+        "imported_at": "2026-10-17T23:30:31.170Z",
+        "kind": "original"
+      },
+      {
         "id": "cmvcx0ypz007hlb06o3sa22so",
         "text": "True",
         "created_at": "2026-10-17T21:34:45.000Z",
@@ -36159,6 +36166,29 @@
         "text": "Anomalies in the matrix are inevitable",
         "created_at": "2026-10-17T04:24:47.000Z",
         "imported_at": "2026-10-17T04:25:28.932Z",
+        "kind": "original"
+      }
+    ],
+    "2026-10-18": [
+      {
+        "id": "cmvd2xade0007le06e8p4wl6y",
+        "text": "How do I stay optimistic while reading 100+ stories a week (Including the negative ones)? For me, optimism is a conclusion that I can keep re-deriving from evidence. Perhaps once the data proves me wrong, I'll change; however, forty years in, I've never been this excited about the future.",
+        "created_at": "2026-10-18T00:18:27.000Z",
+        "imported_at": "2026-10-18T00:20:35.138Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvd2xade0008le06g8ygaqb9",
+        "text": "I placed an ordered a dress for a black tie event via @bot. \n\nIt was never delivered (thanks @DHLGlobal). \n\nBot submitted a refund request to the company, including contacting the DHL. \n\nBot tracked the delivery, followed up with the merchant and just now notified me that the refund appeared back on my credit card. \n\nIt’s automating the worst part the shopping experience: refunds & returns.",
+        "created_at": "2026-10-18T00:16:45.000Z",
+        "imported_at": "2026-10-18T00:20:35.138Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvd2x6de0006le0651s6ggsl",
+        "text": "This really works! \n\nGrok @Bot can pay for itself.",
+        "created_at": "2026-10-18T00:16:22.000Z",
+        "imported_at": "2026-10-18T00:20:29.843Z",
         "kind": "original"
       }
     ]
