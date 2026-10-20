@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-10-20T10:11:13.657Z",
+  "last_updated": "2026-10-20T15:11:56.346Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
       "net": "2026-10-20T11:04:00Z",
-      "status": "Go",
+      "status": "Success",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA"
     },
@@ -26,6 +26,13 @@
       "name": "Falcon 9 Block 5 | Starlink Group 15-18",
       "net": "2026-10-28T04:31:00Z",
       "status": "Go",
+      "pad": "Space Launch Complex 4E",
+      "location": "Vandenberg SFB, CA, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | NROL-195",
+      "net": "2026-11-05T22:34:00Z",
+      "status": "TBC",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
     },
@@ -76,13 +83,6 @@
       "net": "2026-12-31T00:00:00Z",
       "status": "TBD",
       "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA"
-    },
-    {
-      "name": "Falcon 9 Block 5 | CHORUS",
-      "net": "2026-12-31T00:00:00Z",
-      "status": "TBD",
-      "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA"
     }
   ]
