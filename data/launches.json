@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-21T00:42:27.869Z",
+  "last_updated": "2026-10-21T05:19:06.886Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
@@ -10,7 +10,7 @@
     },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-      "net": "2026-10-21T21:59:00Z",
+      "net": "2026-10-21T23:02:41Z",
       "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
