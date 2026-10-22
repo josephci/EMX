@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-22T19:56:53.943Z",
-  "total": 5409,
+  "last_updated": "2026-10-22T23:11:28.854Z",
+  "total": 5410,
   "by_date": {
     "2026-05-27": [
       {
@@ -37242,6 +37242,13 @@
       }
     ],
     "2026-10-22": [
+      {
+        "id": "cmvk5kfn100z7l808hsq9rlzs",
+        "text": "Grok Bot can now use your 1Password account.\n\nApprove the logins you want to share, and your Bot signs in for you. This new integration is rolling out to users over the next few days. https://pbs.twimg.com/media/HVQQZf0WEAEiKR_.jpg",
+        "created_at": "2026-10-22T23:02:58.000Z",
+        "imported_at": "2026-10-22T23:08:57.517Z",
+        "kind": "original"
+      },
       {
         "id": "cmvjxnzwe003pjt07gfpapbqq",
         "text": "Ron Baron has been investing for 56 years. He just said he has never seen a company like SpaceX. Not one.\n\nHe made his clients 15 billion dollars on it. He gave up 3 billion of his own profit to keep his shares. His frame: I do not want Elon to think about us as someone he gave stock to who sold the first chance they got.\n\nThe numbers Baron threw out are the ones nobody is modeling.\n\nSpaceX sold capacity to Anthropic at $1.25 billion a month for 18 months straight. $15 billion a year. Then Google came in asking for compute. Elon said here is what I have left. $900 million a month.\n\nThat is 25 billion a year on just the compute slice.\n\nAnd then: \"The economy doubles every 10 years. Elon thinks instead of doubling we're about to grow 10 times every 10 years.\"\n\n56 years. Never seen one like this.",
