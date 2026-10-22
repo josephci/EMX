@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-22T00:53:58.117Z",
-  "total": 5360,
+  "last_updated": "2026-10-22T05:57:09.640Z",
+  "total": 5361,
   "by_date": {
     "2026-05-27": [
       {
@@ -37218,6 +37218,15 @@
         "created_at": "2026-10-21T04:57:57.000Z",
         "imported_at": "2026-10-21T05:00:31.982Z",
         "kind": "original"
+      }
+    ],
+    "2026-10-22": [
+      {
+        "id": "cmviv4br20000jv08t7gbixl9",
+        "text": "@jamestalarico In your own words …",
+        "created_at": "2026-10-22T01:22:04.000Z",
+        "imported_at": "2026-10-22T01:28:43.646Z",
+        "kind": "reply"
       }
     ]
   },
