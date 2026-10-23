@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-23T01:38:21.977Z",
-  "total": 5414,
+  "last_updated": "2026-10-23T06:28:22.261Z",
+  "total": 5427,
   "by_date": {
     "2026-05-27": [
       {
@@ -37573,6 +37573,97 @@
       }
     ],
     "2026-10-23": [
+      {
+        "id": "cmvkjzm43014yl3087wfawo8y",
+        "text": "Try Grok @Bot",
+        "created_at": "2026-10-23T05:50:22.000Z",
+        "imported_at": "2026-10-23T05:52:40.371Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvkjzm43014zl308foryi9p0",
+        "text": "Talarico supports voting fraud",
+        "created_at": "2026-10-23T05:50:00.000Z",
+        "imported_at": "2026-10-23T05:52:40.371Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvkjzolo015al308vqgad0pp",
+        "text": "BREAKING: American Airlines CEO Robert Isom says @Starlink is the best product in the marketplace.\n\n“Our customers, they want connectivity, they demand it. We are going to make sure that our customers have the best product in the marketplace, Starlink.” https://video.twimg.com/amplify_video/2113318389531992064/vid/avc1/452x270/iCl5_uYHyDHldHGR.mp4?tag=29",
+        "created_at": "2026-10-23T05:49:20.000Z",
+        "imported_at": "2026-10-23T05:52:43.596Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvkjseg100yxl308s0xdvean",
+        "text": "Grok Bot can now use Calendar, Reminders, Contacts, and more apps on your phone.\n\nRolling out now on iOS and Android. https://pbs.twimg.com/media/HVRHn--W4AAI_uQ.jpg",
+        "created_at": "2026-10-23T05:45:30.000Z",
+        "imported_at": "2026-10-23T05:47:03.841Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvkjseg100yyl3088nkyhsuc",
+        "text": "Grok Bot 0.75.2 is awesome.\n\nSpaceXSI is moving fast with new features daily.",
+        "created_at": "2026-10-23T05:44:58.000Z",
+        "imported_at": "2026-10-23T05:47:03.841Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvkjseg100yzl308jns7kibp",
+        "text": "Intel CTO explains why Intel is helping Elon Musk build Terafab, and what a new fab needs besides tools\n\nDWARKESH: “I think it’ll be interesting to discuss the partnership you guys have with Elon on Terafab. What’s going on there?”\n\nPUSHKAR RANADE (CTO): “Well, I think Elon’s publicly talked about his desire to build a fab.”\n\n[Musk clip spliced in]: “We either build the Terafab or we don’t have the chips. And we need the chips, so we’re going to build the Terafab.”\n\nRANADE: “Sort of the same thinking. I think he’s seeing just an enormous increase in demand for silicon, for compute and for memory. And I think he came to the conclusion that his own businesses are going to require a lot of silicon. And so he thought maybe he should just do it all on his own. Unlike building a car, for example, this is such an intricate and complicated process. We thought we could work together to help accelerate his bringing up his fab.”\n\nDWARKESH: “But because of the bottleneck at the tool level, it seems like the net amount of silicon in the world won’t increase. It’s just that maybe if somebody were to start a new fab, they would get access to guaranteed supply in a way that they wouldn’t have if they’re working with another person’s foundry.”\n\nRANADE: “It’s actually not just tools. I mean, a fab does require a lot of power, a lot of water, a lot of consumables. There’s many other input variables as well.”\n\nDWARKESH: “But those can be scaled in the way that tools cannot.”\n\nRANADE: “Yea. Some more than others, but yes. In one sense, yes, we need a lot more equipment. But it is true, we also need a lot more just raw fab space, raw clean room capacity.”",
+        "created_at": "2026-10-23T05:44:13.000Z",
+        "imported_at": "2026-10-23T05:47:03.841Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvkjseg100z0l308y4bv7bct",
+        "text": "You can tell a lot about James Talarico by who he compares to al Qaeda and the Taliban—roughly half of American voters \n\nTexas, please don’t send Mr. Talarico to the U.S. Senate",
+        "created_at": "2026-10-23T05:43:44.000Z",
+        "imported_at": "2026-10-23T05:47:03.841Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvkjseg100z1l3088aym8xu7",
+        "text": "I asked Grok Bot to make a video about itself. \n\nIt did everything - set the storyline, found clips, cut and stitched them, and added the titles and music.\n\nI was particularly delighted by how it chose to end the video - @bot has a sense of humor 😂 https://video.twimg.com/amplify_video/2113426813401911296/vid/avc1/480x270/mElIE5kzBHBUA6YK.mp4?tag=29",
+        "created_at": "2026-10-23T05:43:14.000Z",
+        "imported_at": "2026-10-23T05:47:03.841Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvkjscdp00ynl3086sxbhre1",
+        "text": "Grok @Bot is an incredible life &amp; business manager. Can help you with almost anything!\n\nLike having a genius employee.",
+        "created_at": "2026-10-23T05:42:16.000Z",
+        "imported_at": "2026-10-23T05:47:01.165Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvkjira500q5l308zop13p41",
+        "text": "Capitalism has a win condition. Socialism does not.\n\nHere's why, explained so simply a 10-year-old could get it. \n\nIt starts with a book written in 1944 by an Austrian economist named Friedrich Hayek: The Road to Serfdom. https://video.twimg.com/amplify_video/2113265740790857728/vid/avc1/320x568/XIUF0YCVAzAhVj1z.mp4?tag=29",
+        "created_at": "2026-10-23T05:34:15.000Z",
+        "imported_at": "2026-10-23T05:39:33.917Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvkiwsgd00ehl3086n65vcia",
+        "text": "I don’t think people realize what Elon Musk is actually doing.\n\nHe’s not playing the game better than everyone else. He’s rewriting the rules of the game.\n\nEvery billionaire before him was offered the same deal: money for aura, silence for respectability. They all took it. He walked out.\n\nI made a 4-minute video on the machine he’s fighting. Watch it before it gets buried. https://x.com/brivael/status/2113221175459324041/video/1",
+        "created_at": "2026-10-23T05:17:50.000Z",
+        "imported_at": "2026-10-23T05:22:29.005Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvkijjis008tl308n2gzae85",
+        "text": "33 of the 34 deadliest cities in America have Democrat mayors. \n\nDallas is the only one that doesn’t. \nNew Orleans, Baltimore, Memphis, Detroit, DC, all of them. \n\nThe national average is 6.3. \n\nThey own the slaughter. https://pbs.twimg.com/media/HVRDZlaWoAAZyMq.jpg",
+        "created_at": "2026-10-23T05:11:35.000Z",
+        "imported_at": "2026-10-23T05:12:10.900Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvkg1kbc00h8l908p8s4d7ol",
+        "text": "Grok Bot team shipped in the last few days:\n\n• Reports, memos, dashboards in the chat\n• iPhone action button to talk to Bot\n• 3x faster computer tasks\n• Aliases for your Bot email\n• Connectors for Robinhood, Coinbase, Runway\n• Notifications only on the device you're using",
+        "created_at": "2026-10-23T03:59:58.000Z",
+        "imported_at": "2026-10-23T04:02:12.888Z",
+        "kind": "original"
+      },
       {
         "id": "cmvkavs0k0000l808zj3io1v7",
         "text": "It’s that easy",
