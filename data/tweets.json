@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-24T23:24:28.311Z",
-  "total": 5498,
+  "last_updated": "2026-10-25T01:19:54.440Z",
+  "total": 5503,
   "by_date": {
     "2026-05-27": [
       {
@@ -38189,6 +38189,43 @@
         "text": "Grok @Bot saves sensitive info in a vault",
         "created_at": "2026-10-24T00:54:17.000Z",
         "imported_at": "2026-10-24T00:57:39.451Z",
+        "kind": "original"
+      }
+    ],
+    "2026-10-25": [
+      {
+        "id": "cmvn51p8q0115jp081rl5cjo0",
+        "text": "True",
+        "created_at": "2026-10-25T01:16:24.000Z",
+        "imported_at": "2026-10-25T01:17:42.027Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvn4vk6500q6jp08b8e0ms5n",
+        "text": "Talarico is a far left extremist",
+        "created_at": "2026-10-25T01:09:05.000Z",
+        "imported_at": "2026-10-25T01:12:55.517Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvn45cah038clc08rhmx6xf8",
+        "text": "We finally get flying cars, and somehow that's fascist too. Imagine being so poisoned by the internet that you can’t enjoy anything anymore. https://video.twimg.com/amplify_video/2114153380415471617/vid/avc1/480x270/068ldy0muLfVy0fd.mp4?tag=29",
+        "created_at": "2026-10-25T00:47:26.000Z",
+        "imported_at": "2026-10-25T00:52:32.250Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvn3xo83032nlc08lnromvfe",
+        "text": "“I have nothing but UTTER CONTEMPT for the virtue-signaling evil warmongers who push for endless slaughter and offer no realistic solution to the conflict. May you burn in hell.” 🔥",
+        "created_at": "2026-10-25T00:45:49.000Z",
+        "imported_at": "2026-10-25T00:46:34.457Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvn3kupq02melc08otpibq0s",
+        "text": "Tribalism becomes far more dangerous whenever one “tribe” decides that it can’t coexist peacefully with the other.",
+        "created_at": "2026-10-25T00:36:18.000Z",
+        "imported_at": "2026-10-25T00:36:36.344Z",
         "kind": "original"
       }
     ]
