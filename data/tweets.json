@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-25T23:08:50.790Z",
-  "total": 5551,
+  "last_updated": "2026-10-26T01:21:24.367Z",
+  "total": 5554,
   "by_date": {
     "2026-05-27": [
       {
@@ -38562,6 +38562,29 @@
         "text": "Tribalism becomes far more dangerous whenever one “tribe” decides that it can’t coexist peacefully with the other.",
         "created_at": "2026-10-25T00:36:18.000Z",
         "imported_at": "2026-10-25T00:36:36.344Z",
+        "kind": "original"
+      }
+    ],
+    "2026-10-26": [
+      {
+        "id": "cmvoint3w037ukw08p1qdnzja",
+        "text": "Starship Flight 15 static fire",
+        "created_at": "2026-10-26T00:26:18.000Z",
+        "imported_at": "2026-10-26T00:26:34.643Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvoih4wx02ydkw088wctohni",
+        "text": "I’m so tired of people who don’t build talking about seizing companies and wealth from those who do.\n\nDemocrats want to seize SpaceX because he’s a larger billionaire than all of their billionaires. \n\nThey don’t like that he can outspend their billionaires. https://video.twimg.com/amplify_video/2114468630260056064/vid/avc1/320x568/vSWa3Iy7fWcrJ_wH.mp4?tag=29",
+        "created_at": "2026-10-26T00:17:13.000Z",
+        "imported_at": "2026-10-26T00:21:23.356Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvohso3a022nkw0845m5198p",
+        "text": "True",
+        "created_at": "2026-10-26T00:00:09.000Z",
+        "imported_at": "2026-10-26T00:02:21.815Z",
         "kind": "original"
       }
     ]
