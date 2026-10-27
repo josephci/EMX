@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-27T02:09:58.854Z",
-  "total": 5597,
+  "last_updated": "2026-10-27T08:01:55.979Z",
+  "total": 5612,
   "by_date": {
     "2026-05-27": [
       {
@@ -38887,6 +38887,113 @@
         "created_at": "2026-10-26T00:00:09.000Z",
         "imported_at": "2026-10-26T00:02:21.815Z",
         "kind": "original"
+      }
+    ],
+    "2026-10-27": [
+      {
+        "id": "cmvqc2emu014ul50888gnbm9d",
+        "text": "Everyone should have at least a few penchants",
+        "created_at": "2026-10-27T06:53:35.000Z",
+        "imported_at": "2026-10-27T06:57:30.774Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvqaz67904yul2087s91qirn",
+        "text": "He’s right",
+        "created_at": "2026-10-27T06:26:51.000Z",
+        "imported_at": "2026-10-27T06:27:00.261Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvqaz88f04zwl208q8eco25z",
+        "text": "Well.",
+        "created_at": "2026-10-27T06:26:25.000Z",
+        "imported_at": "2026-10-27T06:27:02.895Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvq7xtbl00vgl208bcavcvzs",
+        "text": "I see how some people can watch flashy robot demos on the timeline and think with a shiver that the robot apocalypse is around the corner, but reality check:\n\nThere is no robot in the world that can change the batteries in a jack-o-lantern.\n\nIf you have a robot friendly door handle it might be able to walk outside, pick it up, and carry it back inside. The robot could open the drawer with your batteries in it, but then things get tough.\n\nOpening the package of AA batteries?\nExtracting a precision screwdriver from its case?\nUnscrewing four tiny screws that require a hard press and twist?\nPopping batteries out of the case?\n\nYes, you could build and train a specialist robot to do that today, but there is a very long way to go to replace the full range of human capabilities. Near term doomer scenarios should stop at “secretly controlling humanity” instead of “wiping humanity out” 😀",
+        "created_at": "2026-10-27T04:59:21.000Z",
+        "imported_at": "2026-10-27T05:01:58.066Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvq7xr9u00uel208lp6w0292",
+        "text": "Cute 🥰",
+        "created_at": "2026-10-27T04:56:59.000Z",
+        "imported_at": "2026-10-27T05:01:55.411Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvq73du80579kz08l5vy2w4t",
+        "text": "Just published a Grok @Bot to remove my number from spam call lists and one to remove my personal info from public sites \n\nCall list remover: https://x.ai/bot/eGVcE2autG0u6UcAwE3py\n\nPrivacy scrubber: https://x.ai/bot/ZSQK72Iear_ykfnpTIOHQ\n\nTook seconds to set up. https://pbs.twimg.com/media/HVnC18ZXUAAsVnC.jpg",
+        "created_at": "2026-10-27T04:35:01.000Z",
+        "imported_at": "2026-10-27T04:38:18.311Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvq73du8057akz08d7h7sz5p",
+        "text": "Texas parents need to understand how serious this election is.\n\nIf you refuse to “affirm” your child’s trans identity, Democrat James Talarico thinks you should be charged with child abuse.\n\nHe voted for a law in the state legislature that would do this, it’s exactly what he would do in the Senate.\n\nThis is insane.\n https://x.com/LoneStar_PAC/status/2099492778958782653/video/1",
+        "created_at": "2026-10-27T04:34:49.000Z",
+        "imported_at": "2026-10-27T04:38:18.311Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvq6q28t04opkz08vnlbn98e",
+        "text": "A Storm of Cybercabs",
+        "created_at": "2026-10-27T04:24:06.000Z",
+        "imported_at": "2026-10-27T04:27:56.766Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvq60pl603tnkz08adyda0eq",
+        "text": "🤭",
+        "created_at": "2026-10-27T04:03:54.000Z",
+        "imported_at": "2026-10-27T04:08:13.962Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvq5v68e03m9kz08d1fba3e1",
+        "text": "Sounds like Alex P🍆 knows a thing or two about being investigated 🤔",
+        "created_at": "2026-10-27T04:02:08.000Z",
+        "imported_at": "2026-10-27T04:03:55.598Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvq5v84303nbkz08lq50za13",
+        "text": "This makes no sense when you realize all of the top round 1 candidates were right wing",
+        "created_at": "2026-10-27T03:59:43.000Z",
+        "imported_at": "2026-10-27T04:03:58.036Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvq5nesw03b3kz08i8ppty3s",
+        "text": "Holy f*ck, Elon Musk's team at spacexai just dropped a full spam killer inside Grok Bot, and it's free\n\nDeleteMe charges $129 a year to pull your number off spam lists\n\nGrok Bot does it for $0\n\nIt finds your number on people-search sites, files every opt-out, clicks the confirmation emails and checks again every month\n\nAdd the free Spam-Call Scrubber skill, then say these 3 lines once:\n\n1. \"Find every site that lists my phone number and home address\"\n2. \"File the opt-out on each one and finish the confirmation emails\"\n3. \"Check again on the 1st of every month and tell me what came back\"\n\nSay line 1 tonight\n\nThen read how to wire it into a team that never sleeps in the article below ↓",
+        "created_at": "2026-10-27T03:56:10.000Z",
+        "imported_at": "2026-10-27T03:57:53.457Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvq5nesw03b4kz08trta0m78",
+        "text": "10x safer to not-drive FSD than to drive a non-Tesla. What are you waiting for, Europe? Save lives!",
+        "created_at": "2026-10-27T03:55:15.000Z",
+        "imported_at": "2026-10-27T03:57:53.457Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvq2raqo04tild07esucrqp1",
+        "text": "In free nations, we investigate crimes to see who is guilty of them. \n\nIn communist tyrannies, they investigate men to see what they can be punished for.",
+        "created_at": "2026-10-27T02:32:54.000Z",
+        "imported_at": "2026-10-27T02:36:55.968Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvq2raqo04tjld07u0ouzhxc",
+        "text": "@SenAlexPadilla Investigate your wiener",
+        "created_at": "2026-10-27T02:32:28.000Z",
+        "imported_at": "2026-10-27T02:36:55.968Z",
+        "kind": "reply"
       }
     ]
   },
