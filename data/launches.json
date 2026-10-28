@@ -1,24 +1,31 @@
 {
-  "last_updated": "2026-10-28T15:29:14.197Z",
+  "last_updated": "2026-10-28T20:33:09.647Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-18",
-      "net": "2026-10-30T04:02:00Z",
+      "net": "2026-10-31T03:48:00Z",
       "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
     },
     {
       "name": "Falcon 9 Block 5 | USSF-432",
-      "net": "2026-11-02T01:56:00Z",
+      "net": "2026-11-03T01:42:00Z",
       "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
     },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-21",
-      "net": "2026-11-05T02:35:00Z",
+      "net": "2026-11-06T02:21:00Z",
       "status": "Go",
+      "pad": "Space Launch Complex 4E",
+      "location": "Vandenberg SFB, CA, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | USSF-xxx (\"R-5\")",
+      "net": "2026-11-10T03:03:00Z",
+      "status": "TBC",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
     },
@@ -35,6 +42,13 @@
       "status": "TBD",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
+    },
+    {
+      "name": "Starship | Flight 15",
+      "net": "2026-11-30T00:00:00Z",
+      "status": "TBD",
+      "pad": "Orbital Launch Pad 2",
+      "location": "SpaceX Starbase, TX, USA"
     },
     {
       "name": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer D",
@@ -69,20 +83,6 @@
       "net": "2026-12-31T00:00:00Z",
       "status": "TBD",
       "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA"
-    },
-    {
-      "name": "Falcon 9 Block 5 | CHORUS",
-      "net": "2026-12-31T00:00:00Z",
-      "status": "TBD",
-      "pad": "Unknown Pad",
-      "location": "Cape Canaveral SFS, FL, USA"
-    },
-    {
-      "name": "Falcon 9 Block 5 | Inmarsat-7 F1 (GX-7)",
-      "net": "2026-12-31T00:00:00Z",
-      "status": "TBD",
-      "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA"
     }
   ]
