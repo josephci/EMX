@@ -1,13 +1,6 @@
 {
-  "last_updated": "2026-10-28T02:25:33.579Z",
+  "last_updated": "2026-10-28T08:46:43.586Z",
   "launches": [
-    {
-      "name": "Falcon 9 Block 5 | Starlink Group 15-16",
-      "net": "2026-10-27T07:25:51Z",
-      "status": "Success",
-      "pad": "Space Launch Complex 4E",
-      "location": "Vandenberg SFB, CA, USA"
-    },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-18",
       "net": "2026-10-30T04:02:00Z",
@@ -80,6 +73,13 @@
     },
     {
       "name": "Falcon 9 Block 5 | CHORUS",
+      "net": "2026-12-31T00:00:00Z",
+      "status": "TBD",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Inmarsat-7 F1 (GX-7)",
       "net": "2026-12-31T00:00:00Z",
       "status": "TBD",
       "pad": "Unknown Pad",
