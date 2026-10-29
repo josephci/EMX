@@ -4,5 +4,11 @@
     "type": "takeoff",
     "reg": "N628TS",
     "w": 201
+  },
+  {
+    "time": "2026-10-28T22:28:45.430Z",
+    "type": "landing",
+    "reg": "N628TS",
+    "w": 116
   }
 ]
