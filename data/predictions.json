@@ -2,12 +2,12 @@
   "Elon Musk # tweets October 31 - November 2, 2026?": {
     "settle": "2026-11-02T17:00:00Z",
     "windowStart": "2026-10-31T16:00:00.000Z",
-    "bucket": "65-89",
-    "lo": 65,
-    "hi": 89,
-    "mid": 67,
-    "leadH": 49,
+    "bucket": "90-114",
+    "lo": 90,
+    "hi": 114,
+    "mid": 91,
+    "leadH": 45.1,
     "locked": false,
-    "logged": "2026-10-31T16:00:59.805Z"
+    "logged": "2026-10-31T19:52:00.450Z"
   }
 }
