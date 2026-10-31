@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-10-30T20:38:52.826Z",
-  "total": 5838,
+  "last_updated": "2026-10-31T00:04:10.735Z",
+  "total": 5856,
   "by_date": {
     "2026-05-27": [
       {
@@ -39869,6 +39869,132 @@
       }
     ],
     "2026-10-30": [
+      {
+        "id": "cmvvl6pgl00zkju081xsqtj3s",
+        "text": "ngl i still think about this https://pbs.twimg.com/media/HV6E-lJaMAANt4k.jpg",
+        "created_at": "2026-10-30T23:10:40.000Z",
+        "imported_at": "2026-10-30T23:11:38.848Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvvl6nip00yjju087dv8zv7z",
+        "text": "Cool",
+        "created_at": "2026-10-30T23:09:42.000Z",
+        "imported_at": "2026-10-30T23:11:36.334Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvvl6pgl00zlju08zbtnzv1j",
+        "text": "@Texas_Twins_Dad I think you can use Allo. Then your Grok Bot can make calls?\n\nhttps://x.com/allophonesystem/status/2115793573589258279?a=0zIpEBu2aLDLHq-oHI8&s=46",
+        "created_at": "2026-10-30T23:08:34.000Z",
+        "imported_at": "2026-10-30T23:11:38.848Z",
+        "kind": "reply"
+      },
+      {
+        "id": "cmvvl0lq100fxju08ane7oqum",
+        "text": "Think of Grok @Bot as a work colleague",
+        "created_at": "2026-10-30T23:06:43.000Z",
+        "imported_at": "2026-10-30T23:06:54.073Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvvl0nma00gyju08qlervqux",
+        "text": "A new poll has found that Republican Ken Paxton has moved past Democrat James Talarico as the race for U.S. Senate enters its final days. https://www.fox7austin.com/news/paxton-slips-past-talarico-latest-poll-senate-race-enters-final-days?taid=6ae4cd1a25edfb00016e5316&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter",
+        "created_at": "2026-10-30T23:03:47.000Z",
+        "imported_at": "2026-10-30T23:06:56.531Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvvjwsd905j8jy08xte0zfte",
+        "text": "If you have a Tesla and haven't tried FSD in the last year, you need to try it again. Free month trial with this link. (i don't care about the referal credit, I'm posting this as a PSA because FSD is so awesome. )\n https://tesla.com/get-app/referral?code=julia56863",
+        "created_at": "2026-10-30T22:31:12.000Z",
+        "imported_at": "2026-10-30T22:35:56.437Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvvjwsd905j9jy08hmf0hdhf",
+        "text": "If you’re a Texan who doesn’t vote for Paxton because your “conscience won’t allow it,” think about the fact that Talarico will ok mutilating children &amp; the killing of babies in the womb. So put your brain on, and vote for the guy who doesn’t attack your kids.",
+        "created_at": "2026-10-30T22:31:00.000Z",
+        "imported_at": "2026-10-30T22:35:56.437Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvvjq2oq05c8jy083de3zli4",
+        "text": "Our TPUs just phoned home... from space.\n\nICYMI, on October 1, we sent four TPUs into orbit to test whether our AI hardware could operate in space. The initial goal was to see if our chips could turn on, process a prompt, and transmit a response back to Earth.\n\nThis week, we got our answer. ✨\n\nThis milestone brings us one step closer to understanding if space-based compute is possible. We’re sending two more TPU-equipped satellites to orbit in 2027 for our next milestone.\n\nWatch this space 👀 and learn more about the first milestone of our long-term moonshot with Project Suncatcher ↓",
+        "created_at": "2026-10-30T22:30:28.000Z",
+        "imported_at": "2026-10-30T22:30:43.215Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvvjq0ir05b7jy08xvf4gmq3",
+        "text": "Eli Lilly has some banger drugs coming out!",
+        "created_at": "2026-10-30T22:29:24.000Z",
+        "imported_at": "2026-10-30T22:30:40.407Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvvjmng504ltjy08v1riju2l",
+        "text": "Yes",
+        "created_at": "2026-10-30T22:27:51.000Z",
+        "imported_at": "2026-10-30T22:28:03.510Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvvjmkie04knjy08t84s70wq",
+        "text": "PS - we’re hiring exceptional people if you want to come join the SpaceXSI rocket ship",
+        "created_at": "2026-10-30T22:27:21.000Z",
+        "imported_at": "2026-10-30T22:27:59.702Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvvjmkie04kojy08il6thv5v",
+        "text": "BREAKING: Google just proved AI data centers in space actually work\n\nProject Suncatcher's first satellite, built with @planet and launched on a SpaceX rocket with 4 TPUs on board, verified the physics: Google sent a prompt from Earth, a TPU in orbit ran Gemma inference, and the full answer was beamed back down. \n\nSpaceX is launching its StarMind satellites with NVIDIA GPUs on Starship in late 2027. \n\nKardashev Type II civilization INCOMING",
+        "created_at": "2026-10-30T22:26:46.000Z",
+        "imported_at": "2026-10-30T22:27:59.702Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvvj7lfz045kjy082zgyglvh",
+        "text": "Cool ❤️",
+        "created_at": "2026-10-30T22:11:01.000Z",
+        "imported_at": "2026-10-30T22:16:21.070Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvvj0k7103nhjy08wwyt5zt3",
+        "text": "True",
+        "created_at": "2026-10-30T22:09:03.000Z",
+        "imported_at": "2026-10-30T22:10:52.850Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvviutjg03c8jy08l0jicnod",
+        "text": "You can now find out if any reach limitations have been applied to your account",
+        "created_at": "2026-10-30T22:03:47.000Z",
+        "imported_at": "2026-10-30T22:06:25.028Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvviuvlu03d9jy08tn8ihsuj",
+        "text": "My favorite things about this:\n\n- You can see which of your posts have a visibility-limiting label, and decide if you think it's fair\n\n- You can even see if a legal (eg government) demand is limiting one of your posts, and in which country!!\n\nContinuing to deliver unprecedented transparency to the people 💪",
+        "created_at": "2026-10-30T22:03:03.000Z",
+        "imported_at": "2026-10-30T22:06:27.706Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvvio59y035djy087e1b3gbl",
+        "text": "Western civilization is going backwards. Canada is just one example. The bigger question is why.\n\nThe American midterms are less than a week away. Go vote and help save your country. \n\nBroken Country is a documentary no one wants you to see. Watch it. Think for yourself.\n\nWatch here : https://brokencountry.com",
+        "created_at": "2026-10-30T21:59:53.000Z",
+        "imported_at": "2026-10-30T22:01:13.648Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvvihwy502xijy08r7b1y5tn",
+        "text": "Even F1 champions love Tesla self-driving",
+        "created_at": "2026-10-30T21:55:22.000Z",
+        "imported_at": "2026-10-30T21:56:22.908Z",
+        "kind": "original"
+      },
       {
         "id": "cmvvc9ia60276jj08nhlklbpt",
         "text": "Talarico would abolish democracy in America and institute permanent one-party rule!",
