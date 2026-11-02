@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-01T23:54:06.952Z",
-  "total": 5968,
+  "last_updated": "2026-11-02T05:46:19.333Z",
+  "total": 5971,
   "by_date": {
     "2026-05-27": [
       {
@@ -41169,6 +41169,13 @@
     ],
     "2026-11-01": [
       {
+        "id": "cmvyhnxok01k0kz08itq3paqa",
+        "text": "Introducing GrokBot's first live dashboard for your teams of agent\n\n1 prompt + 2 min + <1% usage = you have the same:\n\n• no more chaos - every team on its own floor of live 3D office\n• see exactly which bot is eating your usage\n• no more \"is it working or dead?\" - every bot shows its status live\n\nhere's guide to setup it:\n\nworks on computer and phone*\n\n1 → paste prompt below into your GrokBot ( that's it ) - it becomes the \"manager\" of your dashboard\n\n2 → it creates your private live channel on ntfy - a free real-time mailbox only your link can read\n\n3 → writes 1 rule into the shared memory of ALL your bots: every time you start, finish, get stuck or need me - send 1 line\n\n4 → it sends your full roster: every bot, its team, its look and its chat link - each team gets its own floor\n\n5 → open the link it gives you - the office reads your channel line\n\n6 → a routine resends roster + usage per bot on shedule - new bots walk into the office by themselves\n\nall it takes ~2 min for GrokBot...\n\nthe result: you stop opening 15 chats and see your whole AI company work 24/7 - who's busy, who's stuck, who' eating your usage... and can manage them right from office\n\np.s: 1% usage measured on my Super Plan. I'll keep updating dashboard and making it even better, so wait for updates - and tell me what to improve\n\nTry it now, you're welcome. Then read full guide on how use GrokBot below:",
+        "created_at": "2026-11-01T23:52:39.000Z",
+        "imported_at": "2026-11-01T23:56:22.721Z",
+        "kind": "original"
+      },
+      {
         "id": "cmvyhhoqy01cgkz08x6zeijqg",
         "text": "grok bot templates are a VERY good example of a feature that doubles as a distribution mechanism...\n\nlook closely and they're basically instructions, simple prompts for each agent\n\nbut because they're easy to share, people on X feel like they can plug new modules and extra capabilities into their setup with a simple copy + paste\n\nthe team behind them knew people would build marketplaces, farm engagement on X with these, even sell them\n\nthe smartest way to build a product when distribution is the goal",
         "created_at": "2026-11-01T23:51:08.000Z",
@@ -41495,6 +41502,22 @@
         "text": "Super Intelligence WILL EAT MANY ENTIRE businesses, industries and professions in the next few *months* and *quarters*.\n\nThe rest will follow.\n\nThe physical world will take a bit longer. That needs A LOT of humanoid robots.\n\nStrap yourselves in.",
         "created_at": "2026-11-01T02:52:16.000Z",
         "imported_at": "2026-11-01T02:56:24.383Z",
+        "kind": "original"
+      }
+    ],
+    "2026-11-02": [
+      {
+        "id": "cmvyllhco0275jv0815yxzgt6",
+        "text": "It's true. \n\nEvery single person I've told to try Grok Bot:\n\n- \"Holy fk it's really THAT GOOD\"\n- Starts telling other people to try Grok Bot",
+        "created_at": "2026-11-02T01:45:32.000Z",
+        "imported_at": "2026-11-02T01:46:26.705Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmvyllhco0276jv081i9p9706",
+        "text": "California is trying to buy a Texas Senate seat.\n\nTalarico is getting 53% of his itemized money from outside the state. \n\nCalifornia alone dropped $7.8 million on him, more than Paxton raised from every other state combined. \n\nNew York added $3 million. \n\nMassachusetts another $2.1 million. \n\nPaxton’s campaign is 73% Texas money. \n\nTalarico’s is a coastal donor operation. \n\nThe left can’t win Texas on the merits, so they flooded the race with blue state cash instead. \n\nSo no, nothing “grassroots” about him.",
+        "created_at": "2026-11-02T01:44:23.000Z",
+        "imported_at": "2026-11-02T01:46:26.705Z",
         "kind": "original"
       }
     ]
