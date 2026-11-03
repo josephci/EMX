@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-03T03:42:00.504Z",
-  "total": 5984,
+  "last_updated": "2026-11-03T11:20:21.525Z",
+  "total": 5994,
   "by_date": {
     "2026-05-27": [
       {
@@ -41564,6 +41564,76 @@
       }
     ],
     "2026-11-03": [
+      {
+        "id": "cmw087nbc0250jq078uwb7ysz",
+        "text": "Space datacenters actually make sense",
+        "created_at": "2026-11-03T05:02:40.000Z",
+        "imported_at": "2026-11-03T05:07:18.600Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw07tk7f01ipjq0749omb8kj",
+        "text": "A lot of very smart people are tying themselves in knots trying to explain why dissipating heat from a compute satellite is impossible.\n\nAll they’ve really guaranteed is that they’ll never get a job at SpaceX.\n\nIt used to be:\n\n“You can’t build an EV that performs as well as an ICE vehicle.”\n“You can’t build EV batteries at scale.”\n“You can’t solve autonomous driving with cameras and vision alone.”\n“You can’t land and reuse an orbital-class rocket.”\n“You can’t build an electric semi.”\n“You can’t manufacture cars at that scale.”\n\nNow it’s:\n\n“You can’t build a space-based AI compute satellite.”\n“You can’t scale terrestrial compute that fast.”\n“You can’t manufacture advanced AI chips at scale.”\n“You can’t build AI models that challenge the frontier labs.”\n“You can’t build a general-purpose humanoid robot that works at scale.”\n“You can’t get to Mars.”",
+        "created_at": "2026-11-03T04:54:33.000Z",
+        "imported_at": "2026-11-03T04:56:21.384Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw07nnb3012ujq076z9173o3",
+        "text": "Starlink saves lives",
+        "created_at": "2026-11-03T04:51:08.000Z",
+        "imported_at": "2026-11-03T04:51:45.463Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw07npfr013vjq07aue9xbrr",
+        "text": "It’s the same thing every time:\n\n1. A black person has the courage to point the objective truth about slavery.\n \n2. Person gets personally attacked with subjective opinions - “you hate black people, you’re a coon”\n\n3. But that person is saying what is needed to emancipate both black people and white people from the mental slavery that black victimhood and white guilt has us all in.\n\nNo, black people who say the truth do not hate black people.\n\nSomeone who loves you will tell you what you need to hear, even if you don’t want to hear it.\n\nGood video from @chadojackson",
+        "created_at": "2026-11-03T04:48:01.000Z",
+        "imported_at": "2026-11-03T04:51:48.228Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw07aq1500ntjq07k6k1okoi",
+        "text": "The single most important thing I can share with you going into Election Day is the following website: \n\nhttps://protectthevote.com/report-fraud\n\nIf you encounter ANY problems related to voting, submit a report immediately. https://pbs.twimg.com/media/HWIW895XUAA1vuz.jpg",
+        "created_at": "2026-11-03T04:40:25.000Z",
+        "imported_at": "2026-11-03T04:41:42.471Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw074c8q00g4jq073sxcg7sz",
+        "text": "Elon Musk on going \"from the impossible to the merely late,\" his own description of how Starship got built:\n\n\"When we first started talking about Starship, people thought this was impossible. In fact, even within the company, we sort of thought it was impossible.\"\n\nHe says it had what he calls a \"giggle factor.\" People laughed at the idea.\n\n\"I guess I specialize in going from the impossible to the merely late. So that's my skill.\"\n\"It wasn't possible, now it's just late.\"\n@elonmusk",
+        "created_at": "2026-11-03T04:35:15.000Z",
+        "imported_at": "2026-11-03T04:36:44.663Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw06yjen000jjq0782mqvd68",
+        "text": "9 of America’s top 10 foreign aid recipients voted against us more than with us at the UN.\n\nJordan takes $1.74 billion and votes against America 52-24.\nEthiopia, Somalia, Nigeria, Kenya, same thing. \n\nBillions of our money, then they stab us in the back every chance they get.\n\nLiterally funding our own opposition.",
+        "created_at": "2026-11-03T04:28:22.000Z",
+        "imported_at": "2026-11-03T04:32:14.015Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw05ptra02ghld08ua32toet",
+        "text": "Yeah, much easier to cool in space. \n\n~1300 W/m^2 is easily achievable for an aluminum radiator pointed away from the Sun, as it is mostly just seeing cosmic background radiation at ~3 degrees above absolute zero!\n\nSolar panels generate ~250 W/m^2, so you should expect them to have ~5 times the area of the radiator. Most of the mass of the satellite is solar panels.",
+        "created_at": "2026-11-03T03:52:49.000Z",
+        "imported_at": "2026-11-03T03:57:27.910Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw05htlp021rld081vuynejd",
+        "text": "Grok @Bot",
+        "created_at": "2026-11-03T03:48:10.000Z",
+        "imported_at": "2026-11-03T03:51:14.461Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw05cj3b01tsld08kppealkd",
+        "text": "I had my Grok Bot shop around new Auto Insurance. It couldn’t find info about Progressives Glass coverage and as all Tesla owners know Windshield replacements can be pricey. I had Grok Bot call Progressive and get additional information for me all while I picked my kids up from school without me ever having to talk to a person. \n\nHere is the transcript and actual recording from the call. Personal info was bleeped and some parts cut for time. While there’s some improvements that can be made it got the job done. \n\nMy mind is thoroughly blown!",
+        "created_at": "2026-11-03T03:45:03.000Z",
+        "imported_at": "2026-11-03T03:47:07.548Z",
+        "kind": "original"
+      },
       {
         "id": "cmw03qaok04rmlc0832k17uu0",
         "text": "Wow",
