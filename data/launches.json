@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-03T11:20:18.158Z",
+  "last_updated": "2026-11-03T18:29:09.219Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-432",
@@ -10,7 +10,14 @@
     },
     {
       "name": "Falcon 9 Block 5 | USSF-xxx (\"R-5\")",
-      "net": "2026-11-09T03:17:00Z",
+      "net": "2026-11-10T03:03:00Z",
+      "status": "TBC",
+      "pad": "Space Launch Complex 4E",
+      "location": "Vandenberg SFB, CA, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | USSF-xxx (\"R-6\")",
+      "net": "2026-11-13T04:23:00Z",
       "status": "TBC",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
@@ -73,13 +80,6 @@
     },
     {
       "name": "Falcon 9 Block 5 | CHORUS",
-      "net": "2026-12-31T00:00:00Z",
-      "status": "TBD",
-      "pad": "Unknown Pad",
-      "location": "Cape Canaveral SFS, FL, USA"
-    },
-    {
-      "name": "Falcon 9 Block 5 | Inmarsat-7 F1 (GX-7)",
       "net": "2026-12-31T00:00:00Z",
       "status": "TBD",
       "pad": "Unknown Pad",
