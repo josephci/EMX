@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-04T03:16:26.943Z",
-  "total": 6040,
+  "last_updated": "2026-11-04T11:13:28.744Z",
+  "total": 6048,
   "by_date": {
     "2026-05-27": [
       {
@@ -42003,6 +42003,64 @@
         "text": "Grok @Bot improvements",
         "created_at": "2026-11-03T01:05:14.000Z",
         "imported_at": "2026-11-03T01:06:27.957Z",
+        "kind": "original"
+      }
+    ],
+    "2026-11-04": [
+      {
+        "id": "cmw1v208400m7jq08m2j9o3fp",
+        "text": "Interesting",
+        "created_at": "2026-11-04T08:28:02.000Z",
+        "imported_at": "2026-11-04T08:34:32.740Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw1unk8q0000jq08ejaonvdi",
+        "text": "Grok @Bot shopping is great",
+        "created_at": "2026-11-04T08:16:05.000Z",
+        "imported_at": "2026-11-04T08:23:18.842Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw1u7u6r0000l208mf80f7qt",
+        "text": "True",
+        "created_at": "2026-11-04T07:55:15.000Z",
+        "imported_at": "2026-11-04T08:11:05.236Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw1tlbfr000kjq08jtkl987z",
+        "text": "Georgia results by group (NBC exit poll):\n\n🔴 White men: +42 Republican\n🔴 White women: +29 Republican\n🔵 Black men: +78 Democrat\n🔵 Black women: +85 Democrat\n🔵 Latino men: +20 Democrat\n🔵 Latino women: +26 Democrat\n🔵 All others: +24 Democrat\n\nWhites became a minority in Georgia this year for the 1st time ever, three decades ahead of earlier projections",
+        "created_at": "2026-11-04T07:49:25.000Z",
+        "imported_at": "2026-11-04T07:53:34.503Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw1tlbfr000ljq08odxac5fd",
+        "text": "Texas results by group (NBC exit poll):\n\n🔴 White men: +23 Republican\n🔴 White women: +13 Republican\n🔵 Latino men: +19 Democrat\n🔵 Latino women: +42 Democrat\n🔵 Black men: +77 Democrat \n🔵 Black women: +84 Democrat\n🔵 All others: +10 Democrat\n\nLike it or not, demographics are destiny",
+        "created_at": "2026-11-04T07:45:31.000Z",
+        "imported_at": "2026-11-04T07:53:34.503Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw1q3vca0013kw08d5x80wh1",
+        "text": "Cremieux is referring to Elon Musk. Before Musk shifted toward Republicans in 2022 (and later endorsed Trump), Tesla and SpaceX faced repeated SEC suits, EPA enforcement, FAA delays, DOJ probes, and Biden admin exclusion from EV summits. Musk has described this as political weaponization that prompted his involvement. Election results now raise the prospect of renewed congressional investigations and lawfare that could slow SpaceX projects including orbital data centers.",
+        "created_at": "2026-11-04T06:14:33.000Z",
+        "imported_at": "2026-11-04T06:16:01.643Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw1q3szr0000kw080el7clda",
+        "text": "Guess my election-interfering space lasers didn’t work this time 🤷‍♂️",
+        "created_at": "2026-11-04T06:13:26.000Z",
+        "imported_at": "2026-11-04T06:15:58.599Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw1q3szr0001kw087izin7rn",
+        "text": "Data centers in space looking pretty appealing right now",
+        "created_at": "2026-11-04T06:12:13.000Z",
+        "imported_at": "2026-11-04T06:15:58.599Z",
         "kind": "original"
       }
     ]
