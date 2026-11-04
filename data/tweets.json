@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-04T11:13:28.744Z",
-  "total": 6048,
+  "last_updated": "2026-11-04T18:42:39.326Z",
+  "total": 6067,
   "by_date": {
     "2026-05-27": [
       {
@@ -42007,6 +42007,139 @@
       }
     ],
     "2026-11-04": [
+      {
+        "id": "cmw2gr4he000jl908p70mwp21",
+        "text": "How much usage does a Grok Bot phone call take?\nSo I checked.\n\nMy bot just called an EV charger installer for a quote. 85 seconds on the phone.\n\nUsage before: 5.8%\nUsage after: 6.0%\n\nThat's 0.2% for a real call I didn't have to make myself. https://pbs.twimg.com/media/HWONnAcWkAA_CUw.jpg",
+        "created_at": "2026-11-04T18:39:40.000Z",
+        "imported_at": "2026-11-04T18:41:56.563Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw2gr4he000kl908qq9m9gqy",
+        "text": "BREAKING: Vietnam’s Lâm Đồng plans to bring Starlink to areas where poor mobile coverage makes rescue efforts harder.\n\nAround Gia Bắc Pass in Sơn Điền, mountains and deep valleys make it hard to stay connected. During road accidents, floods and landslides, that can make calling for help difficult.\n\nLocal officials are working with FPT Telecom to choose a location for Starlink, helping rescue teams stay connected and organise emergency responses.",
+        "created_at": "2026-11-04T18:39:23.000Z",
+        "imported_at": "2026-11-04T18:41:56.563Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw2ge7u60045l608o5fm21an",
+        "text": "True",
+        "created_at": "2026-11-04T18:31:09.000Z",
+        "imported_at": "2026-11-04T18:31:54.414Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw2fuxpr000nl608kq00zyma",
+        "text": "some fun slides from my upcoming talk @aiDotEngineer \n\nvery excited to share how we ship crazy amounts of code (30x'd) without reading it, yet perf is as good if not better then when we launched\n\nthere's a lot more to improve of course, and the ceiling is far from being reached, but given the relentless shipping speed and our high bar for polish, i think that our agent friendly architecture bets are paying off at taming the slop\n\nfun fact: ~230 people landed at least 1 PR to grok bot in october!",
+        "created_at": "2026-11-04T18:15:44.000Z",
+        "imported_at": "2026-11-04T18:16:54.817Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw2esa2g00sdl50819b1267w",
+        "text": "Try Grok @Bot. It’s like hiring an amazing assistant!",
+        "created_at": "2026-11-04T17:44:45.000Z",
+        "imported_at": "2026-11-04T17:46:51.081Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw2eseun00tfl508ogy5yxx8",
+        "text": "BREAKING: The Government of Canada’s Starlink contract has grown to nearly C$29 million, more than 12 times its original value. 🇨🇦\n\nOfficial government records show:\n\n• Original contract value: C$2.26 million\n• Updated total value: C$28.95 million\n• Increase: approximately C$26.7 million \n\nThe agreement with SpaceX Canada provides Starlink satellite connectivity for Shared Services Canada and its partner government organizations as needed.\n\nThe contract could continue until 2029, according to the Investigative Journalism Foundation. \n\nStarlink continues to support the communications needs of Canada’s federal government.",
+        "created_at": "2026-11-04T17:44:03.000Z",
+        "imported_at": "2026-11-04T17:46:56.363Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw2e2ps900aul207zh9mdf3a",
+        "text": "Pages in Grok Bot\n\n0:15 What are Pages?\n0:40 An example page\n1:34 Sharing a Page\n1:55 Tips: use your data\n2:46 @X posts\n3:44 Recap https://video.twimg.com/amplify_video/2118017429741682688/vid/avc1/480x270/_YjzPB_OI8t3rr5F.mp4?tag=29",
+        "created_at": "2026-11-04T17:24:39.000Z",
+        "imported_at": "2026-11-04T17:26:57.892Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw2e2ps900avl207uynsv5ze",
+        "text": "Quick update:  Starlink Mobile is continuing to provide service with Orange and Telefónica following the tragic train derailment in Spain.  We've connected more than 36,000 people in the region so far. Thank you to @mintradigital for your continued support. https://pbs.twimg.com/media/HWPwkUaXAAAHjgJ.png",
+        "created_at": "2026-11-04T17:24:29.000Z",
+        "imported_at": "2026-11-04T17:26:57.892Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw2can9f0012l808mhbyw85m",
+        "text": "Shopping is the most underrated agent use case.\n\nEveryone demos coding, but the pain most people actually have every week is 12 tabs of the same fucking air fryer and \"where's my package?\" lol.\n\nGrok Bot does that part now:\n> finds the best deal\n> compares items side by side\n> tracks all your orders in one place\n\nGive it a spin and lmk what you want next.",
+        "created_at": "2026-11-04T16:22:45.000Z",
+        "imported_at": "2026-11-04T16:37:09.315Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw2can9f0013l808cllewbzg",
+        "text": "BREAKING: Norway’s government secures @Starlink access for its military, police and security agencies under a satellite communications deal worth up to NOK 450 million. 🇳🇴\n\nThe agreement covers:\n• Norwegian Armed Forces\n• Police\n• Police Security Service (PST)\n• National Security Authority (NSM)\n\nNorway’s military already has 180 active Starlink subscriptions for email, internet access and personnel welfare.\n\nAwarded to Marlink, a Norway-based satellite communications provider, the agreement includes several satellite networks and specifically requires access to Starlink.",
+        "created_at": "2026-11-04T15:04:16.000Z",
+        "imported_at": "2026-11-04T16:37:09.315Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw2cai4k0000l8089b87lu76",
+        "text": "At last there will be one network with good signal everywhere!",
+        "created_at": "2026-11-04T15:04:01.000Z",
+        "imported_at": "2026-11-04T16:37:01.266Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw2cai4k0001l808mjwclrzy",
+        "text": "Free new dish for all early Starlink customers",
+        "created_at": "2026-11-04T15:02:28.000Z",
+        "imported_at": "2026-11-04T16:37:01.266Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw2cai4k0002l808yxkwmqmw",
+        "text": "Grok @Bot will research purchase ideas, bring back a selection, order them, track the purchases and return anything you don’t want",
+        "created_at": "2026-11-04T15:00:14.000Z",
+        "imported_at": "2026-11-04T16:37:01.266Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw2can9f0014l808fj5s6bb9",
+        "text": "This is 100% real 😂\n\nSpaceXSI is running an ad on a different platform about how to use Grok Bot to buy a local home services business featuring...\n\nNever mind… just watch it yourself. My head is spinning. https://video.twimg.com/amplify_video/2117967295284641792/vid/avc1/320x692/AqNGjDA3vXYDwPjV.mp4?tag=29",
+        "created_at": "2026-11-04T14:58:39.000Z",
+        "imported_at": "2026-11-04T16:37:09.315Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw2can9f0015l8088i7tjk26",
+        "text": "Excited to build Starlink Mobile with @Qualcomm !",
+        "created_at": "2026-11-04T14:50:05.000Z",
+        "imported_at": "2026-11-04T16:37:09.315Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw2can9f0016l808ou6htrff",
+        "text": "Team and I absolutely ripped on this. Designed and built it in 1 week, shipped it in 2. And the crazy part is it's actually good.",
+        "created_at": "2026-11-04T14:45:47.000Z",
+        "imported_at": "2026-11-04T16:37:09.315Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw2can9f0017l80883yykssa",
+        "text": "I literally just had my Grok @bot make a phone call.\n\nI texted my CEO and told her to order a pizza for pickup at 5 PM, under Teslaconomics. She wrote out what she planned to say, showed it to me, and got my approval. She only dialed after I tapped “Call”.\n\nHer opening line: “I’m a virtual assistant calling for Teslaconomics on a recorded line.”\n\nI liked that. \n\nShe introduced herself as my assistant, used the name I gave her, and never said my real name or phone number.\n\nI picked up the other phone and she went through w/ my request…\n\nOne large pepperoni, pickup today at 5 PM, paying at pickup, no drinks. She even asked if there was a freakin deal... \n\nI made her say “Tesla to the moon” to get the 50% off, bringing the total to $7.42.\n\nWhen she hung up, the recap landed right back in my chat. \n\nEverything was there for me to check.\n\nSuper dope feature.",
+        "created_at": "2026-11-04T14:43:30.000Z",
+        "imported_at": "2026-11-04T16:37:09.315Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw2caq9u0027l808wu5vvmow",
+        "text": "https://pbs.twimg.com/media/HWSccI6agAAdkHR.jpg",
+        "created_at": "2026-11-04T14:37:57.000Z",
+        "imported_at": "2026-11-04T16:37:12.505Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw2cai4k0003l8083f6hgtp3",
+        "text": "Qualcomm’s technology is excellent",
+        "created_at": "2026-11-04T14:36:12.000Z",
+        "imported_at": "2026-11-04T16:37:01.266Z",
+        "kind": "original"
+      },
       {
         "id": "cmw1v208400m7jq08m2j9o3fp",
         "text": "Interesting",
