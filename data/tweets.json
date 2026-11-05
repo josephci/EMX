@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-05T14:49:32.853Z",
-  "total": 6075,
+  "last_updated": "2026-11-05T21:25:37.527Z",
+  "total": 6093,
   "by_date": {
     "2026-05-27": [
       {
@@ -42205,6 +42205,132 @@
       }
     ],
     "2026-11-05": [
+      {
+        "id": "cmw41eje5000kl2076nh5yzd0",
+        "text": "So for my YouTube channel, having @bot take charge of ad integrations is beginning to pay off. For months I was getting nowhere with advertisers, but my agent is reaching out to potential partners, vetting cold emails, and responding to appropriate ones. This will have a very meaningful impact on my channel's earnings potential over the next months. This is no longer just playing around with a new toy: it is changing my business model and could make me an order of magnitude more money for my channel.",
+        "created_at": "2026-11-05T21:05:10.000Z",
+        "imported_at": "2026-11-05T21:07:47.502Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw41eje5000ll2077h5gwbzt",
+        "text": "Grok Build packed a serious upgrade into this release, making multi-agent workflows more reliable, easier to control, and much smoother to manage\n\nBackground agents and workflows now stay visible as active work on the dashboard, workflow status shows how many agents are still running, and stop controls work even when approval prompts are open. Permission rules that fail to load now trigger warnings instead of silently being ignored\n\nSession recovery is also more reliable, manually saved file edits are better protected, and Ctrl+L can now quote selected messages directly into your prompt. There’s also improved keyboard navigation, better terminal compatibility, and fixes across skills, hooks, file handling, and session management\n\nAnother strong push toward making Grok Build a dependable environment for running entire teams of AI agents\n\nRelease Notes: v1.0.75\n\nFeatures:\n\n• Permission rules that don't load, such as a rule that doesn't parse or a .claude/settings.json that isn't valid JSON, show a warning when a session opens instead of being skipped silently.\n• Cmd+Up / Cmd+Down and Ctrl+Home / Ctrl+End move the cursor to the start or end of the whole prompt, and with Shift they select to there.\n• Send now shows as Enter Enter in the footer where Ctrl+Enter arrives as plain Enter, such as inside tmux with its default settings.\n• Esc on a /btw side question that hasn't been answered yet cancels it, instead of letting it run on and reopening the panel when the answer arrives.\n• Clicking a link or file that can't open, such as over SSH with no display, shows why, for example \"Can't open links over SSH\".\n• Left on an empty prompt opens the dashboard from any session or the welcome screen, not only from a session you opened from the dashboard.\n• The /btw question in the panel's title can be selected with the mouse and is copied to the clipboard when you release, like the answer text.\n• Workflow status lines say how many agents are still running instead of how many exist.\n• Ctrl+L in the scrollback adds the selected message or highlighted text to the prompt as a quote. Open Extensions with /plugins.\n\nBug Fixes:\n\n• Notes above a queued prompt, such as a model switch result or a ready worktree, stay on screen when the prompt starts instead of scrolling out of view.\n• Stop buttons in the dock stop a background run while its approval card is open, instead of doing nothing until you answer the card.\n• Rejecting a change keeps edits you saved to the file yourself, even when Grok missed the save, instead of overwriting them.\n• grok --resume <id> opens the session in the folder it was recorded in, wherever you launch Grok from, instead of refusing.\n• Windows: on older consoles such as plain cmd.exe and Windows PowerShell windows, the ▶, ⏸ and ◌ marks in todo, workflow and list rows show as characters the console can draw instead of empty boxes.\n• Generated image and video paths with wide characters such as Chinese, Japanese or emoji fit their row and keep the file name, and Windows paths keep it too.\n• The rewind confirmation no longer crashes Grok on a short terminal or when you shrink the window while it's open.\n• Footer and status bars in narrow terminals drop or shorten the items that don't fit, instead of painting them over each other or cutting buttons off.\n• Cut-off Fetch, Web Search and MCP tool output ends with the same … +N lines · <key> to view all row as code cells, naming your viewer key, and one hidden line reads +1 line.\n• 16-color terminals show the paste label and tool accents in the muted gray other secondary text uses, and the paste label's brackets no longer vanish on the light theme.\n• A question card's Enter:submit button, the dashboard session popup's [✗] and collapsed workflow rows highlight under the mouse pointer like other clickable controls.\n• Emoji and keycap symbols such as ⚠️ or #️⃣ are measured at the width the terminal draws them, so rows no longer run past their box or lose their ….\n• /export to a named pipe that nothing is reading fails right away instead of freezing Grok until it is killed.\n• Typing a digit or symbol while the scrollback has focus, with vim keys off, moves focus to the prompt and types it there, as letters already do. ? still opens the command palette.\n• grok sessions delete no longer fails with \"Directory not empty\" when another process is still writing into the session's folder.\n• Dashboard rows stay in Working while a session's background subagents or workflow runs are going, and stopping the row ends them.\n• Code blocks inside quotes render every line under the quote's bars, quote copies turn reference links into inline links, and lines after multi-line math are numbered correctly.\n• Disabling a project's hook in /hooks applies only to that repository, instead of also skipping hooks with the same name in other repositories.\n• Turning a skill on or off in the Skills tab saves only [skills].disabled to config.toml, so an organization's managed skill folders and ignore list keep applying.\n• /btw starts a side question only when it begins the message. A /btw later in the text goes to the main conversation as typed.",
+        "created_at": "2026-11-05T21:04:02.000Z",
+        "imported_at": "2026-11-05T21:07:47.502Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw3ywhmn000kjs08kylllgd5",
+        "text": "Had coffee with a right-leaning friend who works as a general contractor. He said his daily life was mostly the same between the last two years of the Biden term and the first two years of the Trump term, with one exception: it now costs $230 to fill his truck with diesel.",
+        "created_at": "2026-11-05T19:56:02.000Z",
+        "imported_at": "2026-11-05T19:57:45.770Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw3ywhmn000ljs08xbvr34w2",
+        "text": "Scientists from across the globe are calling on MIT to review its decision to terminate the tenure of David Sabatini after a jury verdict vindicated the ousted scientist and rebuked #MeToo era claims from a former colleague. https://trib.al/i0W69kW",
+        "created_at": "2026-11-05T19:54:51.000Z",
+        "imported_at": "2026-11-05T19:57:45.770Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw3yq3e20000jp08d1rvry12",
+        "text": "Interesting",
+        "created_at": "2026-11-05T19:51:35.000Z",
+        "imported_at": "2026-11-05T19:52:47.786Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw3yq6hq0013jp0896zwocpq",
+        "text": "Riley Trettel (Energy & Data Center Development at SpaceX) in yesterdays Cochise Data Center meeting. \n\nHe claims the project will deliver up to:\n- 40% off residential power bills for Sulphur Springs members, for the life of the project\n- $53 million a year to the SSVEC Foundation, for education and the community\n- $190 million a year in extra capital for Sulphur Springs, for projects or back to members\n- $200 million a year for AEPCO and its members. About $100 million of that for Sulphur Springs\n- $3.6 billion in new power lines, paid by SpaceX and given to the co-op. The co-op takes on no debt\n- $30 to $100 million a year in new property tax, and a 20% cut in everyone else's county property taxes\n- $250 million, one time, in sales tax. He said it could pay off the jail bond and fund the sheriff, fire districts, and the hospital\n- $50 billion invested in the project\n- 1,000 permanent jobs and 5,000 construction jobs\n- No industrial water. Water for staff and maintenance about equal to 20–30 homes a year\n- No gas turbines and no power plant on the site. The computers buy power from the co-op grid\n- Dark-sky lighting, pointed at the ground\n- Cooling equipment more than 1,500 feet from any neighboring property line or public road\n\nThis project is clearly extremely positive for the area.",
+        "created_at": "2026-11-05T19:49:45.000Z",
+        "imported_at": "2026-11-05T19:52:51.713Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw3yq6hq0014jp08nlxxkx5s",
+        "text": "In Iain M. Banks's books, the Culture solves envy—a crux of humanity—by letting every citizen experience what they have not yet via tremendous compute (a world where citizens have no token limit).\n\nCitizens quickly realize envy is pointless, as different life experiences mix good and bad; the grass of others is not any greener.",
+        "created_at": "2026-11-05T19:49:13.000Z",
+        "imported_at": "2026-11-05T19:52:51.713Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw3xtxj9000kjy07ga6q8kzq",
+        "text": "The irony of all the attacks on @elonmusk over DOGE is that cutting government spending and regulation is the solution to the cost-of-living crisis\n\nPrices went up so much because the government spent trillions in 2020 and 2021 and the Fed printed the money to pay for it\n\nAnd the things getting more expensive the fastest are the most regulated: housing, healthcare, and education \n\nTVs, software, cellphones, and toys got cheaper\n\nElon Musk and DOGE would have made life more affordable for Americans if they were allowed to cut spending and get rid of unnecessary regulations",
+        "created_at": "2026-11-05T19:25:10.000Z",
+        "imported_at": "2026-11-05T19:27:47.206Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw3ugmgy002zl007jjqp7clm",
+        "text": "Interesting",
+        "created_at": "2026-11-05T17:49:01.000Z",
+        "imported_at": "2026-11-05T17:53:27.490Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw3t7lgx00avi907ke3biqln",
+        "text": "True",
+        "created_at": "2026-11-05T17:16:28.000Z",
+        "imported_at": "2026-11-05T17:18:26.650Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw3t16jr006dl508ug0y6ecx",
+        "text": "Banks arguably has the best vision for the future",
+        "created_at": "2026-11-05T17:11:37.000Z",
+        "imported_at": "2026-11-05T17:13:27.036Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw3svb8d005hi907ld7j2u3r",
+        "text": "The only investment advice you need to live by to get through any storm that comes your way $TSLA https://pbs.twimg.com/media/HWXqztibYAAcB78.jpg",
+        "created_at": "2026-11-05T17:04:47.000Z",
+        "imported_at": "2026-11-05T17:08:50.908Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw3sux8h004ei90721is6x3k",
+        "text": "True",
+        "created_at": "2026-11-05T17:04:16.000Z",
+        "imported_at": "2026-11-05T17:08:33.114Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw3rs6u2003hjr08wvmo8s8h",
+        "text": "Starlink saves lives",
+        "created_at": "2026-11-05T16:36:06.000Z",
+        "imported_at": "2026-11-05T16:38:28.250Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw3rm5jx005cl2073m6ysd2r",
+        "text": "Interesting",
+        "created_at": "2026-11-05T16:31:48.000Z",
+        "imported_at": "2026-11-05T16:33:42.808Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw3rmimb006fl207hp27lesc",
+        "text": "Qualcomm CEO Cristiano Amon on partnership with @SpaceX\n\n“It’s a great partnership with SpaceX for next-generation infrastructure. We’re very proud of this announcement. I think it’s also great from a United States technology leadership standpoint. It’s probably one of the largest network buildouts.”",
+        "created_at": "2026-11-05T16:31:18.000Z",
+        "imported_at": "2026-11-05T16:34:01.993Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw3rfnbn0000l608aanm3ptw",
+        "text": "True",
+        "created_at": "2026-11-05T16:25:15.000Z",
+        "imported_at": "2026-11-05T16:28:41.570Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw3qw2hw000jl508u9r4wbab",
+        "text": "In hindsight, it was a mistake for SpaceX to send them thousands of free Starlink dishes and millions of dollars a month in free service at the beginning of the war. \n\nWhat started as internet access for civilians became the backbone for autonomous killing drones. And now if they don’t support military use, they get skewered for it in the press.",
+        "created_at": "2026-11-05T14:23:34.000Z",
+        "imported_at": "2026-11-05T16:13:29.187Z",
+        "kind": "original"
+      },
       {
         "id": "cmw39ohvq000jl207z22k3m73",
         "text": "A big step for 5G networks. \n\n@SpaceX selected @Qualcomm #Dragonwing to accelerate @Starlink Mobile's nationwide 5G network, advancing 5G today with an opportunity to lay the foundation for AI-native #6G in the years ahead.\n\nExcited to build Starlink Mobile with you & team @michaelnicollsx.",

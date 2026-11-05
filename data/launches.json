@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-05T14:49:30.263Z",
+  "last_updated": "2026-11-05T21:25:36.799Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-432",
@@ -58,6 +58,20 @@
       "location": "SpaceX Starbase, TX, USA"
     },
     {
+      "name": "Falcon 9 Block 5 | CHORUS",
+      "net": "2026-12-31T00:00:00Z",
+      "status": "TBD",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 2 (x 9)",
+      "net": "2026-12-31T00:00:00Z",
+      "status": "TBD",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA"
+    },
+    {
       "name": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer D",
       "net": "2026-12-31T00:00:00Z",
       "status": "TBD",
@@ -70,20 +84,6 @@
       "status": "TBD",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
-    },
-    {
-      "name": "Falcon 9 Block 5 | BlueBird 14-16 (Block 2 #9-11)",
-      "net": "2026-12-31T00:00:00Z",
-      "status": "TBD",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA"
-    },
-    {
-      "name": "Falcon 9 Block 5 | CHORUS",
-      "net": "2026-12-31T00:00:00Z",
-      "status": "TBD",
-      "pad": "Unknown Pad",
-      "location": "Cape Canaveral SFS, FL, USA"
     }
   ]
 }
