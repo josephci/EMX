@@ -82,5 +82,11 @@
     "type": "landing",
     "reg": "N272BG",
     "w": 225
+  },
+  {
+    "time": "2026-11-05T03:10:29.929Z",
+    "type": "takeoff",
+    "reg": "N272BG",
+    "w": 195
   }
 ]
