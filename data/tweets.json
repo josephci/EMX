@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-05T06:25:15.892Z",
-  "total": 6069,
+  "last_updated": "2026-11-05T14:49:32.853Z",
+  "total": 6075,
   "by_date": {
     "2026-05-27": [
       {
@@ -42205,6 +42205,48 @@
       }
     ],
     "2026-11-05": [
+      {
+        "id": "cmw39ohvq000jl207z22k3m73",
+        "text": "A big step for 5G networks. \n\n@SpaceX selected @Qualcomm #Dragonwing to accelerate @Starlink Mobile's nationwide 5G network, advancing 5G today with an opportunity to lay the foundation for AI-native #6G in the years ahead.\n\nExcited to build Starlink Mobile with you & team @michaelnicollsx.",
+        "created_at": "2026-11-05T08:07:56.000Z",
+        "imported_at": "2026-11-05T08:11:42.526Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw39buio00m8jn08xdqpvzsl",
+        "text": "Grok @Bot can call your dentist on the phone!",
+        "created_at": "2026-11-05T07:59:20.000Z",
+        "imported_at": "2026-11-05T08:01:50.963Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw39c4b000nbjn0819tuqlhs",
+        "text": "My mindset on @bot has completely changed.\n\nI used to treat them like assistants. Now I treat them like real employees.\n\nWhy: an assistant does what you ask. An employee notices what you didn't ask.\n\nHow:\nHire them for one job.\nOnboard them with a clear brief.\nTrain them when they get it wrong.\nMaintain them as the job changes.\n\nThe moment I stopped asking \"what can this assistant do?\" and started asking \"what could this hire own?\", everything they could do for me got bigger.",
+        "created_at": "2026-11-05T07:58:29.000Z",
+        "imported_at": "2026-11-05T08:02:03.681Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw395cij00h3jn08vonnbzhf",
+        "text": "A friend signed up for Grok Bot a month ago and was about to cancel. He couldn't see the real value.\n\nHe had 4 bots, but no plugins connected, no routines, and no skills.\n\nI showed him my 25 bots, what each one does, and how I manage the whole team. He was surprised by what Grok Bot can do, and he decided to keep his subscription.\n\nIf you don't know how to orchestrate Grok Bots, you won't see the value.\n\nBusinesses, companies, churches: if you need AI consulting, DM me.",
+        "created_at": "2026-11-05T07:54:43.000Z",
+        "imported_at": "2026-11-05T07:56:48.592Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw3957d200g1jn087q6flyox",
+        "text": "Everyone is using Grok @Bot",
+        "created_at": "2026-11-05T07:54:02.000Z",
+        "imported_at": "2026-11-05T07:56:42.157Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw3957d200g2jn08x0937m8j",
+        "text": "It’s a Brave New World",
+        "created_at": "2026-11-05T07:46:52.000Z",
+        "imported_at": "2026-11-05T07:56:42.157Z",
+        "kind": "original"
+      },
       {
         "id": "cmw33ypwt0000jk07vtuazrb8",
         "text": "Try Grok @Bot!",
