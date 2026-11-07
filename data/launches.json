@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-06T21:37:44.410Z",
+  "last_updated": "2026-11-07T18:53:19.363Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-432",
       "net": "2026-11-07T00:48:42Z",
-      "status": "Go",
+      "status": "Success",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
     },
@@ -16,18 +16,18 @@
       "location": "Vandenberg SFB, CA, USA"
     },
     {
-      "name": "Starship | Flight 15",
-      "net": "2026-11-13T00:00:00Z",
-      "status": "TBD",
-      "pad": "Orbital Launch Pad 2",
-      "location": "SpaceX Starbase, TX, USA"
-    },
-    {
       "name": "Falcon 9 Block 5 | USSF-317",
       "net": "2026-11-13T04:23:00Z",
       "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
+    },
+    {
+      "name": "Starship | Starlink Group 31-2 (Starship Flight 15)",
+      "net": "2026-11-13T22:45:00Z",
+      "status": "TBC",
+      "pad": "Orbital Launch Pad 2",
+      "location": "SpaceX Starbase, TX, USA"
     },
     {
       "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
