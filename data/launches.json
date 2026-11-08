@@ -1,13 +1,6 @@
 {
-  "last_updated": "2026-11-07T22:38:16.360Z",
+  "last_updated": "2026-11-08T01:49:47.269Z",
   "launches": [
-    {
-      "name": "Falcon 9 Block 5 | USSF-432",
-      "net": "2026-11-07T00:48:42Z",
-      "status": "Success",
-      "pad": "Space Launch Complex 4E",
-      "location": "Vandenberg SFB, CA, USA"
-    },
     {
       "name": "Falcon 9 Block 5 | USSF-627",
       "net": "2026-11-10T03:03:00Z",
@@ -84,6 +77,13 @@
       "status": "TBD",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | BlueBird 14-16 (Block 2 #9-11)",
+      "net": "2026-12-31T00:00:00Z",
+      "status": "TBD",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA"
     }
   ]
 }
