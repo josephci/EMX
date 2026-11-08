@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-08T08:52:40.702Z",
-  "total": 6206,
+  "last_updated": "2026-11-08T15:54:05.488Z",
+  "total": 6215,
   "by_date": {
     "2026-05-27": [
       {
@@ -43149,6 +43149,69 @@
       }
     ],
     "2026-11-08": [
+      {
+        "id": "cmw7zgc150001kz07b101hjp6",
+        "text": "Shame, shame, shame on Chappelle",
+        "created_at": "2026-11-08T15:23:06.000Z",
+        "imported_at": "2026-11-08T15:24:16.693Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw7zgc150002kz07l10sk24n",
+        "text": "Starlink saves lives",
+        "created_at": "2026-11-08T15:21:19.000Z",
+        "imported_at": "2026-11-08T15:24:16.693Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw7vvadq0069l808l9zxh1fw",
+        "text": "Many such stories",
+        "created_at": "2026-11-08T13:41:28.000Z",
+        "imported_at": "2026-11-08T13:43:55.983Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw7v5pss003klb08n6zwi1q2",
+        "text": "Yup",
+        "created_at": "2026-11-08T13:21:27.000Z",
+        "imported_at": "2026-11-08T13:24:00.051Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw7uz2m9000vl2076wy7mbmp",
+        "text": "Grok Bot fixes for improved token efficiency and smarter behavior are underway",
+        "created_at": "2026-11-08T13:17:51.000Z",
+        "imported_at": "2026-11-08T13:18:52.682Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw7u9jr0002tl10887ltogvi",
+        "text": "Super Heavy’s Raptor engines lifting the booster off the pad.\n\nFilmed with a high-speed camera so you can see the detail in slow motion. https://video.twimg.com/amplify_video/2119119940708081664/vid/avc1/320x568/pQ4Y1VcgqPPYFzJu.mp4?tag=29",
+        "created_at": "2026-11-08T12:58:41.000Z",
+        "imported_at": "2026-11-08T12:59:01.961Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw7u9jr0002ul108b2ao9ct5",
+        "text": "If one of y'all makes a Starlink ad with a Claudia cameo that wins this contest...\n\nI will personally give you $5000 in @XMoney",
+        "created_at": "2026-11-08T12:57:53.000Z",
+        "imported_at": "2026-11-08T12:59:01.961Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw7t73sc007mjp08h3er77uq",
+        "text": "Interesting",
+        "created_at": "2026-11-08T12:27:32.000Z",
+        "imported_at": "2026-11-08T12:29:06.123Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw7t7h10008njp088aj5r2u7",
+        "text": "This is how every US launch ever looks like vs SpaceX’s 2030 launch target for Starship (10,000): https://pbs.twimg.com/media/HWjLhOUWcAAmmPi.jpg",
+        "created_at": "2026-11-08T12:26:43.000Z",
+        "imported_at": "2026-11-08T12:29:23.955Z",
+        "kind": "original"
+      },
       {
         "id": "cmw7evqec005dkz086krn47pu",
         "text": "When Elon Musk talks about abundance, I think about people having more room to breathe because the things they need become less expensive to provide.\n\nThat is the possibility I find compelling in Terafab. Its planned chips are meant to support AI and robots, and if those systems help us produce goods and deliver services more efficiently, the benefits could reach far beyond the technology industry, into the cost of everyday life.\n\nFor me, that is what makes a chip factory worth caring about. The meaningful version of abundance is not simply having more impressive machines, but building a future in which meeting ordinary needs puts less pressure on ordinary people.",
