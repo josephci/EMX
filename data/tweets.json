@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-08T23:48:57.245Z",
-  "total": 6221,
+  "last_updated": "2026-11-09T05:58:24.064Z",
+  "total": 6232,
   "by_date": {
     "2026-05-27": [
       {
@@ -43150,6 +43150,13 @@
     ],
     "2026-11-08": [
       {
+        "id": "cmw8hv6yf0001js07xjyxymk8",
+        "text": "I agree",
+        "created_at": "2026-11-08T23:50:24.000Z",
+        "imported_at": "2026-11-08T23:59:42.913Z",
+        "kind": "original"
+      },
+      {
         "id": "cmw8e8glf0001i608dki6dsnr",
         "text": "Interesting",
         "created_at": "2026-11-08T22:17:28.000Z",
@@ -43280,6 +43287,78 @@
         "text": "BREAKING: The local government of La Serena, Chile, is bringing @Starlink to rural clinics to help them stay connected during emergencies. 🇨🇱\n\nMedical teams can use Starlink to access patient records, arrange referrals through Chile’s Digital Hospital and stay in touch with residents during emergencies, helping patients get care sooner. ♥️",
         "created_at": "2026-11-08T05:36:23.000Z",
         "imported_at": "2026-11-08T05:38:21.168Z",
+        "kind": "original"
+      }
+    ],
+    "2026-11-09": [
+      {
+        "id": "cmw8q2fu8004jl008cks7i1zf",
+        "text": "I care",
+        "created_at": "2026-11-09T03:44:22.000Z",
+        "imported_at": "2026-11-09T03:49:17.650Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw8pw9sb005jl208j68bur0y",
+        "text": "Chappelle is just not funny anymore",
+        "created_at": "2026-11-09T03:42:03.000Z",
+        "imported_at": "2026-11-09T03:44:30.348Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw8pbih5001cl208hq4fm4rx",
+        "text": "Russell Brand’s ex-girlfriend Samantha Pressdee has fiercely spoken out against the verdict.\n She stated the following:\n \"A wife is without her husband. Three children are without their Dad. Yet everyone thinks the real victim in this is a drunk groupie who was cheating on her boyfriend. Someone who has anonymity for life and will probably get a financial payout.\n “If this drunk groupie thought he was a predator, why would she stand by and watch him sleep with 1000s more women? Didn't she care about those women? \n \"It's not true that women in the comedy industry warned each other about Russell. No one warned me, and it could not have been more obvious that I was connected to him. Just because I am a woman doesn't mean I should 'believe all women'.\n \"I would be more likely to believe women who report criminals to the POLICE. Not the media, decades later. I believe in the right to a fair trial. Convince me it was fair!\"\n She also slammed Georgina Bailey who claimed to be Brand’s ex-lover and had urged him to “tell the truth.”\n \"She was a groupie too,” Samantha revealed. “The kind of women throwing themselves at Brand back then often sold kiss-and-tell [stories] that were mostly made up.\n \"Russell paid for Georgina to go to rehab. Ballie has made a career out of sleeping with him. She's not his ex-girlfriend. At the time, she was in a burlesque troupe called 'The Satanic Sluts'.\"\n At the moment, we are being led to believe that Russell Brand is guilty beyond reasonable doubt. There is no evidence - only the word of one woman and more words from people who don’t like him. \n Now we have other words from someone who knew him that say the opposite of what the establishment and media are saying. \n I also found Reform MP Sarah Pochin’s comments on TalkTV disgraceful. In the clip, she spoke about Brand as if he was 100% guilty, spoke in a rather venomous way about him saying she hoped he would go away for a long long time, and spoke about the accusers as if they are bastions of truth even though there is no way she could possibly know that.\n This is trial by media. Trial by hearsay. Trial by dislike of one person. But trial by truth? No. Russell Brand faces serious danger in prison and was forbidden from saying goodbye to his kids. No mercy is being shown to him. I see only venom and hate. Yet I have seen Brand speak repeatedly about his faith for years, urging millions of people to find their own. The entire thing feels off and rancid. The more this case goes on and the more that is revealed by people like his ex-girlfriend, the more it becomes clear that something very wrong has happened here and we are in the midst of watching something very evil taking place.\n #RussellBrand\n\n Russell Brand’s ex-girlfriend Samantha Pressdee has fiercely spoken out against the verdict. She stated the following: \"... https://ift.tt/HreIXgz",
+        "created_at": "2026-11-09T03:23:33.000Z",
+        "imported_at": "2026-11-09T03:28:21.378Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw8oy6x2005bjp08z3rxkxef",
+        "text": "Excited to be working with @Qualcomm on breakthrough technologies for 5G &amp; beyond",
+        "created_at": "2026-11-09T03:15:20.000Z",
+        "imported_at": "2026-11-09T03:17:54.316Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw8oy6x2005cjp080vbu3mng",
+        "text": "Chinese 𝕏 is 牛逼",
+        "created_at": "2026-11-09T03:13:03.000Z",
+        "imported_at": "2026-11-09T03:17:54.316Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw8oqpjj0001l508qg0cnu0v",
+        "text": "Yeah",
+        "created_at": "2026-11-09T03:09:32.000Z",
+        "imported_at": "2026-11-09T03:12:11.195Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw8o5f7g0017l10838kxd7v6",
+        "text": "Dave Chappelle is cruel",
+        "created_at": "2026-11-09T02:54:10.000Z",
+        "imported_at": "2026-11-09T02:55:37.959Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw8n78dl00g2l508ncw9c89m",
+        "text": "Just did a round table review with the Grok @Bot engineering team. \n\nFixes are being implemented overnight and you should notice a dramatic improvement by tomorrow. If not, reply to this post and we will address any remaining issues right away.",
+        "created_at": "2026-11-09T02:25:56.000Z",
+        "imported_at": "2026-11-09T02:29:02.870Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw8jjlq200mqjy07bok1uztn",
+        "text": "Charlie was murdered in the middle of a debate with people who hate him while wearing a shirt that said \"freedom.\" He died defending Chappelle's right to be offensive. And Chappelle thanks him by reveling in his death.\n\nBut as offensive as that is, none of us who knew and loved Charlie want Chappelle to suffer the same fate. We don't want Chappelle dead, and we wouldn't \"feel better\" if someone murdered him. That's not how we respond to speech that offends us because we're not bloodthirsty lunatics.\n\nIf you're laughing about Charlie's murder, or feeling good about Charlie's murder, you're acting within your rights. You're free to be sadistic. But that's exactly what you are. Your soul is sick. The only thing I wish for you is that you'd come to realize it — before it's too late — and beg for God's forgiveness.",
+        "created_at": "2026-11-09T00:45:21.000Z",
+        "imported_at": "2026-11-09T00:46:41.594Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmw8j5jvz00l1jy07sdcjdtg0",
+        "text": "Mostly accurate per historical records.\n\n~388k Africans disembarked in the US (Trans-Atlantic Slave Trade Database). Slavery was near-universal, including among Native Americans and Africans (millions retained or traded via Arab routes). Founders were overwhelmingly White European Christian men. 1860 census: ~1.4% of free population owned slaves (higher share of Southern families). Europeans, led by Britain, abolished the trade and pressured others.",
+        "created_at": "2026-11-09T00:31:08.000Z",
+        "imported_at": "2026-11-09T00:35:45.767Z",
         "kind": "original"
       }
     ]
