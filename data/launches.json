@@ -1,16 +1,9 @@
 {
-  "last_updated": "2026-11-09T15:57:53.405Z",
+  "last_updated": "2026-11-10T00:06:18.587Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-627",
-      "net": "2026-11-10T03:07:15Z",
-      "status": "Go",
-      "pad": "Space Launch Complex 4E",
-      "location": "Vandenberg SFB, CA, USA"
-    },
-    {
-      "name": "Falcon 9 Block 5 | USSF-317",
-      "net": "2026-11-13T04:23:00Z",
+      "net": "2026-11-11T02:49:00Z",
       "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
@@ -21,6 +14,20 @@
       "status": "TBC",
       "pad": "Orbital Launch Pad 2",
       "location": "SpaceX Starbase, TX, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | USSF-317",
+      "net": "2026-11-14T04:09:00Z",
+      "status": "Go",
+      "pad": "Space Launch Complex 4E",
+      "location": "Vandenberg SFB, CA, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | USSF-266",
+      "net": "2026-11-17T16:58:00Z",
+      "status": "Go",
+      "pad": "Space Launch Complex 4E",
+      "location": "Vandenberg SFB, CA, USA"
     },
     {
       "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
@@ -77,13 +84,6 @@
       "status": "TBD",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
-    },
-    {
-      "name": "Falcon 9 Block 5 | BlueBird 14-16 (Block 2 #9-11)",
-      "net": "2026-12-31T00:00:00Z",
-      "status": "TBD",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA"
     }
   ]
 }
