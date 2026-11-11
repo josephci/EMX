@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-11T07:49:34.590Z",
-  "total": 6299,
+  "last_updated": "2026-11-11T16:02:12.430Z",
+  "total": 6304,
   "by_date": {
     "2026-05-27": [
       {
@@ -43830,6 +43830,43 @@
         "text": "Memphis Mayor Paul Young confirming @elonmusk’s statement that Memphis is booming because of the data centers: \n\n“This year was $54 million in taxes generated. Last year about $25 million — it was the second-largest taxpaying property in Shelby County.” https://video.twimg.com/amplify_video/2119964065174781952/vid/avc1/480x270/z3DPES7ApPo_vSRc.mp4?tag=29",
         "created_at": "2026-11-10T02:02:02.000Z",
         "imported_at": "2026-11-10T02:03:18.561Z",
+        "kind": "original"
+      }
+    ],
+    "2026-11-11": [
+      {
+        "id": "cmwbvw50e01ejl608c67sfdsy",
+        "text": "It seems wrong that ideology and idiot are unrelated words. They’re so perfect together.",
+        "created_at": "2026-11-11T08:51:50.000Z",
+        "imported_at": "2026-11-11T08:55:40.371Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwbvw50e01ekl6087666p4px",
+        "text": "Elon Musk has a track record of calling hard problems early.\n\nIn a February 2026 interview, he warned: “Those who have lived in software land don’t realize they’re about to have a hard lesson in hardware.”\n\nBy late August, SpaceX confirmed it was bringing the casting of gas-turbine blades and vanes in-house — the single biggest bottleneck for new natural-gas power plants needed to feed AI data centers. Musk said the move could bring turbines online up to 18 months faster.\n\nToday he put it even more bluntly: SpaceX has “a super cracked team that is outperforming the rest of the world by an order of magnitude in mass to orbit — and even we find it very difficult.”\n\nHardware doesn’t care about demos, funding rounds, or slide decks. The teams that actually build the hard stuff keep winning.\n\nWhat a legend.",
+        "created_at": "2026-11-11T08:51:26.000Z",
+        "imported_at": "2026-11-11T08:55:40.371Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwbvpp6t013vl608egkhk0zv",
+        "text": "Taps the sign https://pbs.twimg.com/media/HWz4KQpWwAAGkdp.jpg",
+        "created_at": "2026-11-11T08:46:02.000Z",
+        "imported_at": "2026-11-11T08:50:39.940Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwbvcxb800o2l608ybwapzot",
+        "text": "29 days from completion of tunneling in Bastrop to initiation of tunneling in San Antonio. https://video.twimg.com/amplify_video/2120286885905874944/vid/avc1/320x568/wntPLeMvkFR4LPHQ.mp4?tag=29",
+        "created_at": "2026-11-11T08:38:32.000Z",
+        "imported_at": "2026-11-11T08:40:43.935Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwbutl530000l608a60210k1",
+        "text": "Portable, lightning-fast Internet that works anywhere on Earth where Starlink is legal!",
+        "created_at": "2026-11-11T08:25:30.000Z",
+        "imported_at": "2026-11-11T08:25:41.693Z",
         "kind": "original"
       }
     ]
