@@ -5,9 +5,9 @@
     "bucket": "40-64",
     "lo": 40,
     "hi": 64,
-    "mid": 53,
-    "leadH": 15.7,
-    "locked": false,
-    "logged": "2026-11-11T01:20:10.469Z"
+    "mid": 42,
+    "leadH": 9.2,
+    "locked": true,
+    "logged": "2026-11-11T07:49:36.726Z"
   }
 }
