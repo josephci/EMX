@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-10T21:25:25.524Z",
-  "total": 6297,
+  "last_updated": "2026-11-11T01:20:09.047Z",
+  "total": 6299,
   "by_date": {
     "2026-05-27": [
       {
@@ -43671,6 +43671,20 @@
       }
     ],
     "2026-11-10": [
+      {
+        "id": "cmwbcfbmj02k1kz08ok7tpb4b",
+        "text": "SpaceX has ordered 100 GW/year of HJT solar manufacturing equipment from Singulus in Germany. \n\nThis is for Starmind to create a sentient sun.",
+        "created_at": "2026-11-10T23:47:57.000Z",
+        "imported_at": "2026-11-10T23:50:43.095Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwb91a2x03drk108oinqwanr",
+        "text": "🚨 BREAKING: The FCC accepts SpaceX's application to acquire nationwide 800 MHz spectrum\n\nVerizon, AT&T and T-Mobile all told SpaceX \"NO\" when it asked to use their networks. SpaceX is building its own:\n\nThis deal with Grain Management secures 546 paired licenses covering ~100% of the U.S. population, on 800 MHz low band that penetrates straight through walls and already works with almost every smartphone.\n\nOnce it closes, SpaceX will hold up to 89 MHz of spectrum in every market it touches.\n\nElon Musk: \"This is the last critical piece of the spectrum puzzle needed for SpaceX to provide complete phone coverage in America.\"\n\nITS HAPPENING",
+        "created_at": "2026-11-10T22:11:07.000Z",
+        "imported_at": "2026-11-10T22:15:49.065Z",
+        "kind": "original"
+      },
       {
         "id": "cmwb5gru2042gi608ibuddn2w",
         "text": "Here is SpaceX's new @Starlink Mini 2 with quick-swap battery. You can get up to 4.5 hours of use on a single charge.\n\nThis means you can get internet in the middle of nowhere and not have to plug anything in. https://video.twimg.com/amplify_video/2120209633608425472/vid/avc1/446x270/RSP-CC_YA1cp_jKh.mp4?tag=29",
