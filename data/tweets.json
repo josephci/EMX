@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-11T22:35:50.666Z",
-  "total": 6314,
+  "last_updated": "2026-11-12T03:21:16.890Z",
+  "total": 6316,
   "by_date": {
     "2026-05-27": [
       {
@@ -43937,6 +43937,22 @@
         "text": "Portable, lightning-fast Internet that works anywhere on Earth where Starlink is legal!",
         "created_at": "2026-11-11T08:25:30.000Z",
         "imported_at": "2026-11-11T08:25:41.693Z",
+        "kind": "original"
+      }
+    ],
+    "2026-11-12": [
+      {
+        "id": "cmwcwc62100x2l0071avvr6tu",
+        "text": "Introducing Grok Bot 1.0.\n\nBots can be shared and are more collaborative and capable than ever. https://video.twimg.com/amplify_video/2120584648887603200/vid/avc1/480x270/pdql7MHxbgju_kFS.mp4?tag=29",
+        "created_at": "2026-11-12T01:53:18.000Z",
+        "imported_at": "2026-11-12T01:55:54.409Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwcw02ub00ggl007incidyu6",
+        "text": "Grok Bot can now join your personal or company tailnets on Tailscale.\n\nUse it to securely reach private MCP servers, internal tools, and apps on your network. https://pbs.twimg.com/media/HWy-eg_bwAARy5W.jpg",
+        "created_at": "2026-11-12T01:46:08.000Z",
+        "imported_at": "2026-11-12T01:46:30.365Z",
         "kind": "original"
       }
     ]
