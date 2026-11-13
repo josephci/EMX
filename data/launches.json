@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13T07:18:21.534Z",
+  "last_updated": "2026-11-13T15:31:11.988Z",
   "launches": [
     {
       "name": "Starship | Starlink Group 31-2 (Starship Flight 15)",
@@ -31,7 +31,7 @@
     },
     {
       "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-      "net": "2026-11-29T15:49:00Z",
+      "net": "2026-11-29T15:47:00Z",
       "status": "Go",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA"
