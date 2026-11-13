@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12T19:07:37.018Z",
+  "last_updated": "2026-11-13T00:33:42.987Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-627",
@@ -17,7 +17,7 @@
     },
     {
       "name": "Falcon 9 Block 5 | USSF-317",
-      "net": "2026-11-15T03:55:00Z",
+      "net": "2026-11-18T03:14:00Z",
       "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
@@ -25,6 +25,13 @@
     {
       "name": "Falcon 9 Block 5 | USSF-266",
       "net": "2026-11-18T16:49:00Z",
+      "status": "Go",
+      "pad": "Space Launch Complex 4E",
+      "location": "Vandenberg SFB, CA, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | NROL-136",
+      "net": "2026-11-21T12:30:00Z",
       "status": "Go",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
@@ -77,13 +84,6 @@
       "status": "TBD",
       "pad": "Unknown Pad",
       "location": "Cape Canaveral SFS, FL, USA"
-    },
-    {
-      "name": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer E",
-      "net": "2026-12-31T00:00:00Z",
-      "status": "TBD",
-      "pad": "Space Launch Complex 4E",
-      "location": "Vandenberg SFB, CA, USA"
     }
   ]
 }
