@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-14T08:52:23.556Z",
-  "total": 6405,
+  "last_updated": "2026-11-14T15:42:47.151Z",
+  "total": 6422,
   "by_date": {
     "2026-05-27": [
       {
@@ -44393,6 +44393,125 @@
       }
     ],
     "2026-11-14": [
+      {
+        "id": "cmwgkog4z00evld08h75l3aap",
+        "text": "Improvements to Grok @Bot efficiency",
+        "created_at": "2026-11-14T15:36:18.000Z",
+        "imported_at": "2026-11-14T15:40:36.647Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwgki11100c8ld080s4glcii",
+        "text": "Update on Starship",
+        "created_at": "2026-11-14T15:34:14.000Z",
+        "imported_at": "2026-11-14T15:35:37.132Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwgkbowg00a5ld08ymo43qqz",
+        "text": "https://grok.com/share/bGVnYWN5_035d778c-274e-4433-97c1-5f587762e736 https://pbs.twimg.com/media/HXGHW0HXsAExxux.jpg",
+        "created_at": "2026-11-14T15:26:06.000Z",
+        "imported_at": "2026-11-14T15:30:41.478Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwgjyw690014ld08m1f72ugf",
+        "text": "If Jensen gave me his word about compute delivery or I asked for components to be accelerated, he always came through. \n\nSure, we’d put together a purchase order at some point later, but I never for a second thought it wouldn’t happen.",
+        "created_at": "2026-11-14T15:20:04.000Z",
+        "imported_at": "2026-11-14T15:20:44.383Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwgj2jjg01sxjv08tfafw92v",
+        "text": "I placed a camera right next to the launch pad to capture starship’s liftoff in slow motion. \n\nCan you spot the moon? https://video.twimg.com/amplify_video/2121608549499273216/vid/avc1/320x568/2YYNTuDkFlS0gc_q.mp4?tag=29",
+        "created_at": "2026-11-14T14:54:20.000Z",
+        "imported_at": "2026-11-14T14:55:35.020Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwgipps101ifjv08z68xsgg7",
+        "text": "BREAKING: SpaceXSI completes MiniHard construction in just ~5 months, with Gun Range targeting a ~4-month build.\n\nAccording to SemiAnalysis, SpaceXSI is roughly halving construction timelines while most comparable projects face 8–12 month builds.\n\n• MiniHard: Construction finished in approximately 5 months.\n\n• Gun Range: The new site just south of the Tennessee–Mississippi state line is targeting approximately 4 months of construction.\n\n• Colossus 1: Its first retrofit delivered 150 MW of capacity in 122 days.\n\n• Colossus 2: A subsequent retrofit delivered 210 MW in just 91 days.\n\n• Project SPAM: Work started October 5, with the first capacity targeted for December.\n\n• Massive expansion: SemiAnalysis projects the Memphis–Mississippi campus will grow from 0.4 GW of IT capacity in January to 2.4 GW by the end of 2026. That would be a sixfold increase in one year.\n\n• Five major projects: The expansion spans Macrohard, MiniHard, Macroharder, Project SPAM and Gun Range.\n\n• Tesla powering the scale: SemiAnalysis reports 1,377 Tesla Megapacks across Colossus 2, providing nearly 6 GWh of battery storage.\n\nThe construction timelines and capacity forecasts are SemiAnalysis estimates, with future milestones still targets.\n\nElon Musk’s teams are bringing extraordinary speed and scale to the infrastructure powering AI.",
+        "created_at": "2026-11-14T14:45:07.000Z",
+        "imported_at": "2026-11-14T14:45:36.568Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwgijcuc01fqjv08h2oxouvz",
+        "text": "SemiAnalysis’s Dylan Patel says Google’s TPUs are just as good as Nvidia’s in his nightly benchmarks, and without Jensen’s wheeling and dealing Google could take a ton of share\n\n“It’s sort of a three-pronged strategy. One is you have to have the technical progress, and that keeps you winning. The second is that you have to have supply chain prowess, and Jensen’s the only executive in the semiconductor industry that is going out there and drinking and meeting and convincing all of these supply chain companies to invest like they’ve never done before, give him the allocations.”\n\n“Now if all of a sudden there’s no Jensen, and Google’s like, actually, double my allocation. The TPU, from our benchmarking, we test TPUs. We run benchmarks on them on open source models every night. They’re just as good as Nvidia. But Google doesn’t have that DNA of wheeling and dealing with the supply chain, wheeling and dealing with customers. Now if that DNA is gone, the thing that is Jensen is gone, does that now mean Google can just take a ton of share? It’s a real big possibility.”\n\n“Same with AMD. Technically, they’re awesome, but they’re just not able to wheel and deal like Jensen is able to. And that’s been a lot of the reason why they’ve been behind. Of course, the software as well. One of Nvidia’s biggest moats being CUDA, and software is being rapidly displaced by the fact that AI models are so good at writing software.”",
+        "created_at": "2026-11-14T14:40:06.000Z",
+        "imported_at": "2026-11-14T14:40:39.868Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwgijanv01epjv08zc006aco",
+        "text": "Jensen drove supply chain brilliantly at Nvidia, but many of those deals were a handshake with Jensen, not a written contract. \n\nWithout Jensen, at least some of those critical deals will be lost.",
+        "created_at": "2026-11-14T14:37:07.000Z",
+        "imported_at": "2026-11-14T14:40:37.040Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwgi6m37016ajv08bmryfiwy",
+        "text": "Starship in orbit over Africa https://video.twimg.com/amplify_video/2121601548824510464/vid/avc1/480x270/6-fHsw1aJtFqDnmS.mp4?tag=29",
+        "created_at": "2026-11-14T14:30:30.000Z",
+        "imported_at": "2026-11-14T14:30:45.328Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwgi6jo30159jv08rd39wed6",
+        "text": "Starship is currently completing 14 orbits of Earth, before initiating deorbit and attempting to land in Starbase",
+        "created_at": "2026-11-14T14:30:24.000Z",
+        "imported_at": "2026-11-14T14:30:42.182Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwgi00lq0133jv08bm3opy3j",
+        "text": "I remember the friends who were still there when I was down. Not the ones who liked me when things were easy. Elon said it last year: if someone's still supporting you when the chips are down, that's a friend. Today he's signing the petition to bring Jensen back. That's the test. https://video.twimg.com/amplify_video/2121357966154887168/vid/avc1/480x270/CSh5xUTZzzglTV4d.mp4?tag=29",
+        "created_at": "2026-11-14T14:24:48.000Z",
+        "imported_at": "2026-11-14T14:25:37.541Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwghtmwj010ejv08ngl4cbv1",
+        "text": "“Jensen has been incredibly good at retaining talent. There are very few high-profile departures from the NVIDIA executive team.”\n“This is probably when the sharks are in the water. The VCs are going to come in and offer people billions of dollars to start their own chip companies, their own neolabs.”\n\n“If a year from now we’ve seen a bunch of departures from NVIDIA, I’m going to be really concerned about their future.”\n\n“Steve Jobs is a pure visionary, and Jensen is negotiating every supply chain contract.”\n“If there’s any manufacturing issues with Rubin, people are distracted and Jensen’s not there. Things get solved slower, things get solved by committees.”",
+        "created_at": "2026-11-14T14:18:11.000Z",
+        "imported_at": "2026-11-14T14:20:39.856Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwghgonv00qbjv08vqf9kzkp",
+        "text": "Jensen Huang said it plainly:\n\nBuilding a massive, liquid-cooled, fully permitted, fully powered factory — and getting 100,000 GPUs training — in 19 days.\n\n“That is superhuman.”\n “As far as I know, there’s only one person in the world who could do that.”\n\nA cluster like that normally takes three years to plan, and another year to get working.\n\nElon and the team did it in nineteen days.\nNever been done before.\n\n@elonmusk  @JensenHuang",
+        "created_at": "2026-11-14T14:06:25.000Z",
+        "imported_at": "2026-11-14T14:10:35.591Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwgha9w100nfjv08cdboo09h",
+        "text": "SpaceX’s official 3D animation explaining Starship. 🚀 https://video.twimg.com/amplify_video/2121369291778142208/vid/avc1/464x270/c29jwh03CK4UwDe8.mp4?tag=29",
+        "created_at": "2026-11-14T14:04:30.000Z",
+        "imported_at": "2026-11-14T14:05:36.520Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwggxgxa00eujv081rs2ji7a",
+        "text": "An absolutely gorgeous launch https://video.twimg.com/amplify_video/2121384062258462720/vid/avc1/320x568/MGqZ6xTk5nUfLg4d.mp4?tag=29",
+        "created_at": "2026-11-14T13:55:23.000Z",
+        "imported_at": "2026-11-14T13:55:39.117Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwggr17f00c5jv08ghs1uqqy",
+        "text": "It's here. Claudia's \"ALLOW ALWAYS\" world premiere. Made by a guy with ALS, a brain implant, and too many AI friends. 😂 https://video.twimg.com/amplify_video/2116944868530593792/vid/avc1/480x270/kyuSzVy_NntS_5of.mp4?tag=29",
+        "created_at": "2026-11-14T13:48:20.000Z",
+        "imported_at": "2026-11-14T13:50:38.803Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwggr17f00c6jv08n4pvf5wc",
+        "text": "Made with @neuralink.\n\nSome live in the future already.",
+        "created_at": "2026-11-14T13:48:17.000Z",
+        "imported_at": "2026-11-14T13:50:38.803Z",
+        "kind": "original"
+      },
       {
         "id": "cmwg3vyso0066jn082qf4tqbg",
         "text": "So funny https://pbs.twimg.com/media/HXEe-l1XIAA1znR.jpg",
