@@ -1,13 +1,6 @@
 {
-  "last_updated": "2026-11-14T20:04:56.238Z",
+  "last_updated": "2026-11-14T23:49:57.308Z",
   "launches": [
-    {
-      "name": "Starship | Starlink Group 31-2 (Starship Flight 15)",
-      "net": "2026-11-13T22:47:36Z",
-      "status": "In Flight",
-      "pad": "Orbital Launch Pad 2",
-      "location": "SpaceX Starbase, TX, USA"
-    },
     {
       "name": "Falcon 9 Block 5 | USSF-317",
       "net": "2026-11-18T03:14:00Z",
@@ -84,6 +77,13 @@
       "status": "TBD",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | BlueBird 14-16 (Block 2 #9-11)",
+      "net": "2026-12-31T00:00:00Z",
+      "status": "TBD",
+      "pad": "Space Launch Complex 40",
+      "location": "Cape Canaveral SFS, FL, USA"
     }
   ]
 }
