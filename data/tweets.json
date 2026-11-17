@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-17T17:41:31.279Z",
-  "total": 6594,
+  "last_updated": "2026-11-17T23:57:28.282Z",
+  "total": 6604,
   "by_date": {
     "2026-05-27": [
       {
@@ -45547,6 +45547,76 @@
       }
     ],
     "2026-11-17": [
+      {
+        "id": "cmwl8ktn800gqk107wqmjbrnp",
+        "text": "🚨SpaceX CFO Bret Johnsen:\n\n“I hope everyone's trying Grok Bot, it is amazing. It’s probably the best agentic AI solution out there. If you look at Grok Bot and the updates that are coming on the Grok model as well, and the coding capability of Cursor, we have a very diversified software portfolio that's just going to get better and better.”",
+        "created_at": "2026-11-17T21:56:56.000Z",
+        "imported_at": "2026-11-17T22:00:43.017Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwl8eekr0081k107wojpmtce",
+        "text": "🤦‍♂️",
+        "created_at": "2026-11-17T21:55:02.000Z",
+        "imported_at": "2026-11-17T21:55:43.554Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwl1skgn01qlkx07vu9v9nih",
+        "text": "Socialism vs Capitalism https://pbs.twimg.com/media/HXSg5rLa8AEBNGt.jpg",
+        "created_at": "2026-11-17T18:48:33.000Z",
+        "imported_at": "2026-11-17T18:50:47.058Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwl1996e00wmkx0701b3036b",
+        "text": "Tesla’s Annual Meeting is coming up on December 3 &amp; we need your vote\n\nVoting is quick &amp; easy – you can vote online, by mail, by QR code or by phone\n\n@Tesla_Optimus can show you how\n\nhttps://VoteTesla.com https://video.twimg.com/amplify_video/2122580756962893824/vid/avc1/480x270/YL9HFJaElW3i5CUO.mp4?tag=29",
+        "created_at": "2026-11-17T18:33:09.000Z",
+        "imported_at": "2026-11-17T18:35:45.963Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwl1996e00wnkx07e4tlgl10",
+        "text": "I combined 15 of my launch/catch photos to create this: A composite image telling the story of this historic event.\n\nI titled it \"Dreams of Martian Skies\". Suddenly that dream feels a bit more real. \n\nGet the Print and read more info about how it was captured 👇 https://pbs.twimg.com/media/HXVjC0qb0AABSIf.jpg",
+        "created_at": "2026-11-17T18:31:00.000Z",
+        "imported_at": "2026-11-17T18:35:45.963Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwl0wgbl00cekx070ufrc8uc",
+        "text": "SpaceXSI has released a blog: Building an accounting team with Grok Bot https://pbs.twimg.com/media/HXWLeSDXMAEz9pj.jpg",
+        "created_at": "2026-11-17T18:23:34.000Z",
+        "imported_at": "2026-11-17T18:25:48.699Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwl0wgbl00cfkx07cviu989b",
+        "text": "Not \"pretty darn close\".\n\nStarlink: \n~100 Mbps down\n~20 Mbps up, \nLatency ~30 ms\n\nViaSat: \n~`10 Mbps down \n~2 Mbps up\nLatency > 600 ms as the floor (can't get better).\n\nOrder of magnitude difference.",
+        "created_at": "2026-11-17T18:21:46.000Z",
+        "imported_at": "2026-11-17T18:25:48.699Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwl006pv052yl6085s2n0vs4",
+        "text": "Delta’s CEO said today, “We’ve been the leader in free, fast Wi-Fi,” and claimed customers don’t pick airlines based on Wi-Fi.\n\nThe reality tells a completely different story. His own loyal customers are switching to airlines with Starlink 👇 https://pbs.twimg.com/media/HXWF1lcbMAAagOZ.jpg",
+        "created_at": "2026-11-17T17:57:11.000Z",
+        "imported_at": "2026-11-17T18:00:43.260Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwkzngml04p3l608nywnv7f9",
+        "text": "Tesla has officially unveiled its first-ever transformer called Powercore, enabling fully off-grid data centers.\n\n• Solid state medium voltage transformer, inverter & breaker\n• Peak efficiency: 98.86%\n• Power: 9 MVA 7.4 MW. Grid-forming support for 10MVA of peak power.\n• AC Voltage: 10 kV - 35 kV\n• DC Voltage: 800 Vdc - 2000 Vdc\n• 25-year warranty\n• Make Tesla Megablock even better\n• Powers 800 Vdc data centers\n• Accelerates 1500 to 2000 Vdc solar\n• Made in America\n• Operating 2027",
+        "created_at": "2026-11-17T17:47:28.000Z",
+        "imported_at": "2026-11-17T17:50:49.575Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwkzguu704bwl608g5k3pats",
+        "text": "Starlink saves lives",
+        "created_at": "2026-11-17T17:44:06.000Z",
+        "imported_at": "2026-11-17T17:45:41.397Z",
+        "kind": "original"
+      },
       {
         "id": "cmwkxie2s01oel608l5k41l18",
         "text": "Advanced solid state transformers at scale from Tesla",
