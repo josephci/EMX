@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-20T10:13:16.228Z",
-  "total": 6702,
+  "last_updated": "2026-11-20T18:39:24.403Z",
+  "total": 6729,
   "by_date": {
     "2026-05-27": [
       {
@@ -46638,6 +46638,195 @@
       }
     ],
     "2026-11-20": [
+      {
+        "id": "cmwpblazz0304l50819q8wkzp",
+        "text": "This is where the smart people are",
+        "created_at": "2026-11-20T18:34:02.000Z",
+        "imported_at": "2026-11-20T18:36:09.071Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwpblazz0305l508dc230b99",
+        "text": "Haven’t read it, but probably mostly (80% or so) accurate",
+        "created_at": "2026-11-20T18:30:35.000Z",
+        "imported_at": "2026-11-20T18:36:09.071Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwpbe5ch02r3l508zdxjyr7k",
+        "text": "I was just thinking that (for myself) stupidity doesn’t count unless I’m also really obstinate about it",
+        "created_at": "2026-11-20T18:28:08.000Z",
+        "imported_at": "2026-11-20T18:30:35.153Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwpabzru01a9l508mcncagtt",
+        "text": "holy f*ck... you will never give a store your real email again. Elon Musk's team just made sure of it\n\nevery Grok Bot can claim its own email address now, on its own @mail.grokbot domain. it signs up for things and talks to companies for you\n\nso my real email goes to real people. every store, app and \"sign up for 10% off\" box gets my bot's\n\nthe rules its inbox runs on:\n\n1. promos: delete. 3 in a week from the same sender: unsubscribe\n2. receipts: keep them, track the return window, warn me 3 days out\n3. codes and sign-up links: use them yourself\n4. anything about money or my words: forward it to me\n5. never reply as me\n\nthe free trial that's about to start charging me? that one reaches me. the 12th \"flash sale\" this week doesn't\n\nmy inbox is for people again\n\nthe rest of my Grok Bot setup is in my article. read it below ↓",
+        "created_at": "2026-11-20T17:58:28.000Z",
+        "imported_at": "2026-11-20T18:00:54.991Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwpa5gru00zfl5084kffmqjf",
+        "text": "small updates in pstack v0.15.46\n\n• lots of pruning, skills are now much shorter\n• gemini 4 neon is added as a panel reviewer \n\nit's autoupdated for grok bot / cursor users! if you want to change any of the model routing, just run /setup-pstack again\n\nhttps://x.ai/bot/plugin/9717366",
+        "created_at": "2026-11-20T17:55:16.000Z",
+        "imported_at": "2026-11-20T17:55:50.437Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwpa5gru00zgl5086d6qwqkd",
+        "text": "Try the Claudia Grok Bot!\n\nhttps://x.ai/bot/zvsgYtQHUcSKGRhAb_JzM\n\nhttps://video.twimg.com/amplify_video/2110224903857381376/vid/avc1/1920x1080/KuCi1eWClVKwEzW9.mp4?tag=29",
+        "created_at": "2026-11-20T17:51:24.000Z",
+        "imported_at": "2026-11-20T17:55:50.437Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwp9z4uu00q8l5086f3t1bzg",
+        "text": "Caring about the working class means more than handing out uninspiring jobs. \n\nMake the factory cool and the work meaningful so people feel they’re building the future, not just following orders.",
+        "created_at": "2026-11-20T17:47:12.000Z",
+        "imported_at": "2026-11-20T17:50:55.054Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwp8wbt400cll2080t8naa2g",
+        "text": "Made with Grok @Bot\nhttps://m.youtube.com/watch?v=NkzscDL6VlE&ra=m",
+        "created_at": "2026-11-20T17:17:07.000Z",
+        "imported_at": "2026-11-20T17:20:44.482Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwp811ch03n6l707xk0uybyo",
+        "text": "Deception needs a motive, and a motive needs a soul https://video.twimg.com/amplify_video/2122159744207224832/vid/avc1/1280x720/IVtyBMfUA9-3wE-f.mp4?tag=29",
+        "created_at": "2026-11-20T16:52:51.000Z",
+        "imported_at": "2026-11-20T16:56:24.593Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwp7aoon02ifl707r1umhc45",
+        "text": "Neuralink’s Blindsight product is now just waiting for regulatory approval",
+        "created_at": "2026-11-20T16:34:21.000Z",
+        "imported_at": "2026-11-20T16:35:55.126Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwp7aoon02igl707nmthlrdu",
+        "text": "Starlink helps education",
+        "created_at": "2026-11-20T16:31:31.000Z",
+        "imported_at": "2026-11-20T16:35:55.126Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwp74ctr0287l7074qs8acb7",
+        "text": "Starlink is transforming a remote mountain water gate in Japan that sits completely outside mobile network coverage\n\nFor years, workers had to travel roughly 35 minutes along a dangerous mountain road just to inspect the facility. During heavy rain, floods, or at night, reaching the site became even more dangerous\n\nNow KDDI and Japanese farm-tech company farmo have connected the Shinbori headworks in Sekikawa, Niigata, using Starlink Mini\n\nHere's how the system works:\n\n• Starlink Mini provides satellite internet where cellular networks don't reach\n\n• LoRa connects water-level sensors and the automated water gate\n\n• Solar panels power the equipment where grid electricity is difficult to access\n\n• Cloud monitoring gives operators real-time water levels, camera feeds, equipment status, and emergency alerts\n\n• Workers remotely open and close the water gate without physically visiting the site\n\nThe results are already impressive:\n\nAll 6 remote gate-control tests were SUCCESSFUL\n\nWorkers now have visibility and control over infrastructure that previously required a dangerous mountain trip just to inspect\n\nThis becomes especially important during floods and emergencies, when every minute matters and sending workers into dangerous conditions puts lives at risk\n\nThe project will continue in Japan's FY2027, with plans to expand into automated water management, disaster prevention, and other agricultural applications\n\nThis is another example of what Starlink is making possible",
+        "created_at": "2026-11-20T16:26:23.000Z",
+        "imported_at": "2026-11-20T16:30:59.821Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwp6y4g401r9l70760kmmof4",
+        "text": "I use @bot very extensively, but the most mind blowing thing just happened 🤯\n\nOur roof had a small leak because of the rain. @bot called an emergency roof repair business for me, talked to their AI agent on the phone, and a guy showed up and fixed our roof in an hour for $300\n\nThe future is here. Huge fan of the new call feature!!! @poteto",
+        "created_at": "2026-11-20T16:25:13.000Z",
+        "imported_at": "2026-11-20T16:26:09.016Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwp6y4g401ral707p179y9oj",
+        "text": "Morgan Stanley: SpaceX\n\nMorgan Stanley's latest report indicates that a single fully loaded Starship launch could generate approximately $400 million in annualized revenue for Starlink, with a revenue payback period of about 13 weeks and an EBIT payback period of about 19 weeks, surpassing even the profitability efficiency of the emerging neocloud business.\n\nThis calculation is based on each Starship carrying 50 Starlink V3 satellites, with each satellite generating approximately $8 million in annualized incremental revenue. Assuming a variable cost of about $100 million per launch by 2030—comprising $60 million in launch costs and $40 million in payload costs—the payback period for Starship investments would be quite substantial.\n\n$SPCX",
+        "created_at": "2026-11-20T16:23:06.000Z",
+        "imported_at": "2026-11-20T16:26:09.016Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwp6rgmp01i0l7077u8u1rqn",
+        "text": "𝕏 is the global town square",
+        "created_at": "2026-11-20T16:19:36.000Z",
+        "imported_at": "2026-11-20T16:20:58.222Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwp6edmy00z2l707f2k6rcfn",
+        "text": "Starlink just secured another major spectrum expansion in Brazil, and the authorization is now OFFICIAL 🇧🇷\n\nBrazil's telecom regulator Anatel published Act No. 14,179 on November 19, formally adding new radio-frequency bands to Starlink's existing satellite authorization\n\nHere's what was approved:\n\n• 5 new uplink frequency sub-bands\n• 4 new downlink frequency sub-bands\n• Additional spectrum across Ku, Ka and Q/V bands\n• Authorization covering ALL of Brazil\n• Non-exclusive use for the remaining term of Starlink's existing authorization\n• Approved by Anatel's board in October and formally published November 19\n\nThe authorization is held by Space Exploration Holdings, with Starlink Brazil Holding serving as its local representative\n\nThese additional frequencies are an important part of expanding Starlink's satellite communications capacity and supporting its next-generation network\n\nAnd with Starlink V3 satellites bringing dramatically more bandwidth per satellite, securing additional spectrum is very important\n\nBrazil is already a major market for Starlink, and SpaceX is continuing to build the regulatory foundation for its future expansion\n\nStep by step, Starlink is securing the infrastructure and spectrum needed to keep scaling across Brazil",
+        "created_at": "2026-11-20T16:07:59.000Z",
+        "imported_at": "2026-11-20T16:10:47.812Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwp6edmy00z3l707szism175",
+        "text": "Members of the Starship production team with Starship 42 before its launch https://pbs.twimg.com/media/HXlJcyAXcAABal7.jpg",
+        "created_at": "2026-11-20T16:06:41.000Z",
+        "imported_at": "2026-11-20T16:10:47.812Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwp68efr00n9l70791bnwkwm",
+        "text": "Back in 2019, Elon Musk stood on an empty field in Shanghai and broke ground on Tesla’s first factory in China\n\nLess than a year later, the first China-made Model 3s were being delivered\n\nThen in January 2020, Elon returned to launch the Model Y program and celebrated with the team on stage\n\nFast forward to 2026\n\nGiga Shanghai has become one of the most important factories in Tesla’s entire global operation\n\n• 851,732 vehicles produced for wholesale in 2025\n• 810,889 already through October 2026\n• 95% of last year’s entire volume in just 10 months\n• +21.4% YoY through October\n• 420,984 vehicles exported through October\n• Exports up more than 100% YoY\n• More than half of Shanghai’s 2026 wholesale volume now going overseas\n• Tesla’s biggest global export hub\n\nAnd on November 19, Elon returned to Shanghai again to personally thank Tesla’s China and APAC teams\n\nFrom an empty construction site in 2019…\n\nTo hundreds of thousands of vehicles every year, supplying markets around the world\n\nGiga Shanghai is one of the clearest examples of how quickly Tesla can turn an empty field into global industrial infrastructure",
+        "created_at": "2026-11-20T16:03:44.000Z",
+        "imported_at": "2026-11-20T16:06:08.913Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwp62leo00e5l7071hy3pbks",
+        "text": "Sono orgoglioso di annunciare un’altra importante novità per la mobilità in Italia.\n\nIl @mitgov_it, dopo puntuale verifica tecnica di fattibilità, ha dato il via libera all’omologazione provvisoria del sistema di guida assistita Tesla Assisted Driving, anticipando il processo di riconoscimento comunitario, attualmente in fase di definizione.\n\nUn altro passo avanti verso l’innovazione, la tecnologia e la mobilità del futuro, sempre mettendo al primo posto la sicurezza dei cittadini.",
+        "created_at": "2026-11-20T16:00:58.000Z",
+        "imported_at": "2026-11-20T16:01:38.013Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwp62leo00e6l707ld6ab9ls",
+        "text": "This came home from Kindergarten today.\n\nMy work is done here. 🦃 🇺🇸🚀💪 https://pbs.twimg.com/media/HXhYQFDWgAA7hxm.jpg",
+        "created_at": "2026-11-20T15:57:08.000Z",
+        "imported_at": "2026-11-20T16:01:38.013Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwow7yt505o8if08uv2w4ogy",
+        "text": "Approvata la guida autonoma di Tesla in Italia: è il primo dei grandi Paesi europei ad approvarla. Complimenti al sindaco di Roma Gualtieri, che per primo l'ha provata in città (ci siamo divertiti!), al ministro Salvini per la decisione lungimirante di approvarla al Presidente Meloni per il supporto verso le nuove tecnologie e all'opposizione di Azione di Carlo Calenda per aver fatto proposte costruttive affinché ciò avvenisse. Orgoglio 🇮🇹🇺🇸",
+        "created_at": "2026-11-20T11:23:44.000Z",
+        "imported_at": "2026-11-20T11:25:52.501Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwow1e2i05a3if08cyw91gjy",
+        "text": "BREAKING: SpaceX provided food, water and mobile Starlink units to emergency crews responding to flooding in Cocoa Beach, Florida.\n\nThe city has publicly thanked SpaceX for supporting its teams as essential staff work around the clock to keep residents safe and essential services running.\n\nWith City Hall closed following heavy rainfall, SpaceX is helping crews stay supplied and connected in the field throughout the response.",
+        "created_at": "2026-11-20T11:19:39.000Z",
+        "imported_at": "2026-11-20T11:20:45.690Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwow1by80591if088qsuvcs4",
+        "text": "Yes",
+        "created_at": "2026-11-20T11:19:25.000Z",
+        "imported_at": "2026-11-20T11:20:42.944Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwow1e2i05a4if08ibowdf7m",
+        "text": "The magnitude of the consumer surplus for AI tools is mind boggling. My Grok subscription has probably already saved (made?) me more money than I am ever likely to spend on it.",
+        "created_at": "2026-11-20T11:19:09.000Z",
+        "imported_at": "2026-11-20T11:20:45.690Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwow1e2i05a5if08j3ieneng",
+        "text": "Elon Musk’s Boring Company has signed a 40-year agreement with Nashville International Airport, advancing the Music City Loop connection between the airport and downtown. \n\n• The Boring Company will fully fund construction, operations and maintenance, with no capital investment required from the airport authority.\n\n• All-electric underground rides designed to bypass road traffic and make airport trips faster.\n\n• A planned passenger station just 22 feet from the terminal entrance.\n\n• Approximately $343 million in projected airport revenue over a potential 50-year term, including extensions.\n\n• Two machines already tunneling beneath Nashville, with a third preparing to launch. \n\nA major milestone for The Boring Company, and a step closer to a faster, more convenient airport connection for Nashville.",
+        "created_at": "2026-11-20T11:17:45.000Z",
+        "imported_at": "2026-11-20T11:20:45.690Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwoufo8t02q1if088kfexdlt",
+        "text": "Tesla’s AI, running on our little AI4 computer, can now reach Torment II in Diablo",
+        "created_at": "2026-11-20T10:34:05.000Z",
+        "imported_at": "2026-11-20T10:35:52.829Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwotq3x601kaif08rrp81e6b",
+        "text": "Great to have Elon at Giga Shanghai!\n\nDuring his brief visit to China, Elon made a special stop to thank our teams across Asia in person. Our Giga Shanghai team had a little something for him, too — a special gift designed and crafted by the team right here at the factory, using leftover materials from production.\n\nThe energy on the floor was unmistakable. From the latest progress in superintelligence to the team’s achievements, there was plenty to celebrate — and even more to look forward to.\n\nLet’s make the future look like the future. 🚀",
+        "created_at": "2026-11-20T10:12:44.000Z",
+        "imported_at": "2026-11-20T10:16:00.073Z",
+        "kind": "original"
+      },
       {
         "id": "cmwopyu0r00l6i608e6dec1nn",
         "text": "This is not AI 😂",
