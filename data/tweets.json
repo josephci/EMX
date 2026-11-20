@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-19T21:20:37.425Z",
-  "total": 6696,
+  "last_updated": "2026-11-20T02:24:51.560Z",
+  "total": 6698,
   "by_date": {
     "2026-05-27": [
       {
@@ -46273,6 +46273,13 @@
     ],
     "2026-11-19": [
       {
+        "id": "cmwo7laoa06tfjr07hr0f21qv",
+        "text": "Elon Musk explains why SpaceX catching Starship achieves the \"holy grail of rocketry,\" and can cut the cost of access to space by 100x:\n\nIn 2025, SpaceX launched 2,200 tons to orbit, more than 80% of the global total.\n\nElon Musk's goal with Starship is 1,000,000 tons to orbit per year, about 450x what SpaceX launched last year.\n\nFalcon 9 reuses its booster but throws away the upper stage on every flight. Starship is designed to bring back both.\n\n\"We've had three booster catches, but this is the first ship catch, which means we've now at least proven that all parts of Starship can be flown to space and recovered in good enough shape to be reflown.\"\n\n\"No one has ever taken a stage like that and created a truly reusable upper stage, and certainly not brought it back and had it land propulsively while being caught by giant chopsticks, which sounds like some kind of preposterous sci-fi book or something. But it's done.\"\n\n\"Starship can drop the cost of access to space by a factor of 100... and achieve a mass to orbit rate that is in the million ton per year range.\"\n\n\"This has been the holy grail of rocketry from the beginning, to have a fully reusable rocket system.\"\n\n\"The Space Shuttle was partially reusable, but the main tank… was thrown away on every flight… The shuttle orbiter, the plane-like thing, would take something like nine months to refurbish between flights.\"\n\n\"Whereas Starship is designed for complete reusability and to be reused immediately like an airplane. The booster lands, you can put another ship on top and take off immediately.\"\n\n\"The net effect of this, to put it into economic terms, is a hundredfold reduction in the cost of access to space, and maybe even eventually a thousandfold reduction.\"\n\n\"That's what's necessary in order to make life multiplanetary, in order to build a city on the Moon or Mars… You couldn't do it even if you had the whole budget of the United States government.\"\n\nElon Musk and SpaceX have been working toward a fully reusable orbital rocket for more than two decades.\n\nFive days ago, they proved every part of Starship can fly to space and be recovered.",
+        "created_at": "2026-11-19T23:55:38.000Z",
+        "imported_at": "2026-11-19T23:56:24.011Z",
+        "kind": "original"
+      },
+      {
         "id": "cmwnuvvae04fzjs087ive4kmq",
         "text": "You can create an entire company made of Grok Bots!",
         "created_at": "2026-11-19T17:56:17.000Z",
@@ -46627,6 +46634,15 @@
         "text": "Elon Musk on Neuralink's BlindSight:\n\n\"Our next product is what we call BlindSight. So BlindSight is a neural implant that interfaces directly with the visual cortex and enables people who are completely blind to see. So you're wearing glasses or something like that, have a camera that camera is transmitting to the neuralink device that then transfers the signals to your visual cortex enabling someone who is completely blind, meaning blind in both eyes or lost optic nerve potentially someone who has been blind from birth to see.\"",
         "created_at": "2026-11-19T00:39:28.000Z",
         "imported_at": "2026-11-19T01:19:46.758Z",
+        "kind": "original"
+      }
+    ],
+    "2026-11-20": [
+      {
+        "id": "cmwo7rtm6000kjs08r7uepqy2",
+        "text": "Today I invited my Grok @bot to some meetings. (I just asked it to join. Simple as that). This is more than just a note taker. You can ask questions based on the conversation, summary, recap, advice, research. Im actually seeing the benefit",
+        "created_at": "2026-11-20T00:00:51.000Z",
+        "imported_at": "2026-11-20T00:01:28.493Z",
         "kind": "original"
       }
     ]
