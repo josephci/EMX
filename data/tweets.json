@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-20T02:24:51.560Z",
-  "total": 6698,
+  "last_updated": "2026-11-20T10:13:16.228Z",
+  "total": 6702,
   "by_date": {
     "2026-05-27": [
       {
@@ -46638,6 +46638,34 @@
       }
     ],
     "2026-11-20": [
+      {
+        "id": "cmwopyu0r00l6i608e6dec1nn",
+        "text": "This is not AI 😂",
+        "created_at": "2026-11-20T08:29:54.000Z",
+        "imported_at": "2026-11-20T08:30:48.695Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwoewr6p04x5k008qvvf63p4",
+        "text": "In retrospect, barely needing to drive came long before barely needing to code, a testament to Tesla engineering. \n\n10/10 was two years ago (Sonnet 3.5), and the Robotaxi service (Opus 4) began last year.\n\nBut I couldn’t remember the last time I needed to babysit the steering wheel.",
+        "created_at": "2026-11-20T03:18:22.000Z",
+        "imported_at": "2026-11-20T03:21:15.931Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwoed21r0432k008ljyw2m1j",
+        "text": "On Starship’s 15th flight last week, the Super Heavy booster correctly performed a safe abort when returning for a catch and ended its mission with a splashdown in the water off the coast of Starbase. Following splashdown, SpaceX recovery teams were immediately onsite to safe the area while our Environmental Health and Safety team worked to ensure any debris that washes onshore was recovered → http://x.com/SpaceX/status/2121629958036492590\n\nWhen we received reports of potential debris in Mexican territory, we immediately mobilized to send specialists to aid in identification and lead any cleanup work required, just as we did on Boca Chica Beach near Starbase. We continue to stay in contact with the Mexican government and are on standby to send support if authorities in Mexico tell us it is actually needed. Partners on the ground relayed that theyhave found very little debris in their sweeps of the beach, and the small amount they have found are not clearly from SpaceX operations.\n\nThe majority of the social media posts online claiming widespread debris and damage are either outright fabrications or intentionally misleading. As repeatedly stated, independent tests conducted on materials inside Starship and the Super Heavy booster, including toxicity analyses, confirm they pose no chemical, biological, or toxicological risks.\n\nStarship is designed to be fully reusable, with future missions planning to return all hardware back to the launch site for catch and reuse. SpaceX is the only one, whether company or country, that has demonstrated this capability is now possible.",
+        "created_at": "2026-11-20T03:05:03.000Z",
+        "imported_at": "2026-11-20T03:05:56.891Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwoe96st03uok0082uq3c9md",
+        "text": "The Boring Company and Metropolitan Nashville Airport Authority have signed a 40-year agreement for a Music City Loop station. Great user experience - less than 10 minutes from downtown to a station located 22 feet from the terminal entrance. \n\nThanks so much to @Fly_Nashville for the great partnership.",
+        "created_at": "2026-11-20T03:00:32.000Z",
+        "imported_at": "2026-11-20T03:02:56.429Z",
+        "kind": "original"
+      },
       {
         "id": "cmwo7rtm6000kjs08r7uepqy2",
         "text": "Today I invited my Grok @bot to some meetings. (I just asked it to join. Simple as that). This is more than just a note taker. You can ask questions based on the conversation, summary, recap, advice, research. Im actually seeing the benefit",
