@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-21T00:14:57.314Z",
-  "total": 6731,
+  "last_updated": "2026-11-21T07:25:53.903Z",
+  "total": 6735,
   "by_date": {
     "2026-05-27": [
       {
@@ -46874,6 +46874,36 @@
         "text": "Today I invited my Grok @bot to some meetings. (I just asked it to join. Simple as that). This is more than just a note taker. You can ask questions based on the conversation, summary, recap, advice, research. Im actually seeing the benefit",
         "created_at": "2026-11-20T00:00:51.000Z",
         "imported_at": "2026-11-20T00:01:28.493Z",
+        "kind": "original"
+      }
+    ],
+    "2026-11-21": [
+      {
+        "id": "cmwq20e91000kjv08ct2ydw2i",
+        "text": "This is not accurate: \"one report erases 468 likes.\" That's not what the code is doing. The weights are a multiple on your own predicted probability of Liking, Reporting, etc, which is substantially driven by your own behavior. And the baseline probability of a Report is more than 1000x lower. \n\nAlso: https://x.com/nikitabier/status/2087992223648682249",
+        "created_at": "2026-11-21T06:53:14.000Z",
+        "imported_at": "2026-11-21T06:55:43.141Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq1hlef02yfjv08mj15omva",
+        "text": "BREAKING: Tesla has released more photos from Elon Musk’s visit to Giga Shanghai, including moments with the team and a special gift designed and handmade by factory employees using leftover materials. https://pbs.twimg.com/media/HXjwnXAawAABHu2.jpg",
+        "created_at": "2026-11-21T06:38:03.000Z",
+        "imported_at": "2026-11-21T06:41:05.932Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq1hlef02ygjv083e1p5ihp",
+        "text": "@elonmusk https://pbs.twimg.com/media/HXluLS6a0AAOkSe.png",
+        "created_at": "2026-11-21T06:36:54.000Z",
+        "imported_at": "2026-11-21T06:41:05.932Z",
+        "kind": "reply"
+      },
+      {
+        "id": "cmwq1b83p02qsjv083faowdfp",
+        "text": "Playing GTA VI with Telepathy",
+        "created_at": "2026-11-21T06:34:43.000Z",
+        "imported_at": "2026-11-21T06:36:08.764Z",
         "kind": "original"
       }
     ]
