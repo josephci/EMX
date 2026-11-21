@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-21T07:25:53.903Z",
-  "total": 6735,
+  "last_updated": "2026-11-21T15:28:52.676Z",
+  "total": 6756,
   "by_date": {
     "2026-05-27": [
       {
@@ -46878,6 +46878,153 @@
       }
     ],
     "2026-11-21": [
+      {
+        "id": "cmwq83gaf02acjm08tjjdjow1",
+        "text": "$AAPL at $5 trillion, +27% YTD and barely off all time high, watching the AI carnage, while Siri AI takes 12 seconds of thinking to set a timer. https://pbs.twimg.com/media/HXlntdSWoAACXKX.jpg",
+        "created_at": "2026-11-21T09:43:46.000Z",
+        "imported_at": "2026-11-21T09:46:03.438Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq83gaf02adjm08zf3ovlli",
+        "text": "I always have my Grok Bot audit my other bots. That way, I know everything is optimized and running efficiently.\n\nDon't just hand a workflow to a bot and walk away. Set up an audit bot to watch over your other bots and follow up on their projects.",
+        "created_at": "2026-11-21T09:41:03.000Z",
+        "imported_at": "2026-11-21T09:46:03.438Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq7dhhr01jejm08acwm5ogb",
+        "text": "Telepathy is very real. What Elon is doing with Neuralink is basically magic",
+        "created_at": "2026-11-21T09:24:52.000Z",
+        "imported_at": "2026-11-21T09:25:51.943Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq7df3601icjm08fnc0x4hi",
+        "text": "XV is the beginning of the “super” part of Tesla SI",
+        "created_at": "2026-11-21T09:24:05.000Z",
+        "imported_at": "2026-11-21T09:25:48.829Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq77fnp01aojm08pqf3z50m",
+        "text": "Banger",
+        "created_at": "2026-11-21T09:20:04.000Z",
+        "imported_at": "2026-11-21T09:21:09.627Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq77i3u01bqjm084pf8e2de",
+        "text": "Flashback to June 14, 2024.\n\nAt the time, frontier AI models have zero fluid intelligence. They score around 5% on ARC 1. They can't reliably add two numbers. They make laughable logic errors every other prompt. Reasoning models don't exist. Coding agents don't exist. Claude Code doesn't exist. \"Code gen\" is a complete joke. Scaling up next-token prediction based on web text data is hitting a wall.\n\nWhat if a time traveler told you that, by November 2026...\n\n• AI models would have human-like fluid intelligence, thanks to a new paradigm: test-time induction (modern reasoning models).\n• Not only would ARC 1 be saturated, but unreleased benchmarks 10x harder (ARC 2) and 100x harder (ARC 3) would be saturated too.\n• Nearly all code would be written by AI, and models could one-shot complex codebases flawlessly.\n• AI models would be solving multiple Millennium Prize problems.\n• OpenAI's valuation would be 15x higher, and Anthropic's would be 85x higher.\n\nAnd on top of all that...\n\n• Nvidia would still hold ~80% of the AI compute market.\n• Nvidia would have grown its revenue and earnings 4.5x.\n• Nvidia would still be growing 75% a year.\n• Nvidia would have even higher operating margins (67% vs. 65% back then).\n\nBased on that information, straight from the future, would you have bought NVDA?\n\nIf you answered yes -- congrats. Today, 2.5 years later, you'd be down 5% on your investment (even more after inflation).",
+        "created_at": "2026-11-21T09:18:55.000Z",
+        "imported_at": "2026-11-21T09:21:12.807Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq77fnp01apjm084z12ic3x",
+        "text": "Starlink saves lives",
+        "created_at": "2026-11-21T09:18:05.000Z",
+        "imported_at": "2026-11-21T09:21:09.627Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq77fnp01aqjm08odjl221s",
+        "text": "Starlink helps education",
+        "created_at": "2026-11-21T09:17:07.000Z",
+        "imported_at": "2026-11-21T09:21:09.627Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq77i3u01brjm081c7628if",
+        "text": "Liftoff! https://video.twimg.com/amplify_video/2123995170060587008/vid/avc1/3840x2160/LxBRiOjrwCYT4Hhj.mp4?tag=29",
+        "created_at": "2026-11-21T09:15:57.000Z",
+        "imported_at": "2026-11-21T09:21:12.807Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq77i3u01bsjm0838toc6pl",
+        "text": "SpaceX just launched the USSF-317 national security mission for the U.S. Space Force, and the Falcon 9 booster landed successfully for the 11th time\n\nThis same booster had already completed 10 missions:\n\n• NROL-105\n• USSF-385\n• 8 Starlink missions\n\nAfter launching from Vandenberg Space Force Base, it landed on the Of Course I Still Love You droneship in the Pacific Ocean\n\nThe U.S. Space Force is now launching classified national security missions on rockets that have already flown to space 10 times\n https://x.com/SpaceX/status/2123995383625924847/video/1",
+        "created_at": "2026-11-21T09:15:53.000Z",
+        "imported_at": "2026-11-21T09:21:12.807Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq70rnz0142jm083qgnab24",
+        "text": "Grok Bot can do cool stuff on your home network:\n\n- Use @bot to optimize your wi-fi\n- Use @Tailscale in Grok Bot to access your media server https://video.twimg.com/amplify_video/2123849055415803904/vid/avc1/1080x1920/AR4qYli_mohIDXz2.mp4?tag=16",
+        "created_at": "2026-11-21T09:15:41.000Z",
+        "imported_at": "2026-11-21T09:15:58.603Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq70rnz0143jm08f8d5wg2k",
+        "text": "SpaceX is turning Starship production into something that looks more like a car factory than a traditional rocket factory\n\nInside Starfactory, SpaceX is now completing:\n\n• 1 Starship upper stage every 2 weeks → ~26 per year\n• 1 Super Heavy booster every 4 weeks → ~13 per year\n\nAnd the scale of what's happening inside is insanely huge\n\n• ~1 MILLION sq ft of manufacturing space\n• ~330,000 sq ft of additional office space\n• Rows of Starship nose cones numbered as high as Ship 51\n• Multiple Starships and boosters being assembled simultaneously\n• Most vehicles currently in production are intended to deploy Starlink V3 satellites\n\nThere's even a Starship nose cone with windows already cut into it, potentially being developed for NASA's Artemis lunar lander\n\nAnd SpaceX is preparing to scale production even further\n\nEach of the existing Mega Bays accommodates around 5–6 vehicle assemblies\n\nThe massive new ~700,000 sq ft Gigabay under construction at Starbase will have room for up to 24 vehicles simultaneously\n\nThat's an enormous expansion in SpaceX's ability to assemble and integrate Starships and Super Heavy boosters\n\nThe goal is to reach roughly ONE Starship launch every week beginning in 2027\n\nWhat's especially impressive is that SpaceX isn't just designing the world's largest rocket anymore. It's also building the manufacturing infrastructure to produce these vehicles at an industrial scale\n\nStarship is no longer just an experimental rocket. It has already moved into payload deployment, and SpaceX is now scaling toward mass production\n\nWe're watching that transformation happen inside Starfactory right now",
+        "created_at": "2026-11-21T09:15:12.000Z",
+        "imported_at": "2026-11-21T09:15:58.603Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq70rnz0144jm08v0y13ilc",
+        "text": "✨",
+        "created_at": "2026-11-21T09:12:06.000Z",
+        "imported_at": "2026-11-21T09:15:58.603Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq583y60314jv08qfgvfz70",
+        "text": "2 joysticks and 12 buttons of control with his brain",
+        "created_at": "2026-11-21T08:22:45.000Z",
+        "imported_at": "2026-11-21T08:25:41.885Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq51zm002tzjv084sjpgj4p",
+        "text": "Grok bot is still by far my most used personal agent https://pbs.twimg.com/media/HXoeywAbMAAYSLi.jpg",
+        "created_at": "2026-11-21T08:20:16.000Z",
+        "imported_at": "2026-11-21T08:20:56.323Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq51zm002u0jv08xsbopa0u",
+        "text": "Cybercab can be anything you want it to be 🎺  https://video.twimg.com/amplify_video/2123610930399379456/vid/avc1/3840x2160/NCPfe-tQJ4oLKjhb.mp4?tag=29",
+        "created_at": "2026-11-21T08:20:03.000Z",
+        "imported_at": "2026-11-21T08:20:56.323Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq51zm002u1jv08joorekpq",
+        "text": "Elon Musk with his brother Kimbal and sister Tosca in 1990. https://pbs.twimg.com/media/HXohkm8bQAAK0Dd.jpg",
+        "created_at": "2026-11-21T08:19:22.000Z",
+        "imported_at": "2026-11-21T08:20:56.323Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq3z9xb01pfjv08hnyowb2k",
+        "text": "Even if Riemann turns out not to be fully solved yet, it will be soon enough\n https://x.com/i/grok/share/bGVnYWN5_883c4778-e70d-4d39-b95d-c807591b80b0",
+        "created_at": "2026-11-21T07:46:48.000Z",
+        "imported_at": "2026-11-21T07:50:50.110Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq3mq2l01bqjv082kuhm6it",
+        "text": "We’ve had monkeys playing video while drinking banana smoothies for 5 years. Not a bad life.",
+        "created_at": "2026-11-21T07:38:33.000Z",
+        "imported_at": "2026-11-21T07:41:04.508Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq3fvja014mjv0888azdgxk",
+        "text": "True",
+        "created_at": "2026-11-21T07:31:32.000Z",
+        "imported_at": "2026-11-21T07:35:44.987Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwq3a22x00xijv080x7e0s7t",
+        "text": "SFT is more like getting a haircut with a chainsaw than it is “fine-tuning”! Should just be built into primary training. \n\nAnd having a “system prompt” is silly! Default behavior should be sensible.\n\nThe above are already true for Tesla AI (not yet deserving of “super”). It is the most efficient AI on Earth.\n\nFSD V15 goes to wide release next month. It will be something special.",
+        "created_at": "2026-11-21T07:30:56.000Z",
+        "imported_at": "2026-11-21T07:31:13.540Z",
+        "kind": "original"
+      },
       {
         "id": "cmwq20e91000kjv08ct2ydw2i",
         "text": "This is not accurate: \"one report erases 468 likes.\" That's not what the code is doing. The weights are a multiple on your own predicted probability of Liking, Reporting, etc, which is substantially driven by your own behavior. And the baseline probability of a Report is more than 1000x lower. \n\nAlso: https://x.com/nikitabier/status/2087992223648682249",
