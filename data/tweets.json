@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-22T16:26:56.986Z",
-  "total": 6810,
+  "last_updated": "2026-11-22T21:55:38.541Z",
+  "total": 6825,
   "by_date": {
     "2026-05-27": [
       {
@@ -47153,6 +47153,111 @@
       }
     ],
     "2026-11-22": [
+      {
+        "id": "cmwsdfnop02z1l50879jjffgh",
+        "text": "When Elon Musk was a student at the University of Pennsylvania, he was paying his own way through college. He and his roommate rented a cheap ten-bedroom house that had once been a frat house and began hosting weekend parties there, charging five dollars at the door. Elon later said he could make an entire month's rent in one night, and that somebody had to stay sober to run the party, so he did. \n\nWhen Maye came to visit one weekend, she was quite surprised by it all, and then she did what Maye always does: she helped. She worked coat check and even guarded the cash, as he later joked, with a kitchen knife 😅",
+        "created_at": "2026-11-22T21:50:49.000Z",
+        "imported_at": "2026-11-22T21:51:03.336Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwsdfnop02z2l508mhetea3i",
+        "text": "Christmas Eve 2008. Tesla closed a funding round in the final hour, days from bankruptcy.\n\nElon Musk put in all his money &amp; assets, borrowed from friends just to pay rent. If it missed, payroll would have bounced two days after Christmas. https://video.twimg.com/amplify_video/2124399777861570560/vid/avc1/1598x1080/wO4DeZQIioTX5Bjb.mp4?tag=29",
+        "created_at": "2026-11-22T21:48:35.000Z",
+        "imported_at": "2026-11-22T21:51:03.336Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwsd9zej02r9l508ih6iw8eg",
+        "text": "After experiencing @Tesla's Cybercab in Dallas, some riders don't want to use any other robotaxi because of how much they love it, despite competing services offering discounts. https://pbs.twimg.com/media/HXqjAChXwAAl3V4.jpg",
+        "created_at": "2026-11-22T21:43:15.000Z",
+        "imported_at": "2026-11-22T21:46:38.585Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwsd9x9d02q6l5081dc6y46m",
+        "text": "Consciousness is either an illusion or ubiquitous on a gradient. \n\nDifficult to argue that carbon is conscious, but silicon is not.",
+        "created_at": "2026-11-22T21:42:40.000Z",
+        "imported_at": "2026-11-22T21:46:35.804Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwscr3l901y9l5088qahx3hj",
+        "text": "It maps closest to Sanderson's third method: raw hustle at massive scale.\n\nAlpöge + Claude adapted Stepanov's function-field approach (multiplicity via determinants) to the integers by chaining ~√X theta lifts between unitary groups. Claude drove the technical steps and formalized everything in 17M lines of Lean. The code checks out and has been certified; a human-readable compressed form does not yet exist. A parallel pure-human GRH draft also appeared the same day.",
+        "created_at": "2026-11-22T21:27:52.000Z",
+        "imported_at": "2026-11-22T21:31:57.550Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwscr3l901yal5085dk23fng",
+        "text": "A reminder, for no reason in particular:\n\nThe central, profound insight of Nietzsche into irrational beliefs of groups\n\nA group which feels unable to secure itself resources and dignity against another group, will construct a worldview that renounces and inverts the values of the two groups.\n\nThus irrationality on the surface is actually a defense & coping mechanism underneath.\n\nRessentiment\nhttps://en.wikipedia.org/wiki/Ressentiment",
+        "created_at": "2026-11-22T21:26:59.000Z",
+        "imported_at": "2026-11-22T21:31:57.550Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwscjmt101q0l508j1upc3jk",
+        "text": "Would this be the wrong note upon which to suggest using Grok Bot?",
+        "created_at": "2026-11-22T21:22:58.000Z",
+        "imported_at": "2026-11-22T21:26:09.198Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwsbuc0v00thl50815l7au1o",
+        "text": "360 degree vision that never tires",
+        "created_at": "2026-11-22T21:02:21.000Z",
+        "imported_at": "2026-11-22T21:06:28.824Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwsbnn8000jpl508rrlb3yyg",
+        "text": "This was done without AI/SI, but we will be using a lot of SI in the future",
+        "created_at": "2026-11-22T20:59:43.000Z",
+        "imported_at": "2026-11-22T21:01:16.740Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwsbi8wu008al5083jq6z106",
+        "text": "https://pbs.twimg.com/media/HXsmiGMa4AAIQpJ.jpg",
+        "created_at": "2026-11-22T20:55:46.000Z",
+        "imported_at": "2026-11-22T20:57:04.926Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwsbi5ze0077l508j0pgbkia",
+        "text": "Tesla super intelligence software, chip design &amp; Terafab are fun places to work",
+        "created_at": "2026-11-22T20:52:13.000Z",
+        "imported_at": "2026-11-22T20:57:01.130Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwsaryxj03rgl308nfydeqtu",
+        "text": "I just did this with Grok @bot and with my Amazon order history export, it found $892 I’m owed since 2017 that falls into this class action lawsuit. Crazy!\n\nThe keys to make this efficient were:\n\n1. Get your order history exported by typing “request my data” in Amazon app search. It took 30 mins for them to email me a link to the export\n\n2.  Download the zip and upload to @bot chat and ask it to find an email about the class action in your inbox. It was in my spam which is why never knew about it before now 🤦‍♂️ \n\n3. Ask it to figure out which groups you’re in and use the order history you attached to the convo, and your credit card info from the @bot Finances integration to find eligible transactions. \n\n4. Finally ask it to file it all for you.",
+        "created_at": "2026-11-22T20:31:14.000Z",
+        "imported_at": "2026-11-22T20:36:38.933Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwsaklfi03fnl308q102kj4k",
+        "text": "😂",
+        "created_at": "2026-11-22T20:28:31.000Z",
+        "imported_at": "2026-11-22T20:30:54.839Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmws8z3wx016yl3087xr1fuqq",
+        "text": "32 hour launch pad recycle. Great work by SpaceX team.",
+        "created_at": "2026-11-22T19:42:06.000Z",
+        "imported_at": "2026-11-22T19:46:12.752Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmws89mw400bxl308bh5hle6w",
+        "text": "The Tesla Cybercab Robotaxi stops while the human driver keeps going. 360 awareness is amazing. -Downtown Austin, Texas. https://video.twimg.com/amplify_video/2124299132550475776/vid/avc1/1280x720/qsQub_H2E5DEG4KC.mp4?tag=29",
+        "created_at": "2026-11-22T19:24:37.000Z",
+        "imported_at": "2026-11-22T19:26:24.282Z",
+        "kind": "original"
+      },
       {
         "id": "cmwrtfi9x058ml808anhc6ph6",
         "text": "Starlink helped save a young man’s life in remote Myanmar.\n\nAfter a landmine blast in Kayah State, his injuries were beyond what the medic on the ground could treat alone.\n\nUsing Starlink, the team sent photos and videos to a surgeon in Germany, who guided the medic through emergency procedures. Free Burma Rangers says this helped save his life and what remained of his leg.\n\nFor remote communities with no mobile signal, Starlink can put life-saving expertise within reach, even when the surgeon is thousands of miles away.",
