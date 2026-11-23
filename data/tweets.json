@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-22T21:55:38.541Z",
-  "total": 6825,
+  "last_updated": "2026-11-23T02:27:48.981Z",
+  "total": 6841,
   "by_date": {
     "2026-05-27": [
       {
@@ -47154,6 +47154,55 @@
     ],
     "2026-11-22": [
       {
+        "id": "cmwsfxwf00138jm08warchshf",
+        "text": "Google CEO Sundar Pichai on Elon's ability to bring future technologies into existence: \"I think it's just unparalleled.\" https://video.twimg.com/amplify_video/2124320603679395840/vid/avc1/1920x1078/PRf1X7IhvzdqdPSk.mp4?tag=29",
+        "created_at": "2026-11-22T22:58:53.000Z",
+        "imported_at": "2026-11-22T23:01:13.681Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwsf8b4c000ljm08tnu8i9a8",
+        "text": "I love that he doesn’t appear to know the internet exists lol https://pbs.twimg.com/media/HXpoimZW4AADqU1.jpg",
+        "created_at": "2026-11-22T22:40:51.000Z",
+        "imported_at": "2026-11-22T22:41:19.692Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwsep1mk04xul508m1asngnu",
+        "text": "Try Grok Bot today! https://pbs.twimg.com/media/HXwmNI_XMAAHzes.jpg",
+        "created_at": "2026-11-22T22:25:22.000Z",
+        "imported_at": "2026-11-22T22:26:20.923Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwsdu4ok03jql508auuvigh5",
+        "text": "The small details are so good",
+        "created_at": "2026-11-22T22:01:12.000Z",
+        "imported_at": "2026-11-22T22:02:18.549Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwsdm9c703cal508h8l776n3",
+        "text": "@Liv_Boeree Unequivocal super intelligence has arrived. \n\nWelcome to the Singularity.",
+        "created_at": "2026-11-22T21:54:28.000Z",
+        "imported_at": "2026-11-22T21:56:11.326Z",
+        "kind": "reply"
+      },
+      {
+        "id": "cmwsdm9c703cbl508benb4k8k",
+        "text": ".@TheEconomist has a piece about how AI has found many top economics papers to be formally flawed. \n\nI've been saying the same thing for many years, without the help of AI. \n\nAn example is Bernoulli's bizarre error from 1738, which percolated uncorrected into the 20th century. Menger 1934 is therefore invalid (the wikipedia page on the St. Petersburg discusses his contribution uncorrected; the journal where he published his work was not interested in publishing a correction when I contacted them).\n\nI was told way back when by economists that I seem to be right, but who cares about a 300-year-old error? \n(In the foundational work of the discipline. Well...)\n\nHow did this error travel? Kahneman and Tversky's foundational paper introducing Prospect theory seems inspired by the error. It starts by defining expected-utility theory in a mathematically implausible way. You can call it `wrong' or `erroneous' if you like. \nThe weirdness goes back to Bernoulli 300 years ago, and it convinced a whole research field that humans are utterly irrational (because they don't behave as suggested by flawed formal work). \n\nYes, it's a complete mess. But out of this mess grew the field of behavioral economics, with several Swedish Bank Prizes for Economic Science in Memory of Alred Nobel (the name changes every few years). \nThe basis of this field is formally off. \nOver the last decade or so, economists working in behavioral economics noticed that practically nothing in their field replicates, and worse that the whole philosophy is deeply flawed -- seeing solutions to structural problems in affected people just changing their attitudes to the problems. Instead of fixing the problems.\n\nMany of the most famous findings of the field turned out to be literally made up. Fabricated data, invented experiments that never took place.\n\nSlowly but surely this is all coming out. Developing ergodicity economics acted as an early-warning system. We who worked on it had deep suspicions, to put it mildly, about behavioral economics.",
+        "created_at": "2026-11-22T21:54:10.000Z",
+        "imported_at": "2026-11-22T21:56:11.326Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwsdm6xp03b7l508vzrqeipq",
+        "text": "Starlink helps kids with education",
+        "created_at": "2026-11-22T21:52:12.000Z",
+        "imported_at": "2026-11-22T21:56:08.209Z",
+        "kind": "original"
+      },
+      {
         "id": "cmwsdfnop02z1l50879jjffgh",
         "text": "When Elon Musk was a student at the University of Pennsylvania, he was paying his own way through college. He and his roommate rented a cheap ten-bedroom house that had once been a frat house and began hosting weekend parties there, charging five dollars at the door. Elon later said he could make an entire month's rent in one night, and that somebody had to stay sober to run the party, so he did. \n\nWhen Maye came to visit one weekend, she was quite surprised by it all, and then she did what Maye always does: she helped. She worked coat check and even guarded the cash, as he later joked, with a kitchen knife 😅",
         "created_at": "2026-11-22T21:50:49.000Z",
@@ -47537,6 +47586,71 @@
         "created_at": "2026-11-22T00:05:07.000Z",
         "imported_at": "2026-11-22T00:05:57.158Z",
         "kind": "reply"
+      }
+    ],
+    "2026-11-23": [
+      {
+        "id": "cmwsm030f00k0ii07vcgiidoi",
+        "text": "What's new in Grok Bot 1.0 🚀\n\n00:45 Team Bot improvements\n01:47 Bots join your meetings\n03:26 Bots take initiative\n04:10 Bots learn and improve\n05:19 Bots are smarter and faster\n\nLots of easter eggs in this one for y'all! https://video.twimg.com/amplify_video/2121988507195572224/vid/avc1/3840x2160/qYIMxN8O4ae9Fp7_.mp4?tag=29",
+        "created_at": "2026-11-23T01:49:32.000Z",
+        "imported_at": "2026-11-23T01:50:53.245Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwslgqya04z4i9076ooxo47z",
+        "text": "I warned Iceland in June 2025 but they chose to ignore me…",
+        "created_at": "2026-11-23T01:33:55.000Z",
+        "imported_at": "2026-11-23T01:35:51.142Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwslgqya04z5i907frdrsv85",
+        "text": "Iceland is considered “the most gender-equal country in the world” but it doesn’t seem “equal” to me… Currently, they have a female President, Prime Minister, the head of every political party is a woman and the majority of cabinet is women. 68.8% of students who graduated college last year were women. This list goes on about how “gender equality” actually seems to mean female dominance today.\n\nYesterday I spoke with the former First Lady of Iceland. She did seem concerned about the college student stat, but she insisted there was still so much to do to fight for gender equality for women there.\n\nI think it might be time to look at the disadvantages of both sexes when it comes to addressing “gender equality.” No?",
+        "created_at": "2026-11-23T01:33:47.000Z",
+        "imported_at": "2026-11-23T01:35:51.142Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwsky0rm044bi907dvmmkm5f",
+        "text": "😂",
+        "created_at": "2026-11-23T01:20:01.000Z",
+        "imported_at": "2026-11-23T01:21:17.402Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwsky2rr045ei907z9gqii2v",
+        "text": "I think we moved past this a little too quickly … SpaceX literally caught a rocket in mid air last week https://video.twimg.com/amplify_video/2121715612896333824/vid/avc1/2160x3840/SVVu4MkGffE9bccR.mp4?tag=29",
+        "created_at": "2026-11-23T01:18:05.000Z",
+        "imported_at": "2026-11-23T01:21:20.007Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwsky2rr045fi907186xjqwa",
+        "text": "XV",
+        "created_at": "2026-11-23T01:16:30.000Z",
+        "imported_at": "2026-11-23T01:21:20.007Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwsky2rr045gi907ytrqbnlj",
+        "text": "I've been using @bot to help my fiancée and me plan our wedding, and it honestly feels like we have a hired full-time wedding planner.\n\nOver the last month, it helped us figure out our hotel room block.\n\nIt found 15 hotels within 35 minutes of our venue, handled all the email correspondence, and got proposals with the details we needed to decide.\n\nThen it created a comparison sheet with the criteria we cared about and recommended a shortlist.\n\nOnce we picked one, it helped us review the contract, negotiated with the hotel, and even signed it (w/ my permission, of course).\n\nThe day after we signed,  @bot proactively researched a shortlist of shuttle services and welcome-party venues, with emails already drafted for my review.\n\nI can't imagine planning a wedding without it. It's truly an amazing time to be alive.",
+        "created_at": "2026-11-23T01:16:17.000Z",
+        "imported_at": "2026-11-23T01:21:20.007Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwskrj9a03x5i90794z8s20j",
+        "text": "It’s almost unbelievable to have a CEO that works on so many things but still has this level of understanding of technical details at Tesla. Every time I’m fortunate enough to present to Elon, I’m blown away by how dedicated he is to learn about the technical progress and how much he cares about the low-level details while respecting each engineer’s work. Elon is so unique and It’s such an honor to work for him.",
+        "created_at": "2026-11-23T01:15:54.000Z",
+        "imported_at": "2026-11-23T01:16:14.772Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwsim0tf00y1i907o3jpjgvb",
+        "text": "Jessica Tarlov says when she finally decided to listen to the full audio of Trump's \"Fine People\" comments -- she found out he wasn't talking about Nazis.\n\n\"That was illuminating for me.\"\n\nWow. How big of her to admit it was a lie all these years later...after actually listening to it.\n\nDemocrats still regurgitate this hoax to this day.",
+        "created_at": "2026-11-23T00:13:32.000Z",
+        "imported_at": "2026-11-23T00:15:58.364Z",
+        "kind": "original"
       }
     ]
   },
