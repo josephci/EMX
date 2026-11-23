@@ -1,13 +1,6 @@
 {
-  "last_updated": "2026-11-23T11:16:39.955Z",
+  "last_updated": "2026-11-23T22:44:55.239Z",
   "launches": [
-    {
-      "name": "Falcon 9 Block 5 | NROL-136",
-      "net": "2026-11-22T12:23:56Z",
-      "status": "Success",
-      "pad": "Space Launch Complex 4E",
-      "location": "Vandenberg SFB, CA, USA"
-    },
     {
       "name": "Falcon 9 Block 5 | USSF-266",
       "net": "2026-11-24T15:55:00Z",
@@ -28,6 +21,13 @@
       "status": "Go",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | NROL-132",
+      "net": "2026-12-02T20:30:00Z",
+      "status": "TBC",
+      "pad": "Space Launch Complex 4E",
+      "location": "Vandenberg SFB, CA, USA"
     },
     {
       "name": "Falcon 9 Block 5 | CHORUS",
