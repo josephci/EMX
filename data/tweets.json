@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-23T22:44:55.647Z",
-  "total": 6864,
+  "last_updated": "2026-11-24T06:26:10.881Z",
+  "total": 6867,
   "by_date": {
     "2026-05-27": [
       {
@@ -47811,6 +47811,29 @@
         "text": "Jessica Tarlov says when she finally decided to listen to the full audio of Trump's \"Fine People\" comments -- she found out he wasn't talking about Nazis.\n\n\"That was illuminating for me.\"\n\nWow. How big of her to admit it was a lie all these years later...after actually listening to it.\n\nDemocrats still regurgitate this hoax to this day.",
         "created_at": "2026-11-23T00:13:32.000Z",
         "imported_at": "2026-11-23T00:15:58.364Z",
+        "kind": "original"
+      }
+    ],
+    "2026-11-24": [
+      {
+        "id": "cmwtyl9jg05vdl20887cp6frv",
+        "text": "Jensen Huang says he loves working with Elon Musk\n\nAnd he explains why.\n\nMusk uses Nvidia's technology three ways at once.\n\nTraining his own AI models.\n\nDeploying them, like Grok, where demand is skyrocketing.\n\nAnd renting it out.\n\nVery few companies do all three.\n\nMusk also loves the place where computing meets the physical build-out.\n\nJensen: \"Nobody knows more about energy than he does.\"\n\nSo they went after a new market together.\n\nData centers in space.\n\nTheir two engineering teams were working super closely to create a new type of server.\n\nA new architecture that might work great in space, and on Earth.\n https://x.com/firesidealpha/status/2110731226776789366/video/1",
+        "created_at": "2026-11-24T00:30:52.000Z",
+        "imported_at": "2026-11-24T00:31:03.052Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwtxvx0304t0l208mwgavads",
+        "text": "Getting online with Mini 2 is simple. Press the button and you're connected in 60 seconds, with a rechargeable battery that lasts up to 4.5 hours, or plug in with USB-C.\n\nPreorders are open by invitation in the US. Get notified when it's available → https://starlink.com/mini-2 https://video.twimg.com/amplify_video/2124970243152097280/vid/avc1/3840x2160/ei9bX1Qzl1YQS4jB.mp4?tag=29",
+        "created_at": "2026-11-24T00:09:00.000Z",
+        "imported_at": "2026-11-24T00:11:20.402Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwtxvx0304t1l208t188xza2",
+        "text": "My favorite product we’ve ever made. \n\nThe dream from V1 was a Starlink smaller and thinner than a tablet that works for hours and delivers incredible performance. So proud of the team that made it real.",
+        "created_at": "2026-11-24T00:08:58.000Z",
+        "imported_at": "2026-11-24T00:11:20.402Z",
         "kind": "original"
       }
     ]
