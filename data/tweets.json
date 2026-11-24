@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-24T06:26:10.881Z",
-  "total": 6867,
+  "last_updated": "2026-11-24T18:01:29.706Z",
+  "total": 6877,
   "by_date": {
     "2026-05-27": [
       {
@@ -47815,6 +47815,76 @@
       }
     ],
     "2026-11-24": [
+      {
+        "id": "cmwuwjwte018zlg088s99m87b",
+        "text": "just added my work experience \ni love my very professional job https://pbs.twimg.com/media/HX5N24DXEAAvKla.jpg",
+        "created_at": "2026-11-24T16:19:42.000Z",
+        "imported_at": "2026-11-24T16:21:46.837Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwuwjwte0190lg08y7dn48c0",
+        "text": "Watch Falcon 9 launch the USSF-266 mission from pad 4E in California https://x.com/i/broadcasts/2JQXBjLyYOQrpX",
+        "created_at": "2026-11-24T16:18:43.000Z",
+        "imported_at": "2026-11-24T16:21:46.837Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwuwcxtq010glg0804tgy2pw",
+        "text": "Liftoff! https://video.twimg.com/amplify_video/2125260578801287174/vid/avc1/3840x2160/uv9KiDut3uhnlxOm.mp4?tag=29",
+        "created_at": "2026-11-24T16:14:33.000Z",
+        "imported_at": "2026-11-24T16:16:21.562Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwuw0lqd008plg08kzvxt7t6",
+        "text": "Andrej Karpathy on Elon Musk: \"Elon is a very efficient warrior in the fight against entropy in organizations.\" https://video.twimg.com/ext_tw_video/2124928771102846976/pu/vid/avc1/1280x720/ErOWl6FINXGuPaN2.mp4?tag=12",
+        "created_at": "2026-11-24T16:06:36.000Z",
+        "imported_at": "2026-11-24T16:06:46.019Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwuv3r4e06ahle08skuxw39t",
+        "text": "You can literally turn your X bookmarks into instructions for Grok Bot.\n\nIt finds the guides, prompts and tools you've saved.\n\nThen follows the tutorials and tests the ideas for you.\n\nFull guide with every prompt to build your own 👇 https://x.com/i/article/2125241714935742464",
+        "created_at": "2026-11-24T15:40:50.000Z",
+        "imported_at": "2026-11-24T15:41:13.352Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwuus1s005kyle087hijtzwl",
+        "text": "All systems are looking good, and weather is favorable for liftoff. Propellant load is about to begin for Falcon 9’s launch of the USSF-266 mission from California → https://spacex.com/launches/ussf266 https://pbs.twimg.com/media/HX5hT7DXoAAxlc6.jpg",
+        "created_at": "2026-11-24T15:26:10.000Z",
+        "imported_at": "2026-11-24T15:32:07.296Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwuukghz05cale080reizcr0",
+        "text": "This is f*cking insane. OpenAI co-founder Ilya Sutskever, who left to build his own superintelligence lab, described the long-term future with AI, and admitted he doesn't like it:\n\n\"So maybe every person will have an AI that will do their bidding. And that's good\"\n\n\"Then the AI goes and earns money for the person, and advocates for their needs in the political sphere. And maybe then writes a little report saying, okay, here's what I've done. And the person says, great, keep it up. But the person is no longer a participant\"\n\nIn 2 minutes, he gives the only answer he sees, and says up front \"I don't like the solution, but it is a solution\": people \"become part AI with some kind of Neuralink++\"\n\nAn AI for Every Person → It Earns and Speaks for You → You Stop Participating → Part Human, Part AI\n\nThe man who built ChatGPT's brain thinks the way to stay in the game is to merge with AI\n\nWorth more than most $2,500 AI courses\n\nBookmark and watch it today\n\nThen read the no-code guide to staying a participant, not a spectator ↓",
+        "created_at": "2026-11-24T15:25:06.000Z",
+        "imported_at": "2026-11-24T15:26:13.123Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwulavll069gla08jxorl1k5",
+        "text": "current fave models\n0 jev\n1 gemini neon\n2 opus 5.5\n3 fable 5.2\ncurrent fave agent\n0 grokbot\n1 claude projects (&gt; duet)\n3 muse / devin (depends on use case)\ncurrent fave coding harness\n1 claude code\n2 pi",
+        "created_at": "2026-11-24T11:05:44.000Z",
+        "imported_at": "2026-11-24T11:06:49.587Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwukkpzx055kla0844tvpfhu",
+        "text": "Bullseye",
+        "created_at": "2026-11-24T10:44:51.000Z",
+        "imported_at": "2026-11-24T10:46:29.266Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwui3ecu01b6la08wg8gu0kw",
+        "text": "no one man should have this much power",
+        "created_at": "2026-11-24T09:35:57.000Z",
+        "imported_at": "2026-11-24T09:37:01.807Z",
+        "kind": "original"
+      },
       {
         "id": "cmwtyl9jg05vdl20887cp6frv",
         "text": "Jensen Huang says he loves working with Elon Musk\n\nAnd he explains why.\n\nMusk uses Nvidia's technology three ways at once.\n\nTraining his own AI models.\n\nDeploying them, like Grok, where demand is skyrocketing.\n\nAnd renting it out.\n\nVery few companies do all three.\n\nMusk also loves the place where computing meets the physical build-out.\n\nJensen: \"Nobody knows more about energy than he does.\"\n\nSo they went after a new market together.\n\nData centers in space.\n\nTheir two engineering teams were working super closely to create a new type of server.\n\nA new architecture that might work great in space, and on Earth.\n https://x.com/firesidealpha/status/2110731226776789366/video/1",
