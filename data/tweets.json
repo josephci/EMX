@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-24T18:01:29.706Z",
-  "total": 6877,
+  "last_updated": "2026-11-25T02:12:19.694Z",
+  "total": 6885,
   "by_date": {
     "2026-05-27": [
       {
@@ -47816,6 +47816,20 @@
     ],
     "2026-11-24": [
       {
+        "id": "cmwvasqo5006yij08ojk3uer5",
+        "text": "Starlink",
+        "created_at": "2026-11-24T23:00:26.000Z",
+        "imported_at": "2026-11-24T23:00:33.413Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwvassla0081ij08392p5v03",
+        "text": "SpaceX has agreed to forgo $738 million in U.S. federal broadband subsidies and instead provide free @Starlink hardware to eligible American households.\n\nNTIA: \"To ensure that no consumer at a Covered BSL is left behind, the provider (SpaceX) will serve the covered BSLs as this agreement provides. This includes providing customer premises equipment at no cost to new subscribers, so that households at covered BSL do not face the upfront equipment costs. Additionally, the provider’s broadband service will be subject to the same delivery timelines and performance testing requirements applicable to all recipients of BEAD funds.\"\n\nUnder the new agreement, SpaceX would:\n• Provide free Starlink hardware to eligible households.\n• Guarantee minimum download speeds of 100 Mbps and upload speeds of 20 Mbps.\n• Offer a low-cost monthly internet plan.\n• Commit to providing service for 10 years.\n• Continue to comply with federal performance testing requirements.\n\nThe agreement will save American taxpayers hundreds of millions of dollars while accelerating high-speed internet access in underserved rural communities.\n\nIn exchange, SpaceX would be exempt from most BEAD-related financial audits, procurement requirements and administrative reporting, while remaining subject to network performance testing.",
+        "created_at": "2026-11-24T23:00:09.000Z",
+        "imported_at": "2026-11-24T23:00:35.835Z",
+        "kind": "original"
+      },
+      {
         "id": "cmwuwjwte018zlg088s99m87b",
         "text": "just added my work experience \ni love my very professional job https://pbs.twimg.com/media/HX5N24DXEAAvKla.jpg",
         "created_at": "2026-11-24T16:19:42.000Z",
@@ -47904,6 +47918,50 @@
         "text": "My favorite product we’ve ever made. \n\nThe dream from V1 was a Starlink smaller and thinner than a tablet that works for hours and delivers incredible performance. So proud of the team that made it real.",
         "created_at": "2026-11-24T00:08:58.000Z",
         "imported_at": "2026-11-24T00:11:20.402Z",
+        "kind": "original"
+      }
+    ],
+    "2026-11-25": [
+      {
+        "id": "cmwvhl9z900xqjm07slg7frs9",
+        "text": "Interesting",
+        "created_at": "2026-11-25T02:08:07.000Z",
+        "imported_at": "2026-11-25T02:10:42.492Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwvhlc3500ytjm07p8swhb9s",
+        "text": "Falcon 9 launches USSF-266 to orbit from pad 4E in California https://pbs.twimg.com/media/HX67SAcWYAACwJm.jpg",
+        "created_at": "2026-11-25T02:07:21.000Z",
+        "imported_at": "2026-11-25T02:10:45.221Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwvhlc3500yujm07ugftv56e",
+        "text": "Geordie and Jess Flanagan run two home businesses on Salt Spring Island, B.C. Starlink keeps them connected at home and on remote job sites where other services drop out → https://starlink.com/saltspring https://pbs.twimg.com/media/HX62ipMXkAAiy86.jpg",
+        "created_at": "2026-11-25T02:07:13.000Z",
+        "imported_at": "2026-11-25T02:10:45.221Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwvdnvjk00znij08uunfkois",
+        "text": "Starlink is now approved in 30 of 54 countries in Africa!",
+        "created_at": "2026-11-25T00:19:34.000Z",
+        "imported_at": "2026-11-25T00:20:45.284Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwvdnvjk00zoij0831tmee69",
+        "text": "Don’t mess with 𝕏",
+        "created_at": "2026-11-25T00:18:35.000Z",
+        "imported_at": "2026-11-25T00:20:45.284Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwvdi5mh00wuij08qv9jszk5",
+        "text": "The news is accurate",
+        "created_at": "2026-11-25T00:11:58.000Z",
+        "imported_at": "2026-11-25T00:16:18.413Z",
         "kind": "original"
       }
     ]

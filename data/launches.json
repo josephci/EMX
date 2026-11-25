@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-24T06:26:10.690Z",
+  "last_updated": "2026-11-25T02:12:19.126Z",
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-266",
       "net": "2026-11-24T16:08:59Z",
-      "status": "Go",
+      "status": "Success",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
     },
@@ -17,7 +17,7 @@
     },
     {
       "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-      "net": "2026-11-29T15:50:00Z",
+      "net": "2026-11-29T15:47:00Z",
       "status": "Go",
       "pad": "Space Launch Complex 40",
       "location": "Cape Canaveral SFS, FL, USA"
@@ -28,6 +28,13 @@
       "status": "TBC",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Amazon Leo (LF-04)",
+      "net": "2026-12-31T00:00:00Z",
+      "status": "TBD",
+      "pad": "Unknown Pad",
+      "location": "Cape Canaveral SFS, FL, USA"
     },
     {
       "name": "Falcon 9 Block 5 | CHORUS",
@@ -77,13 +84,6 @@
       "status": "TBD",
       "pad": "Space Launch Complex 4E",
       "location": "Vandenberg SFB, CA, USA"
-    },
-    {
-      "name": "Falcon 9 Block 5 | BlueBird 14-16 (Block 2 #9-11)",
-      "net": "2026-12-31T00:00:00Z",
-      "status": "TBD",
-      "pad": "Space Launch Complex 40",
-      "location": "Cape Canaveral SFS, FL, USA"
     }
   ]
 }
