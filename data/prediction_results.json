@@ -490,5 +490,17 @@
     "hit": 1,
     "leadH": 5.7,
     "scored": "2026-11-23T22:44:56.337Z"
+  },
+  {
+    "title": "Elon Musk # tweets November 23 - November 25, 2026?",
+    "settle": "2026-11-25T17:00:00Z",
+    "predBucket": "65-89",
+    "lo": 65,
+    "hi": 89,
+    "predMid": 65,
+    "actual": 77,
+    "hit": 1,
+    "leadH": 5.5,
+    "scored": "2026-11-25T20:39:44.597Z"
   }
 ]
