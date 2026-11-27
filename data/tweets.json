@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-26T21:43:51.008Z",
-  "total": 6961,
+  "last_updated": "2026-11-27T03:46:57.208Z",
+  "total": 6962,
   "by_date": {
     "2026-05-27": [
       {
@@ -48496,6 +48496,15 @@
         "text": "We’ve received FDA approval to launch LINK, the first pivotal trial for an implantable brain-computer interface in the US. This builds off of our work with 30+ participants with Neuralink to date.\n\nThose with ALS may be eligible. To learn more:\nhttps://neuralink.com/trials/device-control/ https://video.twimg.com/amplify_video/2125690361817214976/vid/avc1/1920x1080/o1XhTlDMWSZk78a4.mp4?tag=29",
         "created_at": "2026-11-26T03:39:40.000Z",
         "imported_at": "2026-11-26T03:51:23.463Z",
+        "kind": "original"
+      }
+    ],
+    "2026-11-27": [
+      {
+        "id": "cmwy8rarv0095js083m1yzkbq",
+        "text": "Vital that children have a stake in the future",
+        "created_at": "2026-11-27T00:26:21.000Z",
+        "imported_at": "2026-11-27T00:26:45.450Z",
         "kind": "original"
       }
     ]
