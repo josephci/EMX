@@ -1,7 +1,7 @@
 {
   "username": "elonmusk",
-  "last_updated": "2026-11-27T22:08:03.653Z",
-  "total": 6999,
+  "last_updated": "2026-11-28T04:00:23.638Z",
+  "total": 7021,
   "by_date": {
     "2026-05-27": [
       {
@@ -48501,6 +48501,55 @@
     ],
     "2026-11-27": [
       {
+        "id": "cmwzk1vbj00smla08euuj439d",
+        "text": "I've had Grok @Bot find the best Black Friday deals for me all day, and it's actually working really well. Already saved $445 on a few kitchen stools and $200 on a TV.\n\nHaving useful agents is really going to change the way we shop. https://pbs.twimg.com/media/HYKZAN3XkAAscMC.jpg",
+        "created_at": "2026-11-27T22:28:25.000Z",
+        "imported_at": "2026-11-27T22:30:40.590Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwzjim1i00kjla08qmkwtfo3",
+        "text": "🚨 FSD v15 Reality View in heavy rain.\nWindshield completely blurred, yet the visualization stays sharp. Cars, lanes, road markings, everything crystal clear.\nThis is what supervised autonomy looks like when weather turns bad.\nEurope has plenty of rainy days. Time to let more drivers use this.\n#FSD #Tesla\n https://x.com/TSLA_Bitcoin/status/2126229287481049332/video/1",
+        "created_at": "2026-11-27T22:15:01.000Z",
+        "imported_at": "2026-11-27T22:15:42.101Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwzjc6fm00hqla08ffxg9n03",
+        "text": "Give each Bot a specific job, just like people in a company",
+        "created_at": "2026-11-27T22:10:11.000Z",
+        "imported_at": "2026-11-27T22:10:41.926Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwzjc6fm00hrla0897ejt1j8",
+        "text": "This is the way",
+        "created_at": "2026-11-27T22:08:57.000Z",
+        "imported_at": "2026-11-27T22:10:41.926Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwzjc6fm00hsla0855lcd4d7",
+        "text": "Give Grok Bot your hardest problems",
+        "created_at": "2026-11-27T22:08:23.000Z",
+        "imported_at": "2026-11-27T22:10:41.926Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwzjc8z700isla08cc2ct8mb",
+        "text": "My dad works at a steel fabrication company in Slovenia. \n\nEvery order starts as a PDF of technical drawings, and someone has to type every dimension and part table into Excel to work out how much steel to buy.\n\nEstimators often spend about an hour per drawing sheet on that.\n\nThis week they set up @bot in about an hour. Now they drop in the PDF and the spreadsheet with all the calculations comes out.",
+        "created_at": "2026-11-27T22:07:54.000Z",
+        "imported_at": "2026-11-27T22:10:45.225Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwzjc8z700itla08xwhym4t1",
+        "text": "Thank God Grokbot can reply to hundreds of happy thanksgiving texts.",
+        "created_at": "2026-11-27T22:06:21.000Z",
+        "imported_at": "2026-11-27T22:10:45.225Z",
+        "kind": "original"
+      },
+      {
         "id": "cmwzissi400c8la08zyr19yzu",
         "text": "Elon Musk on how to get the most out of Grok Bots: organize them like a real company\n\nCreate multiple Grok Bots with specialized roles, such as coding, data analysis, financial management, expense tracking, email management, travel planning and daily operations, with a manager bot overseeing and coordinating their work\n\nJust like a human employee, overloading a single bot with too many responsibilities leads to tasks being missed\n\nThe same principles of specialization, delegation and management that make human companies efficient also apply to autonomous SI agents\n\nYou’re essentially building your own digital workforce with Grok Bots",
         "created_at": "2026-11-27T21:52:36.000Z",
@@ -48764,6 +48813,113 @@
         "text": "Vital that children have a stake in the future",
         "created_at": "2026-11-27T00:26:21.000Z",
         "imported_at": "2026-11-27T00:26:45.450Z",
+        "kind": "original"
+      }
+    ],
+    "2026-11-28": [
+      {
+        "id": "cmwzul8c701g0ii07z5fhboth",
+        "text": "Prosperity, education, and urbanization are the stronger drivers. Global data show low-income countries averaging ~4.5 children per woman versus ~1.5 in high-income ones. Within rich countries costs (housing, childcare) do constrain lower-income people and widen the gap between desired and actual births, but the historical collapse tracks development itself, not poverty. Even non-wealthy groups in developed places face high opportunity costs and cultural shifts that poorer societies do not.",
+        "created_at": "2026-11-28T03:24:03.000Z",
+        "imported_at": "2026-11-28T03:25:40.082Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwzsza6o00viii07knkg6pc5",
+        "text": "❤️",
+        "created_at": "2026-11-28T02:37:39.000Z",
+        "imported_at": "2026-11-28T02:40:36.429Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwzs9m4l00oiii07uh006k4r",
+        "text": "can confirm. our yc startup's marketing literally runs on grok bot.\n\n3 ultra accounts, rotated all week. it helped us:\n- hit 1.4m views on our launch video in 72hrs\n- cross $70k on kickstarter in 7 days\n- run meta ads & create 800+ ads\n- handle a 1,000+ kickstarter waitlist\n- find our first 10 customers on X",
+        "created_at": "2026-11-28T02:19:43.000Z",
+        "imported_at": "2026-11-28T02:20:38.843Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwzrdgod00bkii07vqq0t4s1",
+        "text": "Even in modern times, prosperity generally is correlated with lower fertility rate \n\nThis is a very bad thing for civilization https://pbs.twimg.com/media/HYLQZ9RaQAAtd7R.jpg",
+        "created_at": "2026-11-28T01:55:20.000Z",
+        "imported_at": "2026-11-28T01:55:38.791Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwzr0qrr008mii07xc4eozch",
+        "text": "At the 1976 Summer Olympics in Montreal, reporters asked East German swimming coaches why their teenage female athletes suddenly had deep baritone voices and massive, heavily muscled shoulders.\n\nThe coaches laughed. They told the press they were in Montreal to swim, not to sing.\n\nNewspapers printed the joke and moved on. When an American swimmer pointed out the obvious, that something in the pool wasn't right, sportswriters across the United States turned on her instead.\n\nHer name was Shirley Babashoff.\n\nShe was nineteen years old, from Fountain Valley, California, and she had spent more than half her life preparing for that pool. Since the age of eight, she had trained under coach Mark Schubert at the Mission Viejo Nadadores club, waking up in the dark to swim ten thousand meters a day before and after high school.\n\nAt the 1972 Munich Games, she had won Olympic gold at fifteen. By 1976, holding multiple national records, she arrived in Montreal as the anchor of the American women's team.\n\nOnce the races began, the East German women dismantled every expectation in the aquatic center. They won eleven of the thirteen swimming gold medals and shattered world records in nearly every event.\n\nShirley swam the races of her life. She broke her own American records and walked away with four silver medals, posting times that would have guaranteed gold in almost any other era.\n\nThe American press expected her to smile on the podium and graciously congratulate the swimmers who beat her.\n\nShirley refused to play along. She stated plainly what everyone in the building could see: her competitors had developed deep voices and physiques unlike anything ever seen in women's swimming.\n\nShe wasn't media-trained, and she didn't hide her frustration when reporters pushed leading questions. She gave blunt answers and flatly refused to fake a smile for the cameras when she felt cheated on the world stage.\n\nAt the time, the International Olympic Committee had no reliable test to detect anabolic steroids, and Cold War politics prioritized keeping up the appearance of fair play. The United States Olympic Committee offered Shirley zero public defense.\n\nAmerican sportswriters found it far easier to attack an outspoken nineteen-year-old than to investigate an international sports machine. Columns across the country dubbed her \"Surly Shirley,\" branding her a bitter runner-up and an embarrassment to American sportsmanship.\n\nOn the final day of the swimming events in Montreal, Shirley stepped onto the starting blocks for the 4×100-meter freestyle relay.\n\nHer teammates, Kim Peyton, Wendy Boglioli, and Jill Sterkel, kept the race tight. When Shirley dove in for the anchor leg, she was swimming head-to-head against Kornelia Ender, the East German star who had already claimed four gold medals.\n\nShirley swam her leg in 55.48 seconds. The American women hit the wall in 3:44.82, beating East Germany by less than a second to win the gold medal.\n\nIt was the only women's swimming race the East Germans lost in the entire 1976 Olympics.\n\nEven that victory couldn't shake the label the press had pinned on her. Shirley retired shortly after Montreal at nineteen years old, remembered by much of the public simply as the swimmer who complained.\n\nThen, in 1989, the Berlin Wall fell.\n\nIn the early 1990s, the newly unified German government opened the archives of the Stasi, East Germany's secret police. Inside those files was a classified government directive called State Plan 14.25, a state-sponsored doping program engineered to prove communist superiority through Olympic medals.\n\nThe records laid out the exact milligrams of synthetic testosterone given to teenage girls. Doctors had handed thirteen- and fourteen-year-old swimmers little blue pills in locker rooms and at training tables, telling them they were vitamins. The pills were Oral-Turinabol, a potent anabolic steroid, administered in doses higher than those given to adult male weightlifters.\n\nIn the late 1990s, the doctors, coaches, and officials behind the program were put on trial in Berlin. Former East German athletes testified in court about failing livers, heart conditions, and severe birth defects in their children, victims of their own government.\n\nEvery allegation Shirley Babashoff had made in 1976 was proven as documented fact.\n\nStill, the International Olympic Committee never changed the official record books, and the medals were never redistributed. Shirley went home to California, where she spent more than thirty years delivering mail for the United States Postal Service.\nThe 1976 times still stand.\n\nShe was asked to lose gracefully to a lie, and she chose to tell the truth even when her own country called her bitter for it. Why is it so often easier for people to punish the person pointing out an obvious unfairness than to confront the system behind it?",
+        "created_at": "2026-11-28T01:44:13.000Z",
+        "imported_at": "2026-11-28T01:45:45.345Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwzr0oni007kii07j4to7meu",
+        "text": "Super intelligent AI eliminates any company’s software advantage",
+        "created_at": "2026-11-28T01:40:44.000Z",
+        "imported_at": "2026-11-28T01:45:42.601Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwzqu7hw001rii07xb0gopoj",
+        "text": "Yes",
+        "created_at": "2026-11-28T01:38:05.000Z",
+        "imported_at": "2026-11-28T01:40:40.427Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwzqnqiq0001ii073ohie1ex",
+        "text": "Yup",
+        "created_at": "2026-11-28T01:34:19.000Z",
+        "imported_at": "2026-11-28T01:35:38.490Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwzq4g1b011xl808galbdr3j",
+        "text": "Birth rate collapse in civilizations throughout history occurs whenever there is a long period of prosperity and no serious external threats. \n\nRome had a very high birth rate during existential wars with Carthage and then very low after they had destroyed all external threats and had several generations of prosperity.",
+        "created_at": "2026-11-28T01:17:14.000Z",
+        "imported_at": "2026-11-28T01:20:38.439Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwzpy2jm010pl8083if3hyb7",
+        "text": "Women in Afghanistan no longer have the right to have a name.\n\nThe UN? Silent.\n\nThe media? Silent.\n\nAmnesty International? Silent.\n\nMehdi Hasan? Silent.\n\nMs. Rachel? Silent.",
+        "created_at": "2026-11-28T01:12:35.000Z",
+        "imported_at": "2026-11-28T01:15:41.016Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwzpy2jm010ql80829yt2vil",
+        "text": "Wanna Race?  \n\nVegas Loop versus Surface Drive along Paradise Road in Las Vegas\n\nThird part of the “Wanna Race Trilogy” https://video.twimg.com/amplify_video/2126388377855397889/vid/avc1/1280x720/clDmrumFGpEMGk1C.mp4?tag=29",
+        "created_at": "2026-11-28T01:10:54.000Z",
+        "imported_at": "2026-11-28T01:15:41.016Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwzp8bw300rhl808wam9rllw",
+        "text": "My photo of Starship in @TIME 😍 https://pbs.twimg.com/media/HYK9v_RbQAA71AC.jpg",
+        "created_at": "2026-11-28T00:54:25.000Z",
+        "imported_at": "2026-11-28T00:55:40.072Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwzp89xl00qfl808h5l2o74d",
+        "text": "Extremely troubling",
+        "created_at": "2026-11-28T00:54:09.000Z",
+        "imported_at": "2026-11-28T00:55:37.537Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwzp8bw300ril8089qpjz3cx",
+        "text": "Disgusting.",
+        "created_at": "2026-11-28T00:52:58.000Z",
+        "imported_at": "2026-11-28T00:55:40.072Z",
+        "kind": "original"
+      },
+      {
+        "id": "cmwzp1weh00p7l80874lufy2q",
+        "text": "Grok fairs quite well in \"high level understanding\" like Gemini Neon. Here's Grok's explaination of Lean's Prop/Type separation, whereas ChatGPT and Claude get lost talking about impredicativity: https://pbs.twimg.com/media/HYLAcUMWAAAq064.png",
+        "created_at": "2026-11-28T00:46:57.000Z",
+        "imported_at": "2026-11-28T00:50:40.066Z",
         "kind": "original"
       }
     ]
